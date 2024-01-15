@@ -12,13 +12,12 @@ struct SwiftUIView4: View {
         didSet {
             // Проверяем, что scrollPosition.y меньше или равен 0
             guard scrollPosition.y <= 0 else {
-                return print("1")
+                return
             }
             
             // Проверяем, что scrollPosition.y увеличилось
             if oldValue.y < scrollPosition.y {
                 if !isScrollingDown {
-                    print("scrollPosition didSet: \(oldValue.y) -> \(scrollPosition.y)")
                     withAnimation(.spring()) {
                         isScrollingDown = true
                     }
@@ -29,7 +28,6 @@ struct SwiftUIView4: View {
         willSet(newValue) {
             // Сравнение старого и нового значения в willSet
             if newValue.y < scrollPosition.y {
-                print("scrollPosition willSet: \(scrollPosition.y) -> \(newValue.y)")
                 withAnimation(.spring()) {
                     isScrollingDown = false
                 }
@@ -56,18 +54,12 @@ struct SwiftUIView4: View {
                         .padding()
                         .background(.blue)
                         .offset(y: calculateOffset(scrollPosition))
-                    
-                    //  .opacity(effect(scrollPosition))
-                    //.scaleEffect(!isScrollingDown ? 1 : 0.75)
-                    //  .blur(radius: !isScrollingDown ? 0 : 10)
-                    
-                    
+                        .opacity(isScrollingDown ? 1 : effect(scrollPosition))
                     Text("header")
                         .padding(.horizontal, 150)
                         .background(.brown)
                 }
                 .padding(.top, 10)
-                
                 VStack {
                     ScrollView {
                         VStack {
@@ -94,7 +86,7 @@ struct SwiftUIView4: View {
             }
         }
     }
-
+    
     private func calculateOffset(_ scrollPosition: CGPoint) -> CGFloat {
         if isScrollingDown || scrollPosition.y >= 0.0 {
             return 0.0
@@ -102,16 +94,18 @@ struct SwiftUIView4: View {
             return scrollPosition.y
         }
     }
-
+    
     private func effect(_ scrollPosition: CGPoint) -> CGFloat {
-        guard scrollPosition.y >= 0 else {
-            return 1
+        guard scrollPosition.y <= 0 || !isScrollingDown else {
+            return 0.0
         }
         
-        return scrollPosition.y + 1
+        let invertedValue = 1.0 - abs(Double(scrollPosition.y)) / 100.0
+        print(max(0.0, min(invertedValue, 1.0)))
+        
+        return max(0.0, min(invertedValue, 1.0))
     }
 }
-
 
 struct ScrollOffsetPreferenceKey4: PreferenceKey {
     static var defaultValue: CGPoint = .zero

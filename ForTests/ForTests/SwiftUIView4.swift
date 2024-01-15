@@ -18,7 +18,7 @@ struct SwiftUIView4: View {
             // Проверяем, что scrollPosition.y увеличилось
             if oldValue.y < scrollPosition.y {
                 if !isScrollingDown {
-                    withAnimation(.spring()) {
+                    withAnimation(.spring().delay(0.3)) {
                         isScrollingDown = true
                     }
                 }
@@ -28,7 +28,7 @@ struct SwiftUIView4: View {
         willSet(newValue) {
             // Сравнение старого и нового значения в willSet
             if newValue.y < scrollPosition.y {
-                withAnimation(.spring()) {
+                withAnimation(.spring().delay(0.3)) {
                     isScrollingDown = false
                 }
             }
@@ -54,7 +54,7 @@ struct SwiftUIView4: View {
                         .padding()
                         .background(.blue)
                         .offset(y: calculateOffset(scrollPosition))
-                        .opacity(isScrollingDown ? 1 : effect(scrollPosition))
+                       // .opacity(isScrollingDown ? 1 : effect(scrollPosition))
                     Text("header")
                         .padding(.horizontal, 150)
                         .background(.brown)

@@ -40,7 +40,6 @@ struct SwiftUIView4: View {
     
     @State private var isScrollingDown: Bool = false
     
-    
     init() {
         // Изменение цвета фона навигационного бара
         let appearance = UINavigationBarAppearance()
@@ -52,30 +51,29 @@ struct SwiftUIView4: View {
     var body: some View {
         NavigationView {
             ZStack(alignment: .top) {
-                Text("LogoPanel")
-                    .padding()
-                    .background(.blue)
-                    .offset(y: calculateOffset(scrollPosition))
-                
-                //  .opacity(effect(scrollPosition))
-                //.scaleEffect(!isScrollingDown ? 1 : 0.75)
-                //  .blur(radius: !isScrollingDown ? 0 : 10)
-                
-                    .padding(.top, 10)
-                
+                VStack {
+                    Text("LogoPanel")
+                        .padding()
+                        .background(.blue)
+                        .offset(y: calculateOffset(scrollPosition))
+                    
+                    //  .opacity(effect(scrollPosition))
+                    //.scaleEffect(!isScrollingDown ? 1 : 0.75)
+                    //  .blur(radius: !isScrollingDown ? 0 : 10)
+                    
+                    
+                    Text("header")
+                        .padding(.horizontal, 150)
+                        .background(.brown)
+                }
+                .padding(.top, 10)
                 
                 VStack {
                     ScrollView {
-                        LazyVStack(spacing: .zero, pinnedViews: [.sectionHeaders]) {
-                            Section {
-                                ForEach(1...100, id: \.self) {
-                                    Divider().background(Color.red)
-                                    Text("\($0)").frame(maxWidth: .infinity)
-                                }
-                            } header: {
-                                Text("header")
-                                    .padding(.horizontal, 150)
-                                    .background(.brown)
+                        VStack {
+                            ForEach(1...100, id: \.self) {
+                                Divider().background(Color.red)
+                                Text("\($0)").frame(maxWidth: .infinity)
                             }
                         }
                         .background(GeometryReader { geometry in
@@ -90,30 +88,28 @@ struct SwiftUIView4: View {
                     .navigationTitle("Scroll offset: \(scrollPosition.y)")
                     
                 }
-                .padding(.top, 70)
+                .padding(.top, 120)
                 .navigationBarTitleDisplayMode(.inline)
                 
             }
         }
     }
+
     private func calculateOffset(_ scrollPosition: CGPoint) -> CGFloat {
-        if isScrollingDown {
+        if isScrollingDown || scrollPosition.y >= 0.0 {
             return 0.0
         } else {
             return scrollPosition.y
         }
     }
-    
+
     private func effect(_ scrollPosition: CGPoint) -> CGFloat {
         guard scrollPosition.y >= 0 else {
             return 1
         }
         
         return scrollPosition.y + 1
-        
-        
     }
-    
 }
 
 

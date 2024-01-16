@@ -8,17 +8,15 @@
 import SwiftUI
 
 struct SwiftUIView4: View {
-    @State private var scrollPosition: CGPoint = .zero {
+    @State private var scrollPosition: CGFloat = .zero {
         didSet {
-            print("didSet: Old Value: \(Int(oldValue.y)), New Value: \(Int(scrollPosition.y))")
-            
             // Проверяем, что scrollPosition.y меньше или равен 0
-            guard scrollPosition.y <= 0 else {
+            guard scrollPosition <= 0 else {
                 return
             }
             
             // Проверяем, что scrollPosition.y увеличилось
-            if oldValue.y < scrollPosition.y {
+            if oldValue < scrollPosition {
                 if !isScrollingDown {
                     isScrollingDown = true
                 }
@@ -26,13 +24,11 @@ struct SwiftUIView4: View {
         }
         
         willSet(newValue) {
-            print("willSet: Current Value: \(Int(scrollPosition.y)), New Value: \(Int(newValue.y))")
             // Сравнение старого и нового значения в willSet
-            if newValue.y < scrollPosition.y {
+            if newValue < scrollPosition {
                 isScrollingDown = false
             }
         }
-        
     }
     
     @State private var isScrollingDown: Bool = false
@@ -61,7 +57,7 @@ struct SwiftUIView4: View {
                 VStack {
                     ScrollView {
                         VStack {
-                            ForEach(1...100, id: \.self) {
+                            ForEach(1...30, id: \.self) {
                                 Divider().background(Color.red)
                                 Text("\($0)").frame(maxWidth: .infinity)
                             }
@@ -71,11 +67,11 @@ struct SwiftUIView4: View {
                                 .preference(key: ScrollOffsetPreferenceKey4.self, value: geometry.frame(in: .named("scroll")).origin)
                         })
                         .onPreferenceChange(ScrollOffsetPreferenceKey4.self) { value in
-                            self.scrollPosition = value
+                            self.scrollPosition = value.y
                         }
                     }
                     .coordinateSpace(name: "scroll")
-                    .navigationTitle("Scroll offset: \(scrollPosition.y)")
+                    .navigationTitle("Scroll offset: \(scrollPosition)")
                     
                 }
                 .padding(.top, 120)
@@ -85,19 +81,22 @@ struct SwiftUIView4: View {
         }
     }
     
-    private func calculateOffset(_ scrollPosition: CGPoint) -> CGFloat {
-        //        if isScrollingDown || scrollPosition.y >= 0.1 {
-        //            print("aaaaa")
-        //            return 0.0
-        //        } else {
-        //            print("bbbb")
-        //  return scrollPosition.y
-        //   }
-        
-        if scrollPosition.y >= 0.1 {
+    private func calculateOffset(_ scrollPosition: CGFloat) -> CGFloat {
+        if scrollPosition >= 0.1 {
+            print("aaa")
             return 0.0
         } else {
-            return scrollPosition.y
+            if isScrollingDown {
+                let adjustedOffset = max(-60, scrollPosition)
+                print("isScrollingDown \(adjustedOffset)")
+                print("isScrollingDown2 \(scrollPosition)")
+                return adjustedOffset
+            } else {
+                let adjustedOffset = max(-60, scrollPosition + 1)
+                print("isScrollingUp \(adjustedOffset)")
+                print("isScrollingUp2 \(abs(Double(scrollPosition)) / 100.0)")
+                return adjustedOffset
+            }
         }
     }
 }

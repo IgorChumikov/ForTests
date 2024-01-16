@@ -71,9 +71,9 @@
 				AC72FA732B51503A009E60AB /* SwiftUIView.swift */,
 				AC72FA752B515968009E60AB /* SwiftUIView2.swift */,
 				AC72FA772B5170EA009E60AB /* SwiftUIView3.swift */,
-				AC941F7C2B552D800092C9D6 /* SwiftUIView4.swift */,
 				AC941F7E2B5533C50092C9D6 /* SwiftUIView5.swift */,
 				AC941F802B5536680092C9D6 /* SwiftUIView5555.swift */,
+				ACDFF39B2B570F08000A6AAA /* work */,
 				AC72FA672B513E2E009E60AB /* Assets.xcassets */,
 				AC72FA692B513E2E009E60AB /* Preview Content */,
 			);
@@ -86,6 +86,14 @@
 				AC72FA6A2B513E2E009E60AB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACDFF39B2B570F08000A6AAA /* work */ = {
+			isa = PBXGroup;
+			children = (
+				AC941F7C2B552D800092C9D6 /* SwiftUIView4.swift */,
+			);
+			path = work;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

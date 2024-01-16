@@ -19,6 +19,7 @@
 		AC941F7F2B5533C50092C9D6 /* SwiftUIView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC941F7E2B5533C50092C9D6 /* SwiftUIView5.swift */; };
 		AC941F812B5536680092C9D6 /* SwiftUIView5555.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC941F802B5536680092C9D6 /* SwiftUIView5555.swift */; };
 		ACDFF39F2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDFF39E2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift */; };
+		ACDFF3A32B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDFF3A22B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		AC941F7E2B5533C50092C9D6 /* SwiftUIView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView5.swift; sourceTree = "<group>"; };
 		AC941F802B5536680092C9D6 /* SwiftUIView5555.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView5555.swift; sourceTree = "<group>"; };
 		ACDFF39E2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackoverflowSwiftUIView.swift; sourceTree = "<group>"; };
+		ACDFF3A22B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackoverflowSwiftUIView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				ACDFF39E2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift */,
+				ACDFF3A22B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift */,
 			);
 			path = Stackoverflow;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				AC72FA662B513E2C009E60AB /* ContentView.swift in Sources */,
 				AC72FA782B5170EA009E60AB /* SwiftUIView3.swift in Sources */,
 				AC72FA762B515968009E60AB /* SwiftUIView2.swift in Sources */,
+				ACDFF3A32B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift in Sources */,
 				AC72FA742B51503A009E60AB /* SwiftUIView.swift in Sources */,
 				AC941F812B5536680092C9D6 /* SwiftUIView5555.swift in Sources */,
 				AC72FA642B513E2C009E60AB /* ForTestsApp.swift in Sources */,

@@ -10,6 +10,8 @@ import SwiftUI
 struct SwiftUIView4: View {
     @State private var scrollPosition: CGPoint = .zero {
         didSet {
+            print("didSet: Old Value: \(Int(oldValue.y)), New Value: \(Int(scrollPosition.y))")
+            
             // Проверяем, что scrollPosition.y меньше или равен 0
             guard scrollPosition.y <= 0 else {
                 return
@@ -18,19 +20,16 @@ struct SwiftUIView4: View {
             // Проверяем, что scrollPosition.y увеличилось
             if oldValue.y < scrollPosition.y {
                 if !isScrollingDown {
-                    withAnimation(.spring().delay(0.3)) {
-                        isScrollingDown = true
-                    }
+                    isScrollingDown = true
                 }
             }
         }
         
         willSet(newValue) {
+            print("willSet: Current Value: \(Int(scrollPosition.y)), New Value: \(Int(newValue.y))")
             // Сравнение старого и нового значения в willSet
             if newValue.y < scrollPosition.y {
-                withAnimation(.spring().delay(0.3)) {
-                    isScrollingDown = false
-                }
+                isScrollingDown = false
             }
         }
         
@@ -54,7 +53,6 @@ struct SwiftUIView4: View {
                         .padding()
                         .background(.blue)
                         .offset(y: calculateOffset(scrollPosition))
-                       // .opacity(isScrollingDown ? 1 : effect(scrollPosition))
                     Text("header")
                         .padding(.horizontal, 150)
                         .background(.brown)
@@ -88,22 +86,19 @@ struct SwiftUIView4: View {
     }
     
     private func calculateOffset(_ scrollPosition: CGPoint) -> CGFloat {
-        if isScrollingDown || scrollPosition.y >= 0.0 {
+        //        if isScrollingDown || scrollPosition.y >= 0.1 {
+        //            print("aaaaa")
+        //            return 0.0
+        //        } else {
+        //            print("bbbb")
+        //  return scrollPosition.y
+        //   }
+        
+        if scrollPosition.y >= 0.1 {
             return 0.0
         } else {
             return scrollPosition.y
         }
-    }
-    
-    private func effect(_ scrollPosition: CGPoint) -> CGFloat {
-        guard scrollPosition.y <= 0 || !isScrollingDown else {
-            return 0.0
-        }
-        
-        let invertedValue = 1.0 - abs(Double(scrollPosition.y)) / 100.0
-        print(max(0.0, min(invertedValue, 1.0)))
-        
-        return max(0.0, min(invertedValue, 1.0))
     }
 }
 

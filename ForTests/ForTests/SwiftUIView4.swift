@@ -10,33 +10,19 @@ import SwiftUI
 struct SwiftUIView4: View {
     @State private var scrollPosition: CGFloat = .zero {
         didSet {
-            // Проверяем, что scrollPosition.y меньше или равен 0
-            guard scrollPosition <= 0 else {
-                return
-            }
-            
-            // Проверяем, что scrollPosition.y увеличилось
-            if oldValue < scrollPosition {
-                if !isScrollingDown {
-                    isScrollingDown = true
-                }
-            }
-        }
-        
-        willSet(newValue) {
-            // Сравнение старого и нового значения в willSet
-            if newValue < scrollPosition {
-                isScrollingDown = false
-            }
+            // Разница между старым и новым значением
+            let difference = scrollPosition - oldValue
+           // print("didSet: \(scrollPosition), разница: \(difference)")
         }
     }
     
     @State private var isScrollingDown: Bool = false
     
+    @State private var gaga: CGFloat = -60
+    
     init() {
-        // Изменение цвета фона навигационного бара
         let appearance = UINavigationBarAppearance()
-        appearance.backgroundColor = .red // Замените .yourDesiredColor на цвет вашего выбора
+        appearance.backgroundColor = .red
         UINavigationBar.appearance().standardAppearance = appearance
         UINavigationBar.appearance().scrollEdgeAppearance = appearance
     }
@@ -85,18 +71,12 @@ struct SwiftUIView4: View {
         if scrollPosition >= 0.1 {
             print("aaa")
             return 0.0
+        } else if scrollPosition <= -60 {
+            print("bbb")
+            return gaga
         } else {
-            if isScrollingDown {
-                let adjustedOffset = max(-60, scrollPosition)
-                print("isScrollingDown \(adjustedOffset)")
-                print("isScrollingDown2 \(abs(Double(scrollPosition)) / 100)")
-                return adjustedOffset
-            } else {
-                let adjustedOffset = max(-60, scrollPosition)
-                print("isScrollingUp \(adjustedOffset)")
-                print("isScrollingUp2 \(abs(Double(scrollPosition)) / 100)")
-                return adjustedOffset
-            }
+            print("ccc")
+            return scrollPosition
         }
     }
 }

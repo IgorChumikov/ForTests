@@ -18,6 +18,7 @@
 		AC941F7D2B552D800092C9D6 /* SwiftUIView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC941F7C2B552D800092C9D6 /* SwiftUIView4.swift */; };
 		AC941F7F2B5533C50092C9D6 /* SwiftUIView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC941F7E2B5533C50092C9D6 /* SwiftUIView5.swift */; };
 		AC941F812B5536680092C9D6 /* SwiftUIView5555.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC941F802B5536680092C9D6 /* SwiftUIView5555.swift */; };
+		ACDFF39F2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDFF39E2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		AC941F7C2B552D800092C9D6 /* SwiftUIView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView4.swift; sourceTree = "<group>"; };
 		AC941F7E2B5533C50092C9D6 /* SwiftUIView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView5.swift; sourceTree = "<group>"; };
 		AC941F802B5536680092C9D6 /* SwiftUIView5555.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView5555.swift; sourceTree = "<group>"; };
+		ACDFF39E2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackoverflowSwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				AC72FA632B513E2C009E60AB /* ForTestsApp.swift */,
 				ACDFF39C2B570F3C000A6AAA /* Delete */,
 				ACDFF39B2B570F08000A6AAA /* Work */,
+				ACDFF39D2B570F6C000A6AAA /* Stackoverflow */,
 				AC72FA672B513E2E009E60AB /* Assets.xcassets */,
 				AC72FA692B513E2E009E60AB /* Preview Content */,
 			);
@@ -102,6 +105,14 @@
 				AC941F802B5536680092C9D6 /* SwiftUIView5555.swift */,
 			);
 			path = Delete;
+			sourceTree = "<group>";
+		};
+		ACDFF39D2B570F6C000A6AAA /* Stackoverflow */ = {
+			isa = PBXGroup;
+			children = (
+				ACDFF39E2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift */,
+			);
+			path = Stackoverflow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +188,7 @@
 				AC941F7F2B5533C50092C9D6 /* SwiftUIView5.swift in Sources */,
 				AC941F7D2B552D800092C9D6 /* SwiftUIView4.swift in Sources */,
 				AC72FA722B514656009E60AB /* ContentView2.swift in Sources */,
+				ACDFF39F2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift in Sources */,
 				AC72FA662B513E2C009E60AB /* ContentView.swift in Sources */,
 				AC72FA782B5170EA009E60AB /* SwiftUIView3.swift in Sources */,
 				AC72FA762B515968009E60AB /* SwiftUIView2.swift in Sources */,

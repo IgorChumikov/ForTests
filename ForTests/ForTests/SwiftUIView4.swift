@@ -89,12 +89,12 @@ struct SwiftUIView4: View {
             if isScrollingDown {
                 let adjustedOffset = max(-60, scrollPosition)
                 print("isScrollingDown \(adjustedOffset)")
-                print("isScrollingDown2 \(scrollPosition)")
+                print("isScrollingDown2 \(abs(Double(scrollPosition)) / 100)")
                 return adjustedOffset
             } else {
-                let adjustedOffset = max(-60, scrollPosition + 1)
+                let adjustedOffset = max(-60, scrollPosition)
                 print("isScrollingUp \(adjustedOffset)")
-                print("isScrollingUp2 \(abs(Double(scrollPosition)) / 100.0)")
+                print("isScrollingUp2 \(abs(Double(scrollPosition)) / 100)")
                 return adjustedOffset
             }
         }

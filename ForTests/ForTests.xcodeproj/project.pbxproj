@@ -66,14 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				AC72FA632B513E2C009E60AB /* ForTestsApp.swift */,
-				AC72FA652B513E2C009E60AB /* ContentView.swift */,
-				AC72FA712B514656009E60AB /* ContentView2.swift */,
-				AC72FA732B51503A009E60AB /* SwiftUIView.swift */,
-				AC72FA752B515968009E60AB /* SwiftUIView2.swift */,
-				AC72FA772B5170EA009E60AB /* SwiftUIView3.swift */,
-				AC941F7E2B5533C50092C9D6 /* SwiftUIView5.swift */,
-				AC941F802B5536680092C9D6 /* SwiftUIView5555.swift */,
-				ACDFF39B2B570F08000A6AAA /* work */,
+				ACDFF39C2B570F3C000A6AAA /* Delete */,
+				ACDFF39B2B570F08000A6AAA /* Work */,
 				AC72FA672B513E2E009E60AB /* Assets.xcassets */,
 				AC72FA692B513E2E009E60AB /* Preview Content */,
 			);
@@ -88,12 +82,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		ACDFF39B2B570F08000A6AAA /* work */ = {
+		ACDFF39B2B570F08000A6AAA /* Work */ = {
 			isa = PBXGroup;
 			children = (
 				AC941F7C2B552D800092C9D6 /* SwiftUIView4.swift */,
 			);
-			path = work;
+			path = Work;
+			sourceTree = "<group>";
+		};
+		ACDFF39C2B570F3C000A6AAA /* Delete */ = {
+			isa = PBXGroup;
+			children = (
+				AC72FA652B513E2C009E60AB /* ContentView.swift */,
+				AC72FA712B514656009E60AB /* ContentView2.swift */,
+				AC72FA732B51503A009E60AB /* SwiftUIView.swift */,
+				AC72FA752B515968009E60AB /* SwiftUIView2.swift */,
+				AC72FA772B5170EA009E60AB /* SwiftUIView3.swift */,
+				AC941F7E2B5533C50092C9D6 /* SwiftUIView5.swift */,
+				AC941F802B5536680092C9D6 /* SwiftUIView5555.swift */,
+			);
+			path = Delete;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

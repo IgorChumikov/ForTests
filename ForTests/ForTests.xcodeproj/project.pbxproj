@@ -15,6 +15,9 @@
 		AC72FA742B51503A009E60AB /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC72FA732B51503A009E60AB /* SwiftUIView.swift */; };
 		AC72FA762B515968009E60AB /* SwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC72FA752B515968009E60AB /* SwiftUIView2.swift */; };
 		AC72FA782B5170EA009E60AB /* SwiftUIView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC72FA772B5170EA009E60AB /* SwiftUIView3.swift */; };
+		AC82964B2B5E583F008383B0 /* PinnedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8296482B5E583F008383B0 /* PinnedUIView.swift */; };
+		AC82964C2B5E583F008383B0 /* ScrollDirectionCustomGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8296492B5E583F008383B0 /* ScrollDirectionCustomGesture.swift */; };
+		AC82964D2B5E583F008383B0 /* ScrollDirectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC82964A2B5E583F008383B0 /* ScrollDirectionView.swift */; };
 		AC941F7D2B552D800092C9D6 /* SwiftUIView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC941F7C2B552D800092C9D6 /* SwiftUIView4.swift */; };
 		AC941F7F2B5533C50092C9D6 /* SwiftUIView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC941F7E2B5533C50092C9D6 /* SwiftUIView5.swift */; };
 		AC941F812B5536680092C9D6 /* SwiftUIView5555.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC941F802B5536680092C9D6 /* SwiftUIView5555.swift */; };
@@ -32,6 +35,9 @@
 		AC72FA732B51503A009E60AB /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		AC72FA752B515968009E60AB /* SwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView2.swift; sourceTree = "<group>"; };
 		AC72FA772B5170EA009E60AB /* SwiftUIView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView3.swift; sourceTree = "<group>"; };
+		AC8296482B5E583F008383B0 /* PinnedUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinnedUIView.swift; sourceTree = "<group>"; };
+		AC8296492B5E583F008383B0 /* ScrollDirectionCustomGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollDirectionCustomGesture.swift; sourceTree = "<group>"; };
+		AC82964A2B5E583F008383B0 /* ScrollDirectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollDirectionView.swift; sourceTree = "<group>"; };
 		AC941F7C2B552D800092C9D6 /* SwiftUIView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView4.swift; sourceTree = "<group>"; };
 		AC941F7E2B5533C50092C9D6 /* SwiftUIView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView5.swift; sourceTree = "<group>"; };
 		AC941F802B5536680092C9D6 /* SwiftUIView5555.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView5555.swift; sourceTree = "<group>"; };
@@ -70,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				AC72FA632B513E2C009E60AB /* ForTestsApp.swift */,
+				AC8296472B5E57D5008383B0 /* Nata */,
 				ACDFF39C2B570F3C000A6AAA /* Delete */,
 				ACDFF39B2B570F08000A6AAA /* Work */,
 				ACDFF39D2B570F6C000A6AAA /* Stackoverflow */,
@@ -85,6 +92,16 @@
 				AC72FA6A2B513E2E009E60AB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC8296472B5E57D5008383B0 /* Nata */ = {
+			isa = PBXGroup;
+			children = (
+				AC8296482B5E583F008383B0 /* PinnedUIView.swift */,
+				AC82964A2B5E583F008383B0 /* ScrollDirectionView.swift */,
+				AC8296492B5E583F008383B0 /* ScrollDirectionCustomGesture.swift */,
+			);
+			path = Nata;
 			sourceTree = "<group>";
 		};
 		ACDFF39B2B570F08000A6AAA /* Work */ = {
@@ -188,9 +205,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC82964B2B5E583F008383B0 /* PinnedUIView.swift in Sources */,
 				AC941F7F2B5533C50092C9D6 /* SwiftUIView5.swift in Sources */,
 				AC941F7D2B552D800092C9D6 /* SwiftUIView4.swift in Sources */,
 				AC72FA722B514656009E60AB /* ContentView2.swift in Sources */,
+				AC82964C2B5E583F008383B0 /* ScrollDirectionCustomGesture.swift in Sources */,
 				ACDFF39F2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift in Sources */,
 				AC72FA662B513E2C009E60AB /* ContentView.swift in Sources */,
 				AC72FA782B5170EA009E60AB /* SwiftUIView3.swift in Sources */,
@@ -199,6 +218,7 @@
 				AC72FA742B51503A009E60AB /* SwiftUIView.swift in Sources */,
 				AC941F812B5536680092C9D6 /* SwiftUIView5555.swift in Sources */,
 				AC72FA642B513E2C009E60AB /* ForTestsApp.swift in Sources */,
+				AC82964D2B5E583F008383B0 /* ScrollDirectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

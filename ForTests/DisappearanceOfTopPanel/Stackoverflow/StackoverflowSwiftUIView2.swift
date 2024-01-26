@@ -58,7 +58,7 @@ struct StackoverflowSwiftUIView2: View {
             // Prevent scrolling into the safe area
             .padding(.top, 1)
         }
-        .background(.black)
+        .background(.white)
         .animation(.easeInOut, value: showingHeader)
     }
 }

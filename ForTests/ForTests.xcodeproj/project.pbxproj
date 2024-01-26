@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC4CB8B42B63DDBB0058C263 /* ContentView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4CB8B32B63DDBB0058C263 /* ContentView1.swift */; };
+		AC4CB8B62B63E0350058C263 /* DemoOfHidingPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4CB8B52B63E0350058C263 /* DemoOfHidingPanelView.swift */; };
 		AC72FA642B513E2C009E60AB /* ForTestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC72FA632B513E2C009E60AB /* ForTestsApp.swift */; };
 		AC72FA662B513E2C009E60AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC72FA652B513E2C009E60AB /* ContentView.swift */; };
 		AC72FA682B513E2E009E60AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC72FA672B513E2E009E60AB /* Assets.xcassets */; };
@@ -27,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC4CB8B32B63DDBB0058C263 /* ContentView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView1.swift; sourceTree = "<group>"; };
+		AC4CB8B52B63E0350058C263 /* DemoOfHidingPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoOfHidingPanelView.swift; sourceTree = "<group>"; };
 		AC72FA602B513E2C009E60AB /* ForTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC72FA632B513E2C009E60AB /* ForTestsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForTestsApp.swift; sourceTree = "<group>"; };
 		AC72FA652B513E2C009E60AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,9 +62,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC4CB8B72B63E1C80058C263 /* DisappearanceOfTopPanel */ = {
+			isa = PBXGroup;
+			children = (
+				ACDFF39D2B570F6C000A6AAA /* Stackoverflow */,
+				AC8296472B5E57D5008383B0 /* Nata */,
+			);
+			path = DisappearanceOfTopPanel;
+			sourceTree = "<group>";
+		};
 		AC72FA572B513E2C009E60AB = {
 			isa = PBXGroup;
 			children = (
+				AC4CB8B72B63E1C80058C263 /* DisappearanceOfTopPanel */,
 				AC72FA622B513E2C009E60AB /* ForTests */,
 				AC72FA612B513E2C009E60AB /* Products */,
 			);
@@ -78,10 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				AC72FA632B513E2C009E60AB /* ForTestsApp.swift */,
-				AC8296472B5E57D5008383B0 /* Nata */,
 				ACDFF39C2B570F3C000A6AAA /* Delete */,
 				ACDFF39B2B570F08000A6AAA /* Work */,
-				ACDFF39D2B570F6C000A6AAA /* Stackoverflow */,
 				AC72FA672B513E2E009E60AB /* Assets.xcassets */,
 				AC72FA692B513E2E009E60AB /* Preview Content */,
 			);
@@ -99,6 +111,7 @@
 		AC8296472B5E57D5008383B0 /* Nata */ = {
 			isa = PBXGroup;
 			children = (
+				AC4CB8B52B63E0350058C263 /* DemoOfHidingPanelView.swift */,
 				AC8296482B5E583F008383B0 /* PinnedUIView.swift */,
 				AC82964A2B5E583F008383B0 /* ScrollDirectionView.swift */,
 				AC8296492B5E583F008383B0 /* ScrollDirectionCustomGesture.swift */,
@@ -111,6 +124,7 @@
 			children = (
 				AC941F7C2B552D800092C9D6 /* SwiftUIView4.swift */,
 				AC97383B2B639C1D00E3F642 /* SwiftUIView12345.swift */,
+				AC4CB8B32B63DDBB0058C263 /* ContentView1.swift */,
 			);
 			path = Work;
 			sourceTree = "<group>";
@@ -208,8 +222,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4CB8B62B63E0350058C263 /* DemoOfHidingPanelView.swift in Sources */,
 				AC82964B2B5E583F008383B0 /* PinnedUIView.swift in Sources */,
 				AC941F7F2B5533C50092C9D6 /* SwiftUIView5.swift in Sources */,
+				AC4CB8B42B63DDBB0058C263 /* ContentView1.swift in Sources */,
 				AC941F7D2B552D800092C9D6 /* SwiftUIView4.swift in Sources */,
 				AC72FA722B514656009E60AB /* ContentView2.swift in Sources */,
 				AC82964C2B5E583F008383B0 /* ScrollDirectionCustomGesture.swift in Sources */,

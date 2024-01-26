@@ -31,8 +31,8 @@ struct StackoverflowSwiftUIView: View {
                 let outerHeight = outer.size.height
                 ScrollView(.vertical) {
                     ForEach(1...30, id: \.self) {
-                        Divider().background(Color.red)
-                        Text("\($0)").frame(maxWidth: .infinity)
+                        Divider().background(Color.black)
+                        Text("\($0)")
                     }
                         .background {
                             GeometryReader { proxy in
@@ -55,7 +55,7 @@ struct StackoverflowSwiftUIView: View {
             // Prevent scrolling into the safe area
             .padding(.top, 1)
         }
-        .background(.black)
+        .background(.white)
         .animation(.easeInOut, value: showingHeader)
     }
 }

@@ -141,10 +141,9 @@
 		ACFEDC6D2B839FF7002B3C66 /* CanBeUsed */ = {
 			isa = PBXGroup;
 			children = (
+				ACFEDC7C2B83A4A7002B3C66 /* View */,
 				ACFEDC792B83A327002B3C66 /* Modifiers */,
 				ACFEDC712B83A21C002B3C66 /* Extensions */,
-				ACFEDC6E2B83A051002B3C66 /* Skeleton */,
-				AC4CB8B72B63E1C80058C263 /* DisappearanceOfTopPanel */,
 			);
 			path = CanBeUsed;
 			sourceTree = "<group>";
@@ -181,6 +180,15 @@
 				ACFEDC7A2B83A333002B3C66 /* DisableScrollingModifier.swift */,
 			);
 			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		ACFEDC7C2B83A4A7002B3C66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC4CB8B72B63E1C80058C263 /* DisappearanceOfTopPanel */,
+				ACFEDC6E2B83A051002B3C66 /* Skeleton */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

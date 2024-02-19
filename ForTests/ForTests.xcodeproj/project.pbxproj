@@ -58,7 +58,7 @@
 		AC72FA572B513E2C009E60AB = {
 			isa = PBXGroup;
 			children = (
-				AC4CB8B72B63E1C80058C263 /* DisappearanceOfTopPanel */,
+				ACFEDC6D2B839FF7002B3C66 /* CanBeUsed */,
 				AC72FA622B513E2C009E60AB /* ForTests */,
 				AC72FA612B513E2C009E60AB /* Products */,
 			);
@@ -126,6 +126,14 @@
 				ACDFF3A22B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift */,
 			);
 			path = Stackoverflow;
+			sourceTree = "<group>";
+		};
+		ACFEDC6D2B839FF7002B3C66 /* CanBeUsed */ = {
+			isa = PBXGroup;
+			children = (
+				AC4CB8B72B63E1C80058C263 /* DisappearanceOfTopPanel */,
+			);
+			path = CanBeUsed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

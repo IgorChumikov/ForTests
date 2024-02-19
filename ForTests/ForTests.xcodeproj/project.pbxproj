@@ -18,6 +18,8 @@
 		AC97383C2B639C1D00E3F642 /* SwiftUIView12345.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC97383B2B639C1D00E3F642 /* SwiftUIView12345.swift */; };
 		ACDFF39F2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDFF39E2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift */; };
 		ACDFF3A32B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDFF3A22B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift */; };
+		ACFEDC702B83A064002B3C66 /* Skeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFEDC6F2B83A064002B3C66 /* Skeleton.swift */; };
+		ACFEDC742B83A246002B3C66 /* View+OnFirstAppear.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFEDC732B83A246002B3C66 /* View+OnFirstAppear.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		AC97383B2B639C1D00E3F642 /* SwiftUIView12345.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView12345.swift; sourceTree = "<group>"; };
 		ACDFF39E2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackoverflowSwiftUIView.swift; sourceTree = "<group>"; };
 		ACDFF3A22B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackoverflowSwiftUIView2.swift; sourceTree = "<group>"; };
+		ACFEDC6F2B83A064002B3C66 /* Skeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skeleton.swift; sourceTree = "<group>"; };
+		ACFEDC732B83A246002B3C66 /* View+OnFirstAppear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+OnFirstAppear.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,9 +135,35 @@
 		ACFEDC6D2B839FF7002B3C66 /* CanBeUsed */ = {
 			isa = PBXGroup;
 			children = (
+				ACFEDC712B83A21C002B3C66 /* Extensions */,
+				ACFEDC6E2B83A051002B3C66 /* Skeleton */,
 				AC4CB8B72B63E1C80058C263 /* DisappearanceOfTopPanel */,
 			);
 			path = CanBeUsed;
+			sourceTree = "<group>";
+		};
+		ACFEDC6E2B83A051002B3C66 /* Skeleton */ = {
+			isa = PBXGroup;
+			children = (
+				ACFEDC6F2B83A064002B3C66 /* Skeleton.swift */,
+			);
+			path = Skeleton;
+			sourceTree = "<group>";
+		};
+		ACFEDC712B83A21C002B3C66 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ACFEDC722B83A22C002B3C66 /* View */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ACFEDC722B83A22C002B3C66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ACFEDC732B83A246002B3C66 /* View+OnFirstAppear.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,12 +236,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACFEDC742B83A246002B3C66 /* View+OnFirstAppear.swift in Sources */,
 				AC4CB8B62B63E0350058C263 /* DemoOfHidingPanelView.swift in Sources */,
 				AC82964B2B5E583F008383B0 /* PinnedUIView.swift in Sources */,
 				AC941F7D2B552D800092C9D6 /* SwiftUIView4.swift in Sources */,
 				AC82964C2B5E583F008383B0 /* ScrollDirectionCustomGesture.swift in Sources */,
 				ACDFF39F2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift in Sources */,
 				ACDFF3A32B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift in Sources */,
+				ACFEDC702B83A064002B3C66 /* Skeleton.swift in Sources */,
 				AC72FA642B513E2C009E60AB /* ForTestsApp.swift in Sources */,
 				AC82964D2B5E583F008383B0 /* ScrollDirectionView.swift in Sources */,
 				AC97383C2B639C1D00E3F642 /* SwiftUIView12345.swift in Sources */,

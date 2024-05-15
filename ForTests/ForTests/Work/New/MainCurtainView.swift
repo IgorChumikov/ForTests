@@ -15,7 +15,7 @@ struct MainCurtainView: View {
         ZStack {
             ExitCurtainView(isSheetPresented: $isSheetPresented)
             VStack {
-                Button("ffff") {
+                Button("До 16 IOS") {
                     isSheetPresented.toggle()
                 }
             }

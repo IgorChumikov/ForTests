@@ -1,5 +1,5 @@
 //
-//  ResizableSheets2View.swift
+//  SwiftUIView.swift
 //  ForTests
 //
 //  Created by Игорь Чумиков on 15.05.2024.

@@ -1,4 +1,4 @@
-//
+
 //  ResizableSheetsView.swift
 //  ForTests
 //
@@ -28,3 +28,4 @@ struct ResizableSheetsView: View {
 #Preview {
     ResizableSheetsView()
 }
+

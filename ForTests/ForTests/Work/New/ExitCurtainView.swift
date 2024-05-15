@@ -29,8 +29,6 @@ struct ExitCurtainView: View {
     private var translation: CGFloat = 0
     @State
     private var bottomViewHeight: CGFloat = 0
-    @State
-    private var indicatorHeight: CGFloat = 0
     
     // MARK: - Computed Properties
     

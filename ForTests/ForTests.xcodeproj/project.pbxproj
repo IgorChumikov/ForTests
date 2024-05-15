@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		AC4CB8B62B63E0350058C263 /* DemoOfHidingPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4CB8B52B63E0350058C263 /* DemoOfHidingPanelView.swift */; };
+		AC52780D2BF37BF700CD1909 /* BottomSheetModifierNew+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52780C2BF37BF700CD1909 /* BottomSheetModifierNew+View.swift */; };
+		AC52780F2BF37C7700CD1909 /* ScrollablePanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52780E2BF37C7700CD1909 /* ScrollablePanelView.swift */; };
+		AC5278122BF37D2800CD1909 /* KeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5278112BF37D2800CD1909 /* KeyboardHelper.swift */; };
+		AC5278142BF385DC00CD1909 /* PanelViewNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5278132BF385DC00CD1909 /* PanelViewNew.swift */; };
+		AC5278162BF386E400CD1909 /* PanelViewIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5278152BF386E400CD1909 /* PanelViewIndicator.swift */; };
+		AC5278182BF388F700CD1909 /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5278172BF388F700CD1909 /* BottomSheet.swift */; };
+		AC52781A2BF38AE800CD1909 /* DialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5278192BF38AE800CD1909 /* DialogView.swift */; };
+		AC52781D2BF38B7C00CD1909 /* ExitCurtainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52781C2BF38B7C00CD1909 /* ExitCurtainView.swift */; };
+		AC52781F2BF3941A00CD1909 /* MainCurtainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52781E2BF3941A00CD1909 /* MainCurtainView.swift */; };
+		AC5B1B042BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5B1B032BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift */; };
+		AC6B92722B9F088200542B04 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6B92712B9F088200542B04 /* SwiftUIView.swift */; };
 		AC72FA642B513E2C009E60AB /* ForTestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC72FA632B513E2C009E60AB /* ForTestsApp.swift */; };
 		AC72FA682B513E2E009E60AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC72FA672B513E2E009E60AB /* Assets.xcassets */; };
 		AC72FA6B2B513E2E009E60AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC72FA6A2B513E2E009E60AB /* Preview Assets.xcassets */; };
@@ -17,6 +28,9 @@
 		AC941F7D2B552D800092C9D6 /* SwiftUIView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC941F7C2B552D800092C9D6 /* SwiftUIView4.swift */; };
 		AC97383C2B639C1D00E3F642 /* SwiftUIView12345.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC97383B2B639C1D00E3F642 /* SwiftUIView12345.swift */; };
 		ACC20EBB2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20EBA2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift */; };
+		ACDEFE152BEB7F41006E0CD1 /* UserAuthorizationBM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE142BEB7F41006E0CD1 /* UserAuthorizationBM.swift */; };
+		ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE162BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift */; };
+		ACDEFE192BEB7F76006E0CD1 /* View+HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE182BEB7F76006E0CD1 /* View+HideKeyboard.swift */; };
 		ACDFF39F2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDFF39E2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift */; };
 		ACDFF3A32B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDFF3A22B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift */; };
 		ACFEDC702B83A064002B3C66 /* Skeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFEDC6F2B83A064002B3C66 /* Skeleton.swift */; };
@@ -28,6 +42,17 @@
 
 /* Begin PBXFileReference section */
 		AC4CB8B52B63E0350058C263 /* DemoOfHidingPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoOfHidingPanelView.swift; sourceTree = "<group>"; };
+		AC52780C2BF37BF700CD1909 /* BottomSheetModifierNew+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BottomSheetModifierNew+View.swift"; sourceTree = "<group>"; };
+		AC52780E2BF37C7700CD1909 /* ScrollablePanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollablePanelView.swift; sourceTree = "<group>"; };
+		AC5278112BF37D2800CD1909 /* KeyboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHelper.swift; sourceTree = "<group>"; };
+		AC5278132BF385DC00CD1909 /* PanelViewNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelViewNew.swift; sourceTree = "<group>"; };
+		AC5278152BF386E400CD1909 /* PanelViewIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelViewIndicator.swift; sourceTree = "<group>"; };
+		AC5278172BF388F700CD1909 /* BottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
+		AC5278192BF38AE800CD1909 /* DialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogView.swift; sourceTree = "<group>"; };
+		AC52781C2BF38B7C00CD1909 /* ExitCurtainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitCurtainView.swift; sourceTree = "<group>"; };
+		AC52781E2BF3941A00CD1909 /* MainCurtainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCurtainView.swift; sourceTree = "<group>"; };
+		AC5B1B032BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationBMView.swift; sourceTree = "<group>"; };
+		AC6B92712B9F088200542B04 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		AC72FA602B513E2C009E60AB /* ForTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC72FA632B513E2C009E60AB /* ForTestsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForTestsApp.swift; sourceTree = "<group>"; };
 		AC72FA672B513E2E009E60AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +63,9 @@
 		AC941F7C2B552D800092C9D6 /* SwiftUIView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView4.swift; sourceTree = "<group>"; };
 		AC97383B2B639C1D00E3F642 /* SwiftUIView12345.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView12345.swift; sourceTree = "<group>"; };
 		ACC20EBA2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
+		ACDEFE142BEB7F41006E0CD1 /* UserAuthorizationBM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationBM.swift; sourceTree = "<group>"; };
+		ACDEFE162BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationFieldType.swift; sourceTree = "<group>"; };
+		ACDEFE182BEB7F76006E0CD1 /* View+HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+HideKeyboard.swift"; sourceTree = "<group>"; };
 		ACDFF39E2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackoverflowSwiftUIView.swift; sourceTree = "<group>"; };
 		ACDFF3A22B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackoverflowSwiftUIView2.swift; sourceTree = "<group>"; };
 		ACFEDC6F2B83A064002B3C66 /* Skeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skeleton.swift; sourceTree = "<group>"; };
@@ -72,6 +100,48 @@
 				AC8296472B5E57D5008383B0 /* Nata */,
 			);
 			path = DisappearanceOfTopPanel;
+			sourceTree = "<group>";
+		};
+		AC5278082BF369EB00CD1909 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				AC941F7C2B552D800092C9D6 /* SwiftUIView4.swift */,
+				AC97383B2B639C1D00E3F642 /* SwiftUIView12345.swift */,
+				AC6B92712B9F088200542B04 /* SwiftUIView.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		AC5278092BF369FB00CD1909 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				AC5278102BF37CA300CD1909 /* BottomSheetNew */,
+				AC52781B2BF38B6200CD1909 /* View */,
+				AC52781E2BF3941A00CD1909 /* MainCurtainView.swift */,
+				AC52781C2BF38B7C00CD1909 /* ExitCurtainView.swift */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		AC5278102BF37CA300CD1909 /* BottomSheetNew */ = {
+			isa = PBXGroup;
+			children = (
+				AC52780C2BF37BF700CD1909 /* BottomSheetModifierNew+View.swift */,
+				AC5278112BF37D2800CD1909 /* KeyboardHelper.swift */,
+			);
+			path = BottomSheetNew;
+			sourceTree = "<group>";
+		};
+		AC52781B2BF38B6200CD1909 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC5278132BF385DC00CD1909 /* PanelViewNew.swift */,
+				AC5278152BF386E400CD1909 /* PanelViewIndicator.swift */,
+				AC5278172BF388F700CD1909 /* BottomSheet.swift */,
+				AC5278192BF38AE800CD1909 /* DialogView.swift */,
+				AC52780E2BF37C7700CD1909 /* ScrollablePanelView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		AC72FA572B513E2C009E60AB = {
@@ -122,11 +192,31 @@
 			path = Nata;
 			sourceTree = "<group>";
 		};
+		ACDEFE112BEB7F15006E0CD1 /* BM */ = {
+			isa = PBXGroup;
+			children = (
+				ACDEFE182BEB7F76006E0CD1 /* View+HideKeyboard.swift */,
+				ACDEFE122BEB7F28006E0CD1 /* Model */,
+				AC5B1B032BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift */,
+			);
+			path = BM;
+			sourceTree = "<group>";
+		};
+		ACDEFE122BEB7F28006E0CD1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACDEFE142BEB7F41006E0CD1 /* UserAuthorizationBM.swift */,
+				ACDEFE162BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		ACDFF39B2B570F08000A6AAA /* Work */ = {
 			isa = PBXGroup;
 			children = (
-				AC941F7C2B552D800092C9D6 /* SwiftUIView4.swift */,
-				AC97383B2B639C1D00E3F642 /* SwiftUIView12345.swift */,
+				AC5278092BF369FB00CD1909 /* New */,
+				AC5278082BF369EB00CD1909 /* Test */,
+				ACDEFE112BEB7F15006E0CD1 /* BM */,
 			);
 			path = Work;
 			sourceTree = "<group>";
@@ -273,20 +363,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACFEDC742B83A246002B3C66 /* View+OnFirstAppear.swift in Sources */,
+				AC5278162BF386E400CD1909 /* PanelViewIndicator.swift in Sources */,
 				AC4CB8B62B63E0350058C263 /* DemoOfHidingPanelView.swift in Sources */,
+				AC6B92722B9F088200542B04 /* SwiftUIView.swift in Sources */,
+				ACDEFE152BEB7F41006E0CD1 /* UserAuthorizationBM.swift in Sources */,
 				ACC20EBB2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */,
 				AC82964B2B5E583F008383B0 /* PinnedUIView.swift in Sources */,
 				AC941F7D2B552D800092C9D6 /* SwiftUIView4.swift in Sources */,
 				AC82964C2B5E583F008383B0 /* ScrollDirectionCustomGesture.swift in Sources */,
+				AC52781D2BF38B7C00CD1909 /* ExitCurtainView.swift in Sources */,
+				AC52780F2BF37C7700CD1909 /* ScrollablePanelView.swift in Sources */,
+				AC52780D2BF37BF700CD1909 /* BottomSheetModifierNew+View.swift in Sources */,
 				ACDFF39F2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift in Sources */,
+				AC5B1B042BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift in Sources */,
+				AC52781A2BF38AE800CD1909 /* DialogView.swift in Sources */,
 				ACDFF3A32B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift in Sources */,
 				ACFEDC702B83A064002B3C66 /* Skeleton.swift in Sources */,
 				ACFEDC782B83A2C3002B3C66 /* View+Hidden.swift in Sources */,
 				ACFEDC7B2B83A333002B3C66 /* DisableScrollingModifier.swift in Sources */,
 				AC72FA642B513E2C009E60AB /* ForTestsApp.swift in Sources */,
+				AC5278122BF37D2800CD1909 /* KeyboardHelper.swift in Sources */,
+				AC5278142BF385DC00CD1909 /* PanelViewNew.swift in Sources */,
 				AC82964D2B5E583F008383B0 /* ScrollDirectionView.swift in Sources */,
+				ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */,
 				ACFEDC762B83A2A6002B3C66 /* View+Padding.swift in Sources */,
 				AC97383C2B639C1D00E3F642 /* SwiftUIView12345.swift in Sources */,
+				AC52781F2BF3941A00CD1909 /* MainCurtainView.swift in Sources */,
+				AC5278182BF388F700CD1909 /* BottomSheet.swift in Sources */,
+				ACDEFE192BEB7F76006E0CD1 /* View+HideKeyboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

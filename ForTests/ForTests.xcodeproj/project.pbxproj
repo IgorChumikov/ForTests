@@ -17,6 +17,7 @@
 		AC52781A2BF38AE800CD1909 /* DialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5278192BF38AE800CD1909 /* DialogView.swift */; };
 		AC52781D2BF38B7C00CD1909 /* ExitCurtainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52781C2BF38B7C00CD1909 /* ExitCurtainView.swift */; };
 		AC52781F2BF3941A00CD1909 /* MainCurtainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52781E2BF3941A00CD1909 /* MainCurtainView.swift */; };
+		AC5278212BF4CF7700CD1909 /* AlertContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5278202BF4CF7700CD1909 /* AlertContentView.swift */; };
 		AC5B1B042BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5B1B032BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift */; };
 		AC6B92722B9F088200542B04 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6B92712B9F088200542B04 /* SwiftUIView.swift */; };
 		AC72FA642B513E2C009E60AB /* ForTestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC72FA632B513E2C009E60AB /* ForTestsApp.swift */; };
@@ -51,6 +52,7 @@
 		AC5278192BF38AE800CD1909 /* DialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogView.swift; sourceTree = "<group>"; };
 		AC52781C2BF38B7C00CD1909 /* ExitCurtainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitCurtainView.swift; sourceTree = "<group>"; };
 		AC52781E2BF3941A00CD1909 /* MainCurtainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCurtainView.swift; sourceTree = "<group>"; };
+		AC5278202BF4CF7700CD1909 /* AlertContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertContentView.swift; sourceTree = "<group>"; };
 		AC5B1B032BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationBMView.swift; sourceTree = "<group>"; };
 		AC6B92712B9F088200542B04 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		AC72FA602B513E2C009E60AB /* ForTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +121,7 @@
 				AC52781B2BF38B6200CD1909 /* View */,
 				AC52781E2BF3941A00CD1909 /* MainCurtainView.swift */,
 				AC52781C2BF38B7C00CD1909 /* ExitCurtainView.swift */,
+				AC5278202BF4CF7700CD1909 /* AlertContentView.swift */,
 			);
 			path = New;
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 				AC82964B2B5E583F008383B0 /* PinnedUIView.swift in Sources */,
 				AC941F7D2B552D800092C9D6 /* SwiftUIView4.swift in Sources */,
 				AC82964C2B5E583F008383B0 /* ScrollDirectionCustomGesture.swift in Sources */,
+				AC5278212BF4CF7700CD1909 /* AlertContentView.swift in Sources */,
 				AC52781D2BF38B7C00CD1909 /* ExitCurtainView.swift in Sources */,
 				AC52780F2BF37C7700CD1909 /* ScrollablePanelView.swift in Sources */,
 				AC52780D2BF37BF700CD1909 /* BottomSheetModifierNew+View.swift in Sources */,

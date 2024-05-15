@@ -19,8 +19,7 @@ struct ExitCurtainView: View {
     @State private var name: String = "Логин 4653#45745345"
     
     @Binding var isSheetPresented: Bool
-    @Environment(\.bottomSheetAnimationDuration)
-    private var animationDuration: Double
+    var animationDuration: Double = 0.3
     @Environment(\.safeAreaInsets)
     private var safeAreaInsets: EdgeInsets
     @GestureState

@@ -5,19 +5,22 @@
 //  Created by Игорь Чумиков on 14.05.2024.
 //
 
+import SwiftUI
+
 private extension CGFloat {
     static let radius: CGFloat = 20
     static let indicatorPadding: CGFloat = 8
     static let snapRatio: CGFloat = 0.33
+    static let padding: CGFloat = 20
+    static let buttonHeight: CGFloat = 40
+    static let buttonWidth: CGFloat = 150
+    static let cornerRadius: CGFloat = 10
 }
-
-import SwiftUI
 
 struct ExitCurtainView: View {
     // MARK: - Properties
     
     @State private var name: String = "Логин 4653#45745345"
-    
     @Binding var isSheetPresented: Bool
     var animationDuration: Double = 0.3
     @Environment(\.safeAreaInsets)
@@ -78,28 +81,14 @@ struct ExitCurtainView: View {
     }
     
     private var background: some View {
-        Group {
-            if !isSheetPresented {
-                Color.clear
-                    .edgesIgnoringSafeArea(.all)
-                    .gesture(
-                        TapGesture()
-                            .onEnded { _ in
-                                isSheetPresented.toggle()
-                            }
-                    )
-            } else {
-                Color.green
-                    .edgesIgnoringSafeArea(.all)
-                    .gesture(
-                        TapGesture()
-                            .onEnded { _ in
-                                isSheetPresented.toggle()
-                            }
-                    )
-       
-            }
-        }
+        Color(isSheetPresented ? .green : .clear)
+            .edgesIgnoringSafeArea(.all)
+            .gesture(
+                TapGesture()
+                    .onEnded { _ in
+                        isSheetPresented.toggle()
+                    }
+            )
     }
     
     private var closeButton: some View {
@@ -109,12 +98,11 @@ struct ExitCurtainView: View {
             Text("Закрыть").foregroundColor(.blue)
                // .singlelineStyle(.size16, .bold, .whiteText)
         }
-
     }
     
     private var toComeInButton: some View {
         Button {
-            //
+            // Ваш код для действия кнопки
         } label: {
             Text("Войти").foregroundColor(.black)
                // .singlelineStyle(.size16, .bold, .whiteText)
@@ -140,10 +128,8 @@ struct ExitCurtainView: View {
                     .stroke(Color.red, lineWidth: 1)
             )
     }
-    
 }
     
-
 #Preview {
     ExitCurtainView(isSheetPresented: .constant(true))
 }

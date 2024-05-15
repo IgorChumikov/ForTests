@@ -18,6 +18,8 @@
 		AC52781D2BF38B7C00CD1909 /* ExitCurtainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52781C2BF38B7C00CD1909 /* ExitCurtainView.swift */; };
 		AC52781F2BF3941A00CD1909 /* MainCurtainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52781E2BF3941A00CD1909 /* MainCurtainView.swift */; };
 		AC5278212BF4CF7700CD1909 /* AlertContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5278202BF4CF7700CD1909 /* AlertContentView.swift */; };
+		AC5278262BF4DB2100CD1909 /* ResizableSheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5278252BF4DB2100CD1909 /* ResizableSheetsView.swift */; };
+		AC5278282BF4DBEA00CD1909 /* ResizableSheets2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5278272BF4DBEA00CD1909 /* ResizableSheets2View.swift */; };
 		AC5B1B042BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5B1B032BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift */; };
 		AC6B92722B9F088200542B04 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6B92712B9F088200542B04 /* SwiftUIView.swift */; };
 		AC72FA642B513E2C009E60AB /* ForTestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC72FA632B513E2C009E60AB /* ForTestsApp.swift */; };
@@ -53,6 +55,8 @@
 		AC52781C2BF38B7C00CD1909 /* ExitCurtainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitCurtainView.swift; sourceTree = "<group>"; };
 		AC52781E2BF3941A00CD1909 /* MainCurtainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCurtainView.swift; sourceTree = "<group>"; };
 		AC5278202BF4CF7700CD1909 /* AlertContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertContentView.swift; sourceTree = "<group>"; };
+		AC5278252BF4DB2100CD1909 /* ResizableSheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableSheetsView.swift; sourceTree = "<group>"; };
+		AC5278272BF4DBEA00CD1909 /* ResizableSheets2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableSheets2View.swift; sourceTree = "<group>"; };
 		AC5B1B032BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationBMView.swift; sourceTree = "<group>"; };
 		AC6B92712B9F088200542B04 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		AC72FA602B513E2C009E60AB /* ForTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -226,6 +230,8 @@
 			isa = PBXGroup;
 			children = (
 				AC5278092BF369FB00CD1909 /* New */,
+				AC5278252BF4DB2100CD1909 /* ResizableSheetsView.swift */,
+				AC5278272BF4DBEA00CD1909 /* ResizableSheets2View.swift */,
 				AC5278082BF369EB00CD1909 /* Test */,
 				ACDEFE112BEB7F15006E0CD1 /* BM */,
 			);
@@ -388,6 +394,7 @@
 				AC52780D2BF37BF700CD1909 /* BottomSheetModifierNew+View.swift in Sources */,
 				ACDFF39F2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift in Sources */,
 				AC5B1B042BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift in Sources */,
+				AC5278282BF4DBEA00CD1909 /* ResizableSheets2View.swift in Sources */,
 				AC52781A2BF38AE800CD1909 /* DialogView.swift in Sources */,
 				ACDFF3A32B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift in Sources */,
 				ACFEDC702B83A064002B3C66 /* Skeleton.swift in Sources */,
@@ -400,6 +407,7 @@
 				ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */,
 				ACFEDC762B83A2A6002B3C66 /* View+Padding.swift in Sources */,
 				AC97383C2B639C1D00E3F642 /* SwiftUIView12345.swift in Sources */,
+				AC5278262BF4DB2100CD1909 /* ResizableSheetsView.swift in Sources */,
 				AC52781F2BF3941A00CD1909 /* MainCurtainView.swift in Sources */,
 				AC5278182BF388F700CD1909 /* BottomSheet.swift in Sources */,
 				ACDEFE192BEB7F76006E0CD1 /* View+HideKeyboard.swift in Sources */,

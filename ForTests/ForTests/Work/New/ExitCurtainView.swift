@@ -23,8 +23,6 @@ struct ExitCurtainView: View {
     private var animationDuration: Double
     @Environment(\.safeAreaInsets)
     private var safeAreaInsets: EdgeInsets
-    @Environment(\.bottomSheetMaxHeight)
-    private var maxHeight: CGFloat
     @GestureState
     private var translation: CGFloat = 0
     @State

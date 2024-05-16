@@ -21,6 +21,8 @@
 		AC52782A2BF4E9F700CD1909 /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5278292BF4E9F700CD1909 /* BottomSheetView.swift */; };
 		AC52782C2BF4ED2C00CD1909 /* ResizableSheetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52782B2BF4ED2C00CD1909 /* ResizableSheetsView.swift */; };
 		AC52782E2BF4ED6F00CD1909 /* ResizableSheets2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52782D2BF4ED6F00CD1909 /* ResizableSheets2View.swift */; };
+		AC5278342BF6468600CD1909 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5278332BF6468600CD1909 /* CustomAlertView.swift */; };
+		AC5278362BF646C100CD1909 /* ContentViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5278352BF646C100CD1909 /* ContentViewOne.swift */; };
 		AC5B1B042BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5B1B032BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift */; };
 		AC6B92722B9F088200542B04 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6B92712B9F088200542B04 /* SwiftUIView.swift */; };
 		AC72FA642B513E2C009E60AB /* ForTestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC72FA632B513E2C009E60AB /* ForTestsApp.swift */; };
@@ -59,6 +61,8 @@
 		AC5278292BF4E9F700CD1909 /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
 		AC52782B2BF4ED2C00CD1909 /* ResizableSheetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableSheetsView.swift; sourceTree = "<group>"; };
 		AC52782D2BF4ED6F00CD1909 /* ResizableSheets2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableSheets2View.swift; sourceTree = "<group>"; };
+		AC5278332BF6468600CD1909 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		AC5278352BF646C100CD1909 /* ContentViewOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewOne.swift; sourceTree = "<group>"; };
 		AC5B1B032BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationBMView.swift; sourceTree = "<group>"; };
 		AC6B92712B9F088200542B04 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		AC72FA602B513E2C009E60AB /* ForTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,6 +178,7 @@
 		AC5278302BF5FA0900CD1909 /* Alert */ = {
 			isa = PBXGroup;
 			children = (
+				AC5278322BF6467200CD1909 /* GO */,
 				AC5278202BF4CF7700CD1909 /* AlertContentView.swift */,
 			);
 			name = Alert;
@@ -186,6 +191,15 @@
 				AC52781C2BF38B7C00CD1909 /* ExitCurtainView.swift */,
 			);
 			path = 14;
+			sourceTree = "<group>";
+		};
+		AC5278322BF6467200CD1909 /* GO */ = {
+			isa = PBXGroup;
+			children = (
+				AC5278332BF6468600CD1909 /* CustomAlertView.swift */,
+				AC5278352BF646C100CD1909 /* ContentViewOne.swift */,
+			);
+			name = GO;
 			sourceTree = "<group>";
 		};
 		AC72FA572B513E2C009E60AB = {
@@ -406,8 +420,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC5278342BF6468600CD1909 /* CustomAlertView.swift in Sources */,
 				ACFEDC742B83A246002B3C66 /* View+OnFirstAppear.swift in Sources */,
 				AC5278162BF386E400CD1909 /* PanelViewIndicator.swift in Sources */,
+				AC5278362BF646C100CD1909 /* ContentViewOne.swift in Sources */,
 				AC52782E2BF4ED6F00CD1909 /* ResizableSheets2View.swift in Sources */,
 				AC52782C2BF4ED2C00CD1909 /* ResizableSheetsView.swift in Sources */,
 				AC4CB8B62B63E0350058C263 /* DemoOfHidingPanelView.swift in Sources */,

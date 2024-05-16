@@ -148,8 +148,6 @@
 				AC5278172BF388F700CD1909 /* BottomSheet.swift */,
 				AC5278192BF38AE800CD1909 /* DialogView.swift */,
 				AC52780E2BF37C7700CD1909 /* ScrollablePanelView.swift */,
-				AC52782B2BF4ED2C00CD1909 /* ResizableSheetsView.swift */,
-				AC52782D2BF4ED6F00CD1909 /* ResizableSheets2View.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -157,11 +155,37 @@
 		AC5278222BF4D97800CD1909 /* Done */ = {
 			isa = PBXGroup;
 			children = (
-				AC52781E2BF3941A00CD1909 /* MainCurtainView.swift */,
-				AC52781C2BF38B7C00CD1909 /* ExitCurtainView.swift */,
-				AC5278202BF4CF7700CD1909 /* AlertContentView.swift */,
+				AC52782F2BF5F9EA00CD1909 /* 16 */,
+				AC5278312BF5FA1700CD1909 /* 14 */,
+				AC5278302BF5FA0900CD1909 /* Alert */,
 			);
 			path = Done;
+			sourceTree = "<group>";
+		};
+		AC52782F2BF5F9EA00CD1909 /* 16 */ = {
+			isa = PBXGroup;
+			children = (
+				AC52782B2BF4ED2C00CD1909 /* ResizableSheetsView.swift */,
+				AC52782D2BF4ED6F00CD1909 /* ResizableSheets2View.swift */,
+			);
+			path = 16;
+			sourceTree = "<group>";
+		};
+		AC5278302BF5FA0900CD1909 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				AC5278202BF4CF7700CD1909 /* AlertContentView.swift */,
+			);
+			name = Alert;
+			sourceTree = "<group>";
+		};
+		AC5278312BF5FA1700CD1909 /* 14 */ = {
+			isa = PBXGroup;
+			children = (
+				AC52781E2BF3941A00CD1909 /* MainCurtainView.swift */,
+				AC52781C2BF38B7C00CD1909 /* ExitCurtainView.swift */,
+			);
+			path = 14;
 			sourceTree = "<group>";
 		};
 		AC72FA572B513E2C009E60AB = {

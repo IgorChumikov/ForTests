@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ResizableSheetsView: View {
     
-    
     @State var showSweet: Bool = false
     
     var body: some View {
@@ -17,7 +16,9 @@ struct ResizableSheetsView: View {
             showSweet.toggle()
         }
         .sheet(isPresented: $showSweet) {
-            ResizableSheets2View()
+            ResizableSheets2View() {
+                showSweet.toggle()
+            }
                 .presentationDetents([.height(200)])
                 .presentationDragIndicator(.hidden)
                 .interactiveDismissDisabled()

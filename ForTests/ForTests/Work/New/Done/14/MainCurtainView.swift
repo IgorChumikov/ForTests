@@ -14,6 +14,7 @@ struct MainCurtainView: View {
     var body: some View {
         ZStack {
             ExitCurtainView(isSheetPresented: $isSheetPresented)
+                .zIndex(1)
             VStack {
                 Button("До 16 IOS") {
                     isSheetPresented.toggle()
@@ -26,39 +27,3 @@ struct MainCurtainView: View {
 #Preview {
     MainCurtainView()
 }
-
-
-
-
-//struct MainCurtainView: View {
-//    
-//    @State private var isSheetPresented: Bool = false
-//    
-//    var body: some View {
-//        ZStack {
-//            content
-//            if isSheetPresented {
-//                Color.black.opacity(0.4)
-//                    .edgesIgnoringSafeArea(.all)
-//                    .onTapGesture {
-//                        isSheetPresented.toggle()
-//                    }
-//                
-//                ExitCurtainView(isSheetPresented: $isSheetPresented)
-//                    .transition(.move(edge: .bottom))
-//                    .zIndex(1)
-//            }
-//        }
-//        .animation(.easeInOut(duration: 0.3))
-//    }
-//    
-//    private var content: some View {
-//        VStack {
-//            Button("До 16 IOS") {
-//                isSheetPresented.toggle()
-//            }
-//        }
-//        .disabled(isSheetPresented)  // Отключаем взаимодействие, когда лист показан
-//        .blur(radius: isSheetPresented ? 3 : 0)  // Добавляем размытие
-//    }
-//}

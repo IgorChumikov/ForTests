@@ -24,7 +24,7 @@ struct AlertContentView: View {
                 primaryButton: .default(Text("Остаться"), action: {
                     showAlert = false
                 }),
-                secondaryButton: .cancel(Text("Выйти").fontWeight(.bold), action: {
+                secondaryButton: .destructive(Text("Выйти").fontWeight(.bold), action: {
                     showAlert = false
                 })
             )

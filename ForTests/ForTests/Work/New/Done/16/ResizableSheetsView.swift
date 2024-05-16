@@ -12,16 +12,16 @@ struct ResizableSheetsView: View {
     @State var showSweet: Bool = false
     
     var body: some View {
-        Button("Click mi") {
+        Button("C 16 IOS") {
             showSweet.toggle()
         }
         .sheet(isPresented: $showSweet) {
             ResizableSheets2View() {
                 showSweet.toggle()
             }
-                .presentationDetents([.height(200)])
-                .presentationDragIndicator(.hidden)
-                .interactiveDismissDisabled()
+            .presentationDetents([.height(250)])
+            .presentationDragIndicator(.hidden)
+            .interactiveDismissDisabled()
         }
     }
 }

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AlertContentView: View {
     @State private var showAlert = false
-
+    
     var body: some View {
         VStack {
             Button("Показать алерт") {

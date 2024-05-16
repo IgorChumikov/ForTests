@@ -96,7 +96,7 @@ struct ExitCurtainView: View {
             isSheetPresented.toggle()
         } label: {
             Text("Закрыть").foregroundColor(.blue)
-               // .singlelineStyle(.size16, .bold, .whiteText)
+            // .singlelineStyle(.size16, .bold, .whiteText)
         }
     }
     
@@ -105,7 +105,7 @@ struct ExitCurtainView: View {
             // Ваш код для действия кнопки
         } label: {
             Text("Войти").foregroundColor(.black)
-               // .singlelineStyle(.size16, .bold, .whiteText)
+            // .singlelineStyle(.size16, .bold, .whiteText)
         }
         .frame(width: 150, height: 40)
         .background(
@@ -129,7 +129,7 @@ struct ExitCurtainView: View {
             )
     }
 }
-    
+
 #Preview {
     ExitCurtainView(isSheetPresented: .constant(true))
 }

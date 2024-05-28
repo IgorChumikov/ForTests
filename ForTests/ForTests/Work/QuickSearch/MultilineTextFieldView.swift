@@ -44,6 +44,8 @@ struct MultilineSearchField: View {
     private let navigationViewHeight: CGFloat = 44
     private let leftDistance: CGFloat = 32
     
+    @FocusState private var isTextEditorFocused: Bool
+    
     var body: some View {
         VStack(spacing: 0) {
             HStack(alignment: .center, spacing: .zero) {
@@ -56,9 +58,74 @@ struct MultilineSearchField: View {
         .padding(.vertical, verticalBorderHeight / 2)
         .onAppear {
             adjustTextViewHeight()
+            isTextEditorFocused = true
         }
     }
     
+    // MARK: - Private view
+    
+    private var textClearButton: some View {
+        Button(action: {
+            clearText()
+        }) {
+            Image(systemName: "xmark.circle.fill")
+                .accessibilityLabel(viewModel.clearButtonAccessibility)
+        }
+    }
+    
+    private var textSearchButton: some View {
+        Button(action: {
+            search()
+        }) {
+            Text(viewModel.searchButtonStyle.params.text)
+                .padding()
+                .background(viewModel.searchButtonStyle.params.backgroundColor)
+                .foregroundColor(viewModel.searchButtonStyle.params.textColor)
+                .cornerRadius(5)
+        }
+    }
+    
+    private var textEditor: some View {
+        // Создание текстового редактора с привязкой к текстовому свойству viewModel
+        TextEditor(text: $viewModel.textViewText)
+            .focused($isTextEditorFocused)
+            // Установка высоты текстового редактора в зависимости от значения searchFieldHeight и maxTextViewHeight
+            .frame(height: min(maxTextViewHeight, searchFieldHeight))
+            // Горизонтальные отступы (слева и справа)
+            .padding(.horizontal, 20)
+            .padding(.top, 15)
+            // Наложение для отображения placeholder текста
+            .overlay(
+                // Текст для placeholder, если viewModel.placeholderAttributedText пуст, то отображается пустая строка
+                Text(viewModel.placeholderAttributedText?.string ?? "Поиск по документу")
+                    .offset(x: 9, y: 24)
+                    // Установка серого цвета для placeholder текста
+                    .foregroundColor(.gray)
+                    // Горизонтальные отступы для placeholder текста
+                    .padding(.horizontal, leftDistance / 2)
+                    // Установка прозрачности: 1, если текстовое поле пустое, иначе 0
+                    .opacity(viewModel.textViewText.isEmpty ? 1 : 0),
+                // Выравнивание placeholder в верхний левый угол
+                alignment: .topLeading
+            )
+            // Установка фона текстового редактора
+            .background(Color(.secondarySystemBackground))
+            // Закругление углов текстового редактора
+            .cornerRadius(8)
+            // Дополнительные горизонтальные отступы
+            .padding(.horizontal, leftDistance / 2)
+            // Обработка изменений в текстовом поле
+            .onChange(of: viewModel.textViewText) { _ in
+                adjustTextViewHeight() // Вызов функции для корректировки высоты текстового редактора
+            }
+            // Обработка касания по текстовому редактору
+            .onTapGesture {
+                isEditing = true // Установка флага isEditing в true при нажатии на текстовый редактор
+            }
+    }
+    
+    // MARK: - Private functions
+
     private func adjustTextViewHeight() {
         let fixedWidth = UIScreen.main.bounds.width - leftDistance
         let newSize = viewModel.textViewText.boundingRect(
@@ -87,68 +154,6 @@ struct MultilineSearchField: View {
         isEditing = false
         viewModel.textViewText = ""
     }
-    
-    
-    // MARK: - Private view
-    
-    private var textClearButton: some View {
-        Button(action: {
-            clearText()
-        }) {
-            Image(systemName: "xmark.circle.fill")
-                .accessibilityLabel(viewModel.clearButtonAccessibility)
-        }
-    }
-    
-    private var textSearchButton: some View {
-        Button(action: {
-            search()
-        }) {
-            Text(viewModel.searchButtonStyle.params.text)
-                .padding()
-                .background(viewModel.searchButtonStyle.params.backgroundColor)
-                .foregroundColor(viewModel.searchButtonStyle.params.textColor)
-                .cornerRadius(5)
-        }
-    }
-    
-    private var textEditor: some View {
-        // Создание текстового редактора с привязкой к текстовому свойству viewModel
-        TextEditor(text: $viewModel.textViewText)
-            // Установка высоты текстового редактора в зависимости от значения searchFieldHeight и maxTextViewHeight
-            .frame(height: min(maxTextViewHeight, searchFieldHeight))
-            // Горизонтальные отступы (слева и справа)
-            .padding(.horizontal, leftDistance / 2)
-            // Наложение для отображения placeholder текста
-            .overlay(
-                // Текст для placeholder, если viewModel.placeholderAttributedText пуст, то отображается пустая строка
-                Text(viewModel.placeholderAttributedText?.string ?? "Поиск по документу")
-                    .offset(x: 12, y: 15)
-                    // Установка серого цвета для placeholder текста
-                    .foregroundColor(.gray)
-                    // Горизонтальные отступы для placeholder текста
-                    .padding(.horizontal, leftDistance / 2)
-                    // Установка прозрачности: 1, если текстовое поле пустое, иначе 0
-                    .opacity(viewModel.textViewText.isEmpty ? 1 : 0),
-                // Выравнивание placeholder в верхний левый угол
-                alignment: .topLeading
-            )
-            // Установка фона текстового редактора
-            .background(Color(.secondarySystemBackground))
-            // Закругление углов текстового редактора
-            .cornerRadius(8)
-            // Дополнительные горизонтальные отступы
-            .padding(.horizontal, leftDistance / 2)
-            // Обработка изменений в текстовом поле
-            .onChange(of: viewModel.textViewText) { _ in
-                adjustTextViewHeight() // Вызов функции для корректировки высоты текстового редактора
-            }
-            // Обработка касания по текстовому редактору
-            .onTapGesture {
-                isEditing = true // Установка флага isEditing в true при нажатии на текстовый редактор
-            }
-    }
-
     
 }
 

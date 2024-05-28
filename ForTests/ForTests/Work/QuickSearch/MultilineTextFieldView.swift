@@ -113,7 +113,7 @@ struct MultilineSearchField: View {
             // Закругление углов текстового редактора
             .cornerRadius(8)
             // Дополнительные горизонтальные отступы
-            .padding(.horizontal, leftDistance / 2)
+           // .padding(.horizontal, leftDistance / 2)
             // Обработка изменений в текстовом поле
             .onChange(of: viewModel.textViewText) { _ in
                 adjustTextViewHeight() // Вызов функции для корректировки высоты текстового редактора
@@ -127,14 +127,18 @@ struct MultilineSearchField: View {
     // MARK: - Private functions
 
     private func adjustTextViewHeight() {
+        // Устанавливаем фиксированную ширину, вычитая от ширины экрана значение leftDistance
         let fixedWidth = UIScreen.main.bounds.width - leftDistance
+        
+        // Рассчитываем новый размер текстового поля на основе его текущего текста
         let newSize = viewModel.textViewText.boundingRect(
-            with: CGSize(width: fixedWidth, height: CGFloat.greatestFiniteMagnitude),
-            options: .usesLineFragmentOrigin,
-            attributes: [.font: UIFont.systemFont(ofSize: UIFont.systemFontSize)],
-            context: nil
+            with: CGSize(width: fixedWidth, height: CGFloat.greatestFiniteMagnitude), // Задаем максимально возможную высоту
+            options: .usesLineFragmentOrigin, // Указываем, что должны быть учтены все разрывы строк и фрагменты
+            attributes: [.font: UIFont.systemFont(ofSize: UIFont.systemFontSize)], // Указываем атрибуты текста, включая шрифт
+            context: nil // Не используем контекст
         ).size
         
+        // Устанавливаем высоту текстового поля, ограничивая её минимальным и максимальным значениями
         searchFieldHeight = min(maxTextViewHeight, max(minActiveHeight, newSize.height + verticalBorderHeight))
     }
     

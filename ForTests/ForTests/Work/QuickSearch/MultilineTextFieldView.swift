@@ -138,13 +138,6 @@ struct MultilineSearchField: View {
     }
 }
 
-struct MultilineSearchField_Previews: PreviewProvider {
-    static var previews: some View {
-        MultilineSearchField()
-    }
-}
-
-
 #Preview {
     MultilineSearchField()
 }

@@ -122,7 +122,8 @@ struct MultilineSearchField: View {
             // Наложение для отображения placeholder текста
             .overlay(
                 // Текст для placeholder, если viewModel.placeholderAttributedText пуст, то отображается пустая строка
-                Text(viewModel.placeholderAttributedText?.string ?? "")
+                Text(viewModel.placeholderAttributedText?.string ?? "Поиск по документу")
+                    .offset(x: 12, y: 15)
                     // Установка серого цвета для placeholder текста
                     .foregroundColor(.gray)
                     // Горизонтальные отступы для placeholder текста

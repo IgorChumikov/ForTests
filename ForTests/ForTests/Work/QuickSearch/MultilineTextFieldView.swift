@@ -113,26 +113,41 @@ struct MultilineSearchField: View {
     }
     
     private var textEditor: some View {
+        // Создание текстового редактора с привязкой к текстовому свойству viewModel
         TextEditor(text: $viewModel.textViewText)
+            // Установка высоты текстового редактора в зависимости от значения searchFieldHeight и maxTextViewHeight
             .frame(height: min(maxTextViewHeight, searchFieldHeight))
+            // Горизонтальные отступы (слева и справа)
             .padding(.horizontal, leftDistance / 2)
+            // Наложение для отображения placeholder текста
             .overlay(
+                // Текст для placeholder, если viewModel.placeholderAttributedText пуст, то отображается пустая строка
                 Text(viewModel.placeholderAttributedText?.string ?? "")
+                    // Установка серого цвета для placeholder текста
                     .foregroundColor(.gray)
+                    // Горизонтальные отступы для placeholder текста
                     .padding(.horizontal, leftDistance / 2)
+                    // Установка прозрачности: 1, если текстовое поле пустое, иначе 0
                     .opacity(viewModel.textViewText.isEmpty ? 1 : 0),
+                // Выравнивание placeholder в верхний левый угол
                 alignment: .topLeading
             )
+            // Установка фона текстового редактора
             .background(Color(.secondarySystemBackground))
+            // Закругление углов текстового редактора
             .cornerRadius(8)
+            // Дополнительные горизонтальные отступы
             .padding(.horizontal, leftDistance / 2)
+            // Обработка изменений в текстовом поле
             .onChange(of: viewModel.textViewText) { _ in
-                adjustTextViewHeight()
+                adjustTextViewHeight() // Вызов функции для корректировки высоты текстового редактора
             }
+            // Обработка касания по текстовому редактору
             .onTapGesture {
-                isEditing = true
+                isEditing = true // Установка флага isEditing в true при нажатии на текстовый редактор
             }
     }
+
     
 }
 

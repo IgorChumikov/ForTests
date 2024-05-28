@@ -38,9 +38,22 @@ struct MultilineSearchField: View {
     @State private var searchFieldHeight: CGFloat = 0
     @State private var isEditing: Bool = false
     
-    private let verticalBorderHeight: CGFloat = 20
-    private let maxTextViewHeight: CGFloat = 104
-    private let minActiveHeight: CGFloat = 56
+    @Environment(\.horizontalSizeClass) private var horizontalSizeClass
+       @Environment(\.verticalSizeClass) private var verticalSizeClass
+       
+       private var cp_regularRegular: Bool {
+           return horizontalSizeClass == .regular && verticalSizeClass == .regular
+       }
+    
+    private var maximumHeight: CGFloat  {
+          cp_regularRegular ? 104 : 108
+      }
+      private var minActiveHeight: CGFloat {
+          cp_regularRegular ? 64 : 56
+      }
+      private var verticalBorderHeight: CGFloat {
+          cp_regularRegular ? 20 : 16
+      }
     private let navigationViewHeight: CGFloat = 44
     private let leftDistance: CGFloat = 32
     
@@ -90,7 +103,7 @@ struct MultilineSearchField: View {
         TextEditor(text: $viewModel.textViewText)
             .focused($isTextEditorFocused)
             // Установка высоты текстового редактора в зависимости от значения searchFieldHeight и maxTextViewHeight
-            .frame(height: min(maxTextViewHeight, searchFieldHeight))
+            .frame(height: min(maximumHeight, searchFieldHeight))
             // Горизонтальные отступы (слева и справа)
             .padding(.horizontal, 20)
             .padding(.top, 15)
@@ -139,7 +152,7 @@ struct MultilineSearchField: View {
         ).size
         
         // Устанавливаем высоту текстового поля, ограничивая её минимальным и максимальным значениями
-        searchFieldHeight = min(maxTextViewHeight, max(minActiveHeight, newSize.height + verticalBorderHeight))
+        searchFieldHeight = min(maximumHeight, max(minActiveHeight, newSize.height + verticalBorderHeight))
     }
     
     private func clearText() {
@@ -163,4 +176,24 @@ struct MultilineSearchField: View {
 
 #Preview {
     MultilineSearchField()
+}
+
+
+import SwiftUI
+
+struct SizeClassKey: EnvironmentKey {
+    static let defaultValue: UITraitCollection = UITraitCollection(horizontalSizeClass: .compact)
+}
+
+extension EnvironmentValues {
+    var sizeClass: UITraitCollection {
+        get { self[SizeClassKey.self] }
+        set { self[SizeClassKey.self] = newValue }
+    }
+}
+
+extension View {
+    func sizeClass(_ sizeClass: UITraitCollection) -> some View {
+        environment(\.sizeClass, sizeClass)
+    }
 }

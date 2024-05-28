@@ -37,6 +37,10 @@
 		AC82964B2B5E583F008383B0 /* PinnedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8296482B5E583F008383B0 /* PinnedUIView.swift */; };
 		AC82964C2B5E583F008383B0 /* ScrollDirectionCustomGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8296492B5E583F008383B0 /* ScrollDirectionCustomGesture.swift */; };
 		AC82964D2B5E583F008383B0 /* ScrollDirectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC82964A2B5E583F008383B0 /* ScrollDirectionView.swift */; };
+		AC89BFFC2C04B462006BE793 /* QuickSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89BFFB2C04B462006BE793 /* QuickSearchView.swift */; };
+		AC89BFFE2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89BFFD2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift */; };
+		AC89C0122C04D5F8006BE793 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89C0112C04D5F8006BE793 /* ContentView.swift */; };
+		AC89C0142C05D193006BE793 /* MultilineTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89C0132C05D193006BE793 /* MultilineTextFieldView.swift */; };
 		AC941F7D2B552D800092C9D6 /* SwiftUIView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC941F7C2B552D800092C9D6 /* SwiftUIView4.swift */; };
 		AC97383C2B639C1D00E3F642 /* SwiftUIView12345.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC97383B2B639C1D00E3F642 /* SwiftUIView12345.swift */; };
 		ACC20EBB2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20EBA2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift */; };
@@ -84,6 +88,10 @@
 		AC8296482B5E583F008383B0 /* PinnedUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinnedUIView.swift; sourceTree = "<group>"; };
 		AC8296492B5E583F008383B0 /* ScrollDirectionCustomGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollDirectionCustomGesture.swift; sourceTree = "<group>"; };
 		AC82964A2B5E583F008383B0 /* ScrollDirectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollDirectionView.swift; sourceTree = "<group>"; };
+		AC89BFFB2C04B462006BE793 /* QuickSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSearchView.swift; sourceTree = "<group>"; };
+		AC89BFFD2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSearchListFoundDocuments.swift; sourceTree = "<group>"; };
+		AC89C0112C04D5F8006BE793 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC89C0132C05D193006BE793 /* MultilineTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextFieldView.swift; sourceTree = "<group>"; };
 		AC941F7C2B552D800092C9D6 /* SwiftUIView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView4.swift; sourceTree = "<group>"; };
 		AC97383B2B639C1D00E3F642 /* SwiftUIView12345.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView12345.swift; sourceTree = "<group>"; };
 		ACC20EBA2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
@@ -292,6 +300,17 @@
 			path = Nata;
 			sourceTree = "<group>";
 		};
+		AC89BFFA2C04B456006BE793 /* QuickSearch */ = {
+			isa = PBXGroup;
+			children = (
+				AC89BFFB2C04B462006BE793 /* QuickSearchView.swift */,
+				AC89BFFD2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift */,
+				AC89C0112C04D5F8006BE793 /* ContentView.swift */,
+				AC89C0132C05D193006BE793 /* MultilineTextFieldView.swift */,
+			);
+			path = QuickSearch;
+			sourceTree = "<group>";
+		};
 		ACDEFE112BEB7F15006E0CD1 /* BM */ = {
 			isa = PBXGroup;
 			children = (
@@ -314,6 +333,7 @@
 		ACDFF39B2B570F08000A6AAA /* Work */ = {
 			isa = PBXGroup;
 			children = (
+				AC89BFFA2C04B456006BE793 /* QuickSearch */,
 				AC5278092BF369FB00CD1909 /* New */,
 				AC5278082BF369EB00CD1909 /* Test */,
 				ACDEFE112BEB7F15006E0CD1 /* BM */,
@@ -471,7 +491,9 @@
 				AC52783E2BF6491F00CD1909 /* ExitAlert+View.swift in Sources */,
 				AC52782C2BF4ED2C00CD1909 /* ResizableSheetsView.swift in Sources */,
 				AC4CB8B62B63E0350058C263 /* DemoOfHidingPanelView.swift in Sources */,
+				AC89BFFE2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift in Sources */,
 				AC6B92722B9F088200542B04 /* SwiftUIView.swift in Sources */,
+				AC89C0142C05D193006BE793 /* MultilineTextFieldView.swift in Sources */,
 				AC52783B2BF647F300CD1909 /* ExitAlertView.swift in Sources */,
 				ACDEFE152BEB7F41006E0CD1 /* UserAuthorizationBM.swift in Sources */,
 				ACC20EBB2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */,
@@ -494,6 +516,8 @@
 				AC72FA642B513E2C009E60AB /* ForTestsApp.swift in Sources */,
 				AC5278122BF37D2800CD1909 /* KeyboardHelper.swift in Sources */,
 				AC5278382BF647A500CD1909 /* ContentViewTwo.swift in Sources */,
+				AC89BFFC2C04B462006BE793 /* QuickSearchView.swift in Sources */,
+				AC89C0122C04D5F8006BE793 /* ContentView.swift in Sources */,
 				AC5278142BF385DC00CD1909 /* PanelViewNew.swift in Sources */,
 				AC82964D2B5E583F008383B0 /* ScrollDirectionView.swift in Sources */,
 				ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */,

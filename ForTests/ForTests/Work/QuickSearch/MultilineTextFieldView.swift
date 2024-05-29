@@ -35,30 +35,11 @@ class MultilineSearchFieldViewModel: ObservableObject {
 
 struct MultilineSearchField: View {
     @ObservedObject var viewModel = MultilineSearchFieldViewModel()
-    @State private var searchFieldHeight: CGFloat = 0
-    @State private var isEditing: Bool = false
     
-    @Environment(\.horizontalSizeClass) private var horizontalSizeClass
-       @Environment(\.verticalSizeClass) private var verticalSizeClass
-       
-       private var cp_regularRegular: Bool {
-           return horizontalSizeClass == .regular && verticalSizeClass == .regular
-       }
+    @State private var isEditing: Bool = false
     
     @State private var textHeight: CGFloat = 50
     private let maxHeight: CGFloat = 104
-    
-    private var maximumHeight: CGFloat  {
-          cp_regularRegular ? 104 : 108
-      }
-      private var minActiveHeight: CGFloat {
-          cp_regularRegular ? 64 : 56
-      }
-      private var verticalBorderHeight: CGFloat {
-          cp_regularRegular ? 20 : 16
-      }
-    private let navigationViewHeight: CGFloat = 44
-    private let leftDistance: CGFloat = 32
     
     @FocusState private var isTextEditorFocused: Bool
     
@@ -71,7 +52,6 @@ struct MultilineSearchField: View {
                 textSearchButton
             }
         }
-        .padding(.vertical, verticalBorderHeight / 2)
         .onAppear {
             isTextEditorFocused = true
         }
@@ -127,7 +107,7 @@ struct MultilineSearchField: View {
                 Text(viewModel.placeholderAttributedText?.string ?? "Поиск по документу")
                     .offset(x: -10, y: 10)
                     .foregroundColor(.gray)
-                    .padding(.horizontal, leftDistance / 2)
+                    .padding(.horizontal, 32 / 2)
                     .opacity(viewModel.textViewText.isEmpty ? 1 : 0),
                 alignment: .topLeading
             )
@@ -167,24 +147,4 @@ struct MultilineSearchField: View {
 
 #Preview {
     MultilineSearchField()
-}
-
-
-import SwiftUI
-
-struct SizeClassKey: EnvironmentKey {
-    static let defaultValue: UITraitCollection = UITraitCollection(horizontalSizeClass: .compact)
-}
-
-extension EnvironmentValues {
-    var sizeClass: UITraitCollection {
-        get { self[SizeClassKey.self] }
-        set { self[SizeClassKey.self] = newValue }
-    }
-}
-
-extension View {
-    func sizeClass(_ sizeClass: UITraitCollection) -> some View {
-        environment(\.sizeClass, sizeClass)
-    }
 }

@@ -117,14 +117,24 @@ struct MultilineSearchField: View {
     }
     
     // MARK: - Private functions
-
+    
     private func calculateHeight(for text: String, width: CGFloat) -> CGFloat {
-        let textView = UITextView()
-        textView.text = text
-        textView.font = UIFont.systemFont(ofSize: 17)
-        let size = textView.sizeThatFits(CGSize(width: width, height: CGFloat.greatestFiniteMagnitude))
-        return size.height
+        let boundingSize = CGSize(width: width, height: .greatestFiniteMagnitude)
+        let options = NSStringDrawingOptions.usesFontLeading.union(.usesLineFragmentOrigin)
+        let attributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 17)]
+
+        let rect = NSString(string: text).boundingRect(with: boundingSize, options: options, attributes: attributes, context: nil)
+
+        return ceil(rect.height + 20)
     }
+
+//    private func calculateHeight(for text: String, width: CGFloat) -> CGFloat {
+//        let textView = UITextView()
+//        textView.text = text
+//        textView.font = UIFont.systemFont(ofSize: 17)
+//        let size = textView.sizeThatFits(CGSize(width: width, height: CGFloat.greatestFiniteMagnitude))
+//        return size.height
+//    }
 
     private func clearText() {
         viewModel.textViewText = ""

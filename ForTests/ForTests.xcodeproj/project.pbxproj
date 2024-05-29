@@ -41,6 +41,7 @@
 		AC89BFFE2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89BFFD2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift */; };
 		AC89C0122C04D5F8006BE793 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89C0112C04D5F8006BE793 /* ContentView.swift */; };
 		AC89C0142C05D193006BE793 /* MultilineTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89C0132C05D193006BE793 /* MultilineTextFieldView.swift */; };
+		AC89C0182C071C9F006BE793 /* DynamicHeightTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89C0172C071C9F006BE793 /* DynamicHeightTextEditor.swift */; };
 		AC941F7D2B552D800092C9D6 /* SwiftUIView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC941F7C2B552D800092C9D6 /* SwiftUIView4.swift */; };
 		AC97383C2B639C1D00E3F642 /* SwiftUIView12345.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC97383B2B639C1D00E3F642 /* SwiftUIView12345.swift */; };
 		ACC20EBB2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20EBA2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift */; };
@@ -92,6 +93,7 @@
 		AC89BFFD2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSearchListFoundDocuments.swift; sourceTree = "<group>"; };
 		AC89C0112C04D5F8006BE793 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC89C0132C05D193006BE793 /* MultilineTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextFieldView.swift; sourceTree = "<group>"; };
+		AC89C0172C071C9F006BE793 /* DynamicHeightTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicHeightTextEditor.swift; sourceTree = "<group>"; };
 		AC941F7C2B552D800092C9D6 /* SwiftUIView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView4.swift; sourceTree = "<group>"; };
 		AC97383B2B639C1D00E3F642 /* SwiftUIView12345.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView12345.swift; sourceTree = "<group>"; };
 		ACC20EBA2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
@@ -307,6 +309,7 @@
 				AC89BFFD2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift */,
 				AC89C0112C04D5F8006BE793 /* ContentView.swift */,
 				AC89C0132C05D193006BE793 /* MultilineTextFieldView.swift */,
+				AC89C0172C071C9F006BE793 /* DynamicHeightTextEditor.swift */,
 			);
 			path = QuickSearch;
 			sourceTree = "<group>";
@@ -514,6 +517,7 @@
 				ACFEDC782B83A2C3002B3C66 /* View+Hidden.swift in Sources */,
 				ACFEDC7B2B83A333002B3C66 /* DisableScrollingModifier.swift in Sources */,
 				AC72FA642B513E2C009E60AB /* ForTestsApp.swift in Sources */,
+				AC89C0182C071C9F006BE793 /* DynamicHeightTextEditor.swift in Sources */,
 				AC5278122BF37D2800CD1909 /* KeyboardHelper.swift in Sources */,
 				AC5278382BF647A500CD1909 /* ContentViewTwo.swift in Sources */,
 				AC89BFFC2C04B462006BE793 /* QuickSearchView.swift in Sources */,

@@ -45,6 +45,9 @@ struct MultilineSearchField: View {
            return horizontalSizeClass == .regular && verticalSizeClass == .regular
        }
     
+    @State private var textHeight: CGFloat = 50
+    private let maxHeight: CGFloat = 104
+    
     private var maximumHeight: CGFloat  {
           cp_regularRegular ? 104 : 108
       }
@@ -70,7 +73,6 @@ struct MultilineSearchField: View {
         }
         .padding(.vertical, verticalBorderHeight / 2)
         .onAppear {
-            adjustTextViewHeight()
             isTextEditorFocused = true
         }
     }
@@ -99,39 +101,36 @@ struct MultilineSearchField: View {
     }
     
     private var textEditor: some View {
-        // Создание текстового редактора с привязкой к текстовому свойству viewModel
         TextEditor(text: $viewModel.textViewText)
             .focused($isTextEditorFocused)
-            // Установка высоты текстового редактора в зависимости от значения searchFieldHeight и maxTextViewHeight
-            .frame(height: min(maximumHeight, searchFieldHeight))
-            // Горизонтальные отступы (слева и справа)
-            .padding(.horizontal, 20)
-            .padding(.top, 15)
+            .frame(height: min(textHeight, maxHeight))
+            .background(GeometryReader { geometry in
+                Color.clear.onAppear {
+                    // Изначально устанавливаем высоту на основе текущего текста
+                    self.textHeight = calculateHeight(for: viewModel.textViewText, width: geometry.size.width)
+                }
+            })
+            .onChange(of: viewModel.textViewText) { newValue in
+                // Пересчитываем высоту при изменении текста
+                withAnimation {
+                    self.textHeight = min(calculateHeight(for: newValue, width: UIScreen.main.bounds.width - 0), maxHeight)
+                    // 32 это отступ .padding()
+                }
+            }
+            .padding(.horizontal, 1)
+            .padding(.top, 1)
+            .padding(.bottom, 1)
+            .background(Color(.red))
+        
             // Наложение для отображения placeholder текста
             .overlay(
-                // Текст для placeholder, если viewModel.placeholderAttributedText пуст, то отображается пустая строка
                 Text(viewModel.placeholderAttributedText?.string ?? "Поиск по документу")
-                    .offset(x: 9, y: 24)
-                    // Установка серого цвета для placeholder текста
+                    .offset(x: -10, y: 10)
                     .foregroundColor(.gray)
-                    // Горизонтальные отступы для placeholder текста
                     .padding(.horizontal, leftDistance / 2)
-                    // Установка прозрачности: 1, если текстовое поле пустое, иначе 0
                     .opacity(viewModel.textViewText.isEmpty ? 1 : 0),
-                // Выравнивание placeholder в верхний левый угол
                 alignment: .topLeading
             )
-            // Установка фона текстового редактора
-            .background(Color(.secondarySystemBackground))
-            // Закругление углов текстового редактора
-            .cornerRadius(8)
-            // Дополнительные горизонтальные отступы
-           // .padding(.horizontal, leftDistance / 2)
-            // Обработка изменений в текстовом поле
-            .onChange(of: viewModel.textViewText) { _ in
-                adjustTextViewHeight() // Вызов функции для корректировки высоты текстового редактора
-            }
-            // Обработка касания по текстовому редактору
             .onTapGesture {
                 isEditing = true // Установка флага isEditing в true при нажатии на текстовый редактор
             }
@@ -139,22 +138,14 @@ struct MultilineSearchField: View {
     
     // MARK: - Private functions
 
-    private func adjustTextViewHeight() {
-        // Устанавливаем фиксированную ширину, вычитая от ширины экрана значение leftDistance
-        let fixedWidth = UIScreen.main.bounds.width - leftDistance
-        
-        // Рассчитываем новый размер текстового поля на основе его текущего текста
-        let newSize = viewModel.textViewText.boundingRect(
-            with: CGSize(width: fixedWidth, height: CGFloat.greatestFiniteMagnitude), // Задаем максимально возможную высоту
-            options: .usesLineFragmentOrigin, // Указываем, что должны быть учтены все разрывы строк и фрагменты
-            attributes: [.font: UIFont.systemFont(ofSize: UIFont.systemFontSize)], // Указываем атрибуты текста, включая шрифт
-            context: nil // Не используем контекст
-        ).size
-        
-        // Устанавливаем высоту текстового поля, ограничивая её минимальным и максимальным значениями
-        searchFieldHeight = min(maximumHeight, max(minActiveHeight, newSize.height + verticalBorderHeight))
+    private func calculateHeight(for text: String, width: CGFloat) -> CGFloat {
+        let textView = UITextView()
+        textView.text = text
+        textView.font = UIFont.systemFont(ofSize: 17)
+        let size = textView.sizeThatFits(CGSize(width: width, height: CGFloat.greatestFiniteMagnitude))
+        return size.height
     }
-    
+
     private func clearText() {
         viewModel.textViewText = ""
     }

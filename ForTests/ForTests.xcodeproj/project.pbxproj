@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC03622B2C1879AC0033B781 /* View4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC03622A2C1879AC0033B781 /* View4.swift */; };
+		AC4238402C11A6C50035B3CE /* SwiftUIView123231.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC42383F2C11A6C50035B3CE /* SwiftUIView123231.swift */; };
 		AC4CB8B62B63E0350058C263 /* DemoOfHidingPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4CB8B52B63E0350058C263 /* DemoOfHidingPanelView.swift */; };
 		AC52780D2BF37BF700CD1909 /* BottomSheetModifierNew+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52780C2BF37BF700CD1909 /* BottomSheetModifierNew+View.swift */; };
 		AC52780F2BF37C7700CD1909 /* ScrollablePanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52780E2BF37C7700CD1909 /* ScrollablePanelView.swift */; };
@@ -58,6 +60,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC03622A2C1879AC0033B781 /* View4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View4.swift; sourceTree = "<group>"; };
+		AC42383F2C11A6C50035B3CE /* SwiftUIView123231.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView123231.swift; sourceTree = "<group>"; };
 		AC4CB8B52B63E0350058C263 /* DemoOfHidingPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoOfHidingPanelView.swift; sourceTree = "<group>"; };
 		AC52780C2BF37BF700CD1909 /* BottomSheetModifierNew+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BottomSheetModifierNew+View.swift"; sourceTree = "<group>"; };
 		AC52780E2BF37C7700CD1909 /* ScrollablePanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollablePanelView.swift; sourceTree = "<group>"; };
@@ -120,6 +124,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC0362292C1879840033B781 /* Tran */ = {
+			isa = PBXGroup;
+			children = (
+				AC03622A2C1879AC0033B781 /* View4.swift */,
+			);
+			path = Tran;
+			sourceTree = "<group>";
+		};
 		AC2E18012B8DF7ED001A1485 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
@@ -310,6 +322,7 @@
 				AC89C0112C04D5F8006BE793 /* ContentView.swift */,
 				AC89C0132C05D193006BE793 /* MultilineTextFieldView.swift */,
 				AC89C0172C071C9F006BE793 /* DynamicHeightTextEditor.swift */,
+				AC42383F2C11A6C50035B3CE /* SwiftUIView123231.swift */,
 			);
 			path = QuickSearch;
 			sourceTree = "<group>";
@@ -336,6 +349,7 @@
 		ACDFF39B2B570F08000A6AAA /* Work */ = {
 			isa = PBXGroup;
 			children = (
+				AC0362292C1879840033B781 /* Tran */,
 				AC89BFFA2C04B456006BE793 /* QuickSearch */,
 				AC5278092BF369FB00CD1909 /* New */,
 				AC5278082BF369EB00CD1909 /* Test */,
@@ -506,6 +520,7 @@
 				AC82964C2B5E583F008383B0 /* ScrollDirectionCustomGesture.swift in Sources */,
 				AC5278212BF4CF7700CD1909 /* AlertContentView.swift in Sources */,
 				AC52781D2BF38B7C00CD1909 /* ExitCurtainView.swift in Sources */,
+				AC4238402C11A6C50035B3CE /* SwiftUIView123231.swift in Sources */,
 				AC52780F2BF37C7700CD1909 /* ScrollablePanelView.swift in Sources */,
 				AC52780D2BF37BF700CD1909 /* BottomSheetModifierNew+View.swift in Sources */,
 				ACDFF39F2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift in Sources */,
@@ -521,6 +536,7 @@
 				AC5278122BF37D2800CD1909 /* KeyboardHelper.swift in Sources */,
 				AC5278382BF647A500CD1909 /* ContentViewTwo.swift in Sources */,
 				AC89BFFC2C04B462006BE793 /* QuickSearchView.swift in Sources */,
+				AC03622B2C1879AC0033B781 /* View4.swift in Sources */,
 				AC89C0122C04D5F8006BE793 /* ContentView.swift in Sources */,
 				AC5278142BF385DC00CD1909 /* PanelViewNew.swift in Sources */,
 				AC82964D2B5E583F008383B0 /* ScrollDirectionView.swift in Sources */,

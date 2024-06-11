@@ -17,19 +17,22 @@ struct View5: View {
     var body: some View {
         NavigationView {
             VStack {
-                if navigationStackManager.activeView == 0 {
+                switch navigationStackManager.activeView {
+                case 0:
                     Button("Переход на View5_1") {
                         navigationStackManager.activeView = 1
                     }
                     .navigationTitle("View5")
-                } else if navigationStackManager.activeView == 1 {
+                case 1:
                     View5_1()
-                } else if navigationStackManager.activeView == 2 {
+                case 2:
                     View5_2()
-                } else if navigationStackManager.activeView == 3 {
+                case 3:
                     View5_3()
-                } else if navigationStackManager.activeView == 4 {
+                case 4:
                     View5_4()
+                default:
+                    EmptyView()
                 }
             }
         }

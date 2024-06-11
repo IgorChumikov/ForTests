@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AC03622B2C1879AC0033B781 /* View4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC03622A2C1879AC0033B781 /* View4.swift */; };
+		AC03622D2C187D7D0033B781 /* View5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC03622C2C187D7D0033B781 /* View5.swift */; };
 		AC4238402C11A6C50035B3CE /* SwiftUIView123231.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC42383F2C11A6C50035B3CE /* SwiftUIView123231.swift */; };
 		AC4CB8B62B63E0350058C263 /* DemoOfHidingPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4CB8B52B63E0350058C263 /* DemoOfHidingPanelView.swift */; };
 		AC52780D2BF37BF700CD1909 /* BottomSheetModifierNew+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52780C2BF37BF700CD1909 /* BottomSheetModifierNew+View.swift */; };
@@ -61,6 +62,7 @@
 
 /* Begin PBXFileReference section */
 		AC03622A2C1879AC0033B781 /* View4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View4.swift; sourceTree = "<group>"; };
+		AC03622C2C187D7D0033B781 /* View5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View5.swift; sourceTree = "<group>"; };
 		AC42383F2C11A6C50035B3CE /* SwiftUIView123231.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView123231.swift; sourceTree = "<group>"; };
 		AC4CB8B52B63E0350058C263 /* DemoOfHidingPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoOfHidingPanelView.swift; sourceTree = "<group>"; };
 		AC52780C2BF37BF700CD1909 /* BottomSheetModifierNew+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BottomSheetModifierNew+View.swift"; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				AC03622A2C1879AC0033B781 /* View4.swift */,
+				AC03622C2C187D7D0033B781 /* View5.swift */,
 			);
 			path = Tran;
 			sourceTree = "<group>";
@@ -532,6 +535,7 @@
 				ACFEDC782B83A2C3002B3C66 /* View+Hidden.swift in Sources */,
 				ACFEDC7B2B83A333002B3C66 /* DisableScrollingModifier.swift in Sources */,
 				AC72FA642B513E2C009E60AB /* ForTestsApp.swift in Sources */,
+				AC03622D2C187D7D0033B781 /* View5.swift in Sources */,
 				AC89C0182C071C9F006BE793 /* DynamicHeightTextEditor.swift in Sources */,
 				AC5278122BF37D2800CD1909 /* KeyboardHelper.swift in Sources */,
 				AC5278382BF647A500CD1909 /* ContentViewTwo.swift in Sources */,

@@ -37,6 +37,10 @@ struct View5: View {
             }
         }
         .environmentObject(navigationStackManager)
+        .animation(
+            Animation.easeInOut,
+            value: navigationStackManager.activeView
+        )
     }
 }
 

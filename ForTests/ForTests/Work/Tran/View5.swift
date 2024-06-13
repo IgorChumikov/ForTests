@@ -36,7 +36,8 @@ struct View5: View {
                 View5_4()
             }
         }
-        .navigationBarHidden(true)
+       // .navigationBarHidden(true) // FOX не работает 
+        .navigationBarBackButtonHidden(true)
         .environmentObject(navigationStackManager)
         .animation(
             Animation.easeInOut,

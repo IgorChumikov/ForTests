@@ -48,14 +48,17 @@ struct View5_1: View {
     @EnvironmentObject var navigationStackManager: NavigationStackManager
     
     var body: some View {
-        VStack {
-            Button("Переход на View5_2") {
-                navigationStackManager.activeView = 2
+        ZStack {
+            Color.red.ignoresSafeArea()
+            VStack {
+                Button("Переход на View5_2") {
+                    navigationStackManager.activeView = 2
+                }
             }
-        }
-        .navigationTitle("View5_1")
-        .onAppear {
-            navigationStackManager.activeView = 1
+            .navigationTitle("View5_1")
+            .onAppear {
+                navigationStackManager.activeView = 1
+            }
         }
     }
 }
@@ -64,14 +67,17 @@ struct View5_2: View {
     @EnvironmentObject var navigationStackManager: NavigationStackManager
     
     var body: some View {
-        VStack {
-            Button("Переход на View5_3") {
-                navigationStackManager.activeView = 3
+        ZStack {
+            Color.brown.ignoresSafeArea()
+            VStack {
+                Button("Переход на View5_3") {
+                    navigationStackManager.activeView = 3
+                }
             }
-        }
-        .navigationTitle("View5_2")
-        .onAppear {
-            navigationStackManager.activeView = 2
+            .navigationTitle("View5_2")
+            .onAppear {
+                navigationStackManager.activeView = 2
+            }
         }
     }
 }
@@ -80,14 +86,17 @@ struct View5_3: View {
     @EnvironmentObject var navigationStackManager: NavigationStackManager
     
     var body: some View {
-        VStack {
-            Button("Переход на View5_4") {
-                navigationStackManager.activeView = 4
+        ZStack {
+            Color.yellow.ignoresSafeArea()
+            VStack {
+                Button("Переход на View5_4") {
+                    navigationStackManager.activeView = 4
+                }
             }
-        }
-        .navigationTitle("View5_3")
-        .onAppear {
-            navigationStackManager.activeView = 3
+            .navigationTitle("View5_3")
+            .onAppear {
+                navigationStackManager.activeView = 3
+            }
         }
     }
 }
@@ -96,15 +105,18 @@ struct View5_4: View {
     @EnvironmentObject var navigationStackManager: NavigationStackManager
     
     var body: some View {
-        VStack {
-            Text("Это View5_4")
-            Button("На главный экран") {
-                navigationStackManager.activeView = 0
+        ZStack {
+            Color.green.ignoresSafeArea()
+            VStack {
+                Text("Это View5_4")
+                Button("На главный экран") {
+                    navigationStackManager.activeView = 0
+                }
             }
-        }
-        .navigationTitle("View5_4")
-        .onAppear {
-            navigationStackManager.activeView = 4
+            .navigationTitle("View5_4")
+            .onAppear {
+                navigationStackManager.activeView = 4
+            }
         }
     }
 }

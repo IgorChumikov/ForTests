@@ -19,25 +19,24 @@ struct View5: View {
     @StateObject private var navigationStackManager = NavigationStackManager()
     
     var body: some View {
-        NavigationView {
-            VStack {
-                switch navigationStackManager.activeView {
-                case .main:
-                    Button("Переход на View5_1") {
-                        navigationStackManager.activeView = .view1
-                    }
-                    .navigationTitle("View5")
-                case .view1:
-                    View5_1()
-                case .view2:
-                    View5_2()
-                case .view3:
-                    View5_3()
-                case .view4:
-                    View5_4()
+        VStack {
+            switch navigationStackManager.activeView {
+            case .main:
+                Button("Переход на View5_1") {
+                    navigationStackManager.activeView = .view1
                 }
+                .navigationTitle("View5")
+            case .view1:
+                View5_1()
+            case .view2:
+                View5_2()
+            case .view3:
+                View5_3()
+            case .view4:
+                View5_4()
             }
         }
+        .navigationBarHidden(true)
         .environmentObject(navigationStackManager)
         .animation(
             Animation.easeInOut,

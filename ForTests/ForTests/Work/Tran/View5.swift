@@ -36,7 +36,6 @@ struct View5: View {
                 View5_4()
             }
         }
-       // .navigationBarHidden(true) // FOX не работает 
         .navigationBarBackButtonHidden(true)
         .environmentObject(navigationStackManager)
         .animation(
@@ -105,14 +104,15 @@ struct View5_3: View {
 
 struct View5_4: View {
     @EnvironmentObject var navigationStackManager: NavigationStackManager
+    @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
         ZStack {
             Color.green.ignoresSafeArea()
             VStack {
                 Text("Это View5_4")
-                Button("На главный экран") {
-                    navigationStackManager.activeView = .main
+                Button("Закрыть") {
+                    presentationMode.wrappedValue.dismiss()
                 }
             }
             .navigationTitle("View5_4")
@@ -122,6 +122,7 @@ struct View5_4: View {
         }
     }
 }
+
 
 #Preview {
     View5()

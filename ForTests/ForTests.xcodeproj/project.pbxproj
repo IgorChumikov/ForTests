@@ -10,6 +10,12 @@
 		AC03622B2C1879AC0033B781 /* View4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC03622A2C1879AC0033B781 /* View4.swift */; };
 		AC03622D2C187D7D0033B781 /* View5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC03622C2C187D7D0033B781 /* View5.swift */; };
 		AC03622F2C1B10E00033B781 /* MainView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC03622E2C1B10E00033B781 /* MainView5.swift */; };
+		AC366EAE2C2034760029AA9A /* MenuSwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC366EAD2C2034760029AA9A /* MenuSwiftUIView2.swift */; };
+		AC366EB02C203A4C0029AA9A /* MenuSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC366EAF2C203A4C0029AA9A /* MenuSwiftUIView.swift */; };
+		AC366EB32C20666C0029AA9A /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC366EB22C20666C0029AA9A /* DropDown.swift */; };
+		AC366EB52C2066B40029AA9A /* MenuSwiftUIView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC366EB42C2066B40029AA9A /* MenuSwiftUIView3.swift */; };
+		AC366EB82C2069A90029AA9A /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC366EB72C2069A90029AA9A /* DropDownView.swift */; };
+		AC366EBA2C2069DC0029AA9A /* MenuSwiftUIView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC366EB92C2069DC0029AA9A /* MenuSwiftUIView4.swift */; };
 		AC4238402C11A6C50035B3CE /* SwiftUIView123231.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC42383F2C11A6C50035B3CE /* SwiftUIView123231.swift */; };
 		AC4CB8B62B63E0350058C263 /* DemoOfHidingPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4CB8B52B63E0350058C263 /* DemoOfHidingPanelView.swift */; };
 		AC52780D2BF37BF700CD1909 /* BottomSheetModifierNew+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52780C2BF37BF700CD1909 /* BottomSheetModifierNew+View.swift */; };
@@ -65,6 +71,12 @@
 		AC03622A2C1879AC0033B781 /* View4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View4.swift; sourceTree = "<group>"; };
 		AC03622C2C187D7D0033B781 /* View5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View5.swift; sourceTree = "<group>"; };
 		AC03622E2C1B10E00033B781 /* MainView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView5.swift; sourceTree = "<group>"; };
+		AC366EAD2C2034760029AA9A /* MenuSwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSwiftUIView2.swift; sourceTree = "<group>"; };
+		AC366EAF2C203A4C0029AA9A /* MenuSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSwiftUIView.swift; sourceTree = "<group>"; };
+		AC366EB22C20666C0029AA9A /* DropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
+		AC366EB42C2066B40029AA9A /* MenuSwiftUIView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSwiftUIView3.swift; sourceTree = "<group>"; };
+		AC366EB72C2069A90029AA9A /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
+		AC366EB92C2069DC0029AA9A /* MenuSwiftUIView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSwiftUIView4.swift; sourceTree = "<group>"; };
 		AC42383F2C11A6C50035B3CE /* SwiftUIView123231.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView123231.swift; sourceTree = "<group>"; };
 		AC4CB8B52B63E0350058C263 /* DemoOfHidingPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoOfHidingPanelView.swift; sourceTree = "<group>"; };
 		AC52780C2BF37BF700CD1909 /* BottomSheetModifierNew+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BottomSheetModifierNew+View.swift"; sourceTree = "<group>"; };
@@ -143,6 +155,35 @@
 			children = (
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		AC366EAC2C20345D0029AA9A /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				AC366EB62C2069940029AA9A /* DropDown2 */,
+				AC366EAD2C2034760029AA9A /* MenuSwiftUIView2.swift */,
+				AC366EAF2C203A4C0029AA9A /* MenuSwiftUIView.swift */,
+				AC366EB12C2066610029AA9A /* DropDown */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		AC366EB12C2066610029AA9A /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				AC366EB22C20666C0029AA9A /* DropDown.swift */,
+				AC366EB42C2066B40029AA9A /* MenuSwiftUIView3.swift */,
+			);
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		AC366EB62C2069940029AA9A /* DropDown2 */ = {
+			isa = PBXGroup;
+			children = (
+				AC366EB72C2069A90029AA9A /* DropDownView.swift */,
+				AC366EB92C2069DC0029AA9A /* MenuSwiftUIView4.swift */,
+			);
+			path = DropDown2;
 			sourceTree = "<group>";
 		};
 		AC4CB8B72B63E1C80058C263 /* DisappearanceOfTopPanel */ = {
@@ -355,6 +396,7 @@
 		ACDFF39B2B570F08000A6AAA /* Work */ = {
 			isa = PBXGroup;
 			children = (
+				AC366EAC2C20345D0029AA9A /* Menu */,
 				AC0362292C1879840033B781 /* Tran */,
 				AC89BFFA2C04B456006BE793 /* QuickSearch */,
 				AC5278092BF369FB00CD1909 /* New */,
@@ -508,12 +550,15 @@
 				AC5278342BF6468600CD1909 /* CustomAlertView.swift in Sources */,
 				ACFEDC742B83A246002B3C66 /* View+OnFirstAppear.swift in Sources */,
 				AC5278162BF386E400CD1909 /* PanelViewIndicator.swift in Sources */,
+				AC366EB02C203A4C0029AA9A /* MenuSwiftUIView.swift in Sources */,
+				AC366EB32C20666C0029AA9A /* DropDown.swift in Sources */,
 				AC5278362BF646C100CD1909 /* ContentViewOne.swift in Sources */,
 				AC5278452BF649C600CD1909 /* ContentViewOne2.swift in Sources */,
 				AC03622F2C1B10E00033B781 /* MainView5.swift in Sources */,
 				AC52782E2BF4ED6F00CD1909 /* ResizableSheets2View.swift in Sources */,
 				AC52783E2BF6491F00CD1909 /* ExitAlert+View.swift in Sources */,
 				AC52782C2BF4ED2C00CD1909 /* ResizableSheetsView.swift in Sources */,
+				AC366EB82C2069A90029AA9A /* DropDownView.swift in Sources */,
 				AC4CB8B62B63E0350058C263 /* DemoOfHidingPanelView.swift in Sources */,
 				AC89BFFE2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift in Sources */,
 				AC6B92722B9F088200542B04 /* SwiftUIView.swift in Sources */,
@@ -534,6 +579,8 @@
 				AC5B1B042BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift in Sources */,
 				AC52781A2BF38AE800CD1909 /* DialogView.swift in Sources */,
 				AC5278422BF6497D00CD1909 /* ExitAlertModifier.swift in Sources */,
+				AC366EBA2C2069DC0029AA9A /* MenuSwiftUIView4.swift in Sources */,
+				AC366EB52C2066B40029AA9A /* MenuSwiftUIView3.swift in Sources */,
 				ACDFF3A32B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift in Sources */,
 				ACFEDC702B83A064002B3C66 /* Skeleton.swift in Sources */,
 				ACFEDC782B83A2C3002B3C66 /* View+Hidden.swift in Sources */,
@@ -550,6 +597,7 @@
 				AC82964D2B5E583F008383B0 /* ScrollDirectionView.swift in Sources */,
 				ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */,
 				ACFEDC762B83A2A6002B3C66 /* View+Padding.swift in Sources */,
+				AC366EAE2C2034760029AA9A /* MenuSwiftUIView2.swift in Sources */,
 				AC97383C2B639C1D00E3F642 /* SwiftUIView12345.swift in Sources */,
 				AC52781F2BF3941A00CD1909 /* MainCurtainView.swift in Sources */,
 				AC5278182BF388F700CD1909 /* BottomSheet.swift in Sources */,

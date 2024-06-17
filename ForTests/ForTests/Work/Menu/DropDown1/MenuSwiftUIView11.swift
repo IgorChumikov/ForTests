@@ -1,13 +1,14 @@
 //
-//  MenuSwiftUIView.swift
+//  MenuSwiftUIView11.swift
 //  ForTests
 //
 //  Created by Игорь Чумиков on 17.06.2024.
 //
 
+
 import SwiftUI
 
-struct MenuSwiftUIView: View {
+struct MenuSwiftUIView11: View {
     @State private var selection: String = "Easy"
     @Environment(\.colorScheme) var scheme
     var body: some View {
@@ -32,7 +33,7 @@ struct MenuSwiftUIView: View {
 }
 
 #Preview {
-    MenuSwiftUIView()
+    MenuSwiftUIView11()
 }
 
 
@@ -129,4 +130,3 @@ struct DropDown2: View{
             }
     }
 }
-

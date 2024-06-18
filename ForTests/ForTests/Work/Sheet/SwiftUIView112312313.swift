@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SwiftUIView112312313: View {
     
-    @State var showInfoSheet: Bool = true
+    @State var showInfoSheet: Bool = false
     
     var body: some View {
         ZStack {

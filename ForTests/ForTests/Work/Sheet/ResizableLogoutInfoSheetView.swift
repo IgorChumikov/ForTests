@@ -24,6 +24,7 @@ struct ResizableLogoutInfoSheetView: View {
     
     var action: () -> Void
     @State private var isPresented: Bool = false
+    @State private var selectedProfile: String? = nil
     
     // MARK: - Content
     
@@ -59,7 +60,7 @@ struct ResizableLogoutInfoSheetView: View {
     private var heading: some View {
         Text("Ваш профиль")
             .font(.callout)
-                   .fontWeight(.bold)
+            .fontWeight(.bold)
             .frame(maxWidth: .infinity, alignment: .center)
             .padding(.bottom, 24)
     }
@@ -68,13 +69,26 @@ struct ResizableLogoutInfoSheetView: View {
         VStack(alignment: .leading, spacing: 0) {
             ForEach(profiles.indices, id: \.self) { index in
                 HStack(alignment: .center, spacing: 6) {
-                    Text(profiles[index])
-                        .lineLimit(3)
+                    VStack(alignment: .leading, spacing: 0) {
+                        Text(profiles[index])
+                            .foregroundColor(.black)
+                            .lineLimit(3)
+                    }
                     Spacer()
-                    Circle()
-                        .stroke(Color.blue, lineWidth: 1)
-                        .frame(width: 16, height: 16)
+                    Button {
+                        print("index - \(index)")
+                        selectedProfile = profiles[index]
+                        print("selectedProfile - \(selectedProfile ?? "")")
+                    } label: {
+                        if selectedProfile == profiles[index] {
+                            Image(systemName: "circle.fill")
+                        } else {
+                            Image(systemName: "circle")
+                        }
+                    }
                 }
+                
+                
                 if index != profiles.indices.last {
                     Divider()
                         .background(Color.black)
@@ -108,18 +122,3 @@ struct ResizableLogoutInfoSheetView_Previews: PreviewProvider {
         )
     }
 }
-
-
-
-
-//VStack(spacing: 20) {
-//          // Кружок заполненный цветом
-//          Circle()
-//              .fill(Color.blue)
-//              .frame(width: 100, height: 100)
-//
-//          // Кружок с обводкой
-//          Circle()
-//              .stroke(Color.blue, lineWidth: 4)
-//              .frame(width: 100, height: 100)
-//      }

@@ -11,7 +11,7 @@ import SwiftUI
 struct ForTestsApp: App {
     var body: some Scene {
         WindowGroup {
-            MainView5()
+            SwiftUIView112312313()
         }
     }
 }

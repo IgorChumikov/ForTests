@@ -5,15 +5,6 @@
 //  Created by Игорь Чумиков on 18.06.2024.
 //
 
-// Использовать с IOS 16
-
-private enum Constants {
-    static let textLogin = "Логин"
-    static let textCloseButton = "Закрыть"
-    static let heading = "Коммерческая версия с доступом к вашему комплекту КонсультантПлюс"
-    static let textLoginButton = "Выйти"
-}
-
 import SwiftUI
 
 // MARK: - ResizableLogoutInfoSheetView
@@ -21,10 +12,18 @@ import SwiftUI
 struct ResizableLogoutInfoSheetView: View {
     // MARK: - Properties
     
-    @State var loginNumber: String
-    var action: () -> Void
+    private var profiles: [String] {
+        [
+            "Бухгалтерия и финансы в коммерческой организации",
+            "Юриспруденция",
+            "Специалист по закупкам",
+            "Руководитель",
+            "Студент или преподаватель"
+        ]
+    }
     
-    @State var isPresented: Bool = false
+    var action: () -> Void
+    @State private var isPresented: Bool = false
     
     // MARK: - Content
     
@@ -35,11 +34,11 @@ struct ResizableLogoutInfoSheetView: View {
                 closeButton
                 heading
                 textInfo
+                    .padding(.bottom, 30)
                 loginButton
             }
             .padding(.horizontal, 16)
         }
-       // .modifier(AlertLogoutInfoModifier(isPresented: $isPresented))
     }
     
     // MARK: - Views
@@ -50,69 +49,77 @@ struct ResizableLogoutInfoSheetView: View {
     }
     
     private var closeButton: some View {
-        Button {
-            action()
-        } label: {
-            Text(Constants.textCloseButton)
-               // .singlelineStyle(.size17, .regular, .textLinkBlue)
+        Button(action: action) {
+            Text("Отмена")
+                .padding(.top, 4)
+                .padding(.bottom, 10)
         }
-        .padding(.top, 4)
-        .padding(.bottom, 32)
     }
     
     private var heading: some View {
-        Text(Constants.heading)
-          //  .multilineStyle(.size26, .semibold)
-            .frame(maxWidth: .infinity, alignment: .leading)
+        Text("Ваш профиль")
+            .font(.callout)
+                   .fontWeight(.bold)
+            .frame(maxWidth: .infinity, alignment: .center)
             .padding(.bottom, 24)
     }
     
     private var textInfo: some View {
-        HStack(spacing: 16) {
-            Text(Constants.textLogin)
-                .foregroundColor(.black)
-            Text(loginNumber)
-                .foregroundColor(Color.blue)
+        VStack(alignment: .leading, spacing: 0) {
+            ForEach(profiles.indices, id: \.self) { index in
+                HStack(alignment: .center, spacing: 6) {
+                    Text(profiles[index])
+                        .lineLimit(3)
+                    Spacer()
+                    Circle()
+                        .stroke(Color.blue, lineWidth: 1)
+                        .frame(width: 16, height: 16)
+                }
+                if index != profiles.indices.last {
+                    Divider()
+                        .background(Color.black)
+                        .padding(.vertical, 11)
+                        .padding(.horizontal, -16)
+                }
+            }
         }
-        .frame(height: 60)
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .padding(.horizontal, 16)
-        .background(
-            RoundedRectangle(cornerRadius: 8)
-                .fill(Color.white)
-        )
-        .overlay(
-            RoundedRectangle(cornerRadius: 8)
-                .stroke(Color.black, lineWidth: 1)
-        )
-        .padding(.bottom, 32)
     }
     
     private var loginButton: some View {
-        HStack(spacing: .zero) {
-            Spacer()
-            Button {
-                isPresented.toggle()
-            } label: {
-                Text(Constants.textLoginButton)
-                   // .singlelineStyle(.size18, .medium, .whiteText)
-            }
-            .frame(width: 180, height: 40)
-            .background(
-                Color.brown
-            )
-            .cornerRadius(5)
-            Spacer()
+        Button {
+            action()
+        } label: {
+            Text("Закрыть")
+                .frame(maxWidth: .infinity, alignment: .center)
+                .padding(.vertical, 10)
+                .foregroundColor(.white)
+                .background(Color.blue)
+                .cornerRadius(10)
         }
-        .padding(.bottom, 30)
     }
 }
 
 // MARK: - ResizableLogoutInfoSheetView_Preview
 
-#Preview {
-    ResizableLogoutInfoSheetView(
-        loginNumber: "4653#45745345",
-        action: {}
-    )
+struct ResizableLogoutInfoSheetView_Previews: PreviewProvider {
+    static var previews: some View {
+        ResizableLogoutInfoSheetView(
+            action: {}
+        )
+    }
 }
+
+
+
+
+//VStack(spacing: 20) {
+//          // Кружок заполненный цветом
+//          Circle()
+//              .fill(Color.blue)
+//              .frame(width: 100, height: 100)
+//
+//          // Кружок с обводкой
+//          Circle()
+//              .stroke(Color.blue, lineWidth: 4)
+//              .frame(width: 100, height: 100)
+//      }

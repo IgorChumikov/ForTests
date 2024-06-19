@@ -18,9 +18,11 @@ struct ResizableLogoutInfoSheetView: View {
             "Юриспруденция",
             "Специалист по закупкам",
             "Руководитель",
-            "Студент или преподаватель"
+            "Студент или преподаватель",
         ]
     }
+    
+    @Binding var contentSize: CGFloat
     
     var action: () -> Void
     @State private var isPresented: Bool = false
@@ -39,6 +41,10 @@ struct ResizableLogoutInfoSheetView: View {
                 loginButton
             }
             .padding(.horizontal, 16)
+            .contentSize(.static) { size in
+                print("size.height \(size.height)")
+                contentSize = size.height
+            }
         }
     }
     
@@ -118,7 +124,7 @@ struct ResizableLogoutInfoSheetView: View {
 struct ResizableLogoutInfoSheetView_Previews: PreviewProvider {
     static var previews: some View {
         ResizableLogoutInfoSheetView(
-            action: {}
+            contentSize: .constant(520), action: {}
         )
     }
 }

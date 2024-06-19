@@ -10,6 +10,7 @@ import SwiftUI
 struct SwiftUIView112312313: View {
     
     @State var showInfoSheet: Bool = false
+    @State var contentSize: CGFloat = 0
     
     var body: some View {
         ZStack {
@@ -20,10 +21,10 @@ struct SwiftUIView112312313: View {
         .sheet(isPresented: $showInfoSheet) {
             Group {
                 if #available(iOS 16.0, *) {
-                    ResizableLogoutInfoSheetView() {
+                    ResizableLogoutInfoSheetView(contentSize: $contentSize) {
                             showInfoSheet.toggle()
                         }
-                        .presentationDetents([.height(381)])
+                        .presentationDetents([.height(contentSize - 50)])
                         .presentationDragIndicator(.visible)
                 }
             }

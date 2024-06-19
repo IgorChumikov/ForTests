@@ -12,10 +12,18 @@ struct SwiftUIView112312313: View {
     @State var showInfoSheet: Bool = false
     @State var contentSize: CGFloat = 0
     
+    @State var showInfoSheet2: Bool = false
+    
     var body: some View {
         ZStack {
-            Button("showInfoSheet") {
-                showInfoSheet.toggle()
+            logoutInfoSheet
+            VStack(alignment: .center, spacing: 40) {
+                Button("showInfoSheet") {
+                    showInfoSheet.toggle()
+                }
+                Button("showInfoSheet2") {
+                    showInfoSheet2.toggle()
+                }
             }
         }
         .sheet(isPresented: $showInfoSheet) {
@@ -29,6 +37,12 @@ struct SwiftUIView112312313: View {
                 }
             }
         }
+    }
+    
+    private var logoutInfoSheet: some View {
+        CustomResizableLogoutInfoSheetView(isSheetPresented: $showInfoSheet2)
+        .zIndex(2)
+        .hidden(!showInfoSheet2, mode: .removed)
     }
     
 }

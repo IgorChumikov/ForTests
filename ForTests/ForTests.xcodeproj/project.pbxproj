@@ -59,6 +59,7 @@
 		AC89C0182C071C9F006BE793 /* DynamicHeightTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89C0172C071C9F006BE793 /* DynamicHeightTextEditor.swift */; };
 		AC941F7D2B552D800092C9D6 /* SwiftUIView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC941F7C2B552D800092C9D6 /* SwiftUIView4.swift */; };
 		AC97383C2B639C1D00E3F642 /* SwiftUIView12345.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC97383B2B639C1D00E3F642 /* SwiftUIView12345.swift */; };
+		ACB98E3E2C22DF4500831CC7 /* CustomResizableLogoutInfoSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB98E3D2C22DF4500831CC7 /* CustomResizableLogoutInfoSheetView.swift */; };
 		ACC20EBB2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20EBA2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift */; };
 		ACDEFE152BEB7F41006E0CD1 /* UserAuthorizationBM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE142BEB7F41006E0CD1 /* UserAuthorizationBM.swift */; };
 		ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE162BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift */; };
@@ -126,6 +127,7 @@
 		AC89C0172C071C9F006BE793 /* DynamicHeightTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicHeightTextEditor.swift; sourceTree = "<group>"; };
 		AC941F7C2B552D800092C9D6 /* SwiftUIView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView4.swift; sourceTree = "<group>"; };
 		AC97383B2B639C1D00E3F642 /* SwiftUIView12345.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView12345.swift; sourceTree = "<group>"; };
+		ACB98E3D2C22DF4500831CC7 /* CustomResizableLogoutInfoSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomResizableLogoutInfoSheetView.swift; sourceTree = "<group>"; };
 		ACC20EBA2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
 		ACDEFE142BEB7F41006E0CD1 /* UserAuthorizationBM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationBM.swift; sourceTree = "<group>"; };
 		ACDEFE162BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationFieldType.swift; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 		AC366EC82C219B730029AA9A /* Sheet */ = {
 			isa = PBXGroup;
 			children = (
+				ACB98E3C2C22DF3200831CC7 /* IOS14 */,
 				AC366EC92C219B850029AA9A /* ResizableLogoutInfoSheetView.swift */,
 				AC366ECB2C21C0AF0029AA9A /* SwiftUIView112312313.swift */,
 			);
@@ -418,6 +421,14 @@
 				AC42383F2C11A6C50035B3CE /* SwiftUIView123231.swift */,
 			);
 			path = QuickSearch;
+			sourceTree = "<group>";
+		};
+		ACB98E3C2C22DF3200831CC7 /* IOS14 */ = {
+			isa = PBXGroup;
+			children = (
+				ACB98E3D2C22DF4500831CC7 /* CustomResizableLogoutInfoSheetView.swift */,
+			);
+			path = IOS14;
 			sourceTree = "<group>";
 		};
 		ACDEFE112BEB7F15006E0CD1 /* BM */ = {
@@ -630,6 +641,7 @@
 				AC5278422BF6497D00CD1909 /* ExitAlertModifier.swift in Sources */,
 				AC366EBA2C2069DC0029AA9A /* MenuSwiftUIView4.swift in Sources */,
 				AC366EB52C2066B40029AA9A /* MenuSwiftUIView3.swift in Sources */,
+				ACB98E3E2C22DF4500831CC7 /* CustomResizableLogoutInfoSheetView.swift in Sources */,
 				ACDFF3A32B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift in Sources */,
 				ACFEDC702B83A064002B3C66 /* Skeleton.swift in Sources */,
 				AC366EC12C2075300029AA9A /* DropDown4.swift in Sources */,

@@ -50,3 +50,18 @@ struct SheetStartTest: View {
 #Preview {
     SheetStartTest()
 }
+
+
+
+//
+//private var logoutButton: some View {
+//    Button {
+//        if #available(iOS 16.0, *) {
+//            showInfoSheet.toggle()
+//        } else {
+//            showCustomInfoSheet.toggle()
+//        }
+//    } label: {
+//        Asset.Image.homeScreenLogoHat
+//    }
+//}

@@ -1,5 +1,5 @@
 //
-//  SwiftUIView112312313.swift
+//  SheetStartTest.swift
 //  ForTests
 //
 //  Created by Игорь Чумиков on 18.06.2024.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SwiftUIView112312313: View {
+struct SheetStartTest: View {
     
     @State var showInfoSheet: Bool = false
     @State var contentSize: CGFloat = 0
@@ -48,5 +48,5 @@ struct SwiftUIView112312313: View {
 }
 
 #Preview {
-    SwiftUIView112312313()
+    SheetStartTest()
 }

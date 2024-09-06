@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct ForTestsApp: App {
+    @State private var rootFolder = Folder(name: "Root", subfolders: [])
+    
     var body: some Scene {
         WindowGroup {
-            SheetStartTest()
+            NavigationView {
+                FolderView(folder: $rootFolder)
+            }
         }
     }
 }

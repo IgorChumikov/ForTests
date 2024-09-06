@@ -59,6 +59,7 @@
 		AC89C0182C071C9F006BE793 /* DynamicHeightTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89C0172C071C9F006BE793 /* DynamicHeightTextEditor.swift */; };
 		AC941F7D2B552D800092C9D6 /* SwiftUIView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC941F7C2B552D800092C9D6 /* SwiftUIView4.swift */; };
 		AC97383C2B639C1D00E3F642 /* SwiftUIView12345.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC97383B2B639C1D00E3F642 /* SwiftUIView12345.swift */; };
+		AC9C22112C5A555200D59037 /* SwiftUIViewTangem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C22102C5A555200D59037 /* SwiftUIViewTangem.swift */; };
 		ACB98E3E2C22DF4500831CC7 /* CustomResizableLogoutInfoSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB98E3D2C22DF4500831CC7 /* CustomResizableLogoutInfoSheetView.swift */; };
 		ACC20EBB2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20EBA2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift */; };
 		ACDEFE152BEB7F41006E0CD1 /* UserAuthorizationBM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE142BEB7F41006E0CD1 /* UserAuthorizationBM.swift */; };
@@ -127,6 +128,7 @@
 		AC89C0172C071C9F006BE793 /* DynamicHeightTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicHeightTextEditor.swift; sourceTree = "<group>"; };
 		AC941F7C2B552D800092C9D6 /* SwiftUIView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView4.swift; sourceTree = "<group>"; };
 		AC97383B2B639C1D00E3F642 /* SwiftUIView12345.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView12345.swift; sourceTree = "<group>"; };
+		AC9C22102C5A555200D59037 /* SwiftUIViewTangem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewTangem.swift; sourceTree = "<group>"; };
 		ACB98E3D2C22DF4500831CC7 /* CustomResizableLogoutInfoSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomResizableLogoutInfoSheetView.swift; sourceTree = "<group>"; };
 		ACC20EBA2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
 		ACDEFE142BEB7F41006E0CD1 /* UserAuthorizationBM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationBM.swift; sourceTree = "<group>"; };
@@ -251,7 +253,8 @@
 				AC97383B2B639C1D00E3F642 /* SwiftUIView12345.swift */,
 				AC6B92712B9F088200542B04 /* SwiftUIView.swift */,
 			);
-			path = Test;
+			name = Test;
+			path = ../Test;
 			sourceTree = "<group>";
 		};
 		AC5278092BF369FB00CD1909 /* New */ = {
@@ -431,12 +434,34 @@
 			path = IOS14;
 			sourceTree = "<group>";
 		};
+		ACC496D92C8B1C4800EAA344 /* Old */ = {
+			isa = PBXGroup;
+			children = (
+				AC366EC82C219B730029AA9A /* Sheet */,
+				AC366EAC2C20345D0029AA9A /* Menu */,
+				AC0362292C1879840033B781 /* Tran */,
+				AC89BFFA2C04B456006BE793 /* QuickSearch */,
+				AC5278092BF369FB00CD1909 /* New */,
+				AC5278082BF369EB00CD1909 /* Test */,
+				ACDEFE112BEB7F15006E0CD1 /* BM */,
+			);
+			path = Old;
+			sourceTree = "<group>";
+		};
+		ACC496DA2C8B1C5800EAA344 /* New */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
 		ACDEFE112BEB7F15006E0CD1 /* BM */ = {
 			isa = PBXGroup;
 			children = (
 				ACDEFE182BEB7F76006E0CD1 /* View+HideKeyboard.swift */,
 				ACDEFE122BEB7F28006E0CD1 /* Model */,
 				AC5B1B032BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift */,
+				AC9C22102C5A555200D59037 /* SwiftUIViewTangem.swift */,
 			);
 			path = BM;
 			sourceTree = "<group>";
@@ -453,13 +478,8 @@
 		ACDFF39B2B570F08000A6AAA /* Work */ = {
 			isa = PBXGroup;
 			children = (
-				AC366EC82C219B730029AA9A /* Sheet */,
-				AC366EAC2C20345D0029AA9A /* Menu */,
-				AC0362292C1879840033B781 /* Tran */,
-				AC89BFFA2C04B456006BE793 /* QuickSearch */,
-				AC5278092BF369FB00CD1909 /* New */,
-				AC5278082BF369EB00CD1909 /* Test */,
-				ACDEFE112BEB7F15006E0CD1 /* BM */,
+				ACC496DA2C8B1C5800EAA344 /* New */,
+				ACC496D92C8B1C4800EAA344 /* Old */,
 			);
 			path = Work;
 			sourceTree = "<group>";
@@ -625,6 +645,7 @@
 				AC52783B2BF647F300CD1909 /* ExitAlertView.swift in Sources */,
 				AC366EC32C20757E0029AA9A /* DropDownMenuDemo4.swift in Sources */,
 				ACDEFE152BEB7F41006E0CD1 /* UserAuthorizationBM.swift in Sources */,
+				AC9C22112C5A555200D59037 /* SwiftUIViewTangem.swift in Sources */,
 				ACC20EBB2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */,
 				AC82964B2B5E583F008383B0 /* PinnedUIView.swift in Sources */,
 				AC941F7D2B552D800092C9D6 /* SwiftUIView4.swift in Sources */,

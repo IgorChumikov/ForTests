@@ -61,6 +61,9 @@
 		ACC20EBB2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20EBA2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift */; };
 		ACC496DD2C8B1C8800EAA344 /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC496DC2C8B1C8800EAA344 /* Folder.swift */; };
 		ACC496DF2C8B1C9B00EAA344 /* FolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC496DE2C8B1C9B00EAA344 /* FolderView.swift */; };
+		ACC496E42C8B204B00EAA344 /* FileItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC496E32C8B204B00EAA344 /* FileItem.swift */; };
+		ACC496ED2C8B283F00EAA344 /* AppleSwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC496EC2C8B283F00EAA344 /* AppleSwiftUIView2.swift */; };
+		ACC496EF2C8B287700EAA344 /* FileItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC496EE2C8B287700EAA344 /* FileItemView.swift */; };
 		ACDEFE152BEB7F41006E0CD1 /* UserAuthorizationBM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE142BEB7F41006E0CD1 /* UserAuthorizationBM.swift */; };
 		ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE162BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift */; };
 		ACDEFE192BEB7F76006E0CD1 /* View+HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE182BEB7F76006E0CD1 /* View+HideKeyboard.swift */; };
@@ -129,6 +132,9 @@
 		ACC20EBA2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
 		ACC496DC2C8B1C8800EAA344 /* Folder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folder.swift; sourceTree = "<group>"; };
 		ACC496DE2C8B1C9B00EAA344 /* FolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderView.swift; sourceTree = "<group>"; };
+		ACC496E32C8B204B00EAA344 /* FileItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileItem.swift; sourceTree = "<group>"; };
+		ACC496EC2C8B283F00EAA344 /* AppleSwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSwiftUIView2.swift; sourceTree = "<group>"; };
+		ACC496EE2C8B287700EAA344 /* FileItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileItemView.swift; sourceTree = "<group>"; };
 		ACDEFE142BEB7F41006E0CD1 /* UserAuthorizationBM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationBM.swift; sourceTree = "<group>"; };
 		ACDEFE162BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationFieldType.swift; sourceTree = "<group>"; };
 		ACDEFE182BEB7F76006E0CD1 /* View+HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+HideKeyboard.swift"; sourceTree = "<group>"; };
@@ -437,6 +443,7 @@
 		ACC496DA2C8B1C5800EAA344 /* New */ = {
 			isa = PBXGroup;
 			children = (
+				ACC496E02C8B1FB000EAA344 /* Apple */,
 				ACC496DB2C8B1C7A00EAA344 /* Folder */,
 			);
 			path = New;
@@ -449,6 +456,24 @@
 				ACC496DE2C8B1C9B00EAA344 /* FolderView.swift */,
 			);
 			path = Folder;
+			sourceTree = "<group>";
+		};
+		ACC496E02C8B1FB000EAA344 /* Apple */ = {
+			isa = PBXGroup;
+			children = (
+				ACC496E72C8B27E500EAA344 /* View */,
+				ACC496E32C8B204B00EAA344 /* FileItem.swift */,
+			);
+			path = Apple;
+			sourceTree = "<group>";
+		};
+		ACC496E72C8B27E500EAA344 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ACC496EE2C8B287700EAA344 /* FileItemView.swift */,
+				ACC496EC2C8B283F00EAA344 /* AppleSwiftUIView2.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		ACDEFE112BEB7F15006E0CD1 /* BM */ = {
@@ -645,10 +670,12 @@
 				AC9C22112C5A555200D59037 /* SwiftUIViewTangem.swift in Sources */,
 				ACC20EBB2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */,
 				AC82964B2B5E583F008383B0 /* PinnedUIView.swift in Sources */,
+				ACC496ED2C8B283F00EAA344 /* AppleSwiftUIView2.swift in Sources */,
 				AC52782A2BF4E9F700CD1909 /* BottomSheetView.swift in Sources */,
 				AC82964C2B5E583F008383B0 /* ScrollDirectionCustomGesture.swift in Sources */,
 				AC5278212BF4CF7700CD1909 /* AlertContentView.swift in Sources */,
 				AC52781D2BF38B7C00CD1909 /* ExitCurtainView.swift in Sources */,
+				ACC496EF2C8B287700EAA344 /* FileItemView.swift in Sources */,
 				AC4238402C11A6C50035B3CE /* SwiftUIView123231.swift in Sources */,
 				AC52780F2BF37C7700CD1909 /* ScrollablePanelView.swift in Sources */,
 				AC52780D2BF37BF700CD1909 /* BottomSheetModifierNew+View.swift in Sources */,
@@ -676,6 +703,7 @@
 				AC89C0122C04D5F8006BE793 /* ContentView.swift in Sources */,
 				AC5278142BF385DC00CD1909 /* PanelViewNew.swift in Sources */,
 				AC82964D2B5E583F008383B0 /* ScrollDirectionView.swift in Sources */,
+				ACC496E42C8B204B00EAA344 /* FileItem.swift in Sources */,
 				ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */,
 				ACFEDC762B83A2A6002B3C66 /* View+Padding.swift in Sources */,
 				AC366EAE2C2034760029AA9A /* MenuSwiftUIView2.swift in Sources */,

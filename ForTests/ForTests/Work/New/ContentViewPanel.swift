@@ -23,7 +23,7 @@ struct ContentViewPanel: View {
             TreeListNode(name: "Практика антимонопольной службы"),
             TreeListNode(name: "Решения госорганов по спорным ситуациям"),
             TreeListNode(name: "Эксперт-приложение 9бюджетные организации")
-       
+            
         ], mainNode: true),
         TreeListNode(name: "Судебная практика", children: [
             TreeListNode(name: "Решение 1"),
@@ -63,9 +63,13 @@ struct NodeView: View {
                 }
                 Text(node.name)
                 Spacer()
-                Text(node.number)
-                    .foregroundColor(.gray)
-                    .hidden(!node.collapsed && node.mainNode , mode: .removed)
+                Button {
+                    // some code
+                } label: {
+                    Text(node.number)
+                        .foregroundColor(.gray)
+                }
+                .hidden(!node.collapsed && node.mainNode , mode: .removed)
             }
             if !node.collapsed && !node.children.isEmpty {
                 ForEach($node.children) { $child in

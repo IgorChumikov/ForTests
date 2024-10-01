@@ -10,6 +10,7 @@
 		AC03622B2C1879AC0033B781 /* View4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC03622A2C1879AC0033B781 /* View4.swift */; };
 		AC03622D2C187D7D0033B781 /* View5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC03622C2C187D7D0033B781 /* View5.swift */; };
 		AC03622F2C1B10E00033B781 /* MainView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC03622E2C1B10E00033B781 /* MainView5.swift */; };
+		AC103B4C2CABF44400F6030A /* ContentViewPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC103B4B2CABF44400F6030A /* ContentViewPanel.swift */; };
 		AC366EAE2C2034760029AA9A /* MenuSwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC366EAD2C2034760029AA9A /* MenuSwiftUIView2.swift */; };
 		AC366EB32C20666C0029AA9A /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC366EB22C20666C0029AA9A /* DropDown.swift */; };
 		AC366EB52C2066B40029AA9A /* MenuSwiftUIView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC366EB42C2066B40029AA9A /* MenuSwiftUIView3.swift */; };
@@ -80,6 +81,7 @@
 		AC03622A2C1879AC0033B781 /* View4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View4.swift; sourceTree = "<group>"; };
 		AC03622C2C187D7D0033B781 /* View5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View5.swift; sourceTree = "<group>"; };
 		AC03622E2C1B10E00033B781 /* MainView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView5.swift; sourceTree = "<group>"; };
+		AC103B4B2CABF44400F6030A /* ContentViewPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewPanel.swift; sourceTree = "<group>"; };
 		AC366EAD2C2034760029AA9A /* MenuSwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSwiftUIView2.swift; sourceTree = "<group>"; };
 		AC366EB22C20666C0029AA9A /* DropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
 		AC366EB42C2066B40029AA9A /* MenuSwiftUIView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSwiftUIView3.swift; sourceTree = "<group>"; };
@@ -445,6 +447,7 @@
 			children = (
 				ACC496E02C8B1FB000EAA344 /* Apple */,
 				ACC496DB2C8B1C7A00EAA344 /* Folder */,
+				AC103B4B2CABF44400F6030A /* ContentViewPanel.swift */,
 			);
 			path = New;
 			sourceTree = "<group>";
@@ -703,6 +706,7 @@
 				AC89C0122C04D5F8006BE793 /* ContentView.swift in Sources */,
 				AC5278142BF385DC00CD1909 /* PanelViewNew.swift in Sources */,
 				AC82964D2B5E583F008383B0 /* ScrollDirectionView.swift in Sources */,
+				AC103B4C2CABF44400F6030A /* ContentViewPanel.swift in Sources */,
 				ACC496E42C8B204B00EAA344 /* FileItem.swift in Sources */,
 				ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */,
 				ACFEDC762B83A2A6002B3C66 /* View+Padding.swift in Sources */,

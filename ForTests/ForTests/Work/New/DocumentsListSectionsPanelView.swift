@@ -55,44 +55,47 @@ struct DocumentsListSectionsPanelView: View {
     ]
     
     var body: some View {
-        VStack(alignment: .center, spacing: 0) {
-            Text("Разделы")
-                .bold()
-                .padding(.bottom, 10)
-            Divider()
-                .background(Color.red)
-                .frame(height: 5)
-            List {
-                ForEach($nodes) { $node in
-                    NodeView(node: $node)
-                        .listRowSeparator(.hidden)
-                }
-            }
-            .listStyle(.inset)
-            
-            Button {
-                // some code
-            } label: {
-                Image(systemName: "chevron.down")
-            }
-            .padding(16)
-        }
-    }
+         VStack(alignment: .center, spacing: 0) {
+             Text("Разделы")
+                 .bold()
+                 .padding(.bottom, 10)
+             Divider()
+                 .background(Color.red)
+                 .frame(height: 5)
+             ScrollView {  // Используем ScrollView вместо List для кастомизации
+                 VStack(alignment: .leading, spacing: 0) {
+                     ForEach($nodes) { $node in
+                         NodeView(node: $node)
+                             .padding(8)
+                             .background(Color.white)  // Фон для каждой ячейки
+                             .cornerRadius(8)
+                             //.shadow(radius: 1)
+                             .padding(.bottom, 4)
+                     }
+                 }
+                 .padding(.horizontal, 16)
+             }
+         }
+     }
+ 
 }
 
 struct NodeView: View {
     @Binding var node: TreeListNodeTest
-    
+    @State private var isHighlighted: Bool = false // Флаг для выделения
+
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             HStack(alignment: .top, spacing: 5) {
                 if !node.children.isEmpty {
                     Image(systemName: node.collapsed ? "chevron.right" : "chevron.down")
+                        .frame(width: 20, height: 20)
                         .onTapGesture {
                             node.collapsed.toggle()
                         }
                 }
                 Text(node.name)
+                    .background(isHighlighted ? Color.blue.opacity(0.3) : Color.clear) // Подсветка при выделении
                 Spacer()
                 Button {
                     // some code
@@ -100,8 +103,13 @@ struct NodeView: View {
                     Text(node.number)
                         .foregroundColor(.gray)
                 }
-                .hidden(!node.collapsed && node.mainNode , mode: .removed)
+                .hidden(!node.collapsed && node.mainNode, mode: .removed)
             }
+            .onLongPressGesture {
+                isHighlighted.toggle() // Меняем состояние выделения только на узле
+            }
+            
+            // Рендерим дочерние элементы только если узел развернут
             if !node.collapsed && !node.children.isEmpty {
                 ForEach($node.children) { $child in
                     NodeView(node: $child)
@@ -111,6 +119,8 @@ struct NodeView: View {
         }
     }
 }
+
+
 
 struct DocumentsListSectionsPanelView_Previews: PreviewProvider {
     static var previews: some View {

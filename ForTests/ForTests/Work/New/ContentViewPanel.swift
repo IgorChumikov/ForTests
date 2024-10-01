@@ -35,17 +35,48 @@ struct ContentViewPanel: View {
                 TreeListNode(name: "Решение 3")
             ])
         ], mainNode: true),
+        TreeListNode(name: "Законадательство", children: [
+            TreeListNode(name: "Российское законодательства (Версия Проф)"),
+            TreeListNode(name: "Практика антимонопольной службы"),
+            TreeListNode(name: "Решения госорганов по спорным ситуациям"),
+            TreeListNode(name: "Эксперт-приложение 9бюджетные организации")
+            
+        ], mainNode: true),
+        TreeListNode(name: "Судебная практика", children: [
+            TreeListNode(name: "Решение 1"),
+            TreeListNode(name: "Решение 2"),
+            TreeListNode(name: "Решение 3"),
+            TreeListNode(name: "Решение 4", children: [
+                TreeListNode(name: "Решение 1"),
+                TreeListNode(name: "Решение 2"),
+                TreeListNode(name: "Решение 3")
+            ])
+        ], mainNode: true),
     ]
     
     var body: some View {
-        List {
-            ForEach($nodes) { $node in
-                NodeView(node: $node)
-                    .listRowSeparator(.hidden)
+        VStack(alignment: .center, spacing: 0) {
+            Text("Разделы")
+                .bold()
+                .padding(.bottom, 10)
+            Divider()
+                .background(Color.red)
+                .frame(height: 5)
+            List {
+                ForEach($nodes) { $node in
+                    NodeView(node: $node)
+                        .listRowSeparator(.hidden)
+                }
             }
+            .listStyle(.inset)
+            
+            Button {
+                // some code
+            } label: {
+                Image(systemName: "chevron.down")
+            }
+            .padding(16)
         }
-        .listStyle(.inset)
-        
     }
 }
 

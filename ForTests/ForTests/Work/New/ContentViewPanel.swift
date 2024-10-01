@@ -33,7 +33,7 @@ struct ContentViewPanel: View {
                 TreeListNode(name: "Решение 1"),
                 TreeListNode(name: "Решение 2"),
                 TreeListNode(name: "Решение 3")
-            ])
+            ],mainNode: true)
         ], mainNode: true),
         TreeListNode(name: "Законадательство", children: [
             TreeListNode(name: "Российское законодательства (Версия Проф)"),
@@ -50,7 +50,7 @@ struct ContentViewPanel: View {
                 TreeListNode(name: "Решение 1"),
                 TreeListNode(name: "Решение 2"),
                 TreeListNode(name: "Решение 3")
-            ])
+            ], mainNode: true)
         ], mainNode: true),
     ]
     

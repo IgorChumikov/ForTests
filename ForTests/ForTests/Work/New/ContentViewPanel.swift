@@ -12,6 +12,8 @@ struct TreeListNode: Identifiable {
     let name: String
     var children: [TreeListNode] = []
     var collapsed: Bool = false // Флаг, указывающий, свернут ли узел
+    var number: String = "100"
+    var mainNode: Bool = false
 }
 
 struct ContentViewPanel: View {
@@ -22,7 +24,7 @@ struct ContentViewPanel: View {
             TreeListNode(name: "Решения госорганов по спорным ситуациям"),
             TreeListNode(name: "Эксперт-приложение 9бюджетные организации")
        
-        ]),
+        ], mainNode: true),
         TreeListNode(name: "Судебная практика", children: [
             TreeListNode(name: "Решение 1"),
             TreeListNode(name: "Решение 2"),
@@ -32,7 +34,7 @@ struct ContentViewPanel: View {
                 TreeListNode(name: "Решение 2"),
                 TreeListNode(name: "Решение 3")
             ])
-        ]),
+        ], mainNode: true),
     ]
     
     var body: some View {
@@ -52,7 +54,7 @@ struct NodeView: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
-            HStack(alignment: .center, spacing: 2) {
+            HStack(alignment: .top, spacing: 5) {
                 if !node.children.isEmpty {
                     Image(systemName: node.collapsed ? "chevron.right" : "chevron.down")
                         .onTapGesture {
@@ -60,6 +62,10 @@ struct NodeView: View {
                         }
                 }
                 Text(node.name)
+                Spacer()
+                Text(node.number)
+                    .foregroundColor(.gray)
+                    .hidden(!node.collapsed && node.mainNode , mode: .removed)
             }
             if !node.collapsed && !node.children.isEmpty {
                 ForEach($node.children) { $child in

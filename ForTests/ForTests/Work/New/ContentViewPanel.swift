@@ -17,19 +17,11 @@ struct TreeListNode: Identifiable {
 struct ContentViewPanel: View {
     @State private var nodes: [TreeListNode] = [
         TreeListNode(name: "Законадательство", children: [
-            TreeListNode(name: "Глава 1", children: [
-                TreeListNode(name: "Статья 1"),
-                TreeListNode(name: "Статья 2", children: [
-                    TreeListNode(name: "Статья 1 1"),
-                    TreeListNode(name: "Статья 2 2")
-                ])
-            ]),
-            TreeListNode(name: "Глава 2", children: [
-                TreeListNode(name: "Статья 3"),
-                TreeListNode(name: "Статья 4")
-            ]),
-            TreeListNode(name: "Глава 3"),
-            TreeListNode(name: "Глава 4")
+            TreeListNode(name: "Российское законодательства (Версия Проф)"),
+            TreeListNode(name: "Практика антимонопольной службы"),
+            TreeListNode(name: "Решения госорганов по спорным ситуациям"),
+            TreeListNode(name: "Эксперт-приложение 9бюджетные организации")
+       
         ]),
         TreeListNode(name: "Судебная практика", children: [
             TreeListNode(name: "Решение 1"),
@@ -47,8 +39,11 @@ struct ContentViewPanel: View {
         List {
             ForEach($nodes) { $node in
                 NodeView(node: $node)
+                    .listRowSeparator(.hidden)
             }
         }
+        .listStyle(.inset)
+        
     }
 }
 
@@ -56,8 +51,8 @@ struct NodeView: View {
     @Binding var node: TreeListNode
     
     var body: some View {
-        VStack(alignment: .leading) {
-            HStack {
+        VStack(alignment: .leading, spacing: 10) {
+            HStack(alignment: .center, spacing: 2) {
                 if !node.children.isEmpty {
                     Image(systemName: node.collapsed ? "chevron.right" : "chevron.down")
                         .onTapGesture {
@@ -69,7 +64,7 @@ struct NodeView: View {
             if !node.collapsed && !node.children.isEmpty {
                 ForEach($node.children) { $child in
                     NodeView(node: $child)
-                        .padding(.leading, 20) // Добавляем отступ для вложенных узлов
+                        .padding(.leading, 40) // Добавляем отступ для вложенных узлов
                 }
             }
         }

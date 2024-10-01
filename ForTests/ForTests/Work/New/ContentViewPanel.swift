@@ -19,7 +19,10 @@ struct ContentViewPanel: View {
         TreeListNode(name: "Законадательство", children: [
             TreeListNode(name: "Глава 1", children: [
                 TreeListNode(name: "Статья 1"),
-                TreeListNode(name: "Статья 2")
+                TreeListNode(name: "Статья 2", children: [
+                    TreeListNode(name: "Статья 1 1"),
+                    TreeListNode(name: "Статья 2 2")
+                ])
             ]),
             TreeListNode(name: "Глава 2", children: [
                 TreeListNode(name: "Статья 3"),
@@ -39,7 +42,7 @@ struct ContentViewPanel: View {
             ])
         ]),
     ]
-
+    
     var body: some View {
         List {
             ForEach($nodes) { $node in
@@ -51,7 +54,7 @@ struct ContentViewPanel: View {
 
 struct NodeView: View {
     @Binding var node: TreeListNode
-
+    
     var body: some View {
         VStack(alignment: .leading) {
             HStack {
@@ -72,7 +75,6 @@ struct NodeView: View {
         }
     }
 }
-
 
 struct ContentViewPanel_Previews: PreviewProvider {
     static var previews: some View {

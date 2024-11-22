@@ -13,9 +13,10 @@ struct ForTestsApp: App {
     
     var body: some Scene {
         WindowGroup {
-            NavigationView {
-                FolderView(folder: $rootFolder)
-            }
+//            NavigationView {
+//                FolderView(folder: $rootFolder)
+//            }
+            DO11111123ffffff()
         }
     }
 }

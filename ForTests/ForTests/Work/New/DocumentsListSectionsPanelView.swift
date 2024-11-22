@@ -14,6 +14,7 @@ struct TreeListNodeTest: Identifiable {
     var collapsed: Bool = false // Флаг, указывающий, свернут ли узел
     var number: String = "100"
     var mainNode: Bool = false
+    var isSelected: Bool = false
 }
 
 struct DocumentsListSectionsPanelView: View {
@@ -65,7 +66,7 @@ struct DocumentsListSectionsPanelView: View {
              ScrollView {  // Используем ScrollView вместо List для кастомизации
                  VStack(alignment: .leading, spacing: 0) {
                      ForEach($nodes) { $node in
-                         NodeView(node: $node)
+                         DocumentsListSectionView(node: $node)
                              .padding(8)
                              .background(Color.white)  // Фон для каждой ячейки
                              .cornerRadius(8)
@@ -80,22 +81,31 @@ struct DocumentsListSectionsPanelView: View {
  
 }
 
-struct NodeView: View {
+struct DocumentsListSectionView: View {
     @Binding var node: TreeListNodeTest
-    @State private var isHighlighted: Bool = false // Флаг для выделения
-
+    let level: Int
+    
+    init(node: Binding<TreeListNodeTest>, level: Int = 0) {
+        self._node = node
+        self.level = level
+    }
+    
     var body: some View {
-        VStack(alignment: .leading, spacing: 10) {
-            HStack(alignment: .top, spacing: 5) {
-                if !node.children.isEmpty {
-                    Image(systemName: node.collapsed ? "chevron.right" : "chevron.down")
-                        .frame(width: 20, height: 20)
-                        .onTapGesture {
-                            node.collapsed.toggle()
-                        }
+        VStack(alignment: .leading, spacing: 0) {
+            HStack(alignment: .center, spacing: 5) {
+                HStack(spacing: 0) {
+                    ForEach(0..<level, id: \.self) { _ in
+                        Color.clear.frame(width: 30)
+                    }
+                    if !node.children.isEmpty {
+                        Image(systemName: node.collapsed ? "chevron.right" : "chevron.down")
+                            .frame(width: 20, height: 20)
+                            .onTapGesture {
+                                node.collapsed.toggle()
+                            }
+                    }
                 }
                 Text(node.name)
-                    .background(isHighlighted ? Color.blue.opacity(0.3) : Color.clear) // Подсветка при выделении
                 Spacer()
                 Button {
                     // some code
@@ -105,20 +115,40 @@ struct NodeView: View {
                 }
                 .hidden(!node.collapsed && node.mainNode, mode: .removed)
             }
-            .onLongPressGesture {
-                isHighlighted.toggle() // Меняем состояние выделения только на узле
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .padding(.vertical, 5)
+            .background(node.isSelected ? Color.blue : Color.white)
+            .onTapGesture {
+                node.isSelected.toggle()
             }
             
-            // Рендерим дочерние элементы только если узел развернут
             if !node.collapsed && !node.children.isEmpty {
                 ForEach($node.children) { $child in
-                    NodeView(node: $child)
-                        .padding(.leading, 40) // Добавляем отступ для вложенных узлов
+                    DocumentsListSectionView(node: $child, level: level + 1)
                 }
             }
         }
     }
 }
+
+#Preview {
+    ScrollView {
+        DocumentsListSectionView(
+            node:.constant(TreeListNodeTest(
+                name: "Законадательство",
+                children: [
+                    TreeListNodeTest(name: "Российское законодательства (Версия Проф)"),
+                    TreeListNodeTest(name: "Практика антимонопольной службы"),
+                    TreeListNodeTest(name: "Решения госорганов по спорным ситуациям"),
+                    TreeListNodeTest(name: "Эксперт-приложение 9бюджетные организации")
+                ]
+                , mainNode: true)
+            )
+        )
+    }
+}
+
+
 
 
 

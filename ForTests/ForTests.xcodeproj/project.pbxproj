@@ -23,8 +23,6 @@
 		AC366ECA2C219B850029AA9A /* ResizableLogoutInfoSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC366EC92C219B850029AA9A /* ResizableLogoutInfoSheetView.swift */; };
 		AC366ECC2C21C0AF0029AA9A /* SheetStartTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC366ECB2C21C0AF0029AA9A /* SheetStartTest.swift */; };
 		AC3B12DD2CF099440076D9B3 /* SearchFruitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3B12DC2CF099440076D9B3 /* SearchFruitsView.swift */; };
-		AC3B12DF2CF09EE60076D9B3 /* FruitListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3B12DE2CF09EE60076D9B3 /* FruitListView.swift */; };
-		AC3B12E12CF0A1240076D9B3 /* FruitListView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3B12E02CF0A1240076D9B3 /* FruitListView2.swift */; };
 		AC4238402C11A6C50035B3CE /* SwiftUIView123231.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC42383F2C11A6C50035B3CE /* SwiftUIView123231.swift */; };
 		AC4CB8B62B63E0350058C263 /* DemoOfHidingPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4CB8B52B63E0350058C263 /* DemoOfHidingPanelView.swift */; };
 		AC502DA52CD9450C00DDB86A /* ContentOneeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC502DA42CD9450C00DDB86A /* ContentOneeView.swift */; };
@@ -70,6 +68,8 @@
 		ACC496E42C8B204B00EAA344 /* FileItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC496E32C8B204B00EAA344 /* FileItem.swift */; };
 		ACC496ED2C8B283F00EAA344 /* AppleSwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC496EC2C8B283F00EAA344 /* AppleSwiftUIView2.swift */; };
 		ACC496EF2C8B287700EAA344 /* FileItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC496EE2C8B287700EAA344 /* FileItemView.swift */; };
+		ACCECFC92D00AB2900C9AB91 /* IpadTestSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCECFC82D00AB2900C9AB91 /* IpadTestSwiftUIView.swift */; };
+		ACCECFCB2D00AE7C00C9AB91 /* IpadTest2SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCECFCA2D00AE7C00C9AB91 /* IpadTest2SwiftUIView.swift */; };
 		ACDEFE152BEB7F41006E0CD1 /* UserAuthorizationBM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE142BEB7F41006E0CD1 /* UserAuthorizationBM.swift */; };
 		ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE162BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift */; };
 		ACDEFE192BEB7F76006E0CD1 /* View+HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE182BEB7F76006E0CD1 /* View+HideKeyboard.swift */; };
@@ -105,8 +105,6 @@
 		AC366EC92C219B850029AA9A /* ResizableLogoutInfoSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableLogoutInfoSheetView.swift; sourceTree = "<group>"; };
 		AC366ECB2C21C0AF0029AA9A /* SheetStartTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetStartTest.swift; sourceTree = "<group>"; };
 		AC3B12DC2CF099440076D9B3 /* SearchFruitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFruitsView.swift; sourceTree = "<group>"; };
-		AC3B12DE2CF09EE60076D9B3 /* FruitListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitListView.swift; sourceTree = "<group>"; };
-		AC3B12E02CF0A1240076D9B3 /* FruitListView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitListView2.swift; sourceTree = "<group>"; };
 		AC42383F2C11A6C50035B3CE /* SwiftUIView123231.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView123231.swift; sourceTree = "<group>"; };
 		AC4CB8B52B63E0350058C263 /* DemoOfHidingPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoOfHidingPanelView.swift; sourceTree = "<group>"; };
 		AC502DA42CD9450C00DDB86A /* ContentOneeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentOneeView.swift; sourceTree = "<group>"; };
@@ -153,6 +151,8 @@
 		ACC496E32C8B204B00EAA344 /* FileItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileItem.swift; sourceTree = "<group>"; };
 		ACC496EC2C8B283F00EAA344 /* AppleSwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSwiftUIView2.swift; sourceTree = "<group>"; };
 		ACC496EE2C8B287700EAA344 /* FileItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileItemView.swift; sourceTree = "<group>"; };
+		ACCECFC82D00AB2900C9AB91 /* IpadTestSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpadTestSwiftUIView.swift; sourceTree = "<group>"; };
+		ACCECFCA2D00AE7C00C9AB91 /* IpadTest2SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpadTest2SwiftUIView.swift; sourceTree = "<group>"; };
 		ACDEFE142BEB7F41006E0CD1 /* UserAuthorizationBM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationBM.swift; sourceTree = "<group>"; };
 		ACDEFE162BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationFieldType.swift; sourceTree = "<group>"; };
 		ACDEFE182BEB7F76006E0CD1 /* View+HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+HideKeyboard.swift"; sourceTree = "<group>"; };
@@ -542,8 +542,8 @@
 				ACFA09252CECA42000A2167E /* 11111123ffffff.swift */,
 				ACFA09272CEDE05400A2167E /* HelperSwiftUIView.swift */,
 				AC3B12DC2CF099440076D9B3 /* SearchFruitsView.swift */,
-				AC3B12DE2CF09EE60076D9B3 /* FruitListView.swift */,
-				AC3B12E02CF0A1240076D9B3 /* FruitListView2.swift */,
+				ACCECFC82D00AB2900C9AB91 /* IpadTestSwiftUIView.swift */,
+				ACCECFCA2D00AE7C00C9AB91 /* IpadTest2SwiftUIView.swift */,
 			);
 			path = Delete;
 			sourceTree = "<group>";
@@ -734,6 +734,7 @@
 				ACFEDC782B83A2C3002B3C66 /* View+Hidden.swift in Sources */,
 				ACFEDC7B2B83A333002B3C66 /* DisableScrollingModifier.swift in Sources */,
 				ACEC5E3A2CAF1E4200ECBB2F /* SwiftUIViewIpad4.swift in Sources */,
+				ACCECFC92D00AB2900C9AB91 /* IpadTestSwiftUIView.swift in Sources */,
 				AC72FA642B513E2C009E60AB /* ForTestsApp.swift in Sources */,
 				AC03622D2C187D7D0033B781 /* View5.swift in Sources */,
 				AC366ECC2C21C0AF0029AA9A /* SheetStartTest.swift in Sources */,
@@ -741,12 +742,10 @@
 				AC5278122BF37D2800CD1909 /* KeyboardHelper.swift in Sources */,
 				AC5278382BF647A500CD1909 /* ContentViewTwo.swift in Sources */,
 				ACEC5E382CAF1DBE00ECBB2F /* SwiftUIViewIpad3.swift in Sources */,
-				AC3B12E12CF0A1240076D9B3 /* FruitListView2.swift in Sources */,
 				AC89BFFC2C04B462006BE793 /* QuickSearchView.swift in Sources */,
 				AC03622B2C1879AC0033B781 /* View4.swift in Sources */,
 				AC366EC72C2182740029AA9A /* SwiftUIView11111.swift in Sources */,
 				AC89C0122C04D5F8006BE793 /* ContentView.swift in Sources */,
-				AC3B12DF2CF09EE60076D9B3 /* FruitListView.swift in Sources */,
 				AC5278142BF385DC00CD1909 /* PanelViewNew.swift in Sources */,
 				AC82964D2B5E583F008383B0 /* ScrollDirectionView.swift in Sources */,
 				AC103B4C2CABF44400F6030A /* DocumentsListSectionsPanelView.swift in Sources */,
@@ -755,6 +754,7 @@
 				ACFEDC762B83A2A6002B3C66 /* View+Padding.swift in Sources */,
 				ACFA09282CEDE05400A2167E /* HelperSwiftUIView.swift in Sources */,
 				AC366EAE2C2034760029AA9A /* MenuSwiftUIView2.swift in Sources */,
+				ACCECFCB2D00AE7C00C9AB91 /* IpadTest2SwiftUIView.swift in Sources */,
 				AC52781F2BF3941A00CD1909 /* MainCurtainView.swift in Sources */,
 				AC5278182BF388F700CD1909 /* BottomSheet.swift in Sources */,
 				AC5278402BF6495300CD1909 /* ContentViewOne1.swift in Sources */,

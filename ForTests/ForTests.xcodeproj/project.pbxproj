@@ -71,6 +71,7 @@
 		ACCECFC92D00AB2900C9AB91 /* IpadTestSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCECFC82D00AB2900C9AB91 /* IpadTestSwiftUIView.swift */; };
 		ACCECFCB2D00AE7C00C9AB91 /* IpadTest2SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCECFCA2D00AE7C00C9AB91 /* IpadTest2SwiftUIView.swift */; };
 		ACCECFCE2D00B77300C9AB91 /* IpadTest3SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCECFCD2D00B77300C9AB91 /* IpadTest3SwiftUIView.swift */; };
+		ACCECFD02D00BA6200C9AB91 /* GoogleIpadSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCECFCF2D00BA6200C9AB91 /* GoogleIpadSwiftUIView.swift */; };
 		ACDEFE152BEB7F41006E0CD1 /* UserAuthorizationBM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE142BEB7F41006E0CD1 /* UserAuthorizationBM.swift */; };
 		ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE162BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift */; };
 		ACDEFE192BEB7F76006E0CD1 /* View+HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE182BEB7F76006E0CD1 /* View+HideKeyboard.swift */; };
@@ -155,6 +156,7 @@
 		ACCECFC82D00AB2900C9AB91 /* IpadTestSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpadTestSwiftUIView.swift; sourceTree = "<group>"; };
 		ACCECFCA2D00AE7C00C9AB91 /* IpadTest2SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpadTest2SwiftUIView.swift; sourceTree = "<group>"; };
 		ACCECFCD2D00B77300C9AB91 /* IpadTest3SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpadTest3SwiftUIView.swift; sourceTree = "<group>"; };
+		ACCECFCF2D00BA6200C9AB91 /* GoogleIpadSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleIpadSwiftUIView.swift; sourceTree = "<group>"; };
 		ACDEFE142BEB7F41006E0CD1 /* UserAuthorizationBM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationBM.swift; sourceTree = "<group>"; };
 		ACDEFE162BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationFieldType.swift; sourceTree = "<group>"; };
 		ACDEFE182BEB7F76006E0CD1 /* View+HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+HideKeyboard.swift"; sourceTree = "<group>"; };
@@ -509,6 +511,7 @@
 				ACCECFC82D00AB2900C9AB91 /* IpadTestSwiftUIView.swift */,
 				ACCECFCA2D00AE7C00C9AB91 /* IpadTest2SwiftUIView.swift */,
 				ACCECFCD2D00B77300C9AB91 /* IpadTest3SwiftUIView.swift */,
+				ACCECFCF2D00BA6200C9AB91 /* GoogleIpadSwiftUIView.swift */,
 			);
 			path = IpadTest;
 			sourceTree = "<group>";
@@ -698,6 +701,7 @@
 				AC5278162BF386E400CD1909 /* PanelViewIndicator.swift in Sources */,
 				ACC496DD2C8B1C8800EAA344 /* Folder.swift in Sources */,
 				AC366EB32C20666C0029AA9A /* DropDown.swift in Sources */,
+				ACCECFD02D00BA6200C9AB91 /* GoogleIpadSwiftUIView.swift in Sources */,
 				AC5278362BF646C100CD1909 /* ContentViewOne.swift in Sources */,
 				AC5278452BF649C600CD1909 /* ContentViewOne2.swift in Sources */,
 				AC03622F2C1B10E00033B781 /* MainView5.swift in Sources */,

@@ -40,5 +40,5 @@ struct IpadTest3SwiftUIView: View {
 }
 
 #Preview {
-    IpadTest2SwiftUIView()
+    IpadTest3SwiftUIView()
 }

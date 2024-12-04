@@ -9,13 +9,18 @@ import SwiftUI
 
 struct GoogleIpadSwiftUIView: View {
     var body: some View {
-        
         NavigationView {
-            ContentOneeView()
-            ContentOneeView()
+            HStack(alignment: .center, spacing: 0) {
+                Spacer()
+                ContentOneeView()
+                Spacer()
+                Divider().ignoresSafeArea()
+                Spacer()
+                ContentOneeView()
+                Spacer()
+            }
         }
-        .navigationViewStyle(DoubleColumnNavigationViewStyle())
-            .padding()
+        .navigationViewStyle(.stack)
     }
 }
 

@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// NavigationView
+
 struct IpadTest2SwiftUIView: View {
     @State private var selectedPerson: String? = nil
     let people = ["Angela", "Juan", "Yeji"]

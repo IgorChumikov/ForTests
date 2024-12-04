@@ -5,9 +5,6 @@
 //  Created by Игорь Чумиков on 04.12.2024.
 //
 
-// DoubleColumnNavigationViewStyle (Устарел с iOS 16 )
-// iOS 15.0–18.2 Deprecated
-
 import SwiftUI
 
 struct IpadTest2SwiftUIView: View {

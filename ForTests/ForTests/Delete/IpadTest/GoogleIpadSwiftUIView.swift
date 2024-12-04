@@ -11,13 +11,12 @@ struct GoogleIpadSwiftUIView: View {
     var body: some View {
         NavigationView {
             HStack(alignment: .center, spacing: 0) {
-                Spacer()
                 ContentOneeView()
-                Spacer()
-                Divider().ignoresSafeArea()
-                Spacer()
+                    .frame(width: 300)
+                Divider()
+                    .ignoresSafeArea()
                 ContentOneeView()
-                Spacer()
+                    .frame(maxWidth: .infinity)
             }
         }
         .navigationViewStyle(.stack)

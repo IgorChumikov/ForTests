@@ -6,23 +6,24 @@
 //
 
 import UIKit
-import SwiftUICore
 
 final class CalendarViewController: UIViewController {
     
     let calendarViewModel = CalendarViewModel()
     
     var scrollView: UIScrollView!
-    var containerView: View!
+    var containerView: UIView!
     var alisaCollectionView: UICollectionView!
     var bobCollectionView: UICollectionView!
     var matchesCollectionView: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        DispatchQueue.main.async {
-            self.makeUI()
-        }
+        
+        // Настройка интерфейса
+        makeUI()
+        
+        // Настройка модели данных
         calendarViewModel.configureMembersCalendar()
     }
 }
@@ -57,5 +58,9 @@ extension CalendarViewController: UICollectionViewDelegateFlowLayout, UICollecti
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: 90, height: 50)
+    }
+    
+    func makeUI() {
+        
     }
 }

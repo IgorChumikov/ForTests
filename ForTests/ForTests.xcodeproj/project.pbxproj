@@ -24,6 +24,9 @@
 		AC366ECC2C21C0AF0029AA9A /* SheetStartTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC366ECB2C21C0AF0029AA9A /* SheetStartTest.swift */; };
 		AC3B12DD2CF099440076D9B3 /* SearchFruitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3B12DC2CF099440076D9B3 /* SearchFruitsView.swift */; };
 		AC4238402C11A6C50035B3CE /* SwiftUIView123231.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC42383F2C11A6C50035B3CE /* SwiftUIView123231.swift */; };
+		AC45FBCD2D29614D0020837B /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC45FBCC2D29614D0020837B /* CalendarViewModel.swift */; };
+		AC45FBD12D29617F0020837B /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC45FBD02D29617F0020837B /* CalendarViewController.swift */; };
+		AC45FBD32D2962050020837B /* AssistantCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC45FBD22D2962050020837B /* AssistantCollectionViewCell.swift */; };
 		AC4CB8B62B63E0350058C263 /* DemoOfHidingPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4CB8B52B63E0350058C263 /* DemoOfHidingPanelView.swift */; };
 		AC502DA52CD9450C00DDB86A /* ContentOneeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC502DA42CD9450C00DDB86A /* ContentOneeView.swift */; };
 		AC502DA72CD945C700DDB86A /* ContentOneeStructView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC502DA62CD945C700DDB86A /* ContentOneeStructView.swift */; };
@@ -108,6 +111,9 @@
 		AC366ECB2C21C0AF0029AA9A /* SheetStartTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetStartTest.swift; sourceTree = "<group>"; };
 		AC3B12DC2CF099440076D9B3 /* SearchFruitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFruitsView.swift; sourceTree = "<group>"; };
 		AC42383F2C11A6C50035B3CE /* SwiftUIView123231.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView123231.swift; sourceTree = "<group>"; };
+		AC45FBCC2D29614D0020837B /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		AC45FBD02D29617F0020837B /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		AC45FBD22D2962050020837B /* AssistantCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantCollectionViewCell.swift; sourceTree = "<group>"; };
 		AC4CB8B52B63E0350058C263 /* DemoOfHidingPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoOfHidingPanelView.swift; sourceTree = "<group>"; };
 		AC502DA42CD9450C00DDB86A /* ContentOneeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentOneeView.swift; sourceTree = "<group>"; };
 		AC502DA62CD945C700DDB86A /* ContentOneeStructView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentOneeStructView.swift; sourceTree = "<group>"; };
@@ -267,6 +273,32 @@
 				AC366ECB2C21C0AF0029AA9A /* SheetStartTest.swift */,
 			);
 			path = Sheet;
+			sourceTree = "<group>";
+		};
+		AC45FBCE2D2961510020837B /* Ya */ = {
+			isa = PBXGroup;
+			children = (
+				AC45FBCC2D29614D0020837B /* CalendarViewModel.swift */,
+				AC45FBD02D29617F0020837B /* CalendarViewController.swift */,
+				AC45FBD22D2962050020837B /* AssistantCollectionViewCell.swift */,
+			);
+			path = Ya;
+			sourceTree = "<group>";
+		};
+		AC45FBCF2D2961640020837B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				ACEC5E332CAF1A5B00ECBB2F /* SwiftUIViewIpad.swift */,
+				ACEC5E352CAF1D8900ECBB2F /* SwiftUIViewIpad2.swift */,
+				ACEC5E372CAF1DBE00ECBB2F /* SwiftUIViewIpad3.swift */,
+				ACEC5E392CAF1E4200ECBB2F /* SwiftUIViewIpad4.swift */,
+				AC502DA42CD9450C00DDB86A /* ContentOneeView.swift */,
+				AC502DA62CD945C700DDB86A /* ContentOneeStructView.swift */,
+				ACFA09252CECA42000A2167E /* 11111123ffffff.swift */,
+				ACFA09272CEDE05400A2167E /* HelperSwiftUIView.swift */,
+				AC3B12DC2CF099440076D9B3 /* SearchFruitsView.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		AC4CB8B72B63E1C80058C263 /* DisappearanceOfTopPanel */ = {
@@ -548,16 +580,9 @@
 		ACDFF39C2B570F3C000A6AAA /* Delete */ = {
 			isa = PBXGroup;
 			children = (
-				ACEC5E332CAF1A5B00ECBB2F /* SwiftUIViewIpad.swift */,
-				ACEC5E352CAF1D8900ECBB2F /* SwiftUIViewIpad2.swift */,
-				ACEC5E372CAF1DBE00ECBB2F /* SwiftUIViewIpad3.swift */,
-				ACEC5E392CAF1E4200ECBB2F /* SwiftUIViewIpad4.swift */,
-				AC502DA42CD9450C00DDB86A /* ContentOneeView.swift */,
-				AC502DA62CD945C700DDB86A /* ContentOneeStructView.swift */,
-				ACFA09252CECA42000A2167E /* 11111123ffffff.swift */,
-				ACFA09272CEDE05400A2167E /* HelperSwiftUIView.swift */,
-				AC3B12DC2CF099440076D9B3 /* SearchFruitsView.swift */,
+				AC45FBCF2D2961640020837B /* New Group */,
 				ACCECFCC2D00B74C00C9AB91 /* IpadTest */,
+				AC45FBCE2D2961510020837B /* Ya */,
 			);
 			path = Delete;
 			sourceTree = "<group>";
@@ -711,6 +736,7 @@
 				AC366EB82C2069A90029AA9A /* DropDownView.swift in Sources */,
 				AC4CB8B62B63E0350058C263 /* DemoOfHidingPanelView.swift in Sources */,
 				AC89BFFE2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift in Sources */,
+				AC45FBD32D2962050020837B /* AssistantCollectionViewCell.swift in Sources */,
 				ACC496DF2C8B1C9B00EAA344 /* FolderView.swift in Sources */,
 				AC366EBE2C2074F00029AA9A /* MenuSwiftUIView11.swift in Sources */,
 				AC502DA72CD945C700DDB86A /* ContentOneeStructView.swift in Sources */,
@@ -720,6 +746,7 @@
 				AC366EC32C20757E0029AA9A /* DropDownMenuDemo4.swift in Sources */,
 				ACDEFE152BEB7F41006E0CD1 /* UserAuthorizationBM.swift in Sources */,
 				AC9C22112C5A555200D59037 /* SwiftUIViewTangem.swift in Sources */,
+				AC45FBCD2D29614D0020837B /* CalendarViewModel.swift in Sources */,
 				ACC20EBB2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */,
 				AC82964B2B5E583F008383B0 /* PinnedUIView.swift in Sources */,
 				ACC496ED2C8B283F00EAA344 /* AppleSwiftUIView2.swift in Sources */,
@@ -746,6 +773,7 @@
 				AC3B12DD2CF099440076D9B3 /* SearchFruitsView.swift in Sources */,
 				ACFEDC702B83A064002B3C66 /* Skeleton.swift in Sources */,
 				AC366EC12C2075300029AA9A /* DropDown4.swift in Sources */,
+				AC45FBD12D29617F0020837B /* CalendarViewController.swift in Sources */,
 				ACFEDC782B83A2C3002B3C66 /* View+Hidden.swift in Sources */,
 				ACFEDC7B2B83A333002B3C66 /* DisableScrollingModifier.swift in Sources */,
 				ACEC5E3A2CAF1E4200ECBB2F /* SwiftUIViewIpad4.swift in Sources */,

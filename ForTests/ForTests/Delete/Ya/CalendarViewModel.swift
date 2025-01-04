@@ -21,7 +21,7 @@ final class CalendarViewModel: CalendarViewModelProtocol {
     
     var alicesSortedArray = [Int]()
     var bobsSortedArray = [Int]()
-    let hours = [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+    let hours = Array(9...19)
     
     let aliceCalendar = [
         BookedTime(start: 9, end: 12),

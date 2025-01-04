@@ -36,25 +36,40 @@ extension CalendarViewController: UICollectionViewDelegateFlowLayout, UICollecti
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: AssistantCollectionViewCell.cellID, for: indexPath) as? AssistantCollectionViewCell else { return UICollectionViewCell() }
-        
+
         if collectionView == alisaCollectionView {
-            cell.makeBackgorundColor(color: .systemBlue)
-            if !calendarViewModel.alicesSortedArray.contains(calendarViewModel.hours[indexPath.row]) {
-                cell.makeBackgorundColor(color: .systemGray)
-            }
+            configureCellForAlice(cell: cell, at: indexPath)
         } else if collectionView == bobCollectionView {
-            cell.makeBackgorundColor(color: .systemOrange)
-            if !calendarViewModel.bobsSortedArray.contains(calendarViewModel.hours[indexPath.row]) {
-                cell.makeBackgorundColor(color: .systemGray)
-            }
+            configureCellForBob(cell: cell, at: indexPath)
         } else if collectionView == matchesCollectionView {
-            cell.makeBackgorundColor(color: .systemRed)
-            if !calendarViewModel.alicesSortedArray.contains(calendarViewModel.hours[indexPath.row]) && !calendarViewModel.bobsSortedArray.contains(calendarViewModel.hours[indexPath.row]) {
-                cell.makeBackgorundColor(color: .systemGreen)
-            }
+            configureCellForMatches(cell: cell, at: indexPath)
         }
+
         return cell
     }
+
+    private func configureCellForAlice(cell: AssistantCollectionViewCell, at indexPath: IndexPath) {
+        cell.makeBackgorundColor(color: .systemBlue)
+        if !calendarViewModel.alicesSortedArray.contains(calendarViewModel.hours[indexPath.row]) {
+            cell.makeBackgorundColor(color: .systemGray)
+        }
+    }
+
+    private func configureCellForBob(cell: AssistantCollectionViewCell, at indexPath: IndexPath) {
+        cell.makeBackgorundColor(color: .systemOrange)
+        if !calendarViewModel.bobsSortedArray.contains(calendarViewModel.hours[indexPath.row]) {
+            cell.makeBackgorundColor(color: .systemGray)
+        }
+    }
+
+    private func configureCellForMatches(cell: AssistantCollectionViewCell, at indexPath: IndexPath) {
+        cell.makeBackgorundColor(color: .systemRed)
+        if !calendarViewModel.alicesSortedArray.contains(calendarViewModel.hours[indexPath.row]) &&
+            !calendarViewModel.bobsSortedArray.contains(calendarViewModel.hours[indexPath.row]) {
+            cell.makeBackgorundColor(color: .systemGreen)
+        }
+    }
+
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: 90, height: 50)

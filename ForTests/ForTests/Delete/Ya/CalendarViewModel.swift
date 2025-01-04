@@ -36,23 +36,12 @@ final class CalendarViewModel: CalendarViewModelProtocol {
     ]
     
     func configureMembersCalendar() {
-        configureAliceCalendar()
-        configureBobCalendar()
+        alicesSortedArray = generateSortedArray(for: aliceCalendar)
+        bobsSortedArray = generateSortedArray(for: bobCalendar)
     }
-    
-    private func configureAliceCalendar() {
-        for busynessHour in aliceCalendar {
-            for i in busynessHour.start ..< busynessHour.end {
-                alicesSortedArray.append(i)
-            }
-        }
+
+    private func generateSortedArray(for calendar: [BookedTime]) -> [Int] {
+        return calendar.flatMap { $0.start ..< $0.end }
     }
-    
-    private func configureBobCalendar() {
-        for busynessHour in bobCalendar {
-            for i in busynessHour.start..<busynessHour.end {
-                bobsSortedArray.append(i)
-            }
-        }
-    }
+
 }

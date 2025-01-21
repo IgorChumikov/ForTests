@@ -202,6 +202,14 @@
 			path = Tran;
 			sourceTree = "<group>";
 		};
+		AC09CDF62D3F90240038A629 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				ACEC5E392CAF1E4200ECBB2F /* SwiftUIViewIpad4.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
 		AC2E18012B8DF7ED001A1485 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
@@ -291,7 +299,6 @@
 				ACEC5E332CAF1A5B00ECBB2F /* SwiftUIViewIpad.swift */,
 				ACEC5E352CAF1D8900ECBB2F /* SwiftUIViewIpad2.swift */,
 				ACEC5E372CAF1DBE00ECBB2F /* SwiftUIViewIpad3.swift */,
-				ACEC5E392CAF1E4200ECBB2F /* SwiftUIViewIpad4.swift */,
 				AC502DA42CD9450C00DDB86A /* ContentOneeView.swift */,
 				AC502DA62CD945C700DDB86A /* ContentOneeStructView.swift */,
 				ACFA09252CECA42000A2167E /* 11111123ffffff.swift */,
@@ -421,6 +428,7 @@
 		AC72FA572B513E2C009E60AB = {
 			isa = PBXGroup;
 			children = (
+				AC09CDF62D3F90240038A629 /* Favorite */,
 				ACFEDC6D2B839FF7002B3C66 /* CanBeUsed */,
 				AC72FA622B513E2C009E60AB /* ForTests */,
 				AC72FA612B513E2C009E60AB /* Products */,

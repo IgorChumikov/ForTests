@@ -15,15 +15,15 @@ struct SwiftUIViewIpad4: View {
                 Section {
                     NavigationLink(destination: Text("Мой экран 1")) {
                         HStack(alignment: .center, spacing: 10) {
-                            Image(systemName: "bookmark") // Иконка перед текстом
-                                .foregroundColor(.blue) // Цвет иконки
-                            Text("Закладки и документы") // Текст строки
+                            Image(systemName: "bookmark")
+                                .foregroundColor(.blue)
+                            Text("Закладки и документы")
                         }
                     }
                     
                     NavigationLink(destination: Text("Мой экран 2")) {
                         HStack(alignment: .center, spacing: 10) {
-                            Image(systemName: "folder") // Иконка перед текстом
+                            Image(systemName: "folder")
                                 .foregroundColor(.orange)
                             Text("Папки")
                         }
@@ -31,7 +31,7 @@ struct SwiftUIViewIpad4: View {
                     
                     NavigationLink(destination: Text("Мой экран 3")) {
                         HStack(alignment: .center, spacing: 10) {
-                            Image(systemName: "doc.text") // Иконка перед текстом
+                            Image(systemName: "doc.text")
                                 .foregroundColor(.green)
                             Text("Документы на контроле")
                         }
@@ -41,7 +41,7 @@ struct SwiftUIViewIpad4: View {
                 Section {
                     NavigationLink(destination: Text("Мой экран 4")) {
                         HStack {
-                            Image(systemName: "tray.and.arrow.down") // Иконка перед текстом
+                            Image(systemName: "tray.and.arrow.down")
                                 .foregroundColor(.purple)
                             Text("Загруженные документы")
                         }

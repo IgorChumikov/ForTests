@@ -10,6 +10,7 @@
 		AC03622B2C1879AC0033B781 /* View4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC03622A2C1879AC0033B781 /* View4.swift */; };
 		AC03622D2C187D7D0033B781 /* View5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC03622C2C187D7D0033B781 /* View5.swift */; };
 		AC03622F2C1B10E00033B781 /* MainView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC03622E2C1B10E00033B781 /* MainView5.swift */; };
+		AC09CDF82D3F95B80038A629 /* FavoriteSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC09CDF72D3F95B80038A629 /* FavoriteSwiftUIView.swift */; };
 		AC103B4C2CABF44400F6030A /* DocumentsListSectionsPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC103B4B2CABF44400F6030A /* DocumentsListSectionsPanelView.swift */; };
 		AC366EAE2C2034760029AA9A /* MenuSwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC366EAD2C2034760029AA9A /* MenuSwiftUIView2.swift */; };
 		AC366EB32C20666C0029AA9A /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC366EB22C20666C0029AA9A /* DropDown.swift */; };
@@ -97,6 +98,7 @@
 		AC03622A2C1879AC0033B781 /* View4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View4.swift; sourceTree = "<group>"; };
 		AC03622C2C187D7D0033B781 /* View5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View5.swift; sourceTree = "<group>"; };
 		AC03622E2C1B10E00033B781 /* MainView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView5.swift; sourceTree = "<group>"; };
+		AC09CDF72D3F95B80038A629 /* FavoriteSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteSwiftUIView.swift; sourceTree = "<group>"; };
 		AC103B4B2CABF44400F6030A /* DocumentsListSectionsPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsListSectionsPanelView.swift; sourceTree = "<group>"; };
 		AC366EAD2C2034760029AA9A /* MenuSwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSwiftUIView2.swift; sourceTree = "<group>"; };
 		AC366EB22C20666C0029AA9A /* DropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				ACEC5E392CAF1E4200ECBB2F /* SwiftUIViewIpad4.swift */,
+				AC09CDF72D3F95B80038A629 /* FavoriteSwiftUIView.swift */,
 			);
 			path = Favorite;
 			sourceTree = "<group>";
@@ -790,6 +793,7 @@
 				AC03622D2C187D7D0033B781 /* View5.swift in Sources */,
 				AC366ECC2C21C0AF0029AA9A /* SheetStartTest.swift in Sources */,
 				AC89C0182C071C9F006BE793 /* DynamicHeightTextEditor.swift in Sources */,
+				AC09CDF82D3F95B80038A629 /* FavoriteSwiftUIView.swift in Sources */,
 				AC5278122BF37D2800CD1909 /* KeyboardHelper.swift in Sources */,
 				AC5278382BF647A500CD1909 /* ContentViewTwo.swift in Sources */,
 				ACEC5E382CAF1DBE00ECBB2F /* SwiftUIViewIpad3.swift in Sources */,

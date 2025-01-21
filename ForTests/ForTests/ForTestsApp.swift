@@ -9,14 +9,9 @@ import SwiftUI
 
 @main
 struct ForTestsApp: App {
-    @State private var rootFolder = Folder(name: "Root", subfolders: [])
-    
     var body: some Scene {
         WindowGroup {
-//            NavigationView {
-//                FolderView(folder: $rootFolder)
-//            }
-            DO11111123ffffff()
+            FavoriteSwiftUIView()
         }
     }
 }

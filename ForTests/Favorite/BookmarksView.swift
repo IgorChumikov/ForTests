@@ -21,24 +21,26 @@ struct BookmarksView: View {
         NavigationView {
             List {
                 ForEach(bookmarks) { bookmark in
-                    BookmarkRow(bookmark: bookmark, isEditing: isEditing, isSelected: selectedItems.contains(bookmark.id))
-                        .onTapGesture {
-                            if isEditing {
-                                toggleSelection(for: bookmark.id)
-                            }
+                    Button {
+                        handleBookmarkTap(bookmark)
+                    } label: {
+                        BookmarkRow(bookmark: bookmark, isEditing: isEditing, isSelected: selectedItems.contains(bookmark.id))
+                    }
+                    .buttonStyle(PlainButtonStyle()) // Убираем стандартный стиль кнопки
+                    .swipeActions {
+                        Button("Удалить", role: .destructive) {
+                            deleteItem(bookmark)
                         }
-                        .swipeActions {
-                            Button("Удалить", role: .destructive) {
-                                deleteItem(bookmark)
-                            }
-                            Button("Переименовать") {
-                                renameItem = bookmark
-                                newName = bookmark.name ?? bookmark.title ?? ""
-                            }
-                            .tint(.blue)
+                        Button("Переименовать") {
+                            renameItem = bookmark
+                            newName = bookmark.name ?? bookmark.title ?? ""
                         }
+                        .tint(.blue)
+                    }
                 }
+
             }
+            .listStyle(.inset)
             .navigationTitle("Закладки и документы")
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
@@ -79,6 +81,15 @@ struct BookmarksView: View {
     }
 
     // MARK: - Методы
+    
+    private func handleBookmarkTap(_ bookmark: Bookmark) {
+        if isEditing {
+            toggleSelection(for: bookmark.id)
+        } else {
+            print("Открываем: \(bookmark.name ?? bookmark.title ?? "Без названия")")
+            // Здесь можно добавить логику перехода к документу или папке
+        }
+    }
 
     private func toggleEditingMode() {
         isEditing.toggle()
@@ -161,7 +172,9 @@ struct BookmarkRow: View {
     let bookmark: Bookmark
     let isEditing: Bool
     let isSelected: Bool
-
+    
+    @State private var isPressed = false  // Следим за нажатием
+    
     var body: some View {
         HStack {
             if isEditing {
@@ -177,17 +190,17 @@ struct BookmarkRow: View {
             } else if bookmark.type == .bookmark {
                 Image(systemName: "bookmark.fill").foregroundColor(.gray)
             }
-
+            
             VStack(alignment: .leading) {
                 if let name = bookmark.name {
                     Text(name)
                         .font(.headline)
-                        .foregroundColor(bookmark.type == .bookmark ? .gray : .primary) // Серый текст для закладок
+                        .foregroundColor(bookmark.type == .bookmark ? .gray : .primary)
                 }
                 if let title = bookmark.title {
                     Text(title)
                         .font(.headline)
-                        .foregroundColor(bookmark.type == .document ? .primary : .gray) // Документ черный, остальное серое
+                        .foregroundColor(bookmark.type == .document ? .primary : .gray)
                 }
                 if let comment = bookmark.comment {
                     Text(comment).font(.subheadline).foregroundColor(.gray)
@@ -196,8 +209,16 @@ struct BookmarkRow: View {
             Spacer()
         }
         .padding(.vertical, 5)
+        .background(isPressed ? Color.purple.opacity(0.3) : Color.clear) // Фиолетовый при нажатии
+        .cornerRadius(8)
+        .simultaneousGesture(
+            DragGesture(minimumDistance: 0)
+                .onChanged { _ in isPressed = true }
+                .onEnded { _ in isPressed = false }
+        )
     }
 }
+
 
 
 // MARK: - Экран переименования

@@ -11,6 +11,8 @@ struct BookmarksView: View {
     @State private var bookmarks = BookmarksList.mock.list
     @State private var selectedItems: Set<String> = []
     @State private var isEditing = false
+    @State private var renameItem: Bookmark? = nil
+    @State private var newName: String = ""
 
     var body: some View {
         NavigationView {
@@ -21,6 +23,16 @@ struct BookmarksView: View {
                             if isEditing {
                                 toggleSelection(for: bookmark.id)
                             }
+                        }
+                        .swipeActions {
+                            Button("Удалить", role: .destructive) {
+                                deleteItem(bookmark)
+                            }
+                            Button("Переименовать") {
+                                renameItem = bookmark
+                                newName = bookmark.name ?? bookmark.title ?? ""
+                            }
+                            .tint(.blue)
                         }
                 }
             }
@@ -40,6 +52,11 @@ struct BookmarksView: View {
                     } label: {
                         Image(systemName: "ellipsis.circle")
                     }
+                }
+            }
+            .sheet(item: $renameItem) { bookmark in
+                RenameView(name: $newName) { newName in
+                    rename(bookmark, newName: newName)
                 }
             }
         }
@@ -66,6 +83,34 @@ struct BookmarksView: View {
         bookmarks.removeAll { selectedItems.contains($0.id) }
         selectedItems.removeAll()
         isEditing = false
+    }
+
+    private func deleteItem(_ bookmark: Bookmark) {
+        bookmarks.removeAll { $0.id == bookmark.id }
+    }
+
+    private func rename(_ bookmark: Bookmark, newName: String) {
+        if let index = bookmarks.firstIndex(where: { $0.id == bookmark.id }) {
+            bookmarks[index] = Bookmark(
+                id: bookmark.id,
+                type: bookmark.type,
+                time: bookmark.time,
+                parent_id: bookmark.parent_id,
+                url: bookmark.url,
+                title: bookmark.type == .document ? newName : nil,
+                edition: bookmark.edition,
+                edition_date: bookmark.edition_date,
+                base: bookmark.base,
+                docnumber: bookmark.docnumber,
+                lasted: bookmark.lasted,
+                name: bookmark.type == .folder ? newName : nil,
+                comment: bookmark.comment,
+                paragraph: bookmark.paragraph,
+                page: bookmark.page,
+                label: bookmark.label,
+                offset: bookmark.offset
+            )
+        }
     }
 
     private func createFolder() {
@@ -105,6 +150,35 @@ struct BookmarkRow: View {
             Spacer()
         }
         .padding(.vertical, 5)
+    }
+}
+
+// MARK: - Экран переименования
+struct RenameView: View {
+    @Binding var name: String
+    var onSave: (String) -> Void
+    @Environment(\.presentationMode) var presentationMode
+
+    var body: some View {
+        NavigationView {
+            Form {
+                TextField("Введите новое название", text: $name)
+            }
+            .navigationTitle("Переименование")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button("Отмена") {
+                        presentationMode.wrappedValue.dismiss()
+                    }
+                }
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button("Сохранить") {
+                        onSave(name)
+                        presentationMode.wrappedValue.dismiss()
+                    }
+                }
+            }
+        }
     }
 }
 

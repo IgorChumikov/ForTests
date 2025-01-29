@@ -211,10 +211,7 @@
 		AC09CDF62D3F90240038A629 /* Favorite */ = {
 			isa = PBXGroup;
 			children = (
-				ACEC5E392CAF1E4200ECBB2F /* SwiftUIViewIpad4.swift */,
-				AC09CDF72D3F95B80038A629 /* FavoriteSwiftUIView.swift */,
-				AC09CDFE2D4133CC0038A629 /* SwiftUIViewIpad5.swift */,
-				AC09CE002D4134F70038A629 /* MenuSwiftUIView.swift */,
+				AC70C5DA2D4A4FD000718A64 /* Old */,
 			);
 			path = Favorite;
 			sourceTree = "<group>";
@@ -432,6 +429,17 @@
 				AC5278442BF649C600CD1909 /* ContentViewOne2.swift */,
 			);
 			name = ViewModifier;
+			sourceTree = "<group>";
+		};
+		AC70C5DA2D4A4FD000718A64 /* Old */ = {
+			isa = PBXGroup;
+			children = (
+				ACEC5E392CAF1E4200ECBB2F /* SwiftUIViewIpad4.swift */,
+				AC09CDF72D3F95B80038A629 /* FavoriteSwiftUIView.swift */,
+				AC09CDFE2D4133CC0038A629 /* SwiftUIViewIpad5.swift */,
+				AC09CE002D4134F70038A629 /* MenuSwiftUIView.swift */,
+			);
+			path = Old;
 			sourceTree = "<group>";
 		};
 		AC72FA572B513E2C009E60AB = {

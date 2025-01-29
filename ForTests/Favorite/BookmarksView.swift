@@ -113,13 +113,13 @@ struct BookmarksView: View {
                 time: bookmark.time,
                 parent_id: bookmark.parent_id,
                 url: bookmark.url,
-                title: bookmark.type == .document ? newName : nil,
+                title: bookmark.type == .document ? newName : bookmark.title,
                 edition: bookmark.edition,
                 edition_date: bookmark.edition_date,
                 base: bookmark.base,
                 docnumber: bookmark.docnumber,
                 lasted: bookmark.lasted,
-                name: bookmark.type == .folder ? newName : nil,
+                name: bookmark.type == .folder || bookmark.type == .bookmark ? newName : bookmark.name, // ✅ Исправлено
                 comment: bookmark.comment,
                 paragraph: bookmark.paragraph,
                 page: bookmark.page,
@@ -128,6 +128,7 @@ struct BookmarksView: View {
             )
         }
     }
+
 
     private func createFolder(with name: String) {
         guard !name.isEmpty else { return }
@@ -167,17 +168,26 @@ struct BookmarkRow: View {
                 Image(systemName: isSelected ? "checkmark.square.fill" : "square")
                     .foregroundColor(isSelected ? .blue : .gray)
             }
+            
+            // Иконки в зависимости от типа
             if bookmark.type == .folder {
                 Image(systemName: "folder.fill").foregroundColor(.yellow)
-            } else {
+            } else if bookmark.type == .document {
                 Image(systemName: "doc.fill").foregroundColor(.blue)
+            } else if bookmark.type == .bookmark {
+                Image(systemName: "bookmark.fill").foregroundColor(.gray)
             }
+
             VStack(alignment: .leading) {
                 if let name = bookmark.name {
-                    Text(name).font(.headline)
+                    Text(name)
+                        .font(.headline)
+                        .foregroundColor(bookmark.type == .bookmark ? .gray : .primary) // Серый текст для закладок
                 }
                 if let title = bookmark.title {
-                    Text(title).font(.headline).foregroundColor(.blue)
+                    Text(title)
+                        .font(.headline)
+                        .foregroundColor(bookmark.type == .document ? .primary : .gray) // Документ черный, остальное серое
                 }
                 if let comment = bookmark.comment {
                     Text(comment).font(.subheadline).foregroundColor(.gray)
@@ -188,6 +198,7 @@ struct BookmarkRow: View {
         .padding(.vertical, 5)
     }
 }
+
 
 // MARK: - Экран переименования
 struct RenameView: View {

@@ -55,6 +55,8 @@
 		AC5278422BF6497D00CD1909 /* ExitAlertModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5278412BF6497D00CD1909 /* ExitAlertModifier.swift */; };
 		AC5278452BF649C600CD1909 /* ContentViewOne2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5278442BF649C600CD1909 /* ContentViewOne2.swift */; };
 		AC5B1B042BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5B1B032BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift */; };
+		AC70C5DC2D4A4FF500718A64 /* BookmarksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC70C5DB2D4A4FF500718A64 /* BookmarksList.swift */; };
+		AC70C5DE2D4A500A00718A64 /* BookmarksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC70C5DD2D4A500A00718A64 /* BookmarksView.swift */; };
 		AC72FA642B513E2C009E60AB /* ForTestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC72FA632B513E2C009E60AB /* ForTestsApp.swift */; };
 		AC72FA682B513E2E009E60AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC72FA672B513E2E009E60AB /* Assets.xcassets */; };
 		AC72FA6B2B513E2E009E60AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC72FA6A2B513E2E009E60AB /* Preview Assets.xcassets */; };
@@ -145,6 +147,8 @@
 		AC5278412BF6497D00CD1909 /* ExitAlertModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitAlertModifier.swift; sourceTree = "<group>"; };
 		AC5278442BF649C600CD1909 /* ContentViewOne2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewOne2.swift; sourceTree = "<group>"; };
 		AC5B1B032BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationBMView.swift; sourceTree = "<group>"; };
+		AC70C5DB2D4A4FF500718A64 /* BookmarksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksList.swift; sourceTree = "<group>"; };
+		AC70C5DD2D4A500A00718A64 /* BookmarksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksView.swift; sourceTree = "<group>"; };
 		AC72FA602B513E2C009E60AB /* ForTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC72FA632B513E2C009E60AB /* ForTestsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForTestsApp.swift; sourceTree = "<group>"; };
 		AC72FA672B513E2E009E60AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -211,6 +215,8 @@
 		AC09CDF62D3F90240038A629 /* Favorite */ = {
 			isa = PBXGroup;
 			children = (
+				AC70C5DB2D4A4FF500718A64 /* BookmarksList.swift */,
+				AC70C5DD2D4A500A00718A64 /* BookmarksView.swift */,
 				AC70C5DA2D4A4FD000718A64 /* Old */,
 			);
 			path = Favorite;
@@ -821,12 +827,14 @@
 				AC82964D2B5E583F008383B0 /* ScrollDirectionView.swift in Sources */,
 				ACCECFCE2D00B77300C9AB91 /* IpadTest3SwiftUIView.swift in Sources */,
 				AC103B4C2CABF44400F6030A /* DocumentsListSectionsPanelView.swift in Sources */,
+				AC70C5DC2D4A4FF500718A64 /* BookmarksList.swift in Sources */,
 				ACC496E42C8B204B00EAA344 /* FileItem.swift in Sources */,
 				ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */,
 				ACFEDC762B83A2A6002B3C66 /* View+Padding.swift in Sources */,
 				ACFA09282CEDE05400A2167E /* HelperSwiftUIView.swift in Sources */,
 				AC366EAE2C2034760029AA9A /* MenuSwiftUIView2.swift in Sources */,
 				ACCECFCB2D00AE7C00C9AB91 /* IpadTest2SwiftUIView.swift in Sources */,
+				AC70C5DE2D4A500A00718A64 /* BookmarksView.swift in Sources */,
 				AC52781F2BF3941A00CD1909 /* MainCurtainView.swift in Sources */,
 				AC5278182BF388F700CD1909 /* BottomSheet.swift in Sources */,
 				AC5278402BF6495300CD1909 /* ContentViewOne1.swift in Sources */,

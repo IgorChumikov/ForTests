@@ -14,6 +14,9 @@ struct BookmarksView: View {
     @State private var renameItem: Bookmark? = nil
     @State private var newName: String = ""
 
+    @State private var showCreateFolderAlert = false
+    @State private var newFolderName = ""
+
     var body: some View {
         NavigationView {
             List {
@@ -47,7 +50,10 @@ struct BookmarksView: View {
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Menu {
-                        Button("Создать папку", action: createFolder)
+                        Button("Создать папку") {
+                            newFolderName = ""  // Сброс имени перед открытием алерта
+                            showCreateFolderAlert = true
+                        }
                         Button("Выбрать", action: toggleEditingMode)
                     } label: {
                         Image(systemName: "ellipsis.circle")
@@ -57,6 +63,16 @@ struct BookmarksView: View {
             .sheet(item: $renameItem) { bookmark in
                 RenameView(name: $newName) { newName in
                     rename(bookmark, newName: newName)
+                }
+            }
+            .alert("Введите имя папки", isPresented: $showCreateFolderAlert) {
+                TextField("Название папки", text: $newFolderName)
+                Button("Отмена", role: .cancel) {
+                    newFolderName = ""  // Сброс имени при отмене
+                }
+                Button("Готово") {
+                    createFolder(with: newFolderName)
+                    newFolderName = ""  // Сброс имени после создания
                 }
             }
         }
@@ -113,8 +129,28 @@ struct BookmarksView: View {
         }
     }
 
-    private func createFolder() {
-        let newFolder = Bookmark(id: UUID().uuidString, type: .folder, time: Date(), parent_id: nil, url: nil, title: nil, edition: nil, edition_date: nil, base: nil, docnumber: nil, lasted: nil, name: "Новая папка", comment: nil, paragraph: nil, page: nil, label: nil, offset: nil)
+    private func createFolder(with name: String) {
+        guard !name.isEmpty else { return }
+        
+        let newFolder = Bookmark(
+            id: UUID().uuidString,
+            type: .folder,
+            time: Date(),
+            parent_id: nil,
+            url: nil,
+            title: nil,
+            edition: nil,
+            edition_date: nil,
+            base: nil,
+            docnumber: nil,
+            lasted: nil,
+            name: name,
+            comment: nil,
+            paragraph: nil,
+            page: nil,
+            label: nil,
+            offset: nil
+        )
         bookmarks.insert(newFolder, at: 0)
     }
 }

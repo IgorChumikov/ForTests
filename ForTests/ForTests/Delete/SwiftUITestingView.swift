@@ -10,40 +10,30 @@ import SwiftUI
 struct SwiftUITestingView: View {
     
     let text: String
-    @State private var isExpanded: Bool = false
-    @State private var textHeight: CGFloat = .zero
-    @State private var lineLimit: Int? = 4
-    
+    @State private var isExpanded = false
+
     var body: some View {
-        annotation
-    }
-    
-    private var annotation: some View {
         VStack(alignment: .leading, spacing: 4) {
             Text(text)
                 .lineSpacing(3)
-                .lineLimit(isExpanded ? nil : lineLimit) // Обрезаем до 4 строк, если не развернуто
-                .background(GeometryReader { proxy in
-                    Color.clear
-                        .onAppear {
-                            textHeight = proxy.size.height
-                        }
-                })
+                .lineLimit(isExpanded ? nil : 4) // Обрезаем текст, если не развернуто
+                .animation(.easeInOut, value: isExpanded) // Анимируем изменение lineLimit
 
             expandButton
-                .hidden(isExpanded, mode: .removed) // Скрываем кнопку, если текст развернут
+                .opacity(isExpanded ? 0 : 1) // Скрываем кнопку плавно
+                .animation(.easeInOut, value: isExpanded)
         }
     }
     
     private var expandButton: some View {
         Button {
             withAnimation {
-                isExpanded.toggle() // Меняем состояние
+                isExpanded.toggle()
             }
         } label: {
             HStack(alignment: .center, spacing: 4) {
-                Image(systemName: "arrow.down")
-                Text("Развернуть")
+                Image(systemName: isExpanded ? "arrow.up" : "arrow.down")
+                Text(isExpanded ? "Свернуть" : "Развернуть")
             }
             .foregroundColor(.blue)
         }
@@ -53,6 +43,6 @@ struct SwiftUITestingView: View {
 
 #Preview {
     SwiftUITestingView(
-        text: "Дополнены положения о личном фонде. Уточнены нормы о ликвидации общественно полезного фонда в случае осуществления деятельности, противоречающией уставным целям. Дополнены положения о личном фонде. Уточнены нормы о ликвидации общественно полезного фонда в случае осуществления деятельности, противоречающией уставным целям."
+        text: "Дополнены положения о личном фонде. Уточнены нормы о ликвидации общественно полезного фонда в случае осуществления деятельности, противоречащей уставным целям. Дополнены положения о личном фонде. Уточнены нормы о ликвидации общественно полезного фонда в случае осуществления деятельности, противоречащей уставным целям."
     )
 }

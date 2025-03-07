@@ -8,87 +8,38 @@
 import SwiftUI
 
 struct SwiftUITestingView: View {
+    
+    let text: String
+    
     var body: some View {
-        // Применение:
-        Button("Двойное нажатие") {
-            print("Обычное нажатие")
+        annotation
+    }
+    
+    private var annotation: some View {
+        VStack(alignment: .leading, spacing: 4) {
+            Text(text)
+                .lineSpacing(3)
+            expandButton
+            
         }
-        .buttonStyle(.doubleTap {
-            print("Двойное нажатие")
-        })
+    }
+    
+    private var expandButton: some View {
+        Button {
+            // some code
+        } label: {
+            HStack(alignment: .center, spacing: 4) {
+                Image(systemName: "arrow.down")
+                Text("Развернуть")
+            }
+            .foregroundColor(.blue)
+        }
+        .buttonStyle(.plain)
     }
 }
 
 #Preview {
-    SwiftUITestingView()
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-struct DoubleTapButtonStyle: PrimitiveButtonStyle {
-    let doubleTapAction: () -> Void
-    
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .padding()
-            .background(Color.blue)
-            .foregroundColor(.white)
-            .clipShape(RoundedRectangle(cornerRadius: 10))
-            .onTapGesture(count: 1, perform: configuration.trigger)
-            .onTapGesture(count: 2, perform: doubleTapAction)
-    }
-}
-
-extension PrimitiveButtonStyle where Self == DoubleTapButtonStyle {
-    static func doubleTap(action: @escaping () -> Void) -> DoubleTapButtonStyle {
-        DoubleTapButtonStyle(doubleTapAction: action)
-    }
-}
-
-
-
-
-
-
-
-
-
-extension ButtonStyle where Self == PrimaryButtonStyle {
-    static var primary: PrimaryButtonStyle { .init() }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-struct PrimaryButtonStyle: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .padding(12)
-            .frame(maxWidth: .infinity)
-            .background(Color.accentColor)
-            .foregroundColor(.white)
-            .clipShape(Capsule())
-            .scaleEffect(configuration.isPressed ? 0.95 : 1)
-            .animation(.spring(), value: configuration.isPressed)
-    }
+    SwiftUITestingView(
+        text: "Дополнены положения о личном фонде. Уточнены нормы о ликвидации общественно полезного фонда в случае осуществления деятельности, противоречающией уставным целям. Дополнены положения о личном фонде. Уточнены нормы о ликвидации общественно полезного фонда в случае осуществления деятельности, противоречающией уставным целям."
+    )
 }

@@ -11,18 +11,18 @@ struct FavoritesDocUnderControlAnnotationView: View {
     
     let text: String
     @State private var isExpanded = false
-
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 4) {
             Text(text)
                 .lineSpacing(3)
-                .lineLimit(isExpanded ? nil : 4) // Обрезаем текст, если не развернуто
-                .animation(.easeInOut, value: isExpanded) // Анимируем изменение lineLimit
-
+                .lineLimit(isExpanded ? nil : 4)
+                .animation(.easeOut, value: isExpanded)
             expandButton
-                .opacity(isExpanded ? 0 : 1) // Скрываем кнопку плавно
-                .animation(.easeInOut, value: isExpanded)
+                .opacity(isExpanded ? 0 : 1)
+                .animation(.easeOut, value: isExpanded)
         }
+        .frame(maxWidth: .infinity, alignment: .leading)
     }
     
     private var expandButton: some View {

@@ -10,6 +10,9 @@ import SwiftUI
 struct SwiftUITestingView: View {
     
     let text: String
+    @State private var isExpanded: Bool = false
+    @State private var textHeight: CGFloat = .zero
+    @State private var lineLimit: Int? = 4
     
     var body: some View {
         annotation
@@ -19,14 +22,24 @@ struct SwiftUITestingView: View {
         VStack(alignment: .leading, spacing: 4) {
             Text(text)
                 .lineSpacing(3)
+                .lineLimit(isExpanded ? nil : lineLimit) // Обрезаем до 4 строк, если не развернуто
+                .background(GeometryReader { proxy in
+                    Color.clear
+                        .onAppear {
+                            textHeight = proxy.size.height
+                        }
+                })
+
             expandButton
-            
+                .hidden(isExpanded, mode: .removed) // Скрываем кнопку, если текст развернут
         }
     }
     
     private var expandButton: some View {
         Button {
-            // some code
+            withAnimation {
+                isExpanded.toggle() // Меняем состояние
+            }
         } label: {
             HStack(alignment: .center, spacing: 4) {
                 Image(systemName: "arrow.down")

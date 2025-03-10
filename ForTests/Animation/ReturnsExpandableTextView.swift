@@ -76,6 +76,7 @@ struct ReturnsExpandableTextView: View {
             ? (shouldShowMoreButton ? textTrimmingDoubleNewlines : text)
             : text
         ))
+        .font(.system(size: 14, weight: .regular))
         .frame(maxWidth: .infinity, alignment: .leading)
     }
     

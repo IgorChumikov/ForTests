@@ -27,6 +27,8 @@
 		AC366ECC2C21C0AF0029AA9A /* SheetStartTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC366ECB2C21C0AF0029AA9A /* SheetStartTest.swift */; };
 		AC3B12DD2CF099440076D9B3 /* SearchFruitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3B12DC2CF099440076D9B3 /* SearchFruitsView.swift */; };
 		AC411F9C2D7EC175009AFD7A /* ReturnsExpandableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC411F9B2D7EC175009AFD7A /* ReturnsExpandableTextView.swift */; };
+		AC411F9E2D7ED93D009AFD7A /* SizePreferenceKey2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC411F9D2D7ED93D009AFD7A /* SizePreferenceKey2.swift */; };
+		AC411FA02D7ED95B009AFD7A /* TruncationTextMaskModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC411F9F2D7ED95B009AFD7A /* TruncationTextMaskModifier.swift */; };
 		AC4238402C11A6C50035B3CE /* SwiftUIView123231.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC42383F2C11A6C50035B3CE /* SwiftUIView123231.swift */; };
 		AC45FBCD2D29614D0020837B /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC45FBCC2D29614D0020837B /* CalendarViewModel.swift */; };
 		AC45FBD12D29617F0020837B /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC45FBD02D29617F0020837B /* CalendarViewController.swift */; };
@@ -122,6 +124,8 @@
 		AC366ECB2C21C0AF0029AA9A /* SheetStartTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetStartTest.swift; sourceTree = "<group>"; };
 		AC3B12DC2CF099440076D9B3 /* SearchFruitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFruitsView.swift; sourceTree = "<group>"; };
 		AC411F9B2D7EC175009AFD7A /* ReturnsExpandableTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnsExpandableTextView.swift; sourceTree = "<group>"; };
+		AC411F9D2D7ED93D009AFD7A /* SizePreferenceKey2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizePreferenceKey2.swift; sourceTree = "<group>"; };
+		AC411F9F2D7ED95B009AFD7A /* TruncationTextMaskModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruncationTextMaskModifier.swift; sourceTree = "<group>"; };
 		AC42383F2C11A6C50035B3CE /* SwiftUIView123231.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView123231.swift; sourceTree = "<group>"; };
 		AC45FBCC2D29614D0020837B /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
 		AC45FBD02D29617F0020837B /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
@@ -305,6 +309,8 @@
 			isa = PBXGroup;
 			children = (
 				AC411F9B2D7EC175009AFD7A /* ReturnsExpandableTextView.swift */,
+				AC411F9D2D7ED93D009AFD7A /* SizePreferenceKey2.swift */,
+				AC411F9F2D7ED95B009AFD7A /* TruncationTextMaskModifier.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -803,6 +809,7 @@
 				ACC496ED2C8B283F00EAA344 /* AppleSwiftUIView2.swift in Sources */,
 				AC52782A2BF4E9F700CD1909 /* BottomSheetView.swift in Sources */,
 				AC82964C2B5E583F008383B0 /* ScrollDirectionCustomGesture.swift in Sources */,
+				AC411F9E2D7ED93D009AFD7A /* SizePreferenceKey2.swift in Sources */,
 				AC5278212BF4CF7700CD1909 /* AlertContentView.swift in Sources */,
 				AC52781D2BF38B7C00CD1909 /* ExitCurtainView.swift in Sources */,
 				ACC496EF2C8B287700EAA344 /* FileItemView.swift in Sources */,
@@ -848,6 +855,7 @@
 				AC103B4C2CABF44400F6030A /* DocumentsListSectionsPanelView.swift in Sources */,
 				AC67B5EE2D7B344F002170AB /* ZebraStripeRenderer.swift in Sources */,
 				AC70C5DC2D4A4FF500718A64 /* BookmarksList.swift in Sources */,
+				AC411FA02D7ED95B009AFD7A /* TruncationTextMaskModifier.swift in Sources */,
 				ACC496E42C8B204B00EAA344 /* FileItem.swift in Sources */,
 				ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */,
 				ACFEDC762B83A2A6002B3C66 /* View+Padding.swift in Sources */,

@@ -14,7 +14,7 @@ struct ReturnsExpandableTextView: View {
     // MARK: - Properties
     
     var lineLimit: Int = 2
-    var moreButtonText: String = "Strings.Returns.returnsRowItemExpandButtonTitle"
+    var moreButtonText: String = "Botton"
     var expandAnimation: Animation = .default
     var collapseEnabled: Bool = false
     var trimMultipleNewlinesWhenTruncated: Bool = true
@@ -50,7 +50,7 @@ struct ReturnsExpandableTextView: View {
         content
             .lineLimit(isExpanded ? nil : lineLimit)
             .applyingTruncationMask(size: moreTextSize, enabled: shouldShowMoreButton)
-            .readSize { size in
+            .contentSize { size in
                 truncatedSize = size
                 isTruncated = truncatedSize != intrinsicSize
             }
@@ -59,7 +59,7 @@ struct ReturnsExpandableTextView: View {
                     .lineLimit(nil)
                     .fixedSize(horizontal: false, vertical: true)
                     .hidden()
-                    .readSize { size in
+                    .contentSize { size in
                         intrinsicSize = size
                         isTruncated = truncatedSize != intrinsicSize
                     }
@@ -105,5 +105,6 @@ struct ReturnsExpandableTextView: View {
 
 
 #Preview {
-    ReturnsExpandableTextView()
+    ReturnsExpandableTextView("Консульта́нтПлю́с — кроссплатформенная справочная правовая система, разработанная в России. Первоначально разработку системы осуществляло Научно-производственное объединение «Вычислительная математика и информатика» (НПО «ВМИ»), отвечавшая за разработку системы «Гарант (справочно-правовая система)». Первая версия системы была выпущена в 1992 году[3].На официальном сайте разработчик предоставляет возможность работы с некоммерческой интернет-версией — сокращенной версией коммерческих систем. КонсультантПлюс ежегодно выпускает ограниченные бесплатные версии своей системы для вузов, школ и т. д. (до осени 2019 г. диски «Высшая школа» и «Средняя школа»[4], с осени 2019 г. Онлайн-версия КонсультантПлюс: Студент и бесплатный архив КонсультантПлюс: Средняя школа). Поставляемая вместе с этими версиями документация зачастую неправомерно называется учебным пособием (например, «Введение в правовую информатику»), но при этом служит лишь для обучения пользователя работе с интерфейсами конкретной программы «КонсультантПлюс»[5].")
+        .padding()
 }

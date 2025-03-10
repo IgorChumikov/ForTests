@@ -88,9 +88,10 @@ struct ScrollablePanelView_Previews: PreviewProvider {
     }
 }
 
+// MARK: - BottomSheetMaxHeight Environment Key
 
 public extension EnvironmentValues {
-    /// Максимальная доступная высата для шторки
+    /// Максимальная доступная высота для шторки
     var bottomSheetMaxHeight: CGFloat {
         get { self[BottomSheetMaxHeightKey.self] }
         set { self[BottomSheetMaxHeightKey.self] = newValue }
@@ -113,8 +114,8 @@ public enum ContentSizeMode {
 public extension View {
     /// Возвращает размер контента view на момент отображения.
     /// - Parameters:
-    ///   - mode: мод получения размера контента. По умолчанию: .static.
-    ///   - contentSize: клоужер с размерами контента в зависимости от мода.
+    ///   - mode: режим получения размера контента. По умолчанию: .static.
+    ///   - contentSize: клоужер с размерами контента в зависимости от режима.
     @ViewBuilder
     func contentSize(_ mode: ContentSizeMode = .static, contentSize: @escaping (CGSize) -> Void) -> some View {
         switch mode {
@@ -125,9 +126,6 @@ public extension View {
         }
     }
 }
-
-
-
 
 // MARK: - StaticContentSizeModifier
 

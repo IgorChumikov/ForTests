@@ -26,6 +26,7 @@
 		AC366ECA2C219B850029AA9A /* ResizableLogoutInfoSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC366EC92C219B850029AA9A /* ResizableLogoutInfoSheetView.swift */; };
 		AC366ECC2C21C0AF0029AA9A /* SheetStartTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC366ECB2C21C0AF0029AA9A /* SheetStartTest.swift */; };
 		AC3B12DD2CF099440076D9B3 /* SearchFruitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3B12DC2CF099440076D9B3 /* SearchFruitsView.swift */; };
+		AC411F9C2D7EC175009AFD7A /* ReturnsExpandableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC411F9B2D7EC175009AFD7A /* ReturnsExpandableTextView.swift */; };
 		AC4238402C11A6C50035B3CE /* SwiftUIView123231.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC42383F2C11A6C50035B3CE /* SwiftUIView123231.swift */; };
 		AC45FBCD2D29614D0020837B /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC45FBCC2D29614D0020837B /* CalendarViewModel.swift */; };
 		AC45FBD12D29617F0020837B /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC45FBD02D29617F0020837B /* CalendarViewController.swift */; };
@@ -120,6 +121,7 @@
 		AC366EC92C219B850029AA9A /* ResizableLogoutInfoSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableLogoutInfoSheetView.swift; sourceTree = "<group>"; };
 		AC366ECB2C21C0AF0029AA9A /* SheetStartTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetStartTest.swift; sourceTree = "<group>"; };
 		AC3B12DC2CF099440076D9B3 /* SearchFruitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFruitsView.swift; sourceTree = "<group>"; };
+		AC411F9B2D7EC175009AFD7A /* ReturnsExpandableTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnsExpandableTextView.swift; sourceTree = "<group>"; };
 		AC42383F2C11A6C50035B3CE /* SwiftUIView123231.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView123231.swift; sourceTree = "<group>"; };
 		AC45FBCC2D29614D0020837B /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
 		AC45FBD02D29617F0020837B /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
@@ -299,6 +301,14 @@
 			path = Sheet;
 			sourceTree = "<group>";
 		};
+		AC411F9A2D7EC13C009AFD7A /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				AC411F9B2D7EC175009AFD7A /* ReturnsExpandableTextView.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		AC45FBCE2D2961510020837B /* Ya */ = {
 			isa = PBXGroup;
 			children = (
@@ -455,6 +465,7 @@
 		AC72FA572B513E2C009E60AB = {
 			isa = PBXGroup;
 			children = (
+				AC411F9A2D7EC13C009AFD7A /* Animation */,
 				AC09CDF62D3F90240038A629 /* Favorite */,
 				ACFEDC6D2B839FF7002B3C66 /* CanBeUsed */,
 				AC72FA622B513E2C009E60AB /* ForTests */,
@@ -771,6 +782,7 @@
 				AC52782E2BF4ED6F00CD1909 /* ResizableSheets2View.swift in Sources */,
 				AC52783E2BF6491F00CD1909 /* ExitAlert+View.swift in Sources */,
 				AC52782C2BF4ED2C00CD1909 /* ResizableSheetsView.swift in Sources */,
+				AC411F9C2D7EC175009AFD7A /* ReturnsExpandableTextView.swift in Sources */,
 				AC366EB82C2069A90029AA9A /* DropDownView.swift in Sources */,
 				AC4CB8B62B63E0350058C263 /* DemoOfHidingPanelView.swift in Sources */,
 				AC89BFFE2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift in Sources */,

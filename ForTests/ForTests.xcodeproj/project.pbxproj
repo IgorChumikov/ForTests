@@ -91,6 +91,8 @@
 		ACCECFD02D00BA6200C9AB91 /* GoogleIpadSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCECFCF2D00BA6200C9AB91 /* GoogleIpadSwiftUIView.swift */; };
 		ACDB1FC72DD5EC3000A8EC52 /* SwiftUIViewTestSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB1FC62DD5EC3000A8EC52 /* SwiftUIViewTestSheet.swift */; };
 		ACDB1FCB2DD5EF7A00A8EC52 /* SwiftUIViewTestSheet2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB1FCA2DD5EF7A00A8EC52 /* SwiftUIViewTestSheet2.swift */; };
+		ACDB1FCE2DD61D0D00A8EC52 /* FavoriteDocumentAlreadyUnderControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB1FCD2DD61D0D00A8EC52 /* FavoriteDocumentAlreadyUnderControlView.swift */; };
+		ACDB1FD02DD61DD900A8EC52 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB1FCF2DD61DD900A8EC52 /* Color+Extension.swift */; };
 		ACDEFE152BEB7F41006E0CD1 /* UserAuthorizationBM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE142BEB7F41006E0CD1 /* UserAuthorizationBM.swift */; };
 		ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE162BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift */; };
 		ACDEFE192BEB7F76006E0CD1 /* View+HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE182BEB7F76006E0CD1 /* View+HideKeyboard.swift */; };
@@ -195,6 +197,8 @@
 		ACCECFCF2D00BA6200C9AB91 /* GoogleIpadSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleIpadSwiftUIView.swift; sourceTree = "<group>"; };
 		ACDB1FC62DD5EC3000A8EC52 /* SwiftUIViewTestSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewTestSheet.swift; sourceTree = "<group>"; };
 		ACDB1FCA2DD5EF7A00A8EC52 /* SwiftUIViewTestSheet2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewTestSheet2.swift; sourceTree = "<group>"; };
+		ACDB1FCD2DD61D0D00A8EC52 /* FavoriteDocumentAlreadyUnderControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteDocumentAlreadyUnderControlView.swift; sourceTree = "<group>"; };
+		ACDB1FCF2DD61DD900A8EC52 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		ACDEFE142BEB7F41006E0CD1 /* UserAuthorizationBM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationBM.swift; sourceTree = "<group>"; };
 		ACDEFE162BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationFieldType.swift; sourceTree = "<group>"; };
 		ACDEFE182BEB7F76006E0CD1 /* View+HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+HideKeyboard.swift"; sourceTree = "<group>"; };
@@ -342,6 +346,7 @@
 				AC411F9B2D7EC175009AFD7A /* ReturnsExpandableTextView.swift */,
 				AC411F9D2D7ED93D009AFD7A /* SizePreferenceKey2.swift */,
 				AC411F9F2D7ED95B009AFD7A /* TruncationTextMaskModifier.swift */,
+				ACDB1FCF2DD61DD900A8EC52 /* Color+Extension.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -634,10 +639,19 @@
 		ACDB1FC52DD5EC1A00A8EC52 /* sheet */ = {
 			isa = PBXGroup;
 			children = (
+				ACDB1FCC2DD61CFB00A8EC52 /* AuxiliaryViews */,
 				ACDB1FC62DD5EC3000A8EC52 /* SwiftUIViewTestSheet.swift */,
 				ACDB1FCA2DD5EF7A00A8EC52 /* SwiftUIViewTestSheet2.swift */,
 			);
 			path = sheet;
+			sourceTree = "<group>";
+		};
+		ACDB1FCC2DD61CFB00A8EC52 /* AuxiliaryViews */ = {
+			isa = PBXGroup;
+			children = (
+				ACDB1FCD2DD61D0D00A8EC52 /* FavoriteDocumentAlreadyUnderControlView.swift */,
+			);
+			path = AuxiliaryViews;
 			sourceTree = "<group>";
 		};
 		ACDEFE112BEB7F15006E0CD1 /* BM */ = {
@@ -910,8 +924,10 @@
 				ACFA09282CEDE05400A2167E /* HelperSwiftUIView.swift in Sources */,
 				AC366EAE2C2034760029AA9A /* MenuSwiftUIView2.swift in Sources */,
 				ACCECFCB2D00AE7C00C9AB91 /* IpadTest2SwiftUIView.swift in Sources */,
+				ACDB1FD02DD61DD900A8EC52 /* Color+Extension.swift in Sources */,
 				AC70C5DE2D4A500A00718A64 /* BookmarksView.swift in Sources */,
 				AC52781F2BF3941A00CD1909 /* MainCurtainView.swift in Sources */,
+				ACDB1FCE2DD61D0D00A8EC52 /* FavoriteDocumentAlreadyUnderControlView.swift in Sources */,
 				AC5278182BF388F700CD1909 /* BottomSheet.swift in Sources */,
 				AC5278402BF6495300CD1909 /* ContentViewOne1.swift in Sources */,
 				ACDEFE192BEB7F76006E0CD1 /* View+HideKeyboard.swift in Sources */,

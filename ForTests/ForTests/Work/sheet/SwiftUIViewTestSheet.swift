@@ -10,7 +10,7 @@ import SwiftUI
 
 struct SwiftUIViewTestSheet: View {
     @State private var isShowingTravelModes = false
-
+    
     var body: some View {
         VStack {
             Button("Открыть варианты") {
@@ -21,16 +21,21 @@ struct SwiftUIViewTestSheet: View {
         .sheet(isPresented: $isShowingTravelModes) {
             if #available(iOS 16, *) {
                 travelOptionView
-                  //  .presentationDetents([.height(500)])
-                 .presentationDetents([.large, .medium])
-              } else {
-                  travelOptionView
-              }
+                //  .presentationDetents([.height(500)])
+                    .presentationDetents([.large, .medium])
+            } else {
+                travelOptionView
+            }
         }
     }
-
+    
     var travelOptionView: some View {
         VStack(alignment: .leading, spacing: 0) {
+            Text("Постановка на контроль")
+                .font(.system(size: 17, weight: .semibold))
+                .frame(maxWidth: .infinity, alignment: .center)
+                .padding(.top, 13)
+                .padding(.bottom, 20)
             ScrollView(.vertical) {
                 FavoriteDocumentAlreadyUnderControlView()
                     .padding(.top, 10)

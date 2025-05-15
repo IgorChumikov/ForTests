@@ -15,7 +15,7 @@ struct FavoriteDocumentAlreadyUnderControlView: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: .zero) {
-            controlTitleHeader
+            //    controlTitleHeader
             controlConflictNotice
             fragmentSelectionInfo
             selectedFragmentBox

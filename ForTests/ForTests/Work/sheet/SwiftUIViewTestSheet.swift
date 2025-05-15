@@ -4,6 +4,7 @@
 //
 //  Created by Игорь Чумиков on 15.05.2025.
 //
+// https://www.swiftyplace.com/blog/swift-available
 
 
 import SwiftUI
@@ -23,6 +24,14 @@ struct SwiftUIViewTestSheet: View {
                 travelOptionView
                 //  .presentationDetents([.height(500)])
                     .presentationDetents([.large, .medium])
+                    .presentationCornerRadius(30)
+                 //   .presentationDragIndicator(.visible)
+                   // .presentationCompactAdaptation(horizontal: .automatic, vertical: .sheet)
+                    .presentationContentInteraction(.resizes) // Перетаскивание sheet изменяет высоту (.medium, .large) или Прокрутка внутри контента (ScrollView)
+                   // .presentationBackgroundInteraction(.automatic)
+                   // .presentationSizing(.fitted) // c 18
+                
+                
             } else {
                 travelOptionView
             }

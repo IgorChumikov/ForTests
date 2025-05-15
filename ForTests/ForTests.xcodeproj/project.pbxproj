@@ -14,6 +14,8 @@
 		AC09CDFF2D4133CC0038A629 /* SwiftUIViewIpad5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC09CDFE2D4133CC0038A629 /* SwiftUIViewIpad5.swift */; };
 		AC09CE012D4134F70038A629 /* MenuSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC09CE002D4134F70038A629 /* MenuSwiftUIView.swift */; };
 		AC103B4C2CABF44400F6030A /* DocumentsListSectionsPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC103B4B2CABF44400F6030A /* DocumentsListSectionsPanelView.swift */; };
+		AC1FC1382D88044200C16DCE /* FavoriteBookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FC1372D88044200C16DCE /* FavoriteBookmarkView.swift */; };
+		AC30B5432DCA5F3A0071B1FD /* SwiftUIViewPopoverVisibleswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC30B5422DCA5F3A0071B1FD /* SwiftUIViewPopoverVisibleswift.swift */; };
 		AC366EAE2C2034760029AA9A /* MenuSwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC366EAD2C2034760029AA9A /* MenuSwiftUIView2.swift */; };
 		AC366EB32C20666C0029AA9A /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC366EB22C20666C0029AA9A /* DropDown.swift */; };
 		AC366EB52C2066B40029AA9A /* MenuSwiftUIView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC366EB42C2066B40029AA9A /* MenuSwiftUIView3.swift */; };
@@ -60,6 +62,7 @@
 		AC5278452BF649C600CD1909 /* ContentViewOne2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5278442BF649C600CD1909 /* ContentViewOne2.swift */; };
 		AC5B1B042BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5B1B032BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift */; };
 		AC67B5EE2D7B344F002170AB /* ZebraStripeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC67B5ED2D7B344F002170AB /* ZebraStripeRenderer.swift */; };
+		AC6BC6002D8C11FC000DF3AB /* FavoriteKiller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BC5FF2D8C11FC000DF3AB /* FavoriteKiller.swift */; };
 		AC70C5DC2D4A4FF500718A64 /* BookmarksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC70C5DB2D4A4FF500718A64 /* BookmarksList.swift */; };
 		AC70C5DE2D4A500A00718A64 /* BookmarksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC70C5DD2D4A500A00718A64 /* BookmarksView.swift */; };
 		AC72FA642B513E2C009E60AB /* ForTestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC72FA632B513E2C009E60AB /* ForTestsApp.swift */; };
@@ -86,6 +89,7 @@
 		ACCECFCB2D00AE7C00C9AB91 /* IpadTest2SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCECFCA2D00AE7C00C9AB91 /* IpadTest2SwiftUIView.swift */; };
 		ACCECFCE2D00B77300C9AB91 /* IpadTest3SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCECFCD2D00B77300C9AB91 /* IpadTest3SwiftUIView.swift */; };
 		ACCECFD02D00BA6200C9AB91 /* GoogleIpadSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCECFCF2D00BA6200C9AB91 /* GoogleIpadSwiftUIView.swift */; };
+		ACDB1FC72DD5EC3000A8EC52 /* SwiftUIViewTestSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB1FC62DD5EC3000A8EC52 /* SwiftUIViewTestSheet.swift */; };
 		ACDEFE152BEB7F41006E0CD1 /* UserAuthorizationBM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE142BEB7F41006E0CD1 /* UserAuthorizationBM.swift */; };
 		ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE162BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift */; };
 		ACDEFE192BEB7F76006E0CD1 /* View+HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE182BEB7F76006E0CD1 /* View+HideKeyboard.swift */; };
@@ -112,6 +116,8 @@
 		AC09CDFE2D4133CC0038A629 /* SwiftUIViewIpad5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewIpad5.swift; sourceTree = "<group>"; };
 		AC09CE002D4134F70038A629 /* MenuSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSwiftUIView.swift; sourceTree = "<group>"; };
 		AC103B4B2CABF44400F6030A /* DocumentsListSectionsPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsListSectionsPanelView.swift; sourceTree = "<group>"; };
+		AC1FC1372D88044200C16DCE /* FavoriteBookmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBookmarkView.swift; sourceTree = "<group>"; };
+		AC30B5422DCA5F3A0071B1FD /* SwiftUIViewPopoverVisibleswift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewPopoverVisibleswift.swift; sourceTree = "<group>"; };
 		AC366EAD2C2034760029AA9A /* MenuSwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSwiftUIView2.swift; sourceTree = "<group>"; };
 		AC366EB22C20666C0029AA9A /* DropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
 		AC366EB42C2066B40029AA9A /* MenuSwiftUIView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSwiftUIView3.swift; sourceTree = "<group>"; };
@@ -158,6 +164,7 @@
 		AC5278442BF649C600CD1909 /* ContentViewOne2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewOne2.swift; sourceTree = "<group>"; };
 		AC5B1B032BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationBMView.swift; sourceTree = "<group>"; };
 		AC67B5ED2D7B344F002170AB /* ZebraStripeRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZebraStripeRenderer.swift; sourceTree = "<group>"; };
+		AC6BC5FF2D8C11FC000DF3AB /* FavoriteKiller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteKiller.swift; sourceTree = "<group>"; };
 		AC70C5DB2D4A4FF500718A64 /* BookmarksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksList.swift; sourceTree = "<group>"; };
 		AC70C5DD2D4A500A00718A64 /* BookmarksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksView.swift; sourceTree = "<group>"; };
 		AC72FA602B513E2C009E60AB /* ForTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -185,6 +192,7 @@
 		ACCECFCA2D00AE7C00C9AB91 /* IpadTest2SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpadTest2SwiftUIView.swift; sourceTree = "<group>"; };
 		ACCECFCD2D00B77300C9AB91 /* IpadTest3SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpadTest3SwiftUIView.swift; sourceTree = "<group>"; };
 		ACCECFCF2D00BA6200C9AB91 /* GoogleIpadSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleIpadSwiftUIView.swift; sourceTree = "<group>"; };
+		ACDB1FC62DD5EC3000A8EC52 /* SwiftUIViewTestSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewTestSheet.swift; sourceTree = "<group>"; };
 		ACDEFE142BEB7F41006E0CD1 /* UserAuthorizationBM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationBM.swift; sourceTree = "<group>"; };
 		ACDEFE162BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationFieldType.swift; sourceTree = "<group>"; };
 		ACDEFE182BEB7F76006E0CD1 /* View+HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+HideKeyboard.swift"; sourceTree = "<group>"; };
@@ -232,6 +240,25 @@
 				AC70C5DA2D4A4FD000718A64 /* Old */,
 			);
 			path = Favorite;
+			sourceTree = "<group>";
+		};
+		AC1FC1352D88040A00C16DCE /* New Group 2 */ = {
+			isa = PBXGroup;
+			children = (
+				AC93679C2D76DA8700FB42BD /* FavoritesDocUnderControlAnnotationView.swift */,
+				AC67B5ED2D7B344F002170AB /* ZebraStripeRenderer.swift */,
+				AC411FC92D7F3BA4009AFD7A /* ChannelListView.swift */,
+			);
+			path = "New Group 2";
+			sourceTree = "<group>";
+		};
+		AC1FC1362D88041500C16DCE /* New Group 3 */ = {
+			isa = PBXGroup;
+			children = (
+				AC1FC1372D88044200C16DCE /* FavoriteBookmarkView.swift */,
+				AC6BC5FF2D8C11FC000DF3AB /* FavoriteKiller.swift */,
+			);
+			path = "New Group 3";
 			sourceTree = "<group>";
 		};
 		AC2E18012B8DF7ED001A1485 /* Coordinator */ = {
@@ -602,6 +629,14 @@
 			path = IpadTest;
 			sourceTree = "<group>";
 		};
+		ACDB1FC52DD5EC1A00A8EC52 /* sheet */ = {
+			isa = PBXGroup;
+			children = (
+				ACDB1FC62DD5EC3000A8EC52 /* SwiftUIViewTestSheet.swift */,
+			);
+			path = sheet;
+			sourceTree = "<group>";
+		};
 		ACDEFE112BEB7F15006E0CD1 /* BM */ = {
 			isa = PBXGroup;
 			children = (
@@ -625,6 +660,7 @@
 		ACDFF39B2B570F08000A6AAA /* Work */ = {
 			isa = PBXGroup;
 			children = (
+				ACDB1FC52DD5EC1A00A8EC52 /* sheet */,
 				ACC496DA2C8B1C5800EAA344 /* New */,
 				ACC496D92C8B1C4800EAA344 /* Old */,
 			);
@@ -634,12 +670,12 @@
 		ACDFF39C2B570F3C000A6AAA /* Delete */ = {
 			isa = PBXGroup;
 			children = (
+				AC1FC1362D88041500C16DCE /* New Group 3 */,
+				AC1FC1352D88040A00C16DCE /* New Group 2 */,
 				AC45FBCF2D2961640020837B /* New Group */,
 				ACCECFCC2D00B74C00C9AB91 /* IpadTest */,
 				AC45FBCE2D2961510020837B /* Ya */,
-				AC93679C2D76DA8700FB42BD /* FavoritesDocUnderControlAnnotationView.swift */,
-				AC67B5ED2D7B344F002170AB /* ZebraStripeRenderer.swift */,
-				AC411FC92D7F3BA4009AFD7A /* ChannelListView.swift */,
+				AC30B5422DCA5F3A0071B1FD /* SwiftUIViewPopoverVisibleswift.swift */,
 			);
 			path = Delete;
 			sourceTree = "<group>";
@@ -796,6 +832,7 @@
 				AC4CB8B62B63E0350058C263 /* DemoOfHidingPanelView.swift in Sources */,
 				AC89BFFE2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift in Sources */,
 				AC45FBD32D2962050020837B /* AssistantCollectionViewCell.swift in Sources */,
+				ACDB1FC72DD5EC3000A8EC52 /* SwiftUIViewTestSheet.swift in Sources */,
 				ACC496DF2C8B1C9B00EAA344 /* FolderView.swift in Sources */,
 				AC366EBE2C2074F00029AA9A /* MenuSwiftUIView11.swift in Sources */,
 				AC502DA72CD945C700DDB86A /* ContentOneeStructView.swift in Sources */,
@@ -805,6 +842,7 @@
 				AC366EC32C20757E0029AA9A /* DropDownMenuDemo4.swift in Sources */,
 				ACDEFE152BEB7F41006E0CD1 /* UserAuthorizationBM.swift in Sources */,
 				AC9C22112C5A555200D59037 /* SwiftUIViewTangem.swift in Sources */,
+				AC30B5432DCA5F3A0071B1FD /* SwiftUIViewPopoverVisibleswift.swift in Sources */,
 				AC45FBCD2D29614D0020837B /* CalendarViewModel.swift in Sources */,
 				ACC20EBB2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */,
 				AC82964B2B5E583F008383B0 /* PinnedUIView.swift in Sources */,
@@ -837,9 +875,11 @@
 				ACFEDC702B83A064002B3C66 /* Skeleton.swift in Sources */,
 				AC366EC12C2075300029AA9A /* DropDown4.swift in Sources */,
 				AC45FBD12D29617F0020837B /* CalendarViewController.swift in Sources */,
+				AC6BC6002D8C11FC000DF3AB /* FavoriteKiller.swift in Sources */,
 				ACFEDC782B83A2C3002B3C66 /* View+Hidden.swift in Sources */,
 				ACFEDC7B2B83A333002B3C66 /* DisableScrollingModifier.swift in Sources */,
 				ACEC5E3A2CAF1E4200ECBB2F /* SwiftUIViewIpad4.swift in Sources */,
+				AC1FC1382D88044200C16DCE /* FavoriteBookmarkView.swift in Sources */,
 				ACCECFC92D00AB2900C9AB91 /* IpadTestSwiftUIView.swift in Sources */,
 				AC72FA642B513E2C009E60AB /* ForTestsApp.swift in Sources */,
 				AC03622D2C187D7D0033B781 /* View5.swift in Sources */,

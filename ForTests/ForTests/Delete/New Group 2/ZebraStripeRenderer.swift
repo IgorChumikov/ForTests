@@ -12,7 +12,7 @@ struct ContentView111: View {
  @State private var strength = 0.0
 
  var body: some View {
-     Text("SHOCKWAVE")
+     Text("Чумиков Игорь")
          .font(.largeTitle.weight(.black).width(.compressed))
          .textRenderer(QuakeRenderer(moveAmount: strength))
          .onAppear {

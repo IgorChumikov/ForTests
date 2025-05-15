@@ -1,10 +1,3 @@
-//
-//  Skeleton.swift
-//  ForTests
-//
-//  Created by Игорь Чумиков on 19.02.2024.
-//
-
 import Combine
 import SwiftUI
 

@@ -11,7 +11,8 @@ import SwiftUI
 struct ContentView111: View {
  @State private var strength = 0.0
 
- var body: some View {
+    @available(iOS 18.0, *)
+    var body: some View {
      Text("Чумиков Игорь")
          .font(.largeTitle.weight(.black).width(.compressed))
          .textRenderer(QuakeRenderer(moveAmount: strength))
@@ -25,9 +26,12 @@ struct ContentView111: View {
 
 @available(iOS 18.0, *)
 #Preview {
-    ContentView111()
+
+        ContentView111()
+ 
 }
 
+@available(iOS 17.0, *)
 struct WaveRenderer: TextRenderer {
     var strength: Double
     var frequency: Double
@@ -53,6 +57,7 @@ struct WaveRenderer: TextRenderer {
 }
 
 
+@available(iOS 17.0, *)
 struct QuakeRenderer: TextRenderer {
  var moveAmount: Double
 

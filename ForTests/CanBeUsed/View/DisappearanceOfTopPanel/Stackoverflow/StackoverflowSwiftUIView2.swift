@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 17.0, *)
 struct StackoverflowSwiftUIView2: View {
     
     @State private var showingHeader = true
@@ -63,7 +64,7 @@ struct StackoverflowSwiftUIView2: View {
     }
 }
 
-
+@available(iOS 17.0, *)
 #Preview {
     StackoverflowSwiftUIView2()
 }

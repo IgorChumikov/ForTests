@@ -1,16 +1,14 @@
 //
-//  SwiftUIViewTestSheet.swift
+//  SwiftUIViewTestSheet2.swift
 //  ForTests
 //
 //  Created by Игорь Чумиков on 15.05.2025.
 //
 
-// Только с 16
-
 import SwiftUI
 
-@available(iOS 16.0, *)
-struct SwiftUIViewTestSheet: View {
+struct SwiftUIViewTestSheet2: View {
+    
     @State private var isShowingTravelModes = false
 
     var body: some View {
@@ -25,13 +23,7 @@ struct SwiftUIViewTestSheet: View {
             .padding()
         }
         .sheet(isPresented: $isShowingTravelModes) {
-            if #available(iOS 16, *) {
-                travelOptionView
-                  //  .presentationDetents([.height(500)])
-                 .presentationDetents([.large, .medium])
-              } else {
-                  travelOptionView
-              }
+            travelOptionView
         }
     }
 
@@ -57,7 +49,6 @@ struct SwiftUIViewTestSheet: View {
     }
 }
 
-@available(iOS 16.0, *)
 #Preview {
-    SwiftUIViewTestSheet()
+    SwiftUIViewTestSheet2()
 }

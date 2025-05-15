@@ -90,6 +90,7 @@
 		ACCECFCE2D00B77300C9AB91 /* IpadTest3SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCECFCD2D00B77300C9AB91 /* IpadTest3SwiftUIView.swift */; };
 		ACCECFD02D00BA6200C9AB91 /* GoogleIpadSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCECFCF2D00BA6200C9AB91 /* GoogleIpadSwiftUIView.swift */; };
 		ACDB1FC72DD5EC3000A8EC52 /* SwiftUIViewTestSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB1FC62DD5EC3000A8EC52 /* SwiftUIViewTestSheet.swift */; };
+		ACDB1FCB2DD5EF7A00A8EC52 /* SwiftUIViewTestSheet2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB1FCA2DD5EF7A00A8EC52 /* SwiftUIViewTestSheet2.swift */; };
 		ACDEFE152BEB7F41006E0CD1 /* UserAuthorizationBM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE142BEB7F41006E0CD1 /* UserAuthorizationBM.swift */; };
 		ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE162BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift */; };
 		ACDEFE192BEB7F76006E0CD1 /* View+HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE182BEB7F76006E0CD1 /* View+HideKeyboard.swift */; };
@@ -193,6 +194,7 @@
 		ACCECFCD2D00B77300C9AB91 /* IpadTest3SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpadTest3SwiftUIView.swift; sourceTree = "<group>"; };
 		ACCECFCF2D00BA6200C9AB91 /* GoogleIpadSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleIpadSwiftUIView.swift; sourceTree = "<group>"; };
 		ACDB1FC62DD5EC3000A8EC52 /* SwiftUIViewTestSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewTestSheet.swift; sourceTree = "<group>"; };
+		ACDB1FCA2DD5EF7A00A8EC52 /* SwiftUIViewTestSheet2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewTestSheet2.swift; sourceTree = "<group>"; };
 		ACDEFE142BEB7F41006E0CD1 /* UserAuthorizationBM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationBM.swift; sourceTree = "<group>"; };
 		ACDEFE162BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationFieldType.swift; sourceTree = "<group>"; };
 		ACDEFE182BEB7F76006E0CD1 /* View+HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+HideKeyboard.swift"; sourceTree = "<group>"; };
@@ -633,6 +635,7 @@
 			isa = PBXGroup;
 			children = (
 				ACDB1FC62DD5EC3000A8EC52 /* SwiftUIViewTestSheet.swift */,
+				ACDB1FCA2DD5EF7A00A8EC52 /* SwiftUIViewTestSheet2.swift */,
 			);
 			path = sheet;
 			sourceTree = "<group>";
@@ -823,6 +826,7 @@
 				ACCECFD02D00BA6200C9AB91 /* GoogleIpadSwiftUIView.swift in Sources */,
 				AC5278362BF646C100CD1909 /* ContentViewOne.swift in Sources */,
 				AC5278452BF649C600CD1909 /* ContentViewOne2.swift in Sources */,
+				ACDB1FCB2DD5EF7A00A8EC52 /* SwiftUIViewTestSheet2.swift in Sources */,
 				AC03622F2C1B10E00033B781 /* MainView5.swift in Sources */,
 				AC52782E2BF4ED6F00CD1909 /* ResizableSheets2View.swift in Sources */,
 				AC52783E2BF6491F00CD1909 /* ExitAlert+View.swift in Sources */,
@@ -1052,6 +1056,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1081,6 +1086,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(iOS 18.0, *)
 struct SwiftUIViewPopoverVisibleswift: View {
     @State private var isPopoverVisible = false
 
@@ -22,6 +23,7 @@ struct SwiftUIViewPopoverVisibleswift: View {
     }
 }
 
+@available(iOS 18.0, *)
 #Preview {
     SwiftUIViewPopoverVisibleswift()
 }

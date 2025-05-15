@@ -5,11 +5,9 @@
 //  Created by Игорь Чумиков on 15.05.2025.
 //
 
-// Только с 16
 
 import SwiftUI
 
-@available(iOS 16.0, *)
 struct SwiftUIViewTestSheet: View {
     @State private var isShowingTravelModes = false
 
@@ -85,7 +83,6 @@ struct SwiftUIViewTestSheet: View {
     }
 }
 
-@available(iOS 16.0, *)
 #Preview {
     SwiftUIViewTestSheet()
 }

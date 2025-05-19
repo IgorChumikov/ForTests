@@ -29,7 +29,7 @@ struct CustomTabBarView2: View {
                         Label("Избранное", systemImage: "star")
                     }
                     .tag(Tab.favorites)
-                    .badge("!")
+                    .badge(showPopover ? "!" : nil)
                 
                 Text("История содержимого")
                     .tabItem {

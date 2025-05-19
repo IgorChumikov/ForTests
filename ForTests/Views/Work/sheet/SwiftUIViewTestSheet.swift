@@ -4,7 +4,6 @@
 //
 //  Created by Игорь Чумиков on 15.05.2025.
 //
-// https://www.swiftyplace.com/blog/swift-available
 
 
 import SwiftUI
@@ -30,7 +29,7 @@ struct SwiftUIViewTestSheet: View {
                     .presentationContentInteraction(.resizes) // Перетаскивание sheet изменяет высоту (.medium, .large) или Прокрутка внутри контента (ScrollView)
                    // .presentationBackgroundInteraction(.automatic)
                    // .presentationSizing(.fitted) // c 18
-                
+                  //  .presentationBackground(ShapeStyle.bar)
                 
             } else {
                 travelOptionView

@@ -509,9 +509,7 @@
 		AC72FA572B513E2C009E60AB = {
 			isa = PBXGroup;
 			children = (
-				AC411F9A2D7EC13C009AFD7A /* Animation */,
-				AC09CDF62D3F90240038A629 /* Favorite */,
-				ACFEDC6D2B839FF7002B3C66 /* CanBeUsed */,
+				AC9611A12DDB22D900398A1F /* Views */,
 				AC72FA622B513E2C009E60AB /* ForTests */,
 				AC72FA612B513E2C009E60AB /* Products */,
 			);
@@ -529,8 +527,6 @@
 			isa = PBXGroup;
 			children = (
 				AC72FA632B513E2C009E60AB /* ForTestsApp.swift */,
-				ACDFF39C2B570F3C000A6AAA /* Delete */,
-				ACDFF39B2B570F08000A6AAA /* Work */,
 				AC72FA672B513E2E009E60AB /* Assets.xcassets */,
 				AC72FA692B513E2E009E60AB /* Preview Content */,
 			);
@@ -567,6 +563,18 @@
 				AC42383F2C11A6C50035B3CE /* SwiftUIView123231.swift */,
 			);
 			path = QuickSearch;
+			sourceTree = "<group>";
+		};
+		AC9611A12DDB22D900398A1F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC411F9A2D7EC13C009AFD7A /* Animation */,
+				AC09CDF62D3F90240038A629 /* Favorite */,
+				ACFEDC6D2B839FF7002B3C66 /* CanBeUsed */,
+				ACDFF39C2B570F3C000A6AAA /* Delete */,
+				ACDFF39B2B570F08000A6AAA /* Work */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		ACB98E3C2C22DF3200831CC7 /* IOS14 */ = {

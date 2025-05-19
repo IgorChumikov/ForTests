@@ -80,6 +80,7 @@
 		AC9611A42DDB23C100398A1F /* CreatedSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9611A32DDB23C100398A1F /* CreatedSwiftUIView.swift */; };
 		AC9611A62DDB75A500398A1F /* PopoverNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9611A52DDB75A500398A1F /* PopoverNotificationView.swift */; };
 		AC9611A82DDB835700398A1F /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9611A72DDB835700398A1F /* CustomTabBarView.swift */; };
+		AC9611AA2DDB8C3400398A1F /* CustomTabBarView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9611A92DDB8C3400398A1F /* CustomTabBarView2.swift */; };
 		AC9C22112C5A555200D59037 /* SwiftUIViewTangem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C22102C5A555200D59037 /* SwiftUIViewTangem.swift */; };
 		ACB98E3E2C22DF4500831CC7 /* CustomResizableLogoutInfoSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB98E3D2C22DF4500831CC7 /* CustomResizableLogoutInfoSheetView.swift */; };
 		ACC20EBB2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20EBA2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift */; };
@@ -190,6 +191,7 @@
 		AC9611A32DDB23C100398A1F /* CreatedSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatedSwiftUIView.swift; sourceTree = "<group>"; };
 		AC9611A52DDB75A500398A1F /* PopoverNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverNotificationView.swift; sourceTree = "<group>"; };
 		AC9611A72DDB835700398A1F /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		AC9611A92DDB8C3400398A1F /* CustomTabBarView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView2.swift; sourceTree = "<group>"; };
 		AC9C22102C5A555200D59037 /* SwiftUIViewTangem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewTangem.swift; sourceTree = "<group>"; };
 		ACB98E3D2C22DF4500831CC7 /* CustomResizableLogoutInfoSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomResizableLogoutInfoSheetView.swift; sourceTree = "<group>"; };
 		ACC20EBA2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
@@ -590,6 +592,7 @@
 				AC9611A32DDB23C100398A1F /* CreatedSwiftUIView.swift */,
 				AC9611A52DDB75A500398A1F /* PopoverNotificationView.swift */,
 				AC9611A72DDB835700398A1F /* CustomTabBarView.swift */,
+				AC9611A92DDB8C3400398A1F /* CustomTabBarView2.swift */,
 			);
 			path = Created;
 			sourceTree = "<group>";
@@ -869,6 +872,7 @@
 			files = (
 				AC5278342BF6468600CD1909 /* CustomAlertView.swift in Sources */,
 				ACFEDC742B83A246002B3C66 /* View+OnFirstAppear.swift in Sources */,
+				AC9611AA2DDB8C3400398A1F /* CustomTabBarView2.swift in Sources */,
 				AC5278162BF386E400CD1909 /* PanelViewIndicator.swift in Sources */,
 				ACC496DD2C8B1C8800EAA344 /* Folder.swift in Sources */,
 				AC93679D2D76DA8700FB42BD /* FavoritesDocUnderControlAnnotationView.swift in Sources */,

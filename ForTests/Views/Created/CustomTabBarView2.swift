@@ -10,11 +10,11 @@ import SwiftUI
 struct CustomTabBarView2: View {
     @State private var selectedTab: Tab = .main
     @State private var showPopover = false
-
+    
     enum Tab {
         case main, favorites, history
     }
-
+    
     var body: some View {
         ZStack {
             TabView(selection: $selectedTab) {
@@ -23,20 +23,32 @@ struct CustomTabBarView2: View {
                         Label("Главное", systemImage: "briefcase.fill")
                     }
                     .tag(Tab.main)
-
+                
                 Text("Избранное")
                     .tabItem {
                         Label("Избранное", systemImage: "star")
                     }
                     .tag(Tab.favorites)
-
+                    .badge("!")
+                
                 Text("История содержимого")
                     .tabItem {
                         Label("История", systemImage: "clock.arrow.circlepath")
                     }
                     .tag(Tab.history)
             }
-
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button {
+                        withAnimation {
+                            showPopover.toggle()
+                        }
+                    } label: {
+                        Image(systemName: "bell.badge")
+                    }
+                }
+            }
+            
             VStack {
                 Spacer()
                 HStack {
@@ -55,25 +67,25 @@ struct CustomTabBarView2: View {
             // Показываем подсказку через 1 сек, как пример
             DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                 withAnimation {
-                    showPopover = true
+             //       showPopover = true
                 }
                 // Автоматически скрыть через 3 секунды
                 DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
                     withAnimation {
-                      //  showPopover = false
+                        //  showPopover = false
                     }
                 }
             }
         }
     }
-
+    
     private var popoverContent: some View {
         HStack(alignment: .top, spacing: 10) {
             Image(systemName: "bolt.fill")
                 .frame(width: 24, height: 24)
                 .foregroundColor(.white)
                 .background(Circle().fill(Color.red))
-
+            
             VStack(alignment: .leading, spacing: 4) {
                 Text("Произошли изменения в документах на контроле.")
                     .font(.system(size: 14))
@@ -110,5 +122,7 @@ struct Triangle: Shape {
 
 
 #Preview {
-    CustomTabBarView2()
+    NavigationView {
+        CustomTabBarView2()
+    }
 }

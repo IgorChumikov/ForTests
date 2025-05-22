@@ -1,5 +1,5 @@
 //
-//  CustomTabBarView2.swift
+//  CustomTabBarView222.swift
 //  ForTests
 //
 //  Created by Игорь Чумиков on 19.05.2025.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CustomTabBarView2: View {
+struct CustomTabBarView222: View {
     @State private var selectedTab: Tab = .main
     @State private var showPopover = false
     
@@ -123,6 +123,6 @@ struct Triangle: Shape {
 
 #Preview {
     NavigationView {
-        CustomTabBarView2()
+        CustomTabBarView222()
     }
 }

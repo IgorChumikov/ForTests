@@ -1,5 +1,5 @@
 //
-//  CustomTabBarView.swift
+//  CustomTabBarView111.swift
 //  ForTests
 //
 //  Created by Игорь Чумиков on 19.05.2025.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CustomTabBarView: View {
+struct CustomTabBarView111: View {
     @State private var selectedTab: Tab = .favorites
     @State private var show = true
     
@@ -82,5 +82,5 @@ struct CustomTabBarView: View {
 }
 
 #Preview {
-    CustomTabBarView()
+    CustomTabBarView111()
 }

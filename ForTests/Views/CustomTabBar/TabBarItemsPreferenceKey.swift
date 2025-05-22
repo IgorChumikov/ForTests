@@ -2,7 +2,7 @@
 //  TabBarItemsPreferenceKey.swift
 //  SwiftfulThinkingAdvancedLearning
 //
-//  Created by Nick Sarno on 9/6/21.
+//  Created by Игорь Чумиков  on 9/6/21.
 //
 
 import Foundation
@@ -51,9 +51,7 @@ struct TabBarItemViewModiferWithOnAppear: ViewModifier {
 }
 
 extension View {
-    
     func tabBarItem(tab: TabBarItem, selection: Binding<TabBarItem>) -> some View {
-//        modifier(TabBarItemViewModifer(tab: tab, selection: selection))
         modifier(TabBarItemViewModiferWithOnAppear(tab: tab, selection: selection))
     }
     

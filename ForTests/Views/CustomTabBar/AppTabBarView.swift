@@ -2,7 +2,7 @@
 //  AppTabBarView.swift
 //  SwiftfulThinkingAdvancedLearning
 //
-//  Created by Nick Sarno on 9/6/21.
+//  Created by Игорь Чумиков  on 9/6/21.
 //
 
 import SwiftUI
@@ -42,29 +42,6 @@ struct AppTabBarView_Previews: PreviewProvider {
     }
 }
 
-extension AppTabBarView {
-    
-    private var defaultTabView: some View {
-        TabView(selection: $selection) {
-            Color.red
-                .tabItem {
-                    Image(systemName: "house")
-                    Text("Home")
-                }
-            Color.blue
-                .tabItem {
-                    Image(systemName: "heart")
-                    Text("Favorites")
-                }
-            Color.orange
-                .tabItem {
-                    Image(systemName: "person")
-                    Text("Profile")
-                }
-        }
-    }
-    
-}
 
 struct TestTabView: View {
     

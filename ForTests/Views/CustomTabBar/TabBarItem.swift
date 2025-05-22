@@ -2,7 +2,7 @@
 //  TabBarItem.swift
 //  SwiftfulThinkingAdvancedLearning
 //
-//  Created by Nick Sarno on 9/6/21.
+//  Created by Игорь Чумиков  on 9/6/21.
 //
 
 import Foundation

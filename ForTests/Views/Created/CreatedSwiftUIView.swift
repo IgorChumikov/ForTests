@@ -29,8 +29,10 @@ struct PushNotificationControlBannerView: View {
             Spacer()
             notificationToggle
         }
-        .padding()
+        .padding(.horizontal, 20)
+        .frame(height: 76)
         .background(Color.yellow.opacity(0.3))
+       
     }
     
     private var notificationText: some View {

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CustomTabBarView: View {
-    @State private var selectedTab: Tab = .main
+    @State private var selectedTab: Tab = .favorites
     @State private var show = true
     
     enum Tab {
@@ -32,24 +32,24 @@ struct CustomTabBarView: View {
             Button("Open Popover") {
                 self.show.toggle()
             }
-                .tabItem {
-                    VStack {
-                        ZStack {
-                            Image(systemName: "star")
-                        }
-                        Text("Избранное")
-                    }
-                }
-                .tag(Tab.favorites)
-                .badge("!")
-                .popover(isPresented: $show) {
+            .tabItem {
+                VStack {
                     ZStack {
-                        content
-                            .presentationCompactAdaptation(.popover)
-                            .presentationBackground(Color(red: 1.0, green: 0.97, blue: 0.80))
+                        Image(systemName: "star")
                     }
+                    Text("Избранное")
                 }
-
+            }
+            .tag(Tab.favorites)
+            .badge("!")
+            .popover(isPresented: $show) {
+                ZStack {
+                    popover
+                        .presentationCompactAdaptation(.popover)
+                        .presentationBackground(Color(red: 1.0, green: 0.97, blue: 0.80))
+                }
+            }
+            
             
             Text("История содержимого")
                 .tabItem {
@@ -63,7 +63,7 @@ struct CustomTabBarView: View {
     }
     
     
-    private var content: some View {
+    private var popover: some View {
         HStack(alignment: .top, spacing: 10) {
             Image(systemName: "bolt.fill")
                 .frame(width: 24, height: 24)

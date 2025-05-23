@@ -20,6 +20,8 @@
 		AC2AA4892DDF26EA004C4E24 /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AA4882DDF26EA004C4E24 /* CustomTabBarContainerView.swift */; };
 		AC2AA48B2DDF26FF004C4E24 /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AA48A2DDF26FF004C4E24 /* TabBarItemsPreferenceKey.swift */; };
 		AC2AA48D2DDF2715004C4E24 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AA48C2DDF2715004C4E24 /* TabBarItem.swift */; };
+		AC2AA5252DE08B8D004C4E24 /* DocumentEventSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AA5242DE08B8D004C4E24 /* DocumentEventSheetView.swift */; };
+		AC2AA5272DE0928D004C4E24 /* DocumentInvalidatedSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AA5262DE0928D004C4E24 /* DocumentInvalidatedSheetView.swift */; };
 		AC30B5432DCA5F3A0071B1FD /* SwiftUIViewPopoverVisibleswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC30B5422DCA5F3A0071B1FD /* SwiftUIViewPopoverVisibleswift.swift */; };
 		AC366EAE2C2034760029AA9A /* MenuSwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC366EAD2C2034760029AA9A /* MenuSwiftUIView2.swift */; };
 		AC366EB32C20666C0029AA9A /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC366EB22C20666C0029AA9A /* DropDown.swift */; };
@@ -135,6 +137,8 @@
 		AC2AA4882DDF26EA004C4E24 /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
 		AC2AA48A2DDF26FF004C4E24 /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
 		AC2AA48C2DDF2715004C4E24 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		AC2AA5242DE08B8D004C4E24 /* DocumentEventSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentEventSheetView.swift; sourceTree = "<group>"; };
+		AC2AA5262DE0928D004C4E24 /* DocumentInvalidatedSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentInvalidatedSheetView.swift; sourceTree = "<group>"; };
 		AC30B5422DCA5F3A0071B1FD /* SwiftUIViewPopoverVisibleswift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewPopoverVisibleswift.swift; sourceTree = "<group>"; };
 		AC366EAD2C2034760029AA9A /* MenuSwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSwiftUIView2.swift; sourceTree = "<group>"; };
 		AC366EB22C20666C0029AA9A /* DropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
@@ -304,6 +308,15 @@
 				AC2AA48C2DDF2715004C4E24 /* TabBarItem.swift */,
 			);
 			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		AC2AA5232DE0872F004C4E24 /* Sheet */ = {
+			isa = PBXGroup;
+			children = (
+				AC2AA5242DE08B8D004C4E24 /* DocumentEventSheetView.swift */,
+				AC2AA5262DE0928D004C4E24 /* DocumentInvalidatedSheetView.swift */,
+			);
+			path = Sheet;
 			sourceTree = "<group>";
 		};
 		AC2E18012B8DF7ED001A1485 /* Coordinator */ = {
@@ -605,6 +618,7 @@
 		AC9611A12DDB22D900398A1F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AC2AA5232DE0872F004C4E24 /* Sheet */,
 				AC2AA4762DDF1D9E004C4E24 /* TabBar */,
 				AC9611A22DDB238500398A1F /* Created */,
 				AC411F9A2D7EC13C009AFD7A /* Animation */,
@@ -911,6 +925,7 @@
 				ACCECFD02D00BA6200C9AB91 /* GoogleIpadSwiftUIView.swift in Sources */,
 				AC5278362BF646C100CD1909 /* ContentViewOne.swift in Sources */,
 				AC5278452BF649C600CD1909 /* ContentViewOne2.swift in Sources */,
+				AC2AA5252DE08B8D004C4E24 /* DocumentEventSheetView.swift in Sources */,
 				ACDB1FCB2DD5EF7A00A8EC52 /* SwiftUIViewTestSheet2.swift in Sources */,
 				AC03622F2C1B10E00033B781 /* MainView5.swift in Sources */,
 				AC52782E2BF4ED6F00CD1909 /* ResizableSheets2View.swift in Sources */,
@@ -1005,6 +1020,7 @@
 				ACCECFCB2D00AE7C00C9AB91 /* IpadTest2SwiftUIView.swift in Sources */,
 				ACDB1FD02DD61DD900A8EC52 /* Color+Extension.swift in Sources */,
 				AC70C5DE2D4A500A00718A64 /* BookmarksView.swift in Sources */,
+				AC2AA5272DE0928D004C4E24 /* DocumentInvalidatedSheetView.swift in Sources */,
 				AC52781F2BF3941A00CD1909 /* MainCurtainView.swift in Sources */,
 				ACDB1FCE2DD61D0D00A8EC52 /* FavoriteDocumentAlreadyUnderControlView.swift in Sources */,
 				AC2AA4852DDF26CC004C4E24 /* AppTabBarView.swift in Sources */,

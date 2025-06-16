@@ -39,16 +39,19 @@ struct BookmarksDocumentMenuSwiftUIView: View {
                         .font(.body)
                         .foregroundColor(.primary)
                         .lineLimit(5)
+                        .frame(maxWidth: .infinity, alignment: .leading)
                     Text(bookmark.comment)
                         .font(.body)
                         .foregroundColor(.primary)
                         .lineLimit(2)
+                        .frame(maxWidth: .infinity, alignment: .leading)
                         .background(Color.yellow)
                 }
                 Text(bookmark.subtitle)
                     .font(.subheadline)
                     .foregroundColor(.secondary)
                     .lineLimit(2)
+                    .frame(maxWidth: .infinity, alignment: .leading)
             }
             .swipeActions(edge: .trailing, allowsFullSwipe: false) {
                 swipeDeleteButton()

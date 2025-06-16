@@ -28,6 +28,10 @@ struct BookmarksDocumentMenuSwiftUIView: View {
                         .foregroundColor(.secondary)
                         .lineLimit(2)
                 }
+                .swipeActions(edge: .trailing, allowsFullSwipe: false) {
+                    swipeDeleteButton()
+                    swipeRenameButton()
+                }
                 .contextMenu {
                     contextMenuRenameButton()
                     contextMenuDeleteButton()
@@ -35,6 +39,26 @@ struct BookmarksDocumentMenuSwiftUIView: View {
             }
             .listStyle(.plain)
         }
+    }
+    
+    // MARK: - SwipeActions
+    
+    private func swipeDeleteButton() -> some View {
+        Button {
+         //   viewModel.deleteItem(item)
+        } label: {
+            Text("Delete text")
+        }
+        .tint(.red)
+    }
+    
+    private func swipeRenameButton() -> some View {
+        Button {
+           // viewModel.prepareItemForRename(item)
+        } label: {
+            Text("Rename text")
+        }
+        .tint(.gray)
     }
     
     // MARK: - ContextMenu тут FavoritesDocBookmarkView

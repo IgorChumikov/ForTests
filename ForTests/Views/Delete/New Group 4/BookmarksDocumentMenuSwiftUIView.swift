@@ -42,7 +42,7 @@ struct BookmarksDocumentMenuSwiftUIView: View {
                     Text(bookmark.comment)
                         .font(.body)
                         .foregroundColor(.primary)
-                        .lineLimit(5)
+                        .lineLimit(2)
                         .background(Color.yellow)
                 }
                 Text(bookmark.subtitle)

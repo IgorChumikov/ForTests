@@ -28,8 +28,37 @@ struct BookmarksDocumentMenuSwiftUIView: View {
                         .foregroundColor(.secondary)
                         .lineLimit(2)
                 }
+                .contextMenu {
+                    contextMenuRenameButton()
+                    contextMenuDeleteButton()
+                }
             }
             .listStyle(.plain)
+        }
+    }
+    
+    // MARK: - ContextMenu
+    
+    private func contextMenuRenameButton() -> some View {
+        Button {
+          //  viewModel.prepareItemForRename(item)
+        } label: {
+            HStack {
+              //  Asset.Image.favoritesRename
+                Text("Rename text")
+            }
+        }
+    }
+    
+    private func contextMenuDeleteButton() -> some View {
+        Button(role: .destructive) {
+         //   viewModel.deleteItem(item)
+        } label: {
+            HStack(alignment: .center, spacing: .zero) {
+             //   Asset.Image.favoritesTrash
+                Text("Delete text")
+                    .foregroundColor(.red)
+            }
         }
     }
 }

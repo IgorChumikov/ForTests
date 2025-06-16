@@ -1,0 +1,30 @@
+//
+//  BookmarkItem.swift
+//  ForTests
+//
+//  Created by Игорь Чумиков on 16.06.2025.
+//
+
+import Foundation
+
+struct BookmarkItem: Identifiable {
+    let id = UUID()
+    let title: String
+    let subtitle: String
+}
+
+
+let mockBookmarks: [BookmarkItem] = [
+    BookmarkItem(
+        title: "Налоговый кодекс Российской Федерации (часть вторая) от 05.08.2000 N 117-ФЗ (ред. от 17.10.2024)",
+        subtitle: "Мои закладки / Избранное с Samsung Galaxy Tab A9+"
+    ),
+    BookmarkItem(
+        title: "5. Документами, подтверждающими место оказания физическим лицам, не являющимся индивидуальными предпринимателями, услуг, указанных в пункте 1 статьи 174 2 настоящего Кодекса, а именно являющимися сверхсекретн…",
+        subtitle: "Мои закладки / Избранное с Samsung Galaxy Tab A9+ / Майские заседания 2016 / Хамовнический межгалактич…"
+    ),
+    BookmarkItem(
+        title: "Статья 9. Понятие льгот для кормящих матерей",
+        subtitle: "Не забыть стать кормящей матерью, чтобы получать замечательные льготы от правител..."
+    )
+]

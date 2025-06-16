@@ -90,6 +90,8 @@
 		AC9611A82DDB835700398A1F /* CustomTabBarView111.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9611A72DDB835700398A1F /* CustomTabBarView111.swift */; };
 		AC9611AA2DDB8C3400398A1F /* CustomTabBarView222.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9611A92DDB8C3400398A1F /* CustomTabBarView222.swift */; };
 		AC9C22112C5A555200D59037 /* SwiftUIViewTangem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C22102C5A555200D59037 /* SwiftUIViewTangem.swift */; };
+		ACA4F1582DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4F1572DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift */; };
+		ACA4F15A2DFFE56F00FE5A9F /* BookmarkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4F1592DFFE56F00FE5A9F /* BookmarkItem.swift */; };
 		ACB98E3E2C22DF4500831CC7 /* CustomResizableLogoutInfoSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB98E3D2C22DF4500831CC7 /* CustomResizableLogoutInfoSheetView.swift */; };
 		ACC20EBB2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20EBA2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift */; };
 		ACC496DD2C8B1C8800EAA344 /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC496DC2C8B1C8800EAA344 /* Folder.swift */; };
@@ -209,6 +211,8 @@
 		AC9611A72DDB835700398A1F /* CustomTabBarView111.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView111.swift; sourceTree = "<group>"; };
 		AC9611A92DDB8C3400398A1F /* CustomTabBarView222.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView222.swift; sourceTree = "<group>"; };
 		AC9C22102C5A555200D59037 /* SwiftUIViewTangem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewTangem.swift; sourceTree = "<group>"; };
+		ACA4F1572DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksDocumentMenuSwiftUIView.swift; sourceTree = "<group>"; };
+		ACA4F1592DFFE56F00FE5A9F /* BookmarkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkItem.swift; sourceTree = "<group>"; };
 		ACB98E3D2C22DF4500831CC7 /* CustomResizableLogoutInfoSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomResizableLogoutInfoSheetView.swift; sourceTree = "<group>"; };
 		ACC20EBA2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
 		ACC496DC2C8B1C8800EAA344 /* Folder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folder.swift; sourceTree = "<group>"; };
@@ -645,6 +649,15 @@
 			path = Created;
 			sourceTree = "<group>";
 		};
+		ACA4F1562DFFE44B00FE5A9F /* New Group 4 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA4F1572DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift */,
+				ACA4F1592DFFE56F00FE5A9F /* BookmarkItem.swift */,
+			);
+			path = "New Group 4";
+			sourceTree = "<group>";
+		};
 		ACB98E3C2C22DF3200831CC7 /* IOS14 */ = {
 			isa = PBXGroup;
 			children = (
@@ -774,6 +787,7 @@
 		ACDFF39C2B570F3C000A6AAA /* Delete */ = {
 			isa = PBXGroup;
 			children = (
+				ACA4F1562DFFE44B00FE5A9F /* New Group 4 */,
 				AC1FC1362D88041500C16DCE /* New Group 3 */,
 				AC1FC1352D88040A00C16DCE /* New Group 2 */,
 				AC45FBCF2D2961640020837B /* New Group */,
@@ -998,6 +1012,7 @@
 				AC03622D2C187D7D0033B781 /* View5.swift in Sources */,
 				AC366ECC2C21C0AF0029AA9A /* SheetStartTest.swift in Sources */,
 				AC89C0182C071C9F006BE793 /* DynamicHeightTextEditor.swift in Sources */,
+				ACA4F1582DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift in Sources */,
 				AC09CDF82D3F95B80038A629 /* FavoriteSwiftUIView.swift in Sources */,
 				AC9611A62DDB75A500398A1F /* PopoverNotificationView.swift in Sources */,
 				AC5278122BF37D2800CD1909 /* KeyboardHelper.swift in Sources */,
@@ -1012,6 +1027,7 @@
 				ACCECFCE2D00B77300C9AB91 /* IpadTest3SwiftUIView.swift in Sources */,
 				AC103B4C2CABF44400F6030A /* DocumentsListSectionsPanelView.swift in Sources */,
 				AC67B5EE2D7B344F002170AB /* ZebraStripeRenderer.swift in Sources */,
+				ACA4F15A2DFFE56F00FE5A9F /* BookmarkItem.swift in Sources */,
 				AC2AA48D2DDF2715004C4E24 /* TabBarItem.swift in Sources */,
 				AC70C5DC2D4A4FF500718A64 /* BookmarksList.swift in Sources */,
 				ACDB1FD32DD6255400A8EC52 /* NumberListViewController.swift in Sources */,

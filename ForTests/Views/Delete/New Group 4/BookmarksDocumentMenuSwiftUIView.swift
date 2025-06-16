@@ -37,7 +37,7 @@ struct BookmarksDocumentMenuSwiftUIView: View {
         }
     }
     
-    // MARK: - ContextMenu
+    // MARK: - ContextMenu тут FavoritesDocBookmarkView
     
     private func contextMenuRenameButton() -> some View {
         Button {

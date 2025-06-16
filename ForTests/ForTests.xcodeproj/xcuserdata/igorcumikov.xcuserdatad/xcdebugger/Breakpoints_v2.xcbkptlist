@@ -7,17 +7,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "BCF3773B-7042-4B75-BDE1-4C1A1C4DDED1"
-            shouldBeEnabled = "Yes"
+            uuid = "021A9E70-5A3F-41B2-82C2-04674551DDA6"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ForTests/Delete/11111123ffffff.swift"
+            filePath = "Views/Delete/New Group 4/BookmarksDocumentMenuSwiftUIView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "body"
-            landmarkType = "24">
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "BookmarksDocumentMenuSwiftUIView"
+            landmarkType = "14">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -14,6 +14,7 @@ struct BookmarksDocumentMenuSwiftUIView: View {
                 .font(.title2.bold())
                 .padding(.horizontal)
                 .padding(.top)
+                .padding(.bottom, 25)
 
             List(mockBookmarks) { bookmark in
                 VStack(alignment: .leading, spacing: 4) {

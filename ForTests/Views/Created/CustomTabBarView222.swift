@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CustomTabBarView222: View {
     @State private var selectedTab: Tab = .main
-    @State private var showPopover = false
+    @State private var showPopover = true
     
     enum Tab {
         case main, favorites, history
@@ -49,15 +49,15 @@ struct CustomTabBarView222: View {
                 }
             }
             
-            VStack {
+            VStack(alignment: .center, spacing: .zero) {
                 Spacer()
-                HStack {
+                HStack(alignment: .center, spacing: .zero) {
                     Spacer()
                     // Над "Избранное" — по центру экрана
                     if showPopover {
                         popoverContent
                             .transition(.move(edge: .bottom).combined(with: .opacity))
-                            .padding(.bottom, 60)
+                            .padding(.bottom, 70)
                     }
                     Spacer()
                 }
@@ -93,18 +93,11 @@ struct CustomTabBarView222: View {
                     .font(.system(size: 14))
             }
         }
-        .padding(12)
+        .padding(top: 14, leading: 12, bottom: 14, trailing: 12)
         .background(
             RoundedRectangle(cornerRadius: 12)
                 .fill(Color(red: 1.0, green: 0.97, blue: 0.8))
-                .shadow(radius: 2)
-        )
-        .overlay(
-            Triangle()
-                .fill(Color(red: 1.0, green: 0.97, blue: 0.8))
-                .frame(width: 16, height: 10)
-                .offset(y: 10),
-            alignment: .bottom
+                .shadow(radius: 0.5)
         )
     }
 }

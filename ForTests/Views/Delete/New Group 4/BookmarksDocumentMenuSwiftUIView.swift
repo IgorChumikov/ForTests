@@ -27,7 +27,6 @@ struct BookmarksDocumentMenuSwiftUIView: View {
                         .foregroundColor(.secondary)
                         .lineLimit(2)
                 }
-                .padding(top: 4, leading: 0, bottom: 2, trailing: 0)
             }
             .listStyle(.plain)
         }

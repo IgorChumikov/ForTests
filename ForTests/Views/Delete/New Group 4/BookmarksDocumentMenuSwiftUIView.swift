@@ -34,11 +34,17 @@ struct BookmarksDocumentMenuSwiftUIView: View {
     private var list: some View {
         List(mockBookmarks) { bookmark in
             VStack(alignment: .leading, spacing: 4) {
-                Text(bookmark.title)
-                    .font(.body)
-                    .foregroundColor(.primary)
-                    .lineLimit(5)
-                
+                VStack(alignment: .leading, spacing: .zero) {
+                    Text(bookmark.title)
+                        .font(.body)
+                        .foregroundColor(.primary)
+                        .lineLimit(5)
+                    Text(bookmark.comment)
+                        .font(.body)
+                        .foregroundColor(.primary)
+                        .lineLimit(5)
+                        .background(Color.yellow)
+                }
                 Text(bookmark.subtitle)
                     .font(.subheadline)
                     .foregroundColor(.secondary)

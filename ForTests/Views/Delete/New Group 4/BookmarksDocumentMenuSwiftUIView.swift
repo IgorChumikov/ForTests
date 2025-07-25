@@ -87,7 +87,7 @@ struct BookmarksDocumentMenuSwiftUIView: View {
     
     private func swipeRenameButton() -> some View {
         Button {
-            // viewModel.prepareItemForRename(item)
+            // viewModel.renameItem(item)
         } label: {
             Text("Rename text")
         }
@@ -98,7 +98,7 @@ struct BookmarksDocumentMenuSwiftUIView: View {
     
     private func contextMenuRenameButton() -> some View {
         Button {
-            //  viewModel.prepareItemForRename(item)
+            //  viewModel.renameItem(item)
         } label: {
             HStack {
                 //  Asset.Image.favoritesRename

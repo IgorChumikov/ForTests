@@ -7,16 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "021A9E70-5A3F-41B2-82C2-04674551DDA6"
+            uuid = "1D9D477F-DC34-46E0-8D49-110B9C94F1EF"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Views/Delete/New Group 4/BookmarksDocumentMenuSwiftUIView.swift"
+            filePath = "Views/Animation/ReturnsExpandableTextView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "10"
-            endingLineNumber = "10"
-            landmarkName = "BookmarksDocumentMenuSwiftUIView"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ReturnsExpandableTextView"
             landmarkType = "14">
          </BreakpointContent>
       </BreakpointProxy>

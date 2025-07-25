@@ -119,6 +119,7 @@
 		ACEC5E3A2CAF1E4200ECBB2F /* SwiftUIViewIpad4.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEC5E392CAF1E4200ECBB2F /* SwiftUIViewIpad4.swift */; };
 		ACFA09262CECA42000A2167E /* 11111123ffffff.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFA09252CECA42000A2167E /* 11111123ffffff.swift */; };
 		ACFA09282CEDE05400A2167E /* HelperSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFA09272CEDE05400A2167E /* HelperSwiftUIView.swift */; };
+		ACFD59EE2E2E54EE001D4740 /* ListListSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFD59ED2E2E54EE001D4740 /* ListListSwiftUIView.swift */; };
 		ACFEDC702B83A064002B3C66 /* Skeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFEDC6F2B83A064002B3C66 /* Skeleton.swift */; };
 		ACFEDC742B83A246002B3C66 /* View+OnFirstAppear.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFEDC732B83A246002B3C66 /* View+OnFirstAppear.swift */; };
 		ACFEDC762B83A2A6002B3C66 /* View+Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFEDC752B83A2A6002B3C66 /* View+Padding.swift */; };
@@ -240,6 +241,7 @@
 		ACEC5E392CAF1E4200ECBB2F /* SwiftUIViewIpad4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewIpad4.swift; sourceTree = "<group>"; };
 		ACFA09252CECA42000A2167E /* 11111123ffffff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11111123ffffff.swift; sourceTree = "<group>"; };
 		ACFA09272CEDE05400A2167E /* HelperSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperSwiftUIView.swift; sourceTree = "<group>"; };
+		ACFD59ED2E2E54EE001D4740 /* ListListSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListListSwiftUIView.swift; sourceTree = "<group>"; };
 		ACFEDC6F2B83A064002B3C66 /* Skeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skeleton.swift; sourceTree = "<group>"; };
 		ACFEDC732B83A246002B3C66 /* View+OnFirstAppear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+OnFirstAppear.swift"; sourceTree = "<group>"; };
 		ACFEDC752B83A2A6002B3C66 /* View+Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Padding.swift"; sourceTree = "<group>"; };
@@ -625,6 +627,7 @@
 		AC9611A12DDB22D900398A1F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				ACFD59EC2E2E54D8001D4740 /* List */,
 				AC2AA5232DE0872F004C4E24 /* Sheet */,
 				AC2AA4762DDF1D9E004C4E24 /* TabBar */,
 				AC9611A22DDB238500398A1F /* Created */,
@@ -805,6 +808,14 @@
 				ACDFF3A22B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift */,
 			);
 			path = Stackoverflow;
+			sourceTree = "<group>";
+		};
+		ACFD59EC2E2E54D8001D4740 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				ACFD59ED2E2E54EE001D4740 /* ListListSwiftUIView.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 		ACFEDC6D2B839FF7002B3C66 /* CanBeUsed */ = {
@@ -998,6 +1009,7 @@
 				ACDFF3A32B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift in Sources */,
 				AC2AA4872DDF26DB004C4E24 /* CustomTabBarView.swift in Sources */,
 				AC502DA52CD9450C00DDB86A /* ContentOneeView.swift in Sources */,
+				ACFD59EE2E2E54EE001D4740 /* ListListSwiftUIView.swift in Sources */,
 				AC3B12DD2CF099440076D9B3 /* SearchFruitsView.swift in Sources */,
 				ACFEDC702B83A064002B3C66 /* Skeleton.swift in Sources */,
 				AC366EC12C2075300029AA9A /* DropDown4.swift in Sources */,

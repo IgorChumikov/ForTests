@@ -1,69 +1,30 @@
+//
+//  ScrollViewReaderText.swift
+//  ForTests
+//
+//  Created by Игорь Чумиков on 18.09.2025.
+//
+
 import SwiftUI
 
-struct TopVisibleKey: PreferenceKey {
-    static var defaultValue: Int? = nil
-    static func reduce(value: inout Int?, nextValue: () -> Int?) {
-        // сохраняем первый (верхний) id, если он есть
-        
-        print("TopVisibleKey \(value)")
-        if value == nil { value = nextValue() }
-    }
-}
-
 struct ScrollViewReaderText: View {
-    @Namespace var topID
-    @Namespace var bottomID
-    
-    @State private var topVisible: Int? = nil
-    
+    @State private var yOffset: Double = 0.0
+
     var body: some View {
-        ScrollViewReader { proxy in
+        VStack {
             ScrollView {
-                LazyVStack(alignment: .leading, spacing: 10) {
-                    ForEach(1...100, id: \.self) { number in
-                        Text("Элемент \(number)")
-                            .font(.title3)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding(50)
-                            .background(
-                                RoundedRectangle(cornerRadius: 8)
-                                    .fill(Color.blue.opacity(0.2))
-                            )
-                            .id(number)
-                            // отслеживаем позицию элемента
-                            .background(
-                                GeometryReader { geo in
-                                    Color.clear
-                                        .preference(
-                                            key: TopVisibleKey.self,
-                                            value: geo.frame(in: .named("scroll")).minY >= 0
-                                                ? number
-                                                : nil
-                                        )
-                                }
-                            )
-                        Divider()
-                    }
-                }
-                .padding()
-            }
-            .coordinateSpace(name: "scroll")
-            // сохраняем верхний видимый элемент
-            .onPreferenceChange(TopVisibleKey.self) { value in
-                if let v = value {
-                    topVisible = v
+                ForEach(0..<100, id: \.self) { i in
+                    Text("Row \(i)")
+                        .frame(height: 50) // Example height for content
                 }
             }
-            // при повороте скроллим к верхнему
-            .onReceive(NotificationCenter.default.publisher(
-                for: UIDevice.orientationDidChangeNotification
-            )) { _ in
-                if let id = topVisible {
-                    withAnimation {
-                        proxy.scrollTo(id, anchor: .top)
-                    }
-                }
+            .onScrollGeometryChange(for: Double.self) { geometry in
+                geometry.contentOffset.y
+            } action: { oldValue, newValue in
+                yOffset = newValue
             }
+            
+            Text("Current Y Offset: \(yOffset, specifier: "%.2f")")
         }
     }
 }

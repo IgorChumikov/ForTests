@@ -76,6 +76,7 @@
 		AC72FA642B513E2C009E60AB /* ForTestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC72FA632B513E2C009E60AB /* ForTestsApp.swift */; };
 		AC72FA682B513E2E009E60AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC72FA672B513E2E009E60AB /* Assets.xcassets */; };
 		AC72FA6B2B513E2E009E60AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC72FA6A2B513E2E009E60AB /* Preview Assets.xcassets */; };
+		AC7325E92E7C32B3008AA41B /* ScrollViewReaderText.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7325E82E7C32B3008AA41B /* ScrollViewReaderText.swift */; };
 		AC82964B2B5E583F008383B0 /* PinnedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8296482B5E583F008383B0 /* PinnedUIView.swift */; };
 		AC82964C2B5E583F008383B0 /* ScrollDirectionCustomGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8296492B5E583F008383B0 /* ScrollDirectionCustomGesture.swift */; };
 		AC82964D2B5E583F008383B0 /* ScrollDirectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC82964A2B5E583F008383B0 /* ScrollDirectionView.swift */; };
@@ -92,6 +93,7 @@
 		AC9C22112C5A555200D59037 /* SwiftUIViewTangem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9C22102C5A555200D59037 /* SwiftUIViewTangem.swift */; };
 		ACA4F1582DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4F1572DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift */; };
 		ACA4F15A2DFFE56F00FE5A9F /* BookmarkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4F1592DFFE56F00FE5A9F /* BookmarkItem.swift */; };
+		ACA9048F2E33AAA10006D6D9 /* ExpandableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA9048E2E33AAA10006D6D9 /* ExpandableText.swift */; };
 		ACB98E3E2C22DF4500831CC7 /* CustomResizableLogoutInfoSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB98E3D2C22DF4500831CC7 /* CustomResizableLogoutInfoSheetView.swift */; };
 		ACC20EBB2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC20EBA2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift */; };
 		ACC496DD2C8B1C8800EAA344 /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC496DC2C8B1C8800EAA344 /* Folder.swift */; };
@@ -99,6 +101,7 @@
 		ACC496E42C8B204B00EAA344 /* FileItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC496E32C8B204B00EAA344 /* FileItem.swift */; };
 		ACC496ED2C8B283F00EAA344 /* AppleSwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC496EC2C8B283F00EAA344 /* AppleSwiftUIView2.swift */; };
 		ACC496EF2C8B287700EAA344 /* FileItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC496EE2C8B287700EAA344 /* FileItemView.swift */; };
+		ACC88E772E43372600077A2C /* CustomTabBarExampleContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC88E762E43372600077A2C /* CustomTabBarExampleContentView.swift */; };
 		ACCECFC92D00AB2900C9AB91 /* IpadTestSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCECFC82D00AB2900C9AB91 /* IpadTestSwiftUIView.swift */; };
 		ACCECFCB2D00AE7C00C9AB91 /* IpadTest2SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCECFCA2D00AE7C00C9AB91 /* IpadTest2SwiftUIView.swift */; };
 		ACCECFCE2D00B77300C9AB91 /* IpadTest3SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCECFCD2D00B77300C9AB91 /* IpadTest3SwiftUIView.swift */; };
@@ -198,6 +201,7 @@
 		AC72FA632B513E2C009E60AB /* ForTestsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForTestsApp.swift; sourceTree = "<group>"; };
 		AC72FA672B513E2E009E60AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC72FA6A2B513E2E009E60AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC7325E82E7C32B3008AA41B /* ScrollViewReaderText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderText.swift; sourceTree = "<group>"; };
 		AC8296482B5E583F008383B0 /* PinnedUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinnedUIView.swift; sourceTree = "<group>"; };
 		AC8296492B5E583F008383B0 /* ScrollDirectionCustomGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollDirectionCustomGesture.swift; sourceTree = "<group>"; };
 		AC82964A2B5E583F008383B0 /* ScrollDirectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollDirectionView.swift; sourceTree = "<group>"; };
@@ -214,6 +218,7 @@
 		AC9C22102C5A555200D59037 /* SwiftUIViewTangem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewTangem.swift; sourceTree = "<group>"; };
 		ACA4F1572DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksDocumentMenuSwiftUIView.swift; sourceTree = "<group>"; };
 		ACA4F1592DFFE56F00FE5A9F /* BookmarkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkItem.swift; sourceTree = "<group>"; };
+		ACA9048E2E33AAA10006D6D9 /* ExpandableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableText.swift; sourceTree = "<group>"; };
 		ACB98E3D2C22DF4500831CC7 /* CustomResizableLogoutInfoSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomResizableLogoutInfoSheetView.swift; sourceTree = "<group>"; };
 		ACC20EBA2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+UIGestureRecognizerDelegate.swift"; sourceTree = "<group>"; };
 		ACC496DC2C8B1C8800EAA344 /* Folder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folder.swift; sourceTree = "<group>"; };
@@ -221,6 +226,7 @@
 		ACC496E32C8B204B00EAA344 /* FileItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileItem.swift; sourceTree = "<group>"; };
 		ACC496EC2C8B283F00EAA344 /* AppleSwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSwiftUIView2.swift; sourceTree = "<group>"; };
 		ACC496EE2C8B287700EAA344 /* FileItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileItemView.swift; sourceTree = "<group>"; };
+		ACC88E762E43372600077A2C /* CustomTabBarExampleContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarExampleContentView.swift; sourceTree = "<group>"; };
 		ACCECFC82D00AB2900C9AB91 /* IpadTestSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpadTestSwiftUIView.swift; sourceTree = "<group>"; };
 		ACCECFCA2D00AE7C00C9AB91 /* IpadTest2SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpadTest2SwiftUIView.swift; sourceTree = "<group>"; };
 		ACCECFCD2D00B77300C9AB91 /* IpadTest3SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpadTest3SwiftUIView.swift; sourceTree = "<group>"; };
@@ -302,6 +308,7 @@
 		AC2AA4762DDF1D9E004C4E24 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				ACC88E762E43372600077A2C /* CustomTabBarExampleContentView.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -408,6 +415,7 @@
 				AC411F9D2D7ED93D009AFD7A /* SizePreferenceKey2.swift */,
 				AC411F9F2D7ED95B009AFD7A /* TruncationTextMaskModifier.swift */,
 				ACDB1FCF2DD61DD900A8EC52 /* Color+Extension.swift */,
+				ACA9048E2E33AAA10006D6D9 /* ExpandableText.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -600,6 +608,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		AC7325E72E7C3298008AA41B /* ScrollViewReader */ = {
+			isa = PBXGroup;
+			children = (
+				AC7325E82E7C32B3008AA41B /* ScrollViewReaderText.swift */,
+			);
+			path = ScrollViewReader;
+			sourceTree = "<group>";
+		};
 		AC8296472B5E57D5008383B0 /* Nata */ = {
 			isa = PBXGroup;
 			children = (
@@ -637,6 +653,7 @@
 				ACDFF39C2B570F3C000A6AAA /* Delete */,
 				ACDFF39B2B570F08000A6AAA /* Work */,
 				AC2AA47D2DDF258F004C4E24 /* CustomTabBar */,
+				AC7325E72E7C3298008AA41B /* ScrollViewReader */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -984,6 +1001,7 @@
 				ACC496ED2C8B283F00EAA344 /* AppleSwiftUIView2.swift in Sources */,
 				AC9611A82DDB835700398A1F /* CustomTabBarView111.swift in Sources */,
 				AC52782A2BF4E9F700CD1909 /* BottomSheetView.swift in Sources */,
+				ACA9048F2E33AAA10006D6D9 /* ExpandableText.swift in Sources */,
 				AC82964C2B5E583F008383B0 /* ScrollDirectionCustomGesture.swift in Sources */,
 				AC411F9E2D7ED93D009AFD7A /* SizePreferenceKey2.swift in Sources */,
 				AC5278212BF4CF7700CD1909 /* AlertContentView.swift in Sources */,
@@ -1009,9 +1027,11 @@
 				ACDFF3A32B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift in Sources */,
 				AC2AA4872DDF26DB004C4E24 /* CustomTabBarView.swift in Sources */,
 				AC502DA52CD9450C00DDB86A /* ContentOneeView.swift in Sources */,
+				AC7325E92E7C32B3008AA41B /* ScrollViewReaderText.swift in Sources */,
 				ACFD59EE2E2E54EE001D4740 /* ListListSwiftUIView.swift in Sources */,
 				AC3B12DD2CF099440076D9B3 /* SearchFruitsView.swift in Sources */,
 				ACFEDC702B83A064002B3C66 /* Skeleton.swift in Sources */,
+				ACC88E772E43372600077A2C /* CustomTabBarExampleContentView.swift in Sources */,
 				AC366EC12C2075300029AA9A /* DropDown4.swift in Sources */,
 				AC45FBD12D29617F0020837B /* CalendarViewController.swift in Sources */,
 				AC6BC6002D8C11FC000DF3AB /* FavoriteKiller.swift in Sources */,

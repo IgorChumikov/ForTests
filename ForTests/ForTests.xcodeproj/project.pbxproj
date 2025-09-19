@@ -78,6 +78,7 @@
 		AC72FA6B2B513E2E009E60AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC72FA6A2B513E2E009E60AB /* Preview Assets.xcassets */; };
 		AC7325E92E7C32B3008AA41B /* ScrollViewReaderText.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7325E82E7C32B3008AA41B /* ScrollViewReaderText.swift */; };
 		AC7325EB2E7C5789008AA41B /* ScrollViewReaderText2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7325EA2E7C5789008AA41B /* ScrollViewReaderText2.swift */; };
+		AC7326032E7D47A1008AA41B /* ScrollPositionIDDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7326022E7D47A1008AA41B /* ScrollPositionIDDemo.swift */; };
 		AC82964B2B5E583F008383B0 /* PinnedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8296482B5E583F008383B0 /* PinnedUIView.swift */; };
 		AC82964C2B5E583F008383B0 /* ScrollDirectionCustomGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8296492B5E583F008383B0 /* ScrollDirectionCustomGesture.swift */; };
 		AC82964D2B5E583F008383B0 /* ScrollDirectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC82964A2B5E583F008383B0 /* ScrollDirectionView.swift */; };
@@ -204,6 +205,7 @@
 		AC72FA6A2B513E2E009E60AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC7325E82E7C32B3008AA41B /* ScrollViewReaderText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderText.swift; sourceTree = "<group>"; };
 		AC7325EA2E7C5789008AA41B /* ScrollViewReaderText2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderText2.swift; sourceTree = "<group>"; };
+		AC7326022E7D47A1008AA41B /* ScrollPositionIDDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollPositionIDDemo.swift; sourceTree = "<group>"; };
 		AC8296482B5E583F008383B0 /* PinnedUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinnedUIView.swift; sourceTree = "<group>"; };
 		AC8296492B5E583F008383B0 /* ScrollDirectionCustomGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollDirectionCustomGesture.swift; sourceTree = "<group>"; };
 		AC82964A2B5E583F008383B0 /* ScrollDirectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollDirectionView.swift; sourceTree = "<group>"; };
@@ -615,6 +617,7 @@
 			children = (
 				AC7325E82E7C32B3008AA41B /* ScrollViewReaderText.swift */,
 				AC7325EA2E7C5789008AA41B /* ScrollViewReaderText2.swift */,
+				AC7326022E7D47A1008AA41B /* ScrollPositionIDDemo.swift */,
 			);
 			path = ScrollViewReader;
 			sourceTree = "<group>";
@@ -1075,6 +1078,7 @@
 				AC366EAE2C2034760029AA9A /* MenuSwiftUIView2.swift in Sources */,
 				ACCECFCB2D00AE7C00C9AB91 /* IpadTest2SwiftUIView.swift in Sources */,
 				ACDB1FD02DD61DD900A8EC52 /* Color+Extension.swift in Sources */,
+				AC7326032E7D47A1008AA41B /* ScrollPositionIDDemo.swift in Sources */,
 				AC70C5DE2D4A500A00718A64 /* BookmarksView.swift in Sources */,
 				AC2AA5272DE0928D004C4E24 /* DocumentInvalidatedSheetView.swift in Sources */,
 				AC52781F2BF3941A00CD1909 /* MainCurtainView.swift in Sources */,

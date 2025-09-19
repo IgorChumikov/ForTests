@@ -1,17 +1,15 @@
-
-//
-//  ScrollPositionIDDemo.swift
-//  ForTests
-//
-//  Created by Игорь Чумиков on 19.09.2025.
-//
-
 import SwiftUI
 
+// MARK: - Модель
+
 struct MyItem: Identifiable, Hashable {
-    let id: UUID
     let title: String
+
+    // Теперь title является уникальным идентификатором
+    var id: String { title }
 }
+
+// MARK: - Ячейка
 
 struct ItemView: View {
     let item: MyItem
@@ -26,39 +24,56 @@ struct ItemView: View {
     }
 }
 
-struct ScrollPositionExampleCorrected: View {
-    @State private var items: [MyItem] = (0..<100).map { MyItem(id: UUID(), title: "Item \($0)") }
-    // idType должен совпадать с MyItem.ID, т.е. UUID.self
-    @State private var position = ScrollPosition(idType: MyItem.ID.self)
+// MARK: - Основной экран
+
+struct ScrollRestoreDemo: View {
+    @State private var items: [MyItem] = (0..<100).map { MyItem(title: "Item \($0)") }
+
+    // Используем String, т.к. id теперь это title
+    @State private var currentID: String? = nil
+    @State private var lastSize: CGSize = .zero
 
     var body: some View {
-        VStack(spacing: 16) {
-            Button("Scroll to item 50") {
-                // находим UUID элемента #50
-                if items.indices.contains(50) {
-                    let targetId = items[50].id
-                    withAnimation {
-                        position.scrollTo(id: targetId, anchor: .top)
+        GeometryReader { geometry in
+            VStack(spacing: 16) {
+                Button("Scroll to item #50") {
+                    if items.indices.contains(50) {
+                        currentID = items[50].title
                     }
                 }
-            }
+                .buttonStyle(.borderedProminent)
 
-            ScrollView {
-                LazyVStack(spacing: 10) {
-                    ForEach(items) { item in
-                        ItemView(item: item)
-                            .id(item.id)  // важно: id должен быть здесь
+                Text("Текущий ID: \(currentID ?? "нет")")
+                    .font(.caption)
+                    .foregroundColor(.gray)
+
+                ScrollView {
+                    LazyVStack(spacing: 10) {
+                        ForEach(items) { item in
+                            ItemView(item: item)
+                                .id(item.id) // id = title
+                        }
+                    }
+                    .scrollTargetLayout()
+                }
+                .scrollPosition(id: $currentID, anchor: .top)
+                .frame(height: 400)
+            }
+            .padding()
+            .onChange(of: geometry.size) { _, newSize in
+                if lastSize != .zero, lastSize != newSize, let idToRestore = currentID {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) {
+                        currentID = idToRestore
                     }
                 }
-                .scrollTargetLayout()
+                lastSize = newSize
             }
-            .scrollPosition($position)
-            .frame(height: 400)
         }
-        .padding()
     }
 }
 
+// MARK: - Preview
+
 #Preview {
-    ScrollPositionExampleCorrected()
+    ScrollRestoreDemo()
 }

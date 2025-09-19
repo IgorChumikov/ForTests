@@ -57,7 +57,6 @@ struct ScrollRestoreDemo: View {
                     .scrollTargetLayout()
                 }
                 .scrollPosition(id: $currentID, anchor: .top)
-                .frame(height: 400)
             }
             .padding()
             .onChange(of: geometry.size) { _, newSize in

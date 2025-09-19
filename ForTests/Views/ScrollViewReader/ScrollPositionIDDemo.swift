@@ -4,8 +4,6 @@ import SwiftUI
 
 struct MyItem: Identifiable, Hashable {
     let title: String
-
-    // Теперь title является уникальным идентификатором
     var id: String { title }
 }
 
@@ -28,10 +26,9 @@ struct ItemView: View {
 
 struct ScrollRestoreDemo: View {
     @State private var items: [MyItem] = (0..<100).map { MyItem(title: "Item \($0)") }
-
-    // Используем String, т.к. id теперь это title
     @State private var currentID: String? = nil
     @State private var lastSize: CGSize = .zero
+    @State private var isScrollLocked = false
 
     var body: some View {
         GeometryReader { geometry in
@@ -51,18 +48,21 @@ struct ScrollRestoreDemo: View {
                     LazyVStack(spacing: 10) {
                         ForEach(items) { item in
                             ItemView(item: item)
-                                .id(item.id) // id = title
+                                .id(item.id)
                         }
                     }
                     .scrollTargetLayout()
                 }
+                .scrollDisabled(isScrollLocked) // ⛔️ Блокируем во время поворота
                 .scrollPosition(id: $currentID, anchor: .top)
             }
             .padding()
-            .onChange(of: geometry.size) { _, newSize in
-                if lastSize != .zero, lastSize != newSize, let idToRestore = currentID {
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) {
+            .onChange(of: geometry.size) { oldSize, newSize in
+                if oldSize != newSize, let idToRestore = currentID {
+                    isScrollLocked = true
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
                         currentID = idToRestore
+                        isScrollLocked = false
                     }
                 }
                 lastSize = newSize

@@ -57,16 +57,6 @@ struct ScrollRestoreDemo: View {
                 .scrollPosition(id: $currentID, anchor: .top)
             }
             .padding()
-            .onChange(of: geometry.size) { oldSize, newSize in
-                if oldSize != newSize, let idToRestore = currentID {
-                    isScrollLocked = true
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
-                        currentID = idToRestore
-                        isScrollLocked = false
-                    }
-                }
-                lastSize = newSize
-            }
         }
     }
 }

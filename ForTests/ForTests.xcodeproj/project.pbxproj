@@ -15,6 +15,11 @@
 		AC09CE012D4134F70038A629 /* MenuSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC09CE002D4134F70038A629 /* MenuSwiftUIView.swift */; };
 		AC0E23732E8D622C00CEC1DF /* LazyHGrid_RowAndColumnSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E23722E8D622C00CEC1DF /* LazyHGrid_RowAndColumnSpacing.swift */; };
 		AC0E23752E8D64CA00CEC1DF /* ScrollViewReader_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E23742E8D64CA00CEC1DF /* ScrollViewReader_Intro.swift */; };
+		AC0E23772E8D666500CEC1DF /* ControlGroup_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E23762E8D666500CEC1DF /* ControlGroup_Intro.swift */; };
+		AC0E23792E8D683100CEC1DF /* Table_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E23782E8D683100CEC1DF /* Table_Intro.swift */; };
+		AC0E237C2E8D696000CEC1DF /* ViewThatFits_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E237B2E8D696000CEC1DF /* ViewThatFits_Intro.swift */; };
+		AC0E237E2E8D69F800CEC1DF /* ViewThatFits_Vertical.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E237D2E8D69F800CEC1DF /* ViewThatFits_Vertical.swift */; };
+		AC0E23802E8D6A1F00CEC1DF /* ViewThatFits_WithScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E237F2E8D6A1F00CEC1DF /* ViewThatFits_WithScrollView.swift */; };
 		AC103B4C2CABF44400F6030A /* DocumentsListSectionsPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC103B4B2CABF44400F6030A /* DocumentsListSectionsPanelView.swift */; };
 		AC1FC1382D88044200C16DCE /* FavoriteBookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FC1372D88044200C16DCE /* FavoriteBookmarkView.swift */; };
 		AC2AA4852DDF26CC004C4E24 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AA4842DDF26CC004C4E24 /* AppTabBarView.swift */; };
@@ -145,6 +150,11 @@
 		AC09CE002D4134F70038A629 /* MenuSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSwiftUIView.swift; sourceTree = "<group>"; };
 		AC0E23722E8D622C00CEC1DF /* LazyHGrid_RowAndColumnSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGrid_RowAndColumnSpacing.swift; sourceTree = "<group>"; };
 		AC0E23742E8D64CA00CEC1DF /* ScrollViewReader_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReader_Intro.swift; sourceTree = "<group>"; };
+		AC0E23762E8D666500CEC1DF /* ControlGroup_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlGroup_Intro.swift; sourceTree = "<group>"; };
+		AC0E23782E8D683100CEC1DF /* Table_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table_Intro.swift; sourceTree = "<group>"; };
+		AC0E237B2E8D696000CEC1DF /* ViewThatFits_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFits_Intro.swift; sourceTree = "<group>"; };
+		AC0E237D2E8D69F800CEC1DF /* ViewThatFits_Vertical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFits_Vertical.swift; sourceTree = "<group>"; };
+		AC0E237F2E8D6A1F00CEC1DF /* ViewThatFits_WithScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFits_WithScrollView.swift; sourceTree = "<group>"; };
 		AC103B4B2CABF44400F6030A /* DocumentsListSectionsPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsListSectionsPanelView.swift; sourceTree = "<group>"; };
 		AC1FC1372D88044200C16DCE /* FavoriteBookmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBookmarkView.swift; sourceTree = "<group>"; };
 		AC2AA4842DDF26CC004C4E24 /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
@@ -311,8 +321,21 @@
 			children = (
 				AC0E23722E8D622C00CEC1DF /* LazyHGrid_RowAndColumnSpacing.swift */,
 				AC0E23742E8D64CA00CEC1DF /* ScrollViewReader_Intro.swift */,
+				AC0E23762E8D666500CEC1DF /* ControlGroup_Intro.swift */,
+				AC0E23782E8D683100CEC1DF /* Table_Intro.swift */,
+				AC0E237A2E8D694100CEC1DF /* ViewThatFits */,
 			);
 			path = "2 SwiftUI Views Mastery ";
+			sourceTree = "<group>";
+		};
+		AC0E237A2E8D694100CEC1DF /* ViewThatFits */ = {
+			isa = PBXGroup;
+			children = (
+				AC0E237B2E8D696000CEC1DF /* ViewThatFits_Intro.swift */,
+				AC0E237D2E8D69F800CEC1DF /* ViewThatFits_Vertical.swift */,
+				AC0E237F2E8D6A1F00CEC1DF /* ViewThatFits_WithScrollView.swift */,
+			);
+			path = ViewThatFits;
 			sourceTree = "<group>";
 		};
 		AC1FC1352D88040A00C16DCE /* New Group 2 */ = {
@@ -1005,11 +1028,14 @@
 				AC5278362BF646C100CD1909 /* ContentViewOne.swift in Sources */,
 				AC5278452BF649C600CD1909 /* ContentViewOne2.swift in Sources */,
 				AC2AA5252DE08B8D004C4E24 /* DocumentEventSheetView.swift in Sources */,
+				AC0E23802E8D6A1F00CEC1DF /* ViewThatFits_WithScrollView.swift in Sources */,
 				ACDB1FCB2DD5EF7A00A8EC52 /* SwiftUIViewTestSheet2.swift in Sources */,
 				AC03622F2C1B10E00033B781 /* MainView5.swift in Sources */,
 				AC52782E2BF4ED6F00CD1909 /* ResizableSheets2View.swift in Sources */,
 				AC52783E2BF6491F00CD1909 /* ExitAlert+View.swift in Sources */,
 				AC52782C2BF4ED2C00CD1909 /* ResizableSheetsView.swift in Sources */,
+				AC0E237E2E8D69F800CEC1DF /* ViewThatFits_Vertical.swift in Sources */,
+				AC0E23792E8D683100CEC1DF /* Table_Intro.swift in Sources */,
 				AC411F9C2D7EC175009AFD7A /* ReturnsExpandableTextView.swift in Sources */,
 				AC366EB82C2069A90029AA9A /* DropDownView.swift in Sources */,
 				AC0E23752E8D64CA00CEC1DF /* ScrollViewReader_Intro.swift in Sources */,
@@ -1024,6 +1050,8 @@
 				AC366ECA2C219B850029AA9A /* ResizableLogoutInfoSheetView.swift in Sources */,
 				AC52783B2BF647F300CD1909 /* ExitAlertView.swift in Sources */,
 				AC366EC32C20757E0029AA9A /* DropDownMenuDemo4.swift in Sources */,
+				AC0E23772E8D666500CEC1DF /* ControlGroup_Intro.swift in Sources */,
+				AC0E237C2E8D696000CEC1DF /* ViewThatFits_Intro.swift in Sources */,
 				ACDEFE152BEB7F41006E0CD1 /* UserAuthorizationBM.swift in Sources */,
 				AC9C22112C5A555200D59037 /* SwiftUIViewTangem.swift in Sources */,
 				AC30B5432DCA5F3A0071B1FD /* SwiftUIViewPopoverVisibleswift.swift in Sources */,

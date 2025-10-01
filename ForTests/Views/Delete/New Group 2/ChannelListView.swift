@@ -25,7 +25,7 @@ struct ChannelListView: View {
     var body: some View {
         VStack {
             // Header
-            HeaderView()
+            HeaderView33333()
             CustomSearchBarView()
             
             // Message List
@@ -86,7 +86,7 @@ struct ChannelListView: View {
 
 // MARK: - Dummy Views
 
-struct HeaderView: View {
+struct HeaderView33333: View {
     var body: some View {
         Text("Channel List")
             .font(.largeTitle)

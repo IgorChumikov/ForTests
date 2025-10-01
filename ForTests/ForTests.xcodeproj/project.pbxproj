@@ -13,6 +13,8 @@
 		AC09CDF82D3F95B80038A629 /* FavoriteSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC09CDF72D3F95B80038A629 /* FavoriteSwiftUIView.swift */; };
 		AC09CDFF2D4133CC0038A629 /* SwiftUIViewIpad5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC09CDFE2D4133CC0038A629 /* SwiftUIViewIpad5.swift */; };
 		AC09CE012D4134F70038A629 /* MenuSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC09CE002D4134F70038A629 /* MenuSwiftUIView.swift */; };
+		AC0E23732E8D622C00CEC1DF /* LazyHGrid_RowAndColumnSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E23722E8D622C00CEC1DF /* LazyHGrid_RowAndColumnSpacing.swift */; };
+		AC0E23752E8D64CA00CEC1DF /* ScrollViewReader_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E23742E8D64CA00CEC1DF /* ScrollViewReader_Intro.swift */; };
 		AC103B4C2CABF44400F6030A /* DocumentsListSectionsPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC103B4B2CABF44400F6030A /* DocumentsListSectionsPanelView.swift */; };
 		AC1FC1382D88044200C16DCE /* FavoriteBookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FC1372D88044200C16DCE /* FavoriteBookmarkView.swift */; };
 		AC2AA4852DDF26CC004C4E24 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AA4842DDF26CC004C4E24 /* AppTabBarView.swift */; };
@@ -141,6 +143,8 @@
 		AC09CDF72D3F95B80038A629 /* FavoriteSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteSwiftUIView.swift; sourceTree = "<group>"; };
 		AC09CDFE2D4133CC0038A629 /* SwiftUIViewIpad5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewIpad5.swift; sourceTree = "<group>"; };
 		AC09CE002D4134F70038A629 /* MenuSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSwiftUIView.swift; sourceTree = "<group>"; };
+		AC0E23722E8D622C00CEC1DF /* LazyHGrid_RowAndColumnSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGrid_RowAndColumnSpacing.swift; sourceTree = "<group>"; };
+		AC0E23742E8D64CA00CEC1DF /* ScrollViewReader_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReader_Intro.swift; sourceTree = "<group>"; };
 		AC103B4B2CABF44400F6030A /* DocumentsListSectionsPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsListSectionsPanelView.swift; sourceTree = "<group>"; };
 		AC1FC1372D88044200C16DCE /* FavoriteBookmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBookmarkView.swift; sourceTree = "<group>"; };
 		AC2AA4842DDF26CC004C4E24 /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
@@ -292,6 +296,23 @@
 				AC70C5DA2D4A4FD000718A64 /* Old */,
 			);
 			path = Favorite;
+			sourceTree = "<group>";
+		};
+		AC0E23702E8D61FD00CEC1DF /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				AC0E23712E8D621200CEC1DF /* 2 SwiftUI Views Mastery  */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		AC0E23712E8D621200CEC1DF /* 2 SwiftUI Views Mastery  */ = {
+			isa = PBXGroup;
+			children = (
+				AC0E23722E8D622C00CEC1DF /* LazyHGrid_RowAndColumnSpacing.swift */,
+				AC0E23742E8D64CA00CEC1DF /* ScrollViewReader_Intro.swift */,
+			);
+			path = "2 SwiftUI Views Mastery ";
 			sourceTree = "<group>";
 		};
 		AC1FC1352D88040A00C16DCE /* New Group 2 */ = {
@@ -666,6 +687,7 @@
 				ACDFF39B2B570F08000A6AAA /* Work */,
 				AC2AA47D2DDF258F004C4E24 /* CustomTabBar */,
 				AC7325E72E7C3298008AA41B /* ScrollViewReader */,
+				AC0E23702E8D61FD00CEC1DF /* Books */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -990,6 +1012,7 @@
 				AC52782C2BF4ED2C00CD1909 /* ResizableSheetsView.swift in Sources */,
 				AC411F9C2D7EC175009AFD7A /* ReturnsExpandableTextView.swift in Sources */,
 				AC366EB82C2069A90029AA9A /* DropDownView.swift in Sources */,
+				AC0E23752E8D64CA00CEC1DF /* ScrollViewReader_Intro.swift in Sources */,
 				AC4CB8B62B63E0350058C263 /* DemoOfHidingPanelView.swift in Sources */,
 				AC89BFFE2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift in Sources */,
 				AC45FBD32D2962050020837B /* AssistantCollectionViewCell.swift in Sources */,
@@ -1021,6 +1044,7 @@
 				AC411F9E2D7ED93D009AFD7A /* SizePreferenceKey2.swift in Sources */,
 				AC5278212BF4CF7700CD1909 /* AlertContentView.swift in Sources */,
 				AC52781D2BF38B7C00CD1909 /* ExitCurtainView.swift in Sources */,
+				AC0E23732E8D622C00CEC1DF /* LazyHGrid_RowAndColumnSpacing.swift in Sources */,
 				ACC496EF2C8B287700EAA344 /* FileItemView.swift in Sources */,
 				AC4238402C11A6C50035B3CE /* SwiftUIView123231.swift in Sources */,
 				ACEC5E362CAF1D8900ECBB2F /* SwiftUIViewIpad2.swift in Sources */,

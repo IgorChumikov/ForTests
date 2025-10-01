@@ -338,6 +338,24 @@
 			path = ViewThatFits;
 			sourceTree = "<group>";
 		};
+		AC0E23812E8D6BAB00CEC1DF /* ForTestViews */ = {
+			isa = PBXGroup;
+			children = (
+				ACFD59EC2E2E54D8001D4740 /* List */,
+				AC2AA5232DE0872F004C4E24 /* Sheet */,
+				AC2AA4762DDF1D9E004C4E24 /* TabBar */,
+				AC9611A22DDB238500398A1F /* Created */,
+				AC411F9A2D7EC13C009AFD7A /* Animation */,
+				AC09CDF62D3F90240038A629 /* Favorite */,
+				ACFEDC6D2B839FF7002B3C66 /* CanBeUsed */,
+				ACDFF39C2B570F3C000A6AAA /* Delete */,
+				ACDFF39B2B570F08000A6AAA /* Work */,
+				AC2AA47D2DDF258F004C4E24 /* CustomTabBar */,
+				AC7325E72E7C3298008AA41B /* ScrollViewReader */,
+			);
+			path = ForTestViews;
+			sourceTree = "<group>";
+		};
 		AC1FC1352D88040A00C16DCE /* New Group 2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -699,17 +717,7 @@
 		AC9611A12DDB22D900398A1F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				ACFD59EC2E2E54D8001D4740 /* List */,
-				AC2AA5232DE0872F004C4E24 /* Sheet */,
-				AC2AA4762DDF1D9E004C4E24 /* TabBar */,
-				AC9611A22DDB238500398A1F /* Created */,
-				AC411F9A2D7EC13C009AFD7A /* Animation */,
-				AC09CDF62D3F90240038A629 /* Favorite */,
-				ACFEDC6D2B839FF7002B3C66 /* CanBeUsed */,
-				ACDFF39C2B570F3C000A6AAA /* Delete */,
-				ACDFF39B2B570F08000A6AAA /* Work */,
-				AC2AA47D2DDF258F004C4E24 /* CustomTabBar */,
-				AC7325E72E7C3298008AA41B /* ScrollViewReader */,
+				AC0E23812E8D6BAB00CEC1DF /* ForTestViews */,
 				AC0E23702E8D61FD00CEC1DF /* Books */,
 			);
 			path = Views;

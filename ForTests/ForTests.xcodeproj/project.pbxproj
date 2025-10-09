@@ -90,6 +90,14 @@
 		AC7325EB2E7C5789008AA41B /* ScrollViewReaderText2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7325EA2E7C5789008AA41B /* ScrollViewReaderText2.swift */; };
 		AC7326032E7D47A1008AA41B /* ScrollPositionIDDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7326022E7D47A1008AA41B /* ScrollPositionIDDemo.swift */; };
 		AC76007C2E8188CF0010CB83 /* ScrollRestoreDemo222.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC76007B2E8188CF0010CB83 /* ScrollRestoreDemo222.swift */; };
+		AC8212B22E9796A000D0688A /* Chart_WithData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8212B12E9796A000D0688A /* Chart_WithData.swift */; };
+		AC8212B42E97974C00D0688A /* Chart_BarMarkStacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8212B32E97974C00D0688A /* Chart_BarMarkStacking.swift */; };
+		AC8212B62E9797E700D0688A /* Chart_BarMarkPositionBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8212B52E9797E700D0688A /* Chart_BarMarkPositionBy.swift */; };
+		AC8212B82E97985C00D0688A /* GroupInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8212B72E97985C00D0688A /* GroupInfo.swift */; };
+		AC8212BB2E9798FC00D0688A /* Chart_SectorMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8212BA2E9798FC00D0688A /* Chart_SectorMark.swift */; };
+		AC8212BD2E97996A00D0688A /* Share.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8212BC2E97996A00D0688A /* Share.swift */; };
+		AC8212BF2E97998900D0688A /* Chart_SectorMark_Donut.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8212BE2E97998900D0688A /* Chart_SectorMark_Donut.swift */; };
+		AC8212C12E979A1700D0688A /* ColorPicker_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8212C02E979A1700D0688A /* ColorPicker_Intro.swift */; };
 		AC82964B2B5E583F008383B0 /* PinnedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8296482B5E583F008383B0 /* PinnedUIView.swift */; };
 		AC82964C2B5E583F008383B0 /* ScrollDirectionCustomGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8296492B5E583F008383B0 /* ScrollDirectionCustomGesture.swift */; };
 		AC82964D2B5E583F008383B0 /* ScrollDirectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC82964A2B5E583F008383B0 /* ScrollDirectionView.swift */; };
@@ -229,6 +237,14 @@
 		AC7325EA2E7C5789008AA41B /* ScrollViewReaderText2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderText2.swift; sourceTree = "<group>"; };
 		AC7326022E7D47A1008AA41B /* ScrollPositionIDDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollPositionIDDemo.swift; sourceTree = "<group>"; };
 		AC76007B2E8188CF0010CB83 /* ScrollRestoreDemo222.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollRestoreDemo222.swift; sourceTree = "<group>"; };
+		AC8212B12E9796A000D0688A /* Chart_WithData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart_WithData.swift; sourceTree = "<group>"; };
+		AC8212B32E97974C00D0688A /* Chart_BarMarkStacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart_BarMarkStacking.swift; sourceTree = "<group>"; };
+		AC8212B52E9797E700D0688A /* Chart_BarMarkPositionBy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart_BarMarkPositionBy.swift; sourceTree = "<group>"; };
+		AC8212B72E97985C00D0688A /* GroupInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupInfo.swift; sourceTree = "<group>"; };
+		AC8212BA2E9798FC00D0688A /* Chart_SectorMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart_SectorMark.swift; sourceTree = "<group>"; };
+		AC8212BC2E97996A00D0688A /* Share.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Share.swift; sourceTree = "<group>"; };
+		AC8212BE2E97998900D0688A /* Chart_SectorMark_Donut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart_SectorMark_Donut.swift; sourceTree = "<group>"; };
+		AC8212C02E979A1700D0688A /* ColorPicker_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker_Intro.swift; sourceTree = "<group>"; };
 		AC8296482B5E583F008383B0 /* PinnedUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinnedUIView.swift; sourceTree = "<group>"; };
 		AC8296492B5E583F008383B0 /* ScrollDirectionCustomGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollDirectionCustomGesture.swift; sourceTree = "<group>"; };
 		AC82964A2B5E583F008383B0 /* ScrollDirectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollDirectionView.swift; sourceTree = "<group>"; };
@@ -329,8 +345,10 @@
 				AC0E23742E8D64CA00CEC1DF /* ScrollViewReader_Intro.swift */,
 				AC0E23762E8D666500CEC1DF /* ControlGroup_Intro.swift */,
 				AC0E23782E8D683100CEC1DF /* Table_Intro.swift */,
-				AC0E237A2E8D694100CEC1DF /* ViewThatFits */,
 				AC0E23842E8D797D00CEC1DF /* ContentUnavailableView */,
+				AC0E237A2E8D694100CEC1DF /* ViewThatFits */,
+				AC8212B02E97964600D0688A /* Chart */,
+				AC8212C02E979A1700D0688A /* ColorPicker_Intro.swift */,
 			);
 			path = "2 SwiftUI Views Mastery ";
 			sourceTree = "<group>";
@@ -707,6 +725,28 @@
 			path = ScrollViewReader;
 			sourceTree = "<group>";
 		};
+		AC8212B02E97964600D0688A /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				AC8212B92E97986000D0688A /* Models */,
+				AC8212B12E9796A000D0688A /* Chart_WithData.swift */,
+				AC8212B32E97974C00D0688A /* Chart_BarMarkStacking.swift */,
+				AC8212B52E9797E700D0688A /* Chart_BarMarkPositionBy.swift */,
+				AC8212BA2E9798FC00D0688A /* Chart_SectorMark.swift */,
+				AC8212BE2E97998900D0688A /* Chart_SectorMark_Donut.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		AC8212B92E97986000D0688A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC8212B72E97985C00D0688A /* GroupInfo.swift */,
+				AC8212BC2E97996A00D0688A /* Share.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		AC8296472B5E57D5008383B0 /* Nata */ = {
 			isa = PBXGroup;
 			children = (
@@ -1045,6 +1085,7 @@
 				AC5278342BF6468600CD1909 /* CustomAlertView.swift in Sources */,
 				ACFEDC742B83A246002B3C66 /* View+OnFirstAppear.swift in Sources */,
 				AC9611AA2DDB8C3400398A1F /* CustomTabBarView222.swift in Sources */,
+				AC8212BB2E9798FC00D0688A /* Chart_SectorMark.swift in Sources */,
 				AC5278162BF386E400CD1909 /* PanelViewIndicator.swift in Sources */,
 				ACC496DD2C8B1C8800EAA344 /* Folder.swift in Sources */,
 				AC93679D2D76DA8700FB42BD /* FavoritesDocUnderControlAnnotationView.swift in Sources */,
@@ -1056,6 +1097,7 @@
 				AC0E23802E8D6A1F00CEC1DF /* ViewThatFits_WithScrollView.swift in Sources */,
 				ACDB1FCB2DD5EF7A00A8EC52 /* SwiftUIViewTestSheet2.swift in Sources */,
 				AC03622F2C1B10E00033B781 /* MainView5.swift in Sources */,
+				AC8212C12E979A1700D0688A /* ColorPicker_Intro.swift in Sources */,
 				AC52782E2BF4ED6F00CD1909 /* ResizableSheets2View.swift in Sources */,
 				AC52783E2BF6491F00CD1909 /* ExitAlert+View.swift in Sources */,
 				AC52782C2BF4ED2C00CD1909 /* ResizableSheetsView.swift in Sources */,
@@ -1073,6 +1115,7 @@
 				AC502DA72CD945C700DDB86A /* ContentOneeStructView.swift in Sources */,
 				AC89C0142C05D193006BE793 /* MultilineTextFieldView.swift in Sources */,
 				AC366ECA2C219B850029AA9A /* ResizableLogoutInfoSheetView.swift in Sources */,
+				AC8212B42E97974C00D0688A /* Chart_BarMarkStacking.swift in Sources */,
 				AC52783B2BF647F300CD1909 /* ExitAlertView.swift in Sources */,
 				AC366EC32C20757E0029AA9A /* DropDownMenuDemo4.swift in Sources */,
 				AC0E23772E8D666500CEC1DF /* ControlGroup_Intro.swift in Sources */,
@@ -1080,6 +1123,7 @@
 				ACDEFE152BEB7F41006E0CD1 /* UserAuthorizationBM.swift in Sources */,
 				AC9C22112C5A555200D59037 /* SwiftUIViewTangem.swift in Sources */,
 				AC30B5432DCA5F3A0071B1FD /* SwiftUIViewPopoverVisibleswift.swift in Sources */,
+				AC8212B22E9796A000D0688A /* Chart_WithData.swift in Sources */,
 				AC2AA4892DDF26EA004C4E24 /* CustomTabBarContainerView.swift in Sources */,
 				AC45FBCD2D29614D0020837B /* CalendarViewModel.swift in Sources */,
 				AC2AA48B2DDF26FF004C4E24 /* TabBarItemsPreferenceKey.swift in Sources */,
@@ -1111,6 +1155,7 @@
 				AC5B1B042BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift in Sources */,
 				AC52781A2BF38AE800CD1909 /* DialogView.swift in Sources */,
 				AC09CDFF2D4133CC0038A629 /* SwiftUIViewIpad5.swift in Sources */,
+				AC8212BF2E97998900D0688A /* Chart_SectorMark_Donut.swift in Sources */,
 				AC5278422BF6497D00CD1909 /* ExitAlertModifier.swift in Sources */,
 				AC366EBA2C2069DC0029AA9A /* MenuSwiftUIView4.swift in Sources */,
 				AC366EB52C2066B40029AA9A /* MenuSwiftUIView3.swift in Sources */,
@@ -1123,6 +1168,7 @@
 				AC7325E92E7C32B3008AA41B /* ScrollViewReaderText.swift in Sources */,
 				ACFD59EE2E2E54EE001D4740 /* ListListSwiftUIView.swift in Sources */,
 				AC3B12DD2CF099440076D9B3 /* SearchFruitsView.swift in Sources */,
+				AC8212BD2E97996A00D0688A /* Share.swift in Sources */,
 				ACFEDC702B83A064002B3C66 /* Skeleton.swift in Sources */,
 				ACC88E772E43372600077A2C /* CustomTabBarExampleContentView.swift in Sources */,
 				AC366EC12C2075300029AA9A /* DropDown4.swift in Sources */,
@@ -1135,6 +1181,7 @@
 				ACCECFC92D00AB2900C9AB91 /* IpadTestSwiftUIView.swift in Sources */,
 				AC72FA642B513E2C009E60AB /* ForTestsApp.swift in Sources */,
 				AC03622D2C187D7D0033B781 /* View5.swift in Sources */,
+				AC8212B82E97985C00D0688A /* GroupInfo.swift in Sources */,
 				AC366ECC2C21C0AF0029AA9A /* SheetStartTest.swift in Sources */,
 				AC89C0182C071C9F006BE793 /* DynamicHeightTextEditor.swift in Sources */,
 				ACA4F1582DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift in Sources */,
@@ -1153,6 +1200,7 @@
 				AC103B4C2CABF44400F6030A /* DocumentsListSectionsPanelView.swift in Sources */,
 				AC67B5EE2D7B344F002170AB /* ZebraStripeRenderer.swift in Sources */,
 				ACA4F15A2DFFE56F00FE5A9F /* BookmarkItem.swift in Sources */,
+				AC8212B62E9797E700D0688A /* Chart_BarMarkPositionBy.swift in Sources */,
 				AC2AA48D2DDF2715004C4E24 /* TabBarItem.swift in Sources */,
 				AC70C5DC2D4A4FF500718A64 /* BookmarksList.swift in Sources */,
 				ACDB1FD32DD6255400A8EC52 /* NumberListViewController.swift in Sources */,

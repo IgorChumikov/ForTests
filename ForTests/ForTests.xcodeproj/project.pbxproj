@@ -110,6 +110,7 @@
 		AC8213C32E98DD6400D0688A /* List_MoveAndDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8213C22E98DD6400D0688A /* List_MoveAndDelete.swift */; };
 		AC8213CF2E98E05500D0688A /* List_ListRowInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8213CE2E98E05500D0688A /* List_ListRowInsets.swift */; };
 		AC8213D12E98E10100D0688A /* List_WithChildren.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8213D02E98E10100D0688A /* List_WithChildren.swift */; };
+		AC8213D52E98E32400D0688A /* HierarchicalListDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8213D42E98E32400D0688A /* HierarchicalListDemo.swift */; };
 		AC82964B2B5E583F008383B0 /* PinnedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8296482B5E583F008383B0 /* PinnedUIView.swift */; };
 		AC82964C2B5E583F008383B0 /* ScrollDirectionCustomGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8296492B5E583F008383B0 /* ScrollDirectionCustomGesture.swift */; };
 		AC82964D2B5E583F008383B0 /* ScrollDirectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC82964A2B5E583F008383B0 /* ScrollDirectionView.swift */; };
@@ -269,6 +270,7 @@
 		AC8213C22E98DD6400D0688A /* List_MoveAndDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_MoveAndDelete.swift; sourceTree = "<group>"; };
 		AC8213CE2E98E05500D0688A /* List_ListRowInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_ListRowInsets.swift; sourceTree = "<group>"; };
 		AC8213D02E98E10100D0688A /* List_WithChildren.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_WithChildren.swift; sourceTree = "<group>"; };
+		AC8213D42E98E32400D0688A /* HierarchicalListDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchicalListDemo.swift; sourceTree = "<group>"; };
 		AC8296482B5E583F008383B0 /* PinnedUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinnedUIView.swift; sourceTree = "<group>"; };
 		AC8296492B5E583F008383B0 /* ScrollDirectionCustomGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollDirectionCustomGesture.swift; sourceTree = "<group>"; };
 		AC82964A2B5E583F008383B0 /* ScrollDirectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollDirectionView.swift; sourceTree = "<group>"; };
@@ -803,6 +805,7 @@
 				AC8213C22E98DD6400D0688A /* List_MoveAndDelete.swift */,
 				AC8213CE2E98E05500D0688A /* List_ListRowInsets.swift */,
 				AC8213D02E98E10100D0688A /* List_WithChildren.swift */,
+				AC8213D42E98E32400D0688A /* HierarchicalListDemo.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -1351,6 +1354,7 @@
 				AC70C5DE2D4A500A00718A64 /* BookmarksView.swift in Sources */,
 				AC2AA5272DE0928D004C4E24 /* DocumentInvalidatedSheetView.swift in Sources */,
 				AC52781F2BF3941A00CD1909 /* MainCurtainView.swift in Sources */,
+				AC8213D52E98E32400D0688A /* HierarchicalListDemo.swift in Sources */,
 				AC8213CF2E98E05500D0688A /* List_ListRowInsets.swift in Sources */,
 				AC0E23832E8D78D500CEC1DF /* CUV_WithActions.swift in Sources */,
 				ACDB1FCE2DD61D0D00A8EC52 /* FavoriteDocumentAlreadyUnderControlView.swift in Sources */,

@@ -90,6 +90,24 @@
 		AC7325EB2E7C5789008AA41B /* ScrollViewReaderText2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7325EA2E7C5789008AA41B /* ScrollViewReaderText2.swift */; };
 		AC7326032E7D47A1008AA41B /* ScrollPositionIDDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7326022E7D47A1008AA41B /* ScrollPositionIDDemo.swift */; };
 		AC76007C2E8188CF0010CB83 /* ScrollRestoreDemo222.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC76007B2E8188CF0010CB83 /* ScrollRestoreDemo222.swift */; };
+		AC8212B22E9796A000D0688A /* Chart_WithData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8212B12E9796A000D0688A /* Chart_WithData.swift */; };
+		AC8212B42E97974C00D0688A /* Chart_BarMarkStacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8212B32E97974C00D0688A /* Chart_BarMarkStacking.swift */; };
+		AC8212B62E9797E700D0688A /* Chart_BarMarkPositionBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8212B52E9797E700D0688A /* Chart_BarMarkPositionBy.swift */; };
+		AC8212B82E97985C00D0688A /* GroupInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8212B72E97985C00D0688A /* GroupInfo.swift */; };
+		AC8212BB2E9798FC00D0688A /* Chart_SectorMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8212BA2E9798FC00D0688A /* Chart_SectorMark.swift */; };
+		AC8212BD2E97996A00D0688A /* Share.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8212BC2E97996A00D0688A /* Share.swift */; };
+		AC8212BF2E97998900D0688A /* Chart_SectorMark_Donut.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8212BE2E97998900D0688A /* Chart_SectorMark_Donut.swift */; };
+		AC8212C12E979A1700D0688A /* ColorPicker_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8212C02E979A1700D0688A /* ColorPicker_Intro.swift */; };
+		AC8213AE2E98D7DE00D0688A /* DisclosureGroup_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8213AD2E98D7DE00D0688A /* DisclosureGroup_Intro.swift */; };
+		AC8213B02E98D90D00D0688A /* Gauge_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8213AF2E98D90D00D0688A /* Gauge_Intro.swift */; };
+		AC8213B32E98D9C200D0688A /* Gauge_Circular.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8213B22E98D9C200D0688A /* Gauge_Circular.swift */; };
+		AC8213B52E98D9E900D0688A /* Gauge_CircularSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8213B42E98D9E900D0688A /* Gauge_CircularSize.swift */; };
+		AC8213B72E98DA2000D0688A /* Gauge_LabelsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8213B62E98DA2000D0688A /* Gauge_LabelsDemo.swift */; };
+		AC8213BA2E98DA8D00D0688A /* GroupBox_WithLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8213B92E98DA8D00D0688A /* GroupBox_WithLabel.swift */; };
+		AC8213BC2E98DAE000D0688A /* GroupBox_WithBackgroundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8213BB2E98DAE000D0688A /* GroupBox_WithBackgroundStyle.swift */; };
+		AC8213BE2E98DC0400D0688A /* LabeledContent_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8213BD2E98DC0400D0688A /* LabeledContent_Intro.swift */; };
+		AC8213C02E98DC7400D0688A /* Link_ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8213BF2E98DC7400D0688A /* Link_ButtonStyles.swift */; };
+		AC8213C32E98DD6400D0688A /* List_MoveAndDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8213C22E98DD6400D0688A /* List_MoveAndDelete.swift */; };
 		AC82964B2B5E583F008383B0 /* PinnedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8296482B5E583F008383B0 /* PinnedUIView.swift */; };
 		AC82964C2B5E583F008383B0 /* ScrollDirectionCustomGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8296492B5E583F008383B0 /* ScrollDirectionCustomGesture.swift */; };
 		AC82964D2B5E583F008383B0 /* ScrollDirectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC82964A2B5E583F008383B0 /* ScrollDirectionView.swift */; };
@@ -229,6 +247,24 @@
 		AC7325EA2E7C5789008AA41B /* ScrollViewReaderText2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderText2.swift; sourceTree = "<group>"; };
 		AC7326022E7D47A1008AA41B /* ScrollPositionIDDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollPositionIDDemo.swift; sourceTree = "<group>"; };
 		AC76007B2E8188CF0010CB83 /* ScrollRestoreDemo222.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollRestoreDemo222.swift; sourceTree = "<group>"; };
+		AC8212B12E9796A000D0688A /* Chart_WithData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart_WithData.swift; sourceTree = "<group>"; };
+		AC8212B32E97974C00D0688A /* Chart_BarMarkStacking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart_BarMarkStacking.swift; sourceTree = "<group>"; };
+		AC8212B52E9797E700D0688A /* Chart_BarMarkPositionBy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart_BarMarkPositionBy.swift; sourceTree = "<group>"; };
+		AC8212B72E97985C00D0688A /* GroupInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupInfo.swift; sourceTree = "<group>"; };
+		AC8212BA2E9798FC00D0688A /* Chart_SectorMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart_SectorMark.swift; sourceTree = "<group>"; };
+		AC8212BC2E97996A00D0688A /* Share.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Share.swift; sourceTree = "<group>"; };
+		AC8212BE2E97998900D0688A /* Chart_SectorMark_Donut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart_SectorMark_Donut.swift; sourceTree = "<group>"; };
+		AC8212C02E979A1700D0688A /* ColorPicker_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker_Intro.swift; sourceTree = "<group>"; };
+		AC8213AD2E98D7DE00D0688A /* DisclosureGroup_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroup_Intro.swift; sourceTree = "<group>"; };
+		AC8213AF2E98D90D00D0688A /* Gauge_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gauge_Intro.swift; sourceTree = "<group>"; };
+		AC8213B22E98D9C200D0688A /* Gauge_Circular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gauge_Circular.swift; sourceTree = "<group>"; };
+		AC8213B42E98D9E900D0688A /* Gauge_CircularSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gauge_CircularSize.swift; sourceTree = "<group>"; };
+		AC8213B62E98DA2000D0688A /* Gauge_LabelsDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gauge_LabelsDemo.swift; sourceTree = "<group>"; };
+		AC8213B92E98DA8D00D0688A /* GroupBox_WithLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBox_WithLabel.swift; sourceTree = "<group>"; };
+		AC8213BB2E98DAE000D0688A /* GroupBox_WithBackgroundStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBox_WithBackgroundStyle.swift; sourceTree = "<group>"; };
+		AC8213BD2E98DC0400D0688A /* LabeledContent_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledContent_Intro.swift; sourceTree = "<group>"; };
+		AC8213BF2E98DC7400D0688A /* Link_ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link_ButtonStyles.swift; sourceTree = "<group>"; };
+		AC8213C22E98DD6400D0688A /* List_MoveAndDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_MoveAndDelete.swift; sourceTree = "<group>"; };
 		AC8296482B5E583F008383B0 /* PinnedUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinnedUIView.swift; sourceTree = "<group>"; };
 		AC8296492B5E583F008383B0 /* ScrollDirectionCustomGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollDirectionCustomGesture.swift; sourceTree = "<group>"; };
 		AC82964A2B5E583F008383B0 /* ScrollDirectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollDirectionView.swift; sourceTree = "<group>"; };
@@ -325,12 +361,20 @@
 		AC0E23712E8D621200CEC1DF /* 2 SwiftUI Views Mastery  */ = {
 			isa = PBXGroup;
 			children = (
-				AC0E23722E8D622C00CEC1DF /* LazyHGrid_RowAndColumnSpacing.swift */,
-				AC0E23742E8D64CA00CEC1DF /* ScrollViewReader_Intro.swift */,
-				AC0E23762E8D666500CEC1DF /* ControlGroup_Intro.swift */,
-				AC0E23782E8D683100CEC1DF /* Table_Intro.swift */,
-				AC0E237A2E8D694100CEC1DF /* ViewThatFits */,
+				AC8213C62E98DEC400D0688A /* LazyHGrid */,
+				AC8213C72E98DED000D0688A /* ScrollViewReader */,
+				AC8213C82E98DEDB00D0688A /* СontrolGroup */,
+				AC8213C92E98DEEC00D0688A /* Table */,
 				AC0E23842E8D797D00CEC1DF /* ContentUnavailableView */,
+				AC0E237A2E8D694100CEC1DF /* ViewThatFits */,
+				AC8212B02E97964600D0688A /* Chart */,
+				AC8213CA2E98DEF900D0688A /* ColorPicker */,
+				AC8213CB2E98DF0400D0688A /* DisclosureGroup */,
+				AC8213B12E98D99800D0688A /* Gauge */,
+				AC8213B82E98DA7700D0688A /* GroupBox */,
+				AC8213CC2E98DF1100D0688A /* LabeledContent */,
+				AC8213CD2E98DF1C00D0688A /* Link */,
+				AC8213C12E98DD5700D0688A /*  List */,
 			);
 			path = "2 SwiftUI Views Mastery ";
 			sourceTree = "<group>";
@@ -707,6 +751,120 @@
 			path = ScrollViewReader;
 			sourceTree = "<group>";
 		};
+		AC8212B02E97964600D0688A /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				AC8212B92E97986000D0688A /* Models */,
+				AC8212B12E9796A000D0688A /* Chart_WithData.swift */,
+				AC8212B32E97974C00D0688A /* Chart_BarMarkStacking.swift */,
+				AC8212B52E9797E700D0688A /* Chart_BarMarkPositionBy.swift */,
+				AC8212BA2E9798FC00D0688A /* Chart_SectorMark.swift */,
+				AC8212BE2E97998900D0688A /* Chart_SectorMark_Donut.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		AC8212B92E97986000D0688A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC8212B72E97985C00D0688A /* GroupInfo.swift */,
+				AC8212BC2E97996A00D0688A /* Share.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC8213B12E98D99800D0688A /* Gauge */ = {
+			isa = PBXGroup;
+			children = (
+				AC8213AF2E98D90D00D0688A /* Gauge_Intro.swift */,
+				AC8213B22E98D9C200D0688A /* Gauge_Circular.swift */,
+				AC8213B42E98D9E900D0688A /* Gauge_CircularSize.swift */,
+				AC8213B62E98DA2000D0688A /* Gauge_LabelsDemo.swift */,
+			);
+			path = Gauge;
+			sourceTree = "<group>";
+		};
+		AC8213B82E98DA7700D0688A /* GroupBox */ = {
+			isa = PBXGroup;
+			children = (
+				AC8213B92E98DA8D00D0688A /* GroupBox_WithLabel.swift */,
+				AC8213BB2E98DAE000D0688A /* GroupBox_WithBackgroundStyle.swift */,
+			);
+			path = GroupBox;
+			sourceTree = "<group>";
+		};
+		AC8213C12E98DD5700D0688A /*  List */ = {
+			isa = PBXGroup;
+			children = (
+				AC8213C22E98DD6400D0688A /* List_MoveAndDelete.swift */,
+			);
+			path = " List";
+			sourceTree = "<group>";
+		};
+		AC8213C62E98DEC400D0688A /* LazyHGrid */ = {
+			isa = PBXGroup;
+			children = (
+				AC0E23722E8D622C00CEC1DF /* LazyHGrid_RowAndColumnSpacing.swift */,
+			);
+			path = LazyHGrid;
+			sourceTree = "<group>";
+		};
+		AC8213C72E98DED000D0688A /* ScrollViewReader */ = {
+			isa = PBXGroup;
+			children = (
+				AC0E23742E8D64CA00CEC1DF /* ScrollViewReader_Intro.swift */,
+			);
+			path = ScrollViewReader;
+			sourceTree = "<group>";
+		};
+		AC8213C82E98DEDB00D0688A /* СontrolGroup */ = {
+			isa = PBXGroup;
+			children = (
+				AC0E23762E8D666500CEC1DF /* ControlGroup_Intro.swift */,
+			);
+			path = "СontrolGroup";
+			sourceTree = "<group>";
+		};
+		AC8213C92E98DEEC00D0688A /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				AC0E23782E8D683100CEC1DF /* Table_Intro.swift */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		AC8213CA2E98DEF900D0688A /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				AC8212C02E979A1700D0688A /* ColorPicker_Intro.swift */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+		AC8213CB2E98DF0400D0688A /* DisclosureGroup */ = {
+			isa = PBXGroup;
+			children = (
+				AC8213AD2E98D7DE00D0688A /* DisclosureGroup_Intro.swift */,
+			);
+			path = DisclosureGroup;
+			sourceTree = "<group>";
+		};
+		AC8213CC2E98DF1100D0688A /* LabeledContent */ = {
+			isa = PBXGroup;
+			children = (
+				AC8213BD2E98DC0400D0688A /* LabeledContent_Intro.swift */,
+			);
+			path = LabeledContent;
+			sourceTree = "<group>";
+		};
+		AC8213CD2E98DF1C00D0688A /* Link */ = {
+			isa = PBXGroup;
+			children = (
+				AC8213BF2E98DC7400D0688A /* Link_ButtonStyles.swift */,
+			);
+			path = Link;
+			sourceTree = "<group>";
+		};
 		AC8296472B5E57D5008383B0 /* Nata */ = {
 			isa = PBXGroup;
 			children = (
@@ -1045,6 +1203,7 @@
 				AC5278342BF6468600CD1909 /* CustomAlertView.swift in Sources */,
 				ACFEDC742B83A246002B3C66 /* View+OnFirstAppear.swift in Sources */,
 				AC9611AA2DDB8C3400398A1F /* CustomTabBarView222.swift in Sources */,
+				AC8212BB2E9798FC00D0688A /* Chart_SectorMark.swift in Sources */,
 				AC5278162BF386E400CD1909 /* PanelViewIndicator.swift in Sources */,
 				ACC496DD2C8B1C8800EAA344 /* Folder.swift in Sources */,
 				AC93679D2D76DA8700FB42BD /* FavoritesDocUnderControlAnnotationView.swift in Sources */,
@@ -1056,10 +1215,12 @@
 				AC0E23802E8D6A1F00CEC1DF /* ViewThatFits_WithScrollView.swift in Sources */,
 				ACDB1FCB2DD5EF7A00A8EC52 /* SwiftUIViewTestSheet2.swift in Sources */,
 				AC03622F2C1B10E00033B781 /* MainView5.swift in Sources */,
+				AC8212C12E979A1700D0688A /* ColorPicker_Intro.swift in Sources */,
 				AC52782E2BF4ED6F00CD1909 /* ResizableSheets2View.swift in Sources */,
 				AC52783E2BF6491F00CD1909 /* ExitAlert+View.swift in Sources */,
 				AC52782C2BF4ED2C00CD1909 /* ResizableSheetsView.swift in Sources */,
 				AC0E237E2E8D69F800CEC1DF /* ViewThatFits_Vertical.swift in Sources */,
+				AC8213C32E98DD6400D0688A /* List_MoveAndDelete.swift in Sources */,
 				AC0E23792E8D683100CEC1DF /* Table_Intro.swift in Sources */,
 				AC411F9C2D7EC175009AFD7A /* ReturnsExpandableTextView.swift in Sources */,
 				AC366EB82C2069A90029AA9A /* DropDownView.swift in Sources */,
@@ -1069,10 +1230,12 @@
 				AC45FBD32D2962050020837B /* AssistantCollectionViewCell.swift in Sources */,
 				ACDB1FC72DD5EC3000A8EC52 /* SwiftUIViewTestSheet.swift in Sources */,
 				ACC496DF2C8B1C9B00EAA344 /* FolderView.swift in Sources */,
+				AC8213B72E98DA2000D0688A /* Gauge_LabelsDemo.swift in Sources */,
 				AC366EBE2C2074F00029AA9A /* MenuSwiftUIView11.swift in Sources */,
 				AC502DA72CD945C700DDB86A /* ContentOneeStructView.swift in Sources */,
 				AC89C0142C05D193006BE793 /* MultilineTextFieldView.swift in Sources */,
 				AC366ECA2C219B850029AA9A /* ResizableLogoutInfoSheetView.swift in Sources */,
+				AC8212B42E97974C00D0688A /* Chart_BarMarkStacking.swift in Sources */,
 				AC52783B2BF647F300CD1909 /* ExitAlertView.swift in Sources */,
 				AC366EC32C20757E0029AA9A /* DropDownMenuDemo4.swift in Sources */,
 				AC0E23772E8D666500CEC1DF /* ControlGroup_Intro.swift in Sources */,
@@ -1080,14 +1243,17 @@
 				ACDEFE152BEB7F41006E0CD1 /* UserAuthorizationBM.swift in Sources */,
 				AC9C22112C5A555200D59037 /* SwiftUIViewTangem.swift in Sources */,
 				AC30B5432DCA5F3A0071B1FD /* SwiftUIViewPopoverVisibleswift.swift in Sources */,
+				AC8212B22E9796A000D0688A /* Chart_WithData.swift in Sources */,
 				AC2AA4892DDF26EA004C4E24 /* CustomTabBarContainerView.swift in Sources */,
 				AC45FBCD2D29614D0020837B /* CalendarViewModel.swift in Sources */,
 				AC2AA48B2DDF26FF004C4E24 /* TabBarItemsPreferenceKey.swift in Sources */,
 				ACC20EBB2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */,
 				AC82964B2B5E583F008383B0 /* PinnedUIView.swift in Sources */,
 				AC09CE012D4134F70038A629 /* MenuSwiftUIView.swift in Sources */,
+				AC8213BA2E98DA8D00D0688A /* GroupBox_WithLabel.swift in Sources */,
 				AC8529452E851B3500E9CE60 /* GroupVsGroupBoxDemo.swift in Sources */,
 				ACC496ED2C8B283F00EAA344 /* AppleSwiftUIView2.swift in Sources */,
+				AC8213BE2E98DC0400D0688A /* LabeledContent_Intro.swift in Sources */,
 				AC9611A82DDB835700398A1F /* CustomTabBarView111.swift in Sources */,
 				AC52782A2BF4E9F700CD1909 /* BottomSheetView.swift in Sources */,
 				AC76007C2E8188CF0010CB83 /* ScrollRestoreDemo222.swift in Sources */,
@@ -1111,6 +1277,7 @@
 				AC5B1B042BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift in Sources */,
 				AC52781A2BF38AE800CD1909 /* DialogView.swift in Sources */,
 				AC09CDFF2D4133CC0038A629 /* SwiftUIViewIpad5.swift in Sources */,
+				AC8212BF2E97998900D0688A /* Chart_SectorMark_Donut.swift in Sources */,
 				AC5278422BF6497D00CD1909 /* ExitAlertModifier.swift in Sources */,
 				AC366EBA2C2069DC0029AA9A /* MenuSwiftUIView4.swift in Sources */,
 				AC366EB52C2066B40029AA9A /* MenuSwiftUIView3.swift in Sources */,
@@ -1120,14 +1287,17 @@
 				ACDFF3A32B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift in Sources */,
 				AC2AA4872DDF26DB004C4E24 /* CustomTabBarView.swift in Sources */,
 				AC502DA52CD9450C00DDB86A /* ContentOneeView.swift in Sources */,
+				AC8213B52E98D9E900D0688A /* Gauge_CircularSize.swift in Sources */,
 				AC7325E92E7C32B3008AA41B /* ScrollViewReaderText.swift in Sources */,
 				ACFD59EE2E2E54EE001D4740 /* ListListSwiftUIView.swift in Sources */,
 				AC3B12DD2CF099440076D9B3 /* SearchFruitsView.swift in Sources */,
+				AC8212BD2E97996A00D0688A /* Share.swift in Sources */,
 				ACFEDC702B83A064002B3C66 /* Skeleton.swift in Sources */,
 				ACC88E772E43372600077A2C /* CustomTabBarExampleContentView.swift in Sources */,
 				AC366EC12C2075300029AA9A /* DropDown4.swift in Sources */,
 				AC45FBD12D29617F0020837B /* CalendarViewController.swift in Sources */,
 				AC6BC6002D8C11FC000DF3AB /* FavoriteKiller.swift in Sources */,
+				AC8213B32E98D9C200D0688A /* Gauge_Circular.swift in Sources */,
 				ACFEDC782B83A2C3002B3C66 /* View+Hidden.swift in Sources */,
 				ACFEDC7B2B83A333002B3C66 /* DisableScrollingModifier.swift in Sources */,
 				ACEC5E3A2CAF1E4200ECBB2F /* SwiftUIViewIpad4.swift in Sources */,
@@ -1135,6 +1305,7 @@
 				ACCECFC92D00AB2900C9AB91 /* IpadTestSwiftUIView.swift in Sources */,
 				AC72FA642B513E2C009E60AB /* ForTestsApp.swift in Sources */,
 				AC03622D2C187D7D0033B781 /* View5.swift in Sources */,
+				AC8212B82E97985C00D0688A /* GroupInfo.swift in Sources */,
 				AC366ECC2C21C0AF0029AA9A /* SheetStartTest.swift in Sources */,
 				AC89C0182C071C9F006BE793 /* DynamicHeightTextEditor.swift in Sources */,
 				ACA4F1582DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift in Sources */,
@@ -1144,21 +1315,26 @@
 				AC5278382BF647A500CD1909 /* ContentViewTwo.swift in Sources */,
 				ACEC5E382CAF1DBE00ECBB2F /* SwiftUIViewIpad3.swift in Sources */,
 				AC89BFFC2C04B462006BE793 /* QuickSearchView.swift in Sources */,
+				AC8213AE2E98D7DE00D0688A /* DisclosureGroup_Intro.swift in Sources */,
 				AC03622B2C1879AC0033B781 /* View4.swift in Sources */,
 				AC366EC72C2182740029AA9A /* SwiftUIView11111.swift in Sources */,
 				AC89C0122C04D5F8006BE793 /* ContentView.swift in Sources */,
 				AC5278142BF385DC00CD1909 /* PanelViewNew.swift in Sources */,
 				AC82964D2B5E583F008383B0 /* ScrollDirectionView.swift in Sources */,
+				AC8213B02E98D90D00D0688A /* Gauge_Intro.swift in Sources */,
 				ACCECFCE2D00B77300C9AB91 /* IpadTest3SwiftUIView.swift in Sources */,
 				AC103B4C2CABF44400F6030A /* DocumentsListSectionsPanelView.swift in Sources */,
 				AC67B5EE2D7B344F002170AB /* ZebraStripeRenderer.swift in Sources */,
 				ACA4F15A2DFFE56F00FE5A9F /* BookmarkItem.swift in Sources */,
+				AC8212B62E9797E700D0688A /* Chart_BarMarkPositionBy.swift in Sources */,
 				AC2AA48D2DDF2715004C4E24 /* TabBarItem.swift in Sources */,
 				AC70C5DC2D4A4FF500718A64 /* BookmarksList.swift in Sources */,
+				AC8213BC2E98DAE000D0688A /* GroupBox_WithBackgroundStyle.swift in Sources */,
 				ACDB1FD32DD6255400A8EC52 /* NumberListViewController.swift in Sources */,
 				AC411FA02D7ED95B009AFD7A /* TruncationTextMaskModifier.swift in Sources */,
 				ACC496E42C8B204B00EAA344 /* FileItem.swift in Sources */,
 				ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */,
+				AC8213C02E98DC7400D0688A /* Link_ButtonStyles.swift in Sources */,
 				ACFEDC762B83A2A6002B3C66 /* View+Padding.swift in Sources */,
 				ACFA09282CEDE05400A2167E /* HelperSwiftUIView.swift in Sources */,
 				AC366EAE2C2034760029AA9A /* MenuSwiftUIView2.swift in Sources */,

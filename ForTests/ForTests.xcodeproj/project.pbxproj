@@ -111,6 +111,10 @@
 		AC8213CF2E98E05500D0688A /* List_ListRowInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8213CE2E98E05500D0688A /* List_ListRowInsets.swift */; };
 		AC8213D12E98E10100D0688A /* List_WithChildren.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8213D02E98E10100D0688A /* List_WithChildren.swift */; };
 		AC8213D52E98E32400D0688A /* HierarchicalListDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8213D42E98E32400D0688A /* HierarchicalListDemo.swift */; };
+		AC8213D92E98E52900D0688A /* List_SafeAreaInset.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8213D82E98E52900D0688A /* List_SafeAreaInset.swift */; };
+		AC8213DB2E98E5CB00D0688A /* List_SafeAreaInset_ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8213DA2E98E5CB00D0688A /* List_SafeAreaInset_ScrollView.swift */; };
+		AC8213DD2E98E63200D0688A /* List_BindingWithin.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8213DC2E98E63200D0688A /* List_BindingWithin.swift */; };
+		AC8213DF2E98E6C100D0688A /* List_RowSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8213DE2E98E6C100D0688A /* List_RowSpacing.swift */; };
 		AC82964B2B5E583F008383B0 /* PinnedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8296482B5E583F008383B0 /* PinnedUIView.swift */; };
 		AC82964C2B5E583F008383B0 /* ScrollDirectionCustomGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8296492B5E583F008383B0 /* ScrollDirectionCustomGesture.swift */; };
 		AC82964D2B5E583F008383B0 /* ScrollDirectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC82964A2B5E583F008383B0 /* ScrollDirectionView.swift */; };
@@ -271,6 +275,10 @@
 		AC8213CE2E98E05500D0688A /* List_ListRowInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_ListRowInsets.swift; sourceTree = "<group>"; };
 		AC8213D02E98E10100D0688A /* List_WithChildren.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_WithChildren.swift; sourceTree = "<group>"; };
 		AC8213D42E98E32400D0688A /* HierarchicalListDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchicalListDemo.swift; sourceTree = "<group>"; };
+		AC8213D82E98E52900D0688A /* List_SafeAreaInset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_SafeAreaInset.swift; sourceTree = "<group>"; };
+		AC8213DA2E98E5CB00D0688A /* List_SafeAreaInset_ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_SafeAreaInset_ScrollView.swift; sourceTree = "<group>"; };
+		AC8213DC2E98E63200D0688A /* List_BindingWithin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_BindingWithin.swift; sourceTree = "<group>"; };
+		AC8213DE2E98E6C100D0688A /* List_RowSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_RowSpacing.swift; sourceTree = "<group>"; };
 		AC8296482B5E583F008383B0 /* PinnedUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinnedUIView.swift; sourceTree = "<group>"; };
 		AC8296492B5E583F008383B0 /* ScrollDirectionCustomGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollDirectionCustomGesture.swift; sourceTree = "<group>"; };
 		AC82964A2B5E583F008383B0 /* ScrollDirectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollDirectionView.swift; sourceTree = "<group>"; };
@@ -806,6 +814,10 @@
 				AC8213CE2E98E05500D0688A /* List_ListRowInsets.swift */,
 				AC8213D02E98E10100D0688A /* List_WithChildren.swift */,
 				AC8213D42E98E32400D0688A /* HierarchicalListDemo.swift */,
+				AC8213D82E98E52900D0688A /* List_SafeAreaInset.swift */,
+				AC8213DA2E98E5CB00D0688A /* List_SafeAreaInset_ScrollView.swift */,
+				AC8213DC2E98E63200D0688A /* List_BindingWithin.swift */,
+				AC8213DE2E98E6C100D0688A /* List_RowSpacing.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -1215,11 +1227,13 @@
 				AC8212BB2E9798FC00D0688A /* Chart_SectorMark.swift in Sources */,
 				AC5278162BF386E400CD1909 /* PanelViewIndicator.swift in Sources */,
 				ACC496DD2C8B1C8800EAA344 /* Folder.swift in Sources */,
+				AC8213DF2E98E6C100D0688A /* List_RowSpacing.swift in Sources */,
 				AC93679D2D76DA8700FB42BD /* FavoritesDocUnderControlAnnotationView.swift in Sources */,
 				AC366EB32C20666C0029AA9A /* DropDown.swift in Sources */,
 				ACCECFD02D00BA6200C9AB91 /* GoogleIpadSwiftUIView.swift in Sources */,
 				AC5278362BF646C100CD1909 /* ContentViewOne.swift in Sources */,
 				AC5278452BF649C600CD1909 /* ContentViewOne2.swift in Sources */,
+				AC8213D92E98E52900D0688A /* List_SafeAreaInset.swift in Sources */,
 				AC2AA5252DE08B8D004C4E24 /* DocumentEventSheetView.swift in Sources */,
 				AC0E23802E8D6A1F00CEC1DF /* ViewThatFits_WithScrollView.swift in Sources */,
 				ACDB1FCB2DD5EF7A00A8EC52 /* SwiftUIViewTestSheet2.swift in Sources */,
@@ -1339,12 +1353,14 @@
 				AC8212B62E9797E700D0688A /* Chart_BarMarkPositionBy.swift in Sources */,
 				AC2AA48D2DDF2715004C4E24 /* TabBarItem.swift in Sources */,
 				AC70C5DC2D4A4FF500718A64 /* BookmarksList.swift in Sources */,
+				AC8213DD2E98E63200D0688A /* List_BindingWithin.swift in Sources */,
 				AC8213BC2E98DAE000D0688A /* GroupBox_WithBackgroundStyle.swift in Sources */,
 				ACDB1FD32DD6255400A8EC52 /* NumberListViewController.swift in Sources */,
 				AC411FA02D7ED95B009AFD7A /* TruncationTextMaskModifier.swift in Sources */,
 				ACC496E42C8B204B00EAA344 /* FileItem.swift in Sources */,
 				ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */,
 				AC8213C02E98DC7400D0688A /* Link_ButtonStyles.swift in Sources */,
+				AC8213DB2E98E5CB00D0688A /* List_SafeAreaInset_ScrollView.swift in Sources */,
 				ACFEDC762B83A2A6002B3C66 /* View+Padding.swift in Sources */,
 				ACFA09282CEDE05400A2167E /* HelperSwiftUIView.swift in Sources */,
 				AC366EAE2C2034760029AA9A /* MenuSwiftUIView2.swift in Sources */,

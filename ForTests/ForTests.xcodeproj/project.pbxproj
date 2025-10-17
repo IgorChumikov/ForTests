@@ -135,6 +135,8 @@
 		ACA130D42EA20CB3006933FF /* TabShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA130D32EA20CB3006933FF /* TabShape.swift */; };
 		ACA130D62EA20CCE006933FF /* TabPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA130D52EA20CCE006933FF /* TabPosition.swift */; };
 		ACA130DA2EA20D02006933FF /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA130D92EA20D02006933FF /* Tab.swift */; };
+		ACA130DD2EA21048006933FF /* List_Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA130DC2EA21048006933FF /* List_Badge.swift */; };
+		ACA130DF2EA210A6006933FF /* List_ScrollContentBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA130DE2EA210A6006933FF /* List_ScrollContentBackground.swift */; };
 		ACA4F1582DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4F1572DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift */; };
 		ACA4F15A2DFFE56F00FE5A9F /* BookmarkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4F1592DFFE56F00FE5A9F /* BookmarkItem.swift */; };
 		ACA9048F2E33AAA10006D6D9 /* ExpandableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA9048E2E33AAA10006D6D9 /* ExpandableText.swift */; };
@@ -304,6 +306,8 @@
 		ACA130D32EA20CB3006933FF /* TabShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabShape.swift; sourceTree = "<group>"; };
 		ACA130D52EA20CCE006933FF /* TabPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPosition.swift; sourceTree = "<group>"; };
 		ACA130D92EA20D02006933FF /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		ACA130DC2EA21048006933FF /* List_Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_Badge.swift; sourceTree = "<group>"; };
+		ACA130DE2EA210A6006933FF /* List_ScrollContentBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_ScrollContentBackground.swift; sourceTree = "<group>"; };
 		ACA4F1572DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksDocumentMenuSwiftUIView.swift; sourceTree = "<group>"; };
 		ACA4F1592DFFE56F00FE5A9F /* BookmarkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkItem.swift; sourceTree = "<group>"; };
 		ACA9048E2E33AAA10006D6D9 /* ExpandableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableText.swift; sourceTree = "<group>"; };
@@ -399,6 +403,7 @@
 				AC8213CC2E98DF1100D0688A /* LabeledContent */,
 				AC8213CD2E98DF1C00D0688A /* Link */,
 				AC8213C12E98DD5700D0688A /* List */,
+				ACA130E02EA2120C006933FF /* Menu */,
 			);
 			path = "2 SwiftUI Views Mastery ";
 			sourceTree = "<group>";
@@ -825,6 +830,8 @@
 				AC8213DA2E98E5CB00D0688A /* List_SafeAreaInset_ScrollView.swift */,
 				AC8213DC2E98E63200D0688A /* List_BindingWithin.swift */,
 				AC8213DE2E98E6C100D0688A /* List_RowSpacing.swift */,
+				ACA130DC2EA21048006933FF /* List_Badge.swift */,
+				ACA130DE2EA210A6006933FF /* List_ScrollContentBackground.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -990,6 +997,13 @@
 				ACC88E762E43372600077A2C /* CustomTabBarExampleContentView.swift */,
 			);
 			path = "CustomTabBar 3";
+			sourceTree = "<group>";
+		};
+		ACA130E02EA2120C006933FF /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 		ACA4F1562DFFE44B00FE5A9F /* New Group 4 */ = {
@@ -1333,6 +1347,7 @@
 				AC30B5432DCA5F3A0071B1FD /* SwiftUIViewPopoverVisibleswift.swift in Sources */,
 				AC8212B22E9796A000D0688A /* Chart_WithData.swift in Sources */,
 				AC2AA4892DDF26EA004C4E24 /* CustomTabBarContainerView.swift in Sources */,
+				ACA130DD2EA21048006933FF /* List_Badge.swift in Sources */,
 				AC45FBCD2D29614D0020837B /* CalendarViewModel.swift in Sources */,
 				AC2AA48B2DDF26FF004C4E24 /* TabBarItemsPreferenceKey.swift in Sources */,
 				ACC20EBB2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */,
@@ -1362,6 +1377,7 @@
 				AC52780D2BF37BF700CD1909 /* BottomSheetModifierNew+View.swift in Sources */,
 				ACDFF39F2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift in Sources */,
 				AC2AA5292DE098A1004C4E24 /* 11111.swift in Sources */,
+				ACA130DF2EA210A6006933FF /* List_ScrollContentBackground.swift in Sources */,
 				AC9611A42DDB23C100398A1F /* CreatedSwiftUIView.swift in Sources */,
 				AC5B1B042BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift in Sources */,
 				AC52781A2BF38AE800CD1909 /* DialogView.swift in Sources */,

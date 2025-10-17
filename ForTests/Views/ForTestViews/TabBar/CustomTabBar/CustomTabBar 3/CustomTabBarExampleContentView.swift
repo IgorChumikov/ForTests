@@ -11,7 +11,7 @@ import SwiftUI
 struct CustomTabBarExampleContentView: View {
     
     // MARK: - Properties
-    @State private var selectedTab: Tab = .home
+    @State private var selectedTab: Tab2 = .home
     
     // MARK: - Body
     var body: some View {
@@ -19,24 +19,24 @@ struct CustomTabBarExampleContentView: View {
             // Main content
             TabView(selection: $selectedTab) {
                 NavigationStack {
-                    Home()
+                    Home2()
                 }
                 .tag(Tab.home)
                 
                 NavigationStack {
                     Search()
                 }
-                .tag(Tab.search)
+                .tag(Tab2.search)
                 
                 NavigationStack {
                     Notifications()
                 }
-                .tag(Tab.notifications)
+                .tag(Tab2.notifications)
                 
                 NavigationStack {
                     Settings()
                 }
-                .tag(Tab.settings)
+                .tag(Tab2.settings)
             }
             .toolbar(.hidden, for: .tabBar) // Hide system tab bar
             
@@ -74,7 +74,7 @@ struct CustomTabBarExampleContentView: View {
     }
     
     // MARK: - Tab Bar Button
-    private func tabBarButton(tab: Tab, icon: String, title: String) -> some View {
+    private func tabBarButton(tab: Tab2, icon: String, title: String) -> some View {
         Button(action: {
             withAnimation {
                 selectedTab = tab
@@ -101,7 +101,7 @@ struct CustomTabBarExampleContentView: View {
 }
 
 
-struct Home: View {
+struct Home2: View {
     var body: some View {
         VStack {
             Text("🏠 Home")
@@ -142,7 +142,7 @@ struct Settings: View {
 }
 
 
-enum Tab {
+enum Tab2 {
     case home
     case search
     case notifications

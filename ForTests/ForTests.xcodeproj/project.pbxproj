@@ -156,6 +156,13 @@
 		ACA131112EA2417F006933FF /* Navigation_BarHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131102EA2417F006933FF /* Navigation_BarHidden.swift */; };
 		ACA131132EA241C8006933FF /* Navigation_NavBarItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131122EA241C8006933FF /* Navigation_NavBarItems.swift */; };
 		ACA131152EA2420D006933FF /* Navigation_BackButtonHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131142EA2420D006933FF /* Navigation_BackButtonHidden.swift */; };
+		ACA131172EA24253006933FF /* Navigation_CustomBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131162EA24253006933FF /* Navigation_CustomBackButton.swift */; };
+		ACA1311A2EA242E2006933FF /* Navigation_SplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131192EA242E2006933FF /* Navigation_SplitView.swift */; };
+		ACA1311C2EA24339006933FF /* Navigation_SplitViewColumnVisibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1311B2EA24339006933FF /* Navigation_SplitViewColumnVisibility.swift */; };
+		ACA1311E2EA2438D006933FF /* Navigation_SplitViewThreeColumns.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1311D2EA2438D006933FF /* Navigation_SplitViewThreeColumns.swift */; };
+		ACA131202EA243C7006933FF /* Navigation_SplitViewColumnWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1311F2EA243C7006933FF /* Navigation_SplitViewColumnWidth.swift */; };
+		ACA131232EA24470006933FF /* NavLink_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131222EA24470006933FF /* NavLink_Intro.swift */; };
+		ACA131252EA244B2006933FF /* NavLink_Customization.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131242EA244B2006933FF /* NavLink_Customization.swift */; };
 		ACA4F1582DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4F1572DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift */; };
 		ACA4F15A2DFFE56F00FE5A9F /* BookmarkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4F1592DFFE56F00FE5A9F /* BookmarkItem.swift */; };
 		ACA9048F2E33AAA10006D6D9 /* ExpandableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA9048E2E33AAA10006D6D9 /* ExpandableText.swift */; };
@@ -346,6 +353,13 @@
 		ACA131102EA2417F006933FF /* Navigation_BarHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_BarHidden.swift; sourceTree = "<group>"; };
 		ACA131122EA241C8006933FF /* Navigation_NavBarItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_NavBarItems.swift; sourceTree = "<group>"; };
 		ACA131142EA2420D006933FF /* Navigation_BackButtonHidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_BackButtonHidden.swift; sourceTree = "<group>"; };
+		ACA131162EA24253006933FF /* Navigation_CustomBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_CustomBackButton.swift; sourceTree = "<group>"; };
+		ACA131192EA242E2006933FF /* Navigation_SplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_SplitView.swift; sourceTree = "<group>"; };
+		ACA1311B2EA24339006933FF /* Navigation_SplitViewColumnVisibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_SplitViewColumnVisibility.swift; sourceTree = "<group>"; };
+		ACA1311D2EA2438D006933FF /* Navigation_SplitViewThreeColumns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_SplitViewThreeColumns.swift; sourceTree = "<group>"; };
+		ACA1311F2EA243C7006933FF /* Navigation_SplitViewColumnWidth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_SplitViewColumnWidth.swift; sourceTree = "<group>"; };
+		ACA131222EA24470006933FF /* NavLink_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLink_Intro.swift; sourceTree = "<group>"; };
+		ACA131242EA244B2006933FF /* NavLink_Customization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLink_Customization.swift; sourceTree = "<group>"; };
 		ACA4F1572DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksDocumentMenuSwiftUIView.swift; sourceTree = "<group>"; };
 		ACA4F1592DFFE56F00FE5A9F /* BookmarkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkItem.swift; sourceTree = "<group>"; };
 		ACA9048E2E33AAA10006D6D9 /* ExpandableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableText.swift; sourceTree = "<group>"; };
@@ -444,6 +458,8 @@
 				ACA130E02EA2120C006933FF /* Menu */,
 				ACA130EF2EA21EE0006933FF /* MultiDatePicker */,
 				ACA130FA2EA22075006933FF /* NavigationStack */,
+				ACA131182EA2429E006933FF /* NavigationSplitView */,
+				ACA131212EA24435006933FF /* NavigationLink */,
 			);
 			path = "2 SwiftUI Views Mastery ";
 			sourceTree = "<group>";
@@ -1075,8 +1091,29 @@
 				ACA131102EA2417F006933FF /* Navigation_BarHidden.swift */,
 				ACA131122EA241C8006933FF /* Navigation_NavBarItems.swift */,
 				ACA131142EA2420D006933FF /* Navigation_BackButtonHidden.swift */,
+				ACA131162EA24253006933FF /* Navigation_CustomBackButton.swift */,
 			);
 			path = NavigationStack;
+			sourceTree = "<group>";
+		};
+		ACA131182EA2429E006933FF /* NavigationSplitView */ = {
+			isa = PBXGroup;
+			children = (
+				ACA131192EA242E2006933FF /* Navigation_SplitView.swift */,
+				ACA1311B2EA24339006933FF /* Navigation_SplitViewColumnVisibility.swift */,
+				ACA1311D2EA2438D006933FF /* Navigation_SplitViewThreeColumns.swift */,
+				ACA1311F2EA243C7006933FF /* Navigation_SplitViewColumnWidth.swift */,
+			);
+			path = NavigationSplitView;
+			sourceTree = "<group>";
+		};
+		ACA131212EA24435006933FF /* NavigationLink */ = {
+			isa = PBXGroup;
+			children = (
+				ACA131222EA24470006933FF /* NavLink_Intro.swift */,
+				ACA131242EA244B2006933FF /* NavLink_Customization.swift */,
+			);
+			path = NavigationLink;
 			sourceTree = "<group>";
 		};
 		ACA4F1562DFFE44B00FE5A9F /* New Group 4 */ = {
@@ -1376,8 +1413,10 @@
 				AC9611AA2DDB8C3400398A1F /* CustomTabBarView222.swift in Sources */,
 				AC8212BB2E9798FC00D0688A /* Chart_SectorMark.swift in Sources */,
 				AC5278162BF386E400CD1909 /* PanelViewIndicator.swift in Sources */,
+				ACA1311A2EA242E2006933FF /* Navigation_SplitView.swift in Sources */,
 				ACC496DD2C8B1C8800EAA344 /* Folder.swift in Sources */,
 				AC8213DF2E98E6C100D0688A /* List_RowSpacing.swift in Sources */,
+				ACA1311E2EA2438D006933FF /* Navigation_SplitViewThreeColumns.swift in Sources */,
 				AC93679D2D76DA8700FB42BD /* FavoritesDocUnderControlAnnotationView.swift in Sources */,
 				AC366EB32C20666C0029AA9A /* DropDown.swift in Sources */,
 				ACCECFD02D00BA6200C9AB91 /* GoogleIpadSwiftUIView.swift in Sources */,
@@ -1454,6 +1493,7 @@
 				ACA130E22EA212B3006933FF /* Menu_Intro.swift in Sources */,
 				ACA130EE2EA21E81006933FF /* Menu_Order.swift in Sources */,
 				ACEC5E362CAF1D8900ECBB2F /* SwiftUIViewIpad2.swift in Sources */,
+				ACA131252EA244B2006933FF /* NavLink_Customization.swift in Sources */,
 				ACEC5E342CAF1A5B00ECBB2F /* SwiftUIViewIpad.swift in Sources */,
 				AC52780F2BF37C7700CD1909 /* ScrollablePanelView.swift in Sources */,
 				AC52780D2BF37BF700CD1909 /* BottomSheetModifierNew+View.swift in Sources */,
@@ -1472,6 +1512,7 @@
 				ACA130F52EA21FB0006933FF /* MultiDatePicker_DateRange.swift in Sources */,
 				AC366EB52C2066B40029AA9A /* MenuSwiftUIView3.swift in Sources */,
 				AC411FCA2D7F3BA4009AFD7A /* ChannelListView.swift in Sources */,
+				ACA131172EA24253006933FF /* Navigation_CustomBackButton.swift in Sources */,
 				ACB98E3E2C22DF4500831CC7 /* CustomResizableLogoutInfoSheetView.swift in Sources */,
 				ACFA09262CECA42000A2167E /* 11111123ffffff.swift in Sources */,
 				ACA12F662E9FD62E006933FF /* TopBarWithCutout.swift in Sources */,
@@ -1512,9 +1553,11 @@
 				AC5278382BF647A500CD1909 /* ContentViewTwo.swift in Sources */,
 				ACEC5E382CAF1DBE00ECBB2F /* SwiftUIViewIpad3.swift in Sources */,
 				AC89BFFC2C04B462006BE793 /* QuickSearchView.swift in Sources */,
+				ACA131202EA243C7006933FF /* Navigation_SplitViewColumnWidth.swift in Sources */,
 				AC8213AE2E98D7DE00D0688A /* DisclosureGroup_Intro.swift in Sources */,
 				AC03622B2C1879AC0033B781 /* View4.swift in Sources */,
 				AC366EC72C2182740029AA9A /* SwiftUIView11111.swift in Sources */,
+				ACA131232EA24470006933FF /* NavLink_Intro.swift in Sources */,
 				AC89C0122C04D5F8006BE793 /* ContentView.swift in Sources */,
 				AC5278142BF385DC00CD1909 /* PanelViewNew.swift in Sources */,
 				AC82964D2B5E583F008383B0 /* ScrollDirectionView.swift in Sources */,
@@ -1523,6 +1566,7 @@
 				AC103B4C2CABF44400F6030A /* DocumentsListSectionsPanelView.swift in Sources */,
 				AC67B5EE2D7B344F002170AB /* ZebraStripeRenderer.swift in Sources */,
 				ACA4F15A2DFFE56F00FE5A9F /* BookmarkItem.swift in Sources */,
+				ACA1311C2EA24339006933FF /* Navigation_SplitViewColumnVisibility.swift in Sources */,
 				AC8212B62E9797E700D0688A /* Chart_BarMarkPositionBy.swift in Sources */,
 				AC2AA48D2DDF2715004C4E24 /* TabBarItem.swift in Sources */,
 				AC70C5DC2D4A4FF500718A64 /* BookmarksList.swift in Sources */,

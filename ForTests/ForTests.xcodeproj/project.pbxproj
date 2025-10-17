@@ -200,6 +200,12 @@
 		ACA131712EA27A92006933FF /* ScrollView_Behavior_ViewAligned.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131702EA27A92006933FF /* ScrollView_Behavior_ViewAligned.swift */; };
 		ACA131732EA27AD6006933FF /* ScrollView_ScrollPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131722EA27AD6006933FF /* ScrollView_ScrollPosition.swift */; };
 		ACA131752EA27B33006933FF /* Scrollview_ContentMargins.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131742EA27B33006933FF /* Scrollview_ContentMargins.swift */; };
+		ACA131782EA27CDA006933FF /* Navigation_Searchable_Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131772EA27CDA006933FF /* Navigation_Searchable_Search.swift */; };
+		ACA1317A2EA27E18006933FF /* Navigation_Searchable_Cancel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131792EA27E18006933FF /* Navigation_Searchable_Cancel.swift */; };
+		ACA1317C2EA27EF5006933FF /* Searchable_DismissSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1317B2EA27EF5006933FF /* Searchable_DismissSearch.swift */; };
+		ACA131802EA28022006933FF /* Navigation_Searchable_Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1317F2EA28022006933FF /* Navigation_Searchable_Filter.swift */; };
+		ACA131822EA294D5006933FF /* Navigation_Filter_Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131812EA294D5006933FF /* Navigation_Filter_Grid.swift */; };
+		ACA131842EA29980006933FF /* Searchable_Completion.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131832EA29980006933FF /* Searchable_Completion.swift */; };
 		ACA4F1582DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4F1572DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift */; };
 		ACA4F15A2DFFE56F00FE5A9F /* BookmarkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4F1592DFFE56F00FE5A9F /* BookmarkItem.swift */; };
 		ACA9048F2E33AAA10006D6D9 /* ExpandableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA9048E2E33AAA10006D6D9 /* ExpandableText.swift */; };
@@ -434,6 +440,12 @@
 		ACA131702EA27A92006933FF /* ScrollView_Behavior_ViewAligned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView_Behavior_ViewAligned.swift; sourceTree = "<group>"; };
 		ACA131722EA27AD6006933FF /* ScrollView_ScrollPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView_ScrollPosition.swift; sourceTree = "<group>"; };
 		ACA131742EA27B33006933FF /* Scrollview_ContentMargins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrollview_ContentMargins.swift; sourceTree = "<group>"; };
+		ACA131772EA27CDA006933FF /* Navigation_Searchable_Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_Searchable_Search.swift; sourceTree = "<group>"; };
+		ACA131792EA27E18006933FF /* Navigation_Searchable_Cancel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_Searchable_Cancel.swift; sourceTree = "<group>"; };
+		ACA1317B2EA27EF5006933FF /* Searchable_DismissSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searchable_DismissSearch.swift; sourceTree = "<group>"; };
+		ACA1317F2EA28022006933FF /* Navigation_Searchable_Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_Searchable_Filter.swift; sourceTree = "<group>"; };
+		ACA131812EA294D5006933FF /* Navigation_Filter_Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_Filter_Grid.swift; sourceTree = "<group>"; };
+		ACA131832EA29980006933FF /* Searchable_Completion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searchable_Completion.swift; sourceTree = "<group>"; };
 		ACA4F1572DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksDocumentMenuSwiftUIView.swift; sourceTree = "<group>"; };
 		ACA4F1592DFFE56F00FE5A9F /* BookmarkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkItem.swift; sourceTree = "<group>"; };
 		ACA9048E2E33AAA10006D6D9 /* ExpandableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableText.swift; sourceTree = "<group>"; };
@@ -541,6 +553,7 @@
 				ACA1315E2EA27761006933FF /* RenameButton */,
 				ACA131612EA277ED006933FF /* Scrollview */,
 				ACA131762EA27C74006933FF /* Searchable */,
+				ACA131852EA29A0C006933FF /* SecureField */,
 			);
 			path = "2 SwiftUI Views Mastery ";
 			sourceTree = "<group>";
@@ -1279,8 +1292,21 @@
 		ACA131762EA27C74006933FF /* Searchable */ = {
 			isa = PBXGroup;
 			children = (
+				ACA131772EA27CDA006933FF /* Navigation_Searchable_Search.swift */,
+				ACA131792EA27E18006933FF /* Navigation_Searchable_Cancel.swift */,
+				ACA1317B2EA27EF5006933FF /* Searchable_DismissSearch.swift */,
+				ACA1317F2EA28022006933FF /* Navigation_Searchable_Filter.swift */,
+				ACA131812EA294D5006933FF /* Navigation_Filter_Grid.swift */,
+				ACA131832EA29980006933FF /* Searchable_Completion.swift */,
 			);
 			path = Searchable;
+			sourceTree = "<group>";
+		};
+		ACA131852EA29A0C006933FF /* SecureField */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SecureField;
 			sourceTree = "<group>";
 		};
 		ACA4F1562DFFE44B00FE5A9F /* New Group 4 */ = {
@@ -1614,6 +1640,7 @@
 				ACA131432EA270CF006933FF /* Picker_Customized.swift in Sources */,
 				AC411F9C2D7EC175009AFD7A /* ReturnsExpandableTextView.swift in Sources */,
 				AC366EB82C2069A90029AA9A /* DropDownView.swift in Sources */,
+				ACA131842EA29980006933FF /* Searchable_Completion.swift in Sources */,
 				AC0E23752E8D64CA00CEC1DF /* ScrollViewReader_Intro.swift in Sources */,
 				AC4CB8B62B63E0350058C263 /* DemoOfHidingPanelView.swift in Sources */,
 				AC8213D12E98E10100D0688A /* List_WithChildren.swift in Sources */,
@@ -1658,6 +1685,7 @@
 				ACA131652EA27836006933FF /* ScrollView_SafeAreaInset.swift in Sources */,
 				ACA131632EA27806006933FF /* ScrollView_Intro.swift in Sources */,
 				ACA130DA2EA20D02006933FF /* Tab.swift in Sources */,
+				ACA1317C2EA27EF5006933FF /* Searchable_DismissSearch.swift in Sources */,
 				AC8213BE2E98DC0400D0688A /* LabeledContent_Intro.swift in Sources */,
 				AC9611A82DDB835700398A1F /* CustomTabBarView111.swift in Sources */,
 				AC52782A2BF4E9F700CD1909 /* BottomSheetView.swift in Sources */,
@@ -1690,6 +1718,7 @@
 				ACA130DF2EA210A6006933FF /* List_ScrollContentBackground.swift in Sources */,
 				AC9611A42DDB23C100398A1F /* CreatedSwiftUIView.swift in Sources */,
 				AC5B1B042BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift in Sources */,
+				ACA131822EA294D5006933FF /* Navigation_Filter_Grid.swift in Sources */,
 				AC52781A2BF38AE800CD1909 /* DialogView.swift in Sources */,
 				ACA130D62EA20CCE006933FF /* TabPosition.swift in Sources */,
 				AC09CDFF2D4133CC0038A629 /* SwiftUIViewIpad5.swift in Sources */,
@@ -1728,6 +1757,7 @@
 				ACFEDC782B83A2C3002B3C66 /* View+Hidden.swift in Sources */,
 				ACFEDC7B2B83A333002B3C66 /* DisableScrollingModifier.swift in Sources */,
 				ACEC5E3A2CAF1E4200ECBB2F /* SwiftUIViewIpad4.swift in Sources */,
+				ACA1317A2EA27E18006933FF /* Navigation_Searchable_Cancel.swift in Sources */,
 				ACA130E62EA21CB3006933FF /* Menu_Customizing.swift in Sources */,
 				AC1FC1382D88044200C16DCE /* FavoriteBookmarkView.swift in Sources */,
 				ACA131092EA23FE5006933FF /* Navigation_ToolbarBackground.swift in Sources */,
@@ -1750,6 +1780,7 @@
 				ACEC5E382CAF1DBE00ECBB2F /* SwiftUIViewIpad3.swift in Sources */,
 				AC89BFFC2C04B462006BE793 /* QuickSearchView.swift in Sources */,
 				ACA131202EA243C7006933FF /* Navigation_SplitViewColumnWidth.swift in Sources */,
+				ACA131782EA27CDA006933FF /* Navigation_Searchable_Search.swift in Sources */,
 				AC8213AE2E98D7DE00D0688A /* DisclosureGroup_Intro.swift in Sources */,
 				ACA1313F2EA26F62006933FF /* Picker_Wheel.swift in Sources */,
 				AC03622B2C1879AC0033B781 /* View4.swift in Sources */,
@@ -1787,6 +1818,7 @@
 				AC366EAE2C2034760029AA9A /* MenuSwiftUIView2.swift in Sources */,
 				ACCECFCB2D00AE7C00C9AB91 /* IpadTest2SwiftUIView.swift in Sources */,
 				ACDB1FD02DD61DD900A8EC52 /* Color+Extension.swift in Sources */,
+				ACA131802EA28022006933FF /* Navigation_Searchable_Filter.swift in Sources */,
 				AC7326032E7D47A1008AA41B /* ScrollPositionIDDemo.swift in Sources */,
 				AC70C5DE2D4A500A00718A64 /* BookmarksView.swift in Sources */,
 				ACA131532EA2749E006933FF /* ProgressView_Intro.swift in Sources */,

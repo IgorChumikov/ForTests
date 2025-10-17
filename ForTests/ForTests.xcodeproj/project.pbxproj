@@ -183,6 +183,23 @@
 		ACA1314B2EA27260006933FF /* Picker_WithEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1314A2EA27260006933FF /* Picker_WithEnum.swift */; };
 		ACA1314E2EA2731F006933FF /* PhotosPicker_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1314D2EA2731F006933FF /* PhotosPicker_Intro.swift */; };
 		ACA131502EA273F1006933FF /* PhotosPicker_MultipleItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1314F2EA273F1006933FF /* PhotosPicker_MultipleItems.swift */; };
+		ACA131532EA2749E006933FF /* ProgressView_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131522EA2749E006933FF /* ProgressView_Intro.swift */; };
+		ACA131552EA27561006933FF /* ProgressView_ShowingProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131542EA27561006933FF /* ProgressView_ShowingProgress.swift */; };
+		ACA131572EA275B2006933FF /* ProgressView_Total.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131562EA275B2006933FF /* ProgressView_Total.swift */; };
+		ACA131592EA27640006933FF /* ProgressView_CurrentValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131582EA27640006933FF /* ProgressView_CurrentValue.swift */; };
+		ACA1315B2EA276A7006933FF /* ProgressView_Customizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1315A2EA276A7006933FF /* ProgressView_Customizing.swift */; };
+		ACA1315D2EA27721006933FF /* ProgressView_Tint.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1315C2EA27721006933FF /* ProgressView_Tint.swift */; };
+		ACA131602EA2778C006933FF /* RenameButton_EditText.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1315F2EA2778C006933FF /* RenameButton_EditText.swift */; };
+		ACA131632EA27806006933FF /* ScrollView_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131622EA27806006933FF /* ScrollView_Intro.swift */; };
+		ACA131652EA27836006933FF /* ScrollView_SafeAreaInset.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131642EA27836006933FF /* ScrollView_SafeAreaInset.swift */; };
+		ACA131672EA278A5006933FF /* ScrollView_Horizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131662EA278A5006933FF /* ScrollView_Horizontal.swift */; };
+		ACA131692EA278EF006933FF /* ScrollView_Horizontal_SafeAreaInset.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131682EA278EF006933FF /* ScrollView_Horizontal_SafeAreaInset.swift */; };
+		ACA1316B2EA27975006933FF /* Scrollview_Disabled.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1316A2EA27975006933FF /* Scrollview_Disabled.swift */; };
+		ACA1316D2EA279B7006933FF /* Scrollview_ScrollBounceBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1316C2EA279B7006933FF /* Scrollview_ScrollBounceBehavior.swift */; };
+		ACA1316F2EA27A34006933FF /* ScrollView_Behavior_Paging.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1316E2EA27A34006933FF /* ScrollView_Behavior_Paging.swift */; };
+		ACA131712EA27A92006933FF /* ScrollView_Behavior_ViewAligned.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131702EA27A92006933FF /* ScrollView_Behavior_ViewAligned.swift */; };
+		ACA131732EA27AD6006933FF /* ScrollView_ScrollPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131722EA27AD6006933FF /* ScrollView_ScrollPosition.swift */; };
+		ACA131752EA27B33006933FF /* Scrollview_ContentMargins.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131742EA27B33006933FF /* Scrollview_ContentMargins.swift */; };
 		ACA4F1582DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4F1572DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift */; };
 		ACA4F15A2DFFE56F00FE5A9F /* BookmarkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4F1592DFFE56F00FE5A9F /* BookmarkItem.swift */; };
 		ACA9048F2E33AAA10006D6D9 /* ExpandableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA9048E2E33AAA10006D6D9 /* ExpandableText.swift */; };
@@ -400,6 +417,23 @@
 		ACA1314A2EA27260006933FF /* Picker_WithEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_WithEnum.swift; sourceTree = "<group>"; };
 		ACA1314D2EA2731F006933FF /* PhotosPicker_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPicker_Intro.swift; sourceTree = "<group>"; };
 		ACA1314F2EA273F1006933FF /* PhotosPicker_MultipleItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPicker_MultipleItems.swift; sourceTree = "<group>"; };
+		ACA131522EA2749E006933FF /* ProgressView_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView_Intro.swift; sourceTree = "<group>"; };
+		ACA131542EA27561006933FF /* ProgressView_ShowingProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView_ShowingProgress.swift; sourceTree = "<group>"; };
+		ACA131562EA275B2006933FF /* ProgressView_Total.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView_Total.swift; sourceTree = "<group>"; };
+		ACA131582EA27640006933FF /* ProgressView_CurrentValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView_CurrentValue.swift; sourceTree = "<group>"; };
+		ACA1315A2EA276A7006933FF /* ProgressView_Customizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView_Customizing.swift; sourceTree = "<group>"; };
+		ACA1315C2EA27721006933FF /* ProgressView_Tint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView_Tint.swift; sourceTree = "<group>"; };
+		ACA1315F2EA2778C006933FF /* RenameButton_EditText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenameButton_EditText.swift; sourceTree = "<group>"; };
+		ACA131622EA27806006933FF /* ScrollView_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView_Intro.swift; sourceTree = "<group>"; };
+		ACA131642EA27836006933FF /* ScrollView_SafeAreaInset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView_SafeAreaInset.swift; sourceTree = "<group>"; };
+		ACA131662EA278A5006933FF /* ScrollView_Horizontal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView_Horizontal.swift; sourceTree = "<group>"; };
+		ACA131682EA278EF006933FF /* ScrollView_Horizontal_SafeAreaInset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView_Horizontal_SafeAreaInset.swift; sourceTree = "<group>"; };
+		ACA1316A2EA27975006933FF /* Scrollview_Disabled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrollview_Disabled.swift; sourceTree = "<group>"; };
+		ACA1316C2EA279B7006933FF /* Scrollview_ScrollBounceBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrollview_ScrollBounceBehavior.swift; sourceTree = "<group>"; };
+		ACA1316E2EA27A34006933FF /* ScrollView_Behavior_Paging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView_Behavior_Paging.swift; sourceTree = "<group>"; };
+		ACA131702EA27A92006933FF /* ScrollView_Behavior_ViewAligned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView_Behavior_ViewAligned.swift; sourceTree = "<group>"; };
+		ACA131722EA27AD6006933FF /* ScrollView_ScrollPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView_ScrollPosition.swift; sourceTree = "<group>"; };
+		ACA131742EA27B33006933FF /* Scrollview_ContentMargins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrollview_ContentMargins.swift; sourceTree = "<group>"; };
 		ACA4F1572DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksDocumentMenuSwiftUIView.swift; sourceTree = "<group>"; };
 		ACA4F1592DFFE56F00FE5A9F /* BookmarkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkItem.swift; sourceTree = "<group>"; };
 		ACA9048E2E33AAA10006D6D9 /* ExpandableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableText.swift; sourceTree = "<group>"; };
@@ -503,6 +537,10 @@
 				ACA131362EA26D65006933FF /* OutlineGroup */,
 				ACA131392EA26E86006933FF /* Picker */,
 				ACA1314C2EA272B5006933FF /* PhotosPicker */,
+				ACA131512EA27489006933FF /* ProgressView */,
+				ACA1315E2EA27761006933FF /* RenameButton */,
+				ACA131612EA277ED006933FF /* Scrollview */,
+				ACA131762EA27C74006933FF /* Searchable */,
 			);
 			path = "2 SwiftUI Views Mastery ";
 			sourceTree = "<group>";
@@ -1200,6 +1238,51 @@
 			path = PhotosPicker;
 			sourceTree = "<group>";
 		};
+		ACA131512EA27489006933FF /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				ACA131522EA2749E006933FF /* ProgressView_Intro.swift */,
+				ACA131542EA27561006933FF /* ProgressView_ShowingProgress.swift */,
+				ACA131562EA275B2006933FF /* ProgressView_Total.swift */,
+				ACA131582EA27640006933FF /* ProgressView_CurrentValue.swift */,
+				ACA1315A2EA276A7006933FF /* ProgressView_Customizing.swift */,
+				ACA1315C2EA27721006933FF /* ProgressView_Tint.swift */,
+			);
+			path = ProgressView;
+			sourceTree = "<group>";
+		};
+		ACA1315E2EA27761006933FF /* RenameButton */ = {
+			isa = PBXGroup;
+			children = (
+				ACA1315F2EA2778C006933FF /* RenameButton_EditText.swift */,
+			);
+			path = RenameButton;
+			sourceTree = "<group>";
+		};
+		ACA131612EA277ED006933FF /* Scrollview */ = {
+			isa = PBXGroup;
+			children = (
+				ACA131622EA27806006933FF /* ScrollView_Intro.swift */,
+				ACA131642EA27836006933FF /* ScrollView_SafeAreaInset.swift */,
+				ACA131662EA278A5006933FF /* ScrollView_Horizontal.swift */,
+				ACA131682EA278EF006933FF /* ScrollView_Horizontal_SafeAreaInset.swift */,
+				ACA1316A2EA27975006933FF /* Scrollview_Disabled.swift */,
+				ACA1316C2EA279B7006933FF /* Scrollview_ScrollBounceBehavior.swift */,
+				ACA1316E2EA27A34006933FF /* ScrollView_Behavior_Paging.swift */,
+				ACA131702EA27A92006933FF /* ScrollView_Behavior_ViewAligned.swift */,
+				ACA131722EA27AD6006933FF /* ScrollView_ScrollPosition.swift */,
+				ACA131742EA27B33006933FF /* Scrollview_ContentMargins.swift */,
+			);
+			path = Scrollview;
+			sourceTree = "<group>";
+		};
+		ACA131762EA27C74006933FF /* Searchable */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Searchable;
+			sourceTree = "<group>";
+		};
 		ACA4F1562DFFE44B00FE5A9F /* New Group 4 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1498,6 +1581,7 @@
 				AC9611AA2DDB8C3400398A1F /* CustomTabBarView222.swift in Sources */,
 				ACA131292EA26947006933FF /* NavLink_WithDifferentTypes.swift in Sources */,
 				AC8212BB2E9798FC00D0688A /* Chart_SectorMark.swift in Sources */,
+				ACA131572EA275B2006933FF /* ProgressView_Total.swift in Sources */,
 				AC5278162BF386E400CD1909 /* PanelViewIndicator.swift in Sources */,
 				ACA1311A2EA242E2006933FF /* Navigation_SplitView.swift in Sources */,
 				ACC496DD2C8B1C8800EAA344 /* Folder.swift in Sources */,
@@ -1508,6 +1592,7 @@
 				ACCECFD02D00BA6200C9AB91 /* GoogleIpadSwiftUIView.swift in Sources */,
 				ACA131492EA27218006933FF /* Picker_NavigationLinkStyle.swift in Sources */,
 				AC5278362BF646C100CD1909 /* ContentViewOne.swift in Sources */,
+				ACA1315D2EA27721006933FF /* ProgressView_Tint.swift in Sources */,
 				AC5278452BF649C600CD1909 /* ContentViewOne2.swift in Sources */,
 				AC8213D92E98E52900D0688A /* List_SafeAreaInset.swift in Sources */,
 				AC2AA5252DE08B8D004C4E24 /* DocumentEventSheetView.swift in Sources */,
@@ -1519,6 +1604,7 @@
 				AC8212C12E979A1700D0688A /* ColorPicker_Intro.swift in Sources */,
 				AC52782E2BF4ED6F00CD1909 /* ResizableSheets2View.swift in Sources */,
 				AC52783E2BF6491F00CD1909 /* ExitAlert+View.swift in Sources */,
+				ACA1316F2EA27A34006933FF /* ScrollView_Behavior_Paging.swift in Sources */,
 				ACA131412EA26FA9006933FF /* Picker_ProgrammaticSelection.swift in Sources */,
 				ACA1314B2EA27260006933FF /* Picker_WithEnum.swift in Sources */,
 				AC52782C2BF4ED2C00CD1909 /* ResizableSheetsView.swift in Sources */,
@@ -1548,6 +1634,7 @@
 				AC0E23772E8D666500CEC1DF /* ControlGroup_Intro.swift in Sources */,
 				AC0E237C2E8D696000CEC1DF /* ViewThatFits_Intro.swift in Sources */,
 				ACDEFE152BEB7F41006E0CD1 /* UserAuthorizationBM.swift in Sources */,
+				ACA131752EA27B33006933FF /* Scrollview_ContentMargins.swift in Sources */,
 				AC9C22112C5A555200D59037 /* SwiftUIViewTangem.swift in Sources */,
 				AC30B5432DCA5F3A0071B1FD /* SwiftUIViewPopoverVisibleswift.swift in Sources */,
 				AC8212B22E9796A000D0688A /* Chart_WithData.swift in Sources */,
@@ -1558,6 +1645,7 @@
 				ACA130F12EA21F19006933FF /* MultiDatePicker_Intro.swift in Sources */,
 				ACC20EBB2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */,
 				AC82964B2B5E583F008383B0 /* PinnedUIView.swift in Sources */,
+				ACA1316D2EA279B7006933FF /* Scrollview_ScrollBounceBehavior.swift in Sources */,
 				AC09CE012D4134F70038A629 /* MenuSwiftUIView.swift in Sources */,
 				ACA131452EA271A6006933FF /* Picker_BindingToData.swift in Sources */,
 				ACA1310B2EA24040006933FF /* Navigation_CustomBackground.swift in Sources */,
@@ -1567,6 +1655,8 @@
 				AC8529452E851B3500E9CE60 /* GroupVsGroupBoxDemo.swift in Sources */,
 				ACA131112EA2417F006933FF /* Navigation_BarHidden.swift in Sources */,
 				ACC496ED2C8B283F00EAA344 /* AppleSwiftUIView2.swift in Sources */,
+				ACA131652EA27836006933FF /* ScrollView_SafeAreaInset.swift in Sources */,
+				ACA131632EA27806006933FF /* ScrollView_Intro.swift in Sources */,
 				ACA130DA2EA20D02006933FF /* Tab.swift in Sources */,
 				AC8213BE2E98DC0400D0688A /* LabeledContent_Intro.swift in Sources */,
 				AC9611A82DDB835700398A1F /* CustomTabBarView111.swift in Sources */,
@@ -1574,14 +1664,17 @@
 				AC76007C2E8188CF0010CB83 /* ScrollRestoreDemo222.swift in Sources */,
 				ACA9048F2E33AAA10006D6D9 /* ExpandableText.swift in Sources */,
 				AC7325EB2E7C5789008AA41B /* ScrollViewReaderText2.swift in Sources */,
+				ACA1316B2EA27975006933FF /* Scrollview_Disabled.swift in Sources */,
 				AC82964C2B5E583F008383B0 /* ScrollDirectionCustomGesture.swift in Sources */,
 				AC411F9E2D7ED93D009AFD7A /* SizePreferenceKey2.swift in Sources */,
 				ACA130F72EA21FF3006933FF /* MultiDatePicker_Customizations.swift in Sources */,
 				AC5278212BF4CF7700CD1909 /* AlertContentView.swift in Sources */,
 				AC0E23882E8D7A6800CEC1DF /* CUV_Paging.swift in Sources */,
 				ACA1312D2EA269F9006933FF /* Nav_WithPathAndEnum.swift in Sources */,
+				ACA131712EA27A92006933FF /* ScrollView_Behavior_ViewAligned.swift in Sources */,
 				AC52781D2BF38B7C00CD1909 /* ExitCurtainView.swift in Sources */,
 				AC0E23732E8D622C00CEC1DF /* LazyHGrid_RowAndColumnSpacing.swift in Sources */,
+				ACA131592EA27640006933FF /* ProgressView_CurrentValue.swift in Sources */,
 				ACC496EF2C8B287700EAA344 /* FileItemView.swift in Sources */,
 				AC4238402C11A6C50035B3CE /* SwiftUIView123231.swift in Sources */,
 				ACA130E22EA212B3006933FF /* Menu_Intro.swift in Sources */,
@@ -1600,6 +1693,7 @@
 				AC52781A2BF38AE800CD1909 /* DialogView.swift in Sources */,
 				ACA130D62EA20CCE006933FF /* TabPosition.swift in Sources */,
 				AC09CDFF2D4133CC0038A629 /* SwiftUIViewIpad5.swift in Sources */,
+				ACA131552EA27561006933FF /* ProgressView_ShowingProgress.swift in Sources */,
 				ACA131312EA26B88006933FF /* Nav_WithNavigationPath.swift in Sources */,
 				AC8212BF2E97998900D0688A /* Chart_SectorMark_Donut.swift in Sources */,
 				AC5278422BF6497D00CD1909 /* ExitAlertModifier.swift in Sources */,
@@ -1643,8 +1737,10 @@
 				AC8212B82E97985C00D0688A /* GroupInfo.swift in Sources */,
 				AC366ECC2C21C0AF0029AA9A /* SheetStartTest.swift in Sources */,
 				AC89C0182C071C9F006BE793 /* DynamicHeightTextEditor.swift in Sources */,
+				ACA131732EA27AD6006933FF /* ScrollView_ScrollPosition.swift in Sources */,
 				ACA4F1582DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift in Sources */,
 				AC09CDF82D3F95B80038A629 /* FavoriteSwiftUIView.swift in Sources */,
+				ACA1315B2EA276A7006933FF /* ProgressView_Customizing.swift in Sources */,
 				AC9611A62DDB75A500398A1F /* PopoverNotificationView.swift in Sources */,
 				ACA130E82EA21D6C006933FF /* Menu_MenuPosition.swift in Sources */,
 				AC5278122BF37D2800CD1909 /* KeyboardHelper.swift in Sources */,
@@ -1662,6 +1758,7 @@
 				AC89C0122C04D5F8006BE793 /* ContentView.swift in Sources */,
 				AC5278142BF385DC00CD1909 /* PanelViewNew.swift in Sources */,
 				AC82964D2B5E583F008383B0 /* ScrollDirectionView.swift in Sources */,
+				ACA131692EA278EF006933FF /* ScrollView_Horizontal_SafeAreaInset.swift in Sources */,
 				AC8213B02E98D90D00D0688A /* Gauge_Intro.swift in Sources */,
 				ACCECFCE2D00B77300C9AB91 /* IpadTest3SwiftUIView.swift in Sources */,
 				AC103B4C2CABF44400F6030A /* DocumentsListSectionsPanelView.swift in Sources */,
@@ -1678,11 +1775,13 @@
 				ACA130EA2EA21DAA006933FF /* Menu_MaxItems.swift in Sources */,
 				AC411FA02D7ED95B009AFD7A /* TruncationTextMaskModifier.swift in Sources */,
 				ACA1310F2EA24103006933FF /* Navigation_DisplayMode.swift in Sources */,
+				ACA131672EA278A5006933FF /* ScrollView_Horizontal.swift in Sources */,
 				ACC496E42C8B204B00EAA344 /* FileItem.swift in Sources */,
 				ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */,
 				ACA131352EA26CFB006933FF /* NavLink_IsDetailLink.swift in Sources */,
 				AC8213C02E98DC7400D0688A /* Link_ButtonStyles.swift in Sources */,
 				AC8213DB2E98E5CB00D0688A /* List_SafeAreaInset_ScrollView.swift in Sources */,
+				ACA131602EA2778C006933FF /* RenameButton_EditText.swift in Sources */,
 				ACFEDC762B83A2A6002B3C66 /* View+Padding.swift in Sources */,
 				ACFA09282CEDE05400A2167E /* HelperSwiftUIView.swift in Sources */,
 				AC366EAE2C2034760029AA9A /* MenuSwiftUIView2.swift in Sources */,
@@ -1690,6 +1789,7 @@
 				ACDB1FD02DD61DD900A8EC52 /* Color+Extension.swift in Sources */,
 				AC7326032E7D47A1008AA41B /* ScrollPositionIDDemo.swift in Sources */,
 				AC70C5DE2D4A500A00718A64 /* BookmarksView.swift in Sources */,
+				ACA131532EA2749E006933FF /* ProgressView_Intro.swift in Sources */,
 				AC2AA5272DE0928D004C4E24 /* DocumentInvalidatedSheetView.swift in Sources */,
 				AC52781F2BF3941A00CD1909 /* MainCurtainView.swift in Sources */,
 				AC8213D52E98E32400D0688A /* HierarchicalListDemo.swift in Sources */,

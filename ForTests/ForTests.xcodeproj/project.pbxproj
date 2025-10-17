@@ -171,6 +171,18 @@
 		ACA131312EA26B88006933FF /* Nav_WithNavigationPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131302EA26B88006933FF /* Nav_WithNavigationPath.swift */; };
 		ACA131332EA26C3F006933FF /* NavLink_PopToRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131322EA26C3F006933FF /* NavLink_PopToRoot.swift */; };
 		ACA131352EA26CFB006933FF /* NavLink_IsDetailLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131342EA26CFB006933FF /* NavLink_IsDetailLink.swift */; };
+		ACA131382EA26DAD006933FF /* OutlineGroup_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131372EA26DAD006933FF /* OutlineGroup_Intro.swift */; };
+		ACA1313B2EA26ECC006933FF /* Picker_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1313A2EA26ECC006933FF /* Picker_Intro.swift */; };
+		ACA1313D2EA26F2A006933FF /* Picker_Sections.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1313C2EA26F2A006933FF /* Picker_Sections.swift */; };
+		ACA1313F2EA26F62006933FF /* Picker_Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1313E2EA26F62006933FF /* Picker_Wheel.swift */; };
+		ACA131412EA26FA9006933FF /* Picker_ProgrammaticSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131402EA26FA9006933FF /* Picker_ProgrammaticSelection.swift */; };
+		ACA131432EA270CF006933FF /* Picker_Customized.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131422EA270CF006933FF /* Picker_Customized.swift */; };
+		ACA131452EA271A6006933FF /* Picker_BindingToData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131442EA271A6006933FF /* Picker_BindingToData.swift */; };
+		ACA131472EA271DA006933FF /* Picker_InForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131462EA271DA006933FF /* Picker_InForm.swift */; };
+		ACA131492EA27218006933FF /* Picker_NavigationLinkStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131482EA27218006933FF /* Picker_NavigationLinkStyle.swift */; };
+		ACA1314B2EA27260006933FF /* Picker_WithEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1314A2EA27260006933FF /* Picker_WithEnum.swift */; };
+		ACA1314E2EA2731F006933FF /* PhotosPicker_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1314D2EA2731F006933FF /* PhotosPicker_Intro.swift */; };
+		ACA131502EA273F1006933FF /* PhotosPicker_MultipleItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1314F2EA273F1006933FF /* PhotosPicker_MultipleItems.swift */; };
 		ACA4F1582DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4F1572DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift */; };
 		ACA4F15A2DFFE56F00FE5A9F /* BookmarkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4F1592DFFE56F00FE5A9F /* BookmarkItem.swift */; };
 		ACA9048F2E33AAA10006D6D9 /* ExpandableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA9048E2E33AAA10006D6D9 /* ExpandableText.swift */; };
@@ -376,6 +388,18 @@
 		ACA131302EA26B88006933FF /* Nav_WithNavigationPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nav_WithNavigationPath.swift; sourceTree = "<group>"; };
 		ACA131322EA26C3F006933FF /* NavLink_PopToRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLink_PopToRoot.swift; sourceTree = "<group>"; };
 		ACA131342EA26CFB006933FF /* NavLink_IsDetailLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLink_IsDetailLink.swift; sourceTree = "<group>"; };
+		ACA131372EA26DAD006933FF /* OutlineGroup_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroup_Intro.swift; sourceTree = "<group>"; };
+		ACA1313A2EA26ECC006933FF /* Picker_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_Intro.swift; sourceTree = "<group>"; };
+		ACA1313C2EA26F2A006933FF /* Picker_Sections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_Sections.swift; sourceTree = "<group>"; };
+		ACA1313E2EA26F62006933FF /* Picker_Wheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_Wheel.swift; sourceTree = "<group>"; };
+		ACA131402EA26FA9006933FF /* Picker_ProgrammaticSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_ProgrammaticSelection.swift; sourceTree = "<group>"; };
+		ACA131422EA270CF006933FF /* Picker_Customized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_Customized.swift; sourceTree = "<group>"; };
+		ACA131442EA271A6006933FF /* Picker_BindingToData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_BindingToData.swift; sourceTree = "<group>"; };
+		ACA131462EA271DA006933FF /* Picker_InForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_InForm.swift; sourceTree = "<group>"; };
+		ACA131482EA27218006933FF /* Picker_NavigationLinkStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_NavigationLinkStyle.swift; sourceTree = "<group>"; };
+		ACA1314A2EA27260006933FF /* Picker_WithEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker_WithEnum.swift; sourceTree = "<group>"; };
+		ACA1314D2EA2731F006933FF /* PhotosPicker_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPicker_Intro.swift; sourceTree = "<group>"; };
+		ACA1314F2EA273F1006933FF /* PhotosPicker_MultipleItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPicker_MultipleItems.swift; sourceTree = "<group>"; };
 		ACA4F1572DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksDocumentMenuSwiftUIView.swift; sourceTree = "<group>"; };
 		ACA4F1592DFFE56F00FE5A9F /* BookmarkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkItem.swift; sourceTree = "<group>"; };
 		ACA9048E2E33AAA10006D6D9 /* ExpandableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableText.swift; sourceTree = "<group>"; };
@@ -477,6 +501,8 @@
 				ACA131182EA2429E006933FF /* NavigationSplitView */,
 				ACA131212EA24435006933FF /* NavigationLink */,
 				ACA131362EA26D65006933FF /* OutlineGroup */,
+				ACA131392EA26E86006933FF /* Picker */,
+				ACA1314C2EA272B5006933FF /* PhotosPicker */,
 			);
 			path = "2 SwiftUI Views Mastery ";
 			sourceTree = "<group>";
@@ -1144,8 +1170,34 @@
 		ACA131362EA26D65006933FF /* OutlineGroup */ = {
 			isa = PBXGroup;
 			children = (
+				ACA131372EA26DAD006933FF /* OutlineGroup_Intro.swift */,
 			);
 			path = OutlineGroup;
+			sourceTree = "<group>";
+		};
+		ACA131392EA26E86006933FF /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				ACA1313A2EA26ECC006933FF /* Picker_Intro.swift */,
+				ACA1313C2EA26F2A006933FF /* Picker_Sections.swift */,
+				ACA1313E2EA26F62006933FF /* Picker_Wheel.swift */,
+				ACA131402EA26FA9006933FF /* Picker_ProgrammaticSelection.swift */,
+				ACA131422EA270CF006933FF /* Picker_Customized.swift */,
+				ACA131442EA271A6006933FF /* Picker_BindingToData.swift */,
+				ACA131462EA271DA006933FF /* Picker_InForm.swift */,
+				ACA131482EA27218006933FF /* Picker_NavigationLinkStyle.swift */,
+				ACA1314A2EA27260006933FF /* Picker_WithEnum.swift */,
+			);
+			path = Picker;
+			sourceTree = "<group>";
+		};
+		ACA1314C2EA272B5006933FF /* PhotosPicker */ = {
+			isa = PBXGroup;
+			children = (
+				ACA1314D2EA2731F006933FF /* PhotosPicker_Intro.swift */,
+				ACA1314F2EA273F1006933FF /* PhotosPicker_MultipleItems.swift */,
+			);
+			path = PhotosPicker;
 			sourceTree = "<group>";
 		};
 		ACA4F1562DFFE44B00FE5A9F /* New Group 4 */ = {
@@ -1454,6 +1506,7 @@
 				AC93679D2D76DA8700FB42BD /* FavoritesDocUnderControlAnnotationView.swift in Sources */,
 				AC366EB32C20666C0029AA9A /* DropDown.swift in Sources */,
 				ACCECFD02D00BA6200C9AB91 /* GoogleIpadSwiftUIView.swift in Sources */,
+				ACA131492EA27218006933FF /* Picker_NavigationLinkStyle.swift in Sources */,
 				AC5278362BF646C100CD1909 /* ContentViewOne.swift in Sources */,
 				AC5278452BF649C600CD1909 /* ContentViewOne2.swift in Sources */,
 				AC8213D92E98E52900D0688A /* List_SafeAreaInset.swift in Sources */,
@@ -1466,10 +1519,13 @@
 				AC8212C12E979A1700D0688A /* ColorPicker_Intro.swift in Sources */,
 				AC52782E2BF4ED6F00CD1909 /* ResizableSheets2View.swift in Sources */,
 				AC52783E2BF6491F00CD1909 /* ExitAlert+View.swift in Sources */,
+				ACA131412EA26FA9006933FF /* Picker_ProgrammaticSelection.swift in Sources */,
+				ACA1314B2EA27260006933FF /* Picker_WithEnum.swift in Sources */,
 				AC52782C2BF4ED2C00CD1909 /* ResizableSheetsView.swift in Sources */,
 				AC0E237E2E8D69F800CEC1DF /* ViewThatFits_Vertical.swift in Sources */,
 				AC8213C32E98DD6400D0688A /* List_MoveAndDelete.swift in Sources */,
 				AC0E23792E8D683100CEC1DF /* Table_Intro.swift in Sources */,
+				ACA131432EA270CF006933FF /* Picker_Customized.swift in Sources */,
 				AC411F9C2D7EC175009AFD7A /* ReturnsExpandableTextView.swift in Sources */,
 				AC366EB82C2069A90029AA9A /* DropDownView.swift in Sources */,
 				AC0E23752E8D64CA00CEC1DF /* ScrollViewReader_Intro.swift in Sources */,
@@ -1488,6 +1544,7 @@
 				AC52783B2BF647F300CD1909 /* ExitAlertView.swift in Sources */,
 				AC366EC32C20757E0029AA9A /* DropDownMenuDemo4.swift in Sources */,
 				ACA130D42EA20CB3006933FF /* TabShape.swift in Sources */,
+				ACA131472EA271DA006933FF /* Picker_InForm.swift in Sources */,
 				AC0E23772E8D666500CEC1DF /* ControlGroup_Intro.swift in Sources */,
 				AC0E237C2E8D696000CEC1DF /* ViewThatFits_Intro.swift in Sources */,
 				ACDEFE152BEB7F41006E0CD1 /* UserAuthorizationBM.swift in Sources */,
@@ -1502,7 +1559,9 @@
 				ACC20EBB2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */,
 				AC82964B2B5E583F008383B0 /* PinnedUIView.swift in Sources */,
 				AC09CE012D4134F70038A629 /* MenuSwiftUIView.swift in Sources */,
+				ACA131452EA271A6006933FF /* Picker_BindingToData.swift in Sources */,
 				ACA1310B2EA24040006933FF /* Navigation_CustomBackground.swift in Sources */,
+				ACA1314E2EA2731F006933FF /* PhotosPicker_Intro.swift in Sources */,
 				AC8213BA2E98DA8D00D0688A /* GroupBox_WithLabel.swift in Sources */,
 				ACA131152EA2420D006933FF /* Navigation_BackButtonHidden.swift in Sources */,
 				AC8529452E851B3500E9CE60 /* GroupVsGroupBoxDemo.swift in Sources */,
@@ -1531,6 +1590,7 @@
 				ACA131252EA244B2006933FF /* NavLink_Customization.swift in Sources */,
 				ACEC5E342CAF1A5B00ECBB2F /* SwiftUIViewIpad.swift in Sources */,
 				AC52780F2BF37C7700CD1909 /* ScrollablePanelView.swift in Sources */,
+				ACA131382EA26DAD006933FF /* OutlineGroup_Intro.swift in Sources */,
 				AC52780D2BF37BF700CD1909 /* BottomSheetModifierNew+View.swift in Sources */,
 				ACDFF39F2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift in Sources */,
 				AC2AA5292DE098A1004C4E24 /* 11111.swift in Sources */,
@@ -1543,6 +1603,7 @@
 				ACA131312EA26B88006933FF /* Nav_WithNavigationPath.swift in Sources */,
 				AC8212BF2E97998900D0688A /* Chart_SectorMark_Donut.swift in Sources */,
 				AC5278422BF6497D00CD1909 /* ExitAlertModifier.swift in Sources */,
+				ACA1313B2EA26ECC006933FF /* Picker_Intro.swift in Sources */,
 				ACA130E42EA21C20006933FF /* Menu_InsideMenu.swift in Sources */,
 				AC366EBA2C2069DC0029AA9A /* MenuSwiftUIView4.swift in Sources */,
 				ACA130F52EA21FB0006933FF /* MultiDatePicker_DateRange.swift in Sources */,
@@ -1557,6 +1618,7 @@
 				ACA1310D2EA240BF006933FF /* Navigation_UINavigationBarAppearance.swift in Sources */,
 				AC2AA4872DDF26DB004C4E24 /* CustomTabBarView.swift in Sources */,
 				AC502DA52CD9450C00DDB86A /* ContentOneeView.swift in Sources */,
+				ACA1313D2EA26F2A006933FF /* Picker_Sections.swift in Sources */,
 				AC8213B52E98D9E900D0688A /* Gauge_CircularSize.swift in Sources */,
 				AC7325E92E7C32B3008AA41B /* ScrollViewReaderText.swift in Sources */,
 				ACFD59EE2E2E54EE001D4740 /* ListListSwiftUIView.swift in Sources */,
@@ -1588,10 +1650,12 @@
 				AC5278122BF37D2800CD1909 /* KeyboardHelper.swift in Sources */,
 				ACA1312F2EA26A70006933FF /* NavigationController_Test.swift in Sources */,
 				AC5278382BF647A500CD1909 /* ContentViewTwo.swift in Sources */,
+				ACA131502EA273F1006933FF /* PhotosPicker_MultipleItems.swift in Sources */,
 				ACEC5E382CAF1DBE00ECBB2F /* SwiftUIViewIpad3.swift in Sources */,
 				AC89BFFC2C04B462006BE793 /* QuickSearchView.swift in Sources */,
 				ACA131202EA243C7006933FF /* Navigation_SplitViewColumnWidth.swift in Sources */,
 				AC8213AE2E98D7DE00D0688A /* DisclosureGroup_Intro.swift in Sources */,
+				ACA1313F2EA26F62006933FF /* Picker_Wheel.swift in Sources */,
 				AC03622B2C1879AC0033B781 /* View4.swift in Sources */,
 				AC366EC72C2182740029AA9A /* SwiftUIView11111.swift in Sources */,
 				ACA131232EA24470006933FF /* NavLink_Intro.swift in Sources */,

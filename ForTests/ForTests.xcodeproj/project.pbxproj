@@ -144,6 +144,10 @@
 		ACA130EA2EA21DAA006933FF /* Menu_MaxItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA130E92EA21DAA006933FF /* Menu_MaxItems.swift */; };
 		ACA130EC2EA21E09006933FF /* Menu_OtherViewsWithin.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA130EB2EA21E09006933FF /* Menu_OtherViewsWithin.swift */; };
 		ACA130EE2EA21E81006933FF /* Menu_Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA130ED2EA21E81006933FF /* Menu_Order.swift */; };
+		ACA130F12EA21F19006933FF /* MultiDatePicker_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA130F02EA21F19006933FF /* MultiDatePicker_Intro.swift */; };
+		ACA130F52EA21FB0006933FF /* MultiDatePicker_DateRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA130F42EA21FB0006933FF /* MultiDatePicker_DateRange.swift */; };
+		ACA130F72EA21FF3006933FF /* MultiDatePicker_Customizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA130F62EA21FF3006933FF /* MultiDatePicker_Customizations.swift */; };
+		ACA130F92EA22029006933FF /* MultiDatePicker_PresentingInSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA130F82EA22029006933FF /* MultiDatePicker_PresentingInSheet.swift */; };
 		ACA4F1582DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4F1572DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift */; };
 		ACA4F15A2DFFE56F00FE5A9F /* BookmarkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4F1592DFFE56F00FE5A9F /* BookmarkItem.swift */; };
 		ACA9048F2E33AAA10006D6D9 /* ExpandableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA9048E2E33AAA10006D6D9 /* ExpandableText.swift */; };
@@ -322,6 +326,10 @@
 		ACA130E92EA21DAA006933FF /* Menu_MaxItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu_MaxItems.swift; sourceTree = "<group>"; };
 		ACA130EB2EA21E09006933FF /* Menu_OtherViewsWithin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu_OtherViewsWithin.swift; sourceTree = "<group>"; };
 		ACA130ED2EA21E81006933FF /* Menu_Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu_Order.swift; sourceTree = "<group>"; };
+		ACA130F02EA21F19006933FF /* MultiDatePicker_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDatePicker_Intro.swift; sourceTree = "<group>"; };
+		ACA130F42EA21FB0006933FF /* MultiDatePicker_DateRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDatePicker_DateRange.swift; sourceTree = "<group>"; };
+		ACA130F62EA21FF3006933FF /* MultiDatePicker_Customizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDatePicker_Customizations.swift; sourceTree = "<group>"; };
+		ACA130F82EA22029006933FF /* MultiDatePicker_PresentingInSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDatePicker_PresentingInSheet.swift; sourceTree = "<group>"; };
 		ACA4F1572DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksDocumentMenuSwiftUIView.swift; sourceTree = "<group>"; };
 		ACA4F1592DFFE56F00FE5A9F /* BookmarkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkItem.swift; sourceTree = "<group>"; };
 		ACA9048E2E33AAA10006D6D9 /* ExpandableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableText.swift; sourceTree = "<group>"; };
@@ -419,6 +427,7 @@
 				AC8213C12E98DD5700D0688A /* List */,
 				ACA130E02EA2120C006933FF /* Menu */,
 				ACA130EF2EA21EE0006933FF /* MultiDatePicker */,
+				ACA130FA2EA22075006933FF /* NavigationStack */,
 			);
 			path = "2 SwiftUI Views Mastery ";
 			sourceTree = "<group>";
@@ -1031,8 +1040,19 @@
 		ACA130EF2EA21EE0006933FF /* MultiDatePicker */ = {
 			isa = PBXGroup;
 			children = (
+				ACA130F02EA21F19006933FF /* MultiDatePicker_Intro.swift */,
+				ACA130F42EA21FB0006933FF /* MultiDatePicker_DateRange.swift */,
+				ACA130F62EA21FF3006933FF /* MultiDatePicker_Customizations.swift */,
+				ACA130F82EA22029006933FF /* MultiDatePicker_PresentingInSheet.swift */,
 			);
 			path = MultiDatePicker;
+			sourceTree = "<group>";
+		};
+		ACA130FA2EA22075006933FF /* NavigationStack */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NavigationStack;
 			sourceTree = "<group>";
 		};
 		ACA4F1562DFFE44B00FE5A9F /* New Group 4 */ = {
@@ -1380,6 +1400,7 @@
 				ACA130DD2EA21048006933FF /* List_Badge.swift in Sources */,
 				AC45FBCD2D29614D0020837B /* CalendarViewModel.swift in Sources */,
 				AC2AA48B2DDF26FF004C4E24 /* TabBarItemsPreferenceKey.swift in Sources */,
+				ACA130F12EA21F19006933FF /* MultiDatePicker_Intro.swift in Sources */,
 				ACC20EBB2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */,
 				AC82964B2B5E583F008383B0 /* PinnedUIView.swift in Sources */,
 				AC09CE012D4134F70038A629 /* MenuSwiftUIView.swift in Sources */,
@@ -1395,6 +1416,7 @@
 				AC7325EB2E7C5789008AA41B /* ScrollViewReaderText2.swift in Sources */,
 				AC82964C2B5E583F008383B0 /* ScrollDirectionCustomGesture.swift in Sources */,
 				AC411F9E2D7ED93D009AFD7A /* SizePreferenceKey2.swift in Sources */,
+				ACA130F72EA21FF3006933FF /* MultiDatePicker_Customizations.swift in Sources */,
 				AC5278212BF4CF7700CD1909 /* AlertContentView.swift in Sources */,
 				AC0E23882E8D7A6800CEC1DF /* CUV_Paging.swift in Sources */,
 				AC52781D2BF38B7C00CD1909 /* ExitCurtainView.swift in Sources */,
@@ -1419,6 +1441,7 @@
 				AC5278422BF6497D00CD1909 /* ExitAlertModifier.swift in Sources */,
 				ACA130E42EA21C20006933FF /* Menu_InsideMenu.swift in Sources */,
 				AC366EBA2C2069DC0029AA9A /* MenuSwiftUIView4.swift in Sources */,
+				ACA130F52EA21FB0006933FF /* MultiDatePicker_DateRange.swift in Sources */,
 				AC366EB52C2066B40029AA9A /* MenuSwiftUIView3.swift in Sources */,
 				AC411FCA2D7F3BA4009AFD7A /* ChannelListView.swift in Sources */,
 				ACB98E3E2C22DF4500831CC7 /* CustomResizableLogoutInfoSheetView.swift in Sources */,
@@ -1491,6 +1514,7 @@
 				AC2AA5272DE0928D004C4E24 /* DocumentInvalidatedSheetView.swift in Sources */,
 				AC52781F2BF3941A00CD1909 /* MainCurtainView.swift in Sources */,
 				AC8213D52E98E32400D0688A /* HierarchicalListDemo.swift in Sources */,
+				ACA130F92EA22029006933FF /* MultiDatePicker_PresentingInSheet.swift in Sources */,
 				AC8213CF2E98E05500D0688A /* List_ListRowInsets.swift in Sources */,
 				AC0E23832E8D78D500CEC1DF /* CUV_WithActions.swift in Sources */,
 				ACDB1FCE2DD61D0D00A8EC52 /* FavoriteDocumentAlreadyUnderControlView.swift in Sources */,

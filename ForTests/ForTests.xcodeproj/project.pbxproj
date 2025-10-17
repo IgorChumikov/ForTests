@@ -163,6 +163,14 @@
 		ACA131202EA243C7006933FF /* Navigation_SplitViewColumnWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1311F2EA243C7006933FF /* Navigation_SplitViewColumnWidth.swift */; };
 		ACA131232EA24470006933FF /* NavLink_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131222EA24470006933FF /* NavLink_Intro.swift */; };
 		ACA131252EA244B2006933FF /* NavLink_Customization.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131242EA244B2006933FF /* NavLink_Customization.swift */; };
+		ACA131272EA268D7006933FF /* NavLink_WithNavigationDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131262EA268D7006933FF /* NavLink_WithNavigationDestination.swift */; };
+		ACA131292EA26947006933FF /* NavLink_WithDifferentTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131282EA26947006933FF /* NavLink_WithDifferentTypes.swift */; };
+		ACA1312B2EA269BC006933FF /* NavLink_isPresented.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1312A2EA269BC006933FF /* NavLink_isPresented.swift */; };
+		ACA1312D2EA269F9006933FF /* Nav_WithPathAndEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1312C2EA269F9006933FF /* Nav_WithPathAndEnum.swift */; };
+		ACA1312F2EA26A70006933FF /* NavigationController_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1312E2EA26A70006933FF /* NavigationController_Test.swift */; };
+		ACA131312EA26B88006933FF /* Nav_WithNavigationPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131302EA26B88006933FF /* Nav_WithNavigationPath.swift */; };
+		ACA131332EA26C3F006933FF /* NavLink_PopToRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131322EA26C3F006933FF /* NavLink_PopToRoot.swift */; };
+		ACA131352EA26CFB006933FF /* NavLink_IsDetailLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA131342EA26CFB006933FF /* NavLink_IsDetailLink.swift */; };
 		ACA4F1582DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4F1572DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift */; };
 		ACA4F15A2DFFE56F00FE5A9F /* BookmarkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA4F1592DFFE56F00FE5A9F /* BookmarkItem.swift */; };
 		ACA9048F2E33AAA10006D6D9 /* ExpandableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA9048E2E33AAA10006D6D9 /* ExpandableText.swift */; };
@@ -360,6 +368,14 @@
 		ACA1311F2EA243C7006933FF /* Navigation_SplitViewColumnWidth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_SplitViewColumnWidth.swift; sourceTree = "<group>"; };
 		ACA131222EA24470006933FF /* NavLink_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLink_Intro.swift; sourceTree = "<group>"; };
 		ACA131242EA244B2006933FF /* NavLink_Customization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLink_Customization.swift; sourceTree = "<group>"; };
+		ACA131262EA268D7006933FF /* NavLink_WithNavigationDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLink_WithNavigationDestination.swift; sourceTree = "<group>"; };
+		ACA131282EA26947006933FF /* NavLink_WithDifferentTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLink_WithDifferentTypes.swift; sourceTree = "<group>"; };
+		ACA1312A2EA269BC006933FF /* NavLink_isPresented.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLink_isPresented.swift; sourceTree = "<group>"; };
+		ACA1312C2EA269F9006933FF /* Nav_WithPathAndEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nav_WithPathAndEnum.swift; sourceTree = "<group>"; };
+		ACA1312E2EA26A70006933FF /* NavigationController_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController_Test.swift; sourceTree = "<group>"; };
+		ACA131302EA26B88006933FF /* Nav_WithNavigationPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nav_WithNavigationPath.swift; sourceTree = "<group>"; };
+		ACA131322EA26C3F006933FF /* NavLink_PopToRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLink_PopToRoot.swift; sourceTree = "<group>"; };
+		ACA131342EA26CFB006933FF /* NavLink_IsDetailLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLink_IsDetailLink.swift; sourceTree = "<group>"; };
 		ACA4F1572DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksDocumentMenuSwiftUIView.swift; sourceTree = "<group>"; };
 		ACA4F1592DFFE56F00FE5A9F /* BookmarkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkItem.swift; sourceTree = "<group>"; };
 		ACA9048E2E33AAA10006D6D9 /* ExpandableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableText.swift; sourceTree = "<group>"; };
@@ -460,6 +476,7 @@
 				ACA130FA2EA22075006933FF /* NavigationStack */,
 				ACA131182EA2429E006933FF /* NavigationSplitView */,
 				ACA131212EA24435006933FF /* NavigationLink */,
+				ACA131362EA26D65006933FF /* OutlineGroup */,
 			);
 			path = "2 SwiftUI Views Mastery ";
 			sourceTree = "<group>";
@@ -1112,8 +1129,23 @@
 			children = (
 				ACA131222EA24470006933FF /* NavLink_Intro.swift */,
 				ACA131242EA244B2006933FF /* NavLink_Customization.swift */,
+				ACA131262EA268D7006933FF /* NavLink_WithNavigationDestination.swift */,
+				ACA131282EA26947006933FF /* NavLink_WithDifferentTypes.swift */,
+				ACA1312A2EA269BC006933FF /* NavLink_isPresented.swift */,
+				ACA1312C2EA269F9006933FF /* Nav_WithPathAndEnum.swift */,
+				ACA1312E2EA26A70006933FF /* NavigationController_Test.swift */,
+				ACA131302EA26B88006933FF /* Nav_WithNavigationPath.swift */,
+				ACA131322EA26C3F006933FF /* NavLink_PopToRoot.swift */,
+				ACA131342EA26CFB006933FF /* NavLink_IsDetailLink.swift */,
 			);
 			path = NavigationLink;
+			sourceTree = "<group>";
+		};
+		ACA131362EA26D65006933FF /* OutlineGroup */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OutlineGroup;
 			sourceTree = "<group>";
 		};
 		ACA4F1562DFFE44B00FE5A9F /* New Group 4 */ = {
@@ -1410,7 +1442,9 @@
 			files = (
 				AC5278342BF6468600CD1909 /* CustomAlertView.swift in Sources */,
 				ACFEDC742B83A246002B3C66 /* View+OnFirstAppear.swift in Sources */,
+				ACA131272EA268D7006933FF /* NavLink_WithNavigationDestination.swift in Sources */,
 				AC9611AA2DDB8C3400398A1F /* CustomTabBarView222.swift in Sources */,
+				ACA131292EA26947006933FF /* NavLink_WithDifferentTypes.swift in Sources */,
 				AC8212BB2E9798FC00D0688A /* Chart_SectorMark.swift in Sources */,
 				AC5278162BF386E400CD1909 /* PanelViewIndicator.swift in Sources */,
 				ACA1311A2EA242E2006933FF /* Navigation_SplitView.swift in Sources */,
@@ -1486,6 +1520,7 @@
 				ACA130F72EA21FF3006933FF /* MultiDatePicker_Customizations.swift in Sources */,
 				AC5278212BF4CF7700CD1909 /* AlertContentView.swift in Sources */,
 				AC0E23882E8D7A6800CEC1DF /* CUV_Paging.swift in Sources */,
+				ACA1312D2EA269F9006933FF /* Nav_WithPathAndEnum.swift in Sources */,
 				AC52781D2BF38B7C00CD1909 /* ExitCurtainView.swift in Sources */,
 				AC0E23732E8D622C00CEC1DF /* LazyHGrid_RowAndColumnSpacing.swift in Sources */,
 				ACC496EF2C8B287700EAA344 /* FileItemView.swift in Sources */,
@@ -1505,6 +1540,7 @@
 				AC52781A2BF38AE800CD1909 /* DialogView.swift in Sources */,
 				ACA130D62EA20CCE006933FF /* TabPosition.swift in Sources */,
 				AC09CDFF2D4133CC0038A629 /* SwiftUIViewIpad5.swift in Sources */,
+				ACA131312EA26B88006933FF /* Nav_WithNavigationPath.swift in Sources */,
 				AC8212BF2E97998900D0688A /* Chart_SectorMark_Donut.swift in Sources */,
 				AC5278422BF6497D00CD1909 /* ExitAlertModifier.swift in Sources */,
 				ACA130E42EA21C20006933FF /* Menu_InsideMenu.swift in Sources */,
@@ -1550,6 +1586,7 @@
 				AC9611A62DDB75A500398A1F /* PopoverNotificationView.swift in Sources */,
 				ACA130E82EA21D6C006933FF /* Menu_MenuPosition.swift in Sources */,
 				AC5278122BF37D2800CD1909 /* KeyboardHelper.swift in Sources */,
+				ACA1312F2EA26A70006933FF /* NavigationController_Test.swift in Sources */,
 				AC5278382BF647A500CD1909 /* ContentViewTwo.swift in Sources */,
 				ACEC5E382CAF1DBE00ECBB2F /* SwiftUIViewIpad3.swift in Sources */,
 				AC89BFFC2C04B462006BE793 /* QuickSearchView.swift in Sources */,
@@ -1568,6 +1605,7 @@
 				ACA4F15A2DFFE56F00FE5A9F /* BookmarkItem.swift in Sources */,
 				ACA1311C2EA24339006933FF /* Navigation_SplitViewColumnVisibility.swift in Sources */,
 				AC8212B62E9797E700D0688A /* Chart_BarMarkPositionBy.swift in Sources */,
+				ACA1312B2EA269BC006933FF /* NavLink_isPresented.swift in Sources */,
 				AC2AA48D2DDF2715004C4E24 /* TabBarItem.swift in Sources */,
 				AC70C5DC2D4A4FF500718A64 /* BookmarksList.swift in Sources */,
 				AC8213DD2E98E63200D0688A /* List_BindingWithin.swift in Sources */,
@@ -1578,6 +1616,7 @@
 				ACA1310F2EA24103006933FF /* Navigation_DisplayMode.swift in Sources */,
 				ACC496E42C8B204B00EAA344 /* FileItem.swift in Sources */,
 				ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */,
+				ACA131352EA26CFB006933FF /* NavLink_IsDetailLink.swift in Sources */,
 				AC8213C02E98DC7400D0688A /* Link_ButtonStyles.swift in Sources */,
 				AC8213DB2E98E5CB00D0688A /* List_SafeAreaInset_ScrollView.swift in Sources */,
 				ACFEDC762B83A2A6002B3C66 /* View+Padding.swift in Sources */,
@@ -1592,6 +1631,7 @@
 				AC8213D52E98E32400D0688A /* HierarchicalListDemo.swift in Sources */,
 				ACA130F92EA22029006933FF /* MultiDatePicker_PresentingInSheet.swift in Sources */,
 				AC8213CF2E98E05500D0688A /* List_ListRowInsets.swift in Sources */,
+				ACA131332EA26C3F006933FF /* NavLink_PopToRoot.swift in Sources */,
 				AC0E23832E8D78D500CEC1DF /* CUV_WithActions.swift in Sources */,
 				ACDB1FCE2DD61D0D00A8EC52 /* FavoriteDocumentAlreadyUnderControlView.swift in Sources */,
 				AC2AA4852DDF26CC004C4E24 /* AppTabBarView.swift in Sources */,

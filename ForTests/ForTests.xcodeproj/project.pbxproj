@@ -10,6 +10,7 @@
 		AC03622B2C1879AC0033B781 /* View4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC03622A2C1879AC0033B781 /* View4.swift */; };
 		AC03622D2C187D7D0033B781 /* View5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC03622C2C187D7D0033B781 /* View5.swift */; };
 		AC03622F2C1B10E00033B781 /* MainView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC03622E2C1B10E00033B781 /* MainView5.swift */; };
+		AC0927602EBCA13E006332C9 /* ScreenshotListenerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC09275F2EBCA13E006332C9 /* ScreenshotListenerView.swift */; };
 		AC09CDF82D3F95B80038A629 /* FavoriteSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC09CDF72D3F95B80038A629 /* FavoriteSwiftUIView.swift */; };
 		AC09CDFF2D4133CC0038A629 /* SwiftUIViewIpad5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC09CDFE2D4133CC0038A629 /* SwiftUIViewIpad5.swift */; };
 		AC09CE012D4134F70038A629 /* MenuSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC09CE002D4134F70038A629 /* MenuSwiftUIView.swift */; };
@@ -249,6 +250,7 @@
 		AC03622A2C1879AC0033B781 /* View4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View4.swift; sourceTree = "<group>"; };
 		AC03622C2C187D7D0033B781 /* View5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View5.swift; sourceTree = "<group>"; };
 		AC03622E2C1B10E00033B781 /* MainView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView5.swift; sourceTree = "<group>"; };
+		AC09275F2EBCA13E006332C9 /* ScreenshotListenerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotListenerView.swift; sourceTree = "<group>"; };
 		AC09CDF72D3F95B80038A629 /* FavoriteSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteSwiftUIView.swift; sourceTree = "<group>"; };
 		AC09CDFE2D4133CC0038A629 /* SwiftUIViewIpad5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewIpad5.swift; sourceTree = "<group>"; };
 		AC09CE002D4134F70038A629 /* MenuSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSwiftUIView.swift; sourceTree = "<group>"; };
@@ -506,6 +508,14 @@
 			path = Tran;
 			sourceTree = "<group>";
 		};
+		AC09275E2EBCA12D006332C9 /* ScreenshotListener */ = {
+			isa = PBXGroup;
+			children = (
+				AC09275F2EBCA13E006332C9 /* ScreenshotListenerView.swift */,
+			);
+			path = ScreenshotListener;
+			sourceTree = "<group>";
+		};
 		AC09CDF62D3F90240038A629 /* Favorite */ = {
 			isa = PBXGroup;
 			children = (
@@ -571,6 +581,7 @@
 		AC0E23812E8D6BAB00CEC1DF /* ForTestViews */ = {
 			isa = PBXGroup;
 			children = (
+				AC09275E2EBCA12D006332C9 /* ScreenshotListener */,
 				ACFD59EC2E2E54D8001D4740 /* List */,
 				AC2AA5232DE0872F004C4E24 /* Sheet */,
 				AC2AA4762DDF1D9E004C4E24 /* TabBar */,
@@ -1688,6 +1699,7 @@
 				ACA1317C2EA27EF5006933FF /* Searchable_DismissSearch.swift in Sources */,
 				AC8213BE2E98DC0400D0688A /* LabeledContent_Intro.swift in Sources */,
 				AC9611A82DDB835700398A1F /* CustomTabBarView111.swift in Sources */,
+				AC0927602EBCA13E006332C9 /* ScreenshotListenerView.swift in Sources */,
 				AC52782A2BF4E9F700CD1909 /* BottomSheetView.swift in Sources */,
 				AC76007C2E8188CF0010CB83 /* ScrollRestoreDemo222.swift in Sources */,
 				ACA9048F2E33AAA10006D6D9 /* ExpandableText.swift in Sources */,

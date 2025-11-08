@@ -120,6 +120,23 @@
 		AC82964C2B5E583F008383B0 /* ScrollDirectionCustomGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8296492B5E583F008383B0 /* ScrollDirectionCustomGesture.swift */; };
 		AC82964D2B5E583F008383B0 /* ScrollDirectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC82964A2B5E583F008383B0 /* ScrollDirectionView.swift */; };
 		AC8529452E851B3500E9CE60 /* GroupVsGroupBoxDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8529442E851B3500E9CE60 /* GroupVsGroupBoxDemo.swift */; };
+		AC85485A2EBF673E0055FCB6 /* SecureField_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548592EBF673E0055FCB6 /* SecureField_Intro.swift */; };
+		AC85485C2EBF67A10055FCB6 /* SecureField_Customization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85485B2EBF67A10055FCB6 /* SecureField_Customization.swift */; };
+		AC85485F2EBF684A0055FCB6 /* SegmentedControl_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85485E2EBF684A0055FCB6 /* SegmentedControl_Intro.swift */; };
+		AC8548612EBF688F0055FCB6 /* SegmentedControl_NoSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548602EBF688F0055FCB6 /* SegmentedControl_NoSelection.swift */; };
+		AC8548632EBF68DB0055FCB6 /* SegmentedControl_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548622EBF68DB0055FCB6 /* SegmentedControl_Colors.swift */; };
+		AC8548662EBF694A0055FCB6 /* ShareLink_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548652EBF694A0055FCB6 /* ShareLink_Intro.swift */; };
+		AC8548682EBF6A0B0055FCB6 /* ShareLink_SharePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548672EBF6A0B0055FCB6 /* ShareLink_SharePreview.swift */; };
+		AC85486A2EBF6B270055FCB6 /* ShareLink_Customize.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548692EBF6B270055FCB6 /* ShareLink_Customize.swift */; };
+		AC85486D2EBF6BDD0055FCB6 /* SignInWithApple_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85486C2EBF6BDD0055FCB6 /* SignInWithApple_Intro.swift */; };
+		AC85486F2EBF6C260055FCB6 /* SignInWithApple_Customizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85486E2EBF6C260055FCB6 /* SignInWithApple_Customizing.swift */; };
+		AC8548712EBF6C700055FCB6 /* SignInWithApple_SizeChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548702EBF6C700055FCB6 /* SignInWithApple_SizeChanges.swift */; };
+		AC8548752EBF6CE60055FCB6 /* Slider_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548742EBF6CE60055FCB6 /* Slider_Intro.swift */; };
+		AC8548772EBF6D370055FCB6 /* Slider_RangeOfValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548762EBF6D370055FCB6 /* Slider_RangeOfValues.swift */; };
+		AC8548792EBF6D980055FCB6 /* Slider_Customization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548782EBF6D980055FCB6 /* Slider_Customization.swift */; };
+		AC85487B2EBF6DFD0055FCB6 /* Slider_WithImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85487A2EBF6DFD0055FCB6 /* Slider_WithImages.swift */; };
+		AC85487D2EBF6E7C0055FCB6 /* Slider_Tint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85487C2EBF6E7C0055FCB6 /* Slider_Tint.swift */; };
+		AC85487F2EBF6ECE0055FCB6 /* Slider_InMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85487E2EBF6ECE0055FCB6 /* Slider_InMenu.swift */; };
 		AC89BFFC2C04B462006BE793 /* QuickSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89BFFB2C04B462006BE793 /* QuickSearchView.swift */; };
 		AC89BFFE2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89BFFD2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift */; };
 		AC89C0122C04D5F8006BE793 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89C0112C04D5F8006BE793 /* ContentView.swift */; };
@@ -361,6 +378,23 @@
 		AC8296492B5E583F008383B0 /* ScrollDirectionCustomGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollDirectionCustomGesture.swift; sourceTree = "<group>"; };
 		AC82964A2B5E583F008383B0 /* ScrollDirectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollDirectionView.swift; sourceTree = "<group>"; };
 		AC8529442E851B3500E9CE60 /* GroupVsGroupBoxDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupVsGroupBoxDemo.swift; sourceTree = "<group>"; };
+		AC8548592EBF673E0055FCB6 /* SecureField_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureField_Intro.swift; sourceTree = "<group>"; };
+		AC85485B2EBF67A10055FCB6 /* SecureField_Customization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureField_Customization.swift; sourceTree = "<group>"; };
+		AC85485E2EBF684A0055FCB6 /* SegmentedControl_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl_Intro.swift; sourceTree = "<group>"; };
+		AC8548602EBF688F0055FCB6 /* SegmentedControl_NoSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl_NoSelection.swift; sourceTree = "<group>"; };
+		AC8548622EBF68DB0055FCB6 /* SegmentedControl_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl_Colors.swift; sourceTree = "<group>"; };
+		AC8548652EBF694A0055FCB6 /* ShareLink_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLink_Intro.swift; sourceTree = "<group>"; };
+		AC8548672EBF6A0B0055FCB6 /* ShareLink_SharePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLink_SharePreview.swift; sourceTree = "<group>"; };
+		AC8548692EBF6B270055FCB6 /* ShareLink_Customize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLink_Customize.swift; sourceTree = "<group>"; };
+		AC85486C2EBF6BDD0055FCB6 /* SignInWithApple_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithApple_Intro.swift; sourceTree = "<group>"; };
+		AC85486E2EBF6C260055FCB6 /* SignInWithApple_Customizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithApple_Customizing.swift; sourceTree = "<group>"; };
+		AC8548702EBF6C700055FCB6 /* SignInWithApple_SizeChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithApple_SizeChanges.swift; sourceTree = "<group>"; };
+		AC8548742EBF6CE60055FCB6 /* Slider_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider_Intro.swift; sourceTree = "<group>"; };
+		AC8548762EBF6D370055FCB6 /* Slider_RangeOfValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider_RangeOfValues.swift; sourceTree = "<group>"; };
+		AC8548782EBF6D980055FCB6 /* Slider_Customization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider_Customization.swift; sourceTree = "<group>"; };
+		AC85487A2EBF6DFD0055FCB6 /* Slider_WithImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider_WithImages.swift; sourceTree = "<group>"; };
+		AC85487C2EBF6E7C0055FCB6 /* Slider_Tint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider_Tint.swift; sourceTree = "<group>"; };
+		AC85487E2EBF6ECE0055FCB6 /* Slider_InMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider_InMenu.swift; sourceTree = "<group>"; };
 		AC89BFFB2C04B462006BE793 /* QuickSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSearchView.swift; sourceTree = "<group>"; };
 		AC89BFFD2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSearchListFoundDocuments.swift; sourceTree = "<group>"; };
 		AC89C0112C04D5F8006BE793 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -564,6 +598,10 @@
 				ACA131612EA277ED006933FF /* Scrollview */,
 				ACA131762EA27C74006933FF /* Searchable */,
 				ACA131852EA29A0C006933FF /* SecureField */,
+				AC85485D2EBF67E40055FCB6 /* Segmented Control (Picker) */,
+				AC8548642EBF68FE0055FCB6 /* ShareLink */,
+				AC85486B2EBF6BA00055FCB6 /* SignInWithAppleButton */,
+				AC8548732EBF6CA30055FCB6 /* Slider */,
 			);
 			path = "2 SwiftUI Views Mastery ";
 			sourceTree = "<group>";
@@ -1072,6 +1110,49 @@
 			path = Nata;
 			sourceTree = "<group>";
 		};
+		AC85485D2EBF67E40055FCB6 /* Segmented Control (Picker) */ = {
+			isa = PBXGroup;
+			children = (
+				AC85485E2EBF684A0055FCB6 /* SegmentedControl_Intro.swift */,
+				AC8548602EBF688F0055FCB6 /* SegmentedControl_NoSelection.swift */,
+				AC8548622EBF68DB0055FCB6 /* SegmentedControl_Colors.swift */,
+			);
+			path = "Segmented Control (Picker)";
+			sourceTree = "<group>";
+		};
+		AC8548642EBF68FE0055FCB6 /* ShareLink */ = {
+			isa = PBXGroup;
+			children = (
+				AC8548652EBF694A0055FCB6 /* ShareLink_Intro.swift */,
+				AC8548672EBF6A0B0055FCB6 /* ShareLink_SharePreview.swift */,
+				AC8548692EBF6B270055FCB6 /* ShareLink_Customize.swift */,
+			);
+			path = ShareLink;
+			sourceTree = "<group>";
+		};
+		AC85486B2EBF6BA00055FCB6 /* SignInWithAppleButton */ = {
+			isa = PBXGroup;
+			children = (
+				AC85486C2EBF6BDD0055FCB6 /* SignInWithApple_Intro.swift */,
+				AC85486E2EBF6C260055FCB6 /* SignInWithApple_Customizing.swift */,
+				AC8548702EBF6C700055FCB6 /* SignInWithApple_SizeChanges.swift */,
+			);
+			path = SignInWithAppleButton;
+			sourceTree = "<group>";
+		};
+		AC8548732EBF6CA30055FCB6 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				AC8548742EBF6CE60055FCB6 /* Slider_Intro.swift */,
+				AC8548762EBF6D370055FCB6 /* Slider_RangeOfValues.swift */,
+				AC8548782EBF6D980055FCB6 /* Slider_Customization.swift */,
+				AC85487A2EBF6DFD0055FCB6 /* Slider_WithImages.swift */,
+				AC85487C2EBF6E7C0055FCB6 /* Slider_Tint.swift */,
+				AC85487E2EBF6ECE0055FCB6 /* Slider_InMenu.swift */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
 		AC89BFFA2C04B456006BE793 /* QuickSearch */ = {
 			isa = PBXGroup;
 			children = (
@@ -1316,6 +1397,8 @@
 		ACA131852EA29A0C006933FF /* SecureField */ = {
 			isa = PBXGroup;
 			children = (
+				AC8548592EBF673E0055FCB6 /* SecureField_Intro.swift */,
+				AC85485B2EBF67A10055FCB6 /* SecureField_Customization.swift */,
 			);
 			path = SecureField;
 			sourceTree = "<group>";
@@ -1618,6 +1701,7 @@
 				AC9611AA2DDB8C3400398A1F /* CustomTabBarView222.swift in Sources */,
 				ACA131292EA26947006933FF /* NavLink_WithDifferentTypes.swift in Sources */,
 				AC8212BB2E9798FC00D0688A /* Chart_SectorMark.swift in Sources */,
+				AC8548632EBF68DB0055FCB6 /* SegmentedControl_Colors.swift in Sources */,
 				ACA131572EA275B2006933FF /* ProgressView_Total.swift in Sources */,
 				AC5278162BF386E400CD1909 /* PanelViewIndicator.swift in Sources */,
 				ACA1311A2EA242E2006933FF /* Navigation_SplitView.swift in Sources */,
@@ -1644,6 +1728,7 @@
 				ACA1316F2EA27A34006933FF /* ScrollView_Behavior_Paging.swift in Sources */,
 				ACA131412EA26FA9006933FF /* Picker_ProgrammaticSelection.swift in Sources */,
 				ACA1314B2EA27260006933FF /* Picker_WithEnum.swift in Sources */,
+				AC85485C2EBF67A10055FCB6 /* SecureField_Customization.swift in Sources */,
 				AC52782C2BF4ED2C00CD1909 /* ResizableSheetsView.swift in Sources */,
 				AC0E237E2E8D69F800CEC1DF /* ViewThatFits_Vertical.swift in Sources */,
 				AC8213C32E98DD6400D0688A /* List_MoveAndDelete.swift in Sources */,
@@ -1674,14 +1759,19 @@
 				ACDEFE152BEB7F41006E0CD1 /* UserAuthorizationBM.swift in Sources */,
 				ACA131752EA27B33006933FF /* Scrollview_ContentMargins.swift in Sources */,
 				AC9C22112C5A555200D59037 /* SwiftUIViewTangem.swift in Sources */,
+				AC85486F2EBF6C260055FCB6 /* SignInWithApple_Customizing.swift in Sources */,
 				AC30B5432DCA5F3A0071B1FD /* SwiftUIViewPopoverVisibleswift.swift in Sources */,
 				AC8212B22E9796A000D0688A /* Chart_WithData.swift in Sources */,
+				AC85487D2EBF6E7C0055FCB6 /* Slider_Tint.swift in Sources */,
 				AC2AA4892DDF26EA004C4E24 /* CustomTabBarContainerView.swift in Sources */,
 				ACA130DD2EA21048006933FF /* List_Badge.swift in Sources */,
+				AC8548662EBF694A0055FCB6 /* ShareLink_Intro.swift in Sources */,
 				AC45FBCD2D29614D0020837B /* CalendarViewModel.swift in Sources */,
 				AC2AA48B2DDF26FF004C4E24 /* TabBarItemsPreferenceKey.swift in Sources */,
+				AC85486D2EBF6BDD0055FCB6 /* SignInWithApple_Intro.swift in Sources */,
 				ACA130F12EA21F19006933FF /* MultiDatePicker_Intro.swift in Sources */,
 				ACC20EBB2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */,
+				AC85487F2EBF6ECE0055FCB6 /* Slider_InMenu.swift in Sources */,
 				AC82964B2B5E583F008383B0 /* PinnedUIView.swift in Sources */,
 				ACA1316D2EA279B7006933FF /* Scrollview_ScrollBounceBehavior.swift in Sources */,
 				AC09CE012D4134F70038A629 /* MenuSwiftUIView.swift in Sources */,
@@ -1706,6 +1796,7 @@
 				AC7325EB2E7C5789008AA41B /* ScrollViewReaderText2.swift in Sources */,
 				ACA1316B2EA27975006933FF /* Scrollview_Disabled.swift in Sources */,
 				AC82964C2B5E583F008383B0 /* ScrollDirectionCustomGesture.swift in Sources */,
+				AC8548712EBF6C700055FCB6 /* SignInWithApple_SizeChanges.swift in Sources */,
 				AC411F9E2D7ED93D009AFD7A /* SizePreferenceKey2.swift in Sources */,
 				ACA130F72EA21FF3006933FF /* MultiDatePicker_Customizations.swift in Sources */,
 				AC5278212BF4CF7700CD1909 /* AlertContentView.swift in Sources */,
@@ -1735,6 +1826,7 @@
 				ACA130D62EA20CCE006933FF /* TabPosition.swift in Sources */,
 				AC09CDFF2D4133CC0038A629 /* SwiftUIViewIpad5.swift in Sources */,
 				ACA131552EA27561006933FF /* ProgressView_ShowingProgress.swift in Sources */,
+				AC8548772EBF6D370055FCB6 /* Slider_RangeOfValues.swift in Sources */,
 				ACA131312EA26B88006933FF /* Nav_WithNavigationPath.swift in Sources */,
 				AC8212BF2E97998900D0688A /* Chart_SectorMark_Donut.swift in Sources */,
 				AC5278422BF6497D00CD1909 /* ExitAlertModifier.swift in Sources */,
@@ -1748,8 +1840,10 @@
 				ACB98E3E2C22DF4500831CC7 /* CustomResizableLogoutInfoSheetView.swift in Sources */,
 				ACFA09262CECA42000A2167E /* 11111123ffffff.swift in Sources */,
 				ACA12F662E9FD62E006933FF /* TopBarWithCutout.swift in Sources */,
+				AC85485F2EBF684A0055FCB6 /* SegmentedControl_Intro.swift in Sources */,
 				ACA131132EA241C8006933FF /* Navigation_NavBarItems.swift in Sources */,
 				ACDFF3A32B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift in Sources */,
+				AC8548792EBF6D980055FCB6 /* Slider_Customization.swift in Sources */,
 				ACA1310D2EA240BF006933FF /* Navigation_UINavigationBarAppearance.swift in Sources */,
 				AC2AA4872DDF26DB004C4E24 /* CustomTabBarView.swift in Sources */,
 				AC502DA52CD9450C00DDB86A /* ContentOneeView.swift in Sources */,
@@ -1764,6 +1858,7 @@
 				ACC88E772E43372600077A2C /* CustomTabBarExampleContentView.swift in Sources */,
 				AC366EC12C2075300029AA9A /* DropDown4.swift in Sources */,
 				AC45FBD12D29617F0020837B /* CalendarViewController.swift in Sources */,
+				AC85485A2EBF673E0055FCB6 /* SecureField_Intro.swift in Sources */,
 				AC6BC6002D8C11FC000DF3AB /* FavoriteKiller.swift in Sources */,
 				AC8213B32E98D9C200D0688A /* Gauge_Circular.swift in Sources */,
 				ACFEDC782B83A2C3002B3C66 /* View+Hidden.swift in Sources */,
@@ -1775,6 +1870,7 @@
 				ACA131092EA23FE5006933FF /* Navigation_ToolbarBackground.swift in Sources */,
 				ACCECFC92D00AB2900C9AB91 /* IpadTestSwiftUIView.swift in Sources */,
 				AC72FA642B513E2C009E60AB /* ForTestsApp.swift in Sources */,
+				AC85486A2EBF6B270055FCB6 /* ShareLink_Customize.swift in Sources */,
 				AC03622D2C187D7D0033B781 /* View5.swift in Sources */,
 				AC8212B82E97985C00D0688A /* GroupInfo.swift in Sources */,
 				AC366ECC2C21C0AF0029AA9A /* SheetStartTest.swift in Sources */,
@@ -1799,7 +1895,9 @@
 				AC366EC72C2182740029AA9A /* SwiftUIView11111.swift in Sources */,
 				ACA131232EA24470006933FF /* NavLink_Intro.swift in Sources */,
 				AC89C0122C04D5F8006BE793 /* ContentView.swift in Sources */,
+				AC85487B2EBF6DFD0055FCB6 /* Slider_WithImages.swift in Sources */,
 				AC5278142BF385DC00CD1909 /* PanelViewNew.swift in Sources */,
+				AC8548612EBF688F0055FCB6 /* SegmentedControl_NoSelection.swift in Sources */,
 				AC82964D2B5E583F008383B0 /* ScrollDirectionView.swift in Sources */,
 				ACA131692EA278EF006933FF /* ScrollView_Horizontal_SafeAreaInset.swift in Sources */,
 				AC8213B02E98D90D00D0688A /* Gauge_Intro.swift in Sources */,
@@ -1824,6 +1922,7 @@
 				ACA131352EA26CFB006933FF /* NavLink_IsDetailLink.swift in Sources */,
 				AC8213C02E98DC7400D0688A /* Link_ButtonStyles.swift in Sources */,
 				AC8213DB2E98E5CB00D0688A /* List_SafeAreaInset_ScrollView.swift in Sources */,
+				AC8548682EBF6A0B0055FCB6 /* ShareLink_SharePreview.swift in Sources */,
 				ACA131602EA2778C006933FF /* RenameButton_EditText.swift in Sources */,
 				ACFEDC762B83A2A6002B3C66 /* View+Padding.swift in Sources */,
 				ACFA09282CEDE05400A2167E /* HelperSwiftUIView.swift in Sources */,
@@ -1843,6 +1942,7 @@
 				AC0E23832E8D78D500CEC1DF /* CUV_WithActions.swift in Sources */,
 				ACDB1FCE2DD61D0D00A8EC52 /* FavoriteDocumentAlreadyUnderControlView.swift in Sources */,
 				AC2AA4852DDF26CC004C4E24 /* AppTabBarView.swift in Sources */,
+				AC8548752EBF6CE60055FCB6 /* Slider_Intro.swift in Sources */,
 				AC5278182BF388F700CD1909 /* BottomSheet.swift in Sources */,
 				AC0E23862E8D799900CEC1DF /* CUV_IntendedUse.swift in Sources */,
 				AC5278402BF6495300CD1909 /* ContentViewOne1.swift in Sources */,

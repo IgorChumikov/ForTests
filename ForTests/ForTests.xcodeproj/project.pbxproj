@@ -137,6 +137,20 @@
 		AC85487B2EBF6DFD0055FCB6 /* Slider_WithImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85487A2EBF6DFD0055FCB6 /* Slider_WithImages.swift */; };
 		AC85487D2EBF6E7C0055FCB6 /* Slider_Tint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85487C2EBF6E7C0055FCB6 /* Slider_Tint.swift */; };
 		AC85487F2EBF6ECE0055FCB6 /* Slider_InMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85487E2EBF6ECE0055FCB6 /* Slider_InMenu.swift */; };
+		AC8548822EBF6F7B0055FCB6 /* Stepper_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548812EBF6F7B0055FCB6 /* Stepper_Intro.swift */; };
+		AC8548852EBF70130055FCB6 /* TabView_TooManyTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548842EBF70130055FCB6 /* TabView_TooManyTabs.swift */; };
+		AC8548872EBF70FE0055FCB6 /* TabView_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548862EBF70FE0055FCB6 /* TabView_Colors.swift */; };
+		AC8548892EBF71550055FCB6 /* TabView_Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548882EBF71550055FCB6 /* TabView_Badge.swift */; };
+		AC85488B2EBF71F10055FCB6 /* Toolbar_BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85488A2EBF71F10055FCB6 /* Toolbar_BackgroundColor.swift */; };
+		AC85488D2EBF729B0055FCB6 /* TabView_Background_Scrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85488C2EBF729B0055FCB6 /* TabView_Background_Scrolling.swift */; };
+		AC85488F2EBF72F80055FCB6 /* TabView_Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85488E2EBF72F80055FCB6 /* TabView_Background.swift */; };
+		AC8548912EBF739F0055FCB6 /* TabView_UITabBarAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548902EBF739F0055FCB6 /* TabView_UITabBarAppearance.swift */; };
+		AC8548942EBF74200055FCB6 /* TabView_ToolbarBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548932EBF74200055FCB6 /* TabView_ToolbarBackground.swift */; };
+		AC8548BE2EC0DADA0055FCB6 /* TabView_ToolbarBackgroundVisibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548BD2EC0DADA0055FCB6 /* TabView_ToolbarBackgroundVisibility.swift */; };
+		AC8548C12EC0DB9A0055FCB6 /* TabView_PageTabViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548C02EC0DB9A0055FCB6 /* TabView_PageTabViewStyle.swift */; };
+		AC8548C32EC0DD9A0055FCB6 /* TabView_PageTabViewStyle_IndexViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548C22EC0DD9A0055FCB6 /* TabView_PageTabViewStyle_IndexViewStyle.swift */; };
+		AC8548C52EC0DE020055FCB6 /* TabView_PageTabViewStyle_IndexDisplayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548C42EC0DE020055FCB6 /* TabView_PageTabViewStyle_IndexDisplayMode.swift */; };
+		AC8548C72EC0DE450055FCB6 /* TabView_Customizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548C62EC0DE450055FCB6 /* TabView_Customizations.swift */; };
 		AC89BFFC2C04B462006BE793 /* QuickSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89BFFB2C04B462006BE793 /* QuickSearchView.swift */; };
 		AC89BFFE2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89BFFD2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift */; };
 		AC89C0122C04D5F8006BE793 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89C0112C04D5F8006BE793 /* ContentView.swift */; };
@@ -395,6 +409,20 @@
 		AC85487A2EBF6DFD0055FCB6 /* Slider_WithImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider_WithImages.swift; sourceTree = "<group>"; };
 		AC85487C2EBF6E7C0055FCB6 /* Slider_Tint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider_Tint.swift; sourceTree = "<group>"; };
 		AC85487E2EBF6ECE0055FCB6 /* Slider_InMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider_InMenu.swift; sourceTree = "<group>"; };
+		AC8548812EBF6F7B0055FCB6 /* Stepper_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper_Intro.swift; sourceTree = "<group>"; };
+		AC8548842EBF70130055FCB6 /* TabView_TooManyTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_TooManyTabs.swift; sourceTree = "<group>"; };
+		AC8548862EBF70FE0055FCB6 /* TabView_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_Colors.swift; sourceTree = "<group>"; };
+		AC8548882EBF71550055FCB6 /* TabView_Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_Badge.swift; sourceTree = "<group>"; };
+		AC85488A2EBF71F10055FCB6 /* Toolbar_BackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbar_BackgroundColor.swift; sourceTree = "<group>"; };
+		AC85488C2EBF729B0055FCB6 /* TabView_Background_Scrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_Background_Scrolling.swift; sourceTree = "<group>"; };
+		AC85488E2EBF72F80055FCB6 /* TabView_Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_Background.swift; sourceTree = "<group>"; };
+		AC8548902EBF739F0055FCB6 /* TabView_UITabBarAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_UITabBarAppearance.swift; sourceTree = "<group>"; };
+		AC8548932EBF74200055FCB6 /* TabView_ToolbarBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_ToolbarBackground.swift; sourceTree = "<group>"; };
+		AC8548BD2EC0DADA0055FCB6 /* TabView_ToolbarBackgroundVisibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_ToolbarBackgroundVisibility.swift; sourceTree = "<group>"; };
+		AC8548C02EC0DB9A0055FCB6 /* TabView_PageTabViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_PageTabViewStyle.swift; sourceTree = "<group>"; };
+		AC8548C22EC0DD9A0055FCB6 /* TabView_PageTabViewStyle_IndexViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_PageTabViewStyle_IndexViewStyle.swift; sourceTree = "<group>"; };
+		AC8548C42EC0DE020055FCB6 /* TabView_PageTabViewStyle_IndexDisplayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_PageTabViewStyle_IndexDisplayMode.swift; sourceTree = "<group>"; };
+		AC8548C62EC0DE450055FCB6 /* TabView_Customizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_Customizations.swift; sourceTree = "<group>"; };
 		AC89BFFB2C04B462006BE793 /* QuickSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSearchView.swift; sourceTree = "<group>"; };
 		AC89BFFD2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSearchListFoundDocuments.swift; sourceTree = "<group>"; };
 		AC89C0112C04D5F8006BE793 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -602,6 +630,9 @@
 				AC8548642EBF68FE0055FCB6 /* ShareLink */,
 				AC85486B2EBF6BA00055FCB6 /* SignInWithAppleButton */,
 				AC8548732EBF6CA30055FCB6 /* Slider */,
+				AC8548802EBF6F420055FCB6 /* Stepper */,
+				AC8548832EBF6FD70055FCB6 /* TabView */,
+				AC8548BF2EC0DB780055FCB6 /* TabView - Paging Style */,
 			);
 			path = "2 SwiftUI Views Mastery ";
 			sourceTree = "<group>";
@@ -1153,6 +1184,49 @@
 			path = Slider;
 			sourceTree = "<group>";
 		};
+		AC8548802EBF6F420055FCB6 /* Stepper */ = {
+			isa = PBXGroup;
+			children = (
+				AC8548812EBF6F7B0055FCB6 /* Stepper_Intro.swift */,
+			);
+			path = Stepper;
+			sourceTree = "<group>";
+		};
+		AC8548832EBF6FD70055FCB6 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				AC8548922EBF73DF0055FCB6 /* 13-15 */,
+				AC8548932EBF74200055FCB6 /* TabView_ToolbarBackground.swift */,
+				AC8548BD2EC0DADA0055FCB6 /* TabView_ToolbarBackgroundVisibility.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		AC8548922EBF73DF0055FCB6 /* 13-15 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8548842EBF70130055FCB6 /* TabView_TooManyTabs.swift */,
+				AC8548862EBF70FE0055FCB6 /* TabView_Colors.swift */,
+				AC8548882EBF71550055FCB6 /* TabView_Badge.swift */,
+				AC85488A2EBF71F10055FCB6 /* Toolbar_BackgroundColor.swift */,
+				AC85488C2EBF729B0055FCB6 /* TabView_Background_Scrolling.swift */,
+				AC85488E2EBF72F80055FCB6 /* TabView_Background.swift */,
+				AC8548902EBF739F0055FCB6 /* TabView_UITabBarAppearance.swift */,
+			);
+			path = "13-15";
+			sourceTree = "<group>";
+		};
+		AC8548BF2EC0DB780055FCB6 /* TabView - Paging Style */ = {
+			isa = PBXGroup;
+			children = (
+				AC8548C02EC0DB9A0055FCB6 /* TabView_PageTabViewStyle.swift */,
+				AC8548C22EC0DD9A0055FCB6 /* TabView_PageTabViewStyle_IndexViewStyle.swift */,
+				AC8548C42EC0DE020055FCB6 /* TabView_PageTabViewStyle_IndexDisplayMode.swift */,
+				AC8548C62EC0DE450055FCB6 /* TabView_Customizations.swift */,
+			);
+			path = "TabView - Paging Style";
+			sourceTree = "<group>";
+		};
 		AC89BFFA2C04B456006BE793 /* QuickSearch */ = {
 			isa = PBXGroup;
 			children = (
@@ -1699,6 +1773,7 @@
 				ACFEDC742B83A246002B3C66 /* View+OnFirstAppear.swift in Sources */,
 				ACA131272EA268D7006933FF /* NavLink_WithNavigationDestination.swift in Sources */,
 				AC9611AA2DDB8C3400398A1F /* CustomTabBarView222.swift in Sources */,
+				AC85488F2EBF72F80055FCB6 /* TabView_Background.swift in Sources */,
 				ACA131292EA26947006933FF /* NavLink_WithDifferentTypes.swift in Sources */,
 				AC8212BB2E9798FC00D0688A /* Chart_SectorMark.swift in Sources */,
 				AC8548632EBF68DB0055FCB6 /* SegmentedControl_Colors.swift in Sources */,
@@ -1713,6 +1788,7 @@
 				ACCECFD02D00BA6200C9AB91 /* GoogleIpadSwiftUIView.swift in Sources */,
 				ACA131492EA27218006933FF /* Picker_NavigationLinkStyle.swift in Sources */,
 				AC5278362BF646C100CD1909 /* ContentViewOne.swift in Sources */,
+				AC8548C12EC0DB9A0055FCB6 /* TabView_PageTabViewStyle.swift in Sources */,
 				ACA1315D2EA27721006933FF /* ProgressView_Tint.swift in Sources */,
 				AC5278452BF649C600CD1909 /* ContentViewOne2.swift in Sources */,
 				AC8213D92E98E52900D0688A /* List_SafeAreaInset.swift in Sources */,
@@ -1756,6 +1832,7 @@
 				ACA131472EA271DA006933FF /* Picker_InForm.swift in Sources */,
 				AC0E23772E8D666500CEC1DF /* ControlGroup_Intro.swift in Sources */,
 				AC0E237C2E8D696000CEC1DF /* ViewThatFits_Intro.swift in Sources */,
+				AC8548942EBF74200055FCB6 /* TabView_ToolbarBackground.swift in Sources */,
 				ACDEFE152BEB7F41006E0CD1 /* UserAuthorizationBM.swift in Sources */,
 				ACA131752EA27B33006933FF /* Scrollview_ContentMargins.swift in Sources */,
 				AC9C22112C5A555200D59037 /* SwiftUIViewTangem.swift in Sources */,
@@ -1771,23 +1848,28 @@
 				AC85486D2EBF6BDD0055FCB6 /* SignInWithApple_Intro.swift in Sources */,
 				ACA130F12EA21F19006933FF /* MultiDatePicker_Intro.swift in Sources */,
 				ACC20EBB2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */,
+				AC8548BE2EC0DADA0055FCB6 /* TabView_ToolbarBackgroundVisibility.swift in Sources */,
 				AC85487F2EBF6ECE0055FCB6 /* Slider_InMenu.swift in Sources */,
 				AC82964B2B5E583F008383B0 /* PinnedUIView.swift in Sources */,
 				ACA1316D2EA279B7006933FF /* Scrollview_ScrollBounceBehavior.swift in Sources */,
 				AC09CE012D4134F70038A629 /* MenuSwiftUIView.swift in Sources */,
 				ACA131452EA271A6006933FF /* Picker_BindingToData.swift in Sources */,
 				ACA1310B2EA24040006933FF /* Navigation_CustomBackground.swift in Sources */,
+				AC8548892EBF71550055FCB6 /* TabView_Badge.swift in Sources */,
 				ACA1314E2EA2731F006933FF /* PhotosPicker_Intro.swift in Sources */,
 				AC8213BA2E98DA8D00D0688A /* GroupBox_WithLabel.swift in Sources */,
+				AC8548872EBF70FE0055FCB6 /* TabView_Colors.swift in Sources */,
 				ACA131152EA2420D006933FF /* Navigation_BackButtonHidden.swift in Sources */,
 				AC8529452E851B3500E9CE60 /* GroupVsGroupBoxDemo.swift in Sources */,
 				ACA131112EA2417F006933FF /* Navigation_BarHidden.swift in Sources */,
 				ACC496ED2C8B283F00EAA344 /* AppleSwiftUIView2.swift in Sources */,
 				ACA131652EA27836006933FF /* ScrollView_SafeAreaInset.swift in Sources */,
+				AC8548822EBF6F7B0055FCB6 /* Stepper_Intro.swift in Sources */,
 				ACA131632EA27806006933FF /* ScrollView_Intro.swift in Sources */,
 				ACA130DA2EA20D02006933FF /* Tab.swift in Sources */,
 				ACA1317C2EA27EF5006933FF /* Searchable_DismissSearch.swift in Sources */,
 				AC8213BE2E98DC0400D0688A /* LabeledContent_Intro.swift in Sources */,
+				AC8548C32EC0DD9A0055FCB6 /* TabView_PageTabViewStyle_IndexViewStyle.swift in Sources */,
 				AC9611A82DDB835700398A1F /* CustomTabBarView111.swift in Sources */,
 				AC0927602EBCA13E006332C9 /* ScreenshotListenerView.swift in Sources */,
 				AC52782A2BF4E9F700CD1909 /* BottomSheetView.swift in Sources */,
@@ -1820,6 +1902,7 @@
 				AC2AA5292DE098A1004C4E24 /* 11111.swift in Sources */,
 				ACA130DF2EA210A6006933FF /* List_ScrollContentBackground.swift in Sources */,
 				AC9611A42DDB23C100398A1F /* CreatedSwiftUIView.swift in Sources */,
+				AC85488B2EBF71F10055FCB6 /* Toolbar_BackgroundColor.swift in Sources */,
 				AC5B1B042BDAEEAF0063ABA5 /* UserAuthorizationBMView.swift in Sources */,
 				ACA131822EA294D5006933FF /* Navigation_Filter_Grid.swift in Sources */,
 				AC52781A2BF38AE800CD1909 /* DialogView.swift in Sources */,
@@ -1850,11 +1933,13 @@
 				ACA1313D2EA26F2A006933FF /* Picker_Sections.swift in Sources */,
 				AC8213B52E98D9E900D0688A /* Gauge_CircularSize.swift in Sources */,
 				AC7325E92E7C32B3008AA41B /* ScrollViewReaderText.swift in Sources */,
+				AC8548C52EC0DE020055FCB6 /* TabView_PageTabViewStyle_IndexDisplayMode.swift in Sources */,
 				ACFD59EE2E2E54EE001D4740 /* ListListSwiftUIView.swift in Sources */,
 				AC3B12DD2CF099440076D9B3 /* SearchFruitsView.swift in Sources */,
 				AC8212BD2E97996A00D0688A /* Share.swift in Sources */,
 				ACFEDC702B83A064002B3C66 /* Skeleton.swift in Sources */,
 				ACA130D22EA20C94006933FF /* Home.swift in Sources */,
+				AC85488D2EBF729B0055FCB6 /* TabView_Background_Scrolling.swift in Sources */,
 				ACC88E772E43372600077A2C /* CustomTabBarExampleContentView.swift in Sources */,
 				AC366EC12C2075300029AA9A /* DropDown4.swift in Sources */,
 				AC45FBD12D29617F0020837B /* CalendarViewController.swift in Sources */,
@@ -1862,6 +1947,7 @@
 				AC6BC6002D8C11FC000DF3AB /* FavoriteKiller.swift in Sources */,
 				AC8213B32E98D9C200D0688A /* Gauge_Circular.swift in Sources */,
 				ACFEDC782B83A2C3002B3C66 /* View+Hidden.swift in Sources */,
+				AC8548852EBF70130055FCB6 /* TabView_TooManyTabs.swift in Sources */,
 				ACFEDC7B2B83A333002B3C66 /* DisableScrollingModifier.swift in Sources */,
 				ACEC5E3A2CAF1E4200ECBB2F /* SwiftUIViewIpad4.swift in Sources */,
 				ACA1317A2EA27E18006933FF /* Navigation_Searchable_Cancel.swift in Sources */,
@@ -1872,6 +1958,7 @@
 				AC72FA642B513E2C009E60AB /* ForTestsApp.swift in Sources */,
 				AC85486A2EBF6B270055FCB6 /* ShareLink_Customize.swift in Sources */,
 				AC03622D2C187D7D0033B781 /* View5.swift in Sources */,
+				AC8548912EBF739F0055FCB6 /* TabView_UITabBarAppearance.swift in Sources */,
 				AC8212B82E97985C00D0688A /* GroupInfo.swift in Sources */,
 				AC366ECC2C21C0AF0029AA9A /* SheetStartTest.swift in Sources */,
 				AC89C0182C071C9F006BE793 /* DynamicHeightTextEditor.swift in Sources */,
@@ -1916,6 +2003,7 @@
 				ACA130EA2EA21DAA006933FF /* Menu_MaxItems.swift in Sources */,
 				AC411FA02D7ED95B009AFD7A /* TruncationTextMaskModifier.swift in Sources */,
 				ACA1310F2EA24103006933FF /* Navigation_DisplayMode.swift in Sources */,
+				AC8548C72EC0DE450055FCB6 /* TabView_Customizations.swift in Sources */,
 				ACA131672EA278A5006933FF /* ScrollView_Horizontal.swift in Sources */,
 				ACC496E42C8B204B00EAA344 /* FileItem.swift in Sources */,
 				ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */,

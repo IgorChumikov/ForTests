@@ -151,6 +151,23 @@
 		AC8548C32EC0DD9A0055FCB6 /* TabView_PageTabViewStyle_IndexViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548C22EC0DD9A0055FCB6 /* TabView_PageTabViewStyle_IndexViewStyle.swift */; };
 		AC8548C52EC0DE020055FCB6 /* TabView_PageTabViewStyle_IndexDisplayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548C42EC0DE020055FCB6 /* TabView_PageTabViewStyle_IndexDisplayMode.swift */; };
 		AC8548C72EC0DE450055FCB6 /* TabView_Customizations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548C62EC0DE450055FCB6 /* TabView_Customizations.swift */; };
+		AC8548CA2EC0E0920055FCB6 /* Text_FontWidths.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548C92EC0E0920055FCB6 /* Text_FontWidths.swift */; };
+		AC8548CC2EC0E0E80055FCB6 /* Text_Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548CB2EC0E0E80055FCB6 /* Text_Formatting.swift */; };
+		AC8548CE2EC0E15A0055FCB6 /* Text_MinimumScaleFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548CD2EC0E15A0055FCB6 /* Text_MinimumScaleFactor.swift */; };
+		AC8548D02EC0E1C50055FCB6 /* Text_LineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548CF2EC0E1C50055FCB6 /* Text_LineSpacing.swift */; };
+		AC8548D22EC0E22B0055FCB6 /* Text_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548D12EC0E22B0055FCB6 /* Text_Alignment.swift */; };
+		AC8548D42EC0E29F0055FCB6 /* Text_CombiningModifiedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548D32EC0E29F0055FCB6 /* Text_CombiningModifiedText.swift */; };
+		AC8548D62EC0E3330055FCB6 /* Text_BaselineOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548D52EC0E3330055FCB6 /* Text_BaselineOffset.swift */; };
+		AC8548D82EC0E4050055FCB6 /* Text_ScaledMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548D72EC0E4050055FCB6 /* Text_ScaledMetric.swift */; };
+		AC8548DD2EC0E52C0055FCB6 /* Text_Markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548DC2EC0E52C0055FCB6 /* Text_Markdown.swift */; };
+		AC8548DF2EC0E6480055FCB6 /* Text_TextSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548DE2EC0E6480055FCB6 /* Text_TextSelection.swift */; };
+		AC8548E12EC0E7190055FCB6 /* Text_Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548E02EC0E7190055FCB6 /* Text_Format.swift */; };
+		AC8548E32EC0E7780055FCB6 /* Text_DateFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548E22EC0E7780055FCB6 /* Text_DateFormatting.swift */; };
+		AC8548E52EC0E8410055FCB6 /* Text_DateFormat_Specific.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548E42EC0E8410055FCB6 /* Text_DateFormat_Specific.swift */; };
+		AC8548E72EC0E8C60055FCB6 /* Text_TimeFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548E62EC0E8C60055FCB6 /* Text_TimeFormatting.swift */; };
+		AC8548E92EC0E9660055FCB6 /* Text_Measurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548E82EC0E9660055FCB6 /* Text_Measurement.swift */; };
+		AC8548EB2EC0EA4F0055FCB6 /* Text_MeasurementConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548EA2EC0EA4F0055FCB6 /* Text_MeasurementConversion.swift */; };
+		AC8548ED2EC0EAF10055FCB6 /* Text_Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8548EC2EC0EAF10055FCB6 /* Text_Currency.swift */; };
 		AC89BFFC2C04B462006BE793 /* QuickSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89BFFB2C04B462006BE793 /* QuickSearchView.swift */; };
 		AC89BFFE2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89BFFD2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift */; };
 		AC89C0122C04D5F8006BE793 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89C0112C04D5F8006BE793 /* ContentView.swift */; };
@@ -423,6 +440,23 @@
 		AC8548C22EC0DD9A0055FCB6 /* TabView_PageTabViewStyle_IndexViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_PageTabViewStyle_IndexViewStyle.swift; sourceTree = "<group>"; };
 		AC8548C42EC0DE020055FCB6 /* TabView_PageTabViewStyle_IndexDisplayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_PageTabViewStyle_IndexDisplayMode.swift; sourceTree = "<group>"; };
 		AC8548C62EC0DE450055FCB6 /* TabView_Customizations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_Customizations.swift; sourceTree = "<group>"; };
+		AC8548C92EC0E0920055FCB6 /* Text_FontWidths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_FontWidths.swift; sourceTree = "<group>"; };
+		AC8548CB2EC0E0E80055FCB6 /* Text_Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Formatting.swift; sourceTree = "<group>"; };
+		AC8548CD2EC0E15A0055FCB6 /* Text_MinimumScaleFactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_MinimumScaleFactor.swift; sourceTree = "<group>"; };
+		AC8548CF2EC0E1C50055FCB6 /* Text_LineSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_LineSpacing.swift; sourceTree = "<group>"; };
+		AC8548D12EC0E22B0055FCB6 /* Text_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Alignment.swift; sourceTree = "<group>"; };
+		AC8548D32EC0E29F0055FCB6 /* Text_CombiningModifiedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_CombiningModifiedText.swift; sourceTree = "<group>"; };
+		AC8548D52EC0E3330055FCB6 /* Text_BaselineOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_BaselineOffset.swift; sourceTree = "<group>"; };
+		AC8548D72EC0E4050055FCB6 /* Text_ScaledMetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_ScaledMetric.swift; sourceTree = "<group>"; };
+		AC8548DC2EC0E52C0055FCB6 /* Text_Markdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Markdown.swift; sourceTree = "<group>"; };
+		AC8548DE2EC0E6480055FCB6 /* Text_TextSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_TextSelection.swift; sourceTree = "<group>"; };
+		AC8548E02EC0E7190055FCB6 /* Text_Format.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Format.swift; sourceTree = "<group>"; };
+		AC8548E22EC0E7780055FCB6 /* Text_DateFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_DateFormatting.swift; sourceTree = "<group>"; };
+		AC8548E42EC0E8410055FCB6 /* Text_DateFormat_Specific.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_DateFormat_Specific.swift; sourceTree = "<group>"; };
+		AC8548E62EC0E8C60055FCB6 /* Text_TimeFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_TimeFormatting.swift; sourceTree = "<group>"; };
+		AC8548E82EC0E9660055FCB6 /* Text_Measurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Measurement.swift; sourceTree = "<group>"; };
+		AC8548EA2EC0EA4F0055FCB6 /* Text_MeasurementConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_MeasurementConversion.swift; sourceTree = "<group>"; };
+		AC8548EC2EC0EAF10055FCB6 /* Text_Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Currency.swift; sourceTree = "<group>"; };
 		AC89BFFB2C04B462006BE793 /* QuickSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSearchView.swift; sourceTree = "<group>"; };
 		AC89BFFD2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSearchListFoundDocuments.swift; sourceTree = "<group>"; };
 		AC89C0112C04D5F8006BE793 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -633,6 +667,7 @@
 				AC8548802EBF6F420055FCB6 /* Stepper */,
 				AC8548832EBF6FD70055FCB6 /* TabView */,
 				AC8548BF2EC0DB780055FCB6 /* TabView - Paging Style */,
+				AC8548C82EC0E0620055FCB6 /* Text */,
 			);
 			path = "2 SwiftUI Views Mastery ";
 			sourceTree = "<group>";
@@ -1227,6 +1262,54 @@
 			path = "TabView - Paging Style";
 			sourceTree = "<group>";
 		};
+		AC8548C82EC0E0620055FCB6 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				AC8548D92EC0E4C00055FCB6 /* 13-14 */,
+				AC8548DA2EC0E4D90055FCB6 /* 15 */,
+				AC8548DB2EC0E4E10055FCB6 /* 16 */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		AC8548D92EC0E4C00055FCB6 /* 13-14 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8548CB2EC0E0E80055FCB6 /* Text_Formatting.swift */,
+				AC8548CD2EC0E15A0055FCB6 /* Text_MinimumScaleFactor.swift */,
+				AC8548CF2EC0E1C50055FCB6 /* Text_LineSpacing.swift */,
+				AC8548D12EC0E22B0055FCB6 /* Text_Alignment.swift */,
+				AC8548D32EC0E29F0055FCB6 /* Text_CombiningModifiedText.swift */,
+				AC8548D52EC0E3330055FCB6 /* Text_BaselineOffset.swift */,
+				AC8548D72EC0E4050055FCB6 /* Text_ScaledMetric.swift */,
+			);
+			path = "13-14";
+			sourceTree = "<group>";
+		};
+		AC8548DA2EC0E4D90055FCB6 /* 15 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8548DC2EC0E52C0055FCB6 /* Text_Markdown.swift */,
+				AC8548DE2EC0E6480055FCB6 /* Text_TextSelection.swift */,
+				AC8548E02EC0E7190055FCB6 /* Text_Format.swift */,
+				AC8548E22EC0E7780055FCB6 /* Text_DateFormatting.swift */,
+				AC8548E42EC0E8410055FCB6 /* Text_DateFormat_Specific.swift */,
+				AC8548E62EC0E8C60055FCB6 /* Text_TimeFormatting.swift */,
+				AC8548E82EC0E9660055FCB6 /* Text_Measurement.swift */,
+				AC8548EA2EC0EA4F0055FCB6 /* Text_MeasurementConversion.swift */,
+				AC8548EC2EC0EAF10055FCB6 /* Text_Currency.swift */,
+			);
+			path = 15;
+			sourceTree = "<group>";
+		};
+		AC8548DB2EC0E4E10055FCB6 /* 16 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8548C92EC0E0920055FCB6 /* Text_FontWidths.swift */,
+			);
+			path = 16;
+			sourceTree = "<group>";
+		};
 		AC89BFFA2C04B456006BE793 /* QuickSearch */ = {
 			isa = PBXGroup;
 			children = (
@@ -1770,6 +1853,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC5278342BF6468600CD1909 /* CustomAlertView.swift in Sources */,
+				AC8548E92EC0E9660055FCB6 /* Text_Measurement.swift in Sources */,
 				ACFEDC742B83A246002B3C66 /* View+OnFirstAppear.swift in Sources */,
 				ACA131272EA268D7006933FF /* NavLink_WithNavigationDestination.swift in Sources */,
 				AC9611AA2DDB8C3400398A1F /* CustomTabBarView222.swift in Sources */,
@@ -1795,6 +1879,7 @@
 				AC2AA5252DE08B8D004C4E24 /* DocumentEventSheetView.swift in Sources */,
 				AC0E23802E8D6A1F00CEC1DF /* ViewThatFits_WithScrollView.swift in Sources */,
 				ACDB1FCB2DD5EF7A00A8EC52 /* SwiftUIViewTestSheet2.swift in Sources */,
+				AC8548E72EC0E8C60055FCB6 /* Text_TimeFormatting.swift in Sources */,
 				ACA131072EA23F87006933FF /* Navigation_BackgroundColor.swift in Sources */,
 				ACA130EC2EA21E09006933FF /* Menu_OtherViewsWithin.swift in Sources */,
 				AC03622F2C1B10E00033B781 /* MainView5.swift in Sources */,
@@ -1820,6 +1905,7 @@
 				AC45FBD32D2962050020837B /* AssistantCollectionViewCell.swift in Sources */,
 				ACDB1FC72DD5EC3000A8EC52 /* SwiftUIViewTestSheet.swift in Sources */,
 				ACC496DF2C8B1C9B00EAA344 /* FolderView.swift in Sources */,
+				AC8548DD2EC0E52C0055FCB6 /* Text_Markdown.swift in Sources */,
 				AC8213B72E98DA2000D0688A /* Gauge_LabelsDemo.swift in Sources */,
 				AC366EBE2C2074F00029AA9A /* MenuSwiftUIView11.swift in Sources */,
 				AC502DA72CD945C700DDB86A /* ContentOneeStructView.swift in Sources */,
@@ -1864,10 +1950,12 @@
 				ACA131112EA2417F006933FF /* Navigation_BarHidden.swift in Sources */,
 				ACC496ED2C8B283F00EAA344 /* AppleSwiftUIView2.swift in Sources */,
 				ACA131652EA27836006933FF /* ScrollView_SafeAreaInset.swift in Sources */,
+				AC8548D62EC0E3330055FCB6 /* Text_BaselineOffset.swift in Sources */,
 				AC8548822EBF6F7B0055FCB6 /* Stepper_Intro.swift in Sources */,
 				ACA131632EA27806006933FF /* ScrollView_Intro.swift in Sources */,
 				ACA130DA2EA20D02006933FF /* Tab.swift in Sources */,
 				ACA1317C2EA27EF5006933FF /* Searchable_DismissSearch.swift in Sources */,
+				AC8548D22EC0E22B0055FCB6 /* Text_Alignment.swift in Sources */,
 				AC8213BE2E98DC0400D0688A /* LabeledContent_Intro.swift in Sources */,
 				AC8548C32EC0DD9A0055FCB6 /* TabView_PageTabViewStyle_IndexViewStyle.swift in Sources */,
 				AC9611A82DDB835700398A1F /* CustomTabBarView111.swift in Sources */,
@@ -1896,6 +1984,7 @@
 				ACA131252EA244B2006933FF /* NavLink_Customization.swift in Sources */,
 				ACEC5E342CAF1A5B00ECBB2F /* SwiftUIViewIpad.swift in Sources */,
 				AC52780F2BF37C7700CD1909 /* ScrollablePanelView.swift in Sources */,
+				AC8548E12EC0E7190055FCB6 /* Text_Format.swift in Sources */,
 				ACA131382EA26DAD006933FF /* OutlineGroup_Intro.swift in Sources */,
 				AC52780D2BF37BF700CD1909 /* BottomSheetModifierNew+View.swift in Sources */,
 				ACDFF39F2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift in Sources */,
@@ -1910,6 +1999,8 @@
 				AC09CDFF2D4133CC0038A629 /* SwiftUIViewIpad5.swift in Sources */,
 				ACA131552EA27561006933FF /* ProgressView_ShowingProgress.swift in Sources */,
 				AC8548772EBF6D370055FCB6 /* Slider_RangeOfValues.swift in Sources */,
+				AC8548E52EC0E8410055FCB6 /* Text_DateFormat_Specific.swift in Sources */,
+				AC8548E32EC0E7780055FCB6 /* Text_DateFormatting.swift in Sources */,
 				ACA131312EA26B88006933FF /* Nav_WithNavigationPath.swift in Sources */,
 				AC8212BF2E97998900D0688A /* Chart_SectorMark_Donut.swift in Sources */,
 				AC5278422BF6497D00CD1909 /* ExitAlertModifier.swift in Sources */,
@@ -1924,6 +2015,7 @@
 				ACFA09262CECA42000A2167E /* 11111123ffffff.swift in Sources */,
 				ACA12F662E9FD62E006933FF /* TopBarWithCutout.swift in Sources */,
 				AC85485F2EBF684A0055FCB6 /* SegmentedControl_Intro.swift in Sources */,
+				AC8548DF2EC0E6480055FCB6 /* Text_TextSelection.swift in Sources */,
 				ACA131132EA241C8006933FF /* Navigation_NavBarItems.swift in Sources */,
 				ACDFF3A32B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift in Sources */,
 				AC8548792EBF6D980055FCB6 /* Slider_Customization.swift in Sources */,
@@ -1934,6 +2026,8 @@
 				AC8213B52E98D9E900D0688A /* Gauge_CircularSize.swift in Sources */,
 				AC7325E92E7C32B3008AA41B /* ScrollViewReaderText.swift in Sources */,
 				AC8548C52EC0DE020055FCB6 /* TabView_PageTabViewStyle_IndexDisplayMode.swift in Sources */,
+				AC8548EB2EC0EA4F0055FCB6 /* Text_MeasurementConversion.swift in Sources */,
+				AC8548D42EC0E29F0055FCB6 /* Text_CombiningModifiedText.swift in Sources */,
 				ACFD59EE2E2E54EE001D4740 /* ListListSwiftUIView.swift in Sources */,
 				AC3B12DD2CF099440076D9B3 /* SearchFruitsView.swift in Sources */,
 				AC8212BD2E97996A00D0688A /* Share.swift in Sources */,
@@ -1948,6 +2042,7 @@
 				AC8213B32E98D9C200D0688A /* Gauge_Circular.swift in Sources */,
 				ACFEDC782B83A2C3002B3C66 /* View+Hidden.swift in Sources */,
 				AC8548852EBF70130055FCB6 /* TabView_TooManyTabs.swift in Sources */,
+				AC8548CC2EC0E0E80055FCB6 /* Text_Formatting.swift in Sources */,
 				ACFEDC7B2B83A333002B3C66 /* DisableScrollingModifier.swift in Sources */,
 				ACEC5E3A2CAF1E4200ECBB2F /* SwiftUIViewIpad4.swift in Sources */,
 				ACA1317A2EA27E18006933FF /* Navigation_Searchable_Cancel.swift in Sources */,
@@ -1958,6 +2053,7 @@
 				AC72FA642B513E2C009E60AB /* ForTestsApp.swift in Sources */,
 				AC85486A2EBF6B270055FCB6 /* ShareLink_Customize.swift in Sources */,
 				AC03622D2C187D7D0033B781 /* View5.swift in Sources */,
+				AC8548ED2EC0EAF10055FCB6 /* Text_Currency.swift in Sources */,
 				AC8548912EBF739F0055FCB6 /* TabView_UITabBarAppearance.swift in Sources */,
 				AC8212B82E97985C00D0688A /* GroupInfo.swift in Sources */,
 				AC366ECC2C21C0AF0029AA9A /* SheetStartTest.swift in Sources */,
@@ -1971,6 +2067,7 @@
 				AC5278122BF37D2800CD1909 /* KeyboardHelper.swift in Sources */,
 				ACA1312F2EA26A70006933FF /* NavigationController_Test.swift in Sources */,
 				AC5278382BF647A500CD1909 /* ContentViewTwo.swift in Sources */,
+				AC8548CA2EC0E0920055FCB6 /* Text_FontWidths.swift in Sources */,
 				ACA131502EA273F1006933FF /* PhotosPicker_MultipleItems.swift in Sources */,
 				ACEC5E382CAF1DBE00ECBB2F /* SwiftUIViewIpad3.swift in Sources */,
 				AC89BFFC2C04B462006BE793 /* QuickSearchView.swift in Sources */,
@@ -2014,6 +2111,8 @@
 				ACA131602EA2778C006933FF /* RenameButton_EditText.swift in Sources */,
 				ACFEDC762B83A2A6002B3C66 /* View+Padding.swift in Sources */,
 				ACFA09282CEDE05400A2167E /* HelperSwiftUIView.swift in Sources */,
+				AC8548D82EC0E4050055FCB6 /* Text_ScaledMetric.swift in Sources */,
+				AC8548CE2EC0E15A0055FCB6 /* Text_MinimumScaleFactor.swift in Sources */,
 				AC366EAE2C2034760029AA9A /* MenuSwiftUIView2.swift in Sources */,
 				ACCECFCB2D00AE7C00C9AB91 /* IpadTest2SwiftUIView.swift in Sources */,
 				ACDB1FD02DD61DD900A8EC52 /* Color+Extension.swift in Sources */,
@@ -2026,6 +2125,7 @@
 				AC8213D52E98E32400D0688A /* HierarchicalListDemo.swift in Sources */,
 				ACA130F92EA22029006933FF /* MultiDatePicker_PresentingInSheet.swift in Sources */,
 				AC8213CF2E98E05500D0688A /* List_ListRowInsets.swift in Sources */,
+				AC8548D02EC0E1C50055FCB6 /* Text_LineSpacing.swift in Sources */,
 				ACA131332EA26C3F006933FF /* NavLink_PopToRoot.swift in Sources */,
 				AC0E23832E8D78D500CEC1DF /* CUV_WithActions.swift in Sources */,
 				ACDB1FCE2DD61D0D00A8EC52 /* FavoriteDocumentAlreadyUnderControlView.swift in Sources */,

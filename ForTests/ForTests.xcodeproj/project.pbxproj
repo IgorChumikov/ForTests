@@ -176,6 +176,14 @@
 		AC8549132EC1BFDC0055FCB6 /* Text_OffsetStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8549122EC1BFDC0055FCB6 /* Text_OffsetStyle.swift */; };
 		AC8549152EC1C0B10055FCB6 /* Text_StopwatchStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8549142EC1C0B10055FCB6 /* Text_StopwatchStyle.swift */; };
 		AC8549172EC1C1000055FCB6 /* Text_TimerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8549162EC1C1000055FCB6 /* Text_TimerStyle.swift */; };
+		AC85491A2EC1C1B30055FCB6 /* TextEditor_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8549192EC1C1B30055FCB6 /* TextEditor_Intro.swift */; };
+		AC85491C2EC1C2580055FCB6 /* TextEditor_LineLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85491B2EC1C2580055FCB6 /* TextEditor_LineLimit.swift */; };
+		AC85491E2EC1C2A10055FCB6 /* TextEditor_LineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85491D2EC1C2A10055FCB6 /* TextEditor_LineSpacing.swift */; };
+		AC8549212EC1C2FE0055FCB6 /* TextEditor_CustomizingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8549202EC1C2FE0055FCB6 /* TextEditor_CustomizingText.swift */; };
+		AC8549242EC1C34D0055FCB6 /* TextEditor_Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8549232EC1C34D0055FCB6 /* TextEditor_Background.swift */; };
+		AC8549262EC1C3AB0055FCB6 /* TextEditor_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8549252EC1C3AB0055FCB6 /* TextEditor_Alignment.swift */; };
+		AC8549282EC1C4180055FCB6 /* TextEditor_DismissKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8549272EC1C4180055FCB6 /* TextEditor_DismissKeyboard.swift */; };
+		AC85492A2EC1C4D60055FCB6 /* TextEditor_KeyboardSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8549292EC1C4D60055FCB6 /* TextEditor_KeyboardSafeArea.swift */; };
 		AC89BFFC2C04B462006BE793 /* QuickSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89BFFB2C04B462006BE793 /* QuickSearchView.swift */; };
 		AC89BFFE2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89BFFD2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift */; };
 		AC89C0122C04D5F8006BE793 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89C0112C04D5F8006BE793 /* ContentView.swift */; };
@@ -473,6 +481,14 @@
 		AC8549122EC1BFDC0055FCB6 /* Text_OffsetStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_OffsetStyle.swift; sourceTree = "<group>"; };
 		AC8549142EC1C0B10055FCB6 /* Text_StopwatchStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_StopwatchStyle.swift; sourceTree = "<group>"; };
 		AC8549162EC1C1000055FCB6 /* Text_TimerStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_TimerStyle.swift; sourceTree = "<group>"; };
+		AC8549192EC1C1B30055FCB6 /* TextEditor_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor_Intro.swift; sourceTree = "<group>"; };
+		AC85491B2EC1C2580055FCB6 /* TextEditor_LineLimit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor_LineLimit.swift; sourceTree = "<group>"; };
+		AC85491D2EC1C2A10055FCB6 /* TextEditor_LineSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor_LineSpacing.swift; sourceTree = "<group>"; };
+		AC8549202EC1C2FE0055FCB6 /* TextEditor_CustomizingText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor_CustomizingText.swift; sourceTree = "<group>"; };
+		AC8549232EC1C34D0055FCB6 /* TextEditor_Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor_Background.swift; sourceTree = "<group>"; };
+		AC8549252EC1C3AB0055FCB6 /* TextEditor_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor_Alignment.swift; sourceTree = "<group>"; };
+		AC8549272EC1C4180055FCB6 /* TextEditor_DismissKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor_DismissKeyboard.swift; sourceTree = "<group>"; };
+		AC8549292EC1C4D60055FCB6 /* TextEditor_KeyboardSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditor_KeyboardSafeArea.swift; sourceTree = "<group>"; };
 		AC89BFFB2C04B462006BE793 /* QuickSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSearchView.swift; sourceTree = "<group>"; };
 		AC89BFFD2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSearchListFoundDocuments.swift; sourceTree = "<group>"; };
 		AC89C0112C04D5F8006BE793 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -685,6 +701,7 @@
 				AC8548BF2EC0DB780055FCB6 /* TabView - Paging Style */,
 				AC8548C82EC0E0620055FCB6 /* Text */,
 				AC8549182EC1C1620055FCB6 /* TextEditor */,
+				AC85492B2EC1C53A0055FCB6 /* TextField */,
 			);
 			path = "2 SwiftUI Views Mastery ";
 			sourceTree = "<group>";
@@ -1346,8 +1363,39 @@
 		AC8549182EC1C1620055FCB6 /* TextEditor */ = {
 			isa = PBXGroup;
 			children = (
+				AC85491F2EC1C2E70055FCB6 /* 14-15 */,
+				AC8549222EC1C3390055FCB6 /* 16 */,
 			);
 			path = TextEditor;
+			sourceTree = "<group>";
+		};
+		AC85491F2EC1C2E70055FCB6 /* 14-15 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8549192EC1C1B30055FCB6 /* TextEditor_Intro.swift */,
+				AC85491B2EC1C2580055FCB6 /* TextEditor_LineLimit.swift */,
+				AC85491D2EC1C2A10055FCB6 /* TextEditor_LineSpacing.swift */,
+				AC8549202EC1C2FE0055FCB6 /* TextEditor_CustomizingText.swift */,
+				AC8549252EC1C3AB0055FCB6 /* TextEditor_Alignment.swift */,
+				AC8549272EC1C4180055FCB6 /* TextEditor_DismissKeyboard.swift */,
+				AC8549292EC1C4D60055FCB6 /* TextEditor_KeyboardSafeArea.swift */,
+			);
+			path = "14-15";
+			sourceTree = "<group>";
+		};
+		AC8549222EC1C3390055FCB6 /* 16 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8549232EC1C34D0055FCB6 /* TextEditor_Background.swift */,
+			);
+			path = 16;
+			sourceTree = "<group>";
+		};
+		AC85492B2EC1C53A0055FCB6 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TextField;
 			sourceTree = "<group>";
 		};
 		AC89BFFA2C04B456006BE793 /* QuickSearch */ = {
@@ -1901,6 +1949,7 @@
 				ACA131292EA26947006933FF /* NavLink_WithDifferentTypes.swift in Sources */,
 				AC8212BB2E9798FC00D0688A /* Chart_SectorMark.swift in Sources */,
 				AC8548632EBF68DB0055FCB6 /* SegmentedControl_Colors.swift in Sources */,
+				AC8549242EC1C34D0055FCB6 /* TextEditor_Background.swift in Sources */,
 				ACA131572EA275B2006933FF /* ProgressView_Total.swift in Sources */,
 				AC5278162BF386E400CD1909 /* PanelViewIndicator.swift in Sources */,
 				ACA1311A2EA242E2006933FF /* Navigation_SplitView.swift in Sources */,
@@ -1981,6 +2030,7 @@
 				AC85487F2EBF6ECE0055FCB6 /* Slider_InMenu.swift in Sources */,
 				AC82964B2B5E583F008383B0 /* PinnedUIView.swift in Sources */,
 				ACA1316D2EA279B7006933FF /* Scrollview_ScrollBounceBehavior.swift in Sources */,
+				AC8549282EC1C4180055FCB6 /* TextEditor_DismissKeyboard.swift in Sources */,
 				AC09CE012D4134F70038A629 /* MenuSwiftUIView.swift in Sources */,
 				ACA131452EA271A6006933FF /* Picker_BindingToData.swift in Sources */,
 				ACA1310B2EA24040006933FF /* Navigation_CustomBackground.swift in Sources */,
@@ -2013,6 +2063,7 @@
 				AC8548712EBF6C700055FCB6 /* SignInWithApple_SizeChanges.swift in Sources */,
 				AC411F9E2D7ED93D009AFD7A /* SizePreferenceKey2.swift in Sources */,
 				ACA130F72EA21FF3006933FF /* MultiDatePicker_Customizations.swift in Sources */,
+				AC8549262EC1C3AB0055FCB6 /* TextEditor_Alignment.swift in Sources */,
 				AC5278212BF4CF7700CD1909 /* AlertContentView.swift in Sources */,
 				AC0E23882E8D7A6800CEC1DF /* CUV_Paging.swift in Sources */,
 				ACA1312D2EA269F9006933FF /* Nav_WithPathAndEnum.swift in Sources */,
@@ -2076,6 +2127,7 @@
 				AC3B12DD2CF099440076D9B3 /* SearchFruitsView.swift in Sources */,
 				AC8212BD2E97996A00D0688A /* Share.swift in Sources */,
 				ACFEDC702B83A064002B3C66 /* Skeleton.swift in Sources */,
+				AC85492A2EC1C4D60055FCB6 /* TextEditor_KeyboardSafeArea.swift in Sources */,
 				ACA130D22EA20C94006933FF /* Home.swift in Sources */,
 				AC85488D2EBF729B0055FCB6 /* TabView_Background_Scrolling.swift in Sources */,
 				ACC88E772E43372600077A2C /* CustomTabBarExampleContentView.swift in Sources */,
@@ -2096,6 +2148,7 @@
 				ACCECFC92D00AB2900C9AB91 /* IpadTestSwiftUIView.swift in Sources */,
 				AC72FA642B513E2C009E60AB /* ForTestsApp.swift in Sources */,
 				AC85486A2EBF6B270055FCB6 /* ShareLink_Customize.swift in Sources */,
+				AC85491C2EC1C2580055FCB6 /* TextEditor_LineLimit.swift in Sources */,
 				AC03622D2C187D7D0033B781 /* View5.swift in Sources */,
 				AC8548ED2EC0EAF10055FCB6 /* Text_Currency.swift in Sources */,
 				AC8548912EBF739F0055FCB6 /* TabView_UITabBarAppearance.swift in Sources */,
@@ -2132,12 +2185,14 @@
 				ACA131692EA278EF006933FF /* ScrollView_Horizontal_SafeAreaInset.swift in Sources */,
 				AC8213B02E98D90D00D0688A /* Gauge_Intro.swift in Sources */,
 				ACCECFCE2D00B77300C9AB91 /* IpadTest3SwiftUIView.swift in Sources */,
+				AC85491E2EC1C2A10055FCB6 /* TextEditor_LineSpacing.swift in Sources */,
 				AC103B4C2CABF44400F6030A /* DocumentsListSectionsPanelView.swift in Sources */,
 				AC85490C2EC1BE010055FCB6 /* Text_AttributedString.swift in Sources */,
 				AC67B5EE2D7B344F002170AB /* ZebraStripeRenderer.swift in Sources */,
 				ACA4F15A2DFFE56F00FE5A9F /* BookmarkItem.swift in Sources */,
 				ACA1311C2EA24339006933FF /* Navigation_SplitViewColumnVisibility.swift in Sources */,
 				AC8549132EC1BFDC0055FCB6 /* Text_OffsetStyle.swift in Sources */,
+				AC8549212EC1C2FE0055FCB6 /* TextEditor_CustomizingText.swift in Sources */,
 				AC8212B62E9797E700D0688A /* Chart_BarMarkPositionBy.swift in Sources */,
 				ACA1312B2EA269BC006933FF /* NavLink_isPresented.swift in Sources */,
 				AC2AA48D2DDF2715004C4E24 /* TabBarItem.swift in Sources */,
@@ -2172,6 +2227,7 @@
 				AC52781F2BF3941A00CD1909 /* MainCurtainView.swift in Sources */,
 				AC8213D52E98E32400D0688A /* HierarchicalListDemo.swift in Sources */,
 				ACA130F92EA22029006933FF /* MultiDatePicker_PresentingInSheet.swift in Sources */,
+				AC85491A2EC1C1B30055FCB6 /* TextEditor_Intro.swift in Sources */,
 				AC8213CF2E98E05500D0688A /* List_ListRowInsets.swift in Sources */,
 				AC8548D02EC0E1C50055FCB6 /* Text_LineSpacing.swift in Sources */,
 				ACA131332EA26C3F006933FF /* NavLink_PopToRoot.swift in Sources */,

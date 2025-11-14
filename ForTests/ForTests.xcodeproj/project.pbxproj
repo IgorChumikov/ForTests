@@ -1233,9 +1233,7 @@
 		AC85485D2EBF67E40055FCB6 /* Segmented Control (Picker) */ = {
 			isa = PBXGroup;
 			children = (
-				AC85485E2EBF684A0055FCB6 /* SegmentedControl_Intro.swift */,
-				AC8548602EBF688F0055FCB6 /* SegmentedControl_NoSelection.swift */,
-				AC8548622EBF68DB0055FCB6 /* SegmentedControl_Colors.swift */,
+				ACDB231C2EC70DE600CB6030 /* 13 */,
 			);
 			path = "Segmented Control (Picker)";
 			sourceTree = "<group>";
@@ -1243,9 +1241,7 @@
 		AC8548642EBF68FE0055FCB6 /* ShareLink */ = {
 			isa = PBXGroup;
 			children = (
-				AC8548652EBF694A0055FCB6 /* ShareLink_Intro.swift */,
-				AC8548672EBF6A0B0055FCB6 /* ShareLink_SharePreview.swift */,
-				AC8548692EBF6B270055FCB6 /* ShareLink_Customize.swift */,
+				ACDB231D2EC70DF700CB6030 /* 16 */,
 			);
 			path = ShareLink;
 			sourceTree = "<group>";
@@ -1253,9 +1249,7 @@
 		AC85486B2EBF6BA00055FCB6 /* SignInWithAppleButton */ = {
 			isa = PBXGroup;
 			children = (
-				AC85486C2EBF6BDD0055FCB6 /* SignInWithApple_Intro.swift */,
-				AC85486E2EBF6C260055FCB6 /* SignInWithApple_Customizing.swift */,
-				AC8548702EBF6C700055FCB6 /* SignInWithApple_SizeChanges.swift */,
+				ACDB231E2EC70E0900CB6030 /* 14 */,
 			);
 			path = SignInWithAppleButton;
 			sourceTree = "<group>";
@@ -1263,12 +1257,8 @@
 		AC8548732EBF6CA30055FCB6 /* Slider */ = {
 			isa = PBXGroup;
 			children = (
-				AC8548742EBF6CE60055FCB6 /* Slider_Intro.swift */,
-				AC8548762EBF6D370055FCB6 /* Slider_RangeOfValues.swift */,
-				AC8548782EBF6D980055FCB6 /* Slider_Customization.swift */,
-				AC85487A2EBF6DFD0055FCB6 /* Slider_WithImages.swift */,
-				AC85487C2EBF6E7C0055FCB6 /* Slider_Tint.swift */,
-				AC85487E2EBF6ECE0055FCB6 /* Slider_InMenu.swift */,
+				ACDB231F2EC70E1800CB6030 /* 13 */,
+				ACDB23202EC70E2900CB6030 /* 15 */,
 			);
 			path = Slider;
 			sourceTree = "<group>";
@@ -1276,7 +1266,7 @@
 		AC8548802EBF6F420055FCB6 /* Stepper */ = {
 			isa = PBXGroup;
 			children = (
-				AC8548812EBF6F7B0055FCB6 /* Stepper_Intro.swift */,
+				ACDB23212EC70E4B00CB6030 /* 13 */,
 			);
 			path = Stepper;
 			sourceTree = "<group>";
@@ -1284,34 +1274,27 @@
 		AC8548832EBF6FD70055FCB6 /* TabView */ = {
 			isa = PBXGroup;
 			children = (
-				AC8548922EBF73DF0055FCB6 /* 13-15 */,
-				AC8548932EBF74200055FCB6 /* TabView_ToolbarBackground.swift */,
-				AC8548BD2EC0DADA0055FCB6 /* TabView_ToolbarBackgroundVisibility.swift */,
+				AC8548922EBF73DF0055FCB6 /* 13 */,
+				ACDB23222EC70E5E00CB6030 /* 15 */,
+				ACDB23232EC70E8B00CB6030 /* 16 */,
+				ACDB23242EC70E9000CB6030 /* 18 */,
 			);
 			path = TabView;
 			sourceTree = "<group>";
 		};
-		AC8548922EBF73DF0055FCB6 /* 13-15 */ = {
+		AC8548922EBF73DF0055FCB6 /* 13 */ = {
 			isa = PBXGroup;
 			children = (
 				AC8548842EBF70130055FCB6 /* TabView_TooManyTabs.swift */,
-				AC8548862EBF70FE0055FCB6 /* TabView_Colors.swift */,
-				AC8548882EBF71550055FCB6 /* TabView_Badge.swift */,
 				AC85488A2EBF71F10055FCB6 /* Toolbar_BackgroundColor.swift */,
-				AC85488C2EBF729B0055FCB6 /* TabView_Background_Scrolling.swift */,
-				AC85488E2EBF72F80055FCB6 /* TabView_Background.swift */,
-				AC8548902EBF739F0055FCB6 /* TabView_UITabBarAppearance.swift */,
 			);
-			path = "13-15";
+			path = 13;
 			sourceTree = "<group>";
 		};
 		AC8548BF2EC0DB780055FCB6 /* TabView - Paging Style */ = {
 			isa = PBXGroup;
 			children = (
-				AC8548C02EC0DB9A0055FCB6 /* TabView_PageTabViewStyle.swift */,
-				AC8548C22EC0DD9A0055FCB6 /* TabView_PageTabViewStyle_IndexViewStyle.swift */,
-				AC8548C42EC0DE020055FCB6 /* TabView_PageTabViewStyle_IndexDisplayMode.swift */,
-				AC8548C62EC0DE450055FCB6 /* TabView_Customizations.swift */,
+				ACDB23252EC70E9F00CB6030 /* 14 */,
 			);
 			path = "TabView - Paging Style";
 			sourceTree = "<group>";
@@ -1530,15 +1513,7 @@
 		ACA130FA2EA22075006933FF /* NavigationStack */ = {
 			isa = PBXGroup;
 			children = (
-				ACA131062EA23F87006933FF /* Navigation_BackgroundColor.swift */,
-				ACA131082EA23FE5006933FF /* Navigation_ToolbarBackground.swift */,
-				ACA1310A2EA24040006933FF /* Navigation_CustomBackground.swift */,
-				ACA1310C2EA240BF006933FF /* Navigation_UINavigationBarAppearance.swift */,
-				ACA1310E2EA24103006933FF /* Navigation_DisplayMode.swift */,
-				ACA131102EA2417F006933FF /* Navigation_BarHidden.swift */,
-				ACA131122EA241C8006933FF /* Navigation_NavBarItems.swift */,
-				ACA131142EA2420D006933FF /* Navigation_BackButtonHidden.swift */,
-				ACA131162EA24253006933FF /* Navigation_CustomBackButton.swift */,
+				ACDB230A2EC70BA400CB6030 /* 16 */,
 			);
 			path = NavigationStack;
 			sourceTree = "<group>";
@@ -1546,10 +1521,7 @@
 		ACA131182EA2429E006933FF /* NavigationSplitView */ = {
 			isa = PBXGroup;
 			children = (
-				ACA131192EA242E2006933FF /* Navigation_SplitView.swift */,
-				ACA1311B2EA24339006933FF /* Navigation_SplitViewColumnVisibility.swift */,
-				ACA1311D2EA2438D006933FF /* Navigation_SplitViewThreeColumns.swift */,
-				ACA1311F2EA243C7006933FF /* Navigation_SplitViewColumnWidth.swift */,
+				ACDB230B2EC70C4700CB6030 /* 16 */,
 			);
 			path = NavigationSplitView;
 			sourceTree = "<group>";
@@ -1557,16 +1529,7 @@
 		ACA131212EA24435006933FF /* NavigationLink */ = {
 			isa = PBXGroup;
 			children = (
-				ACA131222EA24470006933FF /* NavLink_Intro.swift */,
-				ACA131242EA244B2006933FF /* NavLink_Customization.swift */,
-				ACA131262EA268D7006933FF /* NavLink_WithNavigationDestination.swift */,
-				ACA131282EA26947006933FF /* NavLink_WithDifferentTypes.swift */,
-				ACA1312A2EA269BC006933FF /* NavLink_isPresented.swift */,
-				ACA1312C2EA269F9006933FF /* Nav_WithPathAndEnum.swift */,
-				ACA1312E2EA26A70006933FF /* NavigationController_Test.swift */,
-				ACA131302EA26B88006933FF /* Nav_WithNavigationPath.swift */,
-				ACA131322EA26C3F006933FF /* NavLink_PopToRoot.swift */,
-				ACA131342EA26CFB006933FF /* NavLink_IsDetailLink.swift */,
+				ACDB230C2EC70C5300CB6030 /* 16 */,
 			);
 			path = NavigationLink;
 			sourceTree = "<group>";
@@ -1574,7 +1537,7 @@
 		ACA131362EA26D65006933FF /* OutlineGroup */ = {
 			isa = PBXGroup;
 			children = (
-				ACA131372EA26DAD006933FF /* OutlineGroup_Intro.swift */,
+				ACDB230D2EC70C9200CB6030 /* 14 */,
 			);
 			path = OutlineGroup;
 			sourceTree = "<group>";
@@ -1582,15 +1545,9 @@
 		ACA131392EA26E86006933FF /* Picker */ = {
 			isa = PBXGroup;
 			children = (
-				ACA1313A2EA26ECC006933FF /* Picker_Intro.swift */,
-				ACA1313C2EA26F2A006933FF /* Picker_Sections.swift */,
-				ACA1313E2EA26F62006933FF /* Picker_Wheel.swift */,
-				ACA131402EA26FA9006933FF /* Picker_ProgrammaticSelection.swift */,
-				ACA131422EA270CF006933FF /* Picker_Customized.swift */,
-				ACA131442EA271A6006933FF /* Picker_BindingToData.swift */,
-				ACA131462EA271DA006933FF /* Picker_InForm.swift */,
-				ACA131482EA27218006933FF /* Picker_NavigationLinkStyle.swift */,
-				ACA1314A2EA27260006933FF /* Picker_WithEnum.swift */,
+				ACDB230F2EC70CB000CB6030 /* 14 */,
+				ACDB230E2EC70CA500CB6030 /* 15 */,
+				ACDB23102EC70CCE00CB6030 /* 16 */,
 			);
 			path = Picker;
 			sourceTree = "<group>";
@@ -1598,8 +1555,7 @@
 		ACA1314C2EA272B5006933FF /* PhotosPicker */ = {
 			isa = PBXGroup;
 			children = (
-				ACA1314D2EA2731F006933FF /* PhotosPicker_Intro.swift */,
-				ACA1314F2EA273F1006933FF /* PhotosPicker_MultipleItems.swift */,
+				ACDB23112EC70CE900CB6030 /* 16 */,
 			);
 			path = PhotosPicker;
 			sourceTree = "<group>";
@@ -1607,12 +1563,8 @@
 		ACA131512EA27489006933FF /* ProgressView */ = {
 			isa = PBXGroup;
 			children = (
-				ACA131522EA2749E006933FF /* ProgressView_Intro.swift */,
-				ACA131542EA27561006933FF /* ProgressView_ShowingProgress.swift */,
-				ACA131562EA275B2006933FF /* ProgressView_Total.swift */,
-				ACA131582EA27640006933FF /* ProgressView_CurrentValue.swift */,
-				ACA1315A2EA276A7006933FF /* ProgressView_Customizing.swift */,
-				ACA1315C2EA27721006933FF /* ProgressView_Tint.swift */,
+				ACDB23122EC70D2500CB6030 /* 14 */,
+				ACDB23132EC70D4400CB6030 /* 15 */,
 			);
 			path = ProgressView;
 			sourceTree = "<group>";
@@ -1620,7 +1572,7 @@
 		ACA1315E2EA27761006933FF /* RenameButton */ = {
 			isa = PBXGroup;
 			children = (
-				ACA1315F2EA2778C006933FF /* RenameButton_EditText.swift */,
+				ACDB23142EC70D4F00CB6030 /* 17 */,
 			);
 			path = RenameButton;
 			sourceTree = "<group>";
@@ -1628,16 +1580,10 @@
 		ACA131612EA277ED006933FF /* Scrollview */ = {
 			isa = PBXGroup;
 			children = (
-				ACA131622EA27806006933FF /* ScrollView_Intro.swift */,
-				ACA131642EA27836006933FF /* ScrollView_SafeAreaInset.swift */,
-				ACA131662EA278A5006933FF /* ScrollView_Horizontal.swift */,
-				ACA131682EA278EF006933FF /* ScrollView_Horizontal_SafeAreaInset.swift */,
-				ACA1316A2EA27975006933FF /* Scrollview_Disabled.swift */,
-				ACA1316C2EA279B7006933FF /* Scrollview_ScrollBounceBehavior.swift */,
-				ACA1316E2EA27A34006933FF /* ScrollView_Behavior_Paging.swift */,
-				ACA131702EA27A92006933FF /* ScrollView_Behavior_ViewAligned.swift */,
-				ACA131722EA27AD6006933FF /* ScrollView_ScrollPosition.swift */,
-				ACA131742EA27B33006933FF /* Scrollview_ContentMargins.swift */,
+				ACDB23152EC70D5D00CB6030 /* 13 */,
+				ACDB23162EC70D6500CB6030 /* 15 */,
+				ACDB23172EC70D7800CB6030 /* 16 */,
+				ACDB23182EC70D8400CB6030 /* 17 */,
 			);
 			path = Scrollview;
 			sourceTree = "<group>";
@@ -1645,12 +1591,8 @@
 		ACA131762EA27C74006933FF /* Searchable */ = {
 			isa = PBXGroup;
 			children = (
-				ACA131772EA27CDA006933FF /* Navigation_Searchable_Search.swift */,
-				ACA131792EA27E18006933FF /* Navigation_Searchable_Cancel.swift */,
-				ACA1317B2EA27EF5006933FF /* Searchable_DismissSearch.swift */,
-				ACA1317F2EA28022006933FF /* Navigation_Searchable_Filter.swift */,
-				ACA131812EA294D5006933FF /* Navigation_Filter_Grid.swift */,
-				ACA131832EA29980006933FF /* Searchable_Completion.swift */,
+				ACDB23192EC70DAF00CB6030 /* 15 */,
+				ACDB231A2EC70DB800CB6030 /* 17 */,
 			);
 			path = Searchable;
 			sourceTree = "<group>";
@@ -1658,8 +1600,7 @@
 		ACA131852EA29A0C006933FF /* SecureField */ = {
 			isa = PBXGroup;
 			children = (
-				AC8548592EBF673E0055FCB6 /* SecureField_Intro.swift */,
-				AC85485B2EBF67A10055FCB6 /* SecureField_Customization.swift */,
+				ACDB231B2EC70DD800CB6030 /* 13 */,
 			);
 			path = SecureField;
 			sourceTree = "<group>";
@@ -2037,6 +1978,289 @@
 				ACA130F82EA22029006933FF /* MultiDatePicker_PresentingInSheet.swift */,
 			);
 			path = 16;
+			sourceTree = "<group>";
+		};
+		ACDB230A2EC70BA400CB6030 /* 16 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA131062EA23F87006933FF /* Navigation_BackgroundColor.swift */,
+				ACA131082EA23FE5006933FF /* Navigation_ToolbarBackground.swift */,
+				ACA1310A2EA24040006933FF /* Navigation_CustomBackground.swift */,
+				ACA1310C2EA240BF006933FF /* Navigation_UINavigationBarAppearance.swift */,
+				ACA1310E2EA24103006933FF /* Navigation_DisplayMode.swift */,
+				ACA131102EA2417F006933FF /* Navigation_BarHidden.swift */,
+				ACA131122EA241C8006933FF /* Navigation_NavBarItems.swift */,
+				ACA131142EA2420D006933FF /* Navigation_BackButtonHidden.swift */,
+				ACA131162EA24253006933FF /* Navigation_CustomBackButton.swift */,
+			);
+			path = 16;
+			sourceTree = "<group>";
+		};
+		ACDB230B2EC70C4700CB6030 /* 16 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA131192EA242E2006933FF /* Navigation_SplitView.swift */,
+				ACA1311B2EA24339006933FF /* Navigation_SplitViewColumnVisibility.swift */,
+				ACA1311D2EA2438D006933FF /* Navigation_SplitViewThreeColumns.swift */,
+				ACA1311F2EA243C7006933FF /* Navigation_SplitViewColumnWidth.swift */,
+			);
+			path = 16;
+			sourceTree = "<group>";
+		};
+		ACDB230C2EC70C5300CB6030 /* 16 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA131222EA24470006933FF /* NavLink_Intro.swift */,
+				ACA131242EA244B2006933FF /* NavLink_Customization.swift */,
+				ACA131262EA268D7006933FF /* NavLink_WithNavigationDestination.swift */,
+				ACA131282EA26947006933FF /* NavLink_WithDifferentTypes.swift */,
+				ACA1312A2EA269BC006933FF /* NavLink_isPresented.swift */,
+				ACA1312C2EA269F9006933FF /* Nav_WithPathAndEnum.swift */,
+				ACA1312E2EA26A70006933FF /* NavigationController_Test.swift */,
+				ACA131302EA26B88006933FF /* Nav_WithNavigationPath.swift */,
+				ACA131322EA26C3F006933FF /* NavLink_PopToRoot.swift */,
+				ACA131342EA26CFB006933FF /* NavLink_IsDetailLink.swift */,
+			);
+			path = 16;
+			sourceTree = "<group>";
+		};
+		ACDB230D2EC70C9200CB6030 /* 14 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA131372EA26DAD006933FF /* OutlineGroup_Intro.swift */,
+			);
+			path = 14;
+			sourceTree = "<group>";
+		};
+		ACDB230E2EC70CA500CB6030 /* 15 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA1313A2EA26ECC006933FF /* Picker_Intro.swift */,
+				ACA1313C2EA26F2A006933FF /* Picker_Sections.swift */,
+			);
+			path = 15;
+			sourceTree = "<group>";
+		};
+		ACDB230F2EC70CB000CB6030 /* 14 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA1313E2EA26F62006933FF /* Picker_Wheel.swift */,
+				ACA131402EA26FA9006933FF /* Picker_ProgrammaticSelection.swift */,
+				ACA131422EA270CF006933FF /* Picker_Customized.swift */,
+				ACA131442EA271A6006933FF /* Picker_BindingToData.swift */,
+				ACA131462EA271DA006933FF /* Picker_InForm.swift */,
+				ACA1314A2EA27260006933FF /* Picker_WithEnum.swift */,
+			);
+			path = 14;
+			sourceTree = "<group>";
+		};
+		ACDB23102EC70CCE00CB6030 /* 16 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA131482EA27218006933FF /* Picker_NavigationLinkStyle.swift */,
+			);
+			path = 16;
+			sourceTree = "<group>";
+		};
+		ACDB23112EC70CE900CB6030 /* 16 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA1314D2EA2731F006933FF /* PhotosPicker_Intro.swift */,
+				ACA1314F2EA273F1006933FF /* PhotosPicker_MultipleItems.swift */,
+			);
+			path = 16;
+			sourceTree = "<group>";
+		};
+		ACDB23122EC70D2500CB6030 /* 14 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA131522EA2749E006933FF /* ProgressView_Intro.swift */,
+				ACA131542EA27561006933FF /* ProgressView_ShowingProgress.swift */,
+				ACA131562EA275B2006933FF /* ProgressView_Total.swift */,
+				ACA131582EA27640006933FF /* ProgressView_CurrentValue.swift */,
+				ACA1315A2EA276A7006933FF /* ProgressView_Customizing.swift */,
+			);
+			path = 14;
+			sourceTree = "<group>";
+		};
+		ACDB23132EC70D4400CB6030 /* 15 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA1315C2EA27721006933FF /* ProgressView_Tint.swift */,
+			);
+			path = 15;
+			sourceTree = "<group>";
+		};
+		ACDB23142EC70D4F00CB6030 /* 17 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA1315F2EA2778C006933FF /* RenameButton_EditText.swift */,
+			);
+			path = 17;
+			sourceTree = "<group>";
+		};
+		ACDB23152EC70D5D00CB6030 /* 13 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA131622EA27806006933FF /* ScrollView_Intro.swift */,
+				ACA131662EA278A5006933FF /* ScrollView_Horizontal.swift */,
+			);
+			path = 13;
+			sourceTree = "<group>";
+		};
+		ACDB23162EC70D6500CB6030 /* 15 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA131642EA27836006933FF /* ScrollView_SafeAreaInset.swift */,
+				ACA131682EA278EF006933FF /* ScrollView_Horizontal_SafeAreaInset.swift */,
+			);
+			path = 15;
+			sourceTree = "<group>";
+		};
+		ACDB23172EC70D7800CB6030 /* 16 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA1316A2EA27975006933FF /* Scrollview_Disabled.swift */,
+				ACA1316C2EA279B7006933FF /* Scrollview_ScrollBounceBehavior.swift */,
+			);
+			path = 16;
+			sourceTree = "<group>";
+		};
+		ACDB23182EC70D8400CB6030 /* 17 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA1316E2EA27A34006933FF /* ScrollView_Behavior_Paging.swift */,
+				ACA131702EA27A92006933FF /* ScrollView_Behavior_ViewAligned.swift */,
+				ACA131722EA27AD6006933FF /* ScrollView_ScrollPosition.swift */,
+				ACA131742EA27B33006933FF /* Scrollview_ContentMargins.swift */,
+			);
+			path = 17;
+			sourceTree = "<group>";
+		};
+		ACDB23192EC70DAF00CB6030 /* 15 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA131772EA27CDA006933FF /* Navigation_Searchable_Search.swift */,
+				ACA131792EA27E18006933FF /* Navigation_Searchable_Cancel.swift */,
+				ACA1317F2EA28022006933FF /* Navigation_Searchable_Filter.swift */,
+				ACA131812EA294D5006933FF /* Navigation_Filter_Grid.swift */,
+				ACA131832EA29980006933FF /* Searchable_Completion.swift */,
+			);
+			path = 15;
+			sourceTree = "<group>";
+		};
+		ACDB231A2EC70DB800CB6030 /* 17 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA1317B2EA27EF5006933FF /* Searchable_DismissSearch.swift */,
+			);
+			path = 17;
+			sourceTree = "<group>";
+		};
+		ACDB231B2EC70DD800CB6030 /* 13 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8548592EBF673E0055FCB6 /* SecureField_Intro.swift */,
+				AC85485B2EBF67A10055FCB6 /* SecureField_Customization.swift */,
+			);
+			path = 13;
+			sourceTree = "<group>";
+		};
+		ACDB231C2EC70DE600CB6030 /* 13 */ = {
+			isa = PBXGroup;
+			children = (
+				AC85485E2EBF684A0055FCB6 /* SegmentedControl_Intro.swift */,
+				AC8548602EBF688F0055FCB6 /* SegmentedControl_NoSelection.swift */,
+				AC8548622EBF68DB0055FCB6 /* SegmentedControl_Colors.swift */,
+			);
+			path = 13;
+			sourceTree = "<group>";
+		};
+		ACDB231D2EC70DF700CB6030 /* 16 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8548652EBF694A0055FCB6 /* ShareLink_Intro.swift */,
+				AC8548672EBF6A0B0055FCB6 /* ShareLink_SharePreview.swift */,
+				AC8548692EBF6B270055FCB6 /* ShareLink_Customize.swift */,
+			);
+			path = 16;
+			sourceTree = "<group>";
+		};
+		ACDB231E2EC70E0900CB6030 /* 14 */ = {
+			isa = PBXGroup;
+			children = (
+				AC85486C2EBF6BDD0055FCB6 /* SignInWithApple_Intro.swift */,
+				AC85486E2EBF6C260055FCB6 /* SignInWithApple_Customizing.swift */,
+				AC8548702EBF6C700055FCB6 /* SignInWithApple_SizeChanges.swift */,
+			);
+			path = 14;
+			sourceTree = "<group>";
+		};
+		ACDB231F2EC70E1800CB6030 /* 13 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8548742EBF6CE60055FCB6 /* Slider_Intro.swift */,
+				AC8548762EBF6D370055FCB6 /* Slider_RangeOfValues.swift */,
+				AC8548782EBF6D980055FCB6 /* Slider_Customization.swift */,
+			);
+			path = 13;
+			sourceTree = "<group>";
+		};
+		ACDB23202EC70E2900CB6030 /* 15 */ = {
+			isa = PBXGroup;
+			children = (
+				AC85487A2EBF6DFD0055FCB6 /* Slider_WithImages.swift */,
+				AC85487C2EBF6E7C0055FCB6 /* Slider_Tint.swift */,
+				AC85487E2EBF6ECE0055FCB6 /* Slider_InMenu.swift */,
+			);
+			path = 15;
+			sourceTree = "<group>";
+		};
+		ACDB23212EC70E4B00CB6030 /* 13 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8548812EBF6F7B0055FCB6 /* Stepper_Intro.swift */,
+			);
+			path = 13;
+			sourceTree = "<group>";
+		};
+		ACDB23222EC70E5E00CB6030 /* 15 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8548862EBF70FE0055FCB6 /* TabView_Colors.swift */,
+				AC8548882EBF71550055FCB6 /* TabView_Badge.swift */,
+				AC85488C2EBF729B0055FCB6 /* TabView_Background_Scrolling.swift */,
+				AC85488E2EBF72F80055FCB6 /* TabView_Background.swift */,
+				AC8548902EBF739F0055FCB6 /* TabView_UITabBarAppearance.swift */,
+			);
+			path = 15;
+			sourceTree = "<group>";
+		};
+		ACDB23232EC70E8B00CB6030 /* 16 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8548932EBF74200055FCB6 /* TabView_ToolbarBackground.swift */,
+			);
+			path = 16;
+			sourceTree = "<group>";
+		};
+		ACDB23242EC70E9000CB6030 /* 18 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8548BD2EC0DADA0055FCB6 /* TabView_ToolbarBackgroundVisibility.swift */,
+			);
+			path = 18;
+			sourceTree = "<group>";
+		};
+		ACDB23252EC70E9F00CB6030 /* 14 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8548C02EC0DB9A0055FCB6 /* TabView_PageTabViewStyle.swift */,
+				AC8548C22EC0DD9A0055FCB6 /* TabView_PageTabViewStyle_IndexViewStyle.swift */,
+				AC8548C42EC0DE020055FCB6 /* TabView_PageTabViewStyle_IndexDisplayMode.swift */,
+				AC8548C62EC0DE450055FCB6 /* TabView_Customizations.swift */,
+			);
+			path = 14;
 			sourceTree = "<group>";
 		};
 		ACDEFE112BEB7F15006E0CD1 /* BM */ = {

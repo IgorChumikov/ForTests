@@ -746,9 +746,7 @@
 		AC0E237A2E8D694100CEC1DF /* ViewThatFits */ = {
 			isa = PBXGroup;
 			children = (
-				AC0E237B2E8D696000CEC1DF /* ViewThatFits_Intro.swift */,
-				AC0E237D2E8D69F800CEC1DF /* ViewThatFits_Vertical.swift */,
-				AC0E237F2E8D6A1F00CEC1DF /* ViewThatFits_WithScrollView.swift */,
+				ACDB22F12EC7076500CB6030 /* 16 */,
 			);
 			path = ViewThatFits;
 			sourceTree = "<group>";
@@ -774,9 +772,7 @@
 		AC0E23842E8D797D00CEC1DF /* ContentUnavailableView */ = {
 			isa = PBXGroup;
 			children = (
-				AC0E23822E8D78D500CEC1DF /* CUV_WithActions.swift */,
-				AC0E23852E8D799900CEC1DF /* CUV_IntendedUse.swift */,
-				AC0E23872E8D7A6800CEC1DF /* CUV_Paging.swift */,
+				ACDB22F22EC7077700CB6030 /* 17 */,
 			);
 			path = ContentUnavailableView;
 			sourceTree = "<group>";
@@ -1116,12 +1112,7 @@
 		AC8212B02E97964600D0688A /* Chart */ = {
 			isa = PBXGroup;
 			children = (
-				AC8212B92E97986000D0688A /* Models */,
-				AC8212B12E9796A000D0688A /* Chart_WithData.swift */,
-				AC8212B32E97974C00D0688A /* Chart_BarMarkStacking.swift */,
-				AC8212B52E9797E700D0688A /* Chart_BarMarkPositionBy.swift */,
-				AC8212BA2E9798FC00D0688A /* Chart_SectorMark.swift */,
-				AC8212BE2E97998900D0688A /* Chart_SectorMark_Donut.swift */,
+				ACDB22F72EC7083700CB6030 /* 16 */,
 			);
 			path = Chart;
 			sourceTree = "<group>";
@@ -1138,10 +1129,7 @@
 		AC8213B12E98D99800D0688A /* Gauge */ = {
 			isa = PBXGroup;
 			children = (
-				AC8213AF2E98D90D00D0688A /* Gauge_Intro.swift */,
-				AC8213B22E98D9C200D0688A /* Gauge_Circular.swift */,
-				AC8213B42E98D9E900D0688A /* Gauge_CircularSize.swift */,
-				AC8213B62E98DA2000D0688A /* Gauge_LabelsDemo.swift */,
+				ACDB22FC2EC708D600CB6030 /* 15 */,
 			);
 			path = Gauge;
 			sourceTree = "<group>";
@@ -1149,8 +1137,8 @@
 		AC8213B82E98DA7700D0688A /* GroupBox */ = {
 			isa = PBXGroup;
 			children = (
-				AC8213B92E98DA8D00D0688A /* GroupBox_WithLabel.swift */,
-				AC8213BB2E98DAE000D0688A /* GroupBox_WithBackgroundStyle.swift */,
+				ACDB22FE2EC7091800CB6030 /* 14 */,
+				ACDB22FD2EC7091100CB6030 /* 16 */,
 			);
 			path = GroupBox;
 			sourceTree = "<group>";
@@ -1158,16 +1146,11 @@
 		AC8213C12E98DD5700D0688A /* List */ = {
 			isa = PBXGroup;
 			children = (
-				AC8213C22E98DD6400D0688A /* List_MoveAndDelete.swift */,
-				AC8213CE2E98E05500D0688A /* List_ListRowInsets.swift */,
-				AC8213D02E98E10100D0688A /* List_WithChildren.swift */,
-				AC8213D42E98E32400D0688A /* HierarchicalListDemo.swift */,
-				AC8213D82E98E52900D0688A /* List_SafeAreaInset.swift */,
-				AC8213DA2E98E5CB00D0688A /* List_SafeAreaInset_ScrollView.swift */,
-				AC8213DC2E98E63200D0688A /* List_BindingWithin.swift */,
-				AC8213DE2E98E6C100D0688A /* List_RowSpacing.swift */,
-				ACA130DC2EA21048006933FF /* List_Badge.swift */,
-				ACA130DE2EA210A6006933FF /* List_ScrollContentBackground.swift */,
+				ACDB23012EC7097B00CB6030 /* 13 */,
+				ACDB23022EC7099500CB6030 /* 14 */,
+				ACDB23032EC709BF00CB6030 /* 15 */,
+				ACDB23042EC709FF00CB6030 /* 16 */,
+				ACDB23052EC70A1C00CB6030 /* 17 */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -1175,7 +1158,7 @@
 		AC8213C62E98DEC400D0688A /* LazyHGrid */ = {
 			isa = PBXGroup;
 			children = (
-				AC0E23722E8D622C00CEC1DF /* LazyHGrid_RowAndColumnSpacing.swift */,
+				ACDB22F62EC707AC00CB6030 /* 14 */,
 			);
 			path = LazyHGrid;
 			sourceTree = "<group>";
@@ -1183,7 +1166,7 @@
 		AC8213C72E98DED000D0688A /* ScrollViewReader */ = {
 			isa = PBXGroup;
 			children = (
-				AC0E23742E8D64CA00CEC1DF /* ScrollViewReader_Intro.swift */,
+				ACDB22F52EC7079C00CB6030 /* 14 */,
 			);
 			path = ScrollViewReader;
 			sourceTree = "<group>";
@@ -1191,7 +1174,7 @@
 		AC8213C82E98DEDB00D0688A /* СontrolGroup */ = {
 			isa = PBXGroup;
 			children = (
-				AC0E23762E8D666500CEC1DF /* ControlGroup_Intro.swift */,
+				ACDB22F42EC7079400CB6030 /* 14 */,
 			);
 			path = "СontrolGroup";
 			sourceTree = "<group>";
@@ -1199,7 +1182,7 @@
 		AC8213C92E98DEEC00D0688A /* Table */ = {
 			isa = PBXGroup;
 			children = (
-				AC0E23782E8D683100CEC1DF /* Table_Intro.swift */,
+				ACDB22F32EC7078900CB6030 /* 16 */,
 			);
 			path = Table;
 			sourceTree = "<group>";
@@ -1207,7 +1190,7 @@
 		AC8213CA2E98DEF900D0688A /* ColorPicker */ = {
 			isa = PBXGroup;
 			children = (
-				AC8212C02E979A1700D0688A /* ColorPicker_Intro.swift */,
+				ACDB22FA2EC7086600CB6030 /* 14 */,
 			);
 			path = ColorPicker;
 			sourceTree = "<group>";
@@ -1215,7 +1198,7 @@
 		AC8213CB2E98DF0400D0688A /* DisclosureGroup */ = {
 			isa = PBXGroup;
 			children = (
-				AC8213AD2E98D7DE00D0688A /* DisclosureGroup_Intro.swift */,
+				ACDB22FB2EC7087F00CB6030 /* 14 */,
 			);
 			path = DisclosureGroup;
 			sourceTree = "<group>";
@@ -1223,7 +1206,7 @@
 		AC8213CC2E98DF1100D0688A /* LabeledContent */ = {
 			isa = PBXGroup;
 			children = (
-				AC8213BD2E98DC0400D0688A /* LabeledContent_Intro.swift */,
+				ACDB22FF2EC7093200CB6030 /* 16 */,
 			);
 			path = LabeledContent;
 			sourceTree = "<group>";
@@ -1231,7 +1214,7 @@
 		AC8213CD2E98DF1C00D0688A /* Link */ = {
 			isa = PBXGroup;
 			children = (
-				AC8213BF2E98DC7400D0688A /* Link_ButtonStyles.swift */,
+				ACDB23002EC7094D00CB6030 /* 15 */,
 			);
 			path = Link;
 			sourceTree = "<group>";
@@ -1529,13 +1512,9 @@
 		ACA130E02EA2120C006933FF /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				ACA130E12EA212B3006933FF /* Menu_Intro.swift */,
-				ACA130E32EA21C20006933FF /* Menu_InsideMenu.swift */,
-				ACA130E52EA21CB3006933FF /* Menu_Customizing.swift */,
-				ACA130E72EA21D6C006933FF /* Menu_MenuPosition.swift */,
-				ACA130E92EA21DAA006933FF /* Menu_MaxItems.swift */,
-				ACA130EB2EA21E09006933FF /* Menu_OtherViewsWithin.swift */,
-				ACA130ED2EA21E81006933FF /* Menu_Order.swift */,
+				ACDB23072EC70A7100CB6030 /* 14 */,
+				ACDB23062EC70A6800CB6030 /* 15 */,
+				ACDB23082EC70AD800CB6030 /* 16 */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -1543,10 +1522,7 @@
 		ACA130EF2EA21EE0006933FF /* MultiDatePicker */ = {
 			isa = PBXGroup;
 			children = (
-				ACA130F02EA21F19006933FF /* MultiDatePicker_Intro.swift */,
-				ACA130F42EA21FB0006933FF /* MultiDatePicker_DateRange.swift */,
-				ACA130F62EA21FF3006933FF /* MultiDatePicker_Customizations.swift */,
-				ACA130F82EA22029006933FF /* MultiDatePicker_PresentingInSheet.swift */,
+				ACDB23092EC70AF800CB6030 /* 16 */,
 			);
 			path = MultiDatePicker;
 			sourceTree = "<group>";
@@ -1853,6 +1829,214 @@
 				ACDB22EF2EC705D300CB6030 /* Toggle_ToggleStyle.swift */,
 			);
 			path = 15;
+			sourceTree = "<group>";
+		};
+		ACDB22F12EC7076500CB6030 /* 16 */ = {
+			isa = PBXGroup;
+			children = (
+				AC0E237B2E8D696000CEC1DF /* ViewThatFits_Intro.swift */,
+				AC0E237D2E8D69F800CEC1DF /* ViewThatFits_Vertical.swift */,
+				AC0E237F2E8D6A1F00CEC1DF /* ViewThatFits_WithScrollView.swift */,
+			);
+			path = 16;
+			sourceTree = "<group>";
+		};
+		ACDB22F22EC7077700CB6030 /* 17 */ = {
+			isa = PBXGroup;
+			children = (
+				AC0E23822E8D78D500CEC1DF /* CUV_WithActions.swift */,
+				AC0E23852E8D799900CEC1DF /* CUV_IntendedUse.swift */,
+				AC0E23872E8D7A6800CEC1DF /* CUV_Paging.swift */,
+			);
+			path = 17;
+			sourceTree = "<group>";
+		};
+		ACDB22F32EC7078900CB6030 /* 16 */ = {
+			isa = PBXGroup;
+			children = (
+				AC0E23782E8D683100CEC1DF /* Table_Intro.swift */,
+			);
+			path = 16;
+			sourceTree = "<group>";
+		};
+		ACDB22F42EC7079400CB6030 /* 14 */ = {
+			isa = PBXGroup;
+			children = (
+				AC0E23762E8D666500CEC1DF /* ControlGroup_Intro.swift */,
+			);
+			path = 14;
+			sourceTree = "<group>";
+		};
+		ACDB22F52EC7079C00CB6030 /* 14 */ = {
+			isa = PBXGroup;
+			children = (
+				AC0E23742E8D64CA00CEC1DF /* ScrollViewReader_Intro.swift */,
+			);
+			path = 14;
+			sourceTree = "<group>";
+		};
+		ACDB22F62EC707AC00CB6030 /* 14 */ = {
+			isa = PBXGroup;
+			children = (
+				AC0E23722E8D622C00CEC1DF /* LazyHGrid_RowAndColumnSpacing.swift */,
+			);
+			path = 14;
+			sourceTree = "<group>";
+		};
+		ACDB22F72EC7083700CB6030 /* 16 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8212B92E97986000D0688A /* Models */,
+				AC8212B12E9796A000D0688A /* Chart_WithData.swift */,
+				AC8212B32E97974C00D0688A /* Chart_BarMarkStacking.swift */,
+				AC8212B52E9797E700D0688A /* Chart_BarMarkPositionBy.swift */,
+				AC8212BA2E9798FC00D0688A /* Chart_SectorMark.swift */,
+				AC8212BE2E97998900D0688A /* Chart_SectorMark_Donut.swift */,
+			);
+			path = 16;
+			sourceTree = "<group>";
+		};
+		ACDB22FA2EC7086600CB6030 /* 14 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8212C02E979A1700D0688A /* ColorPicker_Intro.swift */,
+			);
+			path = 14;
+			sourceTree = "<group>";
+		};
+		ACDB22FB2EC7087F00CB6030 /* 14 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8213AD2E98D7DE00D0688A /* DisclosureGroup_Intro.swift */,
+			);
+			path = 14;
+			sourceTree = "<group>";
+		};
+		ACDB22FC2EC708D600CB6030 /* 15 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8213AF2E98D90D00D0688A /* Gauge_Intro.swift */,
+				AC8213B22E98D9C200D0688A /* Gauge_Circular.swift */,
+				AC8213B42E98D9E900D0688A /* Gauge_CircularSize.swift */,
+				AC8213B62E98DA2000D0688A /* Gauge_LabelsDemo.swift */,
+			);
+			path = 15;
+			sourceTree = "<group>";
+		};
+		ACDB22FD2EC7091100CB6030 /* 16 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8213BB2E98DAE000D0688A /* GroupBox_WithBackgroundStyle.swift */,
+			);
+			path = 16;
+			sourceTree = "<group>";
+		};
+		ACDB22FE2EC7091800CB6030 /* 14 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8213B92E98DA8D00D0688A /* GroupBox_WithLabel.swift */,
+			);
+			path = 14;
+			sourceTree = "<group>";
+		};
+		ACDB22FF2EC7093200CB6030 /* 16 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8213BD2E98DC0400D0688A /* LabeledContent_Intro.swift */,
+			);
+			path = 16;
+			sourceTree = "<group>";
+		};
+		ACDB23002EC7094D00CB6030 /* 15 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8213BF2E98DC7400D0688A /* Link_ButtonStyles.swift */,
+			);
+			path = 15;
+			sourceTree = "<group>";
+		};
+		ACDB23012EC7097B00CB6030 /* 13 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8213C22E98DD6400D0688A /* List_MoveAndDelete.swift */,
+				AC8213CE2E98E05500D0688A /* List_ListRowInsets.swift */,
+			);
+			path = 13;
+			sourceTree = "<group>";
+		};
+		ACDB23022EC7099500CB6030 /* 14 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8213D02E98E10100D0688A /* List_WithChildren.swift */,
+				AC8213D42E98E32400D0688A /* HierarchicalListDemo.swift */,
+			);
+			path = 14;
+			sourceTree = "<group>";
+		};
+		ACDB23032EC709BF00CB6030 /* 15 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8213D82E98E52900D0688A /* List_SafeAreaInset.swift */,
+				AC8213DA2E98E5CB00D0688A /* List_SafeAreaInset_ScrollView.swift */,
+				AC8213DC2E98E63200D0688A /* List_BindingWithin.swift */,
+			);
+			path = 15;
+			sourceTree = "<group>";
+		};
+		ACDB23042EC709FF00CB6030 /* 16 */ = {
+			isa = PBXGroup;
+			children = (
+				AC8213DE2E98E6C100D0688A /* List_RowSpacing.swift */,
+				ACA130DE2EA210A6006933FF /* List_ScrollContentBackground.swift */,
+			);
+			path = 16;
+			sourceTree = "<group>";
+		};
+		ACDB23052EC70A1C00CB6030 /* 17 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA130DC2EA21048006933FF /* List_Badge.swift */,
+			);
+			path = 17;
+			sourceTree = "<group>";
+		};
+		ACDB23062EC70A6800CB6030 /* 15 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA130E12EA212B3006933FF /* Menu_Intro.swift */,
+			);
+			path = 15;
+			sourceTree = "<group>";
+		};
+		ACDB23072EC70A7100CB6030 /* 14 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA130E32EA21C20006933FF /* Menu_InsideMenu.swift */,
+				ACA130E52EA21CB3006933FF /* Menu_Customizing.swift */,
+				ACA130E72EA21D6C006933FF /* Menu_MenuPosition.swift */,
+				ACA130E92EA21DAA006933FF /* Menu_MaxItems.swift */,
+				ACA130EB2EA21E09006933FF /* Menu_OtherViewsWithin.swift */,
+			);
+			path = 14;
+			sourceTree = "<group>";
+		};
+		ACDB23082EC70AD800CB6030 /* 16 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA130ED2EA21E81006933FF /* Menu_Order.swift */,
+			);
+			path = 16;
+			sourceTree = "<group>";
+		};
+		ACDB23092EC70AF800CB6030 /* 16 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA130F02EA21F19006933FF /* MultiDatePicker_Intro.swift */,
+				ACA130F42EA21FB0006933FF /* MultiDatePicker_DateRange.swift */,
+				ACA130F62EA21FF3006933FF /* MultiDatePicker_Customizations.swift */,
+				ACA130F82EA22029006933FF /* MultiDatePicker_PresentingInSheet.swift */,
+			);
+			path = 16;
 			sourceTree = "<group>";
 		};
 		ACDEFE112BEB7F15006E0CD1 /* BM */ = {

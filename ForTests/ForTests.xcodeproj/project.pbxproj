@@ -291,6 +291,20 @@
 		ACDB1FCE2DD61D0D00A8EC52 /* FavoriteDocumentAlreadyUnderControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB1FCD2DD61D0D00A8EC52 /* FavoriteDocumentAlreadyUnderControlView.swift */; };
 		ACDB1FD02DD61DD900A8EC52 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB1FCF2DD61DD900A8EC52 /* Color+Extension.swift */; };
 		ACDB1FD32DD6255400A8EC52 /* NumberListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB1FD22DD6255400A8EC52 /* NumberListViewController.swift */; };
+		ACDB22C82EC6FE8600CB6030 /* TextField_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB22C72EC6FE8600CB6030 /* TextField_Intro.swift */; };
+		ACDB22CA2EC6FF2F00CB6030 /* TextField_Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB22C92EC6FF2F00CB6030 /* TextField_Placeholder.swift */; };
+		ACDB22CC2EC6FFB100CB6030 /* TextField_Customizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB22CB2EC6FFB100CB6030 /* TextField_Customizing.swift */; };
+		ACDB22CE2EC6FFFA00CB6030 /* TextField_Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB22CD2EC6FFFA00CB6030 /* TextField_Border.swift */; };
+		ACDB22D22EC700D700CB6030 /* TextField_Autocapitalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB22D12EC700D700CB6030 /* TextField_Autocapitalization.swift */; };
+		ACDB22D42EC7013700CB6030 /* TextField_KeyboardSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB22D32EC7013700CB6030 /* TextField_KeyboardSafeArea.swift */; };
+		ACDB22D62EC7017800CB6030 /* TextField_OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB22D52EC7017800CB6030 /* TextField_OnChange.swift */; };
+		ACDB22D82EC701CB00CB6030 /* TextField_OnSubmit.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB22D72EC701CB00CB6030 /* TextField_OnSubmit.swift */; };
+		ACDB22DA2EC7024800CB6030 /* TextField_FocusState.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB22D92EC7024800CB6030 /* TextField_FocusState.swift */; };
+		ACDB22DC2EC702A700CB6030 /* TextField_FocusStateWithEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB22DB2EC702A700CB6030 /* TextField_FocusStateWithEnum.swift */; };
+		ACDB22DE2EC7030B00CB6030 /* TextField_PersonNameComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB22DD2EC7030B00CB6030 /* TextField_PersonNameComponents.swift */; };
+		ACDB22E02EC7038100CB6030 /* TextField_NumberTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB22DF2EC7038100CB6030 /* TextField_NumberTypes.swift */; };
+		ACDB22E32EC703EA00CB6030 /* TextField_Axis.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB22E22EC703EA00CB6030 /* TextField_Axis.swift */; };
+		ACDB22E52EC7044D00CB6030 /* TextField_LineLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB22E42EC7044D00CB6030 /* TextField_LineLimit.swift */; };
 		ACDEFE152BEB7F41006E0CD1 /* UserAuthorizationBM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE142BEB7F41006E0CD1 /* UserAuthorizationBM.swift */; };
 		ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE162BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift */; };
 		ACDEFE192BEB7F76006E0CD1 /* View+HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE182BEB7F76006E0CD1 /* View+HideKeyboard.swift */; };
@@ -596,6 +610,20 @@
 		ACDB1FCD2DD61D0D00A8EC52 /* FavoriteDocumentAlreadyUnderControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteDocumentAlreadyUnderControlView.swift; sourceTree = "<group>"; };
 		ACDB1FCF2DD61DD900A8EC52 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		ACDB1FD22DD6255400A8EC52 /* NumberListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberListViewController.swift; sourceTree = "<group>"; };
+		ACDB22C72EC6FE8600CB6030 /* TextField_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_Intro.swift; sourceTree = "<group>"; };
+		ACDB22C92EC6FF2F00CB6030 /* TextField_Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_Placeholder.swift; sourceTree = "<group>"; };
+		ACDB22CB2EC6FFB100CB6030 /* TextField_Customizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_Customizing.swift; sourceTree = "<group>"; };
+		ACDB22CD2EC6FFFA00CB6030 /* TextField_Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_Border.swift; sourceTree = "<group>"; };
+		ACDB22D12EC700D700CB6030 /* TextField_Autocapitalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_Autocapitalization.swift; sourceTree = "<group>"; };
+		ACDB22D32EC7013700CB6030 /* TextField_KeyboardSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_KeyboardSafeArea.swift; sourceTree = "<group>"; };
+		ACDB22D52EC7017800CB6030 /* TextField_OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_OnChange.swift; sourceTree = "<group>"; };
+		ACDB22D72EC701CB00CB6030 /* TextField_OnSubmit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_OnSubmit.swift; sourceTree = "<group>"; };
+		ACDB22D92EC7024800CB6030 /* TextField_FocusState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_FocusState.swift; sourceTree = "<group>"; };
+		ACDB22DB2EC702A700CB6030 /* TextField_FocusStateWithEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_FocusStateWithEnum.swift; sourceTree = "<group>"; };
+		ACDB22DD2EC7030B00CB6030 /* TextField_PersonNameComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_PersonNameComponents.swift; sourceTree = "<group>"; };
+		ACDB22DF2EC7038100CB6030 /* TextField_NumberTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_NumberTypes.swift; sourceTree = "<group>"; };
+		ACDB22E22EC703EA00CB6030 /* TextField_Axis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_Axis.swift; sourceTree = "<group>"; };
+		ACDB22E42EC7044D00CB6030 /* TextField_LineLimit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_LineLimit.swift; sourceTree = "<group>"; };
 		ACDEFE142BEB7F41006E0CD1 /* UserAuthorizationBM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationBM.swift; sourceTree = "<group>"; };
 		ACDEFE162BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationFieldType.swift; sourceTree = "<group>"; };
 		ACDEFE182BEB7F76006E0CD1 /* View+HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+HideKeyboard.swift"; sourceTree = "<group>"; };
@@ -1394,6 +1422,9 @@
 		AC85492B2EC1C53A0055FCB6 /* TextField */ = {
 			isa = PBXGroup;
 			children = (
+				ACDB22CF2EC7008D00CB6030 /* 14 */,
+				ACDB22D02EC700CB00CB6030 /* 15 */,
+				ACDB22E12EC703D200CB6030 /* 16 */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -1753,6 +1784,41 @@
 			path = UIkit;
 			sourceTree = "<group>";
 		};
+		ACDB22CF2EC7008D00CB6030 /* 14 */ = {
+			isa = PBXGroup;
+			children = (
+				ACDB22C72EC6FE8600CB6030 /* TextField_Intro.swift */,
+				ACDB22C92EC6FF2F00CB6030 /* TextField_Placeholder.swift */,
+				ACDB22CB2EC6FFB100CB6030 /* TextField_Customizing.swift */,
+				ACDB22CD2EC6FFFA00CB6030 /* TextField_Border.swift */,
+				ACDB22D32EC7013700CB6030 /* TextField_KeyboardSafeArea.swift */,
+				ACDB22D52EC7017800CB6030 /* TextField_OnChange.swift */,
+			);
+			path = 14;
+			sourceTree = "<group>";
+		};
+		ACDB22D02EC700CB00CB6030 /* 15 */ = {
+			isa = PBXGroup;
+			children = (
+				ACDB22D12EC700D700CB6030 /* TextField_Autocapitalization.swift */,
+				ACDB22D72EC701CB00CB6030 /* TextField_OnSubmit.swift */,
+				ACDB22D92EC7024800CB6030 /* TextField_FocusState.swift */,
+				ACDB22DB2EC702A700CB6030 /* TextField_FocusStateWithEnum.swift */,
+				ACDB22DD2EC7030B00CB6030 /* TextField_PersonNameComponents.swift */,
+				ACDB22DF2EC7038100CB6030 /* TextField_NumberTypes.swift */,
+			);
+			path = 15;
+			sourceTree = "<group>";
+		};
+		ACDB22E12EC703D200CB6030 /* 16 */ = {
+			isa = PBXGroup;
+			children = (
+				ACDB22E22EC703EA00CB6030 /* TextField_Axis.swift */,
+				ACDB22E42EC7044D00CB6030 /* TextField_LineLimit.swift */,
+			);
+			path = 16;
+			sourceTree = "<group>";
+		};
 		ACDEFE112BEB7F15006E0CD1 /* BM */ = {
 			isa = PBXGroup;
 			children = (
@@ -1950,12 +2016,15 @@
 				AC8212BB2E9798FC00D0688A /* Chart_SectorMark.swift in Sources */,
 				AC8548632EBF68DB0055FCB6 /* SegmentedControl_Colors.swift in Sources */,
 				AC8549242EC1C34D0055FCB6 /* TextEditor_Background.swift in Sources */,
+				ACDB22CC2EC6FFB100CB6030 /* TextField_Customizing.swift in Sources */,
 				ACA131572EA275B2006933FF /* ProgressView_Total.swift in Sources */,
 				AC5278162BF386E400CD1909 /* PanelViewIndicator.swift in Sources */,
 				ACA1311A2EA242E2006933FF /* Navigation_SplitView.swift in Sources */,
 				AC8549152EC1C0B10055FCB6 /* Text_StopwatchStyle.swift in Sources */,
 				ACC496DD2C8B1C8800EAA344 /* Folder.swift in Sources */,
 				AC8213DF2E98E6C100D0688A /* List_RowSpacing.swift in Sources */,
+				ACDB22C82EC6FE8600CB6030 /* TextField_Intro.swift in Sources */,
+				ACDB22D22EC700D700CB6030 /* TextField_Autocapitalization.swift in Sources */,
 				ACA1311E2EA2438D006933FF /* Navigation_SplitViewThreeColumns.swift in Sources */,
 				AC93679D2D76DA8700FB42BD /* FavoritesDocUnderControlAnnotationView.swift in Sources */,
 				AC366EB32C20666C0029AA9A /* DropDown.swift in Sources */,
@@ -2003,6 +2072,7 @@
 				AC89C0142C05D193006BE793 /* MultilineTextFieldView.swift in Sources */,
 				AC366ECA2C219B850029AA9A /* ResizableLogoutInfoSheetView.swift in Sources */,
 				AC8212B42E97974C00D0688A /* Chart_BarMarkStacking.swift in Sources */,
+				ACDB22DA2EC7024800CB6030 /* TextField_FocusState.swift in Sources */,
 				AC52783B2BF647F300CD1909 /* ExitAlertView.swift in Sources */,
 				AC366EC32C20757E0029AA9A /* DropDownMenuDemo4.swift in Sources */,
 				ACA130D42EA20CB3006933FF /* TabShape.swift in Sources */,
@@ -2037,6 +2107,7 @@
 				AC8548892EBF71550055FCB6 /* TabView_Badge.swift in Sources */,
 				ACA1314E2EA2731F006933FF /* PhotosPicker_Intro.swift in Sources */,
 				AC8213BA2E98DA8D00D0688A /* GroupBox_WithLabel.swift in Sources */,
+				ACDB22DE2EC7030B00CB6030 /* TextField_PersonNameComponents.swift in Sources */,
 				AC8548872EBF70FE0055FCB6 /* TabView_Colors.swift in Sources */,
 				ACA131152EA2420D006933FF /* Navigation_BackButtonHidden.swift in Sources */,
 				AC8549172EC1C1000055FCB6 /* Text_TimerStyle.swift in Sources */,
@@ -2044,6 +2115,7 @@
 				ACA131112EA2417F006933FF /* Navigation_BarHidden.swift in Sources */,
 				ACC496ED2C8B283F00EAA344 /* AppleSwiftUIView2.swift in Sources */,
 				ACA131652EA27836006933FF /* ScrollView_SafeAreaInset.swift in Sources */,
+				ACDB22CE2EC6FFFA00CB6030 /* TextField_Border.swift in Sources */,
 				AC8548D62EC0E3330055FCB6 /* Text_BaselineOffset.swift in Sources */,
 				AC8548822EBF6F7B0055FCB6 /* Stepper_Intro.swift in Sources */,
 				ACA131632EA27806006933FF /* ScrollView_Intro.swift in Sources */,
@@ -2122,6 +2194,7 @@
 				AC7325E92E7C32B3008AA41B /* ScrollViewReaderText.swift in Sources */,
 				AC8548C52EC0DE020055FCB6 /* TabView_PageTabViewStyle_IndexDisplayMode.swift in Sources */,
 				AC8548EB2EC0EA4F0055FCB6 /* Text_MeasurementConversion.swift in Sources */,
+				ACDB22E32EC703EA00CB6030 /* TextField_Axis.swift in Sources */,
 				AC8548D42EC0E29F0055FCB6 /* Text_CombiningModifiedText.swift in Sources */,
 				ACFD59EE2E2E54EE001D4740 /* ListListSwiftUIView.swift in Sources */,
 				AC3B12DD2CF099440076D9B3 /* SearchFruitsView.swift in Sources */,
@@ -2168,7 +2241,9 @@
 				AC8548CA2EC0E0920055FCB6 /* Text_FontWidths.swift in Sources */,
 				ACA131502EA273F1006933FF /* PhotosPicker_MultipleItems.swift in Sources */,
 				AC85490E2EC1BE950055FCB6 /* Text_Inflection.swift in Sources */,
+				ACDB22D62EC7017800CB6030 /* TextField_OnChange.swift in Sources */,
 				ACEC5E382CAF1DBE00ECBB2F /* SwiftUIViewIpad3.swift in Sources */,
+				ACDB22CA2EC6FF2F00CB6030 /* TextField_Placeholder.swift in Sources */,
 				AC89BFFC2C04B462006BE793 /* QuickSearchView.swift in Sources */,
 				ACA131202EA243C7006933FF /* Navigation_SplitViewColumnWidth.swift in Sources */,
 				ACA131782EA27CDA006933FF /* Navigation_Searchable_Search.swift in Sources */,
@@ -2199,6 +2274,8 @@
 				AC70C5DC2D4A4FF500718A64 /* BookmarksList.swift in Sources */,
 				AC8213DD2E98E63200D0688A /* List_BindingWithin.swift in Sources */,
 				AC8213BC2E98DAE000D0688A /* GroupBox_WithBackgroundStyle.swift in Sources */,
+				ACDB22E52EC7044D00CB6030 /* TextField_LineLimit.swift in Sources */,
+				ACDB22E02EC7038100CB6030 /* TextField_NumberTypes.swift in Sources */,
 				ACDB1FD32DD6255400A8EC52 /* NumberListViewController.swift in Sources */,
 				ACA130EA2EA21DAA006933FF /* Menu_MaxItems.swift in Sources */,
 				AC411FA02D7ED95B009AFD7A /* TruncationTextMaskModifier.swift in Sources */,
@@ -2214,6 +2291,7 @@
 				ACA131602EA2778C006933FF /* RenameButton_EditText.swift in Sources */,
 				ACFEDC762B83A2A6002B3C66 /* View+Padding.swift in Sources */,
 				ACFA09282CEDE05400A2167E /* HelperSwiftUIView.swift in Sources */,
+				ACDB22D82EC701CB00CB6030 /* TextField_OnSubmit.swift in Sources */,
 				AC8548D82EC0E4050055FCB6 /* Text_ScaledMetric.swift in Sources */,
 				AC8548CE2EC0E15A0055FCB6 /* Text_MinimumScaleFactor.swift in Sources */,
 				AC366EAE2C2034760029AA9A /* MenuSwiftUIView2.swift in Sources */,
@@ -2222,7 +2300,9 @@
 				ACA131802EA28022006933FF /* Navigation_Searchable_Filter.swift in Sources */,
 				AC7326032E7D47A1008AA41B /* ScrollPositionIDDemo.swift in Sources */,
 				AC70C5DE2D4A500A00718A64 /* BookmarksView.swift in Sources */,
+				ACDB22D42EC7013700CB6030 /* TextField_KeyboardSafeArea.swift in Sources */,
 				ACA131532EA2749E006933FF /* ProgressView_Intro.swift in Sources */,
+				ACDB22DC2EC702A700CB6030 /* TextField_FocusStateWithEnum.swift in Sources */,
 				AC2AA5272DE0928D004C4E24 /* DocumentInvalidatedSheetView.swift in Sources */,
 				AC52781F2BF3941A00CD1909 /* MainCurtainView.swift in Sources */,
 				AC8213D52E98E32400D0688A /* HierarchicalListDemo.swift in Sources */,

@@ -8,7 +8,7 @@
 import SwiftUI
 
 
-private enum Constants {
+private enum CustomResizableLConstants {
     static let textLogin = "Логин"
     static let textCloseButton = "Закрыть"
     static let heading = "Коммерческая версия с доступом к вашему комплекту КонсультантПлюс"
@@ -115,7 +115,7 @@ struct CustomResizableLogoutInfoSheetView: View {
         Button {
             isSheetPresented.toggle()
         } label: {
-            Text(Constants.textCloseButton)
+            Text(CustomResizableLConstants.textCloseButton)
         }
         .padding(.bottom, 32)
     }

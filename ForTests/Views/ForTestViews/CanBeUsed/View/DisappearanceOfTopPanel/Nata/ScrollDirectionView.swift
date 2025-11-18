@@ -6,7 +6,7 @@ import SwiftUI
 
 // MARK: - Constants
 
-private enum Constants {
+private enum ScrollDirectionConstants {
     static let scrollingRation: CGFloat = 5
     static let scrollingThreshold: CGFloat = 60
 }
@@ -57,14 +57,14 @@ public struct ScrollDirectionView<Content>: View where Content: View {
 
     func handle(gesture: UIPanGestureRecognizer) {
         let velocityY = gesture.velocity(in: gesture.view).y
-        let scrollingRation = velocityY / Constants.scrollingRation
+        let scrollingRation = velocityY / ScrollDirectionConstants.scrollingRation
 
         if velocityY < .zero {
-            if -scrollingRation > Constants.scrollingThreshold, isScrollingUp {
+            if -scrollingRation > ScrollDirectionConstants.scrollingThreshold, isScrollingUp {
                 isScrollingUp = false
             }
         } else {
-            if scrollingRation > Constants.scrollingThreshold, !isScrollingUp {
+            if scrollingRation > ScrollDirectionConstants.scrollingThreshold, !isScrollingUp {
                 isScrollingUp = true
             }
         }

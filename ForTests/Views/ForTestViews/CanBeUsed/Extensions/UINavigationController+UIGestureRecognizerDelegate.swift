@@ -7,8 +7,8 @@
 
 import UIKit
 
-private enum Constants {
-    static let minimumViewControllerCount: Int = 1
+private enum NavGestureConstants {
+    static let minimumViewControllerCount = 1
 }
 
 // Add the ability to tap with a finger to go back to the previous screen throughout the application
@@ -21,6 +21,6 @@ extension UINavigationController: UIGestureRecognizerDelegate {
     }
 
     public func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
-        return viewControllers.count > Constants.minimumViewControllerCount
+        return viewControllers.count > NavGestureConstants.minimumViewControllerCount
     }
 }

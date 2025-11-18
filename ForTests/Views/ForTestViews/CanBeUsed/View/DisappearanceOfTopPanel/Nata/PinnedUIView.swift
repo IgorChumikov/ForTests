@@ -4,10 +4,8 @@
 
 import SwiftUI
 
-private enum Constants {
-    enum HeaderPanel {
-        static let visibilityAnimation: Animation = .linear(duration: 0.3)
-    }
+private enum HeaderPanelConstants {
+    static let visibilityAnimation: Animation = .linear(duration: 0.3)
 }
 
 struct PinnedUIView: View {
@@ -20,7 +18,7 @@ struct PinnedUIView: View {
             }
             .padding(.bottom)
         }
-        .animation(Constants.HeaderPanel.visibilityAnimation, value: isScrollingUp)
+        .animation(HeaderPanelConstants.visibilityAnimation, value: isScrollingUp)
         .clipped()
     }
 }

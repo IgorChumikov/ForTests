@@ -6,7 +6,7 @@ import SwiftUI
 
 // MARK: - Constants
 
-private enum Constants {
+private enum ScrollDirectionCustomGestureConstants {
     static let scrollDirectionCustomGesture = "scrollDirectionCustomGesture"
 }
 
@@ -61,14 +61,14 @@ struct ScrollDirectionCustomGesture: UIViewRepresentable {
         DispatchQueue.main.async {
             guard
                 let superview = uiView.superview?.superview,
-                !(superview.gestureRecognizers?.contains(where: { $0.name == Constants.scrollDirectionCustomGesture }) ?? false) else { return }
+                !(superview.gestureRecognizers?.contains(where: { $0.name == ScrollDirectionCustomGestureConstants.scrollDirectionCustomGesture }) ?? false) else { return }
 
             let gesture = UIPanGestureRecognizer(
                 target: context.coordinator,
                 action: #selector(context.coordinator.gestureChange(gesture:))
             )
 
-            gesture.name = Constants.scrollDirectionCustomGesture
+            gesture.name = ScrollDirectionCustomGestureConstants.scrollDirectionCustomGesture
             gesture.delegate = context.coordinator
             superview.addGestureRecognizer(gesture)
         }

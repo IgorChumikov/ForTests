@@ -25,6 +25,7 @@
 		AC0E23862E8D799900CEC1DF /* CUV_IntendedUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E23852E8D799900CEC1DF /* CUV_IntendedUse.swift */; };
 		AC0E23882E8D7A6800CEC1DF /* CUV_Paging.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E23872E8D7A6800CEC1DF /* CUV_Paging.swift */; };
 		AC103B4C2CABF44400F6030A /* DocumentsListSectionsPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC103B4B2CABF44400F6030A /* DocumentsListSectionsPanelView.swift */; };
+		AC1DC9142F1E541100B6F1B9 /* SwiftUIViewSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DC9132F1E541100B6F1B9 /* SwiftUIViewSwiftUIView.swift */; };
 		AC1FC1382D88044200C16DCE /* FavoriteBookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FC1372D88044200C16DCE /* FavoriteBookmarkView.swift */; };
 		AC2AA4852DDF26CC004C4E24 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AA4842DDF26CC004C4E24 /* AppTabBarView.swift */; };
 		AC2AA4872DDF26DB004C4E24 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AA4862DDF26DB004C4E24 /* CustomTabBarView.swift */; };
@@ -376,6 +377,7 @@
 		AC0E23852E8D799900CEC1DF /* CUV_IntendedUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUV_IntendedUse.swift; sourceTree = "<group>"; };
 		AC0E23872E8D7A6800CEC1DF /* CUV_Paging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUV_Paging.swift; sourceTree = "<group>"; };
 		AC103B4B2CABF44400F6030A /* DocumentsListSectionsPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsListSectionsPanelView.swift; sourceTree = "<group>"; };
+		AC1DC9132F1E541100B6F1B9 /* SwiftUIViewSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewSwiftUIView.swift; sourceTree = "<group>"; };
 		AC1FC1372D88044200C16DCE /* FavoriteBookmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBookmarkView.swift; sourceTree = "<group>"; };
 		AC2AA4842DDF26CC004C4E24 /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
 		AC2AA4862DDF26DB004C4E24 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
@@ -812,6 +814,7 @@
 		AC0E23812E8D6BAB00CEC1DF /* ForTestViews */ = {
 			isa = PBXGroup;
 			children = (
+				AC1DC9122F1E540300B6F1B9 /* New Group */,
 				AC09275E2EBCA12D006332C9 /* ScreenshotListener */,
 				ACFD59EC2E2E54D8001D4740 /* List */,
 				AC2AA5232DE0872F004C4E24 /* Sheet */,
@@ -833,6 +836,14 @@
 				ACDB22F22EC7077700CB6030 /* 17 */,
 			);
 			path = ContentUnavailableView;
+			sourceTree = "<group>";
+		};
+		AC1DC9122F1E540300B6F1B9 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				AC1DC9132F1E541100B6F1B9 /* SwiftUIViewSwiftUIView.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		AC1FC1352D88040A00C16DCE /* New Group 2 */ = {
@@ -1478,9 +1489,8 @@
 		AC9611A12DDB22D900398A1F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				AC96F12F2ECC5F7800335AA4 /* MasteringChartsInSwiftUI */,
-				AC96F1752ECC5FBF00335AA4 /* MasteringChartsView.swift */,
 				AC0E23812E8D6BAB00CEC1DF /* ForTestViews */,
+				AC96F12F2ECC5F7800335AA4 /* MasteringChartsInSwiftUI */,
 				AC0E23702E8D61FD00CEC1DF /* Books */,
 			);
 			path = Views;
@@ -1500,6 +1510,7 @@
 		AC96F12F2ECC5F7800335AA4 /* MasteringChartsInSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				AC96F1752ECC5FBF00335AA4 /* MasteringChartsView.swift */,
 				AC96F1772ECC617000335AA4 /* Views */,
 				AC96F1582ECC5FAE00335AA4 /* Models */,
 			);
@@ -3003,6 +3014,7 @@
 				AC0E23862E8D799900CEC1DF /* CUV_IntendedUse.swift in Sources */,
 				AC5278402BF6495300CD1909 /* ContentViewOne1.swift in Sources */,
 				ACDEFE192BEB7F76006E0CD1 /* View+HideKeyboard.swift in Sources */,
+				AC1DC9142F1E541100B6F1B9 /* SwiftUIViewSwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

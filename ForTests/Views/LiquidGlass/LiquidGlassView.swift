@@ -41,6 +41,8 @@ enum LiquidGlassExample: String, CaseIterable, Identifiable {
 @available(iOS 26.0, *)
 struct LiquidGlassView: View {
 
+    @State private var showsTabBarMinimizeDemo = false
+
     var body: some View {
         NavigationStack {
             List {
@@ -91,10 +93,21 @@ struct LiquidGlassView: View {
                 }
 
                 Section("Панель вкладок") {
-                    NavigationLink(
-                        LiquidGlassExample.tabBarMinimize.rawValue,
-                        value: LiquidGlassExample.tabBarMinimize
-                    )
+                    Button {
+                        showsTabBarMinimizeDemo = true
+                    } label: {
+                        HStack {
+                            Text(LiquidGlassExample.tabBarMinimize.rawValue)
+                                .foregroundStyle(.primary)
+
+                            Spacer()
+
+                            Image(systemName: "chevron.right")
+                                .font(.footnote.weight(.semibold))
+                                .foregroundStyle(.tertiary)
+                        }
+                    }
+                    .buttonStyle(.plain)
                 }
             }
             .navigationDestination(for: LiquidGlassExample.self) { example in
@@ -124,10 +137,32 @@ struct LiquidGlassView: View {
                 case .backgroundExtension:
                     BackgroundExtensionExample()
                 case .tabBarMinimize:
-                    TabBarMinimizeExample()
+                    EmptyView()
                 }
             }
             .navigationTitle("Liquid Glass")
+            .fullScreenCover(isPresented: $showsTabBarMinimizeDemo) {
+                TabBarMinimizeDemoHost()
+            }
+        }
+    }
+}
+
+@available(iOS 26.0, *)
+private struct TabBarMinimizeDemoHost: View {
+
+    @Environment(\.dismiss) private var dismiss
+
+    var body: some View {
+        ZStack(alignment: .topTrailing) {
+            TabBarMinimizeExample()
+
+            Button("Закрыть") {
+                dismiss()
+            }
+            .buttonStyle(.glassProminent)
+            .padding(.top, 14)
+            .padding(.trailing, 16)
         }
     }
 }

@@ -33,6 +33,11 @@ struct GlassTransitionTypesExample: View {
 
             ScrollView {
                 VStack(spacing: 40) {
+                    LiquidGlassUsageCallout(
+                        title: ".glassEffectTransition(...)",
+                        description: "Показываем, как стекло ведёт себя при разных типах переходов."
+                    )
+
                     // Matched Geometry Transition
                     VStack(spacing: 16) {
                         Text(".matchedGeometry")

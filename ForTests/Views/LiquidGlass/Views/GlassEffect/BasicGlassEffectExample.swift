@@ -23,6 +23,11 @@ struct BasicGlassEffectExample: View {
             .ignoresSafeArea()
 
             VStack(spacing: 30) {
+                LiquidGlassUsageCallout(
+                    title: ".glassEffect()",
+                    description: "Базовый модификатор Liquid Glass для текста, иконок и контейнеров."
+                )
+
                 // Basic glass effect on Text
                 Text("Привет, Liquid Glass!")
                     .font(.title)

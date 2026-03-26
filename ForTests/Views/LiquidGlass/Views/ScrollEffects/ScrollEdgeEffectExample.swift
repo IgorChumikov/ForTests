@@ -19,6 +19,11 @@ struct ScrollEdgeEffectExample: View {
 
     var body: some View {
         VStack(spacing: 0) {
+            LiquidGlassUsageCallout(
+                title: ".scrollEdgeEffectStyle(...)",
+                description: "Управляем тем, насколько мягко или жёстко стеклянные элементы отделяются от прокручиваемого контента."
+            )
+
             // Style picker
             Picker("Стиль края", selection: $selectedStyle) {
                 Text("Автоматически").tag(0)

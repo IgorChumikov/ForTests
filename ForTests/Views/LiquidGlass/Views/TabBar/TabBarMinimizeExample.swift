@@ -21,6 +21,11 @@ struct TabBarMinimizeExample: View {
                     VStack(spacing: 18) {
                         offsetReader
 
+                        LiquidGlassUsageCallout(
+                            title: ".tabBarMinimizeBehavior(.onScrollDown)",
+                            description: "Системный Tab Bar становится компактнее при прокрутке вниз."
+                        )
+
                         heroCard
 
                         hintCard

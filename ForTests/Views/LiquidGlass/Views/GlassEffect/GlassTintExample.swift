@@ -24,6 +24,11 @@ struct GlassTintExample: View {
 
             ScrollView {
                 VStack(spacing: 24) {
+                    LiquidGlassUsageCallout(
+                        title: ".glassEffect(.regular.tint(...))",
+                        description: "Добавляем цветной оттенок к стеклу, чтобы сильнее выделить элемент."
+                    )
+
                     Text("Стеклянные эффекты с оттенком")
                         .font(.title2.bold())
                         .padding(.top)

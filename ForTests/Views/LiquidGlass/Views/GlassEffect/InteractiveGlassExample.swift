@@ -25,6 +25,11 @@ struct InteractiveGlassExample: View {
             .ignoresSafeArea()
 
             VStack(spacing: 30) {
+                LiquidGlassUsageCallout(
+                    title: ".glassEffect(.interactive())",
+                    description: "Интерактивное стекло реагирует на нажатие и ощущается как живая стеклянная кнопка."
+                )
+
                 Text("Нажмите на интерактивные стеклянные элементы")
                     .font(.subheadline)
                     .foregroundStyle(.white.opacity(0.8))

@@ -26,6 +26,11 @@ struct GlassMorphingExample: View {
             .ignoresSafeArea()
 
             VStack(spacing: 40) {
+                LiquidGlassUsageCallout(
+                    title: ".glassEffectID(..., in: namespace)",
+                    description: "Связываем элементы через ID и namespace, чтобы стеклянная форма могла морфиться между ними."
+                )
+
                 Text("Нажмите «Переключить», чтобы увидеть морфинг")
                     .font(.subheadline)
                     .foregroundStyle(.white.opacity(0.8))

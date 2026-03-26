@@ -16,6 +16,11 @@ struct BackgroundExtensionExample: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 18) {
+                LiquidGlassUsageCallout(
+                    title: ".backgroundExtensionEffect()",
+                    description: "Фон визуально продолжается под полупрозрачной боковой панелью. На iPhone эффект тонкий, на широком экране заметнее."
+                )
+
                 infoCard
 
                 comparisonRow(

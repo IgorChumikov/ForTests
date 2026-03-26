@@ -38,6 +38,11 @@ struct GlassEffectUnionExample: View {
             .ignoresSafeArea()
 
             VStack(spacing: 40) {
+                LiquidGlassUsageCallout(
+                    title: ".glassEffectUnion(id:namespace:)",
+                    description: "Элементы с одинаковым union ID объединяются в одну общую стеклянную форму."
+                )
+
                 // Two groups with unions
                 VStack(alignment: .leading, spacing: 8) {
                     Text("Погодные символы (2 группы)")

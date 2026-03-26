@@ -28,6 +28,11 @@ struct GlassButtonStylesExample: View {
 
             ScrollView {
                 VStack(spacing: 28) {
+                    LiquidGlassUsageCallout(
+                        title: ".buttonStyle(.glass)",
+                        description: "Стили системных стеклянных кнопок: обычная, акцентная, прозрачная и с оттенком."
+                    )
+
                     // .glass style
                     Section {
                         Button("Стеклянная кнопка") {

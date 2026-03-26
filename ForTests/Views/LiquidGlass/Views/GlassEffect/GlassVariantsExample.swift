@@ -16,6 +16,11 @@ struct GlassVariantsExample: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 40) {
+                LiquidGlassUsageCallout(
+                    title: ".glassEffect(.regular / .clear)",
+                    description: "Сравнение двух вариантов стекла: более читаемого и более прозрачного."
+                )
+
                 // Regular variant
                 ZStack {
                     Image(systemName: "mountain.2.fill")

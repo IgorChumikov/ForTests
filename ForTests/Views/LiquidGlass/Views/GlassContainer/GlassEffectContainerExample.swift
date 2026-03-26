@@ -26,6 +26,11 @@ struct GlassEffectContainerExample: View {
             .ignoresSafeArea()
 
             VStack(spacing: 24) {
+                LiquidGlassUsageCallout(
+                    title: "GlassEffectContainer(spacing:)",
+                    description: "Контейнер объединяет несколько стеклянных форм и управляет тем, когда они сливаются."
+                )
+
                 Text("Меняйте отступы, чтобы увидеть, как объединяются стеклянные формы")
                     .font(.subheadline)
                     .multilineTextAlignment(.center)

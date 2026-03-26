@@ -23,6 +23,11 @@ struct GlassEffectShapesExample: View {
 
             ScrollView {
                 VStack(spacing: 30) {
+                    LiquidGlassUsageCallout(
+                        title: ".glassEffect(in: Shape)",
+                        description: "Меняем форму стекла: капсула, круг, прямоугольник, эллипс и свои скругления."
+                    )
+
                     // Default Capsule shape
                     Text("По умолчанию (капсула)")
                         .font(.headline)

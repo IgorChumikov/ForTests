@@ -33,9 +33,9 @@ struct TabBarMinimizeExample: View {
                                     }
 
                                 VStack(alignment: .leading) {
-                                    Text("Post \(index)")
+                                    Text("Пост \(index)")
                                         .font(.headline)
-                                    Text("Scroll to see the tab bar minimize")
+                                    Text("Прокрутите вниз, чтобы увидеть сворачивание панели вкладок")
                                         .font(.caption)
                                         .foregroundStyle(.secondary)
                                 }
@@ -49,36 +49,36 @@ struct TabBarMinimizeExample: View {
                     }
                     .padding(.vertical)
                 }
-                .navigationTitle("Home")
+                .navigationTitle("Главная")
             }
             .tabItem {
-                Label("Home", systemImage: "house.fill")
+                Label("Главная", systemImage: "house.fill")
             }
             .tag(0)
 
             NavigationStack {
                 ContentUnavailableView(
-                    "Search",
+                    "Поиск",
                     systemImage: "magnifyingglass",
-                    description: Text("Search for content")
+                    description: Text("Поиск контента")
                 )
-                .navigationTitle("Search")
+                .navigationTitle("Поиск")
             }
             .tabItem {
-                Label("Search", systemImage: "magnifyingglass")
+                Label("Поиск", systemImage: "magnifyingglass")
             }
             .tag(1)
 
             NavigationStack {
                 ContentUnavailableView(
-                    "Profile",
+                    "Профиль",
                     systemImage: "person.fill",
-                    description: Text("Your profile")
+                    description: Text("Ваш профиль")
                 )
-                .navigationTitle("Profile")
+                .navigationTitle("Профиль")
             }
             .tabItem {
-                Label("Profile", systemImage: "person.fill")
+                Label("Профиль", systemImage: "person.fill")
             }
             .tag(2)
         }

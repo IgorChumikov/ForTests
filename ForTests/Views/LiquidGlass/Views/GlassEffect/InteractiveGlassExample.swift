@@ -25,18 +25,18 @@ struct InteractiveGlassExample: View {
             .ignoresSafeArea()
 
             VStack(spacing: 30) {
-                Text("Tap the interactive glass elements")
+                Text("Нажмите на интерактивные стеклянные элементы")
                     .font(.subheadline)
                     .foregroundStyle(.white.opacity(0.8))
 
                 // Interactive glass - reacts to touch
-                Text("Interactive Glass")
+                Text("Интерактивное стекло")
                     .font(.title2)
                     .padding()
                     .glassEffect(.regular.interactive())
 
                 // Interactive + tinted
-                Label("Tap me!", systemImage: "hand.tap.fill")
+                Label("Нажми меня!", systemImage: "hand.tap.fill")
                     .font(.title3)
                     .padding()
                     .glassEffect(.regular.tint(.orange).interactive())
@@ -45,7 +45,7 @@ struct InteractiveGlassExample: View {
                     }
 
                 // Non-interactive for comparison
-                Text("Non-interactive (for comparison)")
+                Text("Неинтерактивный вариант для сравнения")
                     .font(.body)
                     .padding()
                     .glassEffect(.regular)
@@ -61,13 +61,13 @@ struct InteractiveGlassExample: View {
                 }
 
                 if tapCount > 0 {
-                    Text("Tapped \(tapCount) time\(tapCount == 1 ? "" : "s")")
+                    Text(tapCount == 1 ? "Нажато 1 раз" : "Нажато \(tapCount) раз")
                         .font(.caption)
                         .foregroundStyle(.white.opacity(0.7))
                 }
             }
         }
-        .navigationTitle("Interactive Glass")
+        .navigationTitle("Интерактивное стекло")
     }
 }
 

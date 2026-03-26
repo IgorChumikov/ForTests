@@ -38,7 +38,7 @@ struct GlassTransitionTypesExample: View {
                         Text(".matchedGeometry")
                             .font(.headline)
 
-                        Text("Shape morphs from/to nearby shapes")
+                        Text("Форма плавно переходит к соседним формам")
                             .font(.caption)
                             .foregroundStyle(.secondary)
 
@@ -61,7 +61,7 @@ struct GlassTransitionTypesExample: View {
                             }
                         }
 
-                        Button("Toggle") {
+                        Button("Переключить") {
                             withAnimation {
                                 showMatchedGeometry.toggle()
                             }
@@ -77,7 +77,7 @@ struct GlassTransitionTypesExample: View {
                         Text(".materialize")
                             .font(.headline)
 
-                        Text("Fades in content, animates glass material")
+                        Text("Плавно показывает содержимое и анимирует стеклянный материал")
                             .font(.caption)
                             .foregroundStyle(.secondary)
 
@@ -100,7 +100,7 @@ struct GlassTransitionTypesExample: View {
                             }
                         }
 
-                        Button("Toggle") {
+                        Button("Переключить") {
                             withAnimation {
                                 showMaterialize.toggle()
                             }
@@ -116,7 +116,7 @@ struct GlassTransitionTypesExample: View {
                         Text(".identity")
                             .font(.headline)
 
-                        Text("No transition changes applied")
+                        Text("Переход не применяет дополнительных изменений")
                             .font(.caption)
                             .foregroundStyle(.secondary)
 
@@ -139,7 +139,7 @@ struct GlassTransitionTypesExample: View {
                             }
                         }
 
-                        Button("Toggle") {
+                        Button("Переключить") {
                             withAnimation {
                                 showIdentity.toggle()
                             }
@@ -153,7 +153,7 @@ struct GlassTransitionTypesExample: View {
                 .padding(.vertical)
             }
         }
-        .navigationTitle("Transition Types")
+        .navigationTitle("Типы переходов")
     }
 }
 

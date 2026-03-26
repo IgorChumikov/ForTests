@@ -24,33 +24,33 @@ struct GlassTintExample: View {
 
             ScrollView {
                 VStack(spacing: 24) {
-                    Text("Tinted Glass Effects")
+                    Text("Стеклянные эффекты с оттенком")
                         .font(.title2.bold())
                         .padding(.top)
 
                     // Various tint colors
                     Group {
-                        Label("Blue Tint", systemImage: "drop.fill")
+                        Label("Синий оттенок", systemImage: "drop.fill")
                             .padding()
                             .glassEffect(.regular.tint(.blue))
 
-                        Label("Orange Tint", systemImage: "flame.fill")
+                        Label("Оранжевый оттенок", systemImage: "flame.fill")
                             .padding()
                             .glassEffect(.regular.tint(.orange))
 
-                        Label("Green Tint", systemImage: "leaf.fill")
+                        Label("Зелёный оттенок", systemImage: "leaf.fill")
                             .padding()
                             .glassEffect(.regular.tint(.green))
 
-                        Label("Red Tint", systemImage: "heart.fill")
+                        Label("Красный оттенок", systemImage: "heart.fill")
                             .padding()
                             .glassEffect(.regular.tint(.red))
 
-                        Label("Purple Tint", systemImage: "wand.and.stars")
+                        Label("Фиолетовый оттенок", systemImage: "wand.and.stars")
                             .padding()
                             .glassEffect(.regular.tint(.purple))
 
-                        Label("Pink Tint", systemImage: "sparkles")
+                        Label("Розовый оттенок", systemImage: "sparkles")
                             .padding()
                             .glassEffect(.regular.tint(.pink))
                     }
@@ -59,7 +59,7 @@ struct GlassTintExample: View {
                     Divider()
                         .padding(.horizontal)
 
-                    Text("Tint with Custom Shapes")
+                    Text("Оттенок с пользовательскими формами")
                         .font(.title3.bold())
 
                     // Tinted glass with different shapes
@@ -92,16 +92,16 @@ struct GlassTintExample: View {
                     Divider()
                         .padding(.horizontal)
 
-                    Text("Clear Variant with Tint")
+                    Text("Прозрачный вариант с оттенком")
                         .font(.title3.bold())
 
                     HStack(spacing: 16) {
-                        Text("Clear + Blue")
+                        Text("Прозрачный + синий")
                             .font(.caption)
                             .padding()
                             .glassEffect(.clear.tint(.blue), in: .rect(cornerRadius: 12))
 
-                        Text("Clear + Pink")
+                        Text("Прозрачный + розовый")
                             .font(.caption)
                             .padding()
                             .glassEffect(.clear.tint(.pink), in: .rect(cornerRadius: 12))
@@ -110,7 +110,7 @@ struct GlassTintExample: View {
                 .padding()
             }
         }
-        .navigationTitle("Glass Tint")
+        .navigationTitle("Оттенок стекла")
     }
 }
 

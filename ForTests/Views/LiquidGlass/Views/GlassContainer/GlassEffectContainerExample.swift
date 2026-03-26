@@ -26,7 +26,7 @@ struct GlassEffectContainerExample: View {
             .ignoresSafeArea()
 
             VStack(spacing: 24) {
-                Text("Adjust spacing to see how glass shapes blend")
+                Text("Меняйте отступы, чтобы увидеть, как объединяются стеклянные формы")
                     .font(.subheadline)
                     .multilineTextAlignment(.center)
                     .padding(.horizontal)
@@ -56,7 +56,7 @@ struct GlassEffectContainerExample: View {
 
                 // Container spacing slider
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("Container spacing: \(Int(spacing))")
+                    Text("Отступ контейнера: \(Int(spacing))")
                         .font(.caption.monospaced())
                     Slider(value: $spacing, in: 0...100)
                 }
@@ -66,7 +66,7 @@ struct GlassEffectContainerExample: View {
 
                 // Content spacing slider
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("Content spacing: \(Int(contentSpacing))")
+                    Text("Отступ содержимого: \(Int(contentSpacing))")
                         .font(.caption.monospaced())
                     Slider(value: $contentSpacing, in: 0...100)
                 }
@@ -74,14 +74,14 @@ struct GlassEffectContainerExample: View {
                 .glassEffect(in: .rect(cornerRadius: 16))
                 .padding(.horizontal)
 
-                Text("When container spacing ≥ content spacing,\nshapes merge together")
+                Text("Когда отступ контейнера больше или равен отступу содержимого,\nформы объединяются")
                     .font(.caption)
                     .multilineTextAlignment(.center)
                     .foregroundStyle(.secondary)
             }
             .padding(.vertical)
         }
-        .navigationTitle("Glass Container")
+        .navigationTitle("Стеклянный контейнер")
     }
 }
 

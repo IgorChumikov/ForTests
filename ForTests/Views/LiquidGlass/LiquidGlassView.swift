@@ -13,29 +13,29 @@ enum LiquidGlassExample: String, CaseIterable, Identifiable {
     var id: String { rawValue }
 
     // Glass Effect
-    case basicGlassEffect = "Basic Glass Effect"
-    case glassEffectShapes = "Glass Effect Shapes"
-    case glassVariants = "Glass Variants (Regular vs Clear)"
-    case glassTint = "Glass Tint Colors"
-    case interactiveGlass = "Interactive Glass"
+    case basicGlassEffect = "Базовый стеклянный эффект"
+    case glassEffectShapes = "Формы стеклянного эффекта"
+    case glassVariants = "Варианты стекла (обычное и прозрачное)"
+    case glassTint = "Цветовые оттенки стекла"
+    case interactiveGlass = "Интерактивное стекло"
 
     // Glass Buttons
-    case glassButtonStyles = "Glass Button Styles"
+    case glassButtonStyles = "Стили стеклянных кнопок"
 
     // Glass Container
-    case glassEffectContainer = "Glass Effect Container"
-    case glassEffectUnion = "Glass Effect Union"
+    case glassEffectContainer = "Контейнер стеклянного эффекта"
+    case glassEffectUnion = "Объединение стеклянных эффектов"
 
     // Glass Morphing
-    case glassMorphing = "Glass Morphing Transitions"
-    case glassTransitionTypes = "Glass Transition Types"
+    case glassMorphing = "Морфинг стеклянных переходов"
+    case glassTransitionTypes = "Типы стеклянных переходов"
 
     // Scroll Effects
-    case scrollEdgeEffect = "Scroll Edge Effect"
-    case backgroundExtension = "Background Extension Effect"
+    case scrollEdgeEffect = "Эффект края при прокрутке"
+    case backgroundExtension = "Эффект расширения фона"
 
     // Tab Bar
-    case tabBarMinimize = "Tab Bar Minimize Behavior"
+    case tabBarMinimize = "Сворачивание панели вкладок"
 }
 
 @available(iOS 26.0, *)
@@ -44,7 +44,7 @@ struct LiquidGlassView: View {
     var body: some View {
         NavigationStack {
             List {
-                Section("Glass Effect") {
+                Section("Стеклянный эффект") {
                     ForEach([
                         LiquidGlassExample.basicGlassEffect,
                         .glassEffectShapes,
@@ -56,14 +56,14 @@ struct LiquidGlassView: View {
                     }
                 }
 
-                Section("Glass Buttons") {
+                Section("Стеклянные кнопки") {
                     NavigationLink(
                         LiquidGlassExample.glassButtonStyles.rawValue,
                         value: LiquidGlassExample.glassButtonStyles
                     )
                 }
 
-                Section("Glass Container") {
+                Section("Стеклянный контейнер") {
                     ForEach([
                         LiquidGlassExample.glassEffectContainer,
                         .glassEffectUnion
@@ -72,7 +72,7 @@ struct LiquidGlassView: View {
                     }
                 }
 
-                Section("Glass Morphing") {
+                Section("Морфинг стекла") {
                     ForEach([
                         LiquidGlassExample.glassMorphing,
                         .glassTransitionTypes
@@ -81,7 +81,7 @@ struct LiquidGlassView: View {
                     }
                 }
 
-                Section("Scroll Effects") {
+                Section("Эффекты прокрутки") {
                     ForEach([
                         LiquidGlassExample.scrollEdgeEffect,
                         .backgroundExtension
@@ -90,7 +90,7 @@ struct LiquidGlassView: View {
                     }
                 }
 
-                Section("Tab Bar") {
+                Section("Панель вкладок") {
                     NavigationLink(
                         LiquidGlassExample.tabBarMinimize.rawValue,
                         value: LiquidGlassExample.tabBarMinimize

@@ -34,7 +34,7 @@ struct GlassVariantsExample: View {
                     VStack(spacing: 8) {
                         Text(".regular")
                             .font(.title2.bold())
-                        Text("Blurs background for legibility")
+                        Text("Размывает фон для лучшей читаемости")
                             .font(.caption)
                     }
                     .padding()
@@ -61,7 +61,7 @@ struct GlassVariantsExample: View {
                     VStack(spacing: 8) {
                         Text(".clear")
                             .font(.title2.bold())
-                        Text("Highly translucent for rich backgrounds")
+                        Text("Очень прозрачный вариант для выразительных фонов")
                             .font(.caption)
                     }
                     .padding()
@@ -74,7 +74,7 @@ struct GlassVariantsExample: View {
 
                 // Side by side comparison
                 VStack(alignment: .leading, spacing: 12) {
-                    Text("Comparison")
+                    Text("Сравнение")
                         .font(.headline)
                         .padding(.horizontal)
 
@@ -90,7 +90,7 @@ struct GlassVariantsExample: View {
                             VStack {
                                 Image(systemName: "sun.max.fill")
                                     .font(.largeTitle)
-                                Text("Regular")
+                                Text("Обычное")
                                     .font(.caption)
                             }
                             .padding()
@@ -99,7 +99,7 @@ struct GlassVariantsExample: View {
                             VStack {
                                 Image(systemName: "moon.fill")
                                     .font(.largeTitle)
-                                Text("Clear")
+                                Text("Прозрачное")
                                     .font(.caption)
                             }
                             .padding()
@@ -112,7 +112,7 @@ struct GlassVariantsExample: View {
             }
             .padding(.vertical)
         }
-        .navigationTitle("Glass Variants")
+        .navigationTitle("Варианты стекла")
     }
 }
 

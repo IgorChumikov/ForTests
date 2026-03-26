@@ -15,15 +15,15 @@ struct ScrollEdgeEffectExample: View {
 
     @State private var selectedStyle = 0
 
-    private let items = (1...50).map { "Item \($0)" }
+    private let items = (1...50).map { "Элемент \($0)" }
 
     var body: some View {
         VStack(spacing: 0) {
             // Style picker
-            Picker("Edge Style", selection: $selectedStyle) {
-                Text("Automatic").tag(0)
-                Text("Soft").tag(1)
-                Text("Hard").tag(2)
+            Picker("Стиль края", selection: $selectedStyle) {
+                Text("Автоматически").tag(0)
+                Text("Мягкий").tag(1)
+                Text("Жёсткий").tag(2)
             }
             .pickerStyle(.segmented)
             .padding()
@@ -43,7 +43,7 @@ struct ScrollEdgeEffectExample: View {
                 }
             }
         }
-        .navigationTitle("Scroll Edge Effect")
+        .navigationTitle("Эффект края при прокрутке")
         .toolbar {
             ToolbarItem(placement: .primaryAction) {
                 Button {

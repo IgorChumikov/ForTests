@@ -30,8 +30,8 @@ struct GlassButtonStylesExample: View {
                 VStack(spacing: 28) {
                     // .glass style
                     Section {
-                        Button("Glass Button") {
-                            lastTapped = "Glass"
+                        Button("Стеклянная кнопка") {
+                            lastTapped = "Стеклянная"
                         }
                         .buttonStyle(.glass)
                     } header: {
@@ -40,8 +40,8 @@ struct GlassButtonStylesExample: View {
 
                     // .glassProminent style
                     Section {
-                        Button("Prominent Glass") {
-                            lastTapped = "Prominent"
+                        Button("Акцентное стекло") {
+                            lastTapped = "Акцентная"
                         }
                         .buttonStyle(.glassProminent)
                     } header: {
@@ -50,8 +50,8 @@ struct GlassButtonStylesExample: View {
 
                     // .glass(.clear) style
                     Section {
-                        Button("Clear Glass") {
-                            lastTapped = "Clear"
+                        Button("Прозрачное стекло") {
+                            lastTapped = "Прозрачная"
                         }
                         .buttonStyle(.glass(.clear))
                     } header: {
@@ -62,16 +62,16 @@ struct GlassButtonStylesExample: View {
                     Section {
                         HStack(spacing: 16) {
                             Button {
-                                lastTapped = "Blue"
+                                lastTapped = "Синяя"
                             } label: {
-                                Label("Blue", systemImage: "drop.fill")
+                                Label("Синяя", systemImage: "drop.fill")
                             }
                             .buttonStyle(.glass(.regular.tint(.blue)))
 
                             Button {
-                                lastTapped = "Orange"
+                                lastTapped = "Оранжевая"
                             } label: {
-                                Label("Orange", systemImage: "flame.fill")
+                                Label("Оранжевая", systemImage: "flame.fill")
                             }
                             .buttonStyle(.glass(.regular.tint(.orange)))
                         }
@@ -83,21 +83,21 @@ struct GlassButtonStylesExample: View {
                     Section {
                         HStack(spacing: 16) {
                             Button {
-                                lastTapped = "Share"
+                                lastTapped = "Поделиться"
                             } label: {
                                 Image(systemName: "square.and.arrow.up")
                             }
                             .buttonStyle(.glass)
 
                             Button {
-                                lastTapped = "Heart"
+                                lastTapped = "Лайк"
                             } label: {
                                 Image(systemName: "heart.fill")
                             }
                             .buttonStyle(.glass)
 
                             Button {
-                                lastTapped = "Bookmark"
+                                lastTapped = "Закладка"
                             } label: {
                                 Image(systemName: "bookmark.fill")
                             }
@@ -105,21 +105,21 @@ struct GlassButtonStylesExample: View {
                         }
                         .font(.title2)
                     } header: {
-                        sectionHeader("Icon Buttons with Glass")
+                        sectionHeader("Иконки-кнопки со стеклом")
                     }
 
                     // Destructive role button
                     Section {
-                        Button("Delete Item", role: .destructive) {
-                            lastTapped = "Delete"
+                        Button("Удалить элемент", role: .destructive) {
+                            lastTapped = "Удаление"
                         }
                         .buttonStyle(.glass)
                     } header: {
-                        sectionHeader("Button with Destructive Role")
+                        sectionHeader("Кнопка с разрушительным действием")
                     }
 
                     if !lastTapped.isEmpty {
-                        Text("Last tapped: \(lastTapped)")
+                        Text("Последнее нажатие: \(lastTapped)")
                             .font(.caption)
                             .padding()
                             .glassEffect(in: .rect(cornerRadius: 8))
@@ -128,7 +128,7 @@ struct GlassButtonStylesExample: View {
                 .padding()
             }
         }
-        .navigationTitle("Glass Buttons")
+        .navigationTitle("Стеклянные кнопки")
     }
 
     private func sectionHeader(_ text: String) -> some View {

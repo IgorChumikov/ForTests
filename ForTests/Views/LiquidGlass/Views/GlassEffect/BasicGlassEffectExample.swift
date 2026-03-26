@@ -24,13 +24,13 @@ struct BasicGlassEffectExample: View {
 
             VStack(spacing: 30) {
                 // Basic glass effect on Text
-                Text("Hello, Liquid Glass!")
+                Text("Привет, Liquid Glass!")
                     .font(.title)
                     .padding()
                     .glassEffect()
 
                 // Glass effect on Label
-                Label("Favorite", systemImage: "star.fill")
+                Label("Избранное", systemImage: "star.fill")
                     .font(.title2)
                     .padding()
                     .glassEffect()
@@ -44,14 +44,14 @@ struct BasicGlassEffectExample: View {
                 // Glass effect on HStack
                 HStack(spacing: 16) {
                     Image(systemName: "house.fill")
-                    Text("Home")
+                    Text("Главная")
                 }
                 .font(.title3)
                 .padding()
                 .glassEffect()
             }
         }
-        .navigationTitle("Basic Glass Effect")
+        .navigationTitle("Базовый стеклянный эффект")
     }
 }
 

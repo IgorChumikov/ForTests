@@ -40,7 +40,7 @@ struct GlassEffectUnionExample: View {
             VStack(spacing: 40) {
                 // Two groups with unions
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("Weather Symbols (2 groups)")
+                    Text("Погодные символы (2 группы)")
                         .font(.caption)
                         .foregroundStyle(.white.opacity(0.7))
 
@@ -62,7 +62,7 @@ struct GlassEffectUnionExample: View {
 
                 // Music controls as single union
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("Music Controls (single union)")
+                    Text("Управление музыкой (единое объединение)")
                         .font(.caption)
                         .foregroundStyle(.white.opacity(0.7))
 
@@ -84,7 +84,7 @@ struct GlassEffectUnionExample: View {
 
                 // No union (for comparison)
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("No Union (for comparison)")
+                    Text("Без объединения (для сравнения)")
                         .font(.caption)
                         .foregroundStyle(.white.opacity(0.7))
 
@@ -102,7 +102,7 @@ struct GlassEffectUnionExample: View {
             }
             .padding()
         }
-        .navigationTitle("Glass Union")
+        .navigationTitle("Объединение стекла")
     }
 }
 

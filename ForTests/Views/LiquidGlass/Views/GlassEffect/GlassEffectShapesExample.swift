@@ -24,13 +24,13 @@ struct GlassEffectShapesExample: View {
             ScrollView {
                 VStack(spacing: 30) {
                     // Default Capsule shape
-                    Text("Default (Capsule)")
+                    Text("По умолчанию (капсула)")
                         .font(.headline)
                         .padding()
                         .glassEffect()
 
                     // Rounded Rectangle
-                    Text("Rounded Rectangle")
+                    Text("Скруглённый прямоугольник")
                         .font(.headline)
                         .padding()
                         .frame(width: 250)
@@ -43,14 +43,14 @@ struct GlassEffectShapesExample: View {
                         .glassEffect(in: .circle)
 
                     // Rectangle with no corner radius
-                    Text("Rectangle")
+                    Text("Прямоугольник")
                         .font(.headline)
                         .padding()
                         .frame(width: 250)
                         .glassEffect(in: .rect)
 
                     // Rounded Rectangle with custom corner radii
-                    Text("Custom Corners")
+                    Text("Свои скругления")
                         .font(.headline)
                         .padding()
                         .frame(width: 250)
@@ -64,7 +64,7 @@ struct GlassEffectShapesExample: View {
                         )
 
                     // Ellipse
-                    Text("Ellipse Shape")
+                    Text("Форма эллипса")
                         .font(.headline)
                         .padding(.horizontal, 40)
                         .padding(.vertical, 20)
@@ -74,9 +74,9 @@ struct GlassEffectShapesExample: View {
                     VStack(spacing: 12) {
                         Image(systemName: "photo.artframe")
                             .font(.system(size: 40))
-                        Text("Card with Glass")
+                        Text("Карточка со стеклом")
                             .font(.title3)
-                        Text("Use rounded rectangles for larger components")
+                        Text("Для крупных элементов удобно использовать скруглённые прямоугольники")
                             .font(.caption)
                             .foregroundStyle(.secondary)
                     }
@@ -88,7 +88,7 @@ struct GlassEffectShapesExample: View {
                 .padding(.vertical)
             }
         }
-        .navigationTitle("Glass Shapes")
+        .navigationTitle("Формы стекла")
     }
 }
 

@@ -26,7 +26,7 @@ struct GlassMorphingExample: View {
             .ignoresSafeArea()
 
             VStack(spacing: 40) {
-                Text("Tap Toggle to see morphing")
+                Text("Нажмите «Переключить», чтобы увидеть морфинг")
                     .font(.subheadline)
                     .foregroundStyle(.white.opacity(0.8))
 
@@ -49,7 +49,7 @@ struct GlassMorphingExample: View {
                     }
                 }
 
-                Button("Toggle") {
+                Button("Переключить") {
                     withAnimation {
                         isExpanded.toggle()
                     }
@@ -64,7 +64,7 @@ struct GlassMorphingExample: View {
                 ToolbarMorphExample()
             }
         }
-        .navigationTitle("Glass Morphing")
+        .navigationTitle("Морфинг стекла")
     }
 }
 
@@ -84,7 +84,7 @@ private struct ToolbarMorphExample: View {
 
     var body: some View {
         VStack(spacing: 20) {
-            Text("Toolbar Morphing")
+            Text("Морфинг панели инструментов")
                 .font(.caption)
                 .foregroundStyle(.white.opacity(0.7))
 
@@ -109,7 +109,7 @@ private struct ToolbarMorphExample: View {
                 }
             }
 
-            Button(showAll ? "Collapse" : "Expand") {
+            Button(showAll ? "Свернуть" : "Развернуть") {
                 withAnimation(.spring) {
                     showAll.toggle()
                 }

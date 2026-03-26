@@ -17,16 +17,16 @@ struct BackgroundExtensionExample: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            Toggle("Background Extension", isOn: $showExtension)
+            Toggle("Расширение фона", isOn: $showExtension)
                 .padding()
 
             NavigationSplitView {
                 List {
                     ForEach(1...10, id: \.self) { index in
-                        Label("Category \(index)", systemImage: "folder.fill")
+                        Label("Категория \(index)", systemImage: "folder.fill")
                     }
                 }
-                .navigationTitle("Sidebar")
+                .navigationTitle("Боковая панель")
             } detail: {
                 ZStack {
                     // Colorful content
@@ -42,11 +42,11 @@ struct BackgroundExtensionExample: View {
                             .font(.system(size: 80))
                             .foregroundStyle(.white)
 
-                        Text("Detail Content")
+                        Text("Подробное содержимое")
                             .font(.largeTitle.bold())
                             .foregroundStyle(.white)
 
-                        Text("Toggle the switch to see backgroundExtensionEffect")
+                        Text("Включите переключатель, чтобы увидеть эффект расширения фона")
                             .font(.body)
                             .foregroundStyle(.white.opacity(0.8))
                             .multilineTextAlignment(.center)
@@ -58,7 +58,7 @@ struct BackgroundExtensionExample: View {
                 }
             }
         }
-        .navigationTitle("Background Extension")
+        .navigationTitle("Расширение фона")
         .navigationBarTitleDisplayMode(.inline)
     }
 }

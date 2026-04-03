@@ -391,6 +391,10 @@
 		ACEDF8442F7FF1060060AB5F /* Image_SymbolVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDF8432F7FF1060060AB5F /* Image_SymbolVariant.swift */; };
 		ACEDF8462F7FF15B0060AB5F /* Image_SymbolRenderingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDF8452F7FF15B0060AB5F /* Image_SymbolRenderingMode.swift */; };
 		ACEDF8482F7FF1AF0060AB5F /* Image_ForegroundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDF8472F7FF1AF0060AB5F /* Image_ForegroundStyle.swift */; };
+		ACEDF84A2F7FF3980060AB5F /* Image_UsingGradients..swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDF8492F7FF3980060AB5F /* Image_UsingGradients..swift */; };
+		ACEDF84C2F7FF4700060AB5F /* Image_UsingMaterials.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDF84B2F7FF4700060AB5F /* Image_UsingMaterials.swift */; };
+		ACEDF84F2F7FF5370060AB5F /* Image_SymbolEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDF84E2F7FF5370060AB5F /* Image_SymbolEffect.swift */; };
+		ACEDF8522F7FF59B0060AB5F /* Image_SymbolEffect_18.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDF8512F7FF59B0060AB5F /* Image_SymbolEffect_18.swift */; };
 		ACFA09262CECA42000A2167E /* 11111123ffffff.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFA09252CECA42000A2167E /* 11111123ffffff.swift */; };
 		ACFA09282CEDE05400A2167E /* HelperSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFA09272CEDE05400A2167E /* HelperSwiftUIView.swift */; };
 		ACFD59EE2E2E54EE001D4740 /* ListListSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFD59ED2E2E54EE001D4740 /* ListListSwiftUIView.swift */; };
@@ -787,6 +791,10 @@
 		ACEDF8432F7FF1060060AB5F /* Image_SymbolVariant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_SymbolVariant.swift; sourceTree = "<group>"; };
 		ACEDF8452F7FF15B0060AB5F /* Image_SymbolRenderingMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_SymbolRenderingMode.swift; sourceTree = "<group>"; };
 		ACEDF8472F7FF1AF0060AB5F /* Image_ForegroundStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_ForegroundStyle.swift; sourceTree = "<group>"; };
+		ACEDF8492F7FF3980060AB5F /* Image_UsingGradients..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_UsingGradients..swift; sourceTree = "<group>"; };
+		ACEDF84B2F7FF4700060AB5F /* Image_UsingMaterials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_UsingMaterials.swift; sourceTree = "<group>"; };
+		ACEDF84E2F7FF5370060AB5F /* Image_SymbolEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_SymbolEffect.swift; sourceTree = "<group>"; };
+		ACEDF8512F7FF59B0060AB5F /* Image_SymbolEffect_18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_SymbolEffect_18.swift; sourceTree = "<group>"; };
 		ACFA09252CECA42000A2167E /* 11111123ffffff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11111123ffffff.swift; sourceTree = "<group>"; };
 		ACFA09272CEDE05400A2167E /* HelperSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperSwiftUIView.swift; sourceTree = "<group>"; };
 		ACFD59ED2E2E54EE001D4740 /* ListListSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListListSwiftUIView.swift; sourceTree = "<group>"; };
@@ -968,6 +976,7 @@
 				ACEDF8272F7FE2D80060AB5F /* Divider */,
 				ACEDF82C2F7FE39D0060AB5F /* Group */,
 				ACEDF8312F7FE54D0060AB5F /* Image */,
+				ACEDF8532F7FF5EA0060AB5F /* Path */,
 			);
 			path = "2 SwiftUI Views Mastery ";
 			sourceTree = "<group>";
@@ -2761,6 +2770,8 @@
 		ACEDF8312F7FE54D0060AB5F /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				ACEDF8502F7FF5880060AB5F /* 18 */,
+				ACEDF84D2F7FF50D0060AB5F /* 17 */,
 				ACEDF8422F7FF0ED0060AB5F /* 15 */,
 				ACEDF8322F7FE5670060AB5F /* Image_Intro.swift */,
 				ACEDF8342F7FE62C0060AB5F /* Image_Resizing.swift */,
@@ -2780,8 +2791,33 @@
 				ACEDF8432F7FF1060060AB5F /* Image_SymbolVariant.swift */,
 				ACEDF8452F7FF15B0060AB5F /* Image_SymbolRenderingMode.swift */,
 				ACEDF8472F7FF1AF0060AB5F /* Image_ForegroundStyle.swift */,
+				ACEDF8492F7FF3980060AB5F /* Image_UsingGradients..swift */,
+				ACEDF84B2F7FF4700060AB5F /* Image_UsingMaterials.swift */,
 			);
 			path = 15;
+			sourceTree = "<group>";
+		};
+		ACEDF84D2F7FF50D0060AB5F /* 17 */ = {
+			isa = PBXGroup;
+			children = (
+				ACEDF84E2F7FF5370060AB5F /* Image_SymbolEffect.swift */,
+			);
+			path = 17;
+			sourceTree = "<group>";
+		};
+		ACEDF8502F7FF5880060AB5F /* 18 */ = {
+			isa = PBXGroup;
+			children = (
+				ACEDF8512F7FF59B0060AB5F /* Image_SymbolEffect_18.swift */,
+			);
+			path = 18;
+			sourceTree = "<group>";
+		};
+		ACEDF8532F7FF5EA0060AB5F /* Path */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Path;
 			sourceTree = "<group>";
 		};
 		ACFD59EC2E2E54D8001D4740 /* List */ = {
@@ -2956,16 +2992,19 @@
 				ACEDF8172F7FDE1C0060AB5F /* CircularShapes_Sizing.swift in Sources */,
 				AC8548E72EC0E8C60055FCB6 /* Text_TimeFormatting.swift in Sources */,
 				ACA131072EA23F87006933FF /* Navigation_BackgroundColor.swift in Sources */,
+				ACEDF84C2F7FF4700060AB5F /* Image_UsingMaterials.swift in Sources */,
 				ACA130EC2EA21E09006933FF /* Menu_OtherViewsWithin.swift in Sources */,
 				ACEDF82B2F7FE37A0060AB5F /* Divider_Customization.swift in Sources */,
 				AC03622F2C1B10E00033B781 /* MainView5.swift in Sources */,
 				ACEDF80D2F7FDAB90060AB5F /* CircularShapes_Intro.swift in Sources */,
 				ACEDF83B2F7FE99A0060AB5F /* Image_SymbolsIntro.swift in Sources */,
 				AC8212C12E979A1700D0688A /* ColorPicker_Intro.swift in Sources */,
+				ACEDF84A2F7FF3980060AB5F /* Image_UsingGradients..swift in Sources */,
 				AC52782E2BF4ED6F00CD1909 /* ResizableSheets2View.swift in Sources */,
 				AC52783E2BF6491F00CD1909 /* ExitAlert+View.swift in Sources */,
 				ACA1316F2EA27A34006933FF /* ScrollView_Behavior_Paging.swift in Sources */,
 				ACA131412EA26FA9006933FF /* Picker_ProgrammaticSelection.swift in Sources */,
+				ACEDF8522F7FF59B0060AB5F /* Image_SymbolEffect_18.swift in Sources */,
 				ACA1314B2EA27260006933FF /* Picker_WithEnum.swift in Sources */,
 				AC85485C2EBF67A10055FCB6 /* SecureField_Customization.swift in Sources */,
 				AC52782C2BF4ED2C00CD1909 /* ResizableSheetsView.swift in Sources */,
@@ -2989,6 +3028,7 @@
 				AC366EBE2C2074F00029AA9A /* MenuSwiftUIView11.swift in Sources */,
 				AC502DA72CD945C700DDB86A /* ContentOneeStructView.swift in Sources */,
 				AC89C0142C05D193006BE793 /* MultilineTextFieldView.swift in Sources */,
+				ACEDF84F2F7FF5370060AB5F /* Image_SymbolEffect.swift in Sources */,
 				AC366ECA2C219B850029AA9A /* ResizableLogoutInfoSheetView.swift in Sources */,
 				AC8212B42E97974C00D0688A /* Chart_BarMarkStacking.swift in Sources */,
 				ACDB22DA2EC7024800CB6030 /* TextField_FocusState.swift in Sources */,

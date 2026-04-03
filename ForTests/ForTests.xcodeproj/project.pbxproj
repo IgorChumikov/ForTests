@@ -368,6 +368,11 @@
 		ACEDF8112F7FDBEC0060AB5F /* CircularShapes_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDF8102F7FDBEC0060AB5F /* CircularShapes_Colors.swift */; };
 		ACEDF8132F7FDC770060AB5F /* CircularShapes_Stroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDF8122F7FDC770060AB5F /* CircularShapes_Stroke.swift */; };
 		ACEDF8152F7FDCE50060AB5F /* CircularShapes_StrokeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDF8142F7FDCE50060AB5F /* CircularShapes_StrokeBorder.swift */; };
+		ACEDF8172F7FDE1C0060AB5F /* CircularShapes_Sizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDF8162F7FDE1C0060AB5F /* CircularShapes_Sizing.swift */; };
+		ACEDF8192F7FDEA10060AB5F /* CircularShapes_SizeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDF8182F7FDEA10060AB5F /* CircularShapes_SizeModifier.swift */; };
+		ACEDF81B2F7FDF3C0060AB5F /* CircularShapes_Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDF81A2F7FDF3C0060AB5F /* CircularShapes_Trim.swift */; };
+		ACEDF81D2F7FDFAB0060AB5F /* CircularShapes_TrimSolid(.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDF81C2F7FDFAB0060AB5F /* CircularShapes_TrimSolid(.swift */; };
+		ACEDF81F2F7FE0480060AB5F /*  CircularShapes_WithButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDF81E2F7FE0470060AB5F /*  CircularShapes_WithButtons.swift */; };
 		ACFA09262CECA42000A2167E /* 11111123ffffff.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFA09252CECA42000A2167E /* 11111123ffffff.swift */; };
 		ACFA09282CEDE05400A2167E /* HelperSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFA09272CEDE05400A2167E /* HelperSwiftUIView.swift */; };
 		ACFD59EE2E2E54EE001D4740 /* ListListSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFD59ED2E2E54EE001D4740 /* ListListSwiftUIView.swift */; };
@@ -741,6 +746,11 @@
 		ACEDF8102F7FDBEC0060AB5F /* CircularShapes_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShapes_Colors.swift; sourceTree = "<group>"; };
 		ACEDF8122F7FDC770060AB5F /* CircularShapes_Stroke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShapes_Stroke.swift; sourceTree = "<group>"; };
 		ACEDF8142F7FDCE50060AB5F /* CircularShapes_StrokeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShapes_StrokeBorder.swift; sourceTree = "<group>"; };
+		ACEDF8162F7FDE1C0060AB5F /* CircularShapes_Sizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShapes_Sizing.swift; sourceTree = "<group>"; };
+		ACEDF8182F7FDEA10060AB5F /* CircularShapes_SizeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShapes_SizeModifier.swift; sourceTree = "<group>"; };
+		ACEDF81A2F7FDF3C0060AB5F /* CircularShapes_Trim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShapes_Trim.swift; sourceTree = "<group>"; };
+		ACEDF81C2F7FDFAB0060AB5F /* CircularShapes_TrimSolid(.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CircularShapes_TrimSolid(.swift"; sourceTree = "<group>"; };
+		ACEDF81E2F7FE0470060AB5F /*  CircularShapes_WithButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " CircularShapes_WithButtons.swift"; sourceTree = "<group>"; };
 		ACFA09252CECA42000A2167E /* 11111123ffffff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11111123ffffff.swift; sourceTree = "<group>"; };
 		ACFA09272CEDE05400A2167E /* HelperSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperSwiftUIView.swift; sourceTree = "<group>"; };
 		ACFD59ED2E2E54EE001D4740 /* ListListSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListListSwiftUIView.swift; sourceTree = "<group>"; };
@@ -918,6 +928,7 @@
 				ACDB22E62EC704AB00CB6030 /* Toggle */,
 				ACEDF8082F7FD8E20060AB5F /* Canvas */,
 				ACEDF80B2F7FDA730060AB5F /* Circular Shapes */,
+				ACEDF8202F7FE0AA0060AB5F /* Color */,
 			);
 			path = "2 SwiftUI Views Mastery ";
 			sourceTree = "<group>";
@@ -2671,8 +2682,20 @@
 				ACEDF8102F7FDBEC0060AB5F /* CircularShapes_Colors.swift */,
 				ACEDF8122F7FDC770060AB5F /* CircularShapes_Stroke.swift */,
 				ACEDF8142F7FDCE50060AB5F /* CircularShapes_StrokeBorder.swift */,
+				ACEDF8162F7FDE1C0060AB5F /* CircularShapes_Sizing.swift */,
+				ACEDF8182F7FDEA10060AB5F /* CircularShapes_SizeModifier.swift */,
+				ACEDF81A2F7FDF3C0060AB5F /* CircularShapes_Trim.swift */,
+				ACEDF81C2F7FDFAB0060AB5F /* CircularShapes_TrimSolid(.swift */,
+				ACEDF81E2F7FE0470060AB5F /*  CircularShapes_WithButtons.swift */,
 			);
 			path = "Circular Shapes";
+			sourceTree = "<group>";
+		};
+		ACEDF8202F7FE0AA0060AB5F /* Color */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Color;
 			sourceTree = "<group>";
 		};
 		ACFD59EC2E2E54D8001D4740 /* List */ = {
@@ -2820,6 +2843,7 @@
 				AC8549242EC1C34D0055FCB6 /* TextEditor_Background.swift in Sources */,
 				AC0C8C1B2F7564A0008E9B67 /* GlassEffectContainerExample.swift in Sources */,
 				ACDB22CC2EC6FFB100CB6030 /* TextField_Customizing.swift in Sources */,
+				ACEDF81B2F7FDF3C0060AB5F /* CircularShapes_Trim.swift in Sources */,
 				ACA131572EA275B2006933FF /* ProgressView_Total.swift in Sources */,
 				AC5278162BF386E400CD1909 /* PanelViewIndicator.swift in Sources */,
 				ACA1311A2EA242E2006933FF /* Navigation_SplitView.swift in Sources */,
@@ -2842,6 +2866,7 @@
 				AC2AA5252DE08B8D004C4E24 /* DocumentEventSheetView.swift in Sources */,
 				AC0E23802E8D6A1F00CEC1DF /* ViewThatFits_WithScrollView.swift in Sources */,
 				ACDB1FCB2DD5EF7A00A8EC52 /* SwiftUIViewTestSheet2.swift in Sources */,
+				ACEDF8172F7FDE1C0060AB5F /* CircularShapes_Sizing.swift in Sources */,
 				AC8548E72EC0E8C60055FCB6 /* Text_TimeFormatting.swift in Sources */,
 				ACA131072EA23F87006933FF /* Navigation_BackgroundColor.swift in Sources */,
 				ACA130EC2EA21E09006933FF /* Menu_OtherViewsWithin.swift in Sources */,
@@ -2903,6 +2928,7 @@
 				ACC20EBB2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */,
 				AC8548BE2EC0DADA0055FCB6 /* TabView_ToolbarBackgroundVisibility.swift in Sources */,
 				AC85487F2EBF6ECE0055FCB6 /* Slider_InMenu.swift in Sources */,
+				ACEDF8192F7FDEA10060AB5F /* CircularShapes_SizeModifier.swift in Sources */,
 				AC82964B2B5E583F008383B0 /* PinnedUIView.swift in Sources */,
 				ACA1316D2EA279B7006933FF /* Scrollview_ScrollBounceBehavior.swift in Sources */,
 				AC8549282EC1C4180055FCB6 /* TextEditor_DismissKeyboard.swift in Sources */,
@@ -3049,6 +3075,7 @@
 				AC3B12DD2CF099440076D9B3 /* SearchFruitsView.swift in Sources */,
 				AC8212BD2E97996A00D0688A /* Share.swift in Sources */,
 				ACFEDC702B83A064002B3C66 /* Skeleton.swift in Sources */,
+				ACEDF81D2F7FDFAB0060AB5F /* CircularShapes_TrimSolid(.swift in Sources */,
 				AC85492A2EC1C4D60055FCB6 /* TextEditor_KeyboardSafeArea.swift in Sources */,
 				ACA130D22EA20C94006933FF /* Home.swift in Sources */,
 				AC85488D2EBF729B0055FCB6 /* TabView_Background_Scrolling.swift in Sources */,
@@ -3069,6 +3096,7 @@
 				ACA131092EA23FE5006933FF /* Navigation_ToolbarBackground.swift in Sources */,
 				ACCECFC92D00AB2900C9AB91 /* IpadTestSwiftUIView.swift in Sources */,
 				AC72FA642B513E2C009E60AB /* ForTestsApp.swift in Sources */,
+				ACEDF81F2F7FE0480060AB5F /*  CircularShapes_WithButtons.swift in Sources */,
 				AC85486A2EBF6B270055FCB6 /* ShareLink_Customize.swift in Sources */,
 				AC85491C2EC1C2580055FCB6 /* TextEditor_LineLimit.swift in Sources */,
 				AC03622D2C187D7D0033B781 /* View5.swift in Sources */,

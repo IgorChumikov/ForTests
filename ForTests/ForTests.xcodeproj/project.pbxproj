@@ -373,6 +373,9 @@
 		ACEDF81B2F7FDF3C0060AB5F /* CircularShapes_Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDF81A2F7FDF3C0060AB5F /* CircularShapes_Trim.swift */; };
 		ACEDF81D2F7FDFAB0060AB5F /* CircularShapes_TrimSolid(.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDF81C2F7FDFAB0060AB5F /* CircularShapes_TrimSolid(.swift */; };
 		ACEDF81F2F7FE0480060AB5F /*  CircularShapes_WithButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDF81E2F7FE0470060AB5F /*  CircularShapes_WithButtons.swift */; };
+		ACEDF8222F7FE1030060AB5F /* Color_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDF8212F7FE1030060AB5F /* Color_Intro.swift */; };
+		ACEDF8242F7FE1DA0060AB5F /* Color_Multiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDF8232F7FE1DA0060AB5F /* Color_Multiply.swift */; };
+		ACEDF8262F7FE2510060AB5F /* Color_Opacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDF8252F7FE2510060AB5F /* Color_Opacity.swift */; };
 		ACFA09262CECA42000A2167E /* 11111123ffffff.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFA09252CECA42000A2167E /* 11111123ffffff.swift */; };
 		ACFA09282CEDE05400A2167E /* HelperSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFA09272CEDE05400A2167E /* HelperSwiftUIView.swift */; };
 		ACFD59EE2E2E54EE001D4740 /* ListListSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFD59ED2E2E54EE001D4740 /* ListListSwiftUIView.swift */; };
@@ -751,6 +754,9 @@
 		ACEDF81A2F7FDF3C0060AB5F /* CircularShapes_Trim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularShapes_Trim.swift; sourceTree = "<group>"; };
 		ACEDF81C2F7FDFAB0060AB5F /* CircularShapes_TrimSolid(.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CircularShapes_TrimSolid(.swift"; sourceTree = "<group>"; };
 		ACEDF81E2F7FE0470060AB5F /*  CircularShapes_WithButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " CircularShapes_WithButtons.swift"; sourceTree = "<group>"; };
+		ACEDF8212F7FE1030060AB5F /* Color_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_Intro.swift; sourceTree = "<group>"; };
+		ACEDF8232F7FE1DA0060AB5F /* Color_Multiply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_Multiply.swift; sourceTree = "<group>"; };
+		ACEDF8252F7FE2510060AB5F /* Color_Opacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_Opacity.swift; sourceTree = "<group>"; };
 		ACFA09252CECA42000A2167E /* 11111123ffffff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11111123ffffff.swift; sourceTree = "<group>"; };
 		ACFA09272CEDE05400A2167E /* HelperSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperSwiftUIView.swift; sourceTree = "<group>"; };
 		ACFD59ED2E2E54EE001D4740 /* ListListSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListListSwiftUIView.swift; sourceTree = "<group>"; };
@@ -929,6 +935,7 @@
 				ACEDF8082F7FD8E20060AB5F /* Canvas */,
 				ACEDF80B2F7FDA730060AB5F /* Circular Shapes */,
 				ACEDF8202F7FE0AA0060AB5F /* Color */,
+				ACEDF8272F7FE2D80060AB5F /* Divider */,
 			);
 			path = "2 SwiftUI Views Mastery ";
 			sourceTree = "<group>";
@@ -2694,8 +2701,18 @@
 		ACEDF8202F7FE0AA0060AB5F /* Color */ = {
 			isa = PBXGroup;
 			children = (
+				ACEDF8232F7FE1DA0060AB5F /* Color_Multiply.swift */,
+				ACEDF8252F7FE2510060AB5F /* Color_Opacity.swift */,
+				ACEDF8212F7FE1030060AB5F /* Color_Intro.swift */,
 			);
 			path = Color;
+			sourceTree = "<group>";
+		};
+		ACEDF8272F7FE2D80060AB5F /* Divider */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Divider;
 			sourceTree = "<group>";
 		};
 		ACFD59EC2E2E54D8001D4740 /* List */ = {
@@ -3052,6 +3069,7 @@
 				AC411FCA2D7F3BA4009AFD7A /* ChannelListView.swift in Sources */,
 				ACA131172EA24253006933FF /* Navigation_CustomBackButton.swift in Sources */,
 				ACB98E3E2C22DF4500831CC7 /* CustomResizableLogoutInfoSheetView.swift in Sources */,
+				ACEDF8242F7FE1DA0060AB5F /* Color_Multiply.swift in Sources */,
 				ACEDF8152F7FDCE50060AB5F /* CircularShapes_StrokeBorder.swift in Sources */,
 				ACFA09262CECA42000A2167E /* 11111123ffffff.swift in Sources */,
 				ACA12F662E9FD62E006933FF /* TopBarWithCutout.swift in Sources */,
@@ -3128,6 +3146,7 @@
 				ACA1313F2EA26F62006933FF /* Picker_Wheel.swift in Sources */,
 				AC03622B2C1879AC0033B781 /* View4.swift in Sources */,
 				AC366EC72C2182740029AA9A /* SwiftUIView11111.swift in Sources */,
+				ACEDF8262F7FE2510060AB5F /* Color_Opacity.swift in Sources */,
 				ACA131232EA24470006933FF /* NavLink_Intro.swift in Sources */,
 				AC0C8C212F7564A4008E9B67 /* GlassTransitionTypesExample.swift in Sources */,
 				AC89C0122C04D5F8006BE793 /* ContentView.swift in Sources */,
@@ -3148,6 +3167,7 @@
 				AC8549132EC1BFDC0055FCB6 /* Text_OffsetStyle.swift in Sources */,
 				AC8549212EC1C2FE0055FCB6 /* TextEditor_CustomizingText.swift in Sources */,
 				AC8212B62E9797E700D0688A /* Chart_BarMarkPositionBy.swift in Sources */,
+				ACEDF8222F7FE1030060AB5F /* Color_Intro.swift in Sources */,
 				ACA1312B2EA269BC006933FF /* NavLink_isPresented.swift in Sources */,
 				AC2AA48D2DDF2715004C4E24 /* TabBarItem.swift in Sources */,
 				AC70C5DC2D4A4FF500718A64 /* BookmarksList.swift in Sources */,

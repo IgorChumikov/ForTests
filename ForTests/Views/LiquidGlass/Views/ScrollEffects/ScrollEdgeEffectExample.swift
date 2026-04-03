@@ -77,6 +77,7 @@ struct ScrollEdgeEffectExample: View {
         .safeAreaInset(edge: .top, spacing: 0) {
             topGlassBar
                 .padding(.horizontal)
+                .padding(.top, 18)
                 .padding(.bottom, 10)
         }
         .safeAreaInset(edge: .bottom, spacing: 0) {

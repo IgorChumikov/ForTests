@@ -376,6 +376,8 @@
 		ACEDF8222F7FE1030060AB5F /* Color_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDF8212F7FE1030060AB5F /* Color_Intro.swift */; };
 		ACEDF8242F7FE1DA0060AB5F /* Color_Multiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDF8232F7FE1DA0060AB5F /* Color_Multiply.swift */; };
 		ACEDF8262F7FE2510060AB5F /* Color_Opacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDF8252F7FE2510060AB5F /* Color_Opacity.swift */; };
+		ACEDF8292F7FE32D0060AB5F /* Divider_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDF8282F7FE32D0060AB5F /* Divider_Intro.swift */; };
+		ACEDF82B2F7FE37A0060AB5F /* Divider_Customization.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDF82A2F7FE37A0060AB5F /* Divider_Customization.swift */; };
 		ACFA09262CECA42000A2167E /* 11111123ffffff.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFA09252CECA42000A2167E /* 11111123ffffff.swift */; };
 		ACFA09282CEDE05400A2167E /* HelperSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFA09272CEDE05400A2167E /* HelperSwiftUIView.swift */; };
 		ACFD59EE2E2E54EE001D4740 /* ListListSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFD59ED2E2E54EE001D4740 /* ListListSwiftUIView.swift */; };
@@ -757,6 +759,8 @@
 		ACEDF8212F7FE1030060AB5F /* Color_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_Intro.swift; sourceTree = "<group>"; };
 		ACEDF8232F7FE1DA0060AB5F /* Color_Multiply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_Multiply.swift; sourceTree = "<group>"; };
 		ACEDF8252F7FE2510060AB5F /* Color_Opacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_Opacity.swift; sourceTree = "<group>"; };
+		ACEDF8282F7FE32D0060AB5F /* Divider_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divider_Intro.swift; sourceTree = "<group>"; };
+		ACEDF82A2F7FE37A0060AB5F /* Divider_Customization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Divider_Customization.swift; sourceTree = "<group>"; };
 		ACFA09252CECA42000A2167E /* 11111123ffffff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11111123ffffff.swift; sourceTree = "<group>"; };
 		ACFA09272CEDE05400A2167E /* HelperSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperSwiftUIView.swift; sourceTree = "<group>"; };
 		ACFD59ED2E2E54EE001D4740 /* ListListSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListListSwiftUIView.swift; sourceTree = "<group>"; };
@@ -936,6 +940,7 @@
 				ACEDF80B2F7FDA730060AB5F /* Circular Shapes */,
 				ACEDF8202F7FE0AA0060AB5F /* Color */,
 				ACEDF8272F7FE2D80060AB5F /* Divider */,
+				ACEDF82C2F7FE39D0060AB5F /* Group */,
 			);
 			path = "2 SwiftUI Views Mastery ";
 			sourceTree = "<group>";
@@ -2711,8 +2716,17 @@
 		ACEDF8272F7FE2D80060AB5F /* Divider */ = {
 			isa = PBXGroup;
 			children = (
+				ACEDF8282F7FE32D0060AB5F /* Divider_Intro.swift */,
+				ACEDF82A2F7FE37A0060AB5F /* Divider_Customization.swift */,
 			);
 			path = Divider;
+			sourceTree = "<group>";
+		};
+		ACEDF82C2F7FE39D0060AB5F /* Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Group;
 			sourceTree = "<group>";
 		};
 		ACFD59EC2E2E54D8001D4740 /* List */ = {
@@ -2887,6 +2901,7 @@
 				AC8548E72EC0E8C60055FCB6 /* Text_TimeFormatting.swift in Sources */,
 				ACA131072EA23F87006933FF /* Navigation_BackgroundColor.swift in Sources */,
 				ACA130EC2EA21E09006933FF /* Menu_OtherViewsWithin.swift in Sources */,
+				ACEDF82B2F7FE37A0060AB5F /* Divider_Customization.swift in Sources */,
 				AC03622F2C1B10E00033B781 /* MainView5.swift in Sources */,
 				ACEDF80D2F7FDAB90060AB5F /* CircularShapes_Intro.swift in Sources */,
 				AC8212C12E979A1700D0688A /* ColorPicker_Intro.swift in Sources */,
@@ -3112,6 +3127,7 @@
 				ACA130E62EA21CB3006933FF /* Menu_Customizing.swift in Sources */,
 				AC1FC1382D88044200C16DCE /* FavoriteBookmarkView.swift in Sources */,
 				ACA131092EA23FE5006933FF /* Navigation_ToolbarBackground.swift in Sources */,
+				ACEDF8292F7FE32D0060AB5F /* Divider_Intro.swift in Sources */,
 				ACCECFC92D00AB2900C9AB91 /* IpadTestSwiftUIView.swift in Sources */,
 				AC72FA642B513E2C009E60AB /* ForTestsApp.swift in Sources */,
 				ACEDF81F2F7FE0480060AB5F /*  CircularShapes_WithButtons.swift in Sources */,

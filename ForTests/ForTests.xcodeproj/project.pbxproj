@@ -358,6 +358,13 @@
 		ACDEFE192BEB7F76006E0CD1 /* View+HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE182BEB7F76006E0CD1 /* View+HideKeyboard.swift */; };
 		ACDFF39F2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDFF39E2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift */; };
 		ACDFF3A32B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDFF3A22B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift */; };
+		ACE0E1A12F83C09000B6F81A /* Path_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0E1A02F83C09000B6F81A /* Path_Intro.swift */; };
+		ACE0E1A32F83C2B400B6F81A /* Path_Triangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0E1A22F83C2B400B6F81A /* Path_Triangles.swift */; };
+		ACE0E1A52F83C33E00B6F81A /* Path_Curve.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0E1A42F83C33E00B6F81A /* Path_Curve.swift */; };
+		ACE0E1A72F83C4E000B6F81A /* Path_CurvedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0E1A62F83C4E000B6F81A /* Path_CurvedShape.swift */; };
+		ACE0E1A92F83C60A00B6F81A /* Path_QuadCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0E1A82F83C60A00B6F81A /* Path_QuadCurve.swift */; };
+		ACE0E1AB2F83C79400B6F81A /* Path_RelativeArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0E1AA2F83C79400B6F81A /* Path_RelativeArc.swift */; };
+		ACE0E1AD2F83C87400B6F81A /* Path_RelativeArc_Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0E1AC2F83C87400B6F81A /* Path_RelativeArc_Mask.swift */; };
 		ACEC5E342CAF1A5B00ECBB2F /* SwiftUIViewIpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEC5E332CAF1A5B00ECBB2F /* SwiftUIViewIpad.swift */; };
 		ACEC5E362CAF1D8900ECBB2F /* SwiftUIViewIpad2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEC5E352CAF1D8900ECBB2F /* SwiftUIViewIpad2.swift */; };
 		ACEC5E382CAF1DBE00ECBB2F /* SwiftUIViewIpad3.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEC5E372CAF1DBE00ECBB2F /* SwiftUIViewIpad3.swift */; };
@@ -758,6 +765,13 @@
 		ACDEFE182BEB7F76006E0CD1 /* View+HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+HideKeyboard.swift"; sourceTree = "<group>"; };
 		ACDFF39E2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackoverflowSwiftUIView.swift; sourceTree = "<group>"; };
 		ACDFF3A22B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackoverflowSwiftUIView2.swift; sourceTree = "<group>"; };
+		ACE0E1A02F83C09000B6F81A /* Path_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_Intro.swift; sourceTree = "<group>"; };
+		ACE0E1A22F83C2B400B6F81A /* Path_Triangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_Triangles.swift; sourceTree = "<group>"; };
+		ACE0E1A42F83C33E00B6F81A /* Path_Curve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_Curve.swift; sourceTree = "<group>"; };
+		ACE0E1A62F83C4E000B6F81A /* Path_CurvedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_CurvedShape.swift; sourceTree = "<group>"; };
+		ACE0E1A82F83C60A00B6F81A /* Path_QuadCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_QuadCurve.swift; sourceTree = "<group>"; };
+		ACE0E1AA2F83C79400B6F81A /* Path_RelativeArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_RelativeArc.swift; sourceTree = "<group>"; };
+		ACE0E1AC2F83C87400B6F81A /* Path_RelativeArc_Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_RelativeArc_Mask.swift; sourceTree = "<group>"; };
 		ACEC5E332CAF1A5B00ECBB2F /* SwiftUIViewIpad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewIpad.swift; sourceTree = "<group>"; };
 		ACEC5E352CAF1D8900ECBB2F /* SwiftUIViewIpad2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewIpad2.swift; sourceTree = "<group>"; };
 		ACEC5E372CAF1DBE00ECBB2F /* SwiftUIViewIpad3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewIpad3.swift; sourceTree = "<group>"; };
@@ -2816,6 +2830,13 @@
 		ACEDF8532F7FF5EA0060AB5F /* Path */ = {
 			isa = PBXGroup;
 			children = (
+				ACE0E1A02F83C09000B6F81A /* Path_Intro.swift */,
+				ACE0E1A22F83C2B400B6F81A /* Path_Triangles.swift */,
+				ACE0E1A42F83C33E00B6F81A /* Path_Curve.swift */,
+				ACE0E1A62F83C4E000B6F81A /* Path_CurvedShape.swift */,
+				ACE0E1A82F83C60A00B6F81A /* Path_QuadCurve.swift */,
+				ACE0E1AA2F83C79400B6F81A /* Path_RelativeArc.swift */,
+				ACE0E1AC2F83C87400B6F81A /* Path_RelativeArc_Mask.swift */,
 			);
 			path = Path;
 			sourceTree = "<group>";
@@ -2961,6 +2982,7 @@
 				AC85488F2EBF72F80055FCB6 /* TabView_Background.swift in Sources */,
 				ACA131292EA26947006933FF /* NavLink_WithDifferentTypes.swift in Sources */,
 				AC8212BB2E9798FC00D0688A /* Chart_SectorMark.swift in Sources */,
+				ACE0E1A32F83C2B400B6F81A /* Path_Triangles.swift in Sources */,
 				AC8548632EBF68DB0055FCB6 /* SegmentedControl_Colors.swift in Sources */,
 				AC8549242EC1C34D0055FCB6 /* TextEditor_Background.swift in Sources */,
 				AC0C8C1B2F7564A0008E9B67 /* GlassEffectContainerExample.swift in Sources */,
@@ -2986,6 +3008,7 @@
 				ACA1315D2EA27721006933FF /* ProgressView_Tint.swift in Sources */,
 				AC5278452BF649C600CD1909 /* ContentViewOne2.swift in Sources */,
 				AC8213D92E98E52900D0688A /* List_SafeAreaInset.swift in Sources */,
+				ACE0E1A52F83C33E00B6F81A /* Path_Curve.swift in Sources */,
 				AC2AA5252DE08B8D004C4E24 /* DocumentEventSheetView.swift in Sources */,
 				AC0E23802E8D6A1F00CEC1DF /* ViewThatFits_WithScrollView.swift in Sources */,
 				ACDB1FCB2DD5EF7A00A8EC52 /* SwiftUIViewTestSheet2.swift in Sources */,
@@ -3082,6 +3105,7 @@
 				ACDB22CE2EC6FFFA00CB6030 /* TextField_Border.swift in Sources */,
 				AC8548D62EC0E3330055FCB6 /* Text_BaselineOffset.swift in Sources */,
 				AC8548822EBF6F7B0055FCB6 /* Stepper_Intro.swift in Sources */,
+				ACE0E1A92F83C60A00B6F81A /* Path_QuadCurve.swift in Sources */,
 				ACA131632EA27806006933FF /* ScrollView_Intro.swift in Sources */,
 				ACA130DA2EA20D02006933FF /* Tab.swift in Sources */,
 				AC0C8C0F2F756438008E9B67 /* BasicGlassEffectExample.swift in Sources */,
@@ -3097,6 +3121,7 @@
 				ACA9048F2E33AAA10006D6D9 /* ExpandableText.swift in Sources */,
 				AC7325EB2E7C5789008AA41B /* ScrollViewReaderText2.swift in Sources */,
 				ACA1316B2EA27975006933FF /* Scrollview_Disabled.swift in Sources */,
+				ACE0E1A72F83C4E000B6F81A /* Path_CurvedShape.swift in Sources */,
 				AC0C8C252F7564A7008E9B67 /* BackgroundExtensionExample.swift in Sources */,
 				AC0C8C1D2F7564A2008E9B67 /* GlassEffectUnionExample.swift in Sources */,
 				AC0C8C0D2F756401008E9B67 /* LiquidGlassView.swift in Sources */,
@@ -3153,8 +3178,10 @@
 				AC4238402C11A6C50035B3CE /* SwiftUIView123231.swift in Sources */,
 				ACA130E22EA212B3006933FF /* Menu_Intro.swift in Sources */,
 				ACA130EE2EA21E81006933FF /* Menu_Order.swift in Sources */,
+				ACE0E1A12F83C09000B6F81A /* Path_Intro.swift in Sources */,
 				ACEC5E362CAF1D8900ECBB2F /* SwiftUIViewIpad2.swift in Sources */,
 				ACA131252EA244B2006933FF /* NavLink_Customization.swift in Sources */,
+				ACE0E1AB2F83C79400B6F81A /* Path_RelativeArc.swift in Sources */,
 				ACEC5E342CAF1A5B00ECBB2F /* SwiftUIViewIpad.swift in Sources */,
 				AC52780F2BF37C7700CD1909 /* ScrollablePanelView.swift in Sources */,
 				ACDB22EA2EC7051900CB6030 /* Toggle_Color.swift in Sources */,
@@ -3215,6 +3242,7 @@
 				AC8212BD2E97996A00D0688A /* Share.swift in Sources */,
 				ACFEDC702B83A064002B3C66 /* Skeleton.swift in Sources */,
 				ACEDF81D2F7FDFAB0060AB5F /* CircularShapes_TrimSolid(.swift in Sources */,
+				ACE0E1AD2F83C87400B6F81A /* Path_RelativeArc_Mask.swift in Sources */,
 				AC85492A2EC1C4D60055FCB6 /* TextEditor_KeyboardSafeArea.swift in Sources */,
 				ACA130D22EA20C94006933FF /* Home.swift in Sources */,
 				AC85488D2EBF729B0055FCB6 /* TabView_Background_Scrolling.swift in Sources */,

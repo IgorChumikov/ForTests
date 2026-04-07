@@ -12,7 +12,7 @@ struct ForTestsApp: App {
     var body: some Scene {
         WindowGroup {
             if #available(iOS 26.0, *) {
-                Canvas_Intro()
+                LiquidGlassView()
             } else {
                 ScreenshotListenerView()
             }

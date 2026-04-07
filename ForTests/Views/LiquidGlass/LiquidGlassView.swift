@@ -211,7 +211,7 @@ struct LiquidGlassView: View {
 
     private var heroHeader: some View {
         VStack(alignment: .leading, spacing: 16) {
-            HStack(alignment: .top) {
+            HStack(alignment: .top, spacing: 12) {
                 HStack(spacing: 14) {
                     ZStack {
                         Circle()
@@ -231,12 +231,16 @@ struct LiquidGlassView: View {
                         Text("КонсультантПлюс")
                             .font(.system(size: 32, weight: .bold, design: .rounded))
                             .foregroundStyle(Color(red: 0.96, green: 0.42, blue: 0.10))
+                            .lineLimit(1)
+                            .minimumScaleFactor(0.7)
 
                         Text("Liquid Glass showcase для внутреннего просмотра")
                             .font(.subheadline)
                             .foregroundStyle(.secondary)
+                            .fixedSize(horizontal: false, vertical: true)
                     }
                 }
+                .frame(maxWidth: .infinity, alignment: .leading)
 
                 Spacer()
 
@@ -254,15 +258,20 @@ struct LiquidGlassView: View {
                 Text("Показать, как новый стеклянный язык может выглядеть в продукте, не теряя узнаваемость бренда.")
                     .font(.headline)
                     .foregroundStyle(Color.primary.opacity(0.92))
+                    .fixedSize(horizontal: false, vertical: true)
 
-                HStack(spacing: 10) {
-                    consultantTag("Фирменный оранжевый", tint: Color(red: 0.96, green: 0.42, blue: 0.10))
+                VStack(alignment: .leading, spacing: 8) {
+                    HStack(spacing: 10) {
+                        consultantTag("Фирменный оранжевый", tint: Color(red: 0.96, green: 0.42, blue: 0.10))
+                        consultantTag("iOS 26", tint: Color(red: 0.25, green: 0.56, blue: 0.86))
+                    }
+
                     consultantTag("Мягкий сиреневый", tint: Color(red: 0.55, green: 0.44, blue: 0.78))
-                    consultantTag("iOS 26", tint: Color(red: 0.25, green: 0.56, blue: 0.86))
                 }
             }
         }
         .padding(20)
+        .frame(maxWidth: .infinity, alignment: .leading)
         .glassEffect(.regular.tint(Color.white.opacity(0.10)), in: .rect(cornerRadius: 30))
     }
 
@@ -329,12 +338,10 @@ struct LiquidGlassView: View {
 
     private var consultantPreviewCard: some View {
         VStack(alignment: .leading, spacing: 16) {
-            HStack {
+            VStack(alignment: .leading, spacing: 8) {
                 Label("Быстрый продуктовый preview", systemImage: "rectangle.grid.2x2.fill")
                     .font(.headline.weight(.bold))
                     .foregroundStyle(.primary)
-
-                Spacer()
 
                 Text("концепт")
                     .font(.caption.weight(.bold))
@@ -344,14 +351,16 @@ struct LiquidGlassView: View {
             Text("Такой блок можно показать дизайнерам как направление: карточки разделов, мягкий фон, glass CTA и более современная верхняя зона без потери характера КонсультантПлюс.")
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
+                .fixedSize(horizontal: false, vertical: true)
 
-            HStack(spacing: 12) {
+            VStack(spacing: 12) {
                 previewMetric(title: "Разделов", value: "5", tint: Color(red: 0.96, green: 0.42, blue: 0.10))
                 previewMetric(title: "CTA", value: "3", tint: Color(red: 0.55, green: 0.44, blue: 0.78))
                 previewMetric(title: "Demo", value: "Live", tint: Color(red: 0.31, green: 0.63, blue: 0.55))
             }
         }
         .padding(20)
+        .frame(maxWidth: .infinity, alignment: .leading)
         .background(Color.white.opacity(0.82), in: .rect(cornerRadius: 28))
         .overlay {
             RoundedRectangle(cornerRadius: 28, style: .continuous)
@@ -368,6 +377,7 @@ struct LiquidGlassView: View {
                 Text("Можно быстро открыть tab bar demo и посмотреть glass в более живом сценарии.")
                     .font(.footnote)
                     .foregroundStyle(.secondary)
+                    .fixedSize(horizontal: false, vertical: true)
             }
 
             Spacer(minLength: 8)
@@ -379,6 +389,7 @@ struct LiquidGlassView: View {
         }
         .padding(.horizontal, 16)
         .padding(.vertical, 14)
+        .frame(maxWidth: .infinity)
         .background(
             Color.clear
                 .glassEffect(.regular.tint(Color.white.opacity(0.08)), in: .rect(cornerRadius: 28))
@@ -455,6 +466,7 @@ struct LiquidGlassView: View {
             }
         }
         .padding(18)
+        .frame(maxWidth: .infinity, alignment: .leading)
         .background(Color.white.opacity(0.70), in: .rect(cornerRadius: 30))
         .overlay {
             RoundedRectangle(cornerRadius: 30, style: .continuous)

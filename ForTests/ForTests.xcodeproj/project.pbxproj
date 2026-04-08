@@ -98,6 +98,28 @@
 		AC6043A82F85021500809396 /* RoundedRectangle_CornerSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6043A72F85021500809396 /* RoundedRectangle_CornerSize.swift */; };
 		AC6043AA2F8504A800809396 /* Rectangular_WithControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6043A92F8504A800809396 /* Rectangular_WithControls.swift */; };
 		AC6043AD2F85380300809396 /* Rectangular_UnevenCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6043AC2F85380300809396 /* Rectangular_UnevenCorners.swift */; };
+		AC6044282F865B2000809396 /* Inset_Introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6044272F865B2000809396 /* Inset_Introduction.swift */; };
+		AC60442A2F865DCB00809396 /* Inset_NegativeValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6044292F865DCB00809396 /* Inset_NegativeValues.swift */; };
+		AC60442E2F865E8E00809396 /* AngularGradient_Introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60442D2F865E8E00809396 /* AngularGradient_Introduction.swift */; };
+		AC6044302F865EE900809396 /* AngularGradient_Circles.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60442F2F865EE900809396 /* AngularGradient_Circles.swift */; };
+		AC6044322F865F3100809396 /* Angular_OnOtherControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6044312F865F3100809396 /* Angular_OnOtherControls.swift */; };
+		AC6044352F865FC400809396 /* Conic_Introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6044342F865FC400809396 /* Conic_Introduction.swift */; };
+		AC6044382F86602F00809396 /* Conic_Angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6044372F86602F00809396 /* Conic_Angle.swift */; };
+		AC60443F2F8660BE00809396 /* EllipticalGradient_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60443E2F8660BE00809396 /* EllipticalGradient_Intro.swift */; };
+		AC6044412F86611900809396 /* EllipticalGradient_SizeChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6044402F86611900809396 /* EllipticalGradient_SizeChanges.swift */; };
+		AC6044432F8661E700809396 /* EllipticalGradient_RadiusFraction(.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6044422F8661E700809396 /* EllipticalGradient_RadiusFraction(.swift */; };
+		AC6044462F86639D00809396 /* MeshGradient_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6044452F86639D00809396 /* MeshGradient_Intro.swift */; };
+		AC6044482F8663F700809396 /* Mesh_Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6044472F8663F700809396 /* Mesh_Background.swift */; };
+		AC60444A2F86644900809396 /* Mesh_3x3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6044492F86644900809396 /* Mesh_3x3.swift */; };
+		AC60444C2F8664EE00809396 /* Mesh_AppliedToViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60444B2F8664EE00809396 /* Mesh_AppliedToViews.swift */; };
+		AC6044502F866B3300809396 /* ActionSheets_PresentWithBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60444F2F866B3300809396 /* ActionSheets_PresentWithBool.swift */; };
+		AC6044522F866C1000809396 /* ActionSheet_Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6044512F866C1000809396 /* ActionSheet_Buttons.swift */; };
+		AC6044542F866CFE00809396 /* ActionSheet_OnIpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6044532F866CFE00809396 /* ActionSheet_OnIpad.swift */; };
+		AC6044572F866DD000809396 /* Alert_PresentingWithBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6044562F866DD000809396 /* Alert_PresentingWithBool.swift */; };
+		AC6044592F866E8700809396 /* Alert_ButtonOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6044582F866E8700809396 /* Alert_ButtonOptions.swift */; };
+		AC60445C2F866F1300809396 /* Alerts_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60445B2F866F1300809396 /* Alerts_Intro.swift */; };
+		AC60445E2F866F6A00809396 /* Alerts_Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60445D2F866F6A00809396 /* Alerts_Message.swift */; };
+		AC6044602F86701500809396 /* Alerts_Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC60445F2F86701500809396 /* Alerts_Actions.swift */; };
 		AC67B5EE2D7B344F002170AB /* ZebraStripeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC67B5ED2D7B344F002170AB /* ZebraStripeRenderer.swift */; };
 		AC6BC6002D8C11FC000DF3AB /* FavoriteKiller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6BC5FF2D8C11FC000DF3AB /* FavoriteKiller.swift */; };
 		AC70C5DC2D4A4FF500718A64 /* BookmarksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC70C5DB2D4A4FF500718A64 /* BookmarksList.swift */; };
@@ -514,6 +536,28 @@
 		AC6043A72F85021500809396 /* RoundedRectangle_CornerSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangle_CornerSize.swift; sourceTree = "<group>"; };
 		AC6043A92F8504A800809396 /* Rectangular_WithControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_WithControls.swift; sourceTree = "<group>"; };
 		AC6043AC2F85380300809396 /* Rectangular_UnevenCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangular_UnevenCorners.swift; sourceTree = "<group>"; };
+		AC6044272F865B2000809396 /* Inset_Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inset_Introduction.swift; sourceTree = "<group>"; };
+		AC6044292F865DCB00809396 /* Inset_NegativeValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inset_NegativeValues.swift; sourceTree = "<group>"; };
+		AC60442D2F865E8E00809396 /* AngularGradient_Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradient_Introduction.swift; sourceTree = "<group>"; };
+		AC60442F2F865EE900809396 /* AngularGradient_Circles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularGradient_Circles.swift; sourceTree = "<group>"; };
+		AC6044312F865F3100809396 /* Angular_OnOtherControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angular_OnOtherControls.swift; sourceTree = "<group>"; };
+		AC6044342F865FC400809396 /* Conic_Introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conic_Introduction.swift; sourceTree = "<group>"; };
+		AC6044372F86602F00809396 /* Conic_Angle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conic_Angle.swift; sourceTree = "<group>"; };
+		AC60443E2F8660BE00809396 /* EllipticalGradient_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalGradient_Intro.swift; sourceTree = "<group>"; };
+		AC6044402F86611900809396 /* EllipticalGradient_SizeChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipticalGradient_SizeChanges.swift; sourceTree = "<group>"; };
+		AC6044422F8661E700809396 /* EllipticalGradient_RadiusFraction(.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EllipticalGradient_RadiusFraction(.swift"; sourceTree = "<group>"; };
+		AC6044452F86639D00809396 /* MeshGradient_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshGradient_Intro.swift; sourceTree = "<group>"; };
+		AC6044472F8663F700809396 /* Mesh_Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mesh_Background.swift; sourceTree = "<group>"; };
+		AC6044492F86644900809396 /* Mesh_3x3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mesh_3x3.swift; sourceTree = "<group>"; };
+		AC60444B2F8664EE00809396 /* Mesh_AppliedToViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mesh_AppliedToViews.swift; sourceTree = "<group>"; };
+		AC60444F2F866B3300809396 /* ActionSheets_PresentWithBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheets_PresentWithBool.swift; sourceTree = "<group>"; };
+		AC6044512F866C1000809396 /* ActionSheet_Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_Buttons.swift; sourceTree = "<group>"; };
+		AC6044532F866CFE00809396 /* ActionSheet_OnIpad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheet_OnIpad.swift; sourceTree = "<group>"; };
+		AC6044562F866DD000809396 /* Alert_PresentingWithBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert_PresentingWithBool.swift; sourceTree = "<group>"; };
+		AC6044582F866E8700809396 /* Alert_ButtonOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert_ButtonOptions.swift; sourceTree = "<group>"; };
+		AC60445B2F866F1300809396 /* Alerts_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts_Intro.swift; sourceTree = "<group>"; };
+		AC60445D2F866F6A00809396 /* Alerts_Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts_Message.swift; sourceTree = "<group>"; };
+		AC60445F2F86701500809396 /* Alerts_Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts_Actions.swift; sourceTree = "<group>"; };
 		AC67B5ED2D7B344F002170AB /* ZebraStripeRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZebraStripeRenderer.swift; sourceTree = "<group>"; };
 		AC6BC5FF2D8C11FC000DF3AB /* FavoriteKiller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteKiller.swift; sourceTree = "<group>"; };
 		AC70C5DB2D4A4FF500718A64 /* BookmarksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksList.swift; sourceTree = "<group>"; };
@@ -1012,6 +1056,10 @@
 				ACEDF8312F7FE54D0060AB5F /* Image */,
 				ACEDF8532F7FF5EA0060AB5F /* Path */,
 				ACE0E1B02F83D17900B6F81A /* Rectangular Shapes */,
+				AC6044012F864FF200809396 /* Inset */,
+				AC60442B2F865DFB00809396 /* PAINTS */,
+				AC6044442F86626C00809396 /* MeshGradient */,
+				AC60444D2F86670300809396 /* CONTROLS MODIFIERS */,
 			);
 			path = "2 SwiftUI Views Mastery ";
 			sourceTree = "<group>";
@@ -1339,6 +1387,120 @@
 				AC6043AC2F85380300809396 /* Rectangular_UnevenCorners.swift */,
 			);
 			path = 17;
+			sourceTree = "<group>";
+		};
+		AC6044012F864FF200809396 /* Inset */ = {
+			isa = PBXGroup;
+			children = (
+				AC6044272F865B2000809396 /* Inset_Introduction.swift */,
+				AC6044292F865DCB00809396 /* Inset_NegativeValues.swift */,
+			);
+			path = Inset;
+			sourceTree = "<group>";
+		};
+		AC60442B2F865DFB00809396 /* PAINTS */ = {
+			isa = PBXGroup;
+			children = (
+				AC60442C2F865E5400809396 /* AngularGradient */,
+				AC6044332F865F8600809396 /* ConicGradient */,
+				AC6044392F86607600809396 /* EllipticalGradient */,
+			);
+			path = PAINTS;
+			sourceTree = "<group>";
+		};
+		AC60442C2F865E5400809396 /* AngularGradient */ = {
+			isa = PBXGroup;
+			children = (
+				AC60442D2F865E8E00809396 /* AngularGradient_Introduction.swift */,
+				AC60442F2F865EE900809396 /* AngularGradient_Circles.swift */,
+				AC6044312F865F3100809396 /* Angular_OnOtherControls.swift */,
+			);
+			path = AngularGradient;
+			sourceTree = "<group>";
+		};
+		AC6044332F865F8600809396 /* ConicGradient */ = {
+			isa = PBXGroup;
+			children = (
+				AC6044362F86601F00809396 /* 15 */,
+			);
+			path = ConicGradient;
+			sourceTree = "<group>";
+		};
+		AC6044362F86601F00809396 /* 15 */ = {
+			isa = PBXGroup;
+			children = (
+				AC6044342F865FC400809396 /* Conic_Introduction.swift */,
+				AC6044372F86602F00809396 /* Conic_Angle.swift */,
+			);
+			path = 15;
+			sourceTree = "<group>";
+		};
+		AC6044392F86607600809396 /* EllipticalGradient */ = {
+			isa = PBXGroup;
+			children = (
+				AC60443E2F8660BE00809396 /* EllipticalGradient_Intro.swift */,
+				AC6044402F86611900809396 /* EllipticalGradient_SizeChanges.swift */,
+				AC6044422F8661E700809396 /* EllipticalGradient_RadiusFraction(.swift */,
+			);
+			path = EllipticalGradient;
+			sourceTree = "<group>";
+		};
+		AC6044442F86626C00809396 /* MeshGradient */ = {
+			isa = PBXGroup;
+			children = (
+				AC6044452F86639D00809396 /* MeshGradient_Intro.swift */,
+				AC6044472F8663F700809396 /* Mesh_Background.swift */,
+				AC6044492F86644900809396 /* Mesh_3x3.swift */,
+				AC60444B2F8664EE00809396 /* Mesh_AppliedToViews.swift */,
+			);
+			path = MeshGradient;
+			sourceTree = "<group>";
+		};
+		AC60444D2F86670300809396 /* CONTROLS MODIFIERS */ = {
+			isa = PBXGroup;
+			children = (
+				AC60444E2F86671A00809396 /* ActionSheet */,
+				AC6044552F866D7F00809396 /* Alert */,
+				AC6044612F86706000809396 /* ConfirmationDialog */,
+			);
+			path = "CONTROLS MODIFIERS";
+			sourceTree = "<group>";
+		};
+		AC60444E2F86671A00809396 /* ActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				AC60444F2F866B3300809396 /* ActionSheets_PresentWithBool.swift */,
+				AC6044512F866C1000809396 /* ActionSheet_Buttons.swift */,
+				AC6044532F866CFE00809396 /* ActionSheet_OnIpad.swift */,
+			);
+			path = ActionSheet;
+			sourceTree = "<group>";
+		};
+		AC6044552F866D7F00809396 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				AC60445A2F866ED000809396 /* 15 */,
+				AC6044562F866DD000809396 /* Alert_PresentingWithBool.swift */,
+				AC6044582F866E8700809396 /* Alert_ButtonOptions.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		AC60445A2F866ED000809396 /* 15 */ = {
+			isa = PBXGroup;
+			children = (
+				AC60445B2F866F1300809396 /* Alerts_Intro.swift */,
+				AC60445D2F866F6A00809396 /* Alerts_Message.swift */,
+				AC60445F2F86701500809396 /* Alerts_Actions.swift */,
+			);
+			path = 15;
+			sourceTree = "<group>";
+		};
+		AC6044612F86706000809396 /* ConfirmationDialog */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ConfirmationDialog;
 			sourceTree = "<group>";
 		};
 		AC70C5DA2D4A4FD000718A64 /* Old */ = {
@@ -3027,6 +3189,7 @@
 				AC9611AA2DDB8C3400398A1F /* CustomTabBarView222.swift in Sources */,
 				AC85488F2EBF72F80055FCB6 /* TabView_Background.swift in Sources */,
 				ACA131292EA26947006933FF /* NavLink_WithDifferentTypes.swift in Sources */,
+				AC6044432F8661E700809396 /* EllipticalGradient_RadiusFraction(.swift in Sources */,
 				AC8212BB2E9798FC00D0688A /* Chart_SectorMark.swift in Sources */,
 				ACE0E1A32F83C2B400B6F81A /* Path_Triangles.swift in Sources */,
 				AC8548632EBF68DB0055FCB6 /* SegmentedControl_Colors.swift in Sources */,
@@ -3071,6 +3234,7 @@
 				AC8212C12E979A1700D0688A /* ColorPicker_Intro.swift in Sources */,
 				ACEDF84A2F7FF3980060AB5F /* Image_UsingGradients..swift in Sources */,
 				AC52782E2BF4ED6F00CD1909 /* ResizableSheets2View.swift in Sources */,
+				AC6044302F865EE900809396 /* AngularGradient_Circles.swift in Sources */,
 				AC52783E2BF6491F00CD1909 /* ExitAlert+View.swift in Sources */,
 				ACA1316F2EA27A34006933FF /* ScrollView_Behavior_Paging.swift in Sources */,
 				ACA131412EA26FA9006933FF /* Picker_ProgrammaticSelection.swift in Sources */,
@@ -3090,17 +3254,21 @@
 				AC4CB8B62B63E0350058C263 /* DemoOfHidingPanelView.swift in Sources */,
 				AC8213D12E98E10100D0688A /* List_WithChildren.swift in Sources */,
 				AC89BFFE2C04B57A006BE793 /* QuickSearchListFoundDocuments.swift in Sources */,
+				AC6044412F86611900809396 /* EllipticalGradient_SizeChanges.swift in Sources */,
 				AC45FBD32D2962050020837B /* AssistantCollectionViewCell.swift in Sources */,
 				ACDB1FC72DD5EC3000A8EC52 /* SwiftUIViewTestSheet.swift in Sources */,
 				ACC496DF2C8B1C9B00EAA344 /* FolderView.swift in Sources */,
 				AC8548DD2EC0E52C0055FCB6 /* Text_Markdown.swift in Sources */,
+				AC6044482F8663F700809396 /* Mesh_Background.swift in Sources */,
 				AC8213B72E98DA2000D0688A /* Gauge_LabelsDemo.swift in Sources */,
 				AC366EBE2C2074F00029AA9A /* MenuSwiftUIView11.swift in Sources */,
 				AC502DA72CD945C700DDB86A /* ContentOneeStructView.swift in Sources */,
 				AC89C0142C05D193006BE793 /* MultilineTextFieldView.swift in Sources */,
+				AC60442E2F865E8E00809396 /* AngularGradient_Introduction.swift in Sources */,
 				ACEDF84F2F7FF5370060AB5F /* Image_SymbolEffect.swift in Sources */,
 				AC366ECA2C219B850029AA9A /* ResizableLogoutInfoSheetView.swift in Sources */,
 				AC8212B42E97974C00D0688A /* Chart_BarMarkStacking.swift in Sources */,
+				AC6044462F86639D00809396 /* MeshGradient_Intro.swift in Sources */,
 				ACDB22DA2EC7024800CB6030 /* TextField_FocusState.swift in Sources */,
 				AC52783B2BF647F300CD1909 /* ExitAlertView.swift in Sources */,
 				AC366EC32C20757E0029AA9A /* DropDownMenuDemo4.swift in Sources */,
@@ -3125,6 +3293,7 @@
 				AC45FBCD2D29614D0020837B /* CalendarViewModel.swift in Sources */,
 				AC2AA48B2DDF26FF004C4E24 /* TabBarItemsPreferenceKey.swift in Sources */,
 				AC85486D2EBF6BDD0055FCB6 /* SignInWithApple_Intro.swift in Sources */,
+				AC60444C2F8664EE00809396 /* Mesh_AppliedToViews.swift in Sources */,
 				ACA130F12EA21F19006933FF /* MultiDatePicker_Intro.swift in Sources */,
 				ACC20EBB2B98C3E1006EF14C /* UINavigationController+UIGestureRecognizerDelegate.swift in Sources */,
 				AC8548BE2EC0DADA0055FCB6 /* TabView_ToolbarBackgroundVisibility.swift in Sources */,
@@ -3154,10 +3323,12 @@
 				ACE0E1B92F83EE8E00B6F81A /* Rectangular_StrokeBorder.swift in Sources */,
 				ACDB22CE2EC6FFFA00CB6030 /* TextField_Border.swift in Sources */,
 				AC8548D62EC0E3330055FCB6 /* Text_BaselineOffset.swift in Sources */,
+				AC6044382F86602F00809396 /* Conic_Angle.swift in Sources */,
 				AC8548822EBF6F7B0055FCB6 /* Stepper_Intro.swift in Sources */,
 				ACE0E1A92F83C60A00B6F81A /* Path_QuadCurve.swift in Sources */,
 				ACA131632EA27806006933FF /* ScrollView_Intro.swift in Sources */,
 				ACA130DA2EA20D02006933FF /* Tab.swift in Sources */,
+				AC6044572F866DD000809396 /* Alert_PresentingWithBool.swift in Sources */,
 				AC0C8C0F2F756438008E9B67 /* BasicGlassEffectExample.swift in Sources */,
 				ACA1317C2EA27EF5006933FF /* Searchable_DismissSearch.swift in Sources */,
 				AC8548D22EC0E22B0055FCB6 /* Text_Alignment.swift in Sources */,
@@ -3191,6 +3362,7 @@
 				AC96F1602ECC5FAE00335AA4 /* Weather.swift in Sources */,
 				AC96F1612ECC5FAE00335AA4 /* ChartAxisCustomization.swift in Sources */,
 				AC96F1622ECC5FAE00335AA4 /* Workout.swift in Sources */,
+				AC6044282F865B2000809396 /* Inset_Introduction.swift in Sources */,
 				AC96F1632ECC5FAE00335AA4 /* CombinedChart.swift in Sources */,
 				AC0C8C232F7564A6008E9B67 /* ScrollEdgeEffectExample.swift in Sources */,
 				AC96F1642ECC5FAE00335AA4 /* AreaChartIntro.swift in Sources */,
@@ -3198,6 +3370,7 @@
 				AC96F1662ECC5FAE00335AA4 /* RangeAreaChart.swift in Sources */,
 				AC96F1672ECC5FAE00335AA4 /* DevTechieSiteStats.swift in Sources */,
 				AC96F1682ECC5FAE00335AA4 /* Stock.swift in Sources */,
+				AC60442A2F865DCB00809396 /* Inset_NegativeValues.swift in Sources */,
 				AC96F1692ECC5FAE00335AA4 /* MultiSeriesLineChartStyling.swift in Sources */,
 				AC96F16A2ECC5FAE00335AA4 /* MultiSeriesBarChartExample.swift in Sources */,
 				AC96F16B2ECC5FAE00335AA4 /* StackedBarChartExample.swift in Sources */,
@@ -3228,6 +3401,7 @@
 				AC4238402C11A6C50035B3CE /* SwiftUIView123231.swift in Sources */,
 				ACA130E22EA212B3006933FF /* Menu_Intro.swift in Sources */,
 				ACA130EE2EA21E81006933FF /* Menu_Order.swift in Sources */,
+				AC6044602F86701500809396 /* Alerts_Actions.swift in Sources */,
 				ACE0E1A12F83C09000B6F81A /* Path_Intro.swift in Sources */,
 				ACEC5E362CAF1D8900ECBB2F /* SwiftUIViewIpad2.swift in Sources */,
 				ACA131252EA244B2006933FF /* NavLink_Customization.swift in Sources */,
@@ -3241,6 +3415,7 @@
 				ACA131382EA26DAD006933FF /* OutlineGroup_Intro.swift in Sources */,
 				AC52780D2BF37BF700CD1909 /* BottomSheetModifierNew+View.swift in Sources */,
 				ACDFF39F2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift in Sources */,
+				AC60445C2F866F1300809396 /* Alerts_Intro.swift in Sources */,
 				AC2AA5292DE098A1004C4E24 /* 11111.swift in Sources */,
 				ACA130DF2EA210A6006933FF /* List_ScrollContentBackground.swift in Sources */,
 				ACDB22EE2EC7058600CB6030 /* Toggle_Tint.swift in Sources */,
@@ -3262,6 +3437,7 @@
 				AC8212BF2E97998900D0688A /* Chart_SectorMark_Donut.swift in Sources */,
 				AC5278422BF6497D00CD1909 /* ExitAlertModifier.swift in Sources */,
 				ACA1313B2EA26ECC006933FF /* Picker_Intro.swift in Sources */,
+				AC60445E2F866F6A00809396 /* Alerts_Message.swift in Sources */,
 				ACA130E42EA21C20006933FF /* Menu_InsideMenu.swift in Sources */,
 				AC366EBA2C2069DC0029AA9A /* MenuSwiftUIView4.swift in Sources */,
 				ACA130F52EA21FB0006933FF /* MultiDatePicker_DateRange.swift in Sources */,
@@ -3292,6 +3468,7 @@
 				ACFD59EE2E2E54EE001D4740 /* ListListSwiftUIView.swift in Sources */,
 				AC3B12DD2CF099440076D9B3 /* SearchFruitsView.swift in Sources */,
 				AC8212BD2E97996A00D0688A /* Share.swift in Sources */,
+				AC6044592F866E8700809396 /* Alert_ButtonOptions.swift in Sources */,
 				ACFEDC702B83A064002B3C66 /* Skeleton.swift in Sources */,
 				ACEDF81D2F7FDFAB0060AB5F /* CircularShapes_TrimSolid(.swift in Sources */,
 				ACE0E1AD2F83C87400B6F81A /* Path_RelativeArc_Mask.swift in Sources */,
@@ -3324,10 +3501,12 @@
 				AC8548ED2EC0EAF10055FCB6 /* Text_Currency.swift in Sources */,
 				AC8548912EBF739F0055FCB6 /* TabView_UITabBarAppearance.swift in Sources */,
 				AC8212B82E97985C00D0688A /* GroupInfo.swift in Sources */,
+				AC6044542F866CFE00809396 /* ActionSheet_OnIpad.swift in Sources */,
 				AC8549082EC1BCEA0055FCB6 /* Text_PersonNameComponents.swift in Sources */,
 				AC366ECC2C21C0AF0029AA9A /* SheetStartTest.swift in Sources */,
 				AC89C0182C071C9F006BE793 /* DynamicHeightTextEditor.swift in Sources */,
 				ACA131732EA27AD6006933FF /* ScrollView_ScrollPosition.swift in Sources */,
+				AC6044352F865FC400809396 /* Conic_Introduction.swift in Sources */,
 				ACA4F1582DFFE4B700FE5A9F /* BookmarksDocumentMenuSwiftUIView.swift in Sources */,
 				AC09CDF82D3F95B80038A629 /* FavoriteSwiftUIView.swift in Sources */,
 				ACA1315B2EA276A7006933FF /* ProgressView_Customizing.swift in Sources */,
@@ -3356,6 +3535,7 @@
 				AC89C0122C04D5F8006BE793 /* ContentView.swift in Sources */,
 				AC85487B2EBF6DFD0055FCB6 /* Slider_WithImages.swift in Sources */,
 				AC5278142BF385DC00CD1909 /* PanelViewNew.swift in Sources */,
+				AC6044322F865F3100809396 /* Angular_OnOtherControls.swift in Sources */,
 				ACEDF8412F7FF0AB0060AB5F /* Image_MulticolorSymbols.swift in Sources */,
 				AC8548612EBF688F0055FCB6 /* SegmentedControl_NoSelection.swift in Sources */,
 				AC82964D2B5E583F008383B0 /* ScrollDirectionView.swift in Sources */,
@@ -3368,6 +3548,7 @@
 				AC103B4C2CABF44400F6030A /* DocumentsListSectionsPanelView.swift in Sources */,
 				AC85490C2EC1BE010055FCB6 /* Text_AttributedString.swift in Sources */,
 				AC67B5EE2D7B344F002170AB /* ZebraStripeRenderer.swift in Sources */,
+				AC6044522F866C1000809396 /* ActionSheet_Buttons.swift in Sources */,
 				ACA4F15A2DFFE56F00FE5A9F /* BookmarkItem.swift in Sources */,
 				ACA1311C2EA24339006933FF /* Navigation_SplitViewColumnVisibility.swift in Sources */,
 				AC8549132EC1BFDC0055FCB6 /* Text_OffsetStyle.swift in Sources */,
@@ -3390,6 +3571,7 @@
 				AC8548C72EC0DE450055FCB6 /* TabView_Customizations.swift in Sources */,
 				ACA131672EA278A5006933FF /* ScrollView_Horizontal.swift in Sources */,
 				ACC496E42C8B204B00EAA344 /* FileItem.swift in Sources */,
+				AC60443F2F8660BE00809396 /* EllipticalGradient_Intro.swift in Sources */,
 				ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */,
 				ACA131352EA26CFB006933FF /* NavLink_IsDetailLink.swift in Sources */,
 				AC8213C02E98DC7400D0688A /* Link_ButtonStyles.swift in Sources */,
@@ -3419,6 +3601,7 @@
 				AC85491A2EC1C1B30055FCB6 /* TextEditor_Intro.swift in Sources */,
 				AC96F1762ECC5FBF00335AA4 /* MasteringChartsView.swift in Sources */,
 				AC8213CF2E98E05500D0688A /* List_ListRowInsets.swift in Sources */,
+				AC60444A2F86644900809396 /* Mesh_3x3.swift in Sources */,
 				AC0C8C272F7564A8008E9B67 /* TabBarMinimizeExample.swift in Sources */,
 				AC8548D02EC0E1C50055FCB6 /* Text_LineSpacing.swift in Sources */,
 				ACA131332EA26C3F006933FF /* NavLink_PopToRoot.swift in Sources */,
@@ -3429,6 +3612,7 @@
 				AC5278182BF388F700CD1909 /* BottomSheet.swift in Sources */,
 				AC0E23862E8D799900CEC1DF /* CUV_IntendedUse.swift in Sources */,
 				AC5278402BF6495300CD1909 /* ContentViewOne1.swift in Sources */,
+				AC6044502F866B3300809396 /* ActionSheets_PresentWithBool.swift in Sources */,
 				ACDEFE192BEB7F76006E0CD1 /* View+HideKeyboard.swift in Sources */,
 				AC1DC9142F1E541100B6F1B9 /* SwiftUIViewSwiftUIView.swift in Sources */,
 			);

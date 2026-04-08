@@ -1010,58 +1010,82 @@
 		AC0E23712E8D621200CEC1DF /* 2 SwiftUI Views Mastery  */ = {
 			isa = PBXGroup;
 			children = (
-				AC8213C62E98DEC400D0688A /* LazyHGrid */,
-				AC8213C72E98DED000D0688A /* ScrollViewReader */,
-				AC8213C82E98DEDB00D0688A /* СontrolGroup */,
-				AC8213C92E98DEEC00D0688A /* Table */,
-				AC0E23842E8D797D00CEC1DF /* ContentUnavailableView */,
-				AC0E237A2E8D694100CEC1DF /* ViewThatFits */,
-				AC8212B02E97964600D0688A /* Chart */,
-				AC8213CA2E98DEF900D0688A /* ColorPicker */,
-				AC8213CB2E98DF0400D0688A /* DisclosureGroup */,
-				AC8213B12E98D99800D0688A /* Gauge */,
-				AC8213B82E98DA7700D0688A /* GroupBox */,
-				AC8213CC2E98DF1100D0688A /* LabeledContent */,
-				AC8213CD2E98DF1C00D0688A /* Link */,
-				AC8213C12E98DD5700D0688A /* List */,
-				ACA130E02EA2120C006933FF /* Menu */,
-				ACA130EF2EA21EE0006933FF /* MultiDatePicker */,
-				ACA130FA2EA22075006933FF /* NavigationStack */,
-				ACA131182EA2429E006933FF /* NavigationSplitView */,
-				ACA131212EA24435006933FF /* NavigationLink */,
-				ACA131362EA26D65006933FF /* OutlineGroup */,
-				ACA131392EA26E86006933FF /* Picker */,
-				ACA1314C2EA272B5006933FF /* PhotosPicker */,
-				ACA131512EA27489006933FF /* ProgressView */,
-				ACA1315E2EA27761006933FF /* RenameButton */,
-				ACA131612EA277ED006933FF /* Scrollview */,
-				ACA131762EA27C74006933FF /* Searchable */,
-				ACA131852EA29A0C006933FF /* SecureField */,
-				AC85485D2EBF67E40055FCB6 /* Segmented Control (Picker) */,
-				AC8548642EBF68FE0055FCB6 /* ShareLink */,
-				AC85486B2EBF6BA00055FCB6 /* SignInWithAppleButton */,
-				AC8548732EBF6CA30055FCB6 /* Slider */,
-				AC8548802EBF6F420055FCB6 /* Stepper */,
-				AC8548832EBF6FD70055FCB6 /* TabView */,
-				AC8548BF2EC0DB780055FCB6 /* TabView - Paging Style */,
-				AC8548C82EC0E0620055FCB6 /* Text */,
-				AC8549182EC1C1620055FCB6 /* TextEditor */,
-				AC85492B2EC1C53A0055FCB6 /* TextField */,
-				ACDB22E62EC704AB00CB6030 /* Toggle */,
-				ACEDF8082F7FD8E20060AB5F /* Canvas */,
-				ACEDF80B2F7FDA730060AB5F /* Circular Shapes */,
+				ACF100000000000000000001 /* 01 Most Used */,
+				ACF100000000000000000002 /* 02 Medium Used */,
+				ACF100000000000000000003 /* 03 Rarely Used */,
+			);
+			path = "2 SwiftUI Views Mastery ";
+			sourceTree = "<group>";
+		};
+		ACF100000000000000000001 /* 01 Most Used */ = {
+			isa = PBXGroup;
+			children = (
+				AC60444D2F86670300809396 /* CONTROLS MODIFIERS */,
 				ACEDF8202F7FE0AA0060AB5F /* Color */,
 				ACEDF8272F7FE2D80060AB5F /* Divider */,
 				ACEDF82C2F7FE39D0060AB5F /* Group */,
+				AC8213B82E98DA7700D0688A /* GroupBox */,
 				ACEDF8312F7FE54D0060AB5F /* Image */,
+				AC8213C12E98DD5700D0688A /* List */,
+				ACA130E02EA2120C006933FF /* Menu */,
+				ACA131212EA24435006933FF /* NavigationLink */,
+				ACA130FA2EA22075006933FF /* NavigationStack */,
+				ACA131392EA26E86006933FF /* Picker */,
+				ACA131512EA27489006933FF /* ProgressView */,
+				AC8213C72E98DED000D0688A /* ScrollViewReader */,
+				ACA131612EA277ED006933FF /* Scrollview */,
+				ACA131762EA27C74006933FF /* Searchable */,
+				ACA131852EA29A0C006933FF /* SecureField */,
+				AC8548732EBF6CA30055FCB6 /* Slider */,
+				AC8548802EBF6F420055FCB6 /* Stepper */,
+				AC8548832EBF6FD70055FCB6 /* TabView */,
+				AC8548C82EC0E0620055FCB6 /* Text */,
+				AC85492B2EC1C53A0055FCB6 /* TextField */,
+				ACDB22E62EC704AB00CB6030 /* Toggle */,
+			);
+			path = "01 Most Used";
+			sourceTree = "<group>";
+		};
+		ACF100000000000000000002 /* 02 Medium Used */ = {
+			isa = PBXGroup;
+			children = (
+				AC8213CA2E98DEF900D0688A /* ColorPicker */,
+				AC0E23842E8D797D00CEC1DF /* ContentUnavailableView */,
+				AC8213CB2E98DF0400D0688A /* DisclosureGroup */,
+				AC8213B12E98D99800D0688A /* Gauge */,
+				AC6044012F864FF200809396 /* Inset */,
+				AC8213CC2E98DF1100D0688A /* LabeledContent */,
+				AC8213CD2E98DF1C00D0688A /* Link */,
+				ACA130EF2EA21EE0006933FF /* MultiDatePicker */,
+				ACA131362EA26D65006933FF /* OutlineGroup */,
+				ACA1314C2EA272B5006933FF /* PhotosPicker */,
+				ACA1315E2EA27761006933FF /* RenameButton */,
+				AC85485D2EBF67E40055FCB6 /* Segmented Control (Picker) */,
+				AC8548642EBF68FE0055FCB6 /* ShareLink */,
+				AC85486B2EBF6BA00055FCB6 /* SignInWithAppleButton */,
+				AC8548BF2EC0DB780055FCB6 /* TabView - Paging Style */,
+				AC8549182EC1C1620055FCB6 /* TextEditor */,
+				AC0E237A2E8D694100CEC1DF /* ViewThatFits */,
+			);
+			path = "02 Medium Used";
+			sourceTree = "<group>";
+		};
+		ACF100000000000000000003 /* 03 Rarely Used */ = {
+			isa = PBXGroup;
+			children = (
+				ACEDF8082F7FD8E20060AB5F /* Canvas */,
+				AC8212B02E97964600D0688A /* Chart */,
+				ACEDF80B2F7FDA730060AB5F /* Circular Shapes */,
+				AC8213C62E98DEC400D0688A /* LazyHGrid */,
+				AC6044442F86626C00809396 /* MeshGradient */,
+				ACA131182EA2429E006933FF /* NavigationSplitView */,
+				AC60442B2F865DFB00809396 /* PAINTS */,
 				ACEDF8532F7FF5EA0060AB5F /* Path */,
 				ACE0E1B02F83D17900B6F81A /* Rectangular Shapes */,
-				AC6044012F864FF200809396 /* Inset */,
-				AC60442B2F865DFB00809396 /* PAINTS */,
-				AC6044442F86626C00809396 /* MeshGradient */,
-				AC60444D2F86670300809396 /* CONTROLS MODIFIERS */,
+				AC8213C92E98DEEC00D0688A /* Table */,
+				AC8213C82E98DEDB00D0688A /* СontrolGroup */,
 			);
-			path = "2 SwiftUI Views Mastery ";
+			path = "03 Rarely Used";
 			sourceTree = "<group>";
 		};
 		AC0E237A2E8D694100CEC1DF /* ViewThatFits */ = {

@@ -381,6 +381,7 @@
 		ACDEFE152BEB7F41006E0CD1 /* UserAuthorizationBM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE142BEB7F41006E0CD1 /* UserAuthorizationBM.swift */; };
 		ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE162BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift */; };
 		ACDEFE192BEB7F76006E0CD1 /* View+HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE182BEB7F76006E0CD1 /* View+HideKeyboard.swift */; };
+		ACDFC46F2F9F674600F5A43F /* YourFirstConversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDFC46E2F9F674600F5A43F /* YourFirstConversation.swift */; };
 		ACDFF39F2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDFF39E2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift */; };
 		ACDFF3A32B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDFF3A22B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift */; };
 		ACE0E1A12F83C09000B6F81A /* Path_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0E1A02F83C09000B6F81A /* Path_Intro.swift */; };
@@ -820,6 +821,7 @@
 		ACDEFE142BEB7F41006E0CD1 /* UserAuthorizationBM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationBM.swift; sourceTree = "<group>"; };
 		ACDEFE162BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationFieldType.swift; sourceTree = "<group>"; };
 		ACDEFE182BEB7F76006E0CD1 /* View+HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+HideKeyboard.swift"; sourceTree = "<group>"; };
+		ACDFC46E2F9F674600F5A43F /* YourFirstConversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourFirstConversation.swift; sourceTree = "<group>"; };
 		ACDFF39E2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackoverflowSwiftUIView.swift; sourceTree = "<group>"; };
 		ACDFF3A22B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackoverflowSwiftUIView2.swift; sourceTree = "<group>"; };
 		ACE0E1A02F83C09000B6F81A /* Path_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_Intro.swift; sourceTree = "<group>"; };
@@ -1003,6 +1005,7 @@
 			isa = PBXGroup;
 			children = (
 				AC0E23712E8D621200CEC1DF /* 2 SwiftUI Views Mastery  */,
+				ACDFC46D2F9F666700F5A43F /* 10 AI Mastery in SwiftUI iOS 26 */,
 			);
 			path = Books;
 			sourceTree = "<group>";
@@ -1015,77 +1018,6 @@
 				ACF100000000000000000003 /* 03 Rarely Used */,
 			);
 			path = "2 SwiftUI Views Mastery ";
-			sourceTree = "<group>";
-		};
-		ACF100000000000000000001 /* 01 Most Used */ = {
-			isa = PBXGroup;
-			children = (
-				AC60444D2F86670300809396 /* CONTROLS MODIFIERS */,
-				ACEDF8202F7FE0AA0060AB5F /* Color */,
-				ACEDF8272F7FE2D80060AB5F /* Divider */,
-				ACEDF82C2F7FE39D0060AB5F /* Group */,
-				AC8213B82E98DA7700D0688A /* GroupBox */,
-				ACEDF8312F7FE54D0060AB5F /* Image */,
-				AC8213C12E98DD5700D0688A /* List */,
-				ACA130E02EA2120C006933FF /* Menu */,
-				ACA131212EA24435006933FF /* NavigationLink */,
-				ACA130FA2EA22075006933FF /* NavigationStack */,
-				ACA131392EA26E86006933FF /* Picker */,
-				ACA131512EA27489006933FF /* ProgressView */,
-				AC8213C72E98DED000D0688A /* ScrollViewReader */,
-				ACA131612EA277ED006933FF /* Scrollview */,
-				ACA131762EA27C74006933FF /* Searchable */,
-				ACA131852EA29A0C006933FF /* SecureField */,
-				AC8548732EBF6CA30055FCB6 /* Slider */,
-				AC8548802EBF6F420055FCB6 /* Stepper */,
-				AC8548832EBF6FD70055FCB6 /* TabView */,
-				AC8548C82EC0E0620055FCB6 /* Text */,
-				AC85492B2EC1C53A0055FCB6 /* TextField */,
-				ACDB22E62EC704AB00CB6030 /* Toggle */,
-			);
-			path = "01 Most Used";
-			sourceTree = "<group>";
-		};
-		ACF100000000000000000002 /* 02 Medium Used */ = {
-			isa = PBXGroup;
-			children = (
-				AC8213CA2E98DEF900D0688A /* ColorPicker */,
-				AC0E23842E8D797D00CEC1DF /* ContentUnavailableView */,
-				AC8213CB2E98DF0400D0688A /* DisclosureGroup */,
-				AC8213B12E98D99800D0688A /* Gauge */,
-				AC6044012F864FF200809396 /* Inset */,
-				AC8213CC2E98DF1100D0688A /* LabeledContent */,
-				AC8213CD2E98DF1C00D0688A /* Link */,
-				ACA130EF2EA21EE0006933FF /* MultiDatePicker */,
-				ACA131362EA26D65006933FF /* OutlineGroup */,
-				ACA1314C2EA272B5006933FF /* PhotosPicker */,
-				ACA1315E2EA27761006933FF /* RenameButton */,
-				AC85485D2EBF67E40055FCB6 /* Segmented Control (Picker) */,
-				AC8548642EBF68FE0055FCB6 /* ShareLink */,
-				AC85486B2EBF6BA00055FCB6 /* SignInWithAppleButton */,
-				AC8548BF2EC0DB780055FCB6 /* TabView - Paging Style */,
-				AC8549182EC1C1620055FCB6 /* TextEditor */,
-				AC0E237A2E8D694100CEC1DF /* ViewThatFits */,
-			);
-			path = "02 Medium Used";
-			sourceTree = "<group>";
-		};
-		ACF100000000000000000003 /* 03 Rarely Used */ = {
-			isa = PBXGroup;
-			children = (
-				ACEDF8082F7FD8E20060AB5F /* Canvas */,
-				AC8212B02E97964600D0688A /* Chart */,
-				ACEDF80B2F7FDA730060AB5F /* Circular Shapes */,
-				AC8213C62E98DEC400D0688A /* LazyHGrid */,
-				AC6044442F86626C00809396 /* MeshGradient */,
-				ACA131182EA2429E006933FF /* NavigationSplitView */,
-				AC60442B2F865DFB00809396 /* PAINTS */,
-				ACEDF8532F7FF5EA0060AB5F /* Path */,
-				ACE0E1B02F83D17900B6F81A /* Rectangular Shapes */,
-				AC8213C92E98DEEC00D0688A /* Table */,
-				AC8213C82E98DEDB00D0688A /* СontrolGroup */,
-			);
-			path = "03 Rarely Used";
 			sourceTree = "<group>";
 		};
 		AC0E237A2E8D694100CEC1DF /* ViewThatFits */ = {
@@ -2909,6 +2841,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		ACDFC46D2F9F666700F5A43F /* 10 AI Mastery in SwiftUI iOS 26 */ = {
+			isa = PBXGroup;
+			children = (
+				ACDFC46E2F9F674600F5A43F /* YourFirstConversation.swift */,
+			);
+			path = "10 AI Mastery in SwiftUI iOS 26";
+			sourceTree = "<group>";
+		};
 		ACDFF39B2B570F08000A6AAA /* Work */ = {
 			isa = PBXGroup;
 			children = (
@@ -3071,6 +3011,77 @@
 				ACE0E1AE2F83D12800B6F81A /* Path_CGPathToPath.swift */,
 			);
 			path = Path;
+			sourceTree = "<group>";
+		};
+		ACF100000000000000000001 /* 01 Most Used */ = {
+			isa = PBXGroup;
+			children = (
+				AC60444D2F86670300809396 /* CONTROLS MODIFIERS */,
+				ACEDF8202F7FE0AA0060AB5F /* Color */,
+				ACEDF8272F7FE2D80060AB5F /* Divider */,
+				ACEDF82C2F7FE39D0060AB5F /* Group */,
+				AC8213B82E98DA7700D0688A /* GroupBox */,
+				ACEDF8312F7FE54D0060AB5F /* Image */,
+				AC8213C12E98DD5700D0688A /* List */,
+				ACA130E02EA2120C006933FF /* Menu */,
+				ACA131212EA24435006933FF /* NavigationLink */,
+				ACA130FA2EA22075006933FF /* NavigationStack */,
+				ACA131392EA26E86006933FF /* Picker */,
+				ACA131512EA27489006933FF /* ProgressView */,
+				AC8213C72E98DED000D0688A /* ScrollViewReader */,
+				ACA131612EA277ED006933FF /* Scrollview */,
+				ACA131762EA27C74006933FF /* Searchable */,
+				ACA131852EA29A0C006933FF /* SecureField */,
+				AC8548732EBF6CA30055FCB6 /* Slider */,
+				AC8548802EBF6F420055FCB6 /* Stepper */,
+				AC8548832EBF6FD70055FCB6 /* TabView */,
+				AC8548C82EC0E0620055FCB6 /* Text */,
+				AC85492B2EC1C53A0055FCB6 /* TextField */,
+				ACDB22E62EC704AB00CB6030 /* Toggle */,
+			);
+			path = "01 Most Used";
+			sourceTree = "<group>";
+		};
+		ACF100000000000000000002 /* 02 Medium Used */ = {
+			isa = PBXGroup;
+			children = (
+				AC8213CA2E98DEF900D0688A /* ColorPicker */,
+				AC0E23842E8D797D00CEC1DF /* ContentUnavailableView */,
+				AC8213CB2E98DF0400D0688A /* DisclosureGroup */,
+				AC8213B12E98D99800D0688A /* Gauge */,
+				AC6044012F864FF200809396 /* Inset */,
+				AC8213CC2E98DF1100D0688A /* LabeledContent */,
+				AC8213CD2E98DF1C00D0688A /* Link */,
+				ACA130EF2EA21EE0006933FF /* MultiDatePicker */,
+				ACA131362EA26D65006933FF /* OutlineGroup */,
+				ACA1314C2EA272B5006933FF /* PhotosPicker */,
+				ACA1315E2EA27761006933FF /* RenameButton */,
+				AC85485D2EBF67E40055FCB6 /* Segmented Control (Picker) */,
+				AC8548642EBF68FE0055FCB6 /* ShareLink */,
+				AC85486B2EBF6BA00055FCB6 /* SignInWithAppleButton */,
+				AC8548BF2EC0DB780055FCB6 /* TabView - Paging Style */,
+				AC8549182EC1C1620055FCB6 /* TextEditor */,
+				AC0E237A2E8D694100CEC1DF /* ViewThatFits */,
+			);
+			path = "02 Medium Used";
+			sourceTree = "<group>";
+		};
+		ACF100000000000000000003 /* 03 Rarely Used */ = {
+			isa = PBXGroup;
+			children = (
+				ACEDF8082F7FD8E20060AB5F /* Canvas */,
+				AC8212B02E97964600D0688A /* Chart */,
+				ACEDF80B2F7FDA730060AB5F /* Circular Shapes */,
+				AC8213C62E98DEC400D0688A /* LazyHGrid */,
+				AC6044442F86626C00809396 /* MeshGradient */,
+				ACA131182EA2429E006933FF /* NavigationSplitView */,
+				AC60442B2F865DFB00809396 /* PAINTS */,
+				ACEDF8532F7FF5EA0060AB5F /* Path */,
+				ACE0E1B02F83D17900B6F81A /* Rectangular Shapes */,
+				AC8213C92E98DEEC00D0688A /* Table */,
+				AC8213C82E98DEDB00D0688A /* СontrolGroup */,
+			);
+			path = "03 Rarely Used";
 			sourceTree = "<group>";
 		};
 		ACFD59EC2E2E54D8001D4740 /* List */ = {
@@ -3594,6 +3605,7 @@
 				ACA1310F2EA24103006933FF /* Navigation_DisplayMode.swift in Sources */,
 				AC8548C72EC0DE450055FCB6 /* TabView_Customizations.swift in Sources */,
 				ACA131672EA278A5006933FF /* ScrollView_Horizontal.swift in Sources */,
+				ACDFC46F2F9F674600F5A43F /* YourFirstConversation.swift in Sources */,
 				ACC496E42C8B204B00EAA344 /* FileItem.swift in Sources */,
 				AC60443F2F8660BE00809396 /* EllipticalGradient_Intro.swift in Sources */,
 				ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */,

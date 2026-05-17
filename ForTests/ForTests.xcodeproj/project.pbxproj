@@ -1064,12 +1064,52 @@
 		AC20C0012FBA6001008E9B67 /* Cursor */ = {
 			isa = PBXGroup;
 			children = (
-				AC20C0052FBA6001008E9B67 /* CursorWeatherService.swift */,
-				AC20C0022FBA6001008E9B67 /* CursorWeatherModel.swift */,
-				AC20C0032FBA6001008E9B67 /* CursorWeatherView.swift */,
-				AC20C0042FBA6001008E9B67 /* CursorWeatherViewModel.swift */,
+				AC20C0102FBA6101008E9B67 /* Weather */,
 			);
 			path = Cursor;
+			sourceTree = "<group>";
+		};
+		AC20C0102FBA6101008E9B67 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C0112FBA6101008E9B67 /* Model */,
+				AC20C0122FBA6101008E9B67 /* Service */,
+				AC20C0132FBA6101008E9B67 /* ViewModel */,
+				AC20C0142FBA6101008E9B67 /* View */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		AC20C0112FBA6101008E9B67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C0022FBA6001008E9B67 /* CursorWeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC20C0122FBA6101008E9B67 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C0052FBA6001008E9B67 /* CursorWeatherService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		AC20C0132FBA6101008E9B67 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C0042FBA6001008E9B67 /* CursorWeatherViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AC20C0142FBA6101008E9B67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C0032FBA6001008E9B67 /* CursorWeatherView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		AC1DC9122F1E540300B6F1B9 /* New Group */ = {

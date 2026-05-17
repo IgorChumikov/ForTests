@@ -18,6 +18,7 @@ struct CursorWeatherView: View {
             .padding(.horizontal, 24)
             .padding(.vertical, 32)
         }
+        .preferredColorScheme(.dark)
         .task {
             if viewModel.state == .idle {
                 viewModel.loadWeather(replacingContent: true)
@@ -33,10 +34,7 @@ struct CursorWeatherView: View {
 private extension CursorWeatherView {
     var skyBackground: some View {
         LinearGradient(
-            colors: [
-                Color(red: 0.35, green: 0.62, blue: 0.98),
-                Color(red: 0.18, green: 0.38, blue: 0.82)
-            ],
+            colors: [CursorWeatherTheme.backgroundTop, CursorWeatherTheme.backgroundBottom],
             startPoint: .top,
             endPoint: .bottom
         )
@@ -47,11 +45,11 @@ private extension CursorWeatherView {
         VStack(spacing: 6) {
             Label("Погода", systemImage: "cloud.sun.fill")
                 .font(.subheadline.weight(.semibold))
-                .foregroundStyle(.white.opacity(0.85))
+                .foregroundStyle(CursorWeatherTheme.pinkSoft)
 
             Text(viewModel.selectedCity.name)
                 .font(.system(size: 36, weight: .bold, design: .rounded))
-                .foregroundStyle(.white)
+                .foregroundStyle(CursorWeatherTheme.pink)
         }
     }
 
@@ -74,11 +72,19 @@ private extension CursorWeatherView {
         } label: {
             Text(city.name)
                 .font(.subheadline.weight(.semibold))
-                .foregroundStyle(isSelected ? Color(red: 0.18, green: 0.38, blue: 0.82) : .white)
+                .foregroundStyle(isSelected ? Color.black : CursorWeatherTheme.pinkSoft)
                 .padding(.horizontal, 16)
                 .padding(.vertical, 10)
-                .background(isSelected ? Color.white : Color.white.opacity(0.18))
-                .clipShape(Capsule())
+                .background(
+                    isSelected ? CursorWeatherTheme.pink : CursorWeatherTheme.chipFill,
+                    in: Capsule()
+                )
+                .overlay {
+                    if !isSelected {
+                        Capsule()
+                            .strokeBorder(CursorWeatherTheme.cardStroke, lineWidth: 1)
+                    }
+                }
         }
         .buttonStyle(.plain)
         .disabled(isCityPickerDisabled)
@@ -94,12 +100,12 @@ private extension CursorWeatherView {
         switch viewModel.state {
         case .idle, .loading:
             ProgressView("Загрузка…")
-                .tint(.white)
-                .foregroundStyle(.white)
+                .tint(CursorWeatherTheme.pink)
+                .foregroundStyle(CursorWeatherTheme.pinkSoft)
                 .scaleEffect(1.2)
 
         case .success(let model):
-            weatherCard(model)
+            CursorWeatherCardView(model: model)
                 .transition(.opacity.combined(with: .move(edge: .bottom)))
                 .overlay {
                     if viewModel.isRefreshing {
@@ -108,7 +114,7 @@ private extension CursorWeatherView {
                 }
 
         case .error(let message):
-            errorCard(message)
+            CursorWeatherErrorCardView(message: message)
                 .transition(.opacity)
         }
     }
@@ -116,72 +122,13 @@ private extension CursorWeatherView {
     var refreshOverlay: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 28, style: .continuous)
-                .fill(.ultraThinMaterial)
+                .fill(Color.black.opacity(0.72))
 
             ProgressView()
                 .controlSize(.large)
-                .tint(.white)
+                .tint(CursorWeatherTheme.pink)
         }
         .transition(.opacity)
-    }
-
-    func weatherCard(_ model: CursorWeatherUIModel) -> some View {
-        VStack(spacing: 20) {
-            Image(systemName: model.systemIconName)
-                .font(.system(size: 72))
-                .symbolRenderingMode(.multicolor)
-                .symbolEffect(.bounce, value: model.cityName)
-
-            Text(model.temperature)
-                .font(.system(size: 80, weight: .thin, design: .rounded))
-                .foregroundStyle(.white)
-
-            Text(model.conditionDescription)
-                .font(.title3.weight(.medium))
-                .foregroundStyle(.white.opacity(0.92))
-
-            HStack(spacing: 20) {
-                detailItem(icon: "wind", title: "Ветер", value: model.windSpeed)
-            }
-            .padding(.top, 4)
-        }
-        .frame(maxWidth: .infinity)
-        .padding(.vertical, 36)
-        .padding(.horizontal, 24)
-        .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 28, style: .continuous))
-        .overlay {
-            RoundedRectangle(cornerRadius: 28, style: .continuous)
-                .strokeBorder(.white.opacity(0.25), lineWidth: 1)
-        }
-    }
-
-    func detailItem(icon: String, title: String, value: String) -> some View {
-        VStack(spacing: 4) {
-            Image(systemName: icon)
-                .font(.body.weight(.semibold))
-            Text(title)
-                .font(.caption)
-                .opacity(0.8)
-            Text(value)
-                .font(.subheadline.weight(.semibold))
-        }
-        .foregroundStyle(.white)
-    }
-
-    func errorCard(_ message: String) -> some View {
-        VStack(spacing: 12) {
-            Image(systemName: "wifi.exclamationmark")
-                .font(.largeTitle)
-                .foregroundStyle(.yellow)
-
-            Text(message)
-                .font(.callout)
-                .multilineTextAlignment(.center)
-                .foregroundStyle(.white)
-        }
-        .padding(24)
-        .frame(maxWidth: .infinity)
-        .background(.black.opacity(0.25), in: RoundedRectangle(cornerRadius: 20))
     }
 
     var refreshButton: some View {
@@ -191,7 +138,7 @@ private extension CursorWeatherView {
             Group {
                 if viewModel.isRefreshing {
                     ProgressView()
-                        .tint(Color(red: 0.18, green: 0.38, blue: 0.82))
+                        .tint(CursorWeatherTheme.pink)
                 } else {
                     Label("Обновить", systemImage: "arrow.clockwise")
                 }
@@ -199,8 +146,12 @@ private extension CursorWeatherView {
             .font(.headline)
             .frame(maxWidth: .infinity)
             .padding(.vertical, 16)
-            .background(.white, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
-            .foregroundStyle(Color(red: 0.18, green: 0.38, blue: 0.82))
+            .background(CursorWeatherTheme.chipFill, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+            .foregroundStyle(CursorWeatherTheme.pink)
+            .overlay {
+                RoundedRectangle(cornerRadius: 16, style: .continuous)
+                    .strokeBorder(CursorWeatherTheme.pink.opacity(0.5), lineWidth: 1)
+            }
         }
         .disabled(viewModel.isRefreshing || viewModel.state == .loading)
         .animation(.easeInOut(duration: 0.2), value: viewModel.isRefreshing)

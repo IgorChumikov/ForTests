@@ -15,6 +15,7 @@ final class CursorWeatherViewModel: ObservableObject {
 
     private let weatherService: CursorWeatherServiceProtocol
     private var fetchTask: Task<Void, Never>?
+    private static let minimumRefreshDuration: Duration = .milliseconds(500)
 
     init(
         city: CursorCity = .presets[0],
@@ -47,6 +48,9 @@ final class CursorWeatherViewModel: ObservableObject {
         let city = selectedCity
         let shouldReplaceContent = replacingContent || !hasDisplayedWeather
 
+        let isPullToRefreshStyle = !shouldReplaceContent
+        let refreshStarted = isPullToRefreshStyle ? ContinuousClock.now : nil
+
         if shouldReplaceContent {
             isRefreshing = false
             state = .loading
@@ -58,6 +62,11 @@ final class CursorWeatherViewModel: ObservableObject {
             let current = try await weatherService.fetchWeather(for: city)
             guard !Task.isCancelled else { return }
 
+            if let refreshStarted {
+                try await ensureMinimumRefreshDuration(since: refreshStarted)
+                guard !Task.isCancelled else { return }
+            }
+
             let model = CursorWeatherUIModel(city: city, weather: current)
             isRefreshing = false
             state = .success(model)
@@ -66,6 +75,11 @@ final class CursorWeatherViewModel: ObservableObject {
             return
         } catch {
             guard !Task.isCancelled else { return }
+
+            if let refreshStarted {
+                try? await ensureMinimumRefreshDuration(since: refreshStarted)
+            }
+
             isRefreshing = false
             state = .error(error.localizedDescription)
         }
@@ -74,5 +88,11 @@ final class CursorWeatherViewModel: ObservableObject {
     private var hasDisplayedWeather: Bool {
         if case .success = state { return true }
         return false
+    }
+
+    private func ensureMinimumRefreshDuration(since start: ContinuousClock.Instant) async throws {
+        let elapsed = start.duration(to: .now)
+        guard elapsed < Self.minimumRefreshDuration else { return }
+        try await Task.sleep(for: Self.minimumRefreshDuration - elapsed)
     }
 }

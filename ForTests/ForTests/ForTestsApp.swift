@@ -14,7 +14,7 @@ struct ForTestsApp: App {
             if #available(iOS 26.0, *) {
                 LiquidGlassView()
             } else {
-                WeatherView()
+                CursorWeatherView()
             }
         }
     }

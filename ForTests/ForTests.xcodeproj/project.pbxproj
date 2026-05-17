@@ -43,6 +43,10 @@
 		AC10A6682FBA56A100DF493B /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10A6642FBA56A100DF493B /* WeatherView.swift */; };
 		AC10A6692FBA56A100DF493B /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10A6652FBA56A100DF493B /* WeatherViewModel.swift */; };
 		AC10A66B2FBA57D300DF493B /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC10A66A2FBA57D300DF493B /* WeatherService.swift */; };
+		AC20C0062FBA6001008E9B67 /* CursorWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0022FBA6001008E9B67 /* CursorWeatherModel.swift */; };
+		AC20C0072FBA6001008E9B67 /* CursorWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0032FBA6001008E9B67 /* CursorWeatherView.swift */; };
+		AC20C0082FBA6001008E9B67 /* CursorWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0042FBA6001008E9B67 /* CursorWeatherViewModel.swift */; };
+		AC20C0092FBA6001008E9B67 /* CursorWeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0052FBA6001008E9B67 /* CursorWeatherService.swift */; };
 		AC1DC9142F1E541100B6F1B9 /* SwiftUIViewSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DC9132F1E541100B6F1B9 /* SwiftUIViewSwiftUIView.swift */; };
 		AC1FC1382D88044200C16DCE /* FavoriteBookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FC1372D88044200C16DCE /* FavoriteBookmarkView.swift */; };
 		AC2AA4852DDF26CC004C4E24 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AA4842DDF26CC004C4E24 /* AppTabBarView.swift */; };
@@ -486,6 +490,10 @@
 		AC10A6642FBA56A100DF493B /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		AC10A6652FBA56A100DF493B /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 		AC10A66A2FBA57D300DF493B /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		AC20C0022FBA6001008E9B67 /* CursorWeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherModel.swift; sourceTree = "<group>"; };
+		AC20C0032FBA6001008E9B67 /* CursorWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherView.swift; sourceTree = "<group>"; };
+		AC20C0042FBA6001008E9B67 /* CursorWeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherViewModel.swift; sourceTree = "<group>"; };
+		AC20C0052FBA6001008E9B67 /* CursorWeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherService.swift; sourceTree = "<group>"; };
 		AC1DC9132F1E541100B6F1B9 /* SwiftUIViewSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewSwiftUIView.swift; sourceTree = "<group>"; };
 		AC1FC1372D88044200C16DCE /* FavoriteBookmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBookmarkView.swift; sourceTree = "<group>"; };
 		AC2AA4842DDF26CC004C4E24 /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
@@ -1072,6 +1080,17 @@
 				AC10A6652FBA56A100DF493B /* WeatherViewModel.swift */,
 			);
 			path = Google;
+			sourceTree = "<group>";
+		};
+		AC20C0012FBA6001008E9B67 /* Cursor */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C0052FBA6001008E9B67 /* CursorWeatherService.swift */,
+				AC20C0022FBA6001008E9B67 /* CursorWeatherModel.swift */,
+				AC20C0032FBA6001008E9B67 /* CursorWeatherView.swift */,
+				AC20C0042FBA6001008E9B67 /* CursorWeatherViewModel.swift */,
+			);
+			path = Cursor;
 			sourceTree = "<group>";
 		};
 		AC1DC9122F1E540300B6F1B9 /* New Group */ = {
@@ -1847,6 +1866,7 @@
 		AC9611A12DDB22D900398A1F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AC20C0012FBA6001008E9B67 /* Cursor */,
 				AC10A6662FBA56A100DF493B /* Google */,
 				AC0C8C042F755AC8008E9B67 /* LiquidGlass */,
 				AC0E23812E8D6BAB00CEC1DF /* ForTestViews */,
@@ -3647,6 +3667,10 @@
 				AC10A6672FBA56A100DF493B /* WeatherModel.swift in Sources */,
 				AC10A6682FBA56A100DF493B /* WeatherView.swift in Sources */,
 				AC10A6692FBA56A100DF493B /* WeatherViewModel.swift in Sources */,
+				AC20C0062FBA6001008E9B67 /* CursorWeatherModel.swift in Sources */,
+				AC20C0072FBA6001008E9B67 /* CursorWeatherView.swift in Sources */,
+				AC20C0082FBA6001008E9B67 /* CursorWeatherViewModel.swift in Sources */,
+				AC20C0092FBA6001008E9B67 /* CursorWeatherService.swift in Sources */,
 				ACA131802EA28022006933FF /* Navigation_Searchable_Filter.swift in Sources */,
 				AC7326032E7D47A1008AA41B /* ScrollPositionIDDemo.swift in Sources */,
 				AC70C5DE2D4A500A00718A64 /* BookmarksView.swift in Sources */,

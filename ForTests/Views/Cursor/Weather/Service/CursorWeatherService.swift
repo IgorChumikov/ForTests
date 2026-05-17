@@ -1,29 +1,26 @@
 import Foundation
 
-enum CursorWeatherNetworkError: Error, LocalizedError {
-    case invalidURL
-    case badResponse
-    case decodingError
-
-    var errorDescription: String? {
-        switch self {
-        case .invalidURL: return "Некорректный адрес запроса."
-        case .badResponse: return "Сервер вернул ошибку."
-        case .decodingError: return "Не удалось разобрать ответ."
-        }
-    }
-}
+// MARK: - CursorWeatherServiceProtocol
 
 protocol CursorWeatherServiceProtocol: Sendable {
     func fetchWeather(for city: CursorCity) async throws -> CursorCurrentWeather
 }
 
+// MARK: - CursorWeatherService
+
 final class CursorWeatherService: CursorWeatherServiceProtocol {
+
+    // MARK: - Private Properties
+
     private let session: URLSession
+
+    // MARK: - Initialization
 
     init(session: URLSession = .shared) {
         self.session = session
     }
+
+    // MARK: - CursorWeatherServiceProtocol
 
     func fetchWeather(for city: CursorCity) async throws -> CursorCurrentWeather {
         var components = URLComponents(string: "https://api.open-meteo.com/v1/forecast")

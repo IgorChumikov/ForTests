@@ -1,7 +1,14 @@
 import SwiftUI
 
+// MARK: - CursorWeatherErrorCardView
+
 struct CursorWeatherErrorCardView: View {
+
+    // MARK: - Properties
+
     let message: String
+
+    // MARK: - Body
 
     var body: some View {
         VStack(spacing: 12) {
@@ -23,6 +30,8 @@ struct CursorWeatherErrorCardView: View {
         }
     }
 }
+
+// MARK: - Preview
 
 #Preview {
     CursorWeatherErrorCardView(message: "Нет подключения к интернету")

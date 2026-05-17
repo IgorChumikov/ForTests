@@ -1,21 +1,23 @@
 import Foundation
 
-enum CursorWeatherViewState: Equatable {
-    case idle
-    case loading
-    case success(CursorWeatherUIModel)
-    case error(String)
-}
+// MARK: - CursorWeatherViewModel
 
 @MainActor
 final class CursorWeatherViewModel: ObservableObject {
-    @Published private(set) var state: CursorWeatherViewState = .idle
+
+    // MARK: - Published Properties
+
+    @Published private(set) var state: CursorWeatherViewState = .loading
     @Published private(set) var isRefreshing = false
     @Published var selectedCity: CursorCity
+
+    // MARK: - Private Properties
 
     private let weatherService: CursorWeatherServiceProtocol
     private var fetchTask: Task<Void, Never>?
     private static let minimumRefreshDuration: Duration = .milliseconds(500)
+
+    // MARK: - Initialization
 
     init(
         city: CursorCity = .presets[0],
@@ -24,6 +26,8 @@ final class CursorWeatherViewModel: ObservableObject {
         self.selectedCity = city
         self.weatherService = weatherService
     }
+
+    // MARK: - Public Methods
 
     func selectCity(_ city: CursorCity) {
         guard city != selectedCity else { return }
@@ -41,6 +45,8 @@ final class CursorWeatherViewModel: ObservableObject {
             await fetchWeather(replacingContent: replacingContent)
         }
     }
+
+    // MARK: - Private Methods
 
     func fetchWeather(replacingContent: Bool) async {
         guard !Task.isCancelled else { return }

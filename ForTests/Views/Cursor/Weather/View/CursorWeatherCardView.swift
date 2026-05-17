@@ -1,7 +1,14 @@
 import SwiftUI
 
+// MARK: - CursorWeatherCardView
+
 struct CursorWeatherCardView: View {
+
+    // MARK: - Properties
+
     let model: CursorWeatherUIModel
+
+    // MARK: - Body
 
     var body: some View {
         VStack(spacing: 20) {
@@ -34,6 +41,8 @@ struct CursorWeatherCardView: View {
         }
     }
 
+    // MARK: - Private Views
+
     private func detailItem(icon: String, title: String, value: String) -> some View {
         VStack(spacing: 4) {
             Image(systemName: icon)
@@ -46,6 +55,8 @@ struct CursorWeatherCardView: View {
         .foregroundStyle(CursorWeatherTheme.pinkMuted)
     }
 }
+
+// MARK: - Preview
 
 #Preview {
     CursorWeatherCardView(

@@ -1,7 +1,14 @@
 import SwiftUI
 
+// MARK: - CursorWeatherView
+
 struct CursorWeatherView: View {
+
+    // MARK: - Properties
+
     @StateObject private var viewModel = CursorWeatherViewModel()
+
+    // MARK: - Body
 
     var body: some View {
         ZStack {
@@ -20,16 +27,14 @@ struct CursorWeatherView: View {
         }
         .preferredColorScheme(.dark)
         .task {
-            if viewModel.state == .idle {
-                viewModel.loadWeather(replacingContent: true)
-            }
+            viewModel.loadWeather(replacingContent: true)
         }
         .animation(.easeInOut(duration: 0.35), value: viewModel.state)
         .animation(.easeInOut(duration: 0.25), value: viewModel.selectedCity.id)
     }
 }
 
-// MARK: - Subviews
+// MARK: - Background
 
 private extension CursorWeatherView {
     var skyBackground: some View {
@@ -40,7 +45,11 @@ private extension CursorWeatherView {
         )
         .ignoresSafeArea()
     }
+}
 
+// MARK: - Header
+
+private extension CursorWeatherView {
     var titleSection: some View {
         VStack(spacing: 6) {
             Label("Погода", systemImage: "cloud.sun.fill")
@@ -52,7 +61,11 @@ private extension CursorWeatherView {
                 .foregroundStyle(CursorWeatherTheme.pink)
         }
     }
+}
 
+// MARK: - City Picker
+
+private extension CursorWeatherView {
     var cityPicker: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 10) {
@@ -94,11 +107,15 @@ private extension CursorWeatherView {
         if case .loading = viewModel.state { return true }
         return false
     }
+}
 
+// MARK: - Main Content
+
+private extension CursorWeatherView {
     @ViewBuilder
     var mainContent: some View {
         switch viewModel.state {
-        case .idle, .loading:
+        case .loading:
             ProgressView("Загрузка…")
                 .tint(CursorWeatherTheme.pink)
                 .foregroundStyle(CursorWeatherTheme.pinkSoft)
@@ -130,7 +147,11 @@ private extension CursorWeatherView {
         }
         .transition(.opacity)
     }
+}
 
+// MARK: - Actions
+
+private extension CursorWeatherView {
     var refreshButton: some View {
         Button {
             viewModel.refresh()
@@ -157,6 +178,8 @@ private extension CursorWeatherView {
         .animation(.easeInOut(duration: 0.2), value: viewModel.isRefreshing)
     }
 }
+
+// MARK: - Preview
 
 #Preview {
     CursorWeatherView()

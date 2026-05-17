@@ -39,7 +39,12 @@
 		AC0E23862E8D799900CEC1DF /* CUV_IntendedUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E23852E8D799900CEC1DF /* CUV_IntendedUse.swift */; };
 		AC0E23882E8D7A6800CEC1DF /* CUV_Paging.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E23872E8D7A6800CEC1DF /* CUV_Paging.swift */; };
 		AC103B4C2CABF44400F6030A /* DocumentsListSectionsPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC103B4B2CABF44400F6030A /* DocumentsListSectionsPanelView.swift */; };
-		AC20C0062FBA6001008E9B67 /* CursorWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0022FBA6001008E9B67 /* CursorWeatherModel.swift */; };
+		AC20C01B2FBA6301008E9B67 /* CursorWeatherViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C01C2FBA6301008E9B67 /* CursorWeatherViewState.swift */; };
+		AC20C0212FBA6401008E9B67 /* CursorWeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C01D2FBA6401008E9B67 /* CursorWeatherResponse.swift */; };
+		AC20C0222FBA6401008E9B67 /* CursorCurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C01E2FBA6401008E9B67 /* CursorCurrentWeather.swift */; };
+		AC20C0232FBA6401008E9B67 /* CursorCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C01F2FBA6401008E9B67 /* CursorCity.swift */; };
+		AC20C0242FBA6401008E9B67 /* CursorWeatherUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0202FBA6401008E9B67 /* CursorWeatherUIModel.swift */; };
+		AC20C0252FBA6501008E9B67 /* CursorWeatherNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0262FBA6501008E9B67 /* CursorWeatherNetworkError.swift */; };
 		AC20C0072FBA6001008E9B67 /* CursorWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0032FBA6001008E9B67 /* CursorWeatherView.swift */; };
 		AC20C0082FBA6001008E9B67 /* CursorWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0042FBA6001008E9B67 /* CursorWeatherViewModel.swift */; };
 		AC20C0092FBA6001008E9B67 /* CursorWeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0052FBA6001008E9B67 /* CursorWeatherService.swift */; };
@@ -484,7 +489,12 @@
 		AC0E23852E8D799900CEC1DF /* CUV_IntendedUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUV_IntendedUse.swift; sourceTree = "<group>"; };
 		AC0E23872E8D7A6800CEC1DF /* CUV_Paging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUV_Paging.swift; sourceTree = "<group>"; };
 		AC103B4B2CABF44400F6030A /* DocumentsListSectionsPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsListSectionsPanelView.swift; sourceTree = "<group>"; };
-		AC20C0022FBA6001008E9B67 /* CursorWeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherModel.swift; sourceTree = "<group>"; };
+		AC20C01C2FBA6301008E9B67 /* CursorWeatherViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherViewState.swift; sourceTree = "<group>"; };
+		AC20C01D2FBA6401008E9B67 /* CursorWeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherResponse.swift; sourceTree = "<group>"; };
+		AC20C01E2FBA6401008E9B67 /* CursorCurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorCurrentWeather.swift; sourceTree = "<group>"; };
+		AC20C01F2FBA6401008E9B67 /* CursorCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorCity.swift; sourceTree = "<group>"; };
+		AC20C0202FBA6401008E9B67 /* CursorWeatherUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherUIModel.swift; sourceTree = "<group>"; };
+		AC20C0262FBA6501008E9B67 /* CursorWeatherNetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherNetworkError.swift; sourceTree = "<group>"; };
 		AC20C0032FBA6001008E9B67 /* CursorWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherView.swift; sourceTree = "<group>"; };
 		AC20C0042FBA6001008E9B67 /* CursorWeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherViewModel.swift; sourceTree = "<group>"; };
 		AC20C0052FBA6001008E9B67 /* CursorWeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherService.swift; sourceTree = "<group>"; };
@@ -1089,9 +1099,46 @@
 		AC20C0112FBA6101008E9B67 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				AC20C0022FBA6001008E9B67 /* CursorWeatherModel.swift */,
+				AC20C0272FBA6601008E9B67 /* API */,
+				AC20C0282FBA6601008E9B67 /* Domain */,
+				AC20C0292FBA6601008E9B67 /* State */,
+				AC20C02A2FBA6601008E9B67 /* Error */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		AC20C0272FBA6601008E9B67 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C01D2FBA6401008E9B67 /* CursorWeatherResponse.swift */,
+				AC20C01E2FBA6401008E9B67 /* CursorCurrentWeather.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		AC20C0282FBA6601008E9B67 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C01F2FBA6401008E9B67 /* CursorCity.swift */,
+				AC20C0202FBA6401008E9B67 /* CursorWeatherUIModel.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		AC20C0292FBA6601008E9B67 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C01C2FBA6301008E9B67 /* CursorWeatherViewState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		AC20C02A2FBA6601008E9B67 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C0262FBA6501008E9B67 /* CursorWeatherNetworkError.swift */,
+			);
+			path = Error;
 			sourceTree = "<group>";
 		};
 		AC20C0122FBA6101008E9B67 /* Service */ = {
@@ -3688,7 +3735,12 @@
 				ACEDF8352F7FE62C0060AB5F /* Image_Resizing.swift in Sources */,
 				ACCECFCB2D00AE7C00C9AB91 /* IpadTest2SwiftUIView.swift in Sources */,
 				ACDB1FD02DD61DD900A8EC52 /* Color+Extension.swift in Sources */,
-				AC20C0062FBA6001008E9B67 /* CursorWeatherModel.swift in Sources */,
+				AC20C0212FBA6401008E9B67 /* CursorWeatherResponse.swift in Sources */,
+				AC20C0222FBA6401008E9B67 /* CursorCurrentWeather.swift in Sources */,
+				AC20C0232FBA6401008E9B67 /* CursorCity.swift in Sources */,
+				AC20C0242FBA6401008E9B67 /* CursorWeatherUIModel.swift in Sources */,
+				AC20C0252FBA6501008E9B67 /* CursorWeatherNetworkError.swift in Sources */,
+				AC20C01B2FBA6301008E9B67 /* CursorWeatherViewState.swift in Sources */,
 				AC20C0072FBA6001008E9B67 /* CursorWeatherView.swift in Sources */,
 				AC20C0152FBA6201008E9B67 /* CursorWeatherCardView.swift in Sources */,
 				AC20C0162FBA6201008E9B67 /* CursorWeatherErrorCardView.swift in Sources */,

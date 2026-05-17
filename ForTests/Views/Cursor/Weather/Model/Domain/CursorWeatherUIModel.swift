@@ -1,44 +1,23 @@
 import Foundation
 
-// MARK: - API
+// MARK: - CursorWeatherUIModel
 
-struct CursorWeatherResponse: Decodable {
-    let currentWeather: CursorCurrentWeather
-
-    enum CodingKeys: String, CodingKey {
-        case currentWeather = "current_weather"
-    }
-}
-
-struct CursorCurrentWeather: Decodable {
-    let temperature: Double
-    let windspeed: Double
-    let weathercode: Int
-}
-
-// MARK: - Domain
-
-struct CursorCity: Identifiable, Equatable, Sendable {
-    let id: String
-    let name: String
-    let latitude: Double
-    let longitude: Double
-
-    static let presets: [CursorCity] = [
-        CursorCity(id: "moscow", name: "Москва", latitude: 55.7512, longitude: 37.6184),
-        CursorCity(id: "spb", name: "Санкт-Петербург", latitude: 59.9343, longitude: 30.3351),
-        CursorCity(id: "kazan", name: "Казань", latitude: 55.7887, longitude: 49.1221),
-        CursorCity(id: "sochi", name: "Сочи", latitude: 43.6028, longitude: 39.7342)
-    ]
-}
-
+/// Модель погоды, подготовленная для отображения в SwiftUI.
 struct CursorWeatherUIModel: Equatable {
+    /// Название выбранного города.
     let cityName: String
+    /// Температура с символом градуса.
     let temperature: String
+    /// Скорость ветра с единицей измерения.
     let windSpeed: String
+    /// Краткое описание погоды на русском.
     let conditionDescription: String
+    /// Имя SF Symbol для иконки состояния.
     let systemIconName: String
 
+    // MARK: - Initialization
+
+    /// Собирает UI-модель из доменного города и ответа API.
     init(city: CursorCity, weather: CursorCurrentWeather) {
         cityName = city.name
         temperature = "\(Int(weather.temperature.rounded()))°"

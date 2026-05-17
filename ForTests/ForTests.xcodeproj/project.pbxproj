@@ -51,6 +51,19 @@
 		AC20C0152FBA6201008E9B67 /* CursorWeatherCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0182FBA6201008E9B67 /* CursorWeatherCardView.swift */; };
 		AC20C0162FBA6201008E9B67 /* CursorWeatherErrorCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0192FBA6201008E9B67 /* CursorWeatherErrorCardView.swift */; };
 		AC20C0172FBA6201008E9B67 /* CursorWeatherTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C01A2FBA6201008E9B67 /* CursorWeatherTheme.swift */; };
+		AC20C0502FBA6701008E9B67 /* CursorExpenseCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0402FBA6701008E9B67 /* CursorExpenseCategory.swift */; };
+		AC20C0512FBA6701008E9B67 /* CursorExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0412FBA6701008E9B67 /* CursorExpense.swift */; };
+		AC20C0522FBA6701008E9B67 /* CursorExpenseRowUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0422FBA6701008E9B67 /* CursorExpenseRowUIModel.swift */; };
+		AC20C0532FBA6701008E9B67 /* CursorExpensesSummaryUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0432FBA6701008E9B67 /* CursorExpensesSummaryUIModel.swift */; };
+		AC20C0542FBA6701008E9B67 /* CursorExpensesViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0442FBA6701008E9B67 /* CursorExpensesViewState.swift */; };
+		AC20C0552FBA6701008E9B67 /* CursorExpensesStorageError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0452FBA6701008E9B67 /* CursorExpensesStorageError.swift */; };
+		AC20C0562FBA6701008E9B67 /* CursorExpensesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0462FBA6701008E9B67 /* CursorExpensesService.swift */; };
+		AC20C0572FBA6701008E9B67 /* CursorExpensesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0472FBA6701008E9B67 /* CursorExpensesViewModel.swift */; };
+		AC20C0582FBA6701008E9B67 /* CursorExpensesTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0482FBA6701008E9B67 /* CursorExpensesTheme.swift */; };
+		AC20C0592FBA6701008E9B67 /* CursorExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0492FBA6701008E9B67 /* CursorExpensesView.swift */; };
+		AC20C05A2FBA6701008E9B67 /* CursorExpensesSummaryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C04A2FBA6701008E9B67 /* CursorExpensesSummaryCardView.swift */; };
+		AC20C05B2FBA6701008E9B67 /* CursorExpenseRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C04B2FBA6701008E9B67 /* CursorExpenseRowView.swift */; };
+		AC20C05C2FBA6701008E9B67 /* CursorExpensesEmptyCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C04C2FBA6701008E9B67 /* CursorExpensesEmptyCardView.swift */; };
 		AC1DC9142F1E541100B6F1B9 /* SwiftUIViewSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DC9132F1E541100B6F1B9 /* SwiftUIViewSwiftUIView.swift */; };
 		AC1FC1382D88044200C16DCE /* FavoriteBookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FC1372D88044200C16DCE /* FavoriteBookmarkView.swift */; };
 		AC2AA4852DDF26CC004C4E24 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AA4842DDF26CC004C4E24 /* AppTabBarView.swift */; };
@@ -501,6 +514,19 @@
 		AC20C0182FBA6201008E9B67 /* CursorWeatherCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherCardView.swift; sourceTree = "<group>"; };
 		AC20C0192FBA6201008E9B67 /* CursorWeatherErrorCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherErrorCardView.swift; sourceTree = "<group>"; };
 		AC20C01A2FBA6201008E9B67 /* CursorWeatherTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherTheme.swift; sourceTree = "<group>"; };
+		AC20C0402FBA6701008E9B67 /* CursorExpenseCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorExpenseCategory.swift; sourceTree = "<group>"; };
+		AC20C0412FBA6701008E9B67 /* CursorExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorExpense.swift; sourceTree = "<group>"; };
+		AC20C0422FBA6701008E9B67 /* CursorExpenseRowUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorExpenseRowUIModel.swift; sourceTree = "<group>"; };
+		AC20C0432FBA6701008E9B67 /* CursorExpensesSummaryUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorExpensesSummaryUIModel.swift; sourceTree = "<group>"; };
+		AC20C0442FBA6701008E9B67 /* CursorExpensesViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorExpensesViewState.swift; sourceTree = "<group>"; };
+		AC20C0452FBA6701008E9B67 /* CursorExpensesStorageError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorExpensesStorageError.swift; sourceTree = "<group>"; };
+		AC20C0462FBA6701008E9B67 /* CursorExpensesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorExpensesService.swift; sourceTree = "<group>"; };
+		AC20C0472FBA6701008E9B67 /* CursorExpensesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorExpensesViewModel.swift; sourceTree = "<group>"; };
+		AC20C0482FBA6701008E9B67 /* CursorExpensesTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorExpensesTheme.swift; sourceTree = "<group>"; };
+		AC20C0492FBA6701008E9B67 /* CursorExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorExpensesView.swift; sourceTree = "<group>"; };
+		AC20C04A2FBA6701008E9B67 /* CursorExpensesSummaryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorExpensesSummaryCardView.swift; sourceTree = "<group>"; };
+		AC20C04B2FBA6701008E9B67 /* CursorExpenseRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorExpenseRowView.swift; sourceTree = "<group>"; };
+		AC20C04C2FBA6701008E9B67 /* CursorExpensesEmptyCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorExpensesEmptyCardView.swift; sourceTree = "<group>"; };
 		AC1DC9132F1E541100B6F1B9 /* SwiftUIViewSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewSwiftUIView.swift; sourceTree = "<group>"; };
 		AC1FC1372D88044200C16DCE /* FavoriteBookmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBookmarkView.swift; sourceTree = "<group>"; };
 		AC2AA4842DDF26CC004C4E24 /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
@@ -1081,8 +1107,85 @@
 			isa = PBXGroup;
 			children = (
 				AC20C0102FBA6101008E9B67 /* Weather */,
+				AC20C0302FBA6701008E9B67 /* Expenses */,
 			);
 			path = Cursor;
+			sourceTree = "<group>";
+		};
+		AC20C0302FBA6701008E9B67 /* Expenses */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C0312FBA6701008E9B67 /* Model */,
+				AC20C0352FBA6701008E9B67 /* Service */,
+				AC20C0362FBA6701008E9B67 /* ViewModel */,
+				AC20C0372FBA6701008E9B67 /* View */,
+			);
+			path = Expenses;
+			sourceTree = "<group>";
+		};
+		AC20C0312FBA6701008E9B67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C0322FBA6701008E9B67 /* Domain */,
+				AC20C0332FBA6701008E9B67 /* State */,
+				AC20C0342FBA6701008E9B67 /* Error */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC20C0322FBA6701008E9B67 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C0402FBA6701008E9B67 /* CursorExpenseCategory.swift */,
+				AC20C0412FBA6701008E9B67 /* CursorExpense.swift */,
+				AC20C0422FBA6701008E9B67 /* CursorExpenseRowUIModel.swift */,
+				AC20C0432FBA6701008E9B67 /* CursorExpensesSummaryUIModel.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		AC20C0332FBA6701008E9B67 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C0442FBA6701008E9B67 /* CursorExpensesViewState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		AC20C0342FBA6701008E9B67 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C0452FBA6701008E9B67 /* CursorExpensesStorageError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		AC20C0352FBA6701008E9B67 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C0462FBA6701008E9B67 /* CursorExpensesService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		AC20C0362FBA6701008E9B67 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C0472FBA6701008E9B67 /* CursorExpensesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AC20C0372FBA6701008E9B67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C0492FBA6701008E9B67 /* CursorExpensesView.swift */,
+				AC20C04A2FBA6701008E9B67 /* CursorExpensesSummaryCardView.swift */,
+				AC20C04B2FBA6701008E9B67 /* CursorExpenseRowView.swift */,
+				AC20C04C2FBA6701008E9B67 /* CursorExpensesEmptyCardView.swift */,
+				AC20C0482FBA6701008E9B67 /* CursorExpensesTheme.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		AC20C0102FBA6101008E9B67 /* Weather */ = {
@@ -3747,6 +3850,19 @@
 				AC20C0172FBA6201008E9B67 /* CursorWeatherTheme.swift in Sources */,
 				AC20C0082FBA6001008E9B67 /* CursorWeatherViewModel.swift in Sources */,
 				AC20C0092FBA6001008E9B67 /* CursorWeatherService.swift in Sources */,
+				AC20C0502FBA6701008E9B67 /* CursorExpenseCategory.swift in Sources */,
+				AC20C0512FBA6701008E9B67 /* CursorExpense.swift in Sources */,
+				AC20C0522FBA6701008E9B67 /* CursorExpenseRowUIModel.swift in Sources */,
+				AC20C0532FBA6701008E9B67 /* CursorExpensesSummaryUIModel.swift in Sources */,
+				AC20C0542FBA6701008E9B67 /* CursorExpensesViewState.swift in Sources */,
+				AC20C0552FBA6701008E9B67 /* CursorExpensesStorageError.swift in Sources */,
+				AC20C0562FBA6701008E9B67 /* CursorExpensesService.swift in Sources */,
+				AC20C0572FBA6701008E9B67 /* CursorExpensesViewModel.swift in Sources */,
+				AC20C0582FBA6701008E9B67 /* CursorExpensesTheme.swift in Sources */,
+				AC20C0592FBA6701008E9B67 /* CursorExpensesView.swift in Sources */,
+				AC20C05A2FBA6701008E9B67 /* CursorExpensesSummaryCardView.swift in Sources */,
+				AC20C05B2FBA6701008E9B67 /* CursorExpenseRowView.swift in Sources */,
+				AC20C05C2FBA6701008E9B67 /* CursorExpensesEmptyCardView.swift in Sources */,
 				ACA131802EA28022006933FF /* Navigation_Searchable_Filter.swift in Sources */,
 				AC7326032E7D47A1008AA41B /* ScrollPositionIDDemo.swift in Sources */,
 				AC70C5DE2D4A500A00718A64 /* BookmarksView.swift in Sources */,

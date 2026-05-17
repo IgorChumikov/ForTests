@@ -14,7 +14,17 @@ struct ForTestsApp: App {
             if #available(iOS 26.0, *) {
                 LiquidGlassView()
             } else {
-                CursorWeatherView()
+                TabView {
+                    CursorWeatherView()
+                        .tabItem {
+                            Label("Погода", systemImage: "cloud.sun.fill")
+                        }
+
+                    CursorExpensesView()
+                        .tabItem {
+                            Label("Расходы", systemImage: "rublesign.circle.fill")
+                        }
+                }
             }
         }
     }

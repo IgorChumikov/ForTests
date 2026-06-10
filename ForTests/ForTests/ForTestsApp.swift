@@ -11,8 +11,10 @@ import SwiftUI
 struct ForTestsApp: App {
     var body: some Scene {
         WindowGroup {
+
             if #available(iOS 26.0, *) {
                 LiquidGlassView()
+
             } else {
                 TabView {
                     CursorWeatherView()

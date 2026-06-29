@@ -25,7 +25,7 @@ struct AnnotationCustomViewExample: View {
         }
         .chartForegroundStyleScale(domain: Workout.workouts.compactMap({ workout in
             workout.day
-        }), range: Constants.markColors)
+        }), range: ChartIntroConstants.markColors)
         .frame(height: 400)
         .padding()
     }
@@ -42,11 +42,11 @@ struct AnnotationView: View {
             Image(systemName: "figure.stand")
         }
         .font(.caption2)
-        .foregroundStyle(Constants.markColors[idx])
+        .foregroundStyle(ChartIntroConstants.markColors[idx])
     }
 }
 
-struct Constants {
+struct ChartIntroConstants {
     static let markColors: [LinearGradient] = [
         LinearGradient(colors: [.pink, .green], startPoint: .bottom, endPoint: .top),
                 LinearGradient(colors: [.blue, .green], startPoint: .bottom, endPoint: .top),

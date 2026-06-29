@@ -37,6 +37,6 @@ struct SwiftUIinPractice: View {
 
 #Preview {
     RouterView { _ in
-        ContentView()
+        SwiftUIinPractice()
     }
 }

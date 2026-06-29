@@ -39,18 +39,20 @@
 		AC0E23862E8D799900CEC1DF /* CUV_IntendedUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E23852E8D799900CEC1DF /* CUV_IntendedUse.swift */; };
 		AC0E23882E8D7A6800CEC1DF /* CUV_Paging.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0E23872E8D7A6800CEC1DF /* CUV_Paging.swift */; };
 		AC103B4C2CABF44400F6030A /* DocumentsListSectionsPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC103B4B2CABF44400F6030A /* DocumentsListSectionsPanelView.swift */; };
-		AC20C01B2FBA6301008E9B67 /* CursorWeatherViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C01C2FBA6301008E9B67 /* CursorWeatherViewState.swift */; };
-		AC20C0212FBA6401008E9B67 /* CursorWeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C01D2FBA6401008E9B67 /* CursorWeatherResponse.swift */; };
-		AC20C0222FBA6401008E9B67 /* CursorCurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C01E2FBA6401008E9B67 /* CursorCurrentWeather.swift */; };
-		AC20C0232FBA6401008E9B67 /* CursorCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C01F2FBA6401008E9B67 /* CursorCity.swift */; };
-		AC20C0242FBA6401008E9B67 /* CursorWeatherUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0202FBA6401008E9B67 /* CursorWeatherUIModel.swift */; };
-		AC20C0252FBA6501008E9B67 /* CursorWeatherNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0262FBA6501008E9B67 /* CursorWeatherNetworkError.swift */; };
+		AC1DC9142F1E541100B6F1B9 /* SwiftUIViewSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DC9132F1E541100B6F1B9 /* SwiftUIViewSwiftUIView.swift */; };
+		AC1FC1382D88044200C16DCE /* FavoriteBookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FC1372D88044200C16DCE /* FavoriteBookmarkView.swift */; };
 		AC20C0072FBA6001008E9B67 /* CursorWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0032FBA6001008E9B67 /* CursorWeatherView.swift */; };
 		AC20C0082FBA6001008E9B67 /* CursorWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0042FBA6001008E9B67 /* CursorWeatherViewModel.swift */; };
 		AC20C0092FBA6001008E9B67 /* CursorWeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0052FBA6001008E9B67 /* CursorWeatherService.swift */; };
 		AC20C0152FBA6201008E9B67 /* CursorWeatherCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0182FBA6201008E9B67 /* CursorWeatherCardView.swift */; };
 		AC20C0162FBA6201008E9B67 /* CursorWeatherErrorCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0192FBA6201008E9B67 /* CursorWeatherErrorCardView.swift */; };
 		AC20C0172FBA6201008E9B67 /* CursorWeatherTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C01A2FBA6201008E9B67 /* CursorWeatherTheme.swift */; };
+		AC20C01B2FBA6301008E9B67 /* CursorWeatherViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C01C2FBA6301008E9B67 /* CursorWeatherViewState.swift */; };
+		AC20C0212FBA6401008E9B67 /* CursorWeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C01D2FBA6401008E9B67 /* CursorWeatherResponse.swift */; };
+		AC20C0222FBA6401008E9B67 /* CursorCurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C01E2FBA6401008E9B67 /* CursorCurrentWeather.swift */; };
+		AC20C0232FBA6401008E9B67 /* CursorCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C01F2FBA6401008E9B67 /* CursorCity.swift */; };
+		AC20C0242FBA6401008E9B67 /* CursorWeatherUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0202FBA6401008E9B67 /* CursorWeatherUIModel.swift */; };
+		AC20C0252FBA6501008E9B67 /* CursorWeatherNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0262FBA6501008E9B67 /* CursorWeatherNetworkError.swift */; };
 		AC20C0502FBA6701008E9B67 /* CursorExpenseCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0402FBA6701008E9B67 /* CursorExpenseCategory.swift */; };
 		AC20C0512FBA6701008E9B67 /* CursorExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0412FBA6701008E9B67 /* CursorExpense.swift */; };
 		AC20C0522FBA6701008E9B67 /* CursorExpenseRowUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C0422FBA6701008E9B67 /* CursorExpenseRowUIModel.swift */; };
@@ -64,8 +66,6 @@
 		AC20C05A2FBA6701008E9B67 /* CursorExpensesSummaryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C04A2FBA6701008E9B67 /* CursorExpensesSummaryCardView.swift */; };
 		AC20C05B2FBA6701008E9B67 /* CursorExpenseRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C04B2FBA6701008E9B67 /* CursorExpenseRowView.swift */; };
 		AC20C05C2FBA6701008E9B67 /* CursorExpensesEmptyCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20C04C2FBA6701008E9B67 /* CursorExpensesEmptyCardView.swift */; };
-		AC1DC9142F1E541100B6F1B9 /* SwiftUIViewSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DC9132F1E541100B6F1B9 /* SwiftUIViewSwiftUIView.swift */; };
-		AC1FC1382D88044200C16DCE /* FavoriteBookmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FC1372D88044200C16DCE /* FavoriteBookmarkView.swift */; };
 		AC2AA4852DDF26CC004C4E24 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AA4842DDF26CC004C4E24 /* AppTabBarView.swift */; };
 		AC2AA4872DDF26DB004C4E24 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AA4862DDF26DB004C4E24 /* CustomTabBarView.swift */; };
 		AC2AA4892DDF26EA004C4E24 /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AA4882DDF26EA004C4E24 /* CustomTabBarContainerView.swift */; };
@@ -405,7 +405,6 @@
 		ACDEFE152BEB7F41006E0CD1 /* UserAuthorizationBM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE142BEB7F41006E0CD1 /* UserAuthorizationBM.swift */; };
 		ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE162BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift */; };
 		ACDEFE192BEB7F76006E0CD1 /* View+HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDEFE182BEB7F76006E0CD1 /* View+HideKeyboard.swift */; };
-		ACDFC46F2F9F674600F5A43F /* YourFirstConversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDFC46E2F9F674600F5A43F /* YourFirstConversation.swift */; };
 		ACDFF39F2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDFF39E2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift */; };
 		ACDFF3A32B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDFF3A22B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift */; };
 		ACE0E1A12F83C09000B6F81A /* Path_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0E1A02F83C09000B6F81A /* Path_Intro.swift */; };
@@ -502,18 +501,20 @@
 		AC0E23852E8D799900CEC1DF /* CUV_IntendedUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUV_IntendedUse.swift; sourceTree = "<group>"; };
 		AC0E23872E8D7A6800CEC1DF /* CUV_Paging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUV_Paging.swift; sourceTree = "<group>"; };
 		AC103B4B2CABF44400F6030A /* DocumentsListSectionsPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsListSectionsPanelView.swift; sourceTree = "<group>"; };
-		AC20C01C2FBA6301008E9B67 /* CursorWeatherViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherViewState.swift; sourceTree = "<group>"; };
-		AC20C01D2FBA6401008E9B67 /* CursorWeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherResponse.swift; sourceTree = "<group>"; };
-		AC20C01E2FBA6401008E9B67 /* CursorCurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorCurrentWeather.swift; sourceTree = "<group>"; };
-		AC20C01F2FBA6401008E9B67 /* CursorCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorCity.swift; sourceTree = "<group>"; };
-		AC20C0202FBA6401008E9B67 /* CursorWeatherUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherUIModel.swift; sourceTree = "<group>"; };
-		AC20C0262FBA6501008E9B67 /* CursorWeatherNetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherNetworkError.swift; sourceTree = "<group>"; };
+		AC1DC9132F1E541100B6F1B9 /* SwiftUIViewSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewSwiftUIView.swift; sourceTree = "<group>"; };
+		AC1FC1372D88044200C16DCE /* FavoriteBookmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBookmarkView.swift; sourceTree = "<group>"; };
 		AC20C0032FBA6001008E9B67 /* CursorWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherView.swift; sourceTree = "<group>"; };
 		AC20C0042FBA6001008E9B67 /* CursorWeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherViewModel.swift; sourceTree = "<group>"; };
 		AC20C0052FBA6001008E9B67 /* CursorWeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherService.swift; sourceTree = "<group>"; };
 		AC20C0182FBA6201008E9B67 /* CursorWeatherCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherCardView.swift; sourceTree = "<group>"; };
 		AC20C0192FBA6201008E9B67 /* CursorWeatherErrorCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherErrorCardView.swift; sourceTree = "<group>"; };
 		AC20C01A2FBA6201008E9B67 /* CursorWeatherTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherTheme.swift; sourceTree = "<group>"; };
+		AC20C01C2FBA6301008E9B67 /* CursorWeatherViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherViewState.swift; sourceTree = "<group>"; };
+		AC20C01D2FBA6401008E9B67 /* CursorWeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherResponse.swift; sourceTree = "<group>"; };
+		AC20C01E2FBA6401008E9B67 /* CursorCurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorCurrentWeather.swift; sourceTree = "<group>"; };
+		AC20C01F2FBA6401008E9B67 /* CursorCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorCity.swift; sourceTree = "<group>"; };
+		AC20C0202FBA6401008E9B67 /* CursorWeatherUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherUIModel.swift; sourceTree = "<group>"; };
+		AC20C0262FBA6501008E9B67 /* CursorWeatherNetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorWeatherNetworkError.swift; sourceTree = "<group>"; };
 		AC20C0402FBA6701008E9B67 /* CursorExpenseCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorExpenseCategory.swift; sourceTree = "<group>"; };
 		AC20C0412FBA6701008E9B67 /* CursorExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorExpense.swift; sourceTree = "<group>"; };
 		AC20C0422FBA6701008E9B67 /* CursorExpenseRowUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorExpenseRowUIModel.swift; sourceTree = "<group>"; };
@@ -527,8 +528,6 @@
 		AC20C04A2FBA6701008E9B67 /* CursorExpensesSummaryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorExpensesSummaryCardView.swift; sourceTree = "<group>"; };
 		AC20C04B2FBA6701008E9B67 /* CursorExpenseRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorExpenseRowView.swift; sourceTree = "<group>"; };
 		AC20C04C2FBA6701008E9B67 /* CursorExpensesEmptyCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorExpensesEmptyCardView.swift; sourceTree = "<group>"; };
-		AC1DC9132F1E541100B6F1B9 /* SwiftUIViewSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewSwiftUIView.swift; sourceTree = "<group>"; };
-		AC1FC1372D88044200C16DCE /* FavoriteBookmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBookmarkView.swift; sourceTree = "<group>"; };
 		AC2AA4842DDF26CC004C4E24 /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
 		AC2AA4862DDF26DB004C4E24 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		AC2AA4882DDF26EA004C4E24 /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
@@ -869,7 +868,6 @@
 		ACDEFE142BEB7F41006E0CD1 /* UserAuthorizationBM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationBM.swift; sourceTree = "<group>"; };
 		ACDEFE162BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthorizationFieldType.swift; sourceTree = "<group>"; };
 		ACDEFE182BEB7F76006E0CD1 /* View+HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+HideKeyboard.swift"; sourceTree = "<group>"; };
-		ACDFC46E2F9F674600F5A43F /* YourFirstConversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourFirstConversation.swift; sourceTree = "<group>"; };
 		ACDFF39E2B570F8F000A6AAA /* StackoverflowSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackoverflowSwiftUIView.swift; sourceTree = "<group>"; };
 		ACDFF3A22B5712C0000A6AAA /* StackoverflowSwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackoverflowSwiftUIView2.swift; sourceTree = "<group>"; };
 		ACE0E1A02F83C09000B6F81A /* Path_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Path_Intro.swift; sourceTree = "<group>"; };
@@ -1053,7 +1051,6 @@
 			isa = PBXGroup;
 			children = (
 				AC0E23712E8D621200CEC1DF /* 2 SwiftUI Views Mastery  */,
-				ACDFC46D2F9F666700F5A43F /* 10 AI Mastery in SwiftUI iOS 26 */,
 			);
 			path = Books;
 			sourceTree = "<group>";
@@ -1103,6 +1100,33 @@
 			path = ContentUnavailableView;
 			sourceTree = "<group>";
 		};
+		AC1DC9122F1E540300B6F1B9 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				AC1DC9132F1E541100B6F1B9 /* SwiftUIViewSwiftUIView.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		AC1FC1352D88040A00C16DCE /* New Group 2 */ = {
+			isa = PBXGroup;
+			children = (
+				AC93679C2D76DA8700FB42BD /* FavoritesDocUnderControlAnnotationView.swift */,
+				AC67B5ED2D7B344F002170AB /* ZebraStripeRenderer.swift */,
+				AC411FC92D7F3BA4009AFD7A /* ChannelListView.swift */,
+			);
+			path = "New Group 2";
+			sourceTree = "<group>";
+		};
+		AC1FC1362D88041500C16DCE /* New Group 3 */ = {
+			isa = PBXGroup;
+			children = (
+				AC1FC1372D88044200C16DCE /* FavoriteBookmarkView.swift */,
+				AC6BC5FF2D8C11FC000DF3AB /* FavoriteKiller.swift */,
+			);
+			path = "New Group 3";
+			sourceTree = "<group>";
+		};
 		AC20C0012FBA6001008E9B67 /* Cursor */ = {
 			isa = PBXGroup;
 			children = (
@@ -1110,6 +1134,89 @@
 				AC20C0302FBA6701008E9B67 /* Expenses */,
 			);
 			path = Cursor;
+			sourceTree = "<group>";
+		};
+		AC20C0102FBA6101008E9B67 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C0112FBA6101008E9B67 /* Model */,
+				AC20C0122FBA6101008E9B67 /* Service */,
+				AC20C0132FBA6101008E9B67 /* ViewModel */,
+				AC20C0142FBA6101008E9B67 /* View */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		AC20C0112FBA6101008E9B67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C0272FBA6601008E9B67 /* API */,
+				AC20C0282FBA6601008E9B67 /* Domain */,
+				AC20C0292FBA6601008E9B67 /* State */,
+				AC20C02A2FBA6601008E9B67 /* Error */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC20C0122FBA6101008E9B67 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C0052FBA6001008E9B67 /* CursorWeatherService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		AC20C0132FBA6101008E9B67 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C0042FBA6001008E9B67 /* CursorWeatherViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AC20C0142FBA6101008E9B67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C0032FBA6001008E9B67 /* CursorWeatherView.swift */,
+				AC20C0182FBA6201008E9B67 /* CursorWeatherCardView.swift */,
+				AC20C0192FBA6201008E9B67 /* CursorWeatherErrorCardView.swift */,
+				AC20C01A2FBA6201008E9B67 /* CursorWeatherTheme.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC20C0272FBA6601008E9B67 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C01D2FBA6401008E9B67 /* CursorWeatherResponse.swift */,
+				AC20C01E2FBA6401008E9B67 /* CursorCurrentWeather.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		AC20C0282FBA6601008E9B67 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C01F2FBA6401008E9B67 /* CursorCity.swift */,
+				AC20C0202FBA6401008E9B67 /* CursorWeatherUIModel.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		AC20C0292FBA6601008E9B67 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C01C2FBA6301008E9B67 /* CursorWeatherViewState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		AC20C02A2FBA6601008E9B67 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				AC20C0262FBA6501008E9B67 /* CursorWeatherNetworkError.swift */,
+			);
+			path = Error;
 			sourceTree = "<group>";
 		};
 		AC20C0302FBA6701008E9B67 /* Expenses */ = {
@@ -1186,116 +1293,6 @@
 				AC20C0482FBA6701008E9B67 /* CursorExpensesTheme.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		AC20C0102FBA6101008E9B67 /* Weather */ = {
-			isa = PBXGroup;
-			children = (
-				AC20C0112FBA6101008E9B67 /* Model */,
-				AC20C0122FBA6101008E9B67 /* Service */,
-				AC20C0132FBA6101008E9B67 /* ViewModel */,
-				AC20C0142FBA6101008E9B67 /* View */,
-			);
-			path = Weather;
-			sourceTree = "<group>";
-		};
-		AC20C0112FBA6101008E9B67 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				AC20C0272FBA6601008E9B67 /* API */,
-				AC20C0282FBA6601008E9B67 /* Domain */,
-				AC20C0292FBA6601008E9B67 /* State */,
-				AC20C02A2FBA6601008E9B67 /* Error */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		AC20C0272FBA6601008E9B67 /* API */ = {
-			isa = PBXGroup;
-			children = (
-				AC20C01D2FBA6401008E9B67 /* CursorWeatherResponse.swift */,
-				AC20C01E2FBA6401008E9B67 /* CursorCurrentWeather.swift */,
-			);
-			path = API;
-			sourceTree = "<group>";
-		};
-		AC20C0282FBA6601008E9B67 /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				AC20C01F2FBA6401008E9B67 /* CursorCity.swift */,
-				AC20C0202FBA6401008E9B67 /* CursorWeatherUIModel.swift */,
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
-		AC20C0292FBA6601008E9B67 /* State */ = {
-			isa = PBXGroup;
-			children = (
-				AC20C01C2FBA6301008E9B67 /* CursorWeatherViewState.swift */,
-			);
-			path = State;
-			sourceTree = "<group>";
-		};
-		AC20C02A2FBA6601008E9B67 /* Error */ = {
-			isa = PBXGroup;
-			children = (
-				AC20C0262FBA6501008E9B67 /* CursorWeatherNetworkError.swift */,
-			);
-			path = Error;
-			sourceTree = "<group>";
-		};
-		AC20C0122FBA6101008E9B67 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				AC20C0052FBA6001008E9B67 /* CursorWeatherService.swift */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		AC20C0132FBA6101008E9B67 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				AC20C0042FBA6001008E9B67 /* CursorWeatherViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		AC20C0142FBA6101008E9B67 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				AC20C0032FBA6001008E9B67 /* CursorWeatherView.swift */,
-				AC20C0182FBA6201008E9B67 /* CursorWeatherCardView.swift */,
-				AC20C0192FBA6201008E9B67 /* CursorWeatherErrorCardView.swift */,
-				AC20C01A2FBA6201008E9B67 /* CursorWeatherTheme.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		AC1DC9122F1E540300B6F1B9 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-				AC1DC9132F1E541100B6F1B9 /* SwiftUIViewSwiftUIView.swift */,
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
-		AC1FC1352D88040A00C16DCE /* New Group 2 */ = {
-			isa = PBXGroup;
-			children = (
-				AC93679C2D76DA8700FB42BD /* FavoritesDocUnderControlAnnotationView.swift */,
-				AC67B5ED2D7B344F002170AB /* ZebraStripeRenderer.swift */,
-				AC411FC92D7F3BA4009AFD7A /* ChannelListView.swift */,
-			);
-			path = "New Group 2";
-			sourceTree = "<group>";
-		};
-		AC1FC1362D88041500C16DCE /* New Group 3 */ = {
-			isa = PBXGroup;
-			children = (
-				AC1FC1372D88044200C16DCE /* FavoriteBookmarkView.swift */,
-				AC6BC5FF2D8C11FC000DF3AB /* FavoriteKiller.swift */,
-			);
-			path = "New Group 3";
 			sourceTree = "<group>";
 		};
 		AC2AA4762DDF1D9E004C4E24 /* TabBar */ = {
@@ -3057,14 +3054,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		ACDFC46D2F9F666700F5A43F /* 10 AI Mastery in SwiftUI iOS 26 */ = {
-			isa = PBXGroup;
-			children = (
-				ACDFC46E2F9F674600F5A43F /* YourFirstConversation.swift */,
-			);
-			path = "10 AI Mastery in SwiftUI iOS 26";
-			sourceTree = "<group>";
-		};
 		ACDFF39B2B570F08000A6AAA /* Work */ = {
 			isa = PBXGroup;
 			children = (
@@ -3820,7 +3809,6 @@
 				ACA1310F2EA24103006933FF /* Navigation_DisplayMode.swift in Sources */,
 				AC8548C72EC0DE450055FCB6 /* TabView_Customizations.swift in Sources */,
 				ACA131672EA278A5006933FF /* ScrollView_Horizontal.swift in Sources */,
-				ACDFC46F2F9F674600F5A43F /* YourFirstConversation.swift in Sources */,
 				ACC496E42C8B204B00EAA344 /* FileItem.swift in Sources */,
 				AC60443F2F8660BE00809396 /* EllipticalGradient_Intro.swift in Sources */,
 				ACDEFE172BEB7F53006E0CD1 /* UserAuthorizationFieldType.swift in Sources */,

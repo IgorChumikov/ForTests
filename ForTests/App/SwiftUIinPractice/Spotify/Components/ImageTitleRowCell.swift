@@ -2,7 +2,7 @@
 //  ImageTitleRowCell.swift
 //  SwiftfulSwiftUIinPractice
 //
-//  Created by Nick Sarno on 2/17/24.
+//  Created by Игорь Чумиков on 29.06.2026.
 //
 
 import SwiftUI

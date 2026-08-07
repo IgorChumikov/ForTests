@@ -1119,7 +1119,6 @@
 			children = (
 				60CE34CE038D4A03789FF86D /* UIViewControllerRepresentableBootcamp.swift */,
 			);
-			name = "14 UIViewControllerRepresentable";
 			path = "14 UIViewControllerRepresentable";
 			sourceTree = "<group>";
 		};
@@ -1128,7 +1127,6 @@
 			children = (
 				9F37B9184E57CDC34B9F8406 /* CustomCurvesBootcamp.swift */,
 			);
-			name = "06 Arcs and Quad Curves";
 			path = "06 Arcs and Quad Curves";
 			sourceTree = "<group>";
 		};
@@ -1142,7 +1140,6 @@
 				EAB857912FC5732EE1D82DFD /* CustomNavLink.swift */,
 				DC262CE0AD01ED2A2CBC49A5 /* CustomNavView.swift */,
 			);
-			name = "12 Custom Navigation";
 			path = "12 Custom Navigation";
 			sourceTree = "<group>";
 		};
@@ -1151,7 +1148,6 @@
 			children = (
 				81C8E7FBB038BF8F6D09C899 /* ErrorAlertBootcamp.swift */,
 			);
-			name = "28 Errors and Alerts";
 			path = "28 Errors and Alerts";
 			sourceTree = "<group>";
 		};
@@ -1164,7 +1160,6 @@
 				C0FCF84F34D072712EE8CBBA /* AdvancedTabBarItem.swift */,
 				6591A294C50DAAE2F4E8389F /* AdvancedTabBarItemsPreferenceKey.swift */,
 			);
-			name = "11 Custom Tab Bar";
 			path = "11 Custom Tab Bar";
 			sourceTree = "<group>";
 		};
@@ -1173,7 +1168,6 @@
 			children = (
 				2F4A5E41EA9D5B6FDF53A59F /* PropertyWrapperBootcamp.swift */,
 			);
-			name = "30 Property Wrappers Part 1";
 			path = "30 Property Wrappers Part 1";
 			sourceTree = "<group>";
 		};
@@ -1215,7 +1209,6 @@
 				41C87BA9A2B80C0BEE613B30 /* 33 Custom Operators */,
 				A58B5E81CB61760BC7FB26E5 /* Resources */,
 			);
-			name = SwiftUIAdvancedLearning;
 			path = SwiftUIAdvancedLearning;
 			sourceTree = "<group>";
 		};
@@ -1224,7 +1217,6 @@
 			children = (
 				3C6AE6EF77977413DCB753DF /* CustomOperatorBootcamp.swift */,
 			);
-			name = "33 Custom Operators";
 			path = "33 Custom Operators";
 			sourceTree = "<group>";
 		};
@@ -1233,7 +1225,6 @@
 			children = (
 				009E825E36E85CD178A00758 /* CustomShapesBootcamp.swift */,
 			);
-			name = "05 Custom Shapes";
 			path = "05 Custom Shapes";
 			sourceTree = "<group>";
 		};
@@ -1242,7 +1233,6 @@
 			children = (
 				C223547E250BAE4AABC9D3B5 /* PropertyWrapper2Bootcamp.swift */,
 			);
-			name = "31 Property Wrappers Part 2";
 			path = "31 Property Wrappers Part 2";
 			sourceTree = "<group>";
 		};
@@ -1251,7 +1241,6 @@
 			children = (
 				FAC5188A8CB9EEED95F61F4A /* SubscriptsBootcamp.swift */,
 			);
-			name = "32 Subscripts";
 			path = "32 Subscripts";
 			sourceTree = "<group>";
 		};
@@ -1260,7 +1249,6 @@
 			children = (
 				0BB2523D56B384A5DBEFFE2A /* AdvancedCombineBootcamp.swift */,
 			);
-			name = "19 Advanced Combine";
 			path = "19 Advanced Combine";
 			sourceTree = "<group>";
 		};
@@ -1269,7 +1257,6 @@
 			children = (
 				8A46DE649C45C625ACF7A6BF /* ViewModifierBootcamp.swift */,
 			);
-			name = "01 Custom ViewModifiers";
 			path = "01 Custom ViewModifiers";
 			sourceTree = "<group>";
 		};
@@ -1278,7 +1265,6 @@
 			children = (
 				32483DEC1C83E98F026C8354 /* CustomBindingBootcamp.swift */,
 			);
-			name = "27 Custom Bindings";
 			path = "27 Custom Bindings";
 			sourceTree = "<group>";
 		};
@@ -1287,7 +1273,6 @@
 			children = (
 				2AE7B7A906B5001B9DE6FC2E /* MatchedGeometryEffectBootcamp.swift */,
 			);
-			name = "04 Matched Geometry Effect";
 			path = "04 Matched Geometry Effect";
 			sourceTree = "<group>";
 		};
@@ -1296,7 +1281,6 @@
 			children = (
 				7D7250E2DA8A09D21202699D /* GenericsBootcamp.swift */,
 			);
-			name = "08 Generics";
 			path = "08 Generics";
 			sourceTree = "<group>";
 		};
@@ -1305,7 +1289,6 @@
 			children = (
 				E8982D466918AD37A0FE6309 /* CloudKitPushNotificationBootcamp.swift */,
 			);
-			name = "24 CloudKit Push Notifications";
 			path = "24 CloudKit Push Notifications";
 			sourceTree = "<group>";
 		};
@@ -1314,7 +1297,6 @@
 			children = (
 				A886B985DE508DD4CD607BF0 /* SwiftUIAdvancedLearning.swift */,
 			);
-			name = "00 Course Menu";
 			path = "00 Course Menu";
 			sourceTree = "<group>";
 		};
@@ -1323,7 +1305,6 @@
 			children = (
 				51EE6C849203296454468845 /* AdvancedLearningAssets.xcassets */,
 			);
-			name = Resources;
 			path = Resources;
 			sourceTree = "<group>";
 		};
@@ -1332,7 +1313,6 @@
 			children = (
 				7E8766B6E3A7A30E8690B5E0 /* AnimateableDataBootcamp.swift */,
 			);
-			name = "07 Animatable Data";
 			path = "07 Animatable Data";
 			sourceTree = "<group>";
 		};
@@ -2432,16 +2412,24 @@
 			path = QuickSearch;
 			sourceTree = "<group>";
 		};
+		AC8A4EC43025EE6A0098FEF4 /* Swiftful Thinking */ = {
+			isa = PBXGroup;
+			children = (
+				415919382503775433940476 /* SwiftUIAdvancedLearning */,
+			);
+			path = "Swiftful Thinking";
+			sourceTree = "<group>";
+		};
 		AC9611A12DDB22D900398A1F /* App */ = {
 			isa = PBXGroup;
 			children = (
+				AC8A4EC43025EE6A0098FEF4 /* Swiftful Thinking */,
 				ACFFF5072FF2F37B005E8C87 /* SwiftUIinPractice */,
 				AC20C0012FBA6001008E9B67 /* Cursor */,
 				AC0C8C042F755AC8008E9B67 /* LiquidGlass */,
 				AC0E23812E8D6BAB00CEC1DF /* ForTestViews */,
 				AC96F12F2ECC5F7800335AA4 /* MasteringChartsInSwiftUI */,
 				AC0E23702E8D61FD00CEC1DF /* Books */,
-				415919382503775433940476 /* SwiftUIAdvancedLearning */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -3884,7 +3872,6 @@
 			children = (
 				2467227147F38D6293490043 /* KeypathsBootcamp.swift */,
 			);
-			name = "29 KeyPaths";
 			path = "29 KeyPaths";
 			sourceTree = "<group>";
 		};
@@ -3893,7 +3880,6 @@
 			children = (
 				EDB9A3A2FFE56596D8C083F0 /* UIViewRepresentableBootcamp.swift */,
 			);
-			name = "13 UIViewRepresentable";
 			path = "13 UIViewRepresentable";
 			sourceTree = "<group>";
 		};
@@ -3904,7 +3890,6 @@
 				0AA73201B77E7230E7822D7D /* UnitTestingBootcampView.swift */,
 				03F7020AD672DB0BB526E965 /* UnitTestingBootcampViewModel.swift */,
 			);
-			name = "17 Unit Testing";
 			path = "17 Unit Testing";
 			sourceTree = "<group>";
 		};
@@ -3915,7 +3900,6 @@
 				798C8658FEFFFC805FAEDAF2 /* PreferenceKeyBootcamp.swift */,
 				E9DFA2519239A79A4C817ED4 /* ScrollViewOffsetPreferenceKeyBootcamp.swift */,
 			);
-			name = "10 PreferenceKey";
 			path = "10 PreferenceKey";
 			sourceTree = "<group>";
 		};
@@ -3924,7 +3908,6 @@
 			children = (
 				3548039C44FA9FC990A9D426 /* UITestingBootcampView.swift */,
 			);
-			name = "18 UI Testing";
 			path = "18 UI Testing";
 			sourceTree = "<group>";
 		};
@@ -3933,7 +3916,6 @@
 			children = (
 				F0E3EB1CEBBF28C16EFE5AE5 /* DependencyInjectionBootcamp.swift */,
 			);
-			name = "16 Dependency Injection";
 			path = "16 Dependency Injection";
 			sourceTree = "<group>";
 		};
@@ -3942,7 +3924,6 @@
 			children = (
 				8F14611903AA73CA3168F523 /* ProtocolsBootcamp.swift */,
 			);
-			name = "15 Protocols";
 			path = "15 Protocols";
 			sourceTree = "<group>";
 		};
@@ -3951,7 +3932,6 @@
 			children = (
 				7EF536633A8CEC21AB8B2FB6 /* CloudKitCrudBootcamp.swift */,
 			);
-			name = "22-23 CloudKit CRUD and Assets";
 			path = "22-23 CloudKit CRUD and Assets";
 			sourceTree = "<group>";
 		};
@@ -3960,7 +3940,6 @@
 			children = (
 				C0830EF1DE837213FB3A57CB /* AnyTransitionBootcamp.swift */,
 			);
-			name = "03 Custom Transitions";
 			path = "03 Custom Transitions";
 			sourceTree = "<group>";
 		};
@@ -3969,7 +3948,6 @@
 			children = (
 				D924EE32BDE05DDF4CDD7BCF /* CloudKitUtility.swift */,
 			);
-			name = "25 CloudKit Utility";
 			path = "25 CloudKit Utility";
 			sourceTree = "<group>";
 		};
@@ -3978,7 +3956,6 @@
 			children = (
 				3D576E8E474F1F86E2999953 /* FuturesBootcamp.swift */,
 			);
-			name = "20 Futures and Promises";
 			path = "20 Futures and Promises";
 			sourceTree = "<group>";
 		};
@@ -3987,7 +3964,6 @@
 			children = (
 				430EB9D0C8357C6107E61747 /* CloudKitUserBootcamp.swift */,
 			);
-			name = "21 CloudKit User";
 			path = "21 CloudKit User";
 			sourceTree = "<group>";
 		};
@@ -3996,7 +3972,6 @@
 			children = (
 				D5F4C67826B4AF641AB4E02D /* ViewBuilderBootcamp.swift */,
 			);
-			name = "09 ViewBuilder";
 			path = "09 ViewBuilder";
 			sourceTree = "<group>";
 		};
@@ -4005,7 +3980,6 @@
 			children = (
 				5FE4D5D32783A721481ADCA1 /* TimelineViewBootcamp.swift */,
 			);
-			name = "26 TimelineView";
 			path = "26 TimelineView";
 			sourceTree = "<group>";
 		};
@@ -4014,7 +3988,6 @@
 			children = (
 				4DF19B151878FBAB91D9DE8E /* ButtonStyleBootcamp.swift */,
 			);
-			name = "02 Custom ButtonStyles";
 			path = "02 Custom ButtonStyles";
 			sourceTree = "<group>";
 		};

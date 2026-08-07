@@ -1,0 +1,90 @@
+//
+//  ConcurrencyCourseAsyncPublisherBootcamp.swift
+//  SwiftConcurrencyBootcamp
+//
+//  Created by Nick Sarno on 4/4/22.
+//
+
+import SwiftUI
+import Combine
+
+class ConcurrencyCourseAsyncPublisherDataManager {
+    
+    @Published var myData: [String] = []
+    
+    func addData() async {
+        myData.append("Apple")
+        try? await Task.sleep(nanoseconds: 2_000_000_000)
+        myData.append("Banana")
+        try? await Task.sleep(nanoseconds: 2_000_000_000)
+        myData.append("Orange")
+        try? await Task.sleep(nanoseconds: 2_000_000_000)
+        myData.append("Watermelon")
+    }
+    
+}
+
+class ConcurrencyCourseAsyncPublisherBootcampViewModel: ObservableObject {
+    
+    @MainActor @Published var dataArray: [String] = []
+    let manager = ConcurrencyCourseAsyncPublisherDataManager()
+    var cancellables = Set<AnyCancellable>()
+    
+    init() {
+        addSubscribers()
+    }
+    
+    private func addSubscribers() {
+        Task {
+            for await value in manager.$myData.values {
+                await MainActor.run(body: {
+                    self.dataArray = value
+                })
+            }
+        }
+        
+//        Task {
+//            for await value in manager.$myData.values {
+//                await MainActor.run(body: {
+//                    self.dataArray = value
+//                })
+//            }
+//        }
+        
+//        manager.$myData
+//            .receive(on: DispatchQueue.main, options: nil)
+//            .sink { dataArray in
+//                self.dataArray = dataArray
+//            }
+//            .store(in: &cancellables)
+    }
+    
+    func start() async {
+        await manager.addData()
+    }
+}
+
+struct ConcurrencyCourseAsyncPublisherBootcamp: View {
+    
+    @StateObject private var viewModel = ConcurrencyCourseAsyncPublisherBootcampViewModel()
+    
+    var body: some View {
+        ScrollView {
+            VStack {
+                ForEach(viewModel.dataArray, id: \.self) {
+                    Text($0)
+                        .font(.headline)
+                }
+            }
+        }
+        .task {
+            await viewModel.start()
+        }
+    }
+}
+
+struct ConcurrencyCourseAsyncPublisherBootcamp_Previews: PreviewProvider {
+    static var previews: some View {
+        ConcurrencyCourseAsyncPublisherBootcamp()
+    }
+}

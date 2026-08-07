@@ -8,40 +8,170 @@
 
 /* Begin PBXBuildFile section */
 		0187CF48E5BFF43C6CCC665B /* AdvancedTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FCF84F34D072712EE8CBBA /* AdvancedTabBarItem.swift */; };
+		029446FED304C6377D65436F /* CryptoCourseCoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F4A9C5CC41396E08CFE012 /* CryptoCourseCoinImageViewModel.swift */; };
+		0343BFE1335C7FF89BA74705 /* CryptoCourseCoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D629663A34BBFB0B836AAD8 /* CryptoCourseCoinImageView.swift */; };
+		0370C1251D15ECE82D3245D0 /* CryptoCourseHomeStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F196FB59B6C39DE6CF4C664 /* CryptoCourseHomeStatsView.swift */; };
+		048EA81168620730CD9C3DC5 /* ConcurrencyCourseDoCatchTryThrowsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7416C15E94982AF200C8D0BC /* ConcurrencyCourseDoCatchTryThrowsBootcamp.swift */; };
+		05DF063961BE9936925DA9F8 /* SUIBootcampContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C19474548C0222A9A4DC07 /* SUIBootcampContentView.swift */; };
+		06A9F0CDF377B9559E4FBEB7 /* CryptoCourseLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FD5E04EEFAADFBF9ED835C /* CryptoCourseLaunchView.swift */; };
+		08466A57ED00B08CFEB53B0F /* SUIBootcampSafeAreaBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C35404BEA53D32B64C21C8A /* SUIBootcampSafeAreaBootcamp.swift */; };
+		08823B96701F799CEEFAC724 /* ContinuedCourseCacheBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ED2BCF648D31970F05E49F /* ContinuedCourseCacheBootcamp.swift */; };
+		08C8185E0FAB5EF97EE4F514 /* ContinuedCourseLongPressGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D0D0E399AE0D097BD03D0D /* ContinuedCourseLongPressGestureBootcamp.swift */; };
+		093FF600A77ECCB5749EC8C0 /* CryptoCourseCoinLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC7047C182AAFD04863BAE /* CryptoCourseCoinLogoView.swift */; };
+		0A207073AE031A1D8EAFF6F5 /* CryptoCourseMarketDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C676E3AD34C1E78B752FE3BF /* CryptoCourseMarketDataModel.swift */; };
+		0A9463D53688951A21BEC1CF /* CryptoCoursePortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358FC0B079B7199DCC025C68 /* CryptoCoursePortfolioView.swift */; };
+		0AA27E592B1C24D29B24C7E8 /* ContinuedCourseDownloadWithCombine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0552195D63E4A96920B416 /* ContinuedCourseDownloadWithCombine.swift */; };
 		0B358353B127770765A348DD /* ViewBuilderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F4C67826B4AF641AB4E02D /* ViewBuilderBootcamp.swift */; };
+		0E171860D43F43C071FAE524 /* ContinuedCourseDownloadingImagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6DECBD5E2B12713D523B4F /* ContinuedCourseDownloadingImagesViewModel.swift */; };
+		0EAA568485D90DA4EEF71C75 /* CryptoCoursePortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322D88B5D9471B170C563DEA /* CryptoCoursePortfolioDataService.swift */; };
+		0EB4EB3C418456764F1C4065 /* MapCourseLocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E193519C8F8F1A78483E6AF0 /* MapCourseLocationsViewModel.swift */; };
+		0EBA43F8FD7ED9899D0175C2 /* SUIBootcampListSwipeActionsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBE7B9B64BB458A35053317 /* SUIBootcampListSwipeActionsBootcamp.swift */; };
+		1042F6F7545657DD8B0225A2 /* ContinuedCourseSoundsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE7D383634744A7290F4B0F /* ContinuedCourseSoundsBootcamp.swift */; };
+		11A3798274D9E1909C176BC6 /* SUIBootcampStateBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315A3C5C12F93CAFB3730930 /* SUIBootcampStateBootcamp.swift */; };
+		1208E138F309B610AA0E36AE /* SUIBootcampTextfieldBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDFB33EA2D79E130C7321A8 /* SUIBootcampTextfieldBootcamp.swift */; };
+		13BAF6D2B0B8137BFF4197CA /* ContinuedCourseCoreDataRelationshipsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAEA9F83A3338E84B753A84 /* ContinuedCourseCoreDataRelationshipsBootcamp.swift */; };
+		13CCC15A389D092E52F628BD /* SUIBootcampIfLetGuardBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D35CC014C1E12B593AB48E2 /* SUIBootcampIfLetGuardBootcamp.swift */; };
 		14465117661FA58533460D7E /* ButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF19B151878FBAB91D9DE8E /* ButtonStyleBootcamp.swift */; };
+		15071FFA0B36F520D9D3929A /* SUIBootcampGroupBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8774DADFE72021D044F0CB /* SUIBootcampGroupBootcamp.swift */; };
 		1591715C79B8B74CC495FE6E /* CustomCurvesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37B9184E57CDC34B9F8406 /* CustomCurvesBootcamp.swift */; };
-		15CAB813580029397DD74CDD /* AdvancedLearningAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51EE6C849203296454468845 /* AdvancedLearningAssets.xcassets */; };
+		15ED1C93A0E1F07E59BF98C8 /* ContinuedCourseDownloadingImagesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC32A6546E923EFBACF797 /* ContinuedCourseDownloadingImagesRow.swift */; };
+		18DAD50C7DC11317A5C79A9F /* SUIBootcampViewThatFitsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B611C32C3FD96346048BA3FA /* SUIBootcampViewThatFitsBootcamp.swift */; };
 		1A116F93E66BD2FB40CE80B1 /* AdvancedCombineBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB2523D56B384A5DBEFFE2A /* AdvancedCombineBootcamp.swift */; };
+		1A1E266BDFD78662AE4E1236 /* SUIBootcampFocusStateBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F3A4F4AA18F4BD6E94000 /* SUIBootcampFocusStateBootcamp.swift */; };
+		1C2A92A46FF1806076FF4090 /* SUIBootcampTextSelectionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D4DB2200CA10477065DAB9 /* SUIBootcampTextSelectionBootcamp.swift */; };
 		1C6ADE169639778B141B5F11 /* AdvancedCustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D08BC29270F9A2269BBE57 /* AdvancedCustomTabBarView.swift */; };
+		1F39EC91705E003383778852 /* SUIBootcampConditionalBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8720F29C16839D09E2022C /* SUIBootcampConditionalBootcamp.swift */; };
+		1F747723EA11BBA671E56070 /* SUIBootcampOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDCDAC64F764E65F21A2514 /* SUIBootcampOnboardingView.swift */; };
+		202AB5A593331FCC44EB9196 /* SUIBootcampNavigationViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80D939D02AA4B4D479D255B /* SUIBootcampNavigationViewBootcamp.swift */; };
+		21D0884C94708EED0325901D /* ContinuedCourseScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABBE247FE6C58FB3A3EE0C8 /* ContinuedCourseScrollViewReaderBootcamp.swift */; };
 		21D5597E966BBAF26B4A5370 /* CustomNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC262CE0AD01ED2A2CBC49A5 /* CustomNavView.swift */; };
+		226592A06C5E999A82CFBBC9 /* SUIBootcampExtractSubviewsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552FFA1296C07481BFB6261B /* SUIBootcampExtractSubviewsBootcamp.swift */; };
+		234376362447CD6F38D9CB04 /* SUIBootcampContentUnavailableViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E8EC7EAE7480ADD31ECAE3 /* SUIBootcampContentUnavailableViewBootcamp.swift */; };
+		2397F10A0BEBE73528DD70A7 /* CryptoCourseDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADAB00F85D55CCF3B59C466 /* CryptoCourseDate.swift */; };
+		25A05DEEA4464DEF9E31DD64 /* TodoCourseLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73FBC072211D6641CC2C4F7E /* TodoCourseLaunchScreen.storyboard */; };
+		294EC2E045BB87DA04FFDA08 /* ConcurrencyCourseRefreshableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED537EEE30B393E6504FA6CC /* ConcurrencyCourseRefreshableBootcamp.swift */; };
+		2A1172B4B72BEDCF842384BF /* ContinuedCourseWeakSelfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14ED2866AD030D83BF5E4DC7 /* ContinuedCourseWeakSelfBootcamp.swift */; };
+		2F42E51CFA0737C58F38CA2E /* SUIBootcampBackgroundMaterialsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C1190862919A8B09637FE9 /* SUIBootcampBackgroundMaterialsBootcamp.swift */; };
+		31F84D322CBE9B1D70E66341 /* SUIBootcampAnyLayoutBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B360D0B821B1248D5356FAF1 /* SUIBootcampAnyLayoutBootcamp.swift */; };
+		321D17A1A4697B55D0937D9B /* CryptoCourseXMarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7DD91D29C2303EA180E29E /* CryptoCourseXMarkButton.swift */; };
+		33307DCED912C8B94986D1AD /* ConcurrencyCourseSearchableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A217D62D241E4330A79B1B /* ConcurrencyCourseSearchableBootcamp.swift */; };
+		3361FDFA366B0700C001F22D /* CryptoCourseCircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07000286CA407162B5537F8 /* CryptoCourseCircleButtonAnimationView.swift */; };
 		33B53A76BBBAAFB8C2ECEE6D /* SwiftUIAdvancedLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = A886B985DE508DD4CD607BF0 /* SwiftUIAdvancedLearning.swift */; };
+		33E4AF2EBD207D3B60412791 /* SUIBootcampSafeAreaInsetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD05E8B9C3D9C73AC3F6559C /* SUIBootcampSafeAreaInsetBootcamp.swift */; };
+		34A5928BFFDF8D2EAB5C4830 /* SUIBootcampSliderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17C7554B94C22257598D563 /* SUIBootcampSliderBootcamp.swift */; };
+		34BB2CB053D10C8088ABF8CE /* SUIBootcampAnimationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4329D747C0A04096A325449C /* SUIBootcampAnimationBootcamp.swift */; };
+		3652AAD7FBFC40CEC71BCA48 /* SUIBootcampTextEditorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1F51ED51376381A36777D6 /* SUIBootcampTextEditorBootcamp.swift */; };
+		3771697CFA46B2B043C25AF9 /* SUIBootcampTransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9EF72ECBB8E27A883CA518 /* SUIBootcampTransitionBootcamp.swift */; };
+		3798F2F74A216EF2710DF489 /* SUIBootcampPickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D84E36B166688C7BA87664E /* SUIBootcampPickerBootcamp.swift */; };
+		384CD32E55DD375C9B40B161 /* CryptoCourseCoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C2F375E3B2BB613460708F /* CryptoCourseCoinDataService.swift */; };
+		3886CD63E29B1418BB54A8E3 /* CryptoCourseNetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572BC8DC0836430F47CECC58 /* CryptoCourseNetworkingManager.swift */; };
+		3928FE5C4837ADA58226A521 /* CryptoCoursePreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360F5C7916A395372C2BA2E3 /* CryptoCoursePreviewProvider.swift */; };
+		3A11D6E31AC2BD13614790D8 /* ContinuedCoursePhotoModelFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF8C94A5E6247ECE738FDA /* ContinuedCoursePhotoModelFileManager.swift */; };
+		3A554AB1AB00B6E8BF8BF5DC /* TodoCourseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A476772EB54432745C431AF /* TodoCourseListView.swift */; };
+		3B387ED4F6518E08771A8985 /* SUIBootcampStepperBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2184E0D856D1729223C6AABB /* SUIBootcampStepperBootcamp.swift */; };
+		3EC8B3E77AB2AA2DE516E3B0 /* SwiftfulThinkingAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9F14FFBF9DA53A691E2C3B /* SwiftfulThinkingAssets.xcassets */; };
 		3EEBD165BAEAD963AA804DFA /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB857912FC5732EE1D82DFD /* CustomNavLink.swift */; };
+		3F65667D55DB86A6F97BB0C3 /* SUIBootcampTapGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ADCF4B42D83A3823A52E42 /* SUIBootcampTapGestureBootcamp.swift */; };
+		4154651640EB519F7EF20BA4 /* SUIBootcampAsyncImageBoocamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A2071796A36D4D13F5885 /* SUIBootcampAsyncImageBoocamp.swift */; };
+		418229DCB2E99BA0D84B711C /* ContinuedCourseCoreDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D700911CBFE1B9983D161D4B /* ContinuedCourseCoreDataBootcamp.swift */; };
+		420D9E494BEA1AE5688A6E69 /* CryptoCourseLocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6477E996CD46AFBCE3D7CE /* CryptoCourseLocalFileManager.swift */; };
+		445E801F33A61CB84B6CF657 /* SUIBootcampForEachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085CE88C56E58B6FCB4F86FB /* SUIBootcampForEachBootcamp.swift */; };
+		45459B2021A93F3DAE26CE7C /* SUIBootcampTextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CE3E5435C6F910E97F8D9A /* SUIBootcampTextBootcamp.swift */; };
+		4770FAA8C8552FF7A07A589A /* MapCourseLocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CA34A25961237426161A26 /* MapCourseLocationsListView.swift */; };
 		489707C8BED38B7297BF278A /* UnitTestingBootcampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA73201B77E7230E7822D7D /* UnitTestingBootcampView.swift */; };
+		494919951370F98A8C40683C /* SUIBootcampToggleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465D6D470E91453E1B01D8BC /* SUIBootcampToggleBootcamp.swift */; };
 		4CCEE73F1998E65C75CF9FA0 /* CloudKitPushNotificationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8982D466918AD37A0FE6309 /* CloudKitPushNotificationBootcamp.swift */; };
 		4D588F90FC435C8F9A6893E2 /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336CA2C5ADA60ECEC3423FAF /* CustomNavBarView.swift */; };
+		4D605730586FF278CB469571 /* SUIBootcampStacksBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975252D8383C5CC947D21CA3 /* SUIBootcampStacksBootcamp.swift */; };
+		4EEBB96E7367CF29A62C54B9 /* SUIBootcampImageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFFD58C5E5E2EA5AD64E11F /* SUIBootcampImageBootcamp.swift */; };
+		4FD70AF856BB37E46BA3EB97 /* CryptoCourseStatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C025EA8A9F210EC1A2DBE1C7 /* CryptoCourseStatisticModel.swift */; };
+		518DCDF21DB0D62D5A4180E4 /* ConcurrencyCourseDownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D50AEF90CE8BD4F72D26ECF /* ConcurrencyCourseDownloadImageAsync.swift */; };
 		523ED1998E446C19FD762CE5 /* GenericsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7250E2DA8A09D21202699D /* GenericsBootcamp.swift */; };
+		52F8278F74FBE40E5CB78D1E /* CryptoCourseCircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362B16B13D0408C396575DE2 /* CryptoCourseCircleButtonView.swift */; };
+		558A7D8CDB2DD91886BDAA94 /* SUIBootcampListBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11C1295C5CB6B665D07A6E9 /* SUIBootcampListBootcamp.swift */; };
+		562987253E0BBD6011C4119E /* ContinuedCourseMultipleSheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87E0D8CABA58832DE7B9A65 /* ContinuedCourseMultipleSheetsBootcamp.swift */; };
+		56948E743C3BE19457149C15 /* SUIBootcampGridViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4698CE7F5CC32EEF23D7F3 /* SUIBootcampGridViewBootcamp.swift */; };
+		57378600197E2BEA4CAF6B42 /* SUIBootcampProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F9E1371C7D44C2B01A27B4 /* SUIBootcampProfileView.swift */; };
 		57C5C6CC7603C05601EAB2E1 /* UITestingBootcampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3548039C44FA9FC990A9D426 /* UITestingBootcampView.swift */; };
+		58CE6190BCB87FDD95FAA9EC /* ContinuedCourseAccessibilityTextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1305C224F29034AAFC185A60 /* ContinuedCourseAccessibilityTextBootcamp.swift */; };
+		59117948DEC4B1D515C13865 /* SUIBootcampColorPickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9061E11A9C748DE74B03404 /* SUIBootcampColorPickerBootcamp.swift */; };
+		5A8807366BD62EE59D1CD897 /* ContinuedCourseImageLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0795C5D795FC4E48F60F5501 /* ContinuedCourseImageLoadingViewModel.swift */; };
 		5A98942A704B563B3D5AA574 /* SubscriptsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5188A8CB9EEED95F61F4A /* SubscriptsBootcamp.swift */; };
+		5AE90A171E7400EB3BBEFAE8 /* CryptoCourseCoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950C43BAB770F4006ECE151E /* CryptoCourseCoinImageService.swift */; };
 		5B4FD7A958F89553BD017F59 /* CustomNavBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01052F20307BD0F6114727CE /* CustomNavBarContainerView.swift */; };
+		5E470C116C613E5832C75BA0 /* ContinuedCourseVisualEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B210301E7BA93AF44362EC84 /* ContinuedCourseVisualEffectBootcamp.swift */; };
+		5E912F327D86CF18C1F10BE7 /* SUIBootcampColorsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76492EA856E81480605C995E /* SUIBootcampColorsBootcamp.swift */; };
+		5F6CE74EE176B4C74D2DAF2C /* CryptoCourseCoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8548382F41BC398A7022F5B1 /* CryptoCourseCoinModel.swift */; };
+		5F963FAEDD6B08C97F335E22 /* ConcurrencyCourseAsyncAwaitBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A98601A56FB93520AC0DF9 /* ConcurrencyCourseAsyncAwaitBootcamp.swift */; };
+		606E91C1B6DE59182F48165B /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD69362F69D660940255CF5E /* FruitsContainer.xcdatamodeld */; };
+		62F4F5AD366BE2C9DE69C1B5 /* ContinuedCourseHapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A867C6001577769CAAEFBDF /* ContinuedCourseHapticsBootcamp.swift */; };
+		62F775BECEF9ABF52958D77F /* SUIBootcampTabViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF2B49B5FB638C67BEF6555 /* SUIBootcampTabViewBootcamp.swift */; };
+		65C14704B9F94E5B4441B316 /* ContinuedCourseDragGestureBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8356FFAD4DB31DC6B202793 /* ContinuedCourseDragGestureBootcamp2.swift */; };
 		674FBD95015D3E62176C770D /* MatchedGeometryEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7B7A906B5001B9DE6FC2E /* MatchedGeometryEffectBootcamp.swift */; };
+		689E8678155BE79B83060D08 /* ConcurrencyCoursePhotoPickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B65AF7042CF919C4AEBBC3D /* ConcurrencyCoursePhotoPickerBootcamp.swift */; };
 		6926125F7E91E0188F6D2C34 /* NewMockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AD0215F55E4865C4B44BD2 /* NewMockDataService.swift */; };
+		69A63B7F6385856529762816 /* MapCourseLocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F96293AFB4795BA30DF6A8 /* MapCourseLocationDetailView.swift */; };
+		6B29547B63B8A7AB2EECBC63 /* ContinuedCourseDownloadWithEscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E9F60293EA8F79C81DB7CE /* ContinuedCourseDownloadWithEscapingBootcamp.swift */; };
+		6BE06F4C756D356ABC10122D /* MapCourseLocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6733718B77B5282A4280F636 /* MapCourseLocationMapAnnotationView.swift */; };
+		6C28814A18E10E5C9BB338C5 /* SUIBootcampShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E3F473D2605210C398518A /* SUIBootcampShapesBootcamp.swift */; };
+		6C639C685DA4D272DD8EBF39 /* SUIBootcampDarkModeBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF90BFF9FAA9DD6F4D8FEF7 /* SUIBootcampDarkModeBootcamp.swift */; };
+		6D0ACA4C2B97C640B62B6075 /* ContinuedCourseAccessibilityColorsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E51DE8A7D56EBCD5716653E /* ContinuedCourseAccessibilityColorsBootcamp.swift */; };
+		6E93A85459A7AF8F8FBF5BF2 /* SUIBootcampBadgesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F251B6F715FFC0B148A2A23 /* SUIBootcampBadgesBootcamp.swift */; };
+		6F7E8FD70D6CE67C32DDDDFA /* ConcurrencyCourseTaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68ED5C0A9A78828FD3F112A /* ConcurrencyCourseTaskBootcamp.swift */; };
+		702BDA53B453FF3D4EF837D3 /* SUIBootcampControlGroupMenuBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA9D4E2001AFC7F190CEA97 /* SUIBootcampControlGroupMenuBootcamp.swift */; };
+		721E46B7A8A3F99D27F8653A /* CryptoCourseCoinDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15FF567A23B565325B23FF8 /* CryptoCourseCoinDetailModel.swift */; };
+		73BBDD9877F86AC76B6C3F64 /* SUIBootcampNativePopoverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10EDE3BF3356AA248414F71 /* SUIBootcampNativePopoverBootcamp.swift */; };
+		74D62CCF4E991FDF81AE64FE /* ContinuedCourseLocalNotificationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B123CC1B91E454E5B32E7645 /* ContinuedCourseLocalNotificationBootcamp.swift */; };
+		75280F2C0510F2987F13C938 /* ContinuedCourseSubscriberBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EE650E99AFFADBA7E63956 /* ContinuedCourseSubscriberBootcamp.swift */; };
+		75EBF37103AE6BB426FFEC93 /* ContinuedCourseTypealiasBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844C872117C81C58579C8519 /* ContinuedCourseTypealiasBootcamp.swift */; };
+		79CDC47C9E598B576CCB17A3 /* SUIBootcampSheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71FDBE47F81C1163FF74A8 /* SUIBootcampSheetsBootcamp.swift */; };
+		7AB3F3C372606BED27C1B692 /* TodoCourseListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFD736629FDD529DAF1E538 /* TodoCourseListRowView.swift */; };
+		7BA9E884087A9FEC55CEAAD0 /* ContinuedCourseAccessibilityVoiceOverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4970049F5AA3CDACDA1E989 /* ContinuedCourseAccessibilityVoiceOverBootcamp.swift */; };
+		7C18094CF2CE91794D9B69FE /* TodoCourseAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B83291480BAF75114E1BD5 /* TodoCourseAddView.swift */; };
 		7C3E803480EEB887F3E8CDC9 /* CloudKitUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D924EE32BDE05DDF4CDD7BCF /* CloudKitUtility.swift */; };
+		7D68915D8006569EC557CA04 /* SUIBootcampToolbarBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E3558DE968FB675B5FAEE8 /* SUIBootcampToolbarBootcamp.swift */; };
+		7EBF9D1489A9E68AC07AC1B7 /* CryptoCourseDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EFF55B6DDEB85A6A0F81F8 /* CryptoCourseDetailViewModel.swift */; };
+		8390A9BB13899DBCDE071B72 /* SUIBootcampButtonStylesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C321393B0686C7A19E31B13 /* SUIBootcampButtonStylesBootcamp.swift */; };
+		84DBCB4B55827AA9CD4004F6 /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3833046524A389F78EB77DA /* CoreDataContainer.xcdatamodeld */; };
+		8571FB5B636A195BE233634A /* ContinuedCourseDownloadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BE0EFBC04F0C845A79125B /* ContinuedCourseDownloadingImageView.swift */; };
+		8576C082776DBE0E1345551A /* ContinuedCourseScrollViewPagingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB3E2BBF390111A8B93926E /* ContinuedCourseScrollViewPagingBootcamp.swift */; };
 		8718288265C5B52BEA55F689 /* CustomOperatorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AE6EF77977413DCB753DF /* CustomOperatorBootcamp.swift */; };
+		894531C87CEFEDDA3A1AEB94 /* SUIBootcampModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6CD24A85D36E4C647F1240 /* SUIBootcampModelBootcamp.swift */; };
+		8A0E354C12E02A6612131EE1 /* MapCourseLocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2456DFD60EBA947FFFAC5A31 /* MapCourseLocationsDataService.swift */; };
+		8AF01F38F9C390888F214926 /* ConcurrencyCourseMVVMBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E9300F96339AB560037FD /* ConcurrencyCourseMVVMBootcamp.swift */; };
+		8B2EC72C931DF5C09BA2C242 /* TodoCourseListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EAC48421B04313FA07A746 /* TodoCourseListViewModel.swift */; };
+		8B34AE1C64A1CBD831467099 /* TodoCourseItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10806EB25F224B38CFDCE18C /* TodoCourseItemModel.swift */; };
 		8C26F6FED7021D31CE9C5B9E /* ErrorAlertBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C8E7FBB038BF8F6D09C899 /* ErrorAlertBootcamp.swift */; };
+		8C35CA8A943C772CD6403C1B /* ContinuedCourseMagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60E2C96C8A4DE6157FF9A71 /* ContinuedCourseMagnificationGestureBootcamp.swift */; };
+		8C794CE29949A145C42A100F /* ConcurrencyCourseStructClassActorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F368804D23286B071ADDAB /* ConcurrencyCourseStructClassActorBootcamp.swift */; };
 		8CE5B672094095EAC354CCBB /* GeometryPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F661144B38C6F5E8492823 /* GeometryPreferenceKeyBootcamp.swift */; };
 		8D2179C9A2FCA306A9007097 /* UIViewControllerRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE34CE038D4A03789FF86D /* UIViewControllerRepresentableBootcamp.swift */; };
+		8DFB33069DFBB3F6D970C7DE /* ContinuedCourseFileManagerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0207F4C241A2CC90924F5F /* ContinuedCourseFileManagerBootcamp.swift */; };
+		8F8466B5AEBD2C0846C433F8 /* SUIBootcampActionsheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E1F865F1E4EF65FF4870AC /* SUIBootcampActionsheetBootcamp.swift */; };
 		8FF54697A05E9CB242105DD0 /* KeypathsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2467227147F38D6293490043 /* KeypathsBootcamp.swift */; };
+		9045348C300BC7F9E21E8C4A /* ConcurrencyCourseActorsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D7BDDBF7F2C0DBD1941207 /* ConcurrencyCourseActorsBootcamp.swift */; };
 		9121789F8ACD0998E4E7F6E2 /* AdvancedAppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086FC68BE915C80854293FF2 /* AdvancedAppTabBarView.swift */; };
 		912DEE0B8D12076E332C1622 /* AdvancedCustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B98F6DFBAA74305CEB73EE /* AdvancedCustomTabBarContainerView.swift */; };
+		93DDF8F4BB760326B049595B /* CryptoCourseCoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F25E8C822F966900A1D0E1 /* CryptoCourseCoinRowView.swift */; };
 		93E7FBEB41C1D7F986FF3240 /* FuturesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D576E8E474F1F86E2999953 /* FuturesBootcamp.swift */; };
 		964250FFC33D0359EA53F72A /* CloudKitUserBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430EB9D0C8357C6107E61747 /* CloudKitUserBootcamp.swift */; };
 		9689BAAAF9276D9F3CEAFE08 /* PropertyWrapperBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A5E41EA9D5B6FDF53A59F /* PropertyWrapperBootcamp.swift */; };
+		9B91C833F907B77F389483F4 /* MapCourseLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F22FEEA4BF079B1A34E257 /* MapCourseLocation.swift */; };
+		9CAA1AC1E3A52BCD5F959826 /* SUIBootcampAnimationTimingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F3AF4974A6563D8186DF29 /* SUIBootcampAnimationTimingBootcamp.swift */; };
+		9D5E6718C8BFFE327850224F /* SUIBootcampNavigationStackBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF44EE13E53B29611740F07 /* SUIBootcampNavigationStackBootcamp.swift */; };
+		9FEB26D66CDB7EFE67113C9C /* ConcurrencyCourseStrongSelfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A61EFCEE135A28FCEAA10C /* ConcurrencyCourseStrongSelfBootcamp.swift */; };
 		A067A26D9A2FD000C74ECBD6 /* AnyTransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0830EF1DE837213FB3A57CB /* AnyTransitionBootcamp.swift */; };
+		A1A1951022B3F4ADFE001B95 /* SUIBootcampEnvironmentObjectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA09BC588473E865997AADC /* SUIBootcampEnvironmentObjectBootcamp.swift */; };
+		A44CAF50E55FDC66EBD0042D /* CryptoCourseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA08B5AE0E3DDFA36AF346F2 /* CryptoCourseString.swift */; };
+		A642CBDEE1B27D36CE4A7C84 /* SUIBootcampOnAppearBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9261A49C9BB60A3F7123DE59 /* SUIBootcampOnAppearBootcamp.swift */; };
+		A95DC8DFBE9876FE57F95007 /* ContinuedCourseDownloadingImagesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D173B3DC8FDB34B26E9E63A /* ContinuedCourseDownloadingImagesBootcamp.swift */; };
 		A95EA20EFF9AFED408D5B934 /* UnitTestingBootcampViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F7020AD672DB0BB526E965 /* UnitTestingBootcampViewModel.swift */; };
 		A9686CD711AE6E4760B4594B /* AnimateableDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8766B6E3A7A30E8690B5E0 /* AnimateableDataBootcamp.swift */; };
+		AA1BA0D0DD1F44E58933E357 /* SUIBootcampSpacerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807BCE131DFBF950E0BEC2E8 /* SUIBootcampSpacerBootcamp.swift */; };
 		AA1D77C2A572B4F9303BAA97 /* AppNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7512B9BEAC71F03DEED2E94 /* AppNavBarView.swift */; };
+		AA352D91DD1B609B6360097B /* SUIBootcampBindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D135A1080B14ADD774302F0 /* SUIBootcampBindingBootcamp.swift */; };
 		AAEF03EB6D98AA9936EF488E /* PreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798C8658FEFFFC805FAEDAF2 /* PreferenceKeyBootcamp.swift */; };
+		AC01DA49E721CCB46FCAE227 /* CryptoCourseStatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F48AC47FD8852E43ECD4A72 /* CryptoCourseStatisticView.swift */; };
 		AC03622B2C1879AC0033B781 /* View4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC03622A2C1879AC0033B781 /* View4.swift */; };
 		AC03622D2C187D7D0033B781 /* View5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC03622C2C187D7D0033B781 /* View5.swift */; };
 		AC03622F2C1B10E00033B781 /* MainView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC03622E2C1B10E00033B781 /* MainView5.swift */; };
@@ -540,55 +670,303 @@
 		ACFFF5612FF30500005E8C87 /* SwiftfulUI in Frameworks */ = {isa = PBXBuildFile; productRef = ACFFF5602FF30500005E8C87 /* SwiftfulUI */; };
 		ACFFF5632FF30500005E8C87 /* SwiftfulRouting in Frameworks */ = {isa = PBXBuildFile; productRef = ACFFF5622FF30500005E8C87 /* SwiftfulRouting */; };
 		ACFFF5652FF30500005E8C87 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = ACFFF5642FF30500005E8C87 /* SDWebImageSwiftUI */; };
+		AE7F7B310D551F9E4F897DD0 /* CryptoCourseMarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC93302C3A2CAEDEC03341 /* CryptoCourseMarketDataService.swift */; };
 		B03BE6F395C54AE73C3DDEB8 /* CustomBindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32483DEC1C83E98F026C8354 /* CustomBindingBootcamp.swift */; };
+		B0E3EF94E70DF4AD0F047D8E /* SUIBootcampTernaryBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EC416242F9A74BBF91A569 /* SUIBootcampTernaryBootcamp.swift */; };
+		B12FA8FD2B66D2906624F3B0 /* ContinuedCourseRotationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1547FA51C2E86E4CA9AFD8A1 /* ContinuedCourseRotationGestureBootcamp.swift */; };
+		B2B70E0828239954C24F71D2 /* SUIBootcampGradientsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610A5497A00EEA8DDF1BA758 /* SUIBootcampGradientsBootcamp.swift */; };
+		B4D8C2B1D148541AF28B203D /* SUIBootcampInitializerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B8BD2DC4AA5F2BA4F1D52A /* SUIBootcampInitializerBootcamp.swift */; };
 		B90825E9FA7DE7D1C61913AB /* ProtocolsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F14611903AA73CA3168F523 /* ProtocolsBootcamp.swift */; };
+		BA78FDDB14D4637CD4902E2E /* ContinuedCourseAlignmentGuideBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2272773F869F6FB0C9588873 /* ContinuedCourseAlignmentGuideBootcamp.swift */; };
+		BAFCB6004508439E3F6E16F7 /* SUIBootcampIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47379CAEA5449804952870CF /* SUIBootcampIntroView.swift */; };
+		BB2F0F7CD601D9F121F24107 /* CryptoCourseUIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1112677F587AC7979FC488 /* CryptoCourseUIApplication.swift */; };
+		BB7EC6E83EC93B70042CF39A /* ConcurrencyCourseAsyncPublisherBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8997A6BF4EC131023CFDC7 /* ConcurrencyCourseAsyncPublisherBootcamp.swift */; };
 		BF14494EB802C9AAD1DA8560 /* PropertyWrapper2Bootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C223547E250BAE4AABC9D3B5 /* PropertyWrapper2Bootcamp.swift */; };
+		C0A2EDCEF3FF656B0EC69E46 /* ContinuedCoursePhotoModelDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C152EDC11BEEA3FFB3376B /* ContinuedCoursePhotoModelDataService.swift */; };
+		C0D6ECEC403BB02D5C231758 /* SUIBootcampContextMenuBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D72B44E733207484173AA /* SUIBootcampContextMenuBootcamp.swift */; };
+		C0E52C2EFEEA4C14AC6641BA /* SUIBootcampNavigationSplitViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A73AB4B913DD20A81115679 /* SUIBootcampNavigationSplitViewBootcamp.swift */; };
+		C24E490B915FC4DC37BE19D0 /* CryptoCourseHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB7B8138838F00E076D8D09 /* CryptoCourseHomeView.swift */; };
+		C2D7EF60A7A695E882AEA1FC /* SUIBootcampBackgroundAndOverlayBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323F2F3C8EBBBC8E5A621FB8 /* SUIBootcampBackgroundAndOverlayBootcamp.swift */; };
+		C2EB0B551D0E5B1FA522250F /* SUIBootcampAnimationUpdatedBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F927756FCAB7A14D6E6C01E /* SUIBootcampAnimationUpdatedBootcamp.swift */; };
+		C5A7D43313CC0C3367EAFF34 /* ContinuedCourseArraysBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F58D6501F32780D7C719F2 /* ContinuedCourseArraysBootcamp.swift */; };
 		C5AC4A25E6226707B941E677 /* TimelineViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE4D5D32783A721481ADCA1 /* TimelineViewBootcamp.swift */; };
+		C5D45AE3D57BAE05D7CF9376 /* SUIBootcampGridBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160DD570BCCC8312CB6EA527 /* SUIBootcampGridBootcamp.swift */; };
+		C771F957578CA6D05D029B66 /* SUIBootcampButtonsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BC6E45CF235C3C5959E17C /* SUIBootcampButtonsBootcamp.swift */; };
+		CD335DEE0C24C2F92A143880 /* CryptoCourseSearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83839D2D50A6217988068672 /* CryptoCourseSearchBarView.swift */; };
+		CD611CFF127239866CADBE14 /* ContinuedCoursePhotoModelCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AE0813E73BC6BAAD73ABB5 /* ContinuedCoursePhotoModelCacheManager.swift */; };
+		CD6C339AD8855EFA37FF6600 /* SUIBootcampAlertBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0506ED84403156B02C689AE /* SUIBootcampAlertBootcamp.swift */; };
+		CDD98BEDF6A69B4BD493DD6C /* SUIBootcampFrameBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449425DC150361DA5CC097B4 /* SUIBootcampFrameBootcamp.swift */; };
+		CE0F8F975F6C7024F8BF95BC /* ContinuedCourseTimerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C8705EC47970EDC1B5D705 /* ContinuedCourseTimerBootcamp.swift */; };
+		CEE8127A44C74AD3E0360B0F /* CryptoCourseSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4682C9CE1EC1BD711549E81 /* CryptoCourseSettingsView.swift */; };
+		CF793821526F8C5C1829B84C /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32B5AEA246E98E1C679E83F3 /* badum.mp3 */; };
+		D07A4E3DD5471B56EC34646D /* ContinuedCourseBackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E5A6F762CFCBBF2880B38 /* ContinuedCourseBackgroundThreadBootcamp.swift */; };
+		D0B5AA631A51DFEBD232B821 /* CryptoCourseChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1960E629550D2E6CF4977FF6 /* CryptoCourseChartView.swift */; };
+		D117E0B9E8AF84FEBAD45070 /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5543041845F7FF7E1C453F96 /* PortfolioContainer.xcdatamodeld */; };
+		D2265DC6CE34C6BBE1D8C705 /* MapCourseLocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4F49071F380EA7A7BBC375 /* MapCourseLocationPreviewView.swift */; };
+		D42097A8EF9C2914A354051F /* SUIBootcampViewModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56635E8B3BC5386F4533BB7D /* SUIBootcampViewModelBootcamp.swift */; };
 		D45E2F76E710CE2ED89FDB57 /* CustomShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009E825E36E85CD178A00758 /* CustomShapesBootcamp.swift */; };
+		D6A803E7A4024C06F507A698 /* SUIBootcampResizableSheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492E54BE92B08A0CBB845FA4 /* SUIBootcampResizableSheetBootcamp.swift */; };
+		D8591A80BBB83729479B620E /* ContinuedCourseCodableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393120F42BB29383575DE40 /* ContinuedCourseCodableBootcamp.swift */; };
+		D8641B41A1332F2AFEEC04EC /* CryptoCourseCoinDetailDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43D29955E1ABDAB3B39D26B /* CryptoCourseCoinDetailDataService.swift */; };
+		D89DDF34BD79C74C4ABC7115 /* ContinuedCourseGeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89408360D9FAC8094D63451A /* ContinuedCourseGeometryReaderBootcamp.swift */; };
+		DA3ADE626B79294F0E33DD35 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 17FB0C3CBC41E49A9B54A9F5 /* tada.mp3 */; };
+		DB1A9F8E0F9B67FFFE18F6A4 /* ContinuedCourseEscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCA90A9781EA88559B52550 /* ContinuedCourseEscapingBootcamp.swift */; };
+		DCDD6C60EF63405BDC2D08E9 /* SUIBootcampObservableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F5B702C99638561A87C1D2 /* SUIBootcampObservableBootcamp.swift */; };
+		DD075D34C9AA97166FE3F41A /* CryptoCourseDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5B9EF633620C3E8131CA0C /* CryptoCourseDouble.swift */; };
+		DD73D64E1D60EED66A3F370C /* SUIBootcampMenuBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F46932372237EECA95813F /* SUIBootcampMenuBootcamp.swift */; };
 		DE1A4858217AB95A008C1E24 /* AdvancedTabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591A294C50DAAE2F4E8389F /* AdvancedTabBarItemsPreferenceKey.swift */; };
+		DE4DE98A42088096C5064560 /* CryptoCourseHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D904F1C3D49CF5F3720BC4C /* CryptoCourseHomeViewModel.swift */; };
+		DED3ECE3C328B725BF2C2CD9 /* ContinuedCourseMaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CC6D5F92DBD8397EC47938 /* ContinuedCourseMaskBootcamp.swift */; };
+		E1B81A0767F6CA8260F68A56 /* CryptoCourseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18181244827E919D947B084B /* CryptoCourseDetailView.swift */; };
+		E4DDA7AB94D1DEA755BB72D1 /* SUIBootcampPaddingAndSpacerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E474D709D561B1CA278935D /* SUIBootcampPaddingAndSpacerBootcamp.swift */; };
 		E710D03DEEA8CEC7D94381EB /* CloudKitCrudBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF536633A8CEC21AB8B2FB6 /* CloudKitCrudBootcamp.swift */; };
 		E717C41285B91DE0993116B7 /* ViewModifierBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A46DE649C45C625ACF7A6BF /* ViewModifierBootcamp.swift */; };
+		E7E0FB95C6C5FECC66BF6B40 /* SUIBootcampIconsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C4FDED0E9E0A2EE59C6564 /* SUIBootcampIconsBootcamp.swift */; };
+		E8D20FEB103B1B2570E83949 /* SUIBootcampPopoverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650DC49271E24CAF7007A0A1 /* SUIBootcampPopoverBootcamp.swift */; };
+		E8FE03BFF8B1810603220919 /* SUIBootcampDocumentationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADAA5D62EEA22D71C4FA732 /* SUIBootcampDocumentationBootcamp.swift */; };
+		EAC73DD22718EF07ED2B50CC /* SUIBootcampSubmitTextFieldBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93476819EA65A84F6075DA6 /* SUIBootcampSubmitTextFieldBootcamp.swift */; };
+		EDB30157E98735460DA348C5 /* ContinuedCoursePhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3360C8F2CE4A7F156459C1E1 /* ContinuedCoursePhotoModel.swift */; };
+		EEAD7A65774218FEB18241D9 /* ConcurrencyCourseSendableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946823A7992BF99E81F5C402 /* ConcurrencyCourseSendableBootcamp.swift */; };
+		F054039EE0D7C3610475488E /* CryptoCourseLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2294320C6870A19602F99E3D /* CryptoCourseLaunchScreen.storyboard */; };
+		F166E7A22F7D41BAB7211240 /* SUIBootcampExtractedFunctionsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F34B9B0ED8666064F81B8 /* SUIBootcampExtractedFunctionsBootcamp.swift */; };
 		F31DF1B9A0361079543B88ED /* ScrollViewOffsetPreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DFA2519239A79A4C817ED4 /* ScrollViewOffsetPreferenceKeyBootcamp.swift */; };
+		F430547B5D795CD775A83571 /* ConcurrencyCourseTaskGroupBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC641D8A8EDE5AD6EF0FB33 /* ConcurrencyCourseTaskGroupBootcamp.swift */; };
+		F5481930853A68467283D95C /* MapCourseLocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CC99A9B76B5495526BAE9D /* MapCourseLocationsView.swift */; };
+		F6D3DBEC5EB24CC25A19C161 /* SUIBootcampDatePickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8164B971A2A89108127F9B /* SUIBootcampDatePickerBootcamp.swift */; };
+		F77641CF0C78D88E33F30AED /* TodoCourseNoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD74B2533B6235E76DA4F82D /* TodoCourseNoItemsView.swift */; };
+		F7A0325F1D4D3B8AF82495CD /* ConcurrencyCourseAsyncLetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82557A70B673573E5343CC6 /* ConcurrencyCourseAsyncLetBootcamp.swift */; };
+		F7F22A9D05D3CF70D2633CA6 /* ConcurrencyCourseGlobalActorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C72B5A51C50488E7C73C7B /* ConcurrencyCourseGlobalActorBootcamp.swift */; };
+		F82850621FD3BCFD4F457782 /* SUIBootcampScrollViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C22742ADF34B1A7355B142 /* SUIBootcampScrollViewBootcamp.swift */; };
+		F92EC36887B2F44ED7DF35F5 /* ContinuedCourseHashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8A5E6037190CC9E6BAA6CE /* ContinuedCourseHashableBootcamp.swift */; };
+		F9F2575F937774F4CA0F8764 /* ConcurrencyCourseCheckedContinuationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01615C4E3F3F715F6D519462 /* ConcurrencyCourseCheckedContinuationBootcamp.swift */; };
 		FA550A967250532786555240 /* CustomNavBarPreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D29FCB07963A4E0FBD755A0 /* CustomNavBarPreferenceKeys.swift */; };
+		FA6C525CD6DD47AA0055200B /* ContinuedCourseDragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBE051B67751DB5767AF17A /* ContinuedCourseDragGestureBootcamp.swift */; };
+		FAD75344007E59AFF538A56E /* SUIBootcampAppStorageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82325AA292B178BABC2D2FBE /* SUIBootcampAppStorageBootcamp.swift */; };
 		FCA119D0718EB128225C9154 /* DependencyInjectionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E3EB1CEBBF28C16EFE5AE5 /* DependencyInjectionBootcamp.swift */; };
 		FD27BC8F384EA5ED79EB20CD /* UIViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB9A3A2FFE56596D8C083F0 /* UIViewRepresentableBootcamp.swift */; };
+		FD3A6725A2BA9916B4D2A8DE /* CryptoCourseHapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EAF515EF779C70809AB2F8 /* CryptoCourseHapticManager.swift */; };
+		FFCC378C4929C83BA726E580 /* CryptoCourseColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B013307E2927608DF11438 /* CryptoCourseColor.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC8A4ED23025F1670098FEF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5350DCC8D0474BCFF0B92800 /* SwiftConcurrencyBootcamp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 02F3AC0F27E94E8F00DBD20C;
+			remoteInfo = SwiftConcurrencyBootcamp;
+		};
+		AC8A4ED53025F1670098FEF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8E3E267201D99FF5A8D7165 /* SwiftfulCrypto.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0274CD3F264783B5008099B6;
+			remoteInfo = SwiftfulCrypto;
+		};
+		AC8A4ED83025F1670098FEF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88A3E50BAB46341304B1B1E7 /* SwiftfulMapApp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 023DC9F72752B0A9009AC7ED;
+			remoteInfo = SwiftfulMapApp;
+		};
+		AC8A4EDB3025F1670098FEF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3853B1D2A06A5F294D02706 /* SwiftfulThinkingBootcamp.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 026094E725B0DCD40030E091;
+			remoteInfo = SwiftfulThinkingBootcamp;
+		};
+		AC8A4EDE3025F1670098FEF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6007587A963B4664A14028F /* SwiftfulThinkingContinuedLearning.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 026301652607AAA200E216EB;
+			remoteInfo = SwiftfulThinkingContinuedLearning;
+		};
+		AC8A4EE13025F1670098FEF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E59E425FAFD9FC586417C29 /* TodoList.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 022EF16325EEE90900112224;
+			remoteInfo = TodoList;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		009E825E36E85CD178A00758 /* CustomShapesBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomShapesBootcamp.swift; sourceTree = "<group>"; };
 		01052F20307BD0F6114727CE /* CustomNavBarContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainerView.swift; sourceTree = "<group>"; };
+		01615C4E3F3F715F6D519462 /* ConcurrencyCourseCheckedContinuationBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConcurrencyCourseCheckedContinuationBootcamp.swift; sourceTree = "<group>"; };
+		01FF8C94A5E6247ECE738FDA /* ContinuedCoursePhotoModelFileManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCoursePhotoModelFileManager.swift; sourceTree = "<group>"; };
 		03F7020AD672DB0BB526E965 /* UnitTestingBootcampViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UnitTestingBootcampViewModel.swift; sourceTree = "<group>"; };
+		047F34B9B0ED8666064F81B8 /* SUIBootcampExtractedFunctionsBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampExtractedFunctionsBootcamp.swift; sourceTree = "<group>"; };
+		05F368804D23286B071ADDAB /* ConcurrencyCourseStructClassActorBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConcurrencyCourseStructClassActorBootcamp.swift; sourceTree = "<group>"; };
+		06EE650E99AFFADBA7E63956 /* ContinuedCourseSubscriberBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseSubscriberBootcamp.swift; sourceTree = "<group>"; };
+		0795C5D795FC4E48F60F5501 /* ContinuedCourseImageLoadingViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseImageLoadingViewModel.swift; sourceTree = "<group>"; };
+		085CE88C56E58B6FCB4F86FB /* SUIBootcampForEachBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampForEachBootcamp.swift; sourceTree = "<group>"; };
 		086FC68BE915C80854293FF2 /* AdvancedAppTabBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AdvancedAppTabBarView.swift; sourceTree = "<group>"; };
 		0AA73201B77E7230E7822D7D /* UnitTestingBootcampView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UnitTestingBootcampView.swift; sourceTree = "<group>"; };
 		0BB2523D56B384A5DBEFFE2A /* AdvancedCombineBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AdvancedCombineBootcamp.swift; sourceTree = "<group>"; };
+		0CA09BC588473E865997AADC /* SUIBootcampEnvironmentObjectBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampEnvironmentObjectBootcamp.swift; sourceTree = "<group>"; };
+		0D50AEF90CE8BD4F72D26ECF /* ConcurrencyCourseDownloadImageAsync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConcurrencyCourseDownloadImageAsync.swift; sourceTree = "<group>"; };
+		0D8164B971A2A89108127F9B /* SUIBootcampDatePickerBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampDatePickerBootcamp.swift; sourceTree = "<group>"; };
+		0E1112677F587AC7979FC488 /* CryptoCourseUIApplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseUIApplication.swift; sourceTree = "<group>"; };
+		10806EB25F224B38CFDCE18C /* TodoCourseItemModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TodoCourseItemModel.swift; sourceTree = "<group>"; };
+		10CC99A9B76B5495526BAE9D /* MapCourseLocationsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapCourseLocationsView.swift; sourceTree = "<group>"; };
+		10F4A9C5CC41396E08CFE012 /* CryptoCourseCoinImageViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseCoinImageViewModel.swift; sourceTree = "<group>"; };
+		11A217D62D241E4330A79B1B /* ConcurrencyCourseSearchableBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConcurrencyCourseSearchableBootcamp.swift; sourceTree = "<group>"; };
+		1305C224F29034AAFC185A60 /* ContinuedCourseAccessibilityTextBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseAccessibilityTextBootcamp.swift; sourceTree = "<group>"; };
+		14ED2866AD030D83BF5E4DC7 /* ContinuedCourseWeakSelfBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseWeakSelfBootcamp.swift; sourceTree = "<group>"; };
+		1547FA51C2E86E4CA9AFD8A1 /* ContinuedCourseRotationGestureBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseRotationGestureBootcamp.swift; sourceTree = "<group>"; };
+		15F3AF4974A6563D8186DF29 /* SUIBootcampAnimationTimingBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampAnimationTimingBootcamp.swift; sourceTree = "<group>"; };
+		160DD570BCCC8312CB6EA527 /* SUIBootcampGridBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampGridBootcamp.swift; sourceTree = "<group>"; };
+		17FB0C3CBC41E49A9B54A9F5 /* tada.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
+		18181244827E919D947B084B /* CryptoCourseDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseDetailView.swift; sourceTree = "<group>"; };
+		1960E629550D2E6CF4977FF6 /* CryptoCourseChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseChartView.swift; sourceTree = "<group>"; };
+		1A5B9EF633620C3E8131CA0C /* CryptoCourseDouble.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseDouble.swift; sourceTree = "<group>"; };
+		1C321393B0686C7A19E31B13 /* SUIBootcampButtonStylesBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampButtonStylesBootcamp.swift; sourceTree = "<group>"; };
+		1C71FDBE47F81C1163FF74A8 /* SUIBootcampSheetsBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampSheetsBootcamp.swift; sourceTree = "<group>"; };
+		1C918DEDB618E8098B24FF28 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
+		1D629663A34BBFB0B836AAD8 /* CryptoCourseCoinImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseCoinImageView.swift; sourceTree = "<group>"; };
+		1DBE051B67751DB5767AF17A /* ContinuedCourseDragGestureBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseDragGestureBootcamp.swift; sourceTree = "<group>"; };
+		2184E0D856D1729223C6AABB /* SUIBootcampStepperBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampStepperBootcamp.swift; sourceTree = "<group>"; };
+		2272773F869F6FB0C9588873 /* ContinuedCourseAlignmentGuideBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseAlignmentGuideBootcamp.swift; sourceTree = "<group>"; };
+		2294320C6870A19602F99E3D /* CryptoCourseLaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = CryptoCourseLaunchScreen.storyboard; sourceTree = "<group>"; };
+		2456DFD60EBA947FFFAC5A31 /* MapCourseLocationsDataService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapCourseLocationsDataService.swift; sourceTree = "<group>"; };
 		2467227147F38D6293490043 /* KeypathsBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KeypathsBootcamp.swift; sourceTree = "<group>"; };
 		25B98F6DFBAA74305CEB73EE /* AdvancedCustomTabBarContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AdvancedCustomTabBarContainerView.swift; sourceTree = "<group>"; };
+		26FD5E04EEFAADFBF9ED835C /* CryptoCourseLaunchView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseLaunchView.swift; sourceTree = "<group>"; };
+		286D72B44E733207484173AA /* SUIBootcampContextMenuBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampContextMenuBootcamp.swift; sourceTree = "<group>"; };
+		29ED2BCF648D31970F05E49F /* ContinuedCourseCacheBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseCacheBootcamp.swift; sourceTree = "<group>"; };
+		2ADAB00F85D55CCF3B59C466 /* CryptoCourseDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseDate.swift; sourceTree = "<group>"; };
 		2AE7B7A906B5001B9DE6FC2E /* MatchedGeometryEffectBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectBootcamp.swift; sourceTree = "<group>"; };
+		2B6DECBD5E2B12713D523B4F /* ContinuedCourseDownloadingImagesViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseDownloadingImagesViewModel.swift; sourceTree = "<group>"; };
+		2D135A1080B14ADD774302F0 /* SUIBootcampBindingBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampBindingBootcamp.swift; sourceTree = "<group>"; };
+		2D84E36B166688C7BA87664E /* SUIBootcampPickerBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampPickerBootcamp.swift; sourceTree = "<group>"; };
+		2DAEA9F83A3338E84B753A84 /* ContinuedCourseCoreDataRelationshipsBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseCoreDataRelationshipsBootcamp.swift; sourceTree = "<group>"; };
 		2F4A5E41EA9D5B6FDF53A59F /* PropertyWrapperBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PropertyWrapperBootcamp.swift; sourceTree = "<group>"; };
+		30EFF55B6DDEB85A6A0F81F8 /* CryptoCourseDetailViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseDetailViewModel.swift; sourceTree = "<group>"; };
+		315A3C5C12F93CAFB3730930 /* SUIBootcampStateBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampStateBootcamp.swift; sourceTree = "<group>"; };
+		31C152EDC11BEEA3FFB3376B /* ContinuedCoursePhotoModelDataService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCoursePhotoModelDataService.swift; sourceTree = "<group>"; };
+		322D88B5D9471B170C563DEA /* CryptoCoursePortfolioDataService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCoursePortfolioDataService.swift; sourceTree = "<group>"; };
+		323F2F3C8EBBBC8E5A621FB8 /* SUIBootcampBackgroundAndOverlayBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampBackgroundAndOverlayBootcamp.swift; sourceTree = "<group>"; };
 		32483DEC1C83E98F026C8354 /* CustomBindingBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomBindingBootcamp.swift; sourceTree = "<group>"; };
+		32B5AEA246E98E1C679E83F3 /* badum.mp3 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
+		3360C8F2CE4A7F156459C1E1 /* ContinuedCoursePhotoModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCoursePhotoModel.swift; sourceTree = "<group>"; };
 		336CA2C5ADA60ECEC3423FAF /* CustomNavBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
+		33D0D0E399AE0D097BD03D0D /* ContinuedCourseLongPressGestureBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseLongPressGestureBootcamp.swift; sourceTree = "<group>"; };
 		3548039C44FA9FC990A9D426 /* UITestingBootcampView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITestingBootcampView.swift; sourceTree = "<group>"; };
+		358FC0B079B7199DCC025C68 /* CryptoCoursePortfolioView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCoursePortfolioView.swift; sourceTree = "<group>"; };
+		360F5C7916A395372C2BA2E3 /* CryptoCoursePreviewProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCoursePreviewProvider.swift; sourceTree = "<group>"; };
+		362B16B13D0408C396575DE2 /* CryptoCourseCircleButtonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseCircleButtonView.swift; sourceTree = "<group>"; };
+		38EAF515EF779C70809AB2F8 /* CryptoCourseHapticManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseHapticManager.swift; sourceTree = "<group>"; };
 		3C6AE6EF77977413DCB753DF /* CustomOperatorBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomOperatorBootcamp.swift; sourceTree = "<group>"; };
 		3D576E8E474F1F86E2999953 /* FuturesBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FuturesBootcamp.swift; sourceTree = "<group>"; };
+		3D904F1C3D49CF5F3720BC4C /* CryptoCourseHomeViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseHomeViewModel.swift; sourceTree = "<group>"; };
+		3E51DE8A7D56EBCD5716653E /* ContinuedCourseAccessibilityColorsBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseAccessibilityColorsBootcamp.swift; sourceTree = "<group>"; };
+		3FFC93302C3A2CAEDEC03341 /* CryptoCourseMarketDataService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseMarketDataService.swift; sourceTree = "<group>"; };
+		42C72B5A51C50488E7C73C7B /* ConcurrencyCourseGlobalActorBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConcurrencyCourseGlobalActorBootcamp.swift; sourceTree = "<group>"; };
 		430EB9D0C8357C6107E61747 /* CloudKitUserBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CloudKitUserBootcamp.swift; sourceTree = "<group>"; };
+		4329D747C0A04096A325449C /* SUIBootcampAnimationBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampAnimationBootcamp.swift; sourceTree = "<group>"; };
+		440F3A4F4AA18F4BD6E94000 /* SUIBootcampFocusStateBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampFocusStateBootcamp.swift; sourceTree = "<group>"; };
+		449425DC150361DA5CC097B4 /* SUIBootcampFrameBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampFrameBootcamp.swift; sourceTree = "<group>"; };
+		465D6D470E91453E1B01D8BC /* SUIBootcampToggleBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampToggleBootcamp.swift; sourceTree = "<group>"; };
+		46CE3E5435C6F910E97F8D9A /* SUIBootcampTextBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampTextBootcamp.swift; sourceTree = "<group>"; };
+		47379CAEA5449804952870CF /* SUIBootcampIntroView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampIntroView.swift; sourceTree = "<group>"; };
+		492E54BE92B08A0CBB845FA4 /* SUIBootcampResizableSheetBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampResizableSheetBootcamp.swift; sourceTree = "<group>"; };
+		49C2F375E3B2BB613460708F /* CryptoCourseCoinDataService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseCoinDataService.swift; sourceTree = "<group>"; };
+		4A867C6001577769CAAEFBDF /* ContinuedCourseHapticsBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseHapticsBootcamp.swift; sourceTree = "<group>"; };
+		4A8720F29C16839D09E2022C /* SUIBootcampConditionalBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampConditionalBootcamp.swift; sourceTree = "<group>"; };
+		4C35404BEA53D32B64C21C8A /* SUIBootcampSafeAreaBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampSafeAreaBootcamp.swift; sourceTree = "<group>"; };
 		4DF19B151878FBAB91D9DE8E /* ButtonStyleBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ButtonStyleBootcamp.swift; sourceTree = "<group>"; };
-		51EE6C849203296454468845 /* AdvancedLearningAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = AdvancedLearningAssets.xcassets; sourceTree = "<group>"; };
+		51A98601A56FB93520AC0DF9 /* ConcurrencyCourseAsyncAwaitBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConcurrencyCourseAsyncAwaitBootcamp.swift; sourceTree = "<group>"; };
+		5350DCC8D0474BCFF0B92800 /* SwiftConcurrencyBootcamp.xcodeproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.pb-project"; path = SwiftConcurrencyBootcamp.xcodeproj; sourceTree = "<group>"; };
+		552FFA1296C07481BFB6261B /* SUIBootcampExtractSubviewsBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampExtractSubviewsBootcamp.swift; sourceTree = "<group>"; };
 		55AD0215F55E4865C4B44BD2 /* NewMockDataService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NewMockDataService.swift; sourceTree = "<group>"; };
+		56635E8B3BC5386F4533BB7D /* SUIBootcampViewModelBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampViewModelBootcamp.swift; sourceTree = "<group>"; };
+		56CA34A25961237426161A26 /* MapCourseLocationsListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapCourseLocationsListView.swift; sourceTree = "<group>"; };
+		572BC8DC0836430F47CECC58 /* CryptoCourseNetworkingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseNetworkingManager.swift; sourceTree = "<group>"; };
+		5A73AB4B913DD20A81115679 /* SUIBootcampNavigationSplitViewBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampNavigationSplitViewBootcamp.swift; sourceTree = "<group>"; };
+		5A8774DADFE72021D044F0CB /* SUIBootcampGroupBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampGroupBootcamp.swift; sourceTree = "<group>"; };
+		5BEC7047C182AAFD04863BAE /* CryptoCourseCoinLogoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseCoinLogoView.swift; sourceTree = "<group>"; };
+		5BF44EE13E53B29611740F07 /* SUIBootcampNavigationStackBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampNavigationStackBootcamp.swift; sourceTree = "<group>"; };
+		5CE7D383634744A7290F4B0F /* ContinuedCourseSoundsBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseSoundsBootcamp.swift; sourceTree = "<group>"; };
+		5E8E9300F96339AB560037FD /* ConcurrencyCourseMVVMBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConcurrencyCourseMVVMBootcamp.swift; sourceTree = "<group>"; };
 		5FE4D5D32783A721481ADCA1 /* TimelineViewBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TimelineViewBootcamp.swift; sourceTree = "<group>"; };
 		60CE34CE038D4A03789FF86D /* UIViewControllerRepresentableBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableBootcamp.swift; sourceTree = "<group>"; };
+		610A5497A00EEA8DDF1BA758 /* SUIBootcampGradientsBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampGradientsBootcamp.swift; sourceTree = "<group>"; };
+		63AE0813E73BC6BAAD73ABB5 /* ContinuedCoursePhotoModelCacheManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCoursePhotoModelCacheManager.swift; sourceTree = "<group>"; };
+		64F25E8C822F966900A1D0E1 /* CryptoCourseCoinRowView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseCoinRowView.swift; sourceTree = "<group>"; };
+		650DC49271E24CAF7007A0A1 /* SUIBootcampPopoverBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampPopoverBootcamp.swift; sourceTree = "<group>"; };
 		6591A294C50DAAE2F4E8389F /* AdvancedTabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AdvancedTabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
+		6733718B77B5282A4280F636 /* MapCourseLocationMapAnnotationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapCourseLocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		6BDCDAC64F764E65F21A2514 /* SUIBootcampOnboardingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampOnboardingView.swift; sourceTree = "<group>"; };
+		6E474D709D561B1CA278935D /* SUIBootcampPaddingAndSpacerBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampPaddingAndSpacerBootcamp.swift; sourceTree = "<group>"; };
+		6F196FB59B6C39DE6CF4C664 /* CryptoCourseHomeStatsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseHomeStatsView.swift; sourceTree = "<group>"; };
+		6F4F49071F380EA7A7BBC375 /* MapCourseLocationPreviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapCourseLocationPreviewView.swift; sourceTree = "<group>"; };
+		70C1190862919A8B09637FE9 /* SUIBootcampBackgroundMaterialsBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampBackgroundMaterialsBootcamp.swift; sourceTree = "<group>"; };
+		71BC6E45CF235C3C5959E17C /* SUIBootcampButtonsBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampButtonsBootcamp.swift; sourceTree = "<group>"; };
+		72C22742ADF34B1A7355B142 /* SUIBootcampScrollViewBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampScrollViewBootcamp.swift; sourceTree = "<group>"; };
+		72E3558DE968FB675B5FAEE8 /* SUIBootcampToolbarBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampToolbarBootcamp.swift; sourceTree = "<group>"; };
+		72E9F60293EA8F79C81DB7CE /* ContinuedCourseDownloadWithEscapingBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseDownloadWithEscapingBootcamp.swift; sourceTree = "<group>"; };
+		73FBC072211D6641CC2C4F7E /* TodoCourseLaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = TodoCourseLaunchScreen.storyboard; sourceTree = "<group>"; };
+		7416C15E94982AF200C8D0BC /* ConcurrencyCourseDoCatchTryThrowsBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConcurrencyCourseDoCatchTryThrowsBootcamp.swift; sourceTree = "<group>"; };
+		76492EA856E81480605C995E /* SUIBootcampColorsBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampColorsBootcamp.swift; sourceTree = "<group>"; };
 		76F661144B38C6F5E8492823 /* GeometryPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GeometryPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		798C8658FEFFFC805FAEDAF2 /* PreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
+		7A476772EB54432745C431AF /* TodoCourseListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TodoCourseListView.swift; sourceTree = "<group>"; };
 		7D29FCB07963A4E0FBD755A0 /* CustomNavBarPreferenceKeys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomNavBarPreferenceKeys.swift; sourceTree = "<group>"; };
 		7D7250E2DA8A09D21202699D /* GenericsBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GenericsBootcamp.swift; sourceTree = "<group>"; };
+		7D8A5E6037190CC9E6BAA6CE /* ContinuedCourseHashableBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseHashableBootcamp.swift; sourceTree = "<group>"; };
 		7E8766B6E3A7A30E8690B5E0 /* AnimateableDataBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimateableDataBootcamp.swift; sourceTree = "<group>"; };
+		7EF2B49B5FB638C67BEF6555 /* SUIBootcampTabViewBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampTabViewBootcamp.swift; sourceTree = "<group>"; };
 		7EF536633A8CEC21AB8B2FB6 /* CloudKitCrudBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CloudKitCrudBootcamp.swift; sourceTree = "<group>"; };
+		7EFD736629FDD529DAF1E538 /* TodoCourseListRowView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TodoCourseListRowView.swift; sourceTree = "<group>"; };
+		7EFFD58C5E5E2EA5AD64E11F /* SUIBootcampImageBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampImageBootcamp.swift; sourceTree = "<group>"; };
+		7F251B6F715FFC0B148A2A23 /* SUIBootcampBadgesBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampBadgesBootcamp.swift; sourceTree = "<group>"; };
+		7F48AC47FD8852E43ECD4A72 /* CryptoCourseStatisticView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseStatisticView.swift; sourceTree = "<group>"; };
+		7FB7B8138838F00E076D8D09 /* CryptoCourseHomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseHomeView.swift; sourceTree = "<group>"; };
+		807BCE131DFBF950E0BEC2E8 /* SUIBootcampSpacerBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampSpacerBootcamp.swift; sourceTree = "<group>"; };
 		81C8E7FBB038BF8F6D09C899 /* ErrorAlertBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ErrorAlertBootcamp.swift; sourceTree = "<group>"; };
+		82325AA292B178BABC2D2FBE /* SUIBootcampAppStorageBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampAppStorageBootcamp.swift; sourceTree = "<group>"; };
+		83839D2D50A6217988068672 /* CryptoCourseSearchBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseSearchBarView.swift; sourceTree = "<group>"; };
+		83F5B702C99638561A87C1D2 /* SUIBootcampObservableBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampObservableBootcamp.swift; sourceTree = "<group>"; };
+		844C872117C81C58579C8519 /* ContinuedCourseTypealiasBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseTypealiasBootcamp.swift; sourceTree = "<group>"; };
+		84EAC48421B04313FA07A746 /* TodoCourseListViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TodoCourseListViewModel.swift; sourceTree = "<group>"; };
+		8548382F41BC398A7022F5B1 /* CryptoCourseCoinModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseCoinModel.swift; sourceTree = "<group>"; };
+		85D7BDDBF7F2C0DBD1941207 /* ConcurrencyCourseActorsBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConcurrencyCourseActorsBootcamp.swift; sourceTree = "<group>"; };
+		86EC416242F9A74BBF91A569 /* SUIBootcampTernaryBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampTernaryBootcamp.swift; sourceTree = "<group>"; };
+		88A3E50BAB46341304B1B1E7 /* SwiftfulMapApp.xcodeproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.pb-project"; path = SwiftfulMapApp.xcodeproj; sourceTree = "<group>"; };
+		89408360D9FAC8094D63451A /* ContinuedCourseGeometryReaderBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseGeometryReaderBootcamp.swift; sourceTree = "<group>"; };
 		8A46DE649C45C625ACF7A6BF /* ViewModifierBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewModifierBootcamp.swift; sourceTree = "<group>"; };
+		8ABBE247FE6C58FB3A3EE0C8 /* ContinuedCourseScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
+		8B65AF7042CF919C4AEBBC3D /* ConcurrencyCoursePhotoPickerBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConcurrencyCoursePhotoPickerBootcamp.swift; sourceTree = "<group>"; };
+		8E59E425FAFD9FC586417C29 /* TodoList.xcodeproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.pb-project"; path = TodoList.xcodeproj; sourceTree = "<group>"; };
+		8EA9D4E2001AFC7F190CEA97 /* SUIBootcampControlGroupMenuBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampControlGroupMenuBootcamp.swift; sourceTree = "<group>"; };
 		8F14611903AA73CA3168F523 /* ProtocolsBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProtocolsBootcamp.swift; sourceTree = "<group>"; };
+		8F927756FCAB7A14D6E6C01E /* SUIBootcampAnimationUpdatedBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampAnimationUpdatedBootcamp.swift; sourceTree = "<group>"; };
+		91B8BD2DC4AA5F2BA4F1D52A /* SUIBootcampInitializerBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampInitializerBootcamp.swift; sourceTree = "<group>"; };
+		9261A49C9BB60A3F7123DE59 /* SUIBootcampOnAppearBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampOnAppearBootcamp.swift; sourceTree = "<group>"; };
+		9393120F42BB29383575DE40 /* ContinuedCourseCodableBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseCodableBootcamp.swift; sourceTree = "<group>"; };
+		946823A7992BF99E81F5C402 /* ConcurrencyCourseSendableBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConcurrencyCourseSendableBootcamp.swift; sourceTree = "<group>"; };
+		950C43BAB770F4006ECE151E /* CryptoCourseCoinImageService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseCoinImageService.swift; sourceTree = "<group>"; };
+		95E1F865F1E4EF65FF4870AC /* SUIBootcampActionsheetBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampActionsheetBootcamp.swift; sourceTree = "<group>"; };
+		975252D8383C5CC947D21CA3 /* SUIBootcampStacksBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampStacksBootcamp.swift; sourceTree = "<group>"; };
 		9829CDE058C758BE6CD3F5AD /* SwiftfulThinkingBasicsBootcamp.playground */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.playground; path = SwiftfulThinkingBasicsBootcamp.playground; sourceTree = "<group>"; };
+		994E5A6F762CFCBBF2880B38 /* ContinuedCourseBackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseBackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
+		9D173B3DC8FDB34B26E9E63A /* ContinuedCourseDownloadingImagesBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseDownloadingImagesBootcamp.swift; sourceTree = "<group>"; };
+		9D35CC014C1E12B593AB48E2 /* SUIBootcampIfLetGuardBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampIfLetGuardBootcamp.swift; sourceTree = "<group>"; };
+		9DC641D8A8EDE5AD6EF0FB33 /* ConcurrencyCourseTaskGroupBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConcurrencyCourseTaskGroupBootcamp.swift; sourceTree = "<group>"; };
 		9F37B9184E57CDC34B9F8406 /* CustomCurvesBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomCurvesBootcamp.swift; sourceTree = "<group>"; };
+		A10EDE3BF3356AA248414F71 /* SUIBootcampNativePopoverBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampNativePopoverBootcamp.swift; sourceTree = "<group>"; };
+		A6007587A963B4664A14028F /* SwiftfulThinkingContinuedLearning.xcodeproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.pb-project"; path = SwiftfulThinkingContinuedLearning.xcodeproj; sourceTree = "<group>"; };
+		A60E2C96C8A4DE6157FF9A71 /* ContinuedCourseMagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseMagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
+		A8356FFAD4DB31DC6B202793 /* ContinuedCourseDragGestureBootcamp2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseDragGestureBootcamp2.swift; sourceTree = "<group>"; };
 		A886B985DE508DD4CD607BF0 /* SwiftUIAdvancedLearning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwiftUIAdvancedLearning.swift; sourceTree = "<group>"; };
+		A8E3E267201D99FF5A8D7165 /* SwiftfulCrypto.xcodeproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.pb-project"; path = SwiftfulCrypto.xcodeproj; sourceTree = "<group>"; };
+		A9DB51036CEE217B7D418631 /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
+		AA08B5AE0E3DDFA36AF346F2 /* CryptoCourseString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseString.swift; sourceTree = "<group>"; };
+		ABDFB33EA2D79E130C7321A8 /* SUIBootcampTextfieldBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampTextfieldBootcamp.swift; sourceTree = "<group>"; };
 		AC03622A2C1879AC0033B781 /* View4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View4.swift; sourceTree = "<group>"; };
 		AC03622C2C187D7D0033B781 /* View5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View5.swift; sourceTree = "<group>"; };
 		AC03622E2C1B10E00033B781 /* MainView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView5.swift; sourceTree = "<group>"; };
@@ -1085,20 +1463,81 @@
 		ACFFF5512FF2F3BB005E8C87 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		ACFFF5522FF2F3BB005E8C87 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		ACFFF55A2FF2F3E9005E8C87 /* SwiftUIinPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIinPractice.swift; sourceTree = "<group>"; };
+		AD0207F4C241A2CC90924F5F /* ContinuedCourseFileManagerBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseFileManagerBootcamp.swift; sourceTree = "<group>"; };
+		AD0E6DB5B346B5D872F905BC /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
+		ADB3E2BBF390111A8B93926E /* ContinuedCourseScrollViewPagingBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseScrollViewPagingBootcamp.swift; sourceTree = "<group>"; };
+		AF8997A6BF4EC131023CFDC7 /* ConcurrencyCourseAsyncPublisherBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConcurrencyCourseAsyncPublisherBootcamp.swift; sourceTree = "<group>"; };
+		AF9F14FFBF9DA53A691E2C3B /* SwiftfulThinkingAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = SwiftfulThinkingAssets.xcassets; sourceTree = "<group>"; };
+		B11C1295C5CB6B665D07A6E9 /* SUIBootcampListBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampListBootcamp.swift; sourceTree = "<group>"; };
+		B123CC1B91E454E5B32E7645 /* ContinuedCourseLocalNotificationBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseLocalNotificationBootcamp.swift; sourceTree = "<group>"; };
+		B210301E7BA93AF44362EC84 /* ContinuedCourseVisualEffectBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseVisualEffectBootcamp.swift; sourceTree = "<group>"; };
+		B360D0B821B1248D5356FAF1 /* SUIBootcampAnyLayoutBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampAnyLayoutBootcamp.swift; sourceTree = "<group>"; };
+		B43D29955E1ABDAB3B39D26B /* CryptoCourseCoinDetailDataService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseCoinDetailDataService.swift; sourceTree = "<group>"; };
+		B4E3F473D2605210C398518A /* SUIBootcampShapesBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampShapesBootcamp.swift; sourceTree = "<group>"; };
+		B611C32C3FD96346048BA3FA /* SUIBootcampViewThatFitsBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampViewThatFitsBootcamp.swift; sourceTree = "<group>"; };
+		B6C4FDED0E9E0A2EE59C6564 /* SUIBootcampIconsBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampIconsBootcamp.swift; sourceTree = "<group>"; };
+		B7F58D6501F32780D7C719F2 /* ContinuedCourseArraysBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseArraysBootcamp.swift; sourceTree = "<group>"; };
+		BB4698CE7F5CC32EEF23D7F3 /* SUIBootcampGridViewBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampGridViewBootcamp.swift; sourceTree = "<group>"; };
+		BBF90BFF9FAA9DD6F4D8FEF7 /* SUIBootcampDarkModeBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampDarkModeBootcamp.swift; sourceTree = "<group>"; };
+		C025EA8A9F210EC1A2DBE1C7 /* CryptoCourseStatisticModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseStatisticModel.swift; sourceTree = "<group>"; };
 		C0830EF1DE837213FB3A57CB /* AnyTransitionBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnyTransitionBootcamp.swift; sourceTree = "<group>"; };
+		C0F96293AFB4795BA30DF6A8 /* MapCourseLocationDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapCourseLocationDetailView.swift; sourceTree = "<group>"; };
 		C0FCF84F34D072712EE8CBBA /* AdvancedTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AdvancedTabBarItem.swift; sourceTree = "<group>"; };
+		C17C7554B94C22257598D563 /* SUIBootcampSliderBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampSliderBootcamp.swift; sourceTree = "<group>"; };
 		C223547E250BAE4AABC9D3B5 /* PropertyWrapper2Bootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PropertyWrapper2Bootcamp.swift; sourceTree = "<group>"; };
+		C676E3AD34C1E78B752FE3BF /* CryptoCourseMarketDataModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseMarketDataModel.swift; sourceTree = "<group>"; };
 		C6D08BC29270F9A2269BBE57 /* AdvancedCustomTabBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AdvancedCustomTabBarView.swift; sourceTree = "<group>"; };
+		C6D4DB2200CA10477065DAB9 /* SUIBootcampTextSelectionBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampTextSelectionBootcamp.swift; sourceTree = "<group>"; };
+		C87E0D8CABA58832DE7B9A65 /* ContinuedCourseMultipleSheetsBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseMultipleSheetsBootcamp.swift; sourceTree = "<group>"; };
+		C93476819EA65A84F6075DA6 /* SUIBootcampSubmitTextFieldBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampSubmitTextFieldBootcamp.swift; sourceTree = "<group>"; };
+		CCBE7B9B64BB458A35053317 /* SUIBootcampListSwipeActionsBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampListSwipeActionsBootcamp.swift; sourceTree = "<group>"; };
+		CD05E8B9C3D9C73AC3F6559C /* SUIBootcampSafeAreaInsetBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampSafeAreaInsetBootcamp.swift; sourceTree = "<group>"; };
+		CD74B2533B6235E76DA4F82D /* TodoCourseNoItemsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TodoCourseNoItemsView.swift; sourceTree = "<group>"; };
+		CE0552195D63E4A96920B416 /* ContinuedCourseDownloadWithCombine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseDownloadWithCombine.swift; sourceTree = "<group>"; };
+		D07000286CA407162B5537F8 /* CryptoCourseCircleButtonAnimationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseCircleButtonAnimationView.swift; sourceTree = "<group>"; };
+		D5CC6D5F92DBD8397EC47938 /* ContinuedCourseMaskBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseMaskBootcamp.swift; sourceTree = "<group>"; };
 		D5F4C67826B4AF641AB4E02D /* ViewBuilderBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewBuilderBootcamp.swift; sourceTree = "<group>"; };
+		D700911CBFE1B9983D161D4B /* ContinuedCourseCoreDataBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseCoreDataBootcamp.swift; sourceTree = "<group>"; };
+		D7ADCF4B42D83A3823A52E42 /* SUIBootcampTapGestureBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampTapGestureBootcamp.swift; sourceTree = "<group>"; };
+		D9061E11A9C748DE74B03404 /* SUIBootcampColorPickerBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampColorPickerBootcamp.swift; sourceTree = "<group>"; };
 		D924EE32BDE05DDF4CDD7BCF /* CloudKitUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CloudKitUtility.swift; sourceTree = "<group>"; };
+		DADAA5D62EEA22D71C4FA732 /* SUIBootcampDocumentationBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampDocumentationBootcamp.swift; sourceTree = "<group>"; };
+		DB7DD91D29C2303EA180E29E /* CryptoCourseXMarkButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseXMarkButton.swift; sourceTree = "<group>"; };
 		DC262CE0AD01ED2A2CBC49A5 /* CustomNavView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomNavView.swift; sourceTree = "<group>"; };
+		DFCA90A9781EA88559B52550 /* ContinuedCourseEscapingBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseEscapingBootcamp.swift; sourceTree = "<group>"; };
+		E0506ED84403156B02C689AE /* SUIBootcampAlertBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampAlertBootcamp.swift; sourceTree = "<group>"; };
+		E0C8705EC47970EDC1B5D705 /* ContinuedCourseTimerBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseTimerBootcamp.swift; sourceTree = "<group>"; };
+		E15FF567A23B565325B23FF8 /* CryptoCourseCoinDetailModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseCoinDetailModel.swift; sourceTree = "<group>"; };
+		E193519C8F8F1A78483E6AF0 /* MapCourseLocationsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapCourseLocationsViewModel.swift; sourceTree = "<group>"; };
+		E3BE0EFBC04F0C845A79125B /* ContinuedCourseDownloadingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseDownloadingImageView.swift; sourceTree = "<group>"; };
+		E4682C9CE1EC1BD711549E81 /* CryptoCourseSettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseSettingsView.swift; sourceTree = "<group>"; };
+		E4970049F5AA3CDACDA1E989 /* ContinuedCourseAccessibilityVoiceOverBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseAccessibilityVoiceOverBootcamp.swift; sourceTree = "<group>"; };
+		E5F9E1371C7D44C2B01A27B4 /* SUIBootcampProfileView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampProfileView.swift; sourceTree = "<group>"; };
+		E68ED5C0A9A78828FD3F112A /* ConcurrencyCourseTaskBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConcurrencyCourseTaskBootcamp.swift; sourceTree = "<group>"; };
+		E6A61EFCEE135A28FCEAA10C /* ConcurrencyCourseStrongSelfBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConcurrencyCourseStrongSelfBootcamp.swift; sourceTree = "<group>"; };
+		E80D939D02AA4B4D479D255B /* SUIBootcampNavigationViewBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampNavigationViewBootcamp.swift; sourceTree = "<group>"; };
 		E8982D466918AD37A0FE6309 /* CloudKitPushNotificationBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CloudKitPushNotificationBootcamp.swift; sourceTree = "<group>"; };
+		E8F46932372237EECA95813F /* SUIBootcampMenuBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampMenuBootcamp.swift; sourceTree = "<group>"; };
 		E9DFA2519239A79A4C817ED4 /* ScrollViewOffsetPreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ScrollViewOffsetPreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
+		EA6477E996CD46AFBCE3D7CE /* CryptoCourseLocalFileManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseLocalFileManager.swift; sourceTree = "<group>"; };
 		EAB857912FC5732EE1D82DFD /* CustomNavLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomNavLink.swift; sourceTree = "<group>"; };
+		ED537EEE30B393E6504FA6CC /* ConcurrencyCourseRefreshableBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConcurrencyCourseRefreshableBootcamp.swift; sourceTree = "<group>"; };
+		ED9EF72ECBB8E27A883CA518 /* SUIBootcampTransitionBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampTransitionBootcamp.swift; sourceTree = "<group>"; };
 		EDB9A3A2FFE56596D8C083F0 /* UIViewRepresentableBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewRepresentableBootcamp.swift; sourceTree = "<group>"; };
+		F00A2071796A36D4D13F5885 /* SUIBootcampAsyncImageBoocamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampAsyncImageBoocamp.swift; sourceTree = "<group>"; };
 		F0E3EB1CEBBF28C16EFE5AE5 /* DependencyInjectionBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DependencyInjectionBootcamp.swift; sourceTree = "<group>"; };
+		F3853B1D2A06A5F294D02706 /* SwiftfulThinkingBootcamp.xcodeproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.pb-project"; path = SwiftfulThinkingBootcamp.xcodeproj; sourceTree = "<group>"; };
+		F6B013307E2927608DF11438 /* CryptoCourseColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CryptoCourseColor.swift; sourceTree = "<group>"; };
 		F7512B9BEAC71F03DEED2E94 /* AppNavBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppNavBarView.swift; sourceTree = "<group>"; };
+		F7E8EC7EAE7480ADD31ECAE3 /* SUIBootcampContentUnavailableViewBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampContentUnavailableViewBootcamp.swift; sourceTree = "<group>"; };
+		F7F22FEEA4BF079B1A34E257 /* MapCourseLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapCourseLocation.swift; sourceTree = "<group>"; };
+		F82557A70B673573E5343CC6 /* ConcurrencyCourseAsyncLetBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConcurrencyCourseAsyncLetBootcamp.swift; sourceTree = "<group>"; };
+		F8B83291480BAF75114E1BD5 /* TodoCourseAddView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TodoCourseAddView.swift; sourceTree = "<group>"; };
+		F8C19474548C0222A9A4DC07 /* SUIBootcampContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampContentView.swift; sourceTree = "<group>"; };
+		FAAC32A6546E923EFBACF797 /* ContinuedCourseDownloadingImagesRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseDownloadingImagesRow.swift; sourceTree = "<group>"; };
 		FAC5188A8CB9EEED95F61F4A /* SubscriptsBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SubscriptsBootcamp.swift; sourceTree = "<group>"; };
+		FF1F51ED51376381A36777D6 /* SUIBootcampTextEditorBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampTextEditorBootcamp.swift; sourceTree = "<group>"; };
+		FF6CD24A85D36E4C647F1240 /* SUIBootcampModelBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampModelBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1115,6 +1554,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00CAC285B147C03D630283B5 /* 01 Do Try Catch and Throws */ = {
+			isa = PBXGroup;
+			children = (
+				7416C15E94982AF200C8D0BC /* ConcurrencyCourseDoCatchTryThrowsBootcamp.swift */,
+			);
+			name = "01 Do Try Catch and Throws";
+			path = "01 Do Try Catch and Throws";
+			sourceTree = "<group>";
+		};
+		0656EB0342B0AE50E0E7F3CF /* 34 Paging ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				ADB3E2BBF390111A8B93926E /* ContinuedCourseScrollViewPagingBootcamp.swift */,
+			);
+			name = "34 Paging ScrollView";
+			path = "34 Paging ScrollView";
+			sourceTree = "<group>";
+		};
+		06BC4E2B40D54CB4DEDFBBEA /* 05 ScrollViewReader */ = {
+			isa = PBXGroup;
+			children = (
+				8ABBE247FE6C58FB3A3EE0C8 /* ContinuedCourseScrollViewReaderBootcamp.swift */,
+			);
+			name = "05 ScrollViewReader";
+			path = "05 ScrollViewReader";
+			sourceTree = "<group>";
+		};
+		073BA996DBBADC748429D9EF /* 38 Picker */ = {
+			isa = PBXGroup;
+			children = (
+				2D84E36B166688C7BA87664E /* SUIBootcampPickerBootcamp.swift */,
+			);
+			name = "38 Picker";
+			path = "38 Picker";
+			sourceTree = "<group>";
+		};
+		073F9C648ECD86D259C77AA4 /* 72 NavigationSplitView */ = {
+			isa = PBXGroup;
+			children = (
+				5A73AB4B913DD20A81115679 /* SUIBootcampNavigationSplitViewBootcamp.swift */,
+			);
+			name = "72 NavigationSplitView";
+			path = "72 NavigationSplitView";
+			sourceTree = "<group>";
+		};
+		07A06E580463051FBCFBDF4F /* 02 Magnification Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				A60E2C96C8A4DE6157FF9A71 /* ContinuedCourseMagnificationGestureBootcamp.swift */,
+			);
+			name = "02 Magnification Gesture";
+			path = "02 Magnification Gesture";
+			sourceTree = "<group>";
+		};
+		08D820F3DB8E7E80C911F583 /* 23 Conditionals */ = {
+			isa = PBXGroup;
+			children = (
+				4A8720F29C16839D09E2022C /* SUIBootcampConditionalBootcamp.swift */,
+			);
+			name = "23 Conditionals";
+			path = "23 Conditionals";
+			sourceTree = "<group>";
+		};
 		0AE7532D735A067FECC662E6 /* 14 UIViewControllerRepresentable */ = {
 			isa = PBXGroup;
 			children = (
@@ -1123,12 +1625,134 @@
 			path = "14 UIViewControllerRepresentable";
 			sourceTree = "<group>";
 		};
+		0BC948DD6FABD0106E2975C8 /* 67 NavigationStack */ = {
+			isa = PBXGroup;
+			children = (
+				5BF44EE13E53B29611740F07 /* SUIBootcampNavigationStackBootcamp.swift */,
+			);
+			name = "67 NavigationStack";
+			path = "67 NavigationStack";
+			sourceTree = "<group>";
+		};
+		0C70F02286D6DB09108224D0 /* 12 Spacer */ = {
+			isa = PBXGroup;
+			children = (
+				807BCE131DFBF950E0BEC2E8 /* SUIBootcampSpacerBootcamp.swift */,
+			);
+			name = "12 Spacer";
+			path = "12 Spacer";
+			sourceTree = "<group>";
+		};
+		0CD9AC600C216C3A1C7C0C33 /* 61 Modern Animations */ = {
+			isa = PBXGroup;
+			children = (
+				8F927756FCAB7A14D6E6C01E /* SUIBootcampAnimationUpdatedBootcamp.swift */,
+			);
+			name = "61 Modern Animations";
+			path = "61 Modern Animations";
+			sourceTree = "<group>";
+		};
+		0F98C9AF7787C3F77BE4CF52 /* 46 If Let and Guard */ = {
+			isa = PBXGroup;
+			children = (
+				9D35CC014C1E12B593AB48E2 /* SUIBootcampIfLetGuardBootcamp.swift */,
+			);
+			name = "46 If Let and Guard";
+			path = "46 If Let and Guard";
+			sourceTree = "<group>";
+		};
+		1042A751CCCDD8213E40A389 /* 29 Custom Popover */ = {
+			isa = PBXGroup;
+			children = (
+				650DC49271E24CAF7007A0A1 /* SUIBootcampPopoverBootcamp.swift */,
+			);
+			name = "29 Custom Popover";
+			path = "29 Custom Popover";
+			sourceTree = "<group>";
+		};
 		105A7EF3539246EA1BBF400F /* 06 Arcs and Quad Curves */ = {
 			isa = PBXGroup;
 			children = (
 				9F37B9184E57CDC34B9F8406 /* CustomCurvesBootcamp.swift */,
 			);
 			path = "06 Arcs and Quad Curves";
+			sourceTree = "<group>";
+		};
+		10878E55238CF79531DDC7DF /* 06 SwiftUI Continued Learning */ = {
+			isa = PBXGroup;
+			children = (
+				76249E49C26FBD4B727C50AE /* 01 Long Press Gesture */,
+				07A06E580463051FBCFBDF4F /* 02 Magnification Gesture */,
+				8D2BD2FED9DD78023962B836 /* 03 Rotation Gesture */,
+				46E90B63DF2F2645B4157CC9 /* 04 Drag Gesture */,
+				06BC4E2B40D54CB4DEDFBBEA /* 05 ScrollViewReader */,
+				8F5CF92351D96F150D604ED3 /* 06 GeometryReader */,
+				E4DA067E8651669824B30A91 /* 07 Multiple Sheets */,
+				8EFA54A3860377F7557E8BC6 /* 08 Mask */,
+				93198B90A67164C1EFC0E7D2 /* 09 Sounds */,
+				E5974337CFC4E0FA1926BF54 /* 10 Haptics */,
+				8247EFABA35279F2945D1A40 /* 11 Local Notifications */,
+				35E12EF37F0CB8D2000DF325 /* 12 Hashable */,
+				DFF3B2F0B7B50DCF7C2E2AEB /* 13 Sort Filter and Map */,
+				3C66E9D83C7A11D93739C475 /* 14-15 Core Data and MVVM */,
+				DA781B8BB7B3075F24BFC2EA /* 16 Core Data Relationships */,
+				46A31C5850EA8BCE3282EFDF /* 17 Background Threads */,
+				85BCE471A46FBA0CF374F467 /* 18 Weak Self */,
+				CD4AC5577723590B777C5C33 /* 19 Typealias */,
+				922C8DBD560611EEB0AC2FFD /* 20 Escaping Closures */,
+				1484C757870B677F0A67484B /* 21 Codable */,
+				5698B9413B5D6AFA23EDFF50 /* 22 URLSession and Closures */,
+				62200E80C8EC67C5D30E01CB /* 23 URLSession and Combine */,
+				95426EC306FB4AEFE8B09BB9 /* 24 Timer */,
+				A1403E5493169763BD8F82B5 /* 25 Publishers and Subscribers */,
+				DC8F02FE0E5E85DE4A08E435 /* 26 FileManager */,
+				E74119E29486473392267943 /* 27 Image Cache */,
+				69DB9B66157D26A28D8A5E21 /* 28 Download and Cache Images */,
+				43FF7BF2B97ABC059B54C41D /* 29 Accessibility Dynamic Text */,
+				975A5597DABA6970DA7E79CC /* 30 Accessibility Dynamic Colors */,
+				C7D11FDF036B738E4D18FCB9 /* 31 Accessibility VoiceOver */,
+				2C4238CFD76A880F4FC2E1CE /* 32 Alignment Guides */,
+				AE45555BFDC7D2927F141E8A /* 33 VisualEffect */,
+				0656EB0342B0AE50E0E7F3CF /* 34 Paging ScrollView */,
+			);
+			name = "06 SwiftUI Continued Learning";
+			path = "06 SwiftUI Continued Learning";
+			sourceTree = "<group>";
+		};
+		11147A08249BD1AC604CC15D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				623BE045A7CD8271A2849E62 /* Views */,
+			);
+			name = Settings;
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		118A3C3CE59D32F18F8841FF /* 05 Gradients */ = {
+			isa = PBXGroup;
+			children = (
+				610A5497A00EEA8DDF1BA758 /* SUIBootcampGradientsBootcamp.swift */,
+			);
+			name = "05 Gradients";
+			path = "05 Gradients";
+			sourceTree = "<group>";
+		};
+		124F26D553721FDE0D341A27 /* 41 Stepper */ = {
+			isa = PBXGroup;
+			children = (
+				2184E0D856D1729223C6AABB /* SUIBootcampStepperBootcamp.swift */,
+			);
+			name = "41 Stepper";
+			path = "41 Stepper";
+			sourceTree = "<group>";
+		};
+		1484C757870B677F0A67484B /* 21 Codable */ = {
+			isa = PBXGroup;
+			children = (
+				9393120F42BB29383575DE40 /* ContinuedCourseCodableBootcamp.swift */,
+			);
+			name = "21 Codable";
+			path = "21 Codable";
 			sourceTree = "<group>";
 		};
 		171018C09FC8F96BE8056344 /* 12 Custom Navigation */ = {
@@ -1144,6 +1768,63 @@
 			path = "12 Custom Navigation";
 			sourceTree = "<group>";
 		};
+		17B7573B1EC5BFFF26503092 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2B6DECBD5E2B12713D523B4F /* ContinuedCourseDownloadingImagesViewModel.swift */,
+				0795C5D795FC4E48F60F5501 /* ContinuedCourseImageLoadingViewModel.swift */,
+			);
+			name = ViewModels;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1A5E23A6197B59D6FBB0D858 /* 30 Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				E80D939D02AA4B4D479D255B /* SUIBootcampNavigationViewBootcamp.swift */,
+			);
+			name = "30 Navigation";
+			path = "30 Navigation";
+			sourceTree = "<group>";
+		};
+		1CF3B3C1609D602EEB6ECC06 /* 17 PhotosPicker */ = {
+			isa = PBXGroup;
+			children = (
+				8B65AF7042CF919C4AEBBC3D /* ConcurrencyCoursePhotoPickerBootcamp.swift */,
+			);
+			name = "17 PhotosPicker";
+			path = "17 PhotosPicker";
+			sourceTree = "<group>";
+		};
+		1D6262101F6E6DEA18084101 /* 76 Onboarding Example */ = {
+			isa = PBXGroup;
+			children = (
+				29E5ED7669D0CEC5D4458080 /* OnboardingViews */,
+			);
+			name = "76 Onboarding Example";
+			path = "76 Onboarding Example";
+			sourceTree = "<group>";
+		};
+		1EE43B7D871F540ADE4F06FE /* 16 Lazy Grids */ = {
+			isa = PBXGroup;
+			children = (
+				160DD570BCCC8312CB6EA527 /* SUIBootcampGridBootcamp.swift */,
+			);
+			name = "16 Lazy Grids";
+			path = "16 Lazy Grids";
+			sourceTree = "<group>";
+		};
+		1FA2FF4EC0F4EEB47EF67C2A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				63AE0813E73BC6BAAD73ABB5 /* ContinuedCoursePhotoModelCacheManager.swift */,
+				31C152EDC11BEEA3FFB3376B /* ContinuedCoursePhotoModelDataService.swift */,
+				01FF8C94A5E6247ECE738FDA /* ContinuedCoursePhotoModelFileManager.swift */,
+			);
+			name = Utilities;
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		2014A33CE000B5B6927C3AFF /* 28 Errors and Alerts */ = {
 			isa = PBXGroup;
 			children = (
@@ -1152,13 +1833,69 @@
 			path = "28 Errors and Alerts";
 			sourceTree = "<group>";
 		};
-		27ECD2E3E28D0B6391DD7A21 /* SwiftBasics */ = {
+		2232158A38E9AB7AA2212035 /* 13 Initializers and Enums */ = {
+			isa = PBXGroup;
+			children = (
+				91B8BD2DC4AA5F2BA4F1D52A /* SUIBootcampInitializerBootcamp.swift */,
+			);
+			name = "13 Initializers and Enums";
+			path = "13 Initializers and Enums";
+			sourceTree = "<group>";
+		};
+		2285FABDAB55AD4FF7F681D8 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				2456DFD60EBA947FFFAC5A31 /* MapCourseLocationsDataService.swift */,
+			);
+			name = DataServices;
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+		249AF4A5F9FF3F3114BB875E /* 58 Button Styles */ = {
+			isa = PBXGroup;
+			children = (
+				1C321393B0686C7A19E31B13 /* SUIBootcampButtonStylesBootcamp.swift */,
+			);
+			name = "58 Button Styles";
+			path = "58 Button Styles";
+			sourceTree = "<group>";
+		};
+		27ECD2E3E28D0B6391DD7A21 /* 01 Swift Basics */ = {
 			isa = PBXGroup;
 			children = (
 				9829CDE058C758BE6CD3F5AD /* SwiftfulThinkingBasicsBootcamp.playground */,
 			);
-			name = SwiftBasics;
-			path = SwiftBasics;
+			name = "01 Swift Basics";
+			path = "01 Swift Basics";
+			sourceTree = "<group>";
+		};
+		29DA241140AB598234FB715C /* 43 TabView */ = {
+			isa = PBXGroup;
+			children = (
+				7EF2B49B5FB638C67BEF6555 /* SUIBootcampTabViewBootcamp.swift */,
+			);
+			name = "43 TabView";
+			path = "43 TabView";
+			sourceTree = "<group>";
+		};
+		29E5ED7669D0CEC5D4458080 /* OnboardingViews */ = {
+			isa = PBXGroup;
+			children = (
+				47379CAEA5449804952870CF /* SUIBootcampIntroView.swift */,
+				6BDCDAC64F764E65F21A2514 /* SUIBootcampOnboardingView.swift */,
+				E5F9E1371C7D44C2B01A27B4 /* SUIBootcampProfileView.swift */,
+			);
+			name = OnboardingViews;
+			path = OnboardingViews;
+			sourceTree = "<group>";
+		};
+		2B5A259917C9456D40E24A3B /* 68 AnyLayout */ = {
+			isa = PBXGroup;
+			children = (
+				B360D0B821B1248D5356FAF1 /* SUIBootcampAnyLayoutBootcamp.swift */,
+			);
+			name = "68 AnyLayout";
+			path = "68 AnyLayout";
 			sourceTree = "<group>";
 		};
 		2BC79E909EB36E5E047EAF8E /* 11 Custom Tab Bar */ = {
@@ -1173,6 +1910,51 @@
 			path = "11 Custom Tab Bar";
 			sourceTree = "<group>";
 		};
+		2C2A0DA8F2389151BDF054B9 /* 37 Toggle */ = {
+			isa = PBXGroup;
+			children = (
+				465D6D470E91453E1B01D8BC /* SUIBootcampToggleBootcamp.swift */,
+			);
+			name = "37 Toggle";
+			path = "37 Toggle";
+			sourceTree = "<group>";
+		};
+		2C4238CFD76A880F4FC2E1CE /* 32 Alignment Guides */ = {
+			isa = PBXGroup;
+			children = (
+				2272773F869F6FB0C9588873 /* ContinuedCourseAlignmentGuideBootcamp.swift */,
+			);
+			name = "32 Alignment Guides";
+			path = "32 Alignment Guides";
+			sourceTree = "<group>";
+		};
+		2FAFDD3EC241E22D213F4882 /* 14 ForEach */ = {
+			isa = PBXGroup;
+			children = (
+				085CE88C56E58B6FCB4F86FB /* SUIBootcampForEachBootcamp.swift */,
+			);
+			name = "14 ForEach";
+			path = "14 ForEach";
+			sourceTree = "<group>";
+		};
+		35C904765416430C9EBFFE94 /* 04 Colors */ = {
+			isa = PBXGroup;
+			children = (
+				76492EA856E81480605C995E /* SUIBootcampColorsBootcamp.swift */,
+			);
+			name = "04 Colors";
+			path = "04 Colors";
+			sourceTree = "<group>";
+		};
+		35E12EF37F0CB8D2000DF325 /* 12 Hashable */ = {
+			isa = PBXGroup;
+			children = (
+				7D8A5E6037190CC9E6BAA6CE /* ContinuedCourseHashableBootcamp.swift */,
+			);
+			name = "12 Hashable";
+			path = "12 Hashable";
+			sourceTree = "<group>";
+		};
 		3662DA2B3CDDC2AA33FE0E92 /* 30 Property Wrappers Part 1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1181,7 +1963,46 @@
 			path = "30 Property Wrappers Part 1";
 			sourceTree = "<group>";
 		};
-		415919382503775433940476 /* SwiftUIAdvancedLearning */ = {
+		371D3B37366766E83BE9FB60 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				38EAF515EF779C70809AB2F8 /* CryptoCourseHapticManager.swift */,
+				EA6477E996CD46AFBCE3D7CE /* CryptoCourseLocalFileManager.swift */,
+				572BC8DC0836430F47CECC58 /* CryptoCourseNetworkingManager.swift */,
+			);
+			name = Utilities;
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3BF4E11EE5822E3FAFD492D0 /* 45 Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				DADAA5D62EEA22D71C4FA732 /* SUIBootcampDocumentationBootcamp.swift */,
+			);
+			name = "45 Documentation";
+			path = "45 Documentation";
+			sourceTree = "<group>";
+		};
+		3C0B4AED02CB029279D2B523 /* 00 Course Overview */ = {
+			isa = PBXGroup;
+			children = (
+				F8C19474548C0222A9A4DC07 /* SUIBootcampContentView.swift */,
+			);
+			name = "00 Course Overview";
+			path = "00 Course Overview";
+			sourceTree = "<group>";
+		};
+		3C66E9D83C7A11D93739C475 /* 14-15 Core Data and MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				D700911CBFE1B9983D161D4B /* ContinuedCourseCoreDataBootcamp.swift */,
+				DD69362F69D660940255CF5E /* FruitsContainer.xcdatamodeld */,
+			);
+			name = "14-15 Core Data and MVVM";
+			path = "14-15 Core Data and MVVM";
+			sourceTree = "<group>";
+		};
+		415919382503775433940476 /* 12 SwiftUI Advanced Learning */ = {
 			isa = PBXGroup;
 			children = (
 				A4F816EE061FCFCBE1E3C58F /* 00 Course Menu */,
@@ -1219,7 +2040,8 @@
 				41C87BA9A2B80C0BEE613B30 /* 33 Custom Operators */,
 				A58B5E81CB61760BC7FB26E5 /* Resources */,
 			);
-			path = SwiftUIAdvancedLearning;
+			name = "12 SwiftUI Advanced Learning";
+			path = "12 SwiftUI Advanced Learning";
 			sourceTree = "<group>";
 		};
 		41C87BA9A2B80C0BEE613B30 /* 33 Custom Operators */ = {
@@ -1228,6 +2050,24 @@
 				3C6AE6EF77977413DCB753DF /* CustomOperatorBootcamp.swift */,
 			);
 			path = "33 Custom Operators";
+			sourceTree = "<group>";
+		};
+		42FA67BA1FEBEFF0FB4FA4E1 /* 52 OnAppear */ = {
+			isa = PBXGroup;
+			children = (
+				9261A49C9BB60A3F7123DE59 /* SUIBootcampOnAppearBootcamp.swift */,
+			);
+			name = "52 OnAppear";
+			path = "52 OnAppear";
+			sourceTree = "<group>";
+		};
+		43FF7BF2B97ABC059B54C41D /* 29 Accessibility Dynamic Text */ = {
+			isa = PBXGroup;
+			children = (
+				1305C224F29034AAFC185A60 /* ContinuedCourseAccessibilityTextBootcamp.swift */,
+			);
+			name = "29 Accessibility Dynamic Text";
+			path = "29 Accessibility Dynamic Text";
 			sourceTree = "<group>";
 		};
 		449FA71CB699BB6CD82B3CEF /* 05 Custom Shapes */ = {
@@ -1246,12 +2086,143 @@
 			path = "31 Property Wrappers Part 2";
 			sourceTree = "<group>";
 		};
+		44FAF1E946821BAD1E52DE35 /* 64 Group */ = {
+			isa = PBXGroup;
+			children = (
+				5A8774DADFE72021D044F0CB /* SUIBootcampGroupBootcamp.swift */,
+			);
+			name = "64 Group";
+			path = "64 Group";
+			sourceTree = "<group>";
+		};
+		45D3874CBD809E14E6BF73B9 /* 59 List Swipe Actions */ = {
+			isa = PBXGroup;
+			children = (
+				CCBE7B9B64BB458A35053317 /* SUIBootcampListSwipeActionsBootcamp.swift */,
+			);
+			name = "59 List Swipe Actions";
+			path = "59 List Swipe Actions";
+			sourceTree = "<group>";
+		};
+		469055380E7EEF3382DFEAA7 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				73BD8C750E7EE7F6D50AB4F0 /* ViewModels */,
+				6EBAD2F01A7C0BC4AFF2BBFB /* Views */,
+			);
+			name = Detail;
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		46A31C5850EA8BCE3282EFDF /* 17 Background Threads */ = {
+			isa = PBXGroup;
+			children = (
+				994E5A6F762CFCBBF2880B38 /* ContinuedCourseBackgroundThreadBootcamp.swift */,
+			);
+			name = "17 Background Threads";
+			path = "17 Background Threads";
+			sourceTree = "<group>";
+		};
+		46E90B63DF2F2645B4157CC9 /* 04 Drag Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				1DBE051B67751DB5767AF17A /* ContinuedCourseDragGestureBootcamp.swift */,
+				A8356FFAD4DB31DC6B202793 /* ContinuedCourseDragGestureBootcamp2.swift */,
+			);
+			name = "04 Drag Gesture";
+			path = "04 Drag Gesture";
+			sourceTree = "<group>";
+		};
 		4836041D49E7E48AD7D48875 /* 32 Subscripts */ = {
 			isa = PBXGroup;
 			children = (
 				FAC5188A8CB9EEED95F61F4A /* SubscriptsBootcamp.swift */,
 			);
 			path = "32 Subscripts";
+			sourceTree = "<group>";
+		};
+		4BF2D1D9A15C816703AE4339 /* 02 SwiftUI Bootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				3C0B4AED02CB029279D2B523 /* 00 Course Overview */,
+				959C4CBC3C2BB74039E77BFB /* 02 Text */,
+				52A3EE4EC478D449E8463D33 /* 03 Shapes */,
+				35C904765416430C9EBFFE94 /* 04 Colors */,
+				118A3C3CE59D32F18F8841FF /* 05 Gradients */,
+				570D32D9382E958218B5BF66 /* 06 Icons and SF Symbols */,
+				CC3DF3D72EB47D87970D9B38 /* 07 Images */,
+				E892F327BBD7060FE2AC8B00 /* 08 Frames and Alignment */,
+				91D3AA9203134C2D2D203DF7 /* 09 Backgrounds and Overlays */,
+				7827FB281BB5BA9A3B2D7D2E /* 10 Stacks */,
+				77B0967135D973E3E280DDD0 /* 11 Padding */,
+				0C70F02286D6DB09108224D0 /* 12 Spacer */,
+				2232158A38E9AB7AA2212035 /* 13 Initializers and Enums */,
+				2FAFDD3EC241E22D213F4882 /* 14 ForEach */,
+				6D9CD46C6AAF6BB04B75F93A /* 15 ScrollView */,
+				1EE43B7D871F540ADE4F06FE /* 16 Lazy Grids */,
+				891D784DAF72A9919642307C /* 17 Safe Area */,
+				900F58F1A1BF426D6BEC955B /* 18 Buttons */,
+				A6B8F79CB1601875264EA049 /* 19 State */,
+				F23D6C21F92CE6D77EB7E158 /* 20 Extract Functions */,
+				F6A4C1335130943FB9FCF0A4 /* 21 Extract Subviews */,
+				8801F85802181892213ABD3E /* 22 Binding */,
+				08D820F3DB8E7E80C911F583 /* 23 Conditionals */,
+				B5A6FFB08A2D0DE3A9CAAC3A /* 24 Ternary Operator */,
+				E9D4743D27ED6EC366C5AEBD /* 25 Animations */,
+				D961F6AAFEFD6504211A0A1A /* 26 Animation Timing */,
+				A8C49635AA657DF4011BBCF5 /* 27 Transitions */,
+				D565C8A56041365916623238 /* 28 Sheets */,
+				1042A751CCCDD8213E40A389 /* 29 Custom Popover */,
+				1A5E23A6197B59D6FBB0D858 /* 30 Navigation */,
+				D53CB9E5600573CCD12599AF /* 31 Lists */,
+				5649B44AF63C2247C1EA92FC /* 32 Alerts */,
+				EC6259EE7A10555CB5B43666 /* 33 Action Sheets */,
+				F08C9388BB8A98ED79D0BDE6 /* 34 Context Menu */,
+				A0042A87C435F15E015BEB79 /* 35 TextField */,
+				956AEF001FD5B4D6E7569028 /* 36 TextEditor */,
+				2C2A0DA8F2389151BDF054B9 /* 37 Toggle */,
+				073BA996DBBADC748429D9EF /* 38 Picker */,
+				E30D9B4C0F2BF7535C92ED4A /* 39 ColorPicker */,
+				E23859783346F2D268EB5961 /* 40 DatePicker */,
+				124F26D553721FDE0D341A27 /* 41 Stepper */,
+				E350C330109687BE946CA047 /* 42 Slider */,
+				29DA241140AB598234FB715C /* 43 TabView */,
+				7510F5D9ED7AEA17A5EC6356 /* 44 Dark Mode */,
+				3BF4E11EE5822E3FAFD492D0 /* 45 Documentation */,
+				0F98C9AF7787C3F77BE4CF52 /* 46 If Let and Guard */,
+				61825880E65BD5BAADB1B082 /* 47 Tap Gesture */,
+				73DC67257E82AB42139B3E46 /* 48 Models */,
+				931DCFF6815028AC59BACD1E /* 49 ViewModels */,
+				7FE824B720F286E21E09A4F0 /* 50 EnvironmentObject */,
+				E238F793F2054CCC0E59B4A1 /* 51 AppStorage */,
+				42FA67BA1FEBEFF0FB4FA4E1 /* 52 OnAppear */,
+				FC6DCCC4759A35ED8D0C7146 /* 53 AsyncImage */,
+				A4019D86107D1F11686DAE5E /* 54 Background Materials */,
+				8301D8485A2E881A57E167D2 /* 55 FocusState */,
+				BA556074E4436A648FE11AAB /* 56 Submit TextField */,
+				840EC85D805E23438DB421D1 /* 57 Text Selection */,
+				249AF4A5F9FF3F3114BB875E /* 58 Button Styles */,
+				45D3874CBD809E14E6BF73B9 /* 59 List Swipe Actions */,
+				A5FE518F99E4C0AC7522CCBC /* 60 Badges */,
+				0CD9AC600C216C3A1C7C0C33 /* 61 Modern Animations */,
+				9F9991FAE552990660E23DC7 /* 62 Resizable Sheets */,
+				B64875ABB5C90D71ADE7036F /* 63 Safe Area Insets */,
+				44FAF1E946821BAD1E52DE35 /* 64 Group */,
+				C88855CDE24008F32C167C00 /* 65 Menu */,
+				811F45C7091C7662564D1213 /* 66 Toolbar */,
+				0BC948DD6FABD0106E2975C8 /* 67 NavigationStack */,
+				2B5A259917C9456D40E24A3B /* 68 AnyLayout */,
+				6FAFB8272173F7D83C67566F /* 69 ViewThatFits */,
+				BF8BE9C32EE55708674EBE41 /* 70 Native Popover */,
+				7C5C04C87DE2E86CF2A5CC2B /* 71 Grid */,
+				073F9C648ECD86D259C77AA4 /* 72 NavigationSplitView */,
+				F0F23ED5F7CAF1C0C7EDCD3F /* 73 ControlGroup */,
+				82CBE61029051E37E9671DAC /* 74 ContentUnavailableView */,
+				B7DE694A1D12945D4D2899B8 /* 75 Observable */,
+				1D6262101F6E6DEA18084101 /* 76 Onboarding Example */,
+			);
+			name = "02 SwiftUI Bootcamp";
+			path = "02 SwiftUI Bootcamp";
 			sourceTree = "<group>";
 		};
 		4D7A223FA1B3AA58A285F253 /* 19 Advanced Combine */ = {
@@ -1262,12 +2233,153 @@
 			path = "19 Advanced Combine";
 			sourceTree = "<group>";
 		};
+		4E61A95A4CF1F8CE65F7355D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				73FBC072211D6641CC2C4F7E /* TodoCourseLaunchScreen.storyboard */,
+				F8B83291480BAF75114E1BD5 /* TodoCourseAddView.swift */,
+				7EFD736629FDD529DAF1E538 /* TodoCourseListRowView.swift */,
+				7A476772EB54432745C431AF /* TodoCourseListView.swift */,
+				CD74B2533B6235E76DA4F82D /* TodoCourseNoItemsView.swift */,
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4EE048D9D461B4758E7169E4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C6E0C74599041D4AA2BC91CE /* Components */,
+				469055380E7EEF3382DFEAA7 /* Detail */,
+				A47AD307021C876A547E1B9D /* Home */,
+				E503B4011DAF2AE7BEAA2A4C /* Launch */,
+				11147A08249BD1AC604CC15D /* Settings */,
+			);
+			name = Core;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		51606460DA0E0A05FF5DB295 /* 14 MVVM with Async Await */ = {
+			isa = PBXGroup;
+			children = (
+				5E8E9300F96339AB560037FD /* ConcurrencyCourseMVVMBootcamp.swift */,
+			);
+			name = "14 MVVM with Async Await";
+			path = "14 MVVM with Async Await";
+			sourceTree = "<group>";
+		};
 		525CF8FF2A7F26B35C195F54 /* 01 Custom ViewModifiers */ = {
 			isa = PBXGroup;
 			children = (
 				8A46DE649C45C625ACF7A6BF /* ViewModifierBootcamp.swift */,
 			);
 			path = "01 Custom ViewModifiers";
+			sourceTree = "<group>";
+		};
+		52A3EE4EC478D449E8463D33 /* 03 Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				B4E3F473D2605210C398518A /* SUIBootcampShapesBootcamp.swift */,
+			);
+			name = "03 Shapes";
+			path = "03 Shapes";
+			sourceTree = "<group>";
+		};
+		52C8F23097AE1E402BE38CD1 /* DownloadingImages */ = {
+			isa = PBXGroup;
+			children = (
+				ED90A7BC40463FA937B4072A /* Models */,
+				1FA2FF4EC0F4EEB47EF67C2A /* Utilities */,
+				17B7573B1EC5BFFF26503092 /* ViewModels */,
+				BCD1D2F81EA80C6D15DF4CCB /* Views */,
+			);
+			name = DownloadingImages;
+			path = DownloadingImages;
+			sourceTree = "<group>";
+		};
+		5649B44AF63C2247C1EA92FC /* 32 Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				E0506ED84403156B02C689AE /* SUIBootcampAlertBootcamp.swift */,
+			);
+			name = "32 Alerts";
+			path = "32 Alerts";
+			sourceTree = "<group>";
+		};
+		5698B9413B5D6AFA23EDFF50 /* 22 URLSession and Closures */ = {
+			isa = PBXGroup;
+			children = (
+				72E9F60293EA8F79C81DB7CE /* ContinuedCourseDownloadWithEscapingBootcamp.swift */,
+			);
+			name = "22 URLSession and Closures";
+			path = "22 URLSession and Closures";
+			sourceTree = "<group>";
+		};
+		570D32D9382E958218B5BF66 /* 06 Icons and SF Symbols */ = {
+			isa = PBXGroup;
+			children = (
+				B6C4FDED0E9E0A2EE59C6564 /* SUIBootcampIconsBootcamp.swift */,
+			);
+			name = "06 Icons and SF Symbols";
+			path = "06 Icons and SF Symbols";
+			sourceTree = "<group>";
+		};
+		5BF3C02811FBEAA4969708A5 /* TodoList */ = {
+			isa = PBXGroup;
+			children = (
+				A0D37F06689B1D509ECDBE4C /* Models */,
+				F4C2476D1B47751C092C5990 /* ViewModels */,
+				4E61A95A4CF1F8CE65F7355D /* Views */,
+			);
+			name = TodoList;
+			path = TodoList;
+			sourceTree = "<group>";
+		};
+		5D2C896FCF4EA0E05C056B3A /* 07 SwiftUI Crypto App */ = {
+			isa = PBXGroup;
+			children = (
+				BAD358362FEE3567754099DA /* SwiftfulCrypto */,
+			);
+			name = "07 SwiftUI Crypto App";
+			path = "07 SwiftUI Crypto App";
+			sourceTree = "<group>";
+		};
+		6101345864981B7DCD9B4F96 /* CoinImage */ = {
+			isa = PBXGroup;
+			children = (
+				1D629663A34BBFB0B836AAD8 /* CryptoCourseCoinImageView.swift */,
+				10F4A9C5CC41396E08CFE012 /* CryptoCourseCoinImageViewModel.swift */,
+				5BEC7047C182AAFD04863BAE /* CryptoCourseCoinLogoView.swift */,
+			);
+			name = CoinImage;
+			path = CoinImage;
+			sourceTree = "<group>";
+		};
+		61825880E65BD5BAADB1B082 /* 47 Tap Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				D7ADCF4B42D83A3823A52E42 /* SUIBootcampTapGestureBootcamp.swift */,
+			);
+			name = "47 Tap Gesture";
+			path = "47 Tap Gesture";
+			sourceTree = "<group>";
+		};
+		62200E80C8EC67C5D30E01CB /* 23 URLSession and Combine */ = {
+			isa = PBXGroup;
+			children = (
+				CE0552195D63E4A96920B416 /* ContinuedCourseDownloadWithCombine.swift */,
+			);
+			name = "23 URLSession and Combine";
+			path = "23 URLSession and Combine";
+			sourceTree = "<group>";
+		};
+		623BE045A7CD8271A2849E62 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4682C9CE1EC1BD711549E81 /* CryptoCourseSettingsView.swift */,
+			);
+			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		63094856E93A8855D925E446 /* 27 Custom Bindings */ = {
@@ -1278,12 +2390,183 @@
 			path = "27 Custom Bindings";
 			sourceTree = "<group>";
 		};
+		69DB9B66157D26A28D8A5E21 /* 28 Download and Cache Images */ = {
+			isa = PBXGroup;
+			children = (
+				52C8F23097AE1E402BE38CD1 /* DownloadingImages */,
+			);
+			name = "28 Download and Cache Images";
+			path = "28 Download and Cache Images";
+			sourceTree = "<group>";
+		};
+		69EA09A59D39789F14432115 /* 11 Sendable */ = {
+			isa = PBXGroup;
+			children = (
+				946823A7992BF99E81F5C402 /* ConcurrencyCourseSendableBootcamp.swift */,
+			);
+			name = "11 Sendable";
+			path = "11 Sendable";
+			sourceTree = "<group>";
+		};
+		6BF63DE726B99AA0C26805E0 /* 04 Task */ = {
+			isa = PBXGroup;
+			children = (
+				E68ED5C0A9A78828FD3F112A /* ConcurrencyCourseTaskBootcamp.swift */,
+			);
+			name = "04 Task";
+			path = "04 Task";
+			sourceTree = "<group>";
+		};
+		6D9CD46C6AAF6BB04B75F93A /* 15 ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				72C22742ADF34B1A7355B142 /* SUIBootcampScrollViewBootcamp.swift */,
+			);
+			name = "15 ScrollView";
+			path = "15 ScrollView";
+			sourceTree = "<group>";
+		};
+		6EBAD2F01A7C0BC4AFF2BBFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1960E629550D2E6CF4977FF6 /* CryptoCourseChartView.swift */,
+				18181244827E919D947B084B /* CryptoCourseDetailView.swift */,
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6FAFB8272173F7D83C67566F /* 69 ViewThatFits */ = {
+			isa = PBXGroup;
+			children = (
+				B611C32C3FD96346048BA3FA /* SUIBootcampViewThatFitsBootcamp.swift */,
+			);
+			name = "69 ViewThatFits";
+			path = "69 ViewThatFits";
+			sourceTree = "<group>";
+		};
+		72E3F0B8D66DA1492CA33B40 /* 15 Refreshable */ = {
+			isa = PBXGroup;
+			children = (
+				ED537EEE30B393E6504FA6CC /* ConcurrencyCourseRefreshableBootcamp.swift */,
+			);
+			name = "15 Refreshable";
+			path = "15 Refreshable";
+			sourceTree = "<group>";
+		};
 		7372251A2C424141E43BC3B8 /* 04 Matched Geometry Effect */ = {
 			isa = PBXGroup;
 			children = (
 				2AE7B7A906B5001B9DE6FC2E /* MatchedGeometryEffectBootcamp.swift */,
 			);
 			path = "04 Matched Geometry Effect";
+			sourceTree = "<group>";
+		};
+		73BD8C750E7EE7F6D50AB4F0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				30EFF55B6DDEB85A6A0F81F8 /* CryptoCourseDetailViewModel.swift */,
+			);
+			name = ViewModels;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		73DC67257E82AB42139B3E46 /* 48 Models */ = {
+			isa = PBXGroup;
+			children = (
+				FF6CD24A85D36E4C647F1240 /* SUIBootcampModelBootcamp.swift */,
+			);
+			name = "48 Models";
+			path = "48 Models";
+			sourceTree = "<group>";
+		};
+		742D68E79292811B984AF3C0 /* 09 Actors */ = {
+			isa = PBXGroup;
+			children = (
+				85D7BDDBF7F2C0DBD1941207 /* ConcurrencyCourseActorsBootcamp.swift */,
+			);
+			name = "09 Actors";
+			path = "09 Actors";
+			sourceTree = "<group>";
+		};
+		7510F5D9ED7AEA17A5EC6356 /* 44 Dark Mode */ = {
+			isa = PBXGroup;
+			children = (
+				BBF90BFF9FAA9DD6F4D8FEF7 /* SUIBootcampDarkModeBootcamp.swift */,
+			);
+			name = "44 Dark Mode";
+			path = "44 Dark Mode";
+			sourceTree = "<group>";
+		};
+		76249E49C26FBD4B727C50AE /* 01 Long Press Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				33D0D0E399AE0D097BD03D0D /* ContinuedCourseLongPressGestureBootcamp.swift */,
+			);
+			name = "01 Long Press Gesture";
+			path = "01 Long Press Gesture";
+			sourceTree = "<group>";
+		};
+		76C018000C82D99FAFA8F7D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E15FF567A23B565325B23FF8 /* CryptoCourseCoinDetailModel.swift */,
+				8548382F41BC398A7022F5B1 /* CryptoCourseCoinModel.swift */,
+				C676E3AD34C1E78B752FE3BF /* CryptoCourseMarketDataModel.swift */,
+				C025EA8A9F210EC1A2DBE1C7 /* CryptoCourseStatisticModel.swift */,
+				5543041845F7FF7E1C453F96 /* PortfolioContainer.xcdatamodeld */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		77B0967135D973E3E280DDD0 /* 11 Padding */ = {
+			isa = PBXGroup;
+			children = (
+				6E474D709D561B1CA278935D /* SUIBootcampPaddingAndSpacerBootcamp.swift */,
+			);
+			name = "11 Padding";
+			path = "11 Padding";
+			sourceTree = "<group>";
+		};
+		7827FB281BB5BA9A3B2D7D2E /* 10 Stacks */ = {
+			isa = PBXGroup;
+			children = (
+				975252D8383C5CC947D21CA3 /* SUIBootcampStacksBootcamp.swift */,
+			);
+			name = "10 Stacks";
+			path = "10 Stacks";
+			sourceTree = "<group>";
+		};
+		79062AB0C13CEE91FDA18B8D /* 07 Continuations */ = {
+			isa = PBXGroup;
+			children = (
+				01615C4E3F3F715F6D519462 /* ConcurrencyCourseCheckedContinuationBootcamp.swift */,
+			);
+			name = "07 Continuations";
+			path = "07 Continuations";
+			sourceTree = "<group>";
+		};
+		7B79A10C16B249D8FBF11207 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C0F96293AFB4795BA30DF6A8 /* MapCourseLocationDetailView.swift */,
+				6733718B77B5282A4280F636 /* MapCourseLocationMapAnnotationView.swift */,
+				6F4F49071F380EA7A7BBC375 /* MapCourseLocationPreviewView.swift */,
+				56CA34A25961237426161A26 /* MapCourseLocationsListView.swift */,
+				10CC99A9B76B5495526BAE9D /* MapCourseLocationsView.swift */,
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7C5C04C87DE2E86CF2A5CC2B /* 71 Grid */ = {
+			isa = PBXGroup;
+			children = (
+				BB4698CE7F5CC32EEF23D7F3 /* SUIBootcampGridViewBootcamp.swift */,
+			);
+			name = "71 Grid";
+			path = "71 Grid";
 			sourceTree = "<group>";
 		};
 		7E74AA85E747496A6E530851 /* 08 Generics */ = {
@@ -1294,12 +2577,326 @@
 			path = "08 Generics";
 			sourceTree = "<group>";
 		};
+		7FA6AEFF480BBA27071D5C89 /* 16 Searchable */ = {
+			isa = PBXGroup;
+			children = (
+				11A217D62D241E4330A79B1B /* ConcurrencyCourseSearchableBootcamp.swift */,
+			);
+			name = "16 Searchable";
+			path = "16 Searchable";
+			sourceTree = "<group>";
+		};
+		7FE824B720F286E21E09A4F0 /* 50 EnvironmentObject */ = {
+			isa = PBXGroup;
+			children = (
+				0CA09BC588473E865997AADC /* SUIBootcampEnvironmentObjectBootcamp.swift */,
+			);
+			name = "50 EnvironmentObject";
+			path = "50 EnvironmentObject";
+			sourceTree = "<group>";
+		};
+		811F45C7091C7662564D1213 /* 66 Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				72E3558DE968FB675B5FAEE8 /* SUIBootcampToolbarBootcamp.swift */,
+			);
+			name = "66 Toolbar";
+			path = "66 Toolbar";
+			sourceTree = "<group>";
+		};
+		8247EFABA35279F2945D1A40 /* 11 Local Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				B123CC1B91E454E5B32E7645 /* ContinuedCourseLocalNotificationBootcamp.swift */,
+			);
+			name = "11 Local Notifications";
+			path = "11 Local Notifications";
+			sourceTree = "<group>";
+		};
+		82CBE61029051E37E9671DAC /* 74 ContentUnavailableView */ = {
+			isa = PBXGroup;
+			children = (
+				F7E8EC7EAE7480ADD31ECAE3 /* SUIBootcampContentUnavailableViewBootcamp.swift */,
+			);
+			name = "74 ContentUnavailableView";
+			path = "74 ContentUnavailableView";
+			sourceTree = "<group>";
+		};
+		8301D8485A2E881A57E167D2 /* 55 FocusState */ = {
+			isa = PBXGroup;
+			children = (
+				440F3A4F4AA18F4BD6E94000 /* SUIBootcampFocusStateBootcamp.swift */,
+			);
+			name = "55 FocusState";
+			path = "55 FocusState";
+			sourceTree = "<group>";
+		};
 		833F023250B13F4812B84FF3 /* 24 CloudKit Push Notifications */ = {
 			isa = PBXGroup;
 			children = (
 				E8982D466918AD37A0FE6309 /* CloudKitPushNotificationBootcamp.swift */,
 			);
 			path = "24 CloudKit Push Notifications";
+			sourceTree = "<group>";
+		};
+		840EC85D805E23438DB421D1 /* 57 Text Selection */ = {
+			isa = PBXGroup;
+			children = (
+				C6D4DB2200CA10477065DAB9 /* SUIBootcampTextSelectionBootcamp.swift */,
+			);
+			name = "57 Text Selection";
+			path = "57 Text Selection";
+			sourceTree = "<group>";
+		};
+		8590B7949C2F6253FF4543F3 /* 05 SwiftUI Map App */ = {
+			isa = PBXGroup;
+			children = (
+				DB30CB710F3A34CD6578E39F /* SwiftfulMapApp */,
+			);
+			name = "05 SwiftUI Map App";
+			path = "05 SwiftUI Map App";
+			sourceTree = "<group>";
+		};
+		85BCE471A46FBA0CF374F467 /* 18 Weak Self */ = {
+			isa = PBXGroup;
+			children = (
+				14ED2866AD030D83BF5E4DC7 /* ContinuedCourseWeakSelfBootcamp.swift */,
+			);
+			name = "18 Weak Self";
+			path = "18 Weak Self";
+			sourceTree = "<group>";
+		};
+		88016D4D9D8CE961EFCC20C8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F6B013307E2927608DF11438 /* CryptoCourseColor.swift */,
+				2ADAB00F85D55CCF3B59C466 /* CryptoCourseDate.swift */,
+				1A5B9EF633620C3E8131CA0C /* CryptoCourseDouble.swift */,
+				360F5C7916A395372C2BA2E3 /* CryptoCoursePreviewProvider.swift */,
+				AA08B5AE0E3DDFA36AF346F2 /* CryptoCourseString.swift */,
+				0E1112677F587AC7979FC488 /* CryptoCourseUIApplication.swift */,
+			);
+			name = Extensions;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8801F85802181892213ABD3E /* 22 Binding */ = {
+			isa = PBXGroup;
+			children = (
+				2D135A1080B14ADD774302F0 /* SUIBootcampBindingBootcamp.swift */,
+			);
+			name = "22 Binding";
+			path = "22 Binding";
+			sourceTree = "<group>";
+		};
+		891D784DAF72A9919642307C /* 17 Safe Area */ = {
+			isa = PBXGroup;
+			children = (
+				4C35404BEA53D32B64C21C8A /* SUIBootcampSafeAreaBootcamp.swift */,
+			);
+			name = "17 Safe Area";
+			path = "17 Safe Area";
+			sourceTree = "<group>";
+		};
+		8D2BD2FED9DD78023962B836 /* 03 Rotation Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				1547FA51C2E86E4CA9AFD8A1 /* ContinuedCourseRotationGestureBootcamp.swift */,
+			);
+			name = "03 Rotation Gesture";
+			path = "03 Rotation Gesture";
+			sourceTree = "<group>";
+		};
+		8EFA54A3860377F7557E8BC6 /* 08 Mask */ = {
+			isa = PBXGroup;
+			children = (
+				D5CC6D5F92DBD8397EC47938 /* ContinuedCourseMaskBootcamp.swift */,
+			);
+			name = "08 Mask";
+			path = "08 Mask";
+			sourceTree = "<group>";
+		};
+		8F5CF92351D96F150D604ED3 /* 06 GeometryReader */ = {
+			isa = PBXGroup;
+			children = (
+				89408360D9FAC8094D63451A /* ContinuedCourseGeometryReaderBootcamp.swift */,
+			);
+			name = "06 GeometryReader";
+			path = "06 GeometryReader";
+			sourceTree = "<group>";
+		};
+		8F8B59D68503EF6C46371474 /* 05 Async Let */ = {
+			isa = PBXGroup;
+			children = (
+				F82557A70B673573E5343CC6 /* ConcurrencyCourseAsyncLetBootcamp.swift */,
+			);
+			name = "05 Async Let";
+			path = "05 Async Let";
+			sourceTree = "<group>";
+		};
+		8FBA370B92CF66644FECAB9D /* 02 Download Images */ = {
+			isa = PBXGroup;
+			children = (
+				0D50AEF90CE8BD4F72D26ECF /* ConcurrencyCourseDownloadImageAsync.swift */,
+			);
+			name = "02 Download Images";
+			path = "02 Download Images";
+			sourceTree = "<group>";
+		};
+		900F58F1A1BF426D6BEC955B /* 18 Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				71BC6E45CF235C3C5959E17C /* SUIBootcampButtonsBootcamp.swift */,
+			);
+			name = "18 Buttons";
+			path = "18 Buttons";
+			sourceTree = "<group>";
+		};
+		91D3AA9203134C2D2D203DF7 /* 09 Backgrounds and Overlays */ = {
+			isa = PBXGroup;
+			children = (
+				323F2F3C8EBBBC8E5A621FB8 /* SUIBootcampBackgroundAndOverlayBootcamp.swift */,
+			);
+			name = "09 Backgrounds and Overlays";
+			path = "09 Backgrounds and Overlays";
+			sourceTree = "<group>";
+		};
+		92103013E4DA02AF4FD660EA /* CircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				D07000286CA407162B5537F8 /* CryptoCourseCircleButtonAnimationView.swift */,
+				362B16B13D0408C396575DE2 /* CryptoCourseCircleButtonView.swift */,
+			);
+			name = CircleButton;
+			path = CircleButton;
+			sourceTree = "<group>";
+		};
+		922C8DBD560611EEB0AC2FFD /* 20 Escaping Closures */ = {
+			isa = PBXGroup;
+			children = (
+				DFCA90A9781EA88559B52550 /* ContinuedCourseEscapingBootcamp.swift */,
+			);
+			name = "20 Escaping Closures";
+			path = "20 Escaping Closures";
+			sourceTree = "<group>";
+		};
+		93198B90A67164C1EFC0E7D2 /* 09 Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				5CE7D383634744A7290F4B0F /* ContinuedCourseSoundsBootcamp.swift */,
+				F6D1C9DC43F385AD649A6B0F /* Sounds */,
+			);
+			name = "09 Sounds";
+			path = "09 Sounds";
+			sourceTree = "<group>";
+		};
+		931DCFF6815028AC59BACD1E /* 49 ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				56635E8B3BC5386F4533BB7D /* SUIBootcampViewModelBootcamp.swift */,
+			);
+			name = "49 ViewModels";
+			path = "49 ViewModels";
+			sourceTree = "<group>";
+		};
+		95426EC306FB4AEFE8B09BB9 /* 24 Timer */ = {
+			isa = PBXGroup;
+			children = (
+				E0C8705EC47970EDC1B5D705 /* ContinuedCourseTimerBootcamp.swift */,
+			);
+			name = "24 Timer";
+			path = "24 Timer";
+			sourceTree = "<group>";
+		};
+		956AEF001FD5B4D6E7569028 /* 36 TextEditor */ = {
+			isa = PBXGroup;
+			children = (
+				FF1F51ED51376381A36777D6 /* SUIBootcampTextEditorBootcamp.swift */,
+			);
+			name = "36 TextEditor";
+			path = "36 TextEditor";
+			sourceTree = "<group>";
+		};
+		959C4CBC3C2BB74039E77BFB /* 02 Text */ = {
+			isa = PBXGroup;
+			children = (
+				46CE3E5435C6F910E97F8D9A /* SUIBootcampTextBootcamp.swift */,
+			);
+			name = "02 Text";
+			path = "02 Text";
+			sourceTree = "<group>";
+		};
+		975A5597DABA6970DA7E79CC /* 30 Accessibility Dynamic Colors */ = {
+			isa = PBXGroup;
+			children = (
+				3E51DE8A7D56EBCD5716653E /* ContinuedCourseAccessibilityColorsBootcamp.swift */,
+			);
+			name = "30 Accessibility Dynamic Colors";
+			path = "30 Accessibility Dynamic Colors";
+			sourceTree = "<group>";
+		};
+		9E6F1314430F89CD07CD249A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F7F22FEEA4BF079B1A34E257 /* MapCourseLocation.swift */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9F9991FAE552990660E23DC7 /* 62 Resizable Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				492E54BE92B08A0CBB845FA4 /* SUIBootcampResizableSheetBootcamp.swift */,
+			);
+			name = "62 Resizable Sheets";
+			path = "62 Resizable Sheets";
+			sourceTree = "<group>";
+		};
+		A0042A87C435F15E015BEB79 /* 35 TextField */ = {
+			isa = PBXGroup;
+			children = (
+				ABDFB33EA2D79E130C7321A8 /* SUIBootcampTextfieldBootcamp.swift */,
+			);
+			name = "35 TextField";
+			path = "35 TextField";
+			sourceTree = "<group>";
+		};
+		A0D37F06689B1D509ECDBE4C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				10806EB25F224B38CFDCE18C /* TodoCourseItemModel.swift */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A1403E5493169763BD8F82B5 /* 25 Publishers and Subscribers */ = {
+			isa = PBXGroup;
+			children = (
+				06EE650E99AFFADBA7E63956 /* ContinuedCourseSubscriberBootcamp.swift */,
+			);
+			name = "25 Publishers and Subscribers";
+			path = "25 Publishers and Subscribers";
+			sourceTree = "<group>";
+		};
+		A4019D86107D1F11686DAE5E /* 54 Background Materials */ = {
+			isa = PBXGroup;
+			children = (
+				70C1190862919A8B09637FE9 /* SUIBootcampBackgroundMaterialsBootcamp.swift */,
+			);
+			name = "54 Background Materials";
+			path = "54 Background Materials";
+			sourceTree = "<group>";
+		};
+		A47AD307021C876A547E1B9D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C378991855602FD555D7BD86 /* ViewModels */,
+				AF4A97565DF63B97C1A0F20A /* Views */,
+			);
+			name = Home;
+			path = Home;
 			sourceTree = "<group>";
 		};
 		A4F816EE061FCFCBE1E3C58F /* 00 Course Menu */ = {
@@ -1313,9 +2910,17 @@
 		A58B5E81CB61760BC7FB26E5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				51EE6C849203296454468845 /* AdvancedLearningAssets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		A5FE518F99E4C0AC7522CCBC /* 60 Badges */ = {
+			isa = PBXGroup;
+			children = (
+				7F251B6F715FFC0B148A2A23 /* SUIBootcampBadgesBootcamp.swift */,
+			);
+			name = "60 Badges";
+			path = "60 Badges";
 			sourceTree = "<group>";
 		};
 		A687F1C3A47147356E61A628 /* 07 Animatable Data */ = {
@@ -1324,6 +2929,42 @@
 				7E8766B6E3A7A30E8690B5E0 /* AnimateableDataBootcamp.swift */,
 			);
 			path = "07 Animatable Data";
+			sourceTree = "<group>";
+		};
+		A6B485A3A480953F53AF0353 /* 03 Async Await */ = {
+			isa = PBXGroup;
+			children = (
+				51A98601A56FB93520AC0DF9 /* ConcurrencyCourseAsyncAwaitBootcamp.swift */,
+			);
+			name = "03 Async Await";
+			path = "03 Async Await";
+			sourceTree = "<group>";
+		};
+		A6B8F79CB1601875264EA049 /* 19 State */ = {
+			isa = PBXGroup;
+			children = (
+				315A3C5C12F93CAFB3730930 /* SUIBootcampStateBootcamp.swift */,
+			);
+			name = "19 State";
+			path = "19 State";
+			sourceTree = "<group>";
+		};
+		A8C49635AA657DF4011BBCF5 /* 27 Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				ED9EF72ECBB8E27A883CA518 /* SUIBootcampTransitionBootcamp.swift */,
+			);
+			name = "27 Transitions";
+			path = "27 Transitions";
+			sourceTree = "<group>";
+		};
+		A96B30F1FA9E5DAB2EB683AE /* 03 SwiftUI Todo List */ = {
+			isa = PBXGroup;
+			children = (
+				5BF3C02811FBEAA4969708A5 /* TodoList */,
+			);
+			name = "03 SwiftUI Todo List";
+			path = "03 SwiftUI Todo List";
 			sourceTree = "<group>";
 		};
 		AC0362292C1879840033B781 /* Tran */ = {
@@ -2425,17 +4066,72 @@
 		AC8A4EC43025EE6A0098FEF4 /* Swiftful Thinking */ = {
 			isa = PBXGroup;
 			children = (
-				415919382503775433940476 /* SwiftUIAdvancedLearning */,
-				27ECD2E3E28D0B6391DD7A21 /* SwiftBasics */,
+				27ECD2E3E28D0B6391DD7A21 /* 01 Swift Basics */,
+				4BF2D1D9A15C816703AE4339 /* 02 SwiftUI Bootcamp */,
+				A96B30F1FA9E5DAB2EB683AE /* 03 SwiftUI Todo List */,
+				8590B7949C2F6253FF4543F3 /* 05 SwiftUI Map App */,
+				10878E55238CF79531DDC7DF /* 06 SwiftUI Continued Learning */,
+				5D2C896FCF4EA0E05C056B3A /* 07 SwiftUI Crypto App */,
+				BFD23D15F3A37A70C09E10D8 /* 08 Swift Concurrency */,
+				ACFFF5072FF2F37B005E8C87 /* 11 SwiftUI in Practice */,
+				415919382503775433940476 /* 12 SwiftUI Advanced Learning */,
+				DBA1404446CD45D345620F9E /* Shared */,
 			);
 			path = "Swiftful Thinking";
+			sourceTree = "<group>";
+		};
+		AC8A4EC53025F1650098FEF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC8A4ED33025F1670098FEF4 /* SwiftConcurrencyBootcamp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC8A4EC73025F1650098FEF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC8A4EDF3025F1670098FEF4 /* SwiftfulThinkingContinuedLearning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC8A4EC93025F1660098FEF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC8A4ED93025F1670098FEF4 /* SwiftfulMapApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC8A4ECB3025F1660098FEF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC8A4ED63025F1670098FEF4 /* SwiftfulCrypto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC8A4ECD3025F1660098FEF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC8A4EDC3025F1670098FEF4 /* SwiftfulThinkingBootcamp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC8A4ECF3025F1660098FEF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC8A4EE23025F1670098FEF4 /* TodoList.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		AC9611A12DDB22D900398A1F /* App */ = {
 			isa = PBXGroup;
 			children = (
 				AC8A4EC43025EE6A0098FEF4 /* Swiftful Thinking */,
-				ACFFF5072FF2F37B005E8C87 /* SwiftUIinPractice */,
 				AC20C0012FBA6001008E9B67 /* Cursor */,
 				AC0C8C042F755AC8008E9B67 /* LiquidGlass */,
 				AC0E23812E8D6BAB00CEC1DF /* ForTestViews */,
@@ -3747,7 +5443,7 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		ACFFF5072FF2F37B005E8C87 /* SwiftUIinPractice */ = {
+		ACFFF5072FF2F37B005E8C87 /* 11 SwiftUI in Practice */ = {
 			isa = PBXGroup;
 			children = (
 				ACFFF55A2FF2F3E9005E8C87 /* SwiftUIinPractice.swift */,
@@ -3756,7 +5452,8 @@
 				ACFFF5532FF2F3BB005E8C87 /* Shared */,
 				ACFFF5432FF2F3B6005E8C87 /* Spotify */,
 			);
-			path = SwiftUIinPractice;
+			name = "11 SwiftUI in Practice";
+			path = "11 SwiftUI in Practice";
 			sourceTree = "<group>";
 		};
 		ACFFF5112FF2F3AA005E8C87 /* Components */ = {
@@ -3878,6 +5575,27 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
+		AE45555BFDC7D2927F141E8A /* 33 VisualEffect */ = {
+			isa = PBXGroup;
+			children = (
+				B210301E7BA93AF44362EC84 /* ContinuedCourseVisualEffectBootcamp.swift */,
+			);
+			name = "33 VisualEffect";
+			path = "33 VisualEffect";
+			sourceTree = "<group>";
+		};
+		AF4A97565DF63B97C1A0F20A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64F25E8C822F966900A1D0E1 /* CryptoCourseCoinRowView.swift */,
+				6F196FB59B6C39DE6CF4C664 /* CryptoCourseHomeStatsView.swift */,
+				7FB7B8138838F00E076D8D09 /* CryptoCourseHomeView.swift */,
+				358FC0B079B7199DCC025C68 /* CryptoCoursePortfolioView.swift */,
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
 		B19321A6FE0E41C39524A6D6 /* 29 KeyPaths */ = {
 			isa = PBXGroup;
 			children = (
@@ -3886,12 +5604,124 @@
 			path = "29 KeyPaths";
 			sourceTree = "<group>";
 		};
+		B5A6FFB08A2D0DE3A9CAAC3A /* 24 Ternary Operator */ = {
+			isa = PBXGroup;
+			children = (
+				86EC416242F9A74BBF91A569 /* SUIBootcampTernaryBootcamp.swift */,
+			);
+			name = "24 Ternary Operator";
+			path = "24 Ternary Operator";
+			sourceTree = "<group>";
+		};
+		B64875ABB5C90D71ADE7036F /* 63 Safe Area Insets */ = {
+			isa = PBXGroup;
+			children = (
+				CD05E8B9C3D9C73AC3F6559C /* SUIBootcampSafeAreaInsetBootcamp.swift */,
+			);
+			name = "63 Safe Area Insets";
+			path = "63 Safe Area Insets";
+			sourceTree = "<group>";
+		};
+		B7DE694A1D12945D4D2899B8 /* 75 Observable */ = {
+			isa = PBXGroup;
+			children = (
+				83F5B702C99638561A87C1D2 /* SUIBootcampObservableBootcamp.swift */,
+			);
+			name = "75 Observable";
+			path = "75 Observable";
+			sourceTree = "<group>";
+		};
+		BA556074E4436A648FE11AAB /* 56 Submit TextField */ = {
+			isa = PBXGroup;
+			children = (
+				C93476819EA65A84F6075DA6 /* SUIBootcampSubmitTextFieldBootcamp.swift */,
+			);
+			name = "56 Submit TextField";
+			path = "56 Submit TextField";
+			sourceTree = "<group>";
+		};
+		BAD358362FEE3567754099DA /* SwiftfulCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				4EE048D9D461B4758E7169E4 /* Core */,
+				88016D4D9D8CE961EFCC20C8 /* Extensions */,
+				76C018000C82D99FAFA8F7D7 /* Models */,
+				F3A4CB11E1FD52EEBBCCFA3D /* Services */,
+				371D3B37366766E83BE9FB60 /* Utilities */,
+			);
+			name = SwiftfulCrypto;
+			path = SwiftfulCrypto;
+			sourceTree = "<group>";
+		};
 		BC202AF8679C8EA229BF1E76 /* 13 UIViewRepresentable */ = {
 			isa = PBXGroup;
 			children = (
 				EDB9A3A2FFE56596D8C083F0 /* UIViewRepresentableBootcamp.swift */,
 			);
 			path = "13 UIViewRepresentable";
+			sourceTree = "<group>";
+		};
+		BC5F45E9A97962945FDA0FC0 /* 12 AsyncPublisher */ = {
+			isa = PBXGroup;
+			children = (
+				AF8997A6BF4EC131023CFDC7 /* ConcurrencyCourseAsyncPublisherBootcamp.swift */,
+			);
+			name = "12 AsyncPublisher";
+			path = "12 AsyncPublisher";
+			sourceTree = "<group>";
+		};
+		BCD1D2F81EA80C6D15DF4CCB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E3BE0EFBC04F0C845A79125B /* ContinuedCourseDownloadingImageView.swift */,
+				9D173B3DC8FDB34B26E9E63A /* ContinuedCourseDownloadingImagesBootcamp.swift */,
+				FAAC32A6546E923EFBACF797 /* ContinuedCourseDownloadingImagesRow.swift */,
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BF8BE9C32EE55708674EBE41 /* 70 Native Popover */ = {
+			isa = PBXGroup;
+			children = (
+				A10EDE3BF3356AA248414F71 /* SUIBootcampNativePopoverBootcamp.swift */,
+			);
+			name = "70 Native Popover";
+			path = "70 Native Popover";
+			sourceTree = "<group>";
+		};
+		BFD23D15F3A37A70C09E10D8 /* 08 Swift Concurrency */ = {
+			isa = PBXGroup;
+			children = (
+				00CAC285B147C03D630283B5 /* 01 Do Try Catch and Throws */,
+				8FBA370B92CF66644FECAB9D /* 02 Download Images */,
+				A6B485A3A480953F53AF0353 /* 03 Async Await */,
+				6BF63DE726B99AA0C26805E0 /* 04 Task */,
+				8F8B59D68503EF6C46371474 /* 05 Async Let */,
+				FB3B0441A21D84F3BE1CAFE4 /* 06 TaskGroup */,
+				79062AB0C13CEE91FDA18B8D /* 07 Continuations */,
+				C8C11DA3D5ACB99A9D9CBA89 /* 08 Struct Class and Actor */,
+				742D68E79292811B984AF3C0 /* 09 Actors */,
+				E47A8909ED751E22E52B9192 /* 10 Global Actors */,
+				69EA09A59D39789F14432115 /* 11 Sendable */,
+				BC5F45E9A97962945FDA0FC0 /* 12 AsyncPublisher */,
+				D1620AF74A6478EF98C4A4F9 /* 13 Strong and Weak References */,
+				51606460DA0E0A05FF5DB295 /* 14 MVVM with Async Await */,
+				72E3F0B8D66DA1492CA33B40 /* 15 Refreshable */,
+				7FA6AEFF480BBA27071D5C89 /* 16 Searchable */,
+				1CF3B3C1609D602EEB6ECC06 /* 17 PhotosPicker */,
+			);
+			name = "08 Swift Concurrency";
+			path = "08 Swift Concurrency";
+			sourceTree = "<group>";
+		};
+		C378991855602FD555D7BD86 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3D904F1C3D49CF5F3720BC4C /* CryptoCourseHomeViewModel.swift */,
+			);
+			name = ViewModels;
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		C44DF6B1790521E6CAEBE598 /* 17 Unit Testing */ = {
@@ -3922,12 +5752,70 @@
 			path = "18 UI Testing";
 			sourceTree = "<group>";
 		};
+		C6E0C74599041D4AA2BC91CE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				92103013E4DA02AF4FD660EA /* CircleButton */,
+				6101345864981B7DCD9B4F96 /* CoinImage */,
+				83839D2D50A6217988068672 /* CryptoCourseSearchBarView.swift */,
+				7F48AC47FD8852E43ECD4A72 /* CryptoCourseStatisticView.swift */,
+				DB7DD91D29C2303EA180E29E /* CryptoCourseXMarkButton.swift */,
+			);
+			name = Components;
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C7D11FDF036B738E4D18FCB9 /* 31 Accessibility VoiceOver */ = {
+			isa = PBXGroup;
+			children = (
+				E4970049F5AA3CDACDA1E989 /* ContinuedCourseAccessibilityVoiceOverBootcamp.swift */,
+			);
+			name = "31 Accessibility VoiceOver";
+			path = "31 Accessibility VoiceOver";
+			sourceTree = "<group>";
+		};
+		C88855CDE24008F32C167C00 /* 65 Menu */ = {
+			isa = PBXGroup;
+			children = (
+				E8F46932372237EECA95813F /* SUIBootcampMenuBootcamp.swift */,
+			);
+			name = "65 Menu";
+			path = "65 Menu";
+			sourceTree = "<group>";
+		};
+		C8C11DA3D5ACB99A9D9CBA89 /* 08 Struct Class and Actor */ = {
+			isa = PBXGroup;
+			children = (
+				05F368804D23286B071ADDAB /* ConcurrencyCourseStructClassActorBootcamp.swift */,
+			);
+			name = "08 Struct Class and Actor";
+			path = "08 Struct Class and Actor";
+			sourceTree = "<group>";
+		};
 		CA1A32CA61AD4E54799F639D /* 16 Dependency Injection */ = {
 			isa = PBXGroup;
 			children = (
 				F0E3EB1CEBBF28C16EFE5AE5 /* DependencyInjectionBootcamp.swift */,
 			);
 			path = "16 Dependency Injection";
+			sourceTree = "<group>";
+		};
+		CC3DF3D72EB47D87970D9B38 /* 07 Images */ = {
+			isa = PBXGroup;
+			children = (
+				7EFFD58C5E5E2EA5AD64E11F /* SUIBootcampImageBootcamp.swift */,
+			);
+			name = "07 Images";
+			path = "07 Images";
+			sourceTree = "<group>";
+		};
+		CD4AC5577723590B777C5C33 /* 19 Typealias */ = {
+			isa = PBXGroup;
+			children = (
+				844C872117C81C58579C8519 /* ContinuedCourseTypealiasBootcamp.swift */,
+			);
+			name = "19 Typealias";
+			path = "19 Typealias";
 			sourceTree = "<group>";
 		};
 		CEE5A087636D4C233745E5E8 /* 15 Protocols */ = {
@@ -3938,6 +5826,15 @@
 			path = "15 Protocols";
 			sourceTree = "<group>";
 		};
+		D1620AF74A6478EF98C4A4F9 /* 13 Strong and Weak References */ = {
+			isa = PBXGroup;
+			children = (
+				E6A61EFCEE135A28FCEAA10C /* ConcurrencyCourseStrongSelfBootcamp.swift */,
+			);
+			name = "13 Strong and Weak References";
+			path = "13 Strong and Weak References";
+			sourceTree = "<group>";
+		};
 		D40A941A558824B1F03BA8EE /* 22-23 CloudKit CRUD and Assets */ = {
 			isa = PBXGroup;
 			children = (
@@ -3946,12 +5843,79 @@
 			path = "22-23 CloudKit CRUD and Assets";
 			sourceTree = "<group>";
 		};
+		D53CB9E5600573CCD12599AF /* 31 Lists */ = {
+			isa = PBXGroup;
+			children = (
+				B11C1295C5CB6B665D07A6E9 /* SUIBootcampListBootcamp.swift */,
+			);
+			name = "31 Lists";
+			path = "31 Lists";
+			sourceTree = "<group>";
+		};
+		D565C8A56041365916623238 /* 28 Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				1C71FDBE47F81C1163FF74A8 /* SUIBootcampSheetsBootcamp.swift */,
+			);
+			name = "28 Sheets";
+			path = "28 Sheets";
+			sourceTree = "<group>";
+		};
+		D961F6AAFEFD6504211A0A1A /* 26 Animation Timing */ = {
+			isa = PBXGroup;
+			children = (
+				15F3AF4974A6563D8186DF29 /* SUIBootcampAnimationTimingBootcamp.swift */,
+			);
+			name = "26 Animation Timing";
+			path = "26 Animation Timing";
+			sourceTree = "<group>";
+		};
+		DA781B8BB7B3075F24BFC2EA /* 16 Core Data Relationships */ = {
+			isa = PBXGroup;
+			children = (
+				2DAEA9F83A3338E84B753A84 /* ContinuedCourseCoreDataRelationshipsBootcamp.swift */,
+				E3833046524A389F78EB77DA /* CoreDataContainer.xcdatamodeld */,
+			);
+			name = "16 Core Data Relationships";
+			path = "16 Core Data Relationships";
+			sourceTree = "<group>";
+		};
+		DB30CB710F3A34CD6578E39F /* SwiftfulMapApp */ = {
+			isa = PBXGroup;
+			children = (
+				2285FABDAB55AD4FF7F681D8 /* DataServices */,
+				9E6F1314430F89CD07CD249A /* Models */,
+				F39E8E292051333862803E15 /* ViewModels */,
+				7B79A10C16B249D8FBF11207 /* Views */,
+			);
+			name = SwiftfulMapApp;
+			path = SwiftfulMapApp;
+			sourceTree = "<group>";
+		};
 		DB7C62AB2CC88D23ED85FDE3 /* 03 Custom Transitions */ = {
 			isa = PBXGroup;
 			children = (
 				C0830EF1DE837213FB3A57CB /* AnyTransitionBootcamp.swift */,
 			);
 			path = "03 Custom Transitions";
+			sourceTree = "<group>";
+		};
+		DBA1404446CD45D345620F9E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				AF9F14FFBF9DA53A691E2C3B /* SwiftfulThinkingAssets.xcassets */,
+			);
+			name = Shared;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DC8F02FE0E5E85DE4A08E435 /* 26 FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				AD0207F4C241A2CC90924F5F /* ContinuedCourseFileManagerBootcamp.swift */,
+			);
+			name = "26 FileManager";
+			path = "26 FileManager";
 			sourceTree = "<group>";
 		};
 		DCBFF9BD2119703E66AC6535 /* 25 CloudKit Utility */ = {
@@ -3970,12 +5934,112 @@
 			path = "20 Futures and Promises";
 			sourceTree = "<group>";
 		};
+		DFF3B2F0B7B50DCF7C2E2AEB /* 13 Sort Filter and Map */ = {
+			isa = PBXGroup;
+			children = (
+				B7F58D6501F32780D7C719F2 /* ContinuedCourseArraysBootcamp.swift */,
+			);
+			name = "13 Sort Filter and Map";
+			path = "13 Sort Filter and Map";
+			sourceTree = "<group>";
+		};
+		E23859783346F2D268EB5961 /* 40 DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				0D8164B971A2A89108127F9B /* SUIBootcampDatePickerBootcamp.swift */,
+			);
+			name = "40 DatePicker";
+			path = "40 DatePicker";
+			sourceTree = "<group>";
+		};
+		E238F793F2054CCC0E59B4A1 /* 51 AppStorage */ = {
+			isa = PBXGroup;
+			children = (
+				82325AA292B178BABC2D2FBE /* SUIBootcampAppStorageBootcamp.swift */,
+			);
+			name = "51 AppStorage";
+			path = "51 AppStorage";
+			sourceTree = "<group>";
+		};
 		E2FF388EFED88015B36FC8AF /* 21 CloudKit User */ = {
 			isa = PBXGroup;
 			children = (
 				430EB9D0C8357C6107E61747 /* CloudKitUserBootcamp.swift */,
 			);
 			path = "21 CloudKit User";
+			sourceTree = "<group>";
+		};
+		E30D9B4C0F2BF7535C92ED4A /* 39 ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				D9061E11A9C748DE74B03404 /* SUIBootcampColorPickerBootcamp.swift */,
+			);
+			name = "39 ColorPicker";
+			path = "39 ColorPicker";
+			sourceTree = "<group>";
+		};
+		E350C330109687BE946CA047 /* 42 Slider */ = {
+			isa = PBXGroup;
+			children = (
+				C17C7554B94C22257598D563 /* SUIBootcampSliderBootcamp.swift */,
+			);
+			name = "42 Slider";
+			path = "42 Slider";
+			sourceTree = "<group>";
+		};
+		E47A8909ED751E22E52B9192 /* 10 Global Actors */ = {
+			isa = PBXGroup;
+			children = (
+				42C72B5A51C50488E7C73C7B /* ConcurrencyCourseGlobalActorBootcamp.swift */,
+			);
+			name = "10 Global Actors";
+			path = "10 Global Actors";
+			sourceTree = "<group>";
+		};
+		E4DA067E8651669824B30A91 /* 07 Multiple Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				C87E0D8CABA58832DE7B9A65 /* ContinuedCourseMultipleSheetsBootcamp.swift */,
+			);
+			name = "07 Multiple Sheets";
+			path = "07 Multiple Sheets";
+			sourceTree = "<group>";
+		};
+		E503B4011DAF2AE7BEAA2A4C /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				E5752FCCF530487899942AA7 /* Views */,
+			);
+			name = Launch;
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		E5752FCCF530487899942AA7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				26FD5E04EEFAADFBF9ED835C /* CryptoCourseLaunchView.swift */,
+				2294320C6870A19602F99E3D /* CryptoCourseLaunchScreen.storyboard */,
+			);
+			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E5974337CFC4E0FA1926BF54 /* 10 Haptics */ = {
+			isa = PBXGroup;
+			children = (
+				4A867C6001577769CAAEFBDF /* ContinuedCourseHapticsBootcamp.swift */,
+			);
+			name = "10 Haptics";
+			path = "10 Haptics";
+			sourceTree = "<group>";
+		};
+		E74119E29486473392267943 /* 27 Image Cache */ = {
+			isa = PBXGroup;
+			children = (
+				29ED2BCF648D31970F05E49F /* ContinuedCourseCacheBootcamp.swift */,
+			);
+			name = "27 Image Cache";
+			path = "27 Image Cache";
 			sourceTree = "<group>";
 		};
 		E7E39DB4C780793352AD9B1E /* 09 ViewBuilder */ = {
@@ -3986,12 +6050,143 @@
 			path = "09 ViewBuilder";
 			sourceTree = "<group>";
 		};
+		E892F327BBD7060FE2AC8B00 /* 08 Frames and Alignment */ = {
+			isa = PBXGroup;
+			children = (
+				449425DC150361DA5CC097B4 /* SUIBootcampFrameBootcamp.swift */,
+			);
+			name = "08 Frames and Alignment";
+			path = "08 Frames and Alignment";
+			sourceTree = "<group>";
+		};
+		E9D4743D27ED6EC366C5AEBD /* 25 Animations */ = {
+			isa = PBXGroup;
+			children = (
+				4329D747C0A04096A325449C /* SUIBootcampAnimationBootcamp.swift */,
+			);
+			name = "25 Animations";
+			path = "25 Animations";
+			sourceTree = "<group>";
+		};
+		EC6259EE7A10555CB5B43666 /* 33 Action Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				95E1F865F1E4EF65FF4870AC /* SUIBootcampActionsheetBootcamp.swift */,
+			);
+			name = "33 Action Sheets";
+			path = "33 Action Sheets";
+			sourceTree = "<group>";
+		};
+		ED90A7BC40463FA937B4072A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3360C8F2CE4A7F156459C1E1 /* ContinuedCoursePhotoModel.swift */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
 		EE2C226F4D0E30BCD922D643 /* 26 TimelineView */ = {
 			isa = PBXGroup;
 			children = (
 				5FE4D5D32783A721481ADCA1 /* TimelineViewBootcamp.swift */,
 			);
 			path = "26 TimelineView";
+			sourceTree = "<group>";
+		};
+		F08C9388BB8A98ED79D0BDE6 /* 34 Context Menu */ = {
+			isa = PBXGroup;
+			children = (
+				286D72B44E733207484173AA /* SUIBootcampContextMenuBootcamp.swift */,
+			);
+			name = "34 Context Menu";
+			path = "34 Context Menu";
+			sourceTree = "<group>";
+		};
+		F0F23ED5F7CAF1C0C7EDCD3F /* 73 ControlGroup */ = {
+			isa = PBXGroup;
+			children = (
+				8EA9D4E2001AFC7F190CEA97 /* SUIBootcampControlGroupMenuBootcamp.swift */,
+			);
+			name = "73 ControlGroup";
+			path = "73 ControlGroup";
+			sourceTree = "<group>";
+		};
+		F23D6C21F92CE6D77EB7E158 /* 20 Extract Functions */ = {
+			isa = PBXGroup;
+			children = (
+				047F34B9B0ED8666064F81B8 /* SUIBootcampExtractedFunctionsBootcamp.swift */,
+			);
+			name = "20 Extract Functions";
+			path = "20 Extract Functions";
+			sourceTree = "<group>";
+		};
+		F39E8E292051333862803E15 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E193519C8F8F1A78483E6AF0 /* MapCourseLocationsViewModel.swift */,
+			);
+			name = ViewModels;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F3A4CB11E1FD52EEBBCCFA3D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				49C2F375E3B2BB613460708F /* CryptoCourseCoinDataService.swift */,
+				B43D29955E1ABDAB3B39D26B /* CryptoCourseCoinDetailDataService.swift */,
+				950C43BAB770F4006ECE151E /* CryptoCourseCoinImageService.swift */,
+				3FFC93302C3A2CAEDEC03341 /* CryptoCourseMarketDataService.swift */,
+				322D88B5D9471B170C563DEA /* CryptoCoursePortfolioDataService.swift */,
+			);
+			name = Services;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F4C2476D1B47751C092C5990 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				84EAC48421B04313FA07A746 /* TodoCourseListViewModel.swift */,
+			);
+			name = ViewModels;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F6A4C1335130943FB9FCF0A4 /* 21 Extract Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				552FFA1296C07481BFB6261B /* SUIBootcampExtractSubviewsBootcamp.swift */,
+			);
+			name = "21 Extract Subviews";
+			path = "21 Extract Subviews";
+			sourceTree = "<group>";
+		};
+		F6D1C9DC43F385AD649A6B0F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				32B5AEA246E98E1C679E83F3 /* badum.mp3 */,
+				17FB0C3CBC41E49A9B54A9F5 /* tada.mp3 */,
+			);
+			name = Sounds;
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		FB3B0441A21D84F3BE1CAFE4 /* 06 TaskGroup */ = {
+			isa = PBXGroup;
+			children = (
+				9DC641D8A8EDE5AD6EF0FB33 /* ConcurrencyCourseTaskGroupBootcamp.swift */,
+			);
+			name = "06 TaskGroup";
+			path = "06 TaskGroup";
+			sourceTree = "<group>";
+		};
+		FC6DCCC4759A35ED8D0C7146 /* 53 AsyncImage */ = {
+			isa = PBXGroup;
+			children = (
+				F00A2071796A36D4D13F5885 /* SUIBootcampAsyncImageBoocamp.swift */,
+			);
+			name = "53 AsyncImage";
+			path = "53 AsyncImage";
 			sourceTree = "<group>";
 		};
 		FFA3ED6B819D970287C55682 /* 02 Custom ButtonStyles */ = {
@@ -4058,12 +6253,83 @@
 			);
 			productRefGroup = AC72FA612B513E2C009E60AB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AC8A4EC53025F1650098FEF4 /* Products */;
+					ProjectRef = 5350DCC8D0474BCFF0B92800 /* SwiftConcurrencyBootcamp.xcodeproj */;
+				},
+				{
+					ProductGroup = AC8A4ECB3025F1660098FEF4 /* Products */;
+					ProjectRef = A8E3E267201D99FF5A8D7165 /* SwiftfulCrypto.xcodeproj */;
+				},
+				{
+					ProductGroup = AC8A4EC93025F1660098FEF4 /* Products */;
+					ProjectRef = 88A3E50BAB46341304B1B1E7 /* SwiftfulMapApp.xcodeproj */;
+				},
+				{
+					ProductGroup = AC8A4ECD3025F1660098FEF4 /* Products */;
+					ProjectRef = F3853B1D2A06A5F294D02706 /* SwiftfulThinkingBootcamp.xcodeproj */;
+				},
+				{
+					ProductGroup = AC8A4EC73025F1650098FEF4 /* Products */;
+					ProjectRef = A6007587A963B4664A14028F /* SwiftfulThinkingContinuedLearning.xcodeproj */;
+				},
+				{
+					ProductGroup = AC8A4ECF3025F1660098FEF4 /* Products */;
+					ProjectRef = 8E59E425FAFD9FC586417C29 /* TodoList.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				AC72FA5F2B513E2C009E60AB /* ForTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AC8A4ED33025F1670098FEF4 /* SwiftConcurrencyBootcamp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwiftConcurrencyBootcamp.app;
+			remoteRef = AC8A4ED23025F1670098FEF4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AC8A4ED63025F1670098FEF4 /* SwiftfulCrypto.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwiftfulCrypto.app;
+			remoteRef = AC8A4ED53025F1670098FEF4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AC8A4ED93025F1670098FEF4 /* SwiftfulMapApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwiftfulMapApp.app;
+			remoteRef = AC8A4ED83025F1670098FEF4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AC8A4EDC3025F1670098FEF4 /* SwiftfulThinkingBootcamp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwiftfulThinkingBootcamp.app;
+			remoteRef = AC8A4EDB3025F1670098FEF4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AC8A4EDF3025F1670098FEF4 /* SwiftfulThinkingContinuedLearning.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwiftfulThinkingContinuedLearning.app;
+			remoteRef = AC8A4EDE3025F1670098FEF4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AC8A4EE23025F1670098FEF4 /* TodoList.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TodoList.app;
+			remoteRef = AC8A4EE13025F1670098FEF4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		AC72FA5E2B513E2C009E60AB /* Resources */ = {
@@ -4072,7 +6338,11 @@
 			files = (
 				AC72FA6B2B513E2E009E60AB /* Preview Assets.xcassets in Resources */,
 				AC72FA682B513E2E009E60AB /* Assets.xcassets in Resources */,
-				15CAB813580029397DD74CDD /* AdvancedLearningAssets.xcassets in Resources */,
+				25A05DEEA4464DEF9E31DD64 /* TodoCourseLaunchScreen.storyboard in Resources */,
+				F054039EE0D7C3610475488E /* CryptoCourseLaunchScreen.storyboard in Resources */,
+				CF793821526F8C5C1829B84C /* badum.mp3 in Resources */,
+				DA3ADE626B79294F0E33DD35 /* tada.mp3 in Resources */,
+				3EC8B3E77AB2AA2DE516E3B0 /* SwiftfulThinkingAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4622,6 +6892,196 @@
 				BF14494EB802C9AAD1DA8560 /* PropertyWrapper2Bootcamp.swift in Sources */,
 				5A98942A704B563B3D5AA574 /* SubscriptsBootcamp.swift in Sources */,
 				8718288265C5B52BEA55F689 /* CustomOperatorBootcamp.swift in Sources */,
+				8B34AE1C64A1CBD831467099 /* TodoCourseItemModel.swift in Sources */,
+				8B2EC72C931DF5C09BA2C242 /* TodoCourseListViewModel.swift in Sources */,
+				7C18094CF2CE91794D9B69FE /* TodoCourseAddView.swift in Sources */,
+				7AB3F3C372606BED27C1B692 /* TodoCourseListRowView.swift in Sources */,
+				3A554AB1AB00B6E8BF8BF5DC /* TodoCourseListView.swift in Sources */,
+				F77641CF0C78D88E33F30AED /* TodoCourseNoItemsView.swift in Sources */,
+				8A0E354C12E02A6612131EE1 /* MapCourseLocationsDataService.swift in Sources */,
+				9B91C833F907B77F389483F4 /* MapCourseLocation.swift in Sources */,
+				0EB4EB3C418456764F1C4065 /* MapCourseLocationsViewModel.swift in Sources */,
+				69A63B7F6385856529762816 /* MapCourseLocationDetailView.swift in Sources */,
+				6BE06F4C756D356ABC10122D /* MapCourseLocationMapAnnotationView.swift in Sources */,
+				D2265DC6CE34C6BBE1D8C705 /* MapCourseLocationPreviewView.swift in Sources */,
+				4770FAA8C8552FF7A07A589A /* MapCourseLocationsListView.swift in Sources */,
+				F5481930853A68467283D95C /* MapCourseLocationsView.swift in Sources */,
+				3361FDFA366B0700C001F22D /* CryptoCourseCircleButtonAnimationView.swift in Sources */,
+				52F8278F74FBE40E5CB78D1E /* CryptoCourseCircleButtonView.swift in Sources */,
+				0343BFE1335C7FF89BA74705 /* CryptoCourseCoinImageView.swift in Sources */,
+				029446FED304C6377D65436F /* CryptoCourseCoinImageViewModel.swift in Sources */,
+				093FF600A77ECCB5749EC8C0 /* CryptoCourseCoinLogoView.swift in Sources */,
+				CD335DEE0C24C2F92A143880 /* CryptoCourseSearchBarView.swift in Sources */,
+				AC01DA49E721CCB46FCAE227 /* CryptoCourseStatisticView.swift in Sources */,
+				321D17A1A4697B55D0937D9B /* CryptoCourseXMarkButton.swift in Sources */,
+				7EBF9D1489A9E68AC07AC1B7 /* CryptoCourseDetailViewModel.swift in Sources */,
+				D0B5AA631A51DFEBD232B821 /* CryptoCourseChartView.swift in Sources */,
+				E1B81A0767F6CA8260F68A56 /* CryptoCourseDetailView.swift in Sources */,
+				DE4DE98A42088096C5064560 /* CryptoCourseHomeViewModel.swift in Sources */,
+				93DDF8F4BB760326B049595B /* CryptoCourseCoinRowView.swift in Sources */,
+				0370C1251D15ECE82D3245D0 /* CryptoCourseHomeStatsView.swift in Sources */,
+				C24E490B915FC4DC37BE19D0 /* CryptoCourseHomeView.swift in Sources */,
+				0A9463D53688951A21BEC1CF /* CryptoCoursePortfolioView.swift in Sources */,
+				06A9F0CDF377B9559E4FBEB7 /* CryptoCourseLaunchView.swift in Sources */,
+				CEE8127A44C74AD3E0360B0F /* CryptoCourseSettingsView.swift in Sources */,
+				FFCC378C4929C83BA726E580 /* CryptoCourseColor.swift in Sources */,
+				2397F10A0BEBE73528DD70A7 /* CryptoCourseDate.swift in Sources */,
+				DD075D34C9AA97166FE3F41A /* CryptoCourseDouble.swift in Sources */,
+				3928FE5C4837ADA58226A521 /* CryptoCoursePreviewProvider.swift in Sources */,
+				A44CAF50E55FDC66EBD0042D /* CryptoCourseString.swift in Sources */,
+				BB2F0F7CD601D9F121F24107 /* CryptoCourseUIApplication.swift in Sources */,
+				721E46B7A8A3F99D27F8653A /* CryptoCourseCoinDetailModel.swift in Sources */,
+				5F6CE74EE176B4C74D2DAF2C /* CryptoCourseCoinModel.swift in Sources */,
+				0A207073AE031A1D8EAFF6F5 /* CryptoCourseMarketDataModel.swift in Sources */,
+				4FD70AF856BB37E46BA3EB97 /* CryptoCourseStatisticModel.swift in Sources */,
+				D117E0B9E8AF84FEBAD45070 /* PortfolioContainer.xcdatamodeld in Sources */,
+				384CD32E55DD375C9B40B161 /* CryptoCourseCoinDataService.swift in Sources */,
+				D8641B41A1332F2AFEEC04EC /* CryptoCourseCoinDetailDataService.swift in Sources */,
+				5AE90A171E7400EB3BBEFAE8 /* CryptoCourseCoinImageService.swift in Sources */,
+				AE7F7B310D551F9E4F897DD0 /* CryptoCourseMarketDataService.swift in Sources */,
+				0EAA568485D90DA4EEF71C75 /* CryptoCoursePortfolioDataService.swift in Sources */,
+				FD3A6725A2BA9916B4D2A8DE /* CryptoCourseHapticManager.swift in Sources */,
+				420D9E494BEA1AE5688A6E69 /* CryptoCourseLocalFileManager.swift in Sources */,
+				3886CD63E29B1418BB54A8E3 /* CryptoCourseNetworkingManager.swift in Sources */,
+				05DF063961BE9936925DA9F8 /* SUIBootcampContentView.swift in Sources */,
+				45459B2021A93F3DAE26CE7C /* SUIBootcampTextBootcamp.swift in Sources */,
+				6C28814A18E10E5C9BB338C5 /* SUIBootcampShapesBootcamp.swift in Sources */,
+				5E912F327D86CF18C1F10BE7 /* SUIBootcampColorsBootcamp.swift in Sources */,
+				B2B70E0828239954C24F71D2 /* SUIBootcampGradientsBootcamp.swift in Sources */,
+				E7E0FB95C6C5FECC66BF6B40 /* SUIBootcampIconsBootcamp.swift in Sources */,
+				4EEBB96E7367CF29A62C54B9 /* SUIBootcampImageBootcamp.swift in Sources */,
+				CDD98BEDF6A69B4BD493DD6C /* SUIBootcampFrameBootcamp.swift in Sources */,
+				C2D7EF60A7A695E882AEA1FC /* SUIBootcampBackgroundAndOverlayBootcamp.swift in Sources */,
+				4D605730586FF278CB469571 /* SUIBootcampStacksBootcamp.swift in Sources */,
+				E4DDA7AB94D1DEA755BB72D1 /* SUIBootcampPaddingAndSpacerBootcamp.swift in Sources */,
+				AA1BA0D0DD1F44E58933E357 /* SUIBootcampSpacerBootcamp.swift in Sources */,
+				B4D8C2B1D148541AF28B203D /* SUIBootcampInitializerBootcamp.swift in Sources */,
+				445E801F33A61CB84B6CF657 /* SUIBootcampForEachBootcamp.swift in Sources */,
+				F82850621FD3BCFD4F457782 /* SUIBootcampScrollViewBootcamp.swift in Sources */,
+				C5D45AE3D57BAE05D7CF9376 /* SUIBootcampGridBootcamp.swift in Sources */,
+				08466A57ED00B08CFEB53B0F /* SUIBootcampSafeAreaBootcamp.swift in Sources */,
+				C771F957578CA6D05D029B66 /* SUIBootcampButtonsBootcamp.swift in Sources */,
+				11A3798274D9E1909C176BC6 /* SUIBootcampStateBootcamp.swift in Sources */,
+				F166E7A22F7D41BAB7211240 /* SUIBootcampExtractedFunctionsBootcamp.swift in Sources */,
+				226592A06C5E999A82CFBBC9 /* SUIBootcampExtractSubviewsBootcamp.swift in Sources */,
+				AA352D91DD1B609B6360097B /* SUIBootcampBindingBootcamp.swift in Sources */,
+				1F39EC91705E003383778852 /* SUIBootcampConditionalBootcamp.swift in Sources */,
+				B0E3EF94E70DF4AD0F047D8E /* SUIBootcampTernaryBootcamp.swift in Sources */,
+				34BB2CB053D10C8088ABF8CE /* SUIBootcampAnimationBootcamp.swift in Sources */,
+				9CAA1AC1E3A52BCD5F959826 /* SUIBootcampAnimationTimingBootcamp.swift in Sources */,
+				3771697CFA46B2B043C25AF9 /* SUIBootcampTransitionBootcamp.swift in Sources */,
+				79CDC47C9E598B576CCB17A3 /* SUIBootcampSheetsBootcamp.swift in Sources */,
+				E8D20FEB103B1B2570E83949 /* SUIBootcampPopoverBootcamp.swift in Sources */,
+				202AB5A593331FCC44EB9196 /* SUIBootcampNavigationViewBootcamp.swift in Sources */,
+				558A7D8CDB2DD91886BDAA94 /* SUIBootcampListBootcamp.swift in Sources */,
+				CD6C339AD8855EFA37FF6600 /* SUIBootcampAlertBootcamp.swift in Sources */,
+				8F8466B5AEBD2C0846C433F8 /* SUIBootcampActionsheetBootcamp.swift in Sources */,
+				C0D6ECEC403BB02D5C231758 /* SUIBootcampContextMenuBootcamp.swift in Sources */,
+				1208E138F309B610AA0E36AE /* SUIBootcampTextfieldBootcamp.swift in Sources */,
+				3652AAD7FBFC40CEC71BCA48 /* SUIBootcampTextEditorBootcamp.swift in Sources */,
+				494919951370F98A8C40683C /* SUIBootcampToggleBootcamp.swift in Sources */,
+				3798F2F74A216EF2710DF489 /* SUIBootcampPickerBootcamp.swift in Sources */,
+				59117948DEC4B1D515C13865 /* SUIBootcampColorPickerBootcamp.swift in Sources */,
+				F6D3DBEC5EB24CC25A19C161 /* SUIBootcampDatePickerBootcamp.swift in Sources */,
+				3B387ED4F6518E08771A8985 /* SUIBootcampStepperBootcamp.swift in Sources */,
+				34A5928BFFDF8D2EAB5C4830 /* SUIBootcampSliderBootcamp.swift in Sources */,
+				62F775BECEF9ABF52958D77F /* SUIBootcampTabViewBootcamp.swift in Sources */,
+				6C639C685DA4D272DD8EBF39 /* SUIBootcampDarkModeBootcamp.swift in Sources */,
+				E8FE03BFF8B1810603220919 /* SUIBootcampDocumentationBootcamp.swift in Sources */,
+				13CCC15A389D092E52F628BD /* SUIBootcampIfLetGuardBootcamp.swift in Sources */,
+				3F65667D55DB86A6F97BB0C3 /* SUIBootcampTapGestureBootcamp.swift in Sources */,
+				894531C87CEFEDDA3A1AEB94 /* SUIBootcampModelBootcamp.swift in Sources */,
+				D42097A8EF9C2914A354051F /* SUIBootcampViewModelBootcamp.swift in Sources */,
+				A1A1951022B3F4ADFE001B95 /* SUIBootcampEnvironmentObjectBootcamp.swift in Sources */,
+				FAD75344007E59AFF538A56E /* SUIBootcampAppStorageBootcamp.swift in Sources */,
+				A642CBDEE1B27D36CE4A7C84 /* SUIBootcampOnAppearBootcamp.swift in Sources */,
+				4154651640EB519F7EF20BA4 /* SUIBootcampAsyncImageBoocamp.swift in Sources */,
+				2F42E51CFA0737C58F38CA2E /* SUIBootcampBackgroundMaterialsBootcamp.swift in Sources */,
+				1A1E266BDFD78662AE4E1236 /* SUIBootcampFocusStateBootcamp.swift in Sources */,
+				EAC73DD22718EF07ED2B50CC /* SUIBootcampSubmitTextFieldBootcamp.swift in Sources */,
+				1C2A92A46FF1806076FF4090 /* SUIBootcampTextSelectionBootcamp.swift in Sources */,
+				8390A9BB13899DBCDE071B72 /* SUIBootcampButtonStylesBootcamp.swift in Sources */,
+				0EBA43F8FD7ED9899D0175C2 /* SUIBootcampListSwipeActionsBootcamp.swift in Sources */,
+				6E93A85459A7AF8F8FBF5BF2 /* SUIBootcampBadgesBootcamp.swift in Sources */,
+				C2EB0B551D0E5B1FA522250F /* SUIBootcampAnimationUpdatedBootcamp.swift in Sources */,
+				D6A803E7A4024C06F507A698 /* SUIBootcampResizableSheetBootcamp.swift in Sources */,
+				33E4AF2EBD207D3B60412791 /* SUIBootcampSafeAreaInsetBootcamp.swift in Sources */,
+				15071FFA0B36F520D9D3929A /* SUIBootcampGroupBootcamp.swift in Sources */,
+				DD73D64E1D60EED66A3F370C /* SUIBootcampMenuBootcamp.swift in Sources */,
+				7D68915D8006569EC557CA04 /* SUIBootcampToolbarBootcamp.swift in Sources */,
+				9D5E6718C8BFFE327850224F /* SUIBootcampNavigationStackBootcamp.swift in Sources */,
+				31F84D322CBE9B1D70E66341 /* SUIBootcampAnyLayoutBootcamp.swift in Sources */,
+				18DAD50C7DC11317A5C79A9F /* SUIBootcampViewThatFitsBootcamp.swift in Sources */,
+				73BBDD9877F86AC76B6C3F64 /* SUIBootcampNativePopoverBootcamp.swift in Sources */,
+				56948E743C3BE19457149C15 /* SUIBootcampGridViewBootcamp.swift in Sources */,
+				C0E52C2EFEEA4C14AC6641BA /* SUIBootcampNavigationSplitViewBootcamp.swift in Sources */,
+				702BDA53B453FF3D4EF837D3 /* SUIBootcampControlGroupMenuBootcamp.swift in Sources */,
+				234376362447CD6F38D9CB04 /* SUIBootcampContentUnavailableViewBootcamp.swift in Sources */,
+				DCDD6C60EF63405BDC2D08E9 /* SUIBootcampObservableBootcamp.swift in Sources */,
+				BAFCB6004508439E3F6E16F7 /* SUIBootcampIntroView.swift in Sources */,
+				1F747723EA11BBA671E56070 /* SUIBootcampOnboardingView.swift in Sources */,
+				57378600197E2BEA4CAF6B42 /* SUIBootcampProfileView.swift in Sources */,
+				08C8185E0FAB5EF97EE4F514 /* ContinuedCourseLongPressGestureBootcamp.swift in Sources */,
+				8C35CA8A943C772CD6403C1B /* ContinuedCourseMagnificationGestureBootcamp.swift in Sources */,
+				B12FA8FD2B66D2906624F3B0 /* ContinuedCourseRotationGestureBootcamp.swift in Sources */,
+				FA6C525CD6DD47AA0055200B /* ContinuedCourseDragGestureBootcamp.swift in Sources */,
+				65C14704B9F94E5B4441B316 /* ContinuedCourseDragGestureBootcamp2.swift in Sources */,
+				21D0884C94708EED0325901D /* ContinuedCourseScrollViewReaderBootcamp.swift in Sources */,
+				D89DDF34BD79C74C4ABC7115 /* ContinuedCourseGeometryReaderBootcamp.swift in Sources */,
+				562987253E0BBD6011C4119E /* ContinuedCourseMultipleSheetsBootcamp.swift in Sources */,
+				DED3ECE3C328B725BF2C2CD9 /* ContinuedCourseMaskBootcamp.swift in Sources */,
+				1042F6F7545657DD8B0225A2 /* ContinuedCourseSoundsBootcamp.swift in Sources */,
+				62F4F5AD366BE2C9DE69C1B5 /* ContinuedCourseHapticsBootcamp.swift in Sources */,
+				74D62CCF4E991FDF81AE64FE /* ContinuedCourseLocalNotificationBootcamp.swift in Sources */,
+				F92EC36887B2F44ED7DF35F5 /* ContinuedCourseHashableBootcamp.swift in Sources */,
+				C5A7D43313CC0C3367EAFF34 /* ContinuedCourseArraysBootcamp.swift in Sources */,
+				418229DCB2E99BA0D84B711C /* ContinuedCourseCoreDataBootcamp.swift in Sources */,
+				606E91C1B6DE59182F48165B /* FruitsContainer.xcdatamodeld in Sources */,
+				13BAF6D2B0B8137BFF4197CA /* ContinuedCourseCoreDataRelationshipsBootcamp.swift in Sources */,
+				84DBCB4B55827AA9CD4004F6 /* CoreDataContainer.xcdatamodeld in Sources */,
+				D07A4E3DD5471B56EC34646D /* ContinuedCourseBackgroundThreadBootcamp.swift in Sources */,
+				2A1172B4B72BEDCF842384BF /* ContinuedCourseWeakSelfBootcamp.swift in Sources */,
+				75EBF37103AE6BB426FFEC93 /* ContinuedCourseTypealiasBootcamp.swift in Sources */,
+				DB1A9F8E0F9B67FFFE18F6A4 /* ContinuedCourseEscapingBootcamp.swift in Sources */,
+				D8591A80BBB83729479B620E /* ContinuedCourseCodableBootcamp.swift in Sources */,
+				6B29547B63B8A7AB2EECBC63 /* ContinuedCourseDownloadWithEscapingBootcamp.swift in Sources */,
+				0AA27E592B1C24D29B24C7E8 /* ContinuedCourseDownloadWithCombine.swift in Sources */,
+				CE0F8F975F6C7024F8BF95BC /* ContinuedCourseTimerBootcamp.swift in Sources */,
+				75280F2C0510F2987F13C938 /* ContinuedCourseSubscriberBootcamp.swift in Sources */,
+				8DFB33069DFBB3F6D970C7DE /* ContinuedCourseFileManagerBootcamp.swift in Sources */,
+				08823B96701F799CEEFAC724 /* ContinuedCourseCacheBootcamp.swift in Sources */,
+				EDB30157E98735460DA348C5 /* ContinuedCoursePhotoModel.swift in Sources */,
+				CD611CFF127239866CADBE14 /* ContinuedCoursePhotoModelCacheManager.swift in Sources */,
+				C0A2EDCEF3FF656B0EC69E46 /* ContinuedCoursePhotoModelDataService.swift in Sources */,
+				3A11D6E31AC2BD13614790D8 /* ContinuedCoursePhotoModelFileManager.swift in Sources */,
+				0E171860D43F43C071FAE524 /* ContinuedCourseDownloadingImagesViewModel.swift in Sources */,
+				5A8807366BD62EE59D1CD897 /* ContinuedCourseImageLoadingViewModel.swift in Sources */,
+				8571FB5B636A195BE233634A /* ContinuedCourseDownloadingImageView.swift in Sources */,
+				A95DC8DFBE9876FE57F95007 /* ContinuedCourseDownloadingImagesBootcamp.swift in Sources */,
+				15ED1C93A0E1F07E59BF98C8 /* ContinuedCourseDownloadingImagesRow.swift in Sources */,
+				58CE6190BCB87FDD95FAA9EC /* ContinuedCourseAccessibilityTextBootcamp.swift in Sources */,
+				6D0ACA4C2B97C640B62B6075 /* ContinuedCourseAccessibilityColorsBootcamp.swift in Sources */,
+				7BA9E884087A9FEC55CEAAD0 /* ContinuedCourseAccessibilityVoiceOverBootcamp.swift in Sources */,
+				BA78FDDB14D4637CD4902E2E /* ContinuedCourseAlignmentGuideBootcamp.swift in Sources */,
+				5E470C116C613E5832C75BA0 /* ContinuedCourseVisualEffectBootcamp.swift in Sources */,
+				8576C082776DBE0E1345551A /* ContinuedCourseScrollViewPagingBootcamp.swift in Sources */,
+				048EA81168620730CD9C3DC5 /* ConcurrencyCourseDoCatchTryThrowsBootcamp.swift in Sources */,
+				518DCDF21DB0D62D5A4180E4 /* ConcurrencyCourseDownloadImageAsync.swift in Sources */,
+				5F963FAEDD6B08C97F335E22 /* ConcurrencyCourseAsyncAwaitBootcamp.swift in Sources */,
+				6F7E8FD70D6CE67C32DDDDFA /* ConcurrencyCourseTaskBootcamp.swift in Sources */,
+				F7A0325F1D4D3B8AF82495CD /* ConcurrencyCourseAsyncLetBootcamp.swift in Sources */,
+				F430547B5D795CD775A83571 /* ConcurrencyCourseTaskGroupBootcamp.swift in Sources */,
+				F9F2575F937774F4CA0F8764 /* ConcurrencyCourseCheckedContinuationBootcamp.swift in Sources */,
+				8C794CE29949A145C42A100F /* ConcurrencyCourseStructClassActorBootcamp.swift in Sources */,
+				9045348C300BC7F9E21E8C4A /* ConcurrencyCourseActorsBootcamp.swift in Sources */,
+				F7F22A9D05D3CF70D2633CA6 /* ConcurrencyCourseGlobalActorBootcamp.swift in Sources */,
+				EEAD7A65774218FEB18241D9 /* ConcurrencyCourseSendableBootcamp.swift in Sources */,
+				BB7EC6E83EC93B70042CF39A /* ConcurrencyCourseAsyncPublisherBootcamp.swift in Sources */,
+				9FEB26D66CDB7EFE67113C9C /* ConcurrencyCourseStrongSelfBootcamp.swift in Sources */,
+				8AF01F38F9C390888F214926 /* ConcurrencyCourseMVVMBootcamp.swift in Sources */,
+				294EC2E045BB87DA04FFDA08 /* ConcurrencyCourseRefreshableBootcamp.swift in Sources */,
+				33307DCED912C8B94986D1AD /* ConcurrencyCourseSearchableBootcamp.swift in Sources */,
+				689E8678155BE79B83060D08 /* ConcurrencyCoursePhotoPickerBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4876,6 +7336,36 @@
 			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		5543041845F7FF7E1C453F96 /* PortfolioContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AD0E6DB5B346B5D872F905BC /* PortfolioContainer.xcdatamodel */,
+			);
+			path = PortfolioContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		DD69362F69D660940255CF5E /* FruitsContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1C918DEDB618E8098B24FF28 /* FruitsContainer.xcdatamodel */,
+			);
+			path = FruitsContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		E3833046524A389F78EB77DA /* CoreDataContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A9DB51036CEE217B7D418631 /* CoreDataContainer.xcdatamodel */,
+			);
+			path = CoreDataContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AC72FA582B513E2C009E60AB /* Project object */;
 }

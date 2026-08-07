@@ -1559,7 +1559,6 @@
 			children = (
 				7416C15E94982AF200C8D0BC /* ConcurrencyCourseDoCatchTryThrowsBootcamp.swift */,
 			);
-			name = "01 Do Try Catch and Throws";
 			path = "01 Do Try Catch and Throws";
 			sourceTree = "<group>";
 		};
@@ -1568,7 +1567,6 @@
 			children = (
 				ADB3E2BBF390111A8B93926E /* ContinuedCourseScrollViewPagingBootcamp.swift */,
 			);
-			name = "34 Paging ScrollView";
 			path = "34 Paging ScrollView";
 			sourceTree = "<group>";
 		};
@@ -1577,7 +1575,6 @@
 			children = (
 				8ABBE247FE6C58FB3A3EE0C8 /* ContinuedCourseScrollViewReaderBootcamp.swift */,
 			);
-			name = "05 ScrollViewReader";
 			path = "05 ScrollViewReader";
 			sourceTree = "<group>";
 		};
@@ -1586,7 +1583,6 @@
 			children = (
 				2D84E36B166688C7BA87664E /* SUIBootcampPickerBootcamp.swift */,
 			);
-			name = "38 Picker";
 			path = "38 Picker";
 			sourceTree = "<group>";
 		};
@@ -1595,7 +1591,6 @@
 			children = (
 				5A73AB4B913DD20A81115679 /* SUIBootcampNavigationSplitViewBootcamp.swift */,
 			);
-			name = "72 NavigationSplitView";
 			path = "72 NavigationSplitView";
 			sourceTree = "<group>";
 		};
@@ -1604,7 +1599,6 @@
 			children = (
 				A60E2C96C8A4DE6157FF9A71 /* ContinuedCourseMagnificationGestureBootcamp.swift */,
 			);
-			name = "02 Magnification Gesture";
 			path = "02 Magnification Gesture";
 			sourceTree = "<group>";
 		};
@@ -1613,7 +1607,6 @@
 			children = (
 				4A8720F29C16839D09E2022C /* SUIBootcampConditionalBootcamp.swift */,
 			);
-			name = "23 Conditionals";
 			path = "23 Conditionals";
 			sourceTree = "<group>";
 		};
@@ -1630,7 +1623,6 @@
 			children = (
 				5BF44EE13E53B29611740F07 /* SUIBootcampNavigationStackBootcamp.swift */,
 			);
-			name = "67 NavigationStack";
 			path = "67 NavigationStack";
 			sourceTree = "<group>";
 		};
@@ -1639,7 +1631,6 @@
 			children = (
 				807BCE131DFBF950E0BEC2E8 /* SUIBootcampSpacerBootcamp.swift */,
 			);
-			name = "12 Spacer";
 			path = "12 Spacer";
 			sourceTree = "<group>";
 		};
@@ -1648,7 +1639,6 @@
 			children = (
 				8F927756FCAB7A14D6E6C01E /* SUIBootcampAnimationUpdatedBootcamp.swift */,
 			);
-			name = "61 Modern Animations";
 			path = "61 Modern Animations";
 			sourceTree = "<group>";
 		};
@@ -1657,7 +1647,6 @@
 			children = (
 				9D35CC014C1E12B593AB48E2 /* SUIBootcampIfLetGuardBootcamp.swift */,
 			);
-			name = "46 If Let and Guard";
 			path = "46 If Let and Guard";
 			sourceTree = "<group>";
 		};
@@ -1666,7 +1655,6 @@
 			children = (
 				650DC49271E24CAF7007A0A1 /* SUIBootcampPopoverBootcamp.swift */,
 			);
-			name = "29 Custom Popover";
 			path = "29 Custom Popover";
 			sourceTree = "<group>";
 		};
@@ -1715,7 +1703,6 @@
 				AE45555BFDC7D2927F141E8A /* 33 VisualEffect */,
 				0656EB0342B0AE50E0E7F3CF /* 34 Paging ScrollView */,
 			);
-			name = "06 SwiftUI Continued Learning";
 			path = "06 SwiftUI Continued Learning";
 			sourceTree = "<group>";
 		};
@@ -1724,7 +1711,6 @@
 			children = (
 				623BE045A7CD8271A2849E62 /* Views */,
 			);
-			name = Settings;
 			path = Settings;
 			sourceTree = "<group>";
 		};
@@ -1733,7 +1719,6 @@
 			children = (
 				610A5497A00EEA8DDF1BA758 /* SUIBootcampGradientsBootcamp.swift */,
 			);
-			name = "05 Gradients";
 			path = "05 Gradients";
 			sourceTree = "<group>";
 		};
@@ -1742,7 +1727,6 @@
 			children = (
 				2184E0D856D1729223C6AABB /* SUIBootcampStepperBootcamp.swift */,
 			);
-			name = "41 Stepper";
 			path = "41 Stepper";
 			sourceTree = "<group>";
 		};
@@ -1751,7 +1735,6 @@
 			children = (
 				9393120F42BB29383575DE40 /* ContinuedCourseCodableBootcamp.swift */,
 			);
-			name = "21 Codable";
 			path = "21 Codable";
 			sourceTree = "<group>";
 		};
@@ -1774,7 +1757,6 @@
 				2B6DECBD5E2B12713D523B4F /* ContinuedCourseDownloadingImagesViewModel.swift */,
 				0795C5D795FC4E48F60F5501 /* ContinuedCourseImageLoadingViewModel.swift */,
 			);
-			name = ViewModels;
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
@@ -1783,7 +1765,6 @@
 			children = (
 				E80D939D02AA4B4D479D255B /* SUIBootcampNavigationViewBootcamp.swift */,
 			);
-			name = "30 Navigation";
 			path = "30 Navigation";
 			sourceTree = "<group>";
 		};
@@ -1792,7 +1773,6 @@
 			children = (
 				8B65AF7042CF919C4AEBBC3D /* ConcurrencyCoursePhotoPickerBootcamp.swift */,
 			);
-			name = "17 PhotosPicker";
 			path = "17 PhotosPicker";
 			sourceTree = "<group>";
 		};
@@ -1801,7 +1781,6 @@
 			children = (
 				29E5ED7669D0CEC5D4458080 /* OnboardingViews */,
 			);
-			name = "76 Onboarding Example";
 			path = "76 Onboarding Example";
 			sourceTree = "<group>";
 		};
@@ -1810,7 +1789,6 @@
 			children = (
 				160DD570BCCC8312CB6EA527 /* SUIBootcampGridBootcamp.swift */,
 			);
-			name = "16 Lazy Grids";
 			path = "16 Lazy Grids";
 			sourceTree = "<group>";
 		};
@@ -1821,7 +1799,6 @@
 				31C152EDC11BEEA3FFB3376B /* ContinuedCoursePhotoModelDataService.swift */,
 				01FF8C94A5E6247ECE738FDA /* ContinuedCoursePhotoModelFileManager.swift */,
 			);
-			name = Utilities;
 			path = Utilities;
 			sourceTree = "<group>";
 		};
@@ -1838,7 +1815,6 @@
 			children = (
 				91B8BD2DC4AA5F2BA4F1D52A /* SUIBootcampInitializerBootcamp.swift */,
 			);
-			name = "13 Initializers and Enums";
 			path = "13 Initializers and Enums";
 			sourceTree = "<group>";
 		};
@@ -1847,7 +1823,6 @@
 			children = (
 				2456DFD60EBA947FFFAC5A31 /* MapCourseLocationsDataService.swift */,
 			);
-			name = DataServices;
 			path = DataServices;
 			sourceTree = "<group>";
 		};
@@ -1856,7 +1831,6 @@
 			children = (
 				1C321393B0686C7A19E31B13 /* SUIBootcampButtonStylesBootcamp.swift */,
 			);
-			name = "58 Button Styles";
 			path = "58 Button Styles";
 			sourceTree = "<group>";
 		};
@@ -1865,7 +1839,6 @@
 			children = (
 				9829CDE058C758BE6CD3F5AD /* SwiftfulThinkingBasicsBootcamp.playground */,
 			);
-			name = "01 Swift Basics";
 			path = "01 Swift Basics";
 			sourceTree = "<group>";
 		};
@@ -1874,7 +1847,6 @@
 			children = (
 				7EF2B49B5FB638C67BEF6555 /* SUIBootcampTabViewBootcamp.swift */,
 			);
-			name = "43 TabView";
 			path = "43 TabView";
 			sourceTree = "<group>";
 		};
@@ -1885,7 +1857,6 @@
 				6BDCDAC64F764E65F21A2514 /* SUIBootcampOnboardingView.swift */,
 				E5F9E1371C7D44C2B01A27B4 /* SUIBootcampProfileView.swift */,
 			);
-			name = OnboardingViews;
 			path = OnboardingViews;
 			sourceTree = "<group>";
 		};
@@ -1894,7 +1865,6 @@
 			children = (
 				B360D0B821B1248D5356FAF1 /* SUIBootcampAnyLayoutBootcamp.swift */,
 			);
-			name = "68 AnyLayout";
 			path = "68 AnyLayout";
 			sourceTree = "<group>";
 		};
@@ -1915,7 +1885,6 @@
 			children = (
 				465D6D470E91453E1B01D8BC /* SUIBootcampToggleBootcamp.swift */,
 			);
-			name = "37 Toggle";
 			path = "37 Toggle";
 			sourceTree = "<group>";
 		};
@@ -1924,7 +1893,6 @@
 			children = (
 				2272773F869F6FB0C9588873 /* ContinuedCourseAlignmentGuideBootcamp.swift */,
 			);
-			name = "32 Alignment Guides";
 			path = "32 Alignment Guides";
 			sourceTree = "<group>";
 		};
@@ -1933,7 +1901,6 @@
 			children = (
 				085CE88C56E58B6FCB4F86FB /* SUIBootcampForEachBootcamp.swift */,
 			);
-			name = "14 ForEach";
 			path = "14 ForEach";
 			sourceTree = "<group>";
 		};
@@ -1942,7 +1909,6 @@
 			children = (
 				76492EA856E81480605C995E /* SUIBootcampColorsBootcamp.swift */,
 			);
-			name = "04 Colors";
 			path = "04 Colors";
 			sourceTree = "<group>";
 		};
@@ -1951,7 +1917,6 @@
 			children = (
 				7D8A5E6037190CC9E6BAA6CE /* ContinuedCourseHashableBootcamp.swift */,
 			);
-			name = "12 Hashable";
 			path = "12 Hashable";
 			sourceTree = "<group>";
 		};
@@ -1970,7 +1935,6 @@
 				EA6477E996CD46AFBCE3D7CE /* CryptoCourseLocalFileManager.swift */,
 				572BC8DC0836430F47CECC58 /* CryptoCourseNetworkingManager.swift */,
 			);
-			name = Utilities;
 			path = Utilities;
 			sourceTree = "<group>";
 		};
@@ -1979,7 +1943,6 @@
 			children = (
 				DADAA5D62EEA22D71C4FA732 /* SUIBootcampDocumentationBootcamp.swift */,
 			);
-			name = "45 Documentation";
 			path = "45 Documentation";
 			sourceTree = "<group>";
 		};
@@ -1988,7 +1951,6 @@
 			children = (
 				F8C19474548C0222A9A4DC07 /* SUIBootcampContentView.swift */,
 			);
-			name = "00 Course Overview";
 			path = "00 Course Overview";
 			sourceTree = "<group>";
 		};
@@ -1998,7 +1960,6 @@
 				D700911CBFE1B9983D161D4B /* ContinuedCourseCoreDataBootcamp.swift */,
 				DD69362F69D660940255CF5E /* FruitsContainer.xcdatamodeld */,
 			);
-			name = "14-15 Core Data and MVVM";
 			path = "14-15 Core Data and MVVM";
 			sourceTree = "<group>";
 		};
@@ -2040,7 +2001,6 @@
 				41C87BA9A2B80C0BEE613B30 /* 33 Custom Operators */,
 				A58B5E81CB61760BC7FB26E5 /* Resources */,
 			);
-			name = "12 SwiftUI Advanced Learning";
 			path = "12 SwiftUI Advanced Learning";
 			sourceTree = "<group>";
 		};
@@ -2057,7 +2017,6 @@
 			children = (
 				9261A49C9BB60A3F7123DE59 /* SUIBootcampOnAppearBootcamp.swift */,
 			);
-			name = "52 OnAppear";
 			path = "52 OnAppear";
 			sourceTree = "<group>";
 		};
@@ -2066,7 +2025,6 @@
 			children = (
 				1305C224F29034AAFC185A60 /* ContinuedCourseAccessibilityTextBootcamp.swift */,
 			);
-			name = "29 Accessibility Dynamic Text";
 			path = "29 Accessibility Dynamic Text";
 			sourceTree = "<group>";
 		};
@@ -2091,7 +2049,6 @@
 			children = (
 				5A8774DADFE72021D044F0CB /* SUIBootcampGroupBootcamp.swift */,
 			);
-			name = "64 Group";
 			path = "64 Group";
 			sourceTree = "<group>";
 		};
@@ -2100,7 +2057,6 @@
 			children = (
 				CCBE7B9B64BB458A35053317 /* SUIBootcampListSwipeActionsBootcamp.swift */,
 			);
-			name = "59 List Swipe Actions";
 			path = "59 List Swipe Actions";
 			sourceTree = "<group>";
 		};
@@ -2110,7 +2066,6 @@
 				73BD8C750E7EE7F6D50AB4F0 /* ViewModels */,
 				6EBAD2F01A7C0BC4AFF2BBFB /* Views */,
 			);
-			name = Detail;
 			path = Detail;
 			sourceTree = "<group>";
 		};
@@ -2119,7 +2074,6 @@
 			children = (
 				994E5A6F762CFCBBF2880B38 /* ContinuedCourseBackgroundThreadBootcamp.swift */,
 			);
-			name = "17 Background Threads";
 			path = "17 Background Threads";
 			sourceTree = "<group>";
 		};
@@ -2129,7 +2083,6 @@
 				1DBE051B67751DB5767AF17A /* ContinuedCourseDragGestureBootcamp.swift */,
 				A8356FFAD4DB31DC6B202793 /* ContinuedCourseDragGestureBootcamp2.swift */,
 			);
-			name = "04 Drag Gesture";
 			path = "04 Drag Gesture";
 			sourceTree = "<group>";
 		};
@@ -2221,7 +2174,6 @@
 				B7DE694A1D12945D4D2899B8 /* 75 Observable */,
 				1D6262101F6E6DEA18084101 /* 76 Onboarding Example */,
 			);
-			name = "02 SwiftUI Bootcamp";
 			path = "02 SwiftUI Bootcamp";
 			sourceTree = "<group>";
 		};
@@ -2242,7 +2194,6 @@
 				7A476772EB54432745C431AF /* TodoCourseListView.swift */,
 				CD74B2533B6235E76DA4F82D /* TodoCourseNoItemsView.swift */,
 			);
-			name = Views;
 			path = Views;
 			sourceTree = "<group>";
 		};
@@ -2255,7 +2206,6 @@
 				E503B4011DAF2AE7BEAA2A4C /* Launch */,
 				11147A08249BD1AC604CC15D /* Settings */,
 			);
-			name = Core;
 			path = Core;
 			sourceTree = "<group>";
 		};
@@ -2264,7 +2214,6 @@
 			children = (
 				5E8E9300F96339AB560037FD /* ConcurrencyCourseMVVMBootcamp.swift */,
 			);
-			name = "14 MVVM with Async Await";
 			path = "14 MVVM with Async Await";
 			sourceTree = "<group>";
 		};
@@ -2281,7 +2230,6 @@
 			children = (
 				B4E3F473D2605210C398518A /* SUIBootcampShapesBootcamp.swift */,
 			);
-			name = "03 Shapes";
 			path = "03 Shapes";
 			sourceTree = "<group>";
 		};
@@ -2293,7 +2241,6 @@
 				17B7573B1EC5BFFF26503092 /* ViewModels */,
 				BCD1D2F81EA80C6D15DF4CCB /* Views */,
 			);
-			name = DownloadingImages;
 			path = DownloadingImages;
 			sourceTree = "<group>";
 		};
@@ -2302,7 +2249,6 @@
 			children = (
 				E0506ED84403156B02C689AE /* SUIBootcampAlertBootcamp.swift */,
 			);
-			name = "32 Alerts";
 			path = "32 Alerts";
 			sourceTree = "<group>";
 		};
@@ -2311,7 +2257,6 @@
 			children = (
 				72E9F60293EA8F79C81DB7CE /* ContinuedCourseDownloadWithEscapingBootcamp.swift */,
 			);
-			name = "22 URLSession and Closures";
 			path = "22 URLSession and Closures";
 			sourceTree = "<group>";
 		};
@@ -2320,7 +2265,6 @@
 			children = (
 				B6C4FDED0E9E0A2EE59C6564 /* SUIBootcampIconsBootcamp.swift */,
 			);
-			name = "06 Icons and SF Symbols";
 			path = "06 Icons and SF Symbols";
 			sourceTree = "<group>";
 		};
@@ -2331,7 +2275,6 @@
 				F4C2476D1B47751C092C5990 /* ViewModels */,
 				4E61A95A4CF1F8CE65F7355D /* Views */,
 			);
-			name = TodoList;
 			path = TodoList;
 			sourceTree = "<group>";
 		};
@@ -2340,7 +2283,6 @@
 			children = (
 				BAD358362FEE3567754099DA /* SwiftfulCrypto */,
 			);
-			name = "07 SwiftUI Crypto App";
 			path = "07 SwiftUI Crypto App";
 			sourceTree = "<group>";
 		};
@@ -2351,7 +2293,6 @@
 				10F4A9C5CC41396E08CFE012 /* CryptoCourseCoinImageViewModel.swift */,
 				5BEC7047C182AAFD04863BAE /* CryptoCourseCoinLogoView.swift */,
 			);
-			name = CoinImage;
 			path = CoinImage;
 			sourceTree = "<group>";
 		};
@@ -2360,7 +2301,6 @@
 			children = (
 				D7ADCF4B42D83A3823A52E42 /* SUIBootcampTapGestureBootcamp.swift */,
 			);
-			name = "47 Tap Gesture";
 			path = "47 Tap Gesture";
 			sourceTree = "<group>";
 		};
@@ -2369,7 +2309,6 @@
 			children = (
 				CE0552195D63E4A96920B416 /* ContinuedCourseDownloadWithCombine.swift */,
 			);
-			name = "23 URLSession and Combine";
 			path = "23 URLSession and Combine";
 			sourceTree = "<group>";
 		};
@@ -2378,7 +2317,6 @@
 			children = (
 				E4682C9CE1EC1BD711549E81 /* CryptoCourseSettingsView.swift */,
 			);
-			name = Views;
 			path = Views;
 			sourceTree = "<group>";
 		};
@@ -2395,7 +2333,6 @@
 			children = (
 				52C8F23097AE1E402BE38CD1 /* DownloadingImages */,
 			);
-			name = "28 Download and Cache Images";
 			path = "28 Download and Cache Images";
 			sourceTree = "<group>";
 		};
@@ -2404,7 +2341,6 @@
 			children = (
 				946823A7992BF99E81F5C402 /* ConcurrencyCourseSendableBootcamp.swift */,
 			);
-			name = "11 Sendable";
 			path = "11 Sendable";
 			sourceTree = "<group>";
 		};
@@ -2413,7 +2349,6 @@
 			children = (
 				E68ED5C0A9A78828FD3F112A /* ConcurrencyCourseTaskBootcamp.swift */,
 			);
-			name = "04 Task";
 			path = "04 Task";
 			sourceTree = "<group>";
 		};
@@ -2422,7 +2357,6 @@
 			children = (
 				72C22742ADF34B1A7355B142 /* SUIBootcampScrollViewBootcamp.swift */,
 			);
-			name = "15 ScrollView";
 			path = "15 ScrollView";
 			sourceTree = "<group>";
 		};
@@ -2432,7 +2366,6 @@
 				1960E629550D2E6CF4977FF6 /* CryptoCourseChartView.swift */,
 				18181244827E919D947B084B /* CryptoCourseDetailView.swift */,
 			);
-			name = Views;
 			path = Views;
 			sourceTree = "<group>";
 		};
@@ -2441,7 +2374,6 @@
 			children = (
 				B611C32C3FD96346048BA3FA /* SUIBootcampViewThatFitsBootcamp.swift */,
 			);
-			name = "69 ViewThatFits";
 			path = "69 ViewThatFits";
 			sourceTree = "<group>";
 		};
@@ -2450,7 +2382,6 @@
 			children = (
 				ED537EEE30B393E6504FA6CC /* ConcurrencyCourseRefreshableBootcamp.swift */,
 			);
-			name = "15 Refreshable";
 			path = "15 Refreshable";
 			sourceTree = "<group>";
 		};
@@ -2467,7 +2398,6 @@
 			children = (
 				30EFF55B6DDEB85A6A0F81F8 /* CryptoCourseDetailViewModel.swift */,
 			);
-			name = ViewModels;
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
@@ -2476,7 +2406,6 @@
 			children = (
 				FF6CD24A85D36E4C647F1240 /* SUIBootcampModelBootcamp.swift */,
 			);
-			name = "48 Models";
 			path = "48 Models";
 			sourceTree = "<group>";
 		};
@@ -2485,7 +2414,6 @@
 			children = (
 				85D7BDDBF7F2C0DBD1941207 /* ConcurrencyCourseActorsBootcamp.swift */,
 			);
-			name = "09 Actors";
 			path = "09 Actors";
 			sourceTree = "<group>";
 		};
@@ -2494,7 +2422,6 @@
 			children = (
 				BBF90BFF9FAA9DD6F4D8FEF7 /* SUIBootcampDarkModeBootcamp.swift */,
 			);
-			name = "44 Dark Mode";
 			path = "44 Dark Mode";
 			sourceTree = "<group>";
 		};
@@ -2503,7 +2430,6 @@
 			children = (
 				33D0D0E399AE0D097BD03D0D /* ContinuedCourseLongPressGestureBootcamp.swift */,
 			);
-			name = "01 Long Press Gesture";
 			path = "01 Long Press Gesture";
 			sourceTree = "<group>";
 		};
@@ -2516,7 +2442,6 @@
 				C025EA8A9F210EC1A2DBE1C7 /* CryptoCourseStatisticModel.swift */,
 				5543041845F7FF7E1C453F96 /* PortfolioContainer.xcdatamodeld */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -2525,7 +2450,6 @@
 			children = (
 				6E474D709D561B1CA278935D /* SUIBootcampPaddingAndSpacerBootcamp.swift */,
 			);
-			name = "11 Padding";
 			path = "11 Padding";
 			sourceTree = "<group>";
 		};
@@ -2534,7 +2458,6 @@
 			children = (
 				975252D8383C5CC947D21CA3 /* SUIBootcampStacksBootcamp.swift */,
 			);
-			name = "10 Stacks";
 			path = "10 Stacks";
 			sourceTree = "<group>";
 		};
@@ -2543,7 +2466,6 @@
 			children = (
 				01615C4E3F3F715F6D519462 /* ConcurrencyCourseCheckedContinuationBootcamp.swift */,
 			);
-			name = "07 Continuations";
 			path = "07 Continuations";
 			sourceTree = "<group>";
 		};
@@ -2556,7 +2478,6 @@
 				56CA34A25961237426161A26 /* MapCourseLocationsListView.swift */,
 				10CC99A9B76B5495526BAE9D /* MapCourseLocationsView.swift */,
 			);
-			name = Views;
 			path = Views;
 			sourceTree = "<group>";
 		};
@@ -2565,7 +2486,6 @@
 			children = (
 				BB4698CE7F5CC32EEF23D7F3 /* SUIBootcampGridViewBootcamp.swift */,
 			);
-			name = "71 Grid";
 			path = "71 Grid";
 			sourceTree = "<group>";
 		};
@@ -2582,7 +2502,6 @@
 			children = (
 				11A217D62D241E4330A79B1B /* ConcurrencyCourseSearchableBootcamp.swift */,
 			);
-			name = "16 Searchable";
 			path = "16 Searchable";
 			sourceTree = "<group>";
 		};
@@ -2591,7 +2510,6 @@
 			children = (
 				0CA09BC588473E865997AADC /* SUIBootcampEnvironmentObjectBootcamp.swift */,
 			);
-			name = "50 EnvironmentObject";
 			path = "50 EnvironmentObject";
 			sourceTree = "<group>";
 		};
@@ -2600,7 +2518,6 @@
 			children = (
 				72E3558DE968FB675B5FAEE8 /* SUIBootcampToolbarBootcamp.swift */,
 			);
-			name = "66 Toolbar";
 			path = "66 Toolbar";
 			sourceTree = "<group>";
 		};
@@ -2609,7 +2526,6 @@
 			children = (
 				B123CC1B91E454E5B32E7645 /* ContinuedCourseLocalNotificationBootcamp.swift */,
 			);
-			name = "11 Local Notifications";
 			path = "11 Local Notifications";
 			sourceTree = "<group>";
 		};
@@ -2618,7 +2534,6 @@
 			children = (
 				F7E8EC7EAE7480ADD31ECAE3 /* SUIBootcampContentUnavailableViewBootcamp.swift */,
 			);
-			name = "74 ContentUnavailableView";
 			path = "74 ContentUnavailableView";
 			sourceTree = "<group>";
 		};
@@ -2627,7 +2542,6 @@
 			children = (
 				440F3A4F4AA18F4BD6E94000 /* SUIBootcampFocusStateBootcamp.swift */,
 			);
-			name = "55 FocusState";
 			path = "55 FocusState";
 			sourceTree = "<group>";
 		};
@@ -2644,7 +2558,6 @@
 			children = (
 				C6D4DB2200CA10477065DAB9 /* SUIBootcampTextSelectionBootcamp.swift */,
 			);
-			name = "57 Text Selection";
 			path = "57 Text Selection";
 			sourceTree = "<group>";
 		};
@@ -2653,7 +2566,6 @@
 			children = (
 				DB30CB710F3A34CD6578E39F /* SwiftfulMapApp */,
 			);
-			name = "05 SwiftUI Map App";
 			path = "05 SwiftUI Map App";
 			sourceTree = "<group>";
 		};
@@ -2662,7 +2574,6 @@
 			children = (
 				14ED2866AD030D83BF5E4DC7 /* ContinuedCourseWeakSelfBootcamp.swift */,
 			);
-			name = "18 Weak Self";
 			path = "18 Weak Self";
 			sourceTree = "<group>";
 		};
@@ -2676,7 +2587,6 @@
 				AA08B5AE0E3DDFA36AF346F2 /* CryptoCourseString.swift */,
 				0E1112677F587AC7979FC488 /* CryptoCourseUIApplication.swift */,
 			);
-			name = Extensions;
 			path = Extensions;
 			sourceTree = "<group>";
 		};
@@ -2685,7 +2595,6 @@
 			children = (
 				2D135A1080B14ADD774302F0 /* SUIBootcampBindingBootcamp.swift */,
 			);
-			name = "22 Binding";
 			path = "22 Binding";
 			sourceTree = "<group>";
 		};
@@ -2694,7 +2603,6 @@
 			children = (
 				4C35404BEA53D32B64C21C8A /* SUIBootcampSafeAreaBootcamp.swift */,
 			);
-			name = "17 Safe Area";
 			path = "17 Safe Area";
 			sourceTree = "<group>";
 		};
@@ -2703,7 +2611,6 @@
 			children = (
 				1547FA51C2E86E4CA9AFD8A1 /* ContinuedCourseRotationGestureBootcamp.swift */,
 			);
-			name = "03 Rotation Gesture";
 			path = "03 Rotation Gesture";
 			sourceTree = "<group>";
 		};
@@ -2712,7 +2619,6 @@
 			children = (
 				D5CC6D5F92DBD8397EC47938 /* ContinuedCourseMaskBootcamp.swift */,
 			);
-			name = "08 Mask";
 			path = "08 Mask";
 			sourceTree = "<group>";
 		};
@@ -2721,7 +2627,6 @@
 			children = (
 				89408360D9FAC8094D63451A /* ContinuedCourseGeometryReaderBootcamp.swift */,
 			);
-			name = "06 GeometryReader";
 			path = "06 GeometryReader";
 			sourceTree = "<group>";
 		};
@@ -2730,7 +2635,6 @@
 			children = (
 				F82557A70B673573E5343CC6 /* ConcurrencyCourseAsyncLetBootcamp.swift */,
 			);
-			name = "05 Async Let";
 			path = "05 Async Let";
 			sourceTree = "<group>";
 		};
@@ -2739,7 +2643,6 @@
 			children = (
 				0D50AEF90CE8BD4F72D26ECF /* ConcurrencyCourseDownloadImageAsync.swift */,
 			);
-			name = "02 Download Images";
 			path = "02 Download Images";
 			sourceTree = "<group>";
 		};
@@ -2748,7 +2651,6 @@
 			children = (
 				71BC6E45CF235C3C5959E17C /* SUIBootcampButtonsBootcamp.swift */,
 			);
-			name = "18 Buttons";
 			path = "18 Buttons";
 			sourceTree = "<group>";
 		};
@@ -2757,7 +2659,6 @@
 			children = (
 				323F2F3C8EBBBC8E5A621FB8 /* SUIBootcampBackgroundAndOverlayBootcamp.swift */,
 			);
-			name = "09 Backgrounds and Overlays";
 			path = "09 Backgrounds and Overlays";
 			sourceTree = "<group>";
 		};
@@ -2767,7 +2668,6 @@
 				D07000286CA407162B5537F8 /* CryptoCourseCircleButtonAnimationView.swift */,
 				362B16B13D0408C396575DE2 /* CryptoCourseCircleButtonView.swift */,
 			);
-			name = CircleButton;
 			path = CircleButton;
 			sourceTree = "<group>";
 		};
@@ -2776,7 +2676,6 @@
 			children = (
 				DFCA90A9781EA88559B52550 /* ContinuedCourseEscapingBootcamp.swift */,
 			);
-			name = "20 Escaping Closures";
 			path = "20 Escaping Closures";
 			sourceTree = "<group>";
 		};
@@ -2786,7 +2685,6 @@
 				5CE7D383634744A7290F4B0F /* ContinuedCourseSoundsBootcamp.swift */,
 				F6D1C9DC43F385AD649A6B0F /* Sounds */,
 			);
-			name = "09 Sounds";
 			path = "09 Sounds";
 			sourceTree = "<group>";
 		};
@@ -2795,7 +2693,6 @@
 			children = (
 				56635E8B3BC5386F4533BB7D /* SUIBootcampViewModelBootcamp.swift */,
 			);
-			name = "49 ViewModels";
 			path = "49 ViewModels";
 			sourceTree = "<group>";
 		};
@@ -2804,7 +2701,6 @@
 			children = (
 				E0C8705EC47970EDC1B5D705 /* ContinuedCourseTimerBootcamp.swift */,
 			);
-			name = "24 Timer";
 			path = "24 Timer";
 			sourceTree = "<group>";
 		};
@@ -2813,7 +2709,6 @@
 			children = (
 				FF1F51ED51376381A36777D6 /* SUIBootcampTextEditorBootcamp.swift */,
 			);
-			name = "36 TextEditor";
 			path = "36 TextEditor";
 			sourceTree = "<group>";
 		};
@@ -2822,7 +2717,6 @@
 			children = (
 				46CE3E5435C6F910E97F8D9A /* SUIBootcampTextBootcamp.swift */,
 			);
-			name = "02 Text";
 			path = "02 Text";
 			sourceTree = "<group>";
 		};
@@ -2831,7 +2725,6 @@
 			children = (
 				3E51DE8A7D56EBCD5716653E /* ContinuedCourseAccessibilityColorsBootcamp.swift */,
 			);
-			name = "30 Accessibility Dynamic Colors";
 			path = "30 Accessibility Dynamic Colors";
 			sourceTree = "<group>";
 		};
@@ -2840,7 +2733,6 @@
 			children = (
 				F7F22FEEA4BF079B1A34E257 /* MapCourseLocation.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -2849,7 +2741,6 @@
 			children = (
 				492E54BE92B08A0CBB845FA4 /* SUIBootcampResizableSheetBootcamp.swift */,
 			);
-			name = "62 Resizable Sheets";
 			path = "62 Resizable Sheets";
 			sourceTree = "<group>";
 		};
@@ -2858,7 +2749,6 @@
 			children = (
 				ABDFB33EA2D79E130C7321A8 /* SUIBootcampTextfieldBootcamp.swift */,
 			);
-			name = "35 TextField";
 			path = "35 TextField";
 			sourceTree = "<group>";
 		};
@@ -2867,7 +2757,6 @@
 			children = (
 				10806EB25F224B38CFDCE18C /* TodoCourseItemModel.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -2876,7 +2765,6 @@
 			children = (
 				06EE650E99AFFADBA7E63956 /* ContinuedCourseSubscriberBootcamp.swift */,
 			);
-			name = "25 Publishers and Subscribers";
 			path = "25 Publishers and Subscribers";
 			sourceTree = "<group>";
 		};
@@ -2885,7 +2773,6 @@
 			children = (
 				70C1190862919A8B09637FE9 /* SUIBootcampBackgroundMaterialsBootcamp.swift */,
 			);
-			name = "54 Background Materials";
 			path = "54 Background Materials";
 			sourceTree = "<group>";
 		};
@@ -2895,7 +2782,6 @@
 				C378991855602FD555D7BD86 /* ViewModels */,
 				AF4A97565DF63B97C1A0F20A /* Views */,
 			);
-			name = Home;
 			path = Home;
 			sourceTree = "<group>";
 		};
@@ -2919,7 +2805,6 @@
 			children = (
 				7F251B6F715FFC0B148A2A23 /* SUIBootcampBadgesBootcamp.swift */,
 			);
-			name = "60 Badges";
 			path = "60 Badges";
 			sourceTree = "<group>";
 		};
@@ -2936,7 +2821,6 @@
 			children = (
 				51A98601A56FB93520AC0DF9 /* ConcurrencyCourseAsyncAwaitBootcamp.swift */,
 			);
-			name = "03 Async Await";
 			path = "03 Async Await";
 			sourceTree = "<group>";
 		};
@@ -2945,7 +2829,6 @@
 			children = (
 				315A3C5C12F93CAFB3730930 /* SUIBootcampStateBootcamp.swift */,
 			);
-			name = "19 State";
 			path = "19 State";
 			sourceTree = "<group>";
 		};
@@ -2954,7 +2837,6 @@
 			children = (
 				ED9EF72ECBB8E27A883CA518 /* SUIBootcampTransitionBootcamp.swift */,
 			);
-			name = "27 Transitions";
 			path = "27 Transitions";
 			sourceTree = "<group>";
 		};
@@ -2963,7 +2845,6 @@
 			children = (
 				5BF3C02811FBEAA4969708A5 /* TodoList */,
 			);
-			name = "03 SwiftUI Todo List";
 			path = "03 SwiftUI Todo List";
 			sourceTree = "<group>";
 		};
@@ -3152,13 +3033,13 @@
 			path = "New Group 3";
 			sourceTree = "<group>";
 		};
-		AC20C0012FBA6001008E9B67 /* Cursor */ = {
+		AC20C0012FBA6001008E9B67 /* CursorTest */ = {
 			isa = PBXGroup;
 			children = (
 				AC20C0102FBA6101008E9B67 /* Weather */,
 				AC20C0302FBA6701008E9B67 /* Expenses */,
 			);
-			path = Cursor;
+			path = CursorTest;
 			sourceTree = "<group>";
 		};
 		AC20C0102FBA6101008E9B67 /* Weather */ = {
@@ -4128,15 +4009,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		AC8A4F083026114C0098FEF4 /* Studies */ = {
+			isa = PBXGroup;
+			children = (
+				AC0E23702E8D61FD00CEC1DF /* Books */,
+				AC0C8C042F755AC8008E9B67 /* LiquidGlass */,
+				AC96F12F2ECC5F7800335AA4 /* MasteringChartsInSwiftUI */,
+				AC8A4EC43025EE6A0098FEF4 /* Swiftful Thinking */,
+			);
+			path = Studies;
+			sourceTree = "<group>";
+		};
 		AC9611A12DDB22D900398A1F /* App */ = {
 			isa = PBXGroup;
 			children = (
-				AC8A4EC43025EE6A0098FEF4 /* Swiftful Thinking */,
-				AC20C0012FBA6001008E9B67 /* Cursor */,
-				AC0C8C042F755AC8008E9B67 /* LiquidGlass */,
+				AC8A4F083026114C0098FEF4 /* Studies */,
+				AC20C0012FBA6001008E9B67 /* CursorTest */,
 				AC0E23812E8D6BAB00CEC1DF /* ForTestViews */,
-				AC96F12F2ECC5F7800335AA4 /* MasteringChartsInSwiftUI */,
-				AC0E23702E8D61FD00CEC1DF /* Books */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -5452,7 +5341,6 @@
 				ACFFF5532FF2F3BB005E8C87 /* Shared */,
 				ACFFF5432FF2F3B6005E8C87 /* Spotify */,
 			);
-			name = "11 SwiftUI in Practice";
 			path = "11 SwiftUI in Practice";
 			sourceTree = "<group>";
 		};
@@ -5580,7 +5468,6 @@
 			children = (
 				B210301E7BA93AF44362EC84 /* ContinuedCourseVisualEffectBootcamp.swift */,
 			);
-			name = "33 VisualEffect";
 			path = "33 VisualEffect";
 			sourceTree = "<group>";
 		};
@@ -5592,7 +5479,6 @@
 				7FB7B8138838F00E076D8D09 /* CryptoCourseHomeView.swift */,
 				358FC0B079B7199DCC025C68 /* CryptoCoursePortfolioView.swift */,
 			);
-			name = Views;
 			path = Views;
 			sourceTree = "<group>";
 		};
@@ -5609,7 +5495,6 @@
 			children = (
 				86EC416242F9A74BBF91A569 /* SUIBootcampTernaryBootcamp.swift */,
 			);
-			name = "24 Ternary Operator";
 			path = "24 Ternary Operator";
 			sourceTree = "<group>";
 		};
@@ -5618,7 +5503,6 @@
 			children = (
 				CD05E8B9C3D9C73AC3F6559C /* SUIBootcampSafeAreaInsetBootcamp.swift */,
 			);
-			name = "63 Safe Area Insets";
 			path = "63 Safe Area Insets";
 			sourceTree = "<group>";
 		};
@@ -5627,7 +5511,6 @@
 			children = (
 				83F5B702C99638561A87C1D2 /* SUIBootcampObservableBootcamp.swift */,
 			);
-			name = "75 Observable";
 			path = "75 Observable";
 			sourceTree = "<group>";
 		};
@@ -5636,7 +5519,6 @@
 			children = (
 				C93476819EA65A84F6075DA6 /* SUIBootcampSubmitTextFieldBootcamp.swift */,
 			);
-			name = "56 Submit TextField";
 			path = "56 Submit TextField";
 			sourceTree = "<group>";
 		};
@@ -5649,7 +5531,6 @@
 				F3A4CB11E1FD52EEBBCCFA3D /* Services */,
 				371D3B37366766E83BE9FB60 /* Utilities */,
 			);
-			name = SwiftfulCrypto;
 			path = SwiftfulCrypto;
 			sourceTree = "<group>";
 		};
@@ -5666,7 +5547,6 @@
 			children = (
 				AF8997A6BF4EC131023CFDC7 /* ConcurrencyCourseAsyncPublisherBootcamp.swift */,
 			);
-			name = "12 AsyncPublisher";
 			path = "12 AsyncPublisher";
 			sourceTree = "<group>";
 		};
@@ -5677,7 +5557,6 @@
 				9D173B3DC8FDB34B26E9E63A /* ContinuedCourseDownloadingImagesBootcamp.swift */,
 				FAAC32A6546E923EFBACF797 /* ContinuedCourseDownloadingImagesRow.swift */,
 			);
-			name = Views;
 			path = Views;
 			sourceTree = "<group>";
 		};
@@ -5686,7 +5565,6 @@
 			children = (
 				A10EDE3BF3356AA248414F71 /* SUIBootcampNativePopoverBootcamp.swift */,
 			);
-			name = "70 Native Popover";
 			path = "70 Native Popover";
 			sourceTree = "<group>";
 		};
@@ -5711,7 +5589,6 @@
 				7FA6AEFF480BBA27071D5C89 /* 16 Searchable */,
 				1CF3B3C1609D602EEB6ECC06 /* 17 PhotosPicker */,
 			);
-			name = "08 Swift Concurrency";
 			path = "08 Swift Concurrency";
 			sourceTree = "<group>";
 		};
@@ -5720,7 +5597,6 @@
 			children = (
 				3D904F1C3D49CF5F3720BC4C /* CryptoCourseHomeViewModel.swift */,
 			);
-			name = ViewModels;
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
@@ -5761,7 +5637,6 @@
 				7F48AC47FD8852E43ECD4A72 /* CryptoCourseStatisticView.swift */,
 				DB7DD91D29C2303EA180E29E /* CryptoCourseXMarkButton.swift */,
 			);
-			name = Components;
 			path = Components;
 			sourceTree = "<group>";
 		};
@@ -5770,7 +5645,6 @@
 			children = (
 				E4970049F5AA3CDACDA1E989 /* ContinuedCourseAccessibilityVoiceOverBootcamp.swift */,
 			);
-			name = "31 Accessibility VoiceOver";
 			path = "31 Accessibility VoiceOver";
 			sourceTree = "<group>";
 		};
@@ -5779,7 +5653,6 @@
 			children = (
 				E8F46932372237EECA95813F /* SUIBootcampMenuBootcamp.swift */,
 			);
-			name = "65 Menu";
 			path = "65 Menu";
 			sourceTree = "<group>";
 		};
@@ -5788,7 +5661,6 @@
 			children = (
 				05F368804D23286B071ADDAB /* ConcurrencyCourseStructClassActorBootcamp.swift */,
 			);
-			name = "08 Struct Class and Actor";
 			path = "08 Struct Class and Actor";
 			sourceTree = "<group>";
 		};
@@ -5805,7 +5677,6 @@
 			children = (
 				7EFFD58C5E5E2EA5AD64E11F /* SUIBootcampImageBootcamp.swift */,
 			);
-			name = "07 Images";
 			path = "07 Images";
 			sourceTree = "<group>";
 		};
@@ -5814,7 +5685,6 @@
 			children = (
 				844C872117C81C58579C8519 /* ContinuedCourseTypealiasBootcamp.swift */,
 			);
-			name = "19 Typealias";
 			path = "19 Typealias";
 			sourceTree = "<group>";
 		};
@@ -5831,7 +5701,6 @@
 			children = (
 				E6A61EFCEE135A28FCEAA10C /* ConcurrencyCourseStrongSelfBootcamp.swift */,
 			);
-			name = "13 Strong and Weak References";
 			path = "13 Strong and Weak References";
 			sourceTree = "<group>";
 		};
@@ -5848,7 +5717,6 @@
 			children = (
 				B11C1295C5CB6B665D07A6E9 /* SUIBootcampListBootcamp.swift */,
 			);
-			name = "31 Lists";
 			path = "31 Lists";
 			sourceTree = "<group>";
 		};
@@ -5857,7 +5725,6 @@
 			children = (
 				1C71FDBE47F81C1163FF74A8 /* SUIBootcampSheetsBootcamp.swift */,
 			);
-			name = "28 Sheets";
 			path = "28 Sheets";
 			sourceTree = "<group>";
 		};
@@ -5866,7 +5733,6 @@
 			children = (
 				15F3AF4974A6563D8186DF29 /* SUIBootcampAnimationTimingBootcamp.swift */,
 			);
-			name = "26 Animation Timing";
 			path = "26 Animation Timing";
 			sourceTree = "<group>";
 		};
@@ -5876,7 +5742,6 @@
 				2DAEA9F83A3338E84B753A84 /* ContinuedCourseCoreDataRelationshipsBootcamp.swift */,
 				E3833046524A389F78EB77DA /* CoreDataContainer.xcdatamodeld */,
 			);
-			name = "16 Core Data Relationships";
 			path = "16 Core Data Relationships";
 			sourceTree = "<group>";
 		};
@@ -5888,7 +5753,6 @@
 				F39E8E292051333862803E15 /* ViewModels */,
 				7B79A10C16B249D8FBF11207 /* Views */,
 			);
-			name = SwiftfulMapApp;
 			path = SwiftfulMapApp;
 			sourceTree = "<group>";
 		};
@@ -5905,7 +5769,6 @@
 			children = (
 				AF9F14FFBF9DA53A691E2C3B /* SwiftfulThinkingAssets.xcassets */,
 			);
-			name = Shared;
 			path = Shared;
 			sourceTree = "<group>";
 		};
@@ -5914,7 +5777,6 @@
 			children = (
 				AD0207F4C241A2CC90924F5F /* ContinuedCourseFileManagerBootcamp.swift */,
 			);
-			name = "26 FileManager";
 			path = "26 FileManager";
 			sourceTree = "<group>";
 		};
@@ -5939,7 +5801,6 @@
 			children = (
 				B7F58D6501F32780D7C719F2 /* ContinuedCourseArraysBootcamp.swift */,
 			);
-			name = "13 Sort Filter and Map";
 			path = "13 Sort Filter and Map";
 			sourceTree = "<group>";
 		};
@@ -5948,7 +5809,6 @@
 			children = (
 				0D8164B971A2A89108127F9B /* SUIBootcampDatePickerBootcamp.swift */,
 			);
-			name = "40 DatePicker";
 			path = "40 DatePicker";
 			sourceTree = "<group>";
 		};
@@ -5957,7 +5817,6 @@
 			children = (
 				82325AA292B178BABC2D2FBE /* SUIBootcampAppStorageBootcamp.swift */,
 			);
-			name = "51 AppStorage";
 			path = "51 AppStorage";
 			sourceTree = "<group>";
 		};
@@ -5974,7 +5833,6 @@
 			children = (
 				D9061E11A9C748DE74B03404 /* SUIBootcampColorPickerBootcamp.swift */,
 			);
-			name = "39 ColorPicker";
 			path = "39 ColorPicker";
 			sourceTree = "<group>";
 		};
@@ -5983,7 +5841,6 @@
 			children = (
 				C17C7554B94C22257598D563 /* SUIBootcampSliderBootcamp.swift */,
 			);
-			name = "42 Slider";
 			path = "42 Slider";
 			sourceTree = "<group>";
 		};
@@ -5992,7 +5849,6 @@
 			children = (
 				42C72B5A51C50488E7C73C7B /* ConcurrencyCourseGlobalActorBootcamp.swift */,
 			);
-			name = "10 Global Actors";
 			path = "10 Global Actors";
 			sourceTree = "<group>";
 		};
@@ -6001,7 +5857,6 @@
 			children = (
 				C87E0D8CABA58832DE7B9A65 /* ContinuedCourseMultipleSheetsBootcamp.swift */,
 			);
-			name = "07 Multiple Sheets";
 			path = "07 Multiple Sheets";
 			sourceTree = "<group>";
 		};
@@ -6010,7 +5865,6 @@
 			children = (
 				E5752FCCF530487899942AA7 /* Views */,
 			);
-			name = Launch;
 			path = Launch;
 			sourceTree = "<group>";
 		};
@@ -6020,7 +5874,6 @@
 				26FD5E04EEFAADFBF9ED835C /* CryptoCourseLaunchView.swift */,
 				2294320C6870A19602F99E3D /* CryptoCourseLaunchScreen.storyboard */,
 			);
-			name = Views;
 			path = Views;
 			sourceTree = "<group>";
 		};
@@ -6029,7 +5882,6 @@
 			children = (
 				4A867C6001577769CAAEFBDF /* ContinuedCourseHapticsBootcamp.swift */,
 			);
-			name = "10 Haptics";
 			path = "10 Haptics";
 			sourceTree = "<group>";
 		};
@@ -6038,7 +5890,6 @@
 			children = (
 				29ED2BCF648D31970F05E49F /* ContinuedCourseCacheBootcamp.swift */,
 			);
-			name = "27 Image Cache";
 			path = "27 Image Cache";
 			sourceTree = "<group>";
 		};
@@ -6055,7 +5906,6 @@
 			children = (
 				449425DC150361DA5CC097B4 /* SUIBootcampFrameBootcamp.swift */,
 			);
-			name = "08 Frames and Alignment";
 			path = "08 Frames and Alignment";
 			sourceTree = "<group>";
 		};
@@ -6064,7 +5914,6 @@
 			children = (
 				4329D747C0A04096A325449C /* SUIBootcampAnimationBootcamp.swift */,
 			);
-			name = "25 Animations";
 			path = "25 Animations";
 			sourceTree = "<group>";
 		};
@@ -6073,7 +5922,6 @@
 			children = (
 				95E1F865F1E4EF65FF4870AC /* SUIBootcampActionsheetBootcamp.swift */,
 			);
-			name = "33 Action Sheets";
 			path = "33 Action Sheets";
 			sourceTree = "<group>";
 		};
@@ -6082,7 +5930,6 @@
 			children = (
 				3360C8F2CE4A7F156459C1E1 /* ContinuedCoursePhotoModel.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -6099,7 +5946,6 @@
 			children = (
 				286D72B44E733207484173AA /* SUIBootcampContextMenuBootcamp.swift */,
 			);
-			name = "34 Context Menu";
 			path = "34 Context Menu";
 			sourceTree = "<group>";
 		};
@@ -6108,7 +5954,6 @@
 			children = (
 				8EA9D4E2001AFC7F190CEA97 /* SUIBootcampControlGroupMenuBootcamp.swift */,
 			);
-			name = "73 ControlGroup";
 			path = "73 ControlGroup";
 			sourceTree = "<group>";
 		};
@@ -6117,7 +5962,6 @@
 			children = (
 				047F34B9B0ED8666064F81B8 /* SUIBootcampExtractedFunctionsBootcamp.swift */,
 			);
-			name = "20 Extract Functions";
 			path = "20 Extract Functions";
 			sourceTree = "<group>";
 		};
@@ -6126,7 +5970,6 @@
 			children = (
 				E193519C8F8F1A78483E6AF0 /* MapCourseLocationsViewModel.swift */,
 			);
-			name = ViewModels;
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
@@ -6139,7 +5982,6 @@
 				3FFC93302C3A2CAEDEC03341 /* CryptoCourseMarketDataService.swift */,
 				322D88B5D9471B170C563DEA /* CryptoCoursePortfolioDataService.swift */,
 			);
-			name = Services;
 			path = Services;
 			sourceTree = "<group>";
 		};
@@ -6148,7 +5990,6 @@
 			children = (
 				84EAC48421B04313FA07A746 /* TodoCourseListViewModel.swift */,
 			);
-			name = ViewModels;
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
@@ -6157,7 +5998,6 @@
 			children = (
 				552FFA1296C07481BFB6261B /* SUIBootcampExtractSubviewsBootcamp.swift */,
 			);
-			name = "21 Extract Subviews";
 			path = "21 Extract Subviews";
 			sourceTree = "<group>";
 		};
@@ -6167,7 +6007,6 @@
 				32B5AEA246E98E1C679E83F3 /* badum.mp3 */,
 				17FB0C3CBC41E49A9B54A9F5 /* tada.mp3 */,
 			);
-			name = Sounds;
 			path = Sounds;
 			sourceTree = "<group>";
 		};
@@ -6176,7 +6015,6 @@
 			children = (
 				9DC641D8A8EDE5AD6EF0FB33 /* ConcurrencyCourseTaskGroupBootcamp.swift */,
 			);
-			name = "06 TaskGroup";
 			path = "06 TaskGroup";
 			sourceTree = "<group>";
 		};
@@ -6185,7 +6023,6 @@
 			children = (
 				F00A2071796A36D4D13F5885 /* SUIBootcampAsyncImageBoocamp.swift */,
 			);
-			name = "53 AsyncImage";
 			path = "53 AsyncImage";
 			sourceTree = "<group>";
 		};
@@ -7343,6 +7180,7 @@
 			children = (
 				AD0E6DB5B346B5D872F905BC /* PortfolioContainer.xcdatamodel */,
 			);
+			currentVersion = AD0E6DB5B346B5D872F905BC /* PortfolioContainer.xcdatamodel */;
 			path = PortfolioContainer.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
@@ -7352,6 +7190,7 @@
 			children = (
 				1C918DEDB618E8098B24FF28 /* FruitsContainer.xcdatamodel */,
 			);
+			currentVersion = 1C918DEDB618E8098B24FF28 /* FruitsContainer.xcdatamodel */;
 			path = FruitsContainer.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
@@ -7361,6 +7200,7 @@
 			children = (
 				A9DB51036CEE217B7D418631 /* CoreDataContainer.xcdatamodel */,
 			);
+			currentVersion = A9DB51036CEE217B7D418631 /* CoreDataContainer.xcdatamodel */;
 			path = CoreDataContainer.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

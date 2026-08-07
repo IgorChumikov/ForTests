@@ -586,6 +586,7 @@
 		81C8E7FBB038BF8F6D09C899 /* ErrorAlertBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ErrorAlertBootcamp.swift; sourceTree = "<group>"; };
 		8A46DE649C45C625ACF7A6BF /* ViewModifierBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewModifierBootcamp.swift; sourceTree = "<group>"; };
 		8F14611903AA73CA3168F523 /* ProtocolsBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProtocolsBootcamp.swift; sourceTree = "<group>"; };
+		9829CDE058C758BE6CD3F5AD /* SwiftfulThinkingBasicsBootcamp.playground */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.playground; path = SwiftfulThinkingBasicsBootcamp.playground; sourceTree = "<group>"; };
 		9F37B9184E57CDC34B9F8406 /* CustomCurvesBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomCurvesBootcamp.swift; sourceTree = "<group>"; };
 		A886B985DE508DD4CD607BF0 /* SwiftUIAdvancedLearning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwiftUIAdvancedLearning.swift; sourceTree = "<group>"; };
 		AC03622A2C1879AC0033B781 /* View4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View4.swift; sourceTree = "<group>"; };
@@ -1149,6 +1150,15 @@
 				81C8E7FBB038BF8F6D09C899 /* ErrorAlertBootcamp.swift */,
 			);
 			path = "28 Errors and Alerts";
+			sourceTree = "<group>";
+		};
+		27ECD2E3E28D0B6391DD7A21 /* SwiftBasics */ = {
+			isa = PBXGroup;
+			children = (
+				9829CDE058C758BE6CD3F5AD /* SwiftfulThinkingBasicsBootcamp.playground */,
+			);
+			name = SwiftBasics;
+			path = SwiftBasics;
 			sourceTree = "<group>";
 		};
 		2BC79E909EB36E5E047EAF8E /* 11 Custom Tab Bar */ = {
@@ -2416,6 +2426,7 @@
 			isa = PBXGroup;
 			children = (
 				415919382503775433940476 /* SwiftUIAdvancedLearning */,
+				27ECD2E3E28D0B6391DD7A21 /* SwiftBasics */,
 			);
 			path = "Swiftful Thinking";
 			sourceTree = "<group>";

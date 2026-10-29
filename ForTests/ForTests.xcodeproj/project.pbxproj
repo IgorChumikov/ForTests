@@ -69,7 +69,6 @@
 		3A11D6E31AC2BD13614790D8 /* ContinuedCoursePhotoModelFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF8C94A5E6247ECE738FDA /* ContinuedCoursePhotoModelFileManager.swift */; };
 		3A554AB1AB00B6E8BF8BF5DC /* TodoCourseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A476772EB54432745C431AF /* TodoCourseListView.swift */; };
 		3B387ED4F6518E08771A8985 /* SUIBootcampStepperBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2184E0D856D1729223C6AABB /* SUIBootcampStepperBootcamp.swift */; };
-		3EC8B3E77AB2AA2DE516E3B0 /* SwiftfulThinkingAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9F14FFBF9DA53A691E2C3B /* SwiftfulThinkingAssets.xcassets */; };
 		3EEBD165BAEAD963AA804DFA /* CustomNavLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB857912FC5732EE1D82DFD /* CustomNavLink.swift */; };
 		3F65667D55DB86A6F97BB0C3 /* SUIBootcampTapGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ADCF4B42D83A3823A52E42 /* SUIBootcampTapGestureBootcamp.swift */; };
 		4154651640EB519F7EF20BA4 /* SUIBootcampAsyncImageBoocamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A2071796A36D4D13F5885 /* SUIBootcampAsyncImageBoocamp.swift */; };
@@ -1467,7 +1466,6 @@
 		AD0E6DB5B346B5D872F905BC /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		ADB3E2BBF390111A8B93926E /* ContinuedCourseScrollViewPagingBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseScrollViewPagingBootcamp.swift; sourceTree = "<group>"; };
 		AF8997A6BF4EC131023CFDC7 /* ConcurrencyCourseAsyncPublisherBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConcurrencyCourseAsyncPublisherBootcamp.swift; sourceTree = "<group>"; };
-		AF9F14FFBF9DA53A691E2C3B /* SwiftfulThinkingAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = SwiftfulThinkingAssets.xcassets; sourceTree = "<group>"; };
 		B11C1295C5CB6B665D07A6E9 /* SUIBootcampListBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SUIBootcampListBootcamp.swift; sourceTree = "<group>"; };
 		B123CC1B91E454E5B32E7645 /* ContinuedCourseLocalNotificationBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseLocalNotificationBootcamp.swift; sourceTree = "<group>"; };
 		B210301E7BA93AF44362EC84 /* ContinuedCourseVisualEffectBootcamp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContinuedCourseVisualEffectBootcamp.swift; sourceTree = "<group>"; };
@@ -3958,7 +3956,6 @@
 				ACFFF5072FF2F37B005E8C87 /* 11 SwiftUI in Practice */,
 				415919382503775433940476 /* 12 SwiftUI Advanced Learning */,
 				ACA9EC143093639D00B5C92E /* 13 AIChat */,
-				DBA1404446CD45D345620F9E /* Shared */,
 			);
 			path = "Swiftful Thinking";
 			sourceTree = "<group>";
@@ -5786,14 +5783,6 @@
 			path = "03 Custom Transitions";
 			sourceTree = "<group>";
 		};
-		DBA1404446CD45D345620F9E /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				AF9F14FFBF9DA53A691E2C3B /* SwiftfulThinkingAssets.xcassets */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
 		DC8F02FE0E5E85DE4A08E435 /* 26 FileManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -6201,7 +6190,6 @@
 				F054039EE0D7C3610475488E /* CryptoCourseLaunchScreen.storyboard in Resources */,
 				CF793821526F8C5C1829B84C /* badum.mp3 in Resources */,
 				DA3ADE626B79294F0E33DD35 /* tada.mp3 in Resources */,
-				3EC8B3E77AB2AA2DE516E3B0 /* SwiftfulThinkingAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

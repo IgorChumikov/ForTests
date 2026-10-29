@@ -3595,6 +3595,7 @@
 				AC9611A12DDB22D900398A1F /* App */,
 				AC72FA622B513E2C009E60AB /* ForTests */,
 				AC72FA612B513E2C009E60AB /* Products */,
+				ACA9EC13309362C100B5C92E /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -3956,6 +3957,7 @@
 				BFD23D15F3A37A70C09E10D8 /* 08 Swift Concurrency */,
 				ACFFF5072FF2F37B005E8C87 /* 11 SwiftUI in Practice */,
 				415919382503775433940476 /* 12 SwiftUI Advanced Learning */,
+				ACA9EC143093639D00B5C92E /* 13 AIChat */,
 				DBA1404446CD45D345620F9E /* Shared */,
 			);
 			path = "Swiftful Thinking";
@@ -4364,6 +4366,26 @@
 				ACA4F1592DFFE56F00FE5A9F /* BookmarkItem.swift */,
 			);
 			path = "New Group 4";
+			sourceTree = "<group>";
+		};
+		ACA9EC13309362C100B5C92E /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				F3853B1D2A06A5F294D02706 /* SwiftfulThinkingBootcamp.xcodeproj */,
+				88A3E50BAB46341304B1B1E7 /* SwiftfulMapApp.xcodeproj */,
+				A8E3E267201D99FF5A8D7165 /* SwiftfulCrypto.xcodeproj */,
+				A6007587A963B4664A14028F /* SwiftfulThinkingContinuedLearning.xcodeproj */,
+				5350DCC8D0474BCFF0B92800 /* SwiftConcurrencyBootcamp.xcodeproj */,
+				8E59E425FAFD9FC586417C29 /* TodoList.xcodeproj */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		ACA9EC143093639D00B5C92E /* 13 AIChat */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "13 AIChat";
 			sourceTree = "<group>";
 		};
 		ACB98E3C2C22DF3200831CC7 /* IOS14 */ = {
@@ -7069,6 +7091,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ForTests.ForTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -7100,6 +7126,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ForTests.ForTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
